@@ -1,0 +1,47 @@
+{
+    "status": "PASS",
+    "generatedUtc": "2026-11-06T06:20:59.8016023Z",
+    "sourcePack": "D:\\RotateRings\\Research\\physics_v3\\source_parity_pack.json",
+    "fixturesChecked": 8,
+    "movableShapesChecked": 84,
+    "nativeRayMask": 192,
+    "chainFixtureId": 10166,
+    "chainSourcePartId": 1,
+    "chainSourcePart": "ring_1",
+    "chainSourceActualCount": 8,
+    "chainSegmentInstanceIds": [
+        -479290,
+        -479308,
+        -479326
+    ],
+    "chainLifecycleSnapshots": [
+        "count3_initial:active=111;clips=rr_suolian_mid_jingzhen,rr_suolian_high_jingzhen,rr_suolian_low_jingzhen",
+        "wobble_shake:active=111;clips=rr_suolian_mid_huangdong,rr_suolian_high_huangdong,rr_suolian_low_huangdong",
+        "count3_to2_t0:active=111;clips=rr_suolian_mid_huangdong,rr_suolian_high_huangdong,rr_suolian_low_break",
+        "count3_to2_t0_2:active=111;clips=rr_suolian_mid_huangdong,rr_suolian_high_huangdong,rr_suolian_low_break",
+        "count3_to2_clip_end:active=110;clips=rr_suolian_mid_huangdong,rr_suolian_high_huangdong,rr_suolian_low_break",
+        "count2_to1_t0:active=110;clips=rr_suolian_mid_huangdong,rr_suolian_high_huangdong,rr_suolian_low_break",
+        "count2_to1_t0_2:active=110;clips=rr_suolian_mid_huangdong,rr_suolian_high_break,rr_suolian_low_break",
+        "count2_to1_clip_end:active=100;clips=rr_suolian_mid_huangdong,rr_suolian_high_break,rr_suolian_low_break",
+        "count1_to0_t0:active=100;clips=rr_suolian_mid_huangdong,rr_suolian_high_break,rr_suolian_low_break",
+        "count1_to0_t0_2:active=100;clips=rr_suolian_mid_huangdong,rr_suolian_high_break,rr_suolian_low_break",
+        "count1_to0_staggered_break_start:active=100;clips=rr_suolian_mid_break,rr_suolian_high_break,rr_suolian_low_break",
+        "count1_to0_clip_end:active=000;clips=rr_suolian_mid_break,rr_suolian_high_break,rr_suolian_low_break",
+        "undo_to3:active=111;clips=rr_suolian_mid_jingzhen,rr_suolian_high_jingzhen,rr_suolian_low_jingzhen"
+    ],
+    "passed": [
+        "8 exact source fixtures preserve one polygon DragArea per ring/slider, source layer 6, source Z 0.1, and all serialized paths.",
+        "Input ray mask is exactly 192 (layers 6 and 7).",
+        "Fixed guides forward only to their linked Pulls; butterfly hosts resolve as FixedButterflyObject and do not forward their ring links as Pull drags.",
+        "eff_cycle_boom cleanup timing matches source max(startDelay + startLifetime)=5s; old duration+life=10s calculation is excluded.",
+        "Native Physics2D ray selection honors free/locked depth, layer-7 nearest-hit ordering, key-lock depth, and removed-area disabling.",
+        "Native Spine chain helper preserves stable slots and distinguishes initial count-2 layout from 3-to-2 and 2-to-1 source break indexing.",
+        "Fixture 10001 native pin remains rendered with unchanged mesh and enabled source stem/head-wall colliders when ring_2 rotates +180° and the attachment binding disappears.",
+        "Fixture 10001 restoring ring_2 pose restores the authored binding while keeping the same ring_1 mesh/renderers and pin colliders.",
+        "Fixture 10001 removing ring_1 hides its own visuals and disables its physical pin colliders.",
+        "Fixture 10001 undo restore re-enables the same ring_1 renderers and pin colliders with authored geometry intact.",
+        "Play Mode WorldView lifecycle on source fixture 10166 part ring_1 (source count 8): wobble starts huangdong; stable survivor slots persist through 3→2→1→0 without teleporting or resurrecting; broken slots remain visible through the 0.2s checkpoint and hide after source clip duration; count-zero root waits for completion; undo restores the same Spine instances."
+    ],
+    "failed": [],
+    "engineExecution": "Unity Play Mode WorldView chain lifecycle completed."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE_REFIT_AND_POSTFIT_SCOPE_GUARD_PASS",
+  "requestedTrainingSourceCount": 500,
+  "actualUniqueOrdinaryCount": 460,
+  "datasetExhausted": true,
+  "acceptedGeneratedCount": 0,
+  "generationAcceptance": "NOT_MEASURED",
+  "historicalModelsLoaded": false,
+  "elapsedSeconds": 46.147412799997255,
+  "certificateSha256": "7da9af3ec0d866b4f0b89083ff25da1c4bba4ef02469e2986fe45a8d45e135f6",
+  "certificateModels": {
+    "composition_pose.joblib": {
+      "sha256": "ac70d43980f784f7bf09e2a8a848fc64a6b5f1fb873e791b1af8d9acd02f4b24",
+      "actualUniqueOrdinaryCount": 460
+    },
+    "macro_assembly.joblib": {
+      "sha256": "9b1bb8d6c3b423c18f97b7b546392a33b7ab2d02699f9cb23715802e6dc7d360",
+      "actualUniqueOrdinaryCount": 460
+    },
+    "guide_anchor_role_motifs.joblib": {
+      "sha256": "d6b656f2ea68d5bbbea3b39279ee120073347c39279731ee59f61959a73fcef9",
+      "actualUniqueOrdinaryCount": 460
+    }
+  },
+  "checks": [
+    "Exact source/filter/three model refit bindings pass",
+    "All460 macro source level IDs equal curated ordinary IDs",
+    "All macro tiles/relations,local pose relations,anchor pair records contain only curated ordinary IDs",
+    "All evaluation/family split report hashes match certificate",
+    "Copied trainer dependency source hashes unchanged during run"
+  ],
+  "modelData": {
+    "localPose": {
+      "relationRecords": 10249,
+      "contributingOrdinarySources": 460
+    },
+    "nativeMacro": {
+      "tiles": 3628,
+      "relations": 7244,
+      "contributingOrdinarySources": 460
+    },
+    "anchoredGuide": {
+      "pairRecords": 5883,
+      "contributingOrdinarySources": 334,
+      "eligibleCorpusInspected": 460
+    }
+  },
+  "runtimeWarning": "NetworkX directed graph hashes changed in3.5; exact installed version and source hashes recorded in training progress/certificate. No cross-version hash invariance claim.",
+  "limits": [
+    "Family-separated proposal reconstruction metrics are not native solvability or human difficulty.",
+    "Macro and anchored-guide NLL are worse than their declared baselines.",
+    "No new generated level accepted or exported by refit.",
+    "knownApkDistinctSourceCount optional progress field is null because curated filter uses another inventory metadata key; parent build/filter independently establish507."
+  ]
+}

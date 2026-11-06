@@ -1,0 +1,48 @@
+[
+  {
+    "id": 5000064,
+    "rawGeometrySeamPassed": false,
+    "partPairCount": 300,
+    "unexpectedSolidOverlapCount": 3,
+    "unexpectedSolidOverlaps": [
+      {
+        "owners": [
+          18,
+          30
+        ],
+        "rawOverlapArea": 0.2543803289143721,
+        "allowedImportedSourceArea": 0.0,
+        "excessWidthSquared": 0.2543803289143721,
+        "sourcePairEvidence": []
+      },
+      {
+        "owners": [
+          19,
+          28
+        ],
+        "rawOverlapArea": 0.25105711872660186,
+        "allowedImportedSourceArea": 0.0,
+        "excessWidthSquared": 0.25105711872660186,
+        "sourcePairEvidence": []
+      },
+      {
+        "owners": [
+          29,
+          30
+        ],
+        "rawOverlapArea": 0.0005468871024355048,
+        "allowedImportedSourceArea": 0.0,
+        "excessWidthSquared": 0.0021875481720509096,
+        "sourcePairEvidence": []
+      }
+    ],
+    "unregisteredSensorPartnerCount": 0,
+    "unregisteredSensorPartners": [],
+    "duplicateWholeRootPairs": [],
+    "missingFeatureBindings": [],
+    "newBombInitialOverlapCount": 0,
+    "newBombInitialOverlaps": [],
+    "unmappedBombs": [],
+    "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+  }
+]

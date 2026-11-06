@@ -1,0 +1,105 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "HsApp/Effect/HSBGCompRectMask" {
+Properties {
+
+[Toggle(_BGTEX_ON)] _BGTexOn ("BG Texture On", Float) = 0.0
+
+_BaseColor ("Base Color", Color) = (0.1,0.12,0.18,1)
+
+_BGTex ("BG Texture (RGBA)", 2D) = "black" { }
+
+_BGTexScale ("BG Texture Scale", Range(0.1, 4)) = 1.0
+
+_BGTexOffsetY ("BG Texture Offset Y", Range(-0.5, 0.5)) = 0.0
+
+_Brightness ("Brightness", Range(-1, 1)) = 0.0
+
+_Contrast ("Contrast", Range(0, 2)) = 1.0
+
+_Saturation ("Saturation", Range(0, 2)) = 1.0
+
+[Toggle(_DETAIL_ON)] _DetailOn ("Detail On", Float) = 0.0
+
+_DetailTex ("Detail Tex (RGBA)", 2D) = "gray" { }
+
+_DetailTiling ("Detail Tiling", Float) = 4.0
+
+_DetailStrength ("Detail Strength", Range(0, 1)) = 0.07999999821186066
+
+_DetailOffsetY ("Detail Offset Y (up/down)", Range(-0.5, 0.5)) = 0.0
+
+_DetailBlendMode ("Detail Blend Mode", Float) = 0.0
+
+[Toggle(_PATTERN_ON)] _PatternOn ("Pattern On", Float) = 0.0
+
+_PatternTex ("Pattern Tex (RGBA)", 2D) = "gray" { }
+
+_PatternTiling ("Pattern Tiling", Float) = 4.0
+
+_PatternStrength ("Pattern Strength", Range(0, 1)) = 0.15000000596046448
+
+_PatternColor ("Pattern Color (tint)", Color) = (1,1,1,1)
+
+_PatternOffsetY ("Pattern Offset Y (up/down)", Range(-0.5, 0.5)) = 0.0
+
+_PatternFlowX ("Pattern Flow X (horizontal)", Range(-2, 2)) = 0.0
+
+_PatternFlowY ("Pattern Flow Y (vertical)", Range(-2, 2)) = 0.0
+
+_PatternBlendMode ("Pattern Blend Mode", Float) = 0.0
+
+[Toggle(_LOGO_ON)] _LogoOn ("Logo On", Float) = 0.0
+
+_LogoTex ("Logo Tex (RGBA)", 2D) = "black" { }
+
+_LogoScale ("Logo Scale (width ratio)", Range(0.0001, 1)) = 0.3499999940395355
+
+_LogoOffsetY ("Logo Offset Y (up/down)", Range(-0.5, 0.5)) = 0.0
+
+_LogoStrength ("Logo Strength", Range(0, 1)) = 1.0
+
+_LogoColor ("Logo Color (tint)", Color) = (1,1,1,1)
+
+[Toggle(_ATMOSPHERE_ON)] _AtmosphereOn ("Atmosphere On", Float) = 0.0
+
+_AtmosphereTex ("Atmosphere Tex (RGBA)", 2D) = "black" { }
+
+_AtmosphereOpacity ("Atmosphere Opacity", Range(0, 1)) = 1.0
+
+_AtmosphereLightIntensity ("Atmosphere Light Intensity", Range(0, 4)) = 0.25
+
+_AtmosphereColor ("Atmosphere Color (tint)", Color) = (1,1,1,1)
+
+_AtmosphereSwaySpeed ("Atmosphere Sway Speed", Range(0, 5)) = 0.0
+
+_AtmosphereSwayAmount ("Atmosphere Sway Amount", Range(0, 0.1)) = 0.0
+
+_AtmosphereRotateSpeed ("Atmosphere Rotate Amount", Range(0, 30)) = 0.0
+
+_AtmosphereRotateCenter ("Atmosphere Rotate Center", Vector) = (0.5,0.5,0,0)
+
+_AtmosphereOffset ("Atmosphere Offset (xy)", Vector) = (0,0,0,0)
+
+_AtmosphereRotation ("Atmosphere Rotation (deg)", Float) = 0.0
+
+_StyleLineRectMaskRect ("RectMask Rect (xyxy px)", Vector) = (-100000,-100000,100000,100000)
+
+_StyleLineRectMaskSoftness ("RectMask Softness (px)", Vector) = (0,0,0,0)
+
+}
+SubShader {
+ Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent+100" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent+100" "RenderType" = "Transparent" }
+ ZTest Always
+ ZWrite Off
+ Cull Off
+  GpuProgramID 30700
+}
+}
+CustomEditor "HsApp.HSBGCompShaderGUI"
+}

@@ -1,0 +1,19 @@
+{
+  "sourceCount": 500,
+  "ruleVersion": "native-template-polygon-sweep-2.1-mirror",
+  "seed": 20261105,
+  "hashes": {
+    "adapters\\rotate_rings_physics_v2.py": "fc4b7c096334efa50e24e5d922fa195ebf10767ae0baa0c3cc6d35aa4d41cc85",
+    "corpus.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "references.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "templates.json": "12bef8bac58a879b05a4815cd73186d5e408dd7380f4641d952d820e3f9f2095",
+    "models\\proposal.joblib": "65af5914457a93de26a434e8a387fad49d364e04ac2243bf053e79e284a7e9c7",
+    "models\\difficulty.joblib": "29a3447e4b9eaee4294b3053937cccacd607341fbc48b672814d986486e06742",
+    "level_training.json": "449a7facd9ef8c77e0a69153196904fcb968d85e8440f6ad54f7efa67c372072",
+    "tools\\train_native_physics.py": "fb28bfe0869f94c41f20bdde603d3107732c76d14fbc938f0694bb5440049fdd",
+    "tools/refit_saved_labels.py": "ec1b4a0f624f89c0c95c9e9227ae82e0c41a7d641628ac9bdb1383257846b400",
+    "model_validation.json": "ba168b21fcac9cb77fae10f2e1fe512b45474cc4fbfec118fdbcc62d5959421f",
+    "tools/generate_batch.py": "b1a09e34a6ac21b8881bce5fcdf9483a4a863825e3a20e5e321083e67ada70d8",
+    "models/difficulty_extra_trees.joblib": "cd9d2a15dedc89f055c3bda7cfd0a332ecac9fd596d15b9a4138f09b2f42c6d8"
+  }
+}

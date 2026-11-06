@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"data\":{\"diagnostics\":[{\"line\":0,\"col\":0,\"severity\":\"warning\",\"message\":\"Consider null checking GetComponent results\"}],\"summary\":{\"warnings\":1,\"errors\":0}}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "data": {
+      "diagnostics": [
+        {
+          "line": 0,
+          "col": 0,
+          "severity": "warning",
+          "message": "Consider null checking GetComponent results"
+        }
+      ],
+      "summary": {
+        "warnings": 1,
+        "errors": 0
+      }
+    }
+  },
+  "isError": false
+}

@@ -1,0 +1,105 @@
+{
+  "status": "native source macro relation proposal; no physics or quality labels",
+  "folds": [
+    {
+      "fold": 0,
+      "trainingRelations": 5852,
+      "heldOutRelations": 1258,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 58.304722381126965,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.4176677209496655
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 58.31425652821924,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.5060804027818677
+      }
+    },
+    {
+      "fold": 1,
+      "trainingRelations": 5696,
+      "heldOutRelations": 1414,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 52.80284192297959,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.160879251619526
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 49.022162867724035,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.179262578857885
+      }
+    },
+    {
+      "fold": 2,
+      "trainingRelations": 5670,
+      "heldOutRelations": 1440,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 47.92207518623283,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.0966700551043957
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 48.475703984285865,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.1613375192001776
+      }
+    },
+    {
+      "fold": 3,
+      "trainingRelations": 5596,
+      "heldOutRelations": 1514,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 59.55681613938321,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.4141723535443584
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 58.035993436200776,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.454383095833135
+      }
+    },
+    {
+      "fold": 4,
+      "trainingRelations": 5626,
+      "heldOutRelations": 1484,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 49.1991465774926,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.1271390955306138
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 49.82370670492776,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.2140238683110773
+      }
+    }
+  ],
+  "summary": {
+    "nativeMacroGeometry": {
+      "levelMeanNLL": 53.55712044144305,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.2433056953497124
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 52.734364704271535,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.3030174929968283
+    }
+  },
+  "limitations": [
+    "Macro partition is deterministic analysis of source topology and source nearest-neighbor organization. It is not an authored semantic annotation.",
+    "Relation reconstruction is oracle best-of32, not single-sample accuracy.",
+    "Some original boards have one macro tile and supply no intertile relation labels. They remain in tile corpus and native validation corpus.",
+    "Full native seam initialization, replay and difficulty gates remain mandatory."
+  ],
+  "sourceCount": 500,
+  "tileCount": 3561,
+  "macroRelationCount": 7110,
+  "compositionEdgeCounts": {
+    "pull_axis_crosses_ring": 2641,
+    "pull_near_ring": 3720,
+    "pull_hull_contains_ring_center": 780
+  },
+  "sourceClosure": "All native guide bindings and all native/authored plus strong static physical-composition neighbors become macro boundaries. Weak near-body candidates affect community grouping only.",
+  "physicalMeaning": "Static source geometry candidates; no active lock, native physics, difficulty or quality certification",
+  "hashes": {
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templates": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "familySplits": "6184a49dda14dacefb2625b73c6f1975e0c06911ce6c964f9062b1c56dc5dd30",
+    "physicalAnalyzer": "7df71089897d1838fec7fae8a3e7e5065e0e106017e38e11ea58abc1d43e69a6",
+    "trainer": "8f971dc46904d88666d2bfd31b0538fb445d5f9cf910ae0e43e0115855992688",
+    "macroImplementation": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+    "model": "4d59a96870e05f4b3c789ba47b4d9c5cfa6a395bd0377b384ddf74536be97c6d"
+  }
+}

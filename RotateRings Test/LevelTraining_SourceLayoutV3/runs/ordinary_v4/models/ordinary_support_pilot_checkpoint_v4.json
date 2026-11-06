@@ -1,0 +1,42 @@
+{
+  "status": "FINITE_PILOTS_COMPLETE_STRUCTURAL_ONLY",
+  "acceptedGeneratedCount": 0,
+  "trainingSourceCount": 460,
+  "requestedTrainingSourceCount": 500,
+  "datasetExhausted": true,
+  "guidePreliminaryCount": 8,
+  "nativePartPreliminaryCount": 101,
+  "combinedPreliminaryCount": 109,
+  "crossPilotSemanticCanonicalDuplicateCount": 0,
+  "finiteReferenceCount": 11,
+  "coveredReferenceCount": 11,
+  "inputPacks": {
+    "batches\\ordinary_guide_support_pilot_v4\\proposals.json": "52dcb690a9c99aebb80849ab8d9201a07872ab47361e311d71072131cd72ec5c",
+    "batches\\ordinary_native_part_support_pilot_v4b\\proposals_precision_screened.json": "ea5039c38413e43ffe27c2a71c9cf85a6661407d997e6b7f58f772b7fa7563f9"
+  },
+  "tests": {
+    "savedNativePartContract": {
+      "testCount": 7,
+      "elapsedSeconds": 9.142,
+      "result": "PASS",
+      "scope": "Actual saved conditional macro/source/pose provenance and replaced outgoing-index regression"
+    },
+    "completeGuidePrecision": {
+      "testCount": 6,
+      "elapsedSeconds": 2.964,
+      "result": "PASS",
+      "scope": "Whole native guide roles, root-only180cosmetic with realguideoffset andsubULPnoise"
+    },
+    "crossTemplateNativePartPrecision": {
+      "testCount": 4,
+      "elapsedSeconds": 3.894,
+      "result": "PASS",
+      "scope": "Template-ID-only rename/subULPnoise no-opfixtures and101actualpilotvariants"
+    }
+  },
+  "limits": [
+    "All109 are structural preliminary proposals, not109 playable levels or accepted exports.",
+    "Saved local/macro sampling reuses native framework centers, one root or one guideunit perproposal; heuristic nearcopy requires review.",
+    "Current native source460baseline and candidatepairedreplay/difficulty/visual review remain required."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "sourcePosition": 2,
+  "cachedSeconds": 8.90578769997228,
+  "exactOptionsEqual": true,
+  "exactRejectionCountsEqual": true,
+  "neighborCache": "CacheInfo(hits=3619, misses=811, maxsize=20000, currsize=811)",
+  "cacheSizes": {
+    "shapeVectorByTemplate": 480,
+    "pinKeyByTemplate": 2336,
+    "featureMapByTemplatePairAndIndices": 1327
+  },
+  "toolSha256": "a849c1bce477d6ce95c5c9319cde166369358f5ceadeec49d2d964a8b563702c",
+  "limits": "Complete cached option array+order equal prior uncached snapshot for one3-root source. Pure memoization only; no difficulty or native replay certification."
+}

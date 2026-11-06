@@ -1,0 +1,9 @@
+{
+  "status": "CITATION_EVOLVED_AFTER_EVALUATION",
+  "historicalCitationHashRecordedByEvaluation": "6323b5950a24bf1124dd57e130850c6099bb082499005a142c1d18d6b4c17dd5",
+  "currentCitationSnapshotSha256": "745c35ca91463869d504be5e7e919f18a7a28e167d8ae1a71614b89cafc40590",
+  "currentCitationSnapshot": "reports/mechanism_rank_v8_inputs/source_mechanism_lessons_v7_current.json",
+  "reason": "The source playtest lesson report was expanded with source285 after ranker evaluation. Lessons are a motivation/citation, not feature rows or label training input. Historical byte snapshot was not retained; do not claim current citation matches historical hash.",
+  "trainingSourcePackUnchanged": true,
+  "acceptanceUse": "WITHHELD; below counts baseline; never human difficulty."
+}

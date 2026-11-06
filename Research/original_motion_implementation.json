@@ -1,0 +1,57 @@
+{
+  "sourcePrefab": "eff_cycle_boom",
+  "sourceBundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+  "sourcePrefabPathId": 3224471653643778443,
+  "childParticlePathId": 1668592748615786144,
+  "atlasTexturePathId": -3101426571630855449,
+  "texturePixels": "verbatim UnityPy decoded tex_sequence_005 256x256 RGBA; PNG lossless",
+  "particleModes": {
+    "startSpeed": "constant .870000005; inactive minScalar5 is ignored",
+    "burst": "constant50; inactive minScalar30 is ignored",
+    "lifetime": "TwoConstants .600000024 to .75",
+    "startSize": "TwoConstants min.800000012,max.600000024 preserved in source order",
+    "renderer": "Billboard; source mesh used by shape emitter, not particle renderer",
+    "visibleLifetimeSeconds": 0.75,
+    "cleanupSeconds": 5
+  },
+  "timingParameters": "Actual serialized RingLevelConfig overrides, including weighted scale/wobble keyframes, waiting scale0, individual startscale.5, stagger(.025,.8,.001), wobble.5seconds; serialized GameplayManager victory1second.",
+  "shaderFidelity": "Original HsAppVFXAllEffect GLES3 vertex/fragment source recovered verbatim from source compressed platform9 program4 (no keywords). Active source values CoordMode0, CustomZW0, speeds0, A_R1 reduce exactly to sampled atlas RGBA * vertexColor * Main_Tex_Color. OriginalFragment.shader implements that active semantic path and parsed source render states. Full optional dissolve/UI-clip variants are retained as research but not enabled by this source material. Cross-platform raster output and floating-point equivalence remain unmeasured.",
+  "hashes": {
+    "Research/eff_cycle_boom_modules.json": "0c4f79e9409d2d5dff7e5ad7a4f724303a8a2e12352438c66663ba9db2754807",
+    "Research/eff_cycle_boom_material.json": "c5a1b5b4a095763d62d87d8652646500243b1b2304e3654ef8e69eade035fcc5",
+    "Research/eff_cycle_boom_shader.json": "6599ec834d3c8fea20dceef4ac2ed2b5936eb4818afab3997d3b29bc6ac1d92b",
+    "RotateRings Test/Assets/RotateRings/Scripts/RotateRingsOriginalMotion.cs": "f9e195c4c4836da9da2d8cf4299953cf58b569b84aaba53cf358ee2dbbd68c7c",
+    "RotateRings Test/Assets/RotateRings/Resources/OriginalMotion/CycleFragmentAtlas.png": "913792249ff37bf66b3e34022bef6c80431036b0686b85d2e338fb02acdcb530",
+    "RotateRings Test/Assets/RotateRings/Resources/OriginalMotion/OriginalFragment.shader": "5a89b7bde92888a63762f3fba83d156337cd0a9603c11dabd9e30b9192615058",
+    "Tools/generate_original_motion.py": "c16aa5c9a430a0d0871aa6cf91cd83dcda5f47d5210d3d0ca339fe1a04950f92",
+    "Research/shaders/serialized_motion_config_overrides.json": "b05dafe264baf143a8fe2a3a5adaf21da4199f171014f175505f57001a0f0ff0",
+    "Tools/recover_original_effect_shader.py": "1bc893873ae722433ac52cc77515c936162e4938a75123707442cc3fe46b4aa4",
+    "Research/shaders/effect_shader_recovery_manifest.json": "e5cfb7101b2947583b6a832618bab63d9b1bb5231dad6ac89dde96bcb72579f5",
+    "Research/shaders/HsAppVFXAllEffect_GLES3_program4.glsl": "0822f81b0c6213558f2f94dab21f4ac95adcc56bb775299defe23cdf89521fdd",
+    "RotateRings Test/Assets/RotateRings/Editor/RotateRingsOriginalMotionQA.cs": "2bb645aaae105a44b8baaec7f03816a5c88a08340899cb4d9906f36840fe1dcf",
+    "Research/shaders/EFFECT_SHADING_SEMANTICS.md": "459882f9383ace90a4af0f7f84bcd1eb79df9413583b6206e397cd8ac1050163",
+    "Research/shaders/original_player_settings.json": "4186412f1547848afdbb21fdce6bb157ee32f8f9285f6dff4b56320de97176df",
+    "Research/motion_qa/motion_qa.json": "e10d29cfcc236808dd8b897d257ea3eb6eb9462f69d5152b6cde3f0ec2cb511c"
+  },
+  "preservedFinalPackSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+  "runtimeMotionQA": {
+    "report": "Research/motion_qa/motion_qa.json",
+    "result": "NOT_RERUN_AFTER_SOURCE_DURATION_CORRECTION",
+    "passedChecks": 0,
+    "failedChecks": 0,
+    "cleanupElapsedGameSeconds": null,
+    "captureLimit": "Module checks ran before source Gamma project setting was restored; particle images establish visible atlas emission and timing, not calibrated color parity.",
+    "historicalCleanupSeconds": 10.256790161132812,
+    "historicalResultSupersededReason": "Prior PASS asserted the incorrect 10s helper timer; source service cleanup span is5s. Static/effect parameter checks from the prior run are historical, not a Unity verification of the corrected helper.",
+    "historicalPassedChecks": 45,
+    "historicalFailedChecks": 0,
+    "currentRevisionVerified": false
+  },
+  "cleanupDurationCorrection": {
+    "sourceMethod": "Research/rules/decompiled/RotateRings.GamePlay.Services/RingSolveSuccessEffectService.cs: TryCreateFragmentPlayback",
+    "formula": "max(startDelay.constantMax + startLifetime.constantMax) across particle systems",
+    "resultSeconds": 5,
+    "reasonTenWasWrong": "The earlier implementation added the root system main.duration=5s to startLifetime=5s. Source code never adds main.duration; it waits the maximum startDelay plus startLifetime. The root is non-emitting with lifetime5s; visible child fragments live .6-.75s.",
+    "runtimeVerification": "Not rerun after the correction. The old Unity report measured a 10s helper timer and is retained as historical, superseded evidence."
+  }
+}

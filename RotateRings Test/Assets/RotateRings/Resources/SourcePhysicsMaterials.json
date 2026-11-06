@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 3,
+  "sourceBundle": "defaultpackage_share_assets_02_res_art_level_physicsmaterial2d_bd7ae6a31f0fe4cad8f6e06b93b60704.bundle",
+  "sourceBundleSha256": "beb3fa85ec2084374f1ef901ef50560e3be17ea9e1fd8f369f5417b4f9db7351",
+  "materials": [
+    {
+      "pathId": -7623606798472899569,
+      "sourceName": "New Physics Material 2D",
+      "friction": 0.0,
+      "bounciness": 0.0,
+      "sourceNativeData": {
+        "m_Name": "New Physics Material 2D",
+        "friction": 0.0,
+        "bounciness": 0.0,
+        "m_FrictionCombine": 1,
+        "m_BounceCombine": 4
+      }
+    }
+  ]
+}

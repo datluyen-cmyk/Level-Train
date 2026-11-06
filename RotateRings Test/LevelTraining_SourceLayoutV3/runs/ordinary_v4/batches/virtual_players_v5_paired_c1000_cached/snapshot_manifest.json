@@ -1,0 +1,10 @@
+{
+  "RotateRings/Editor/SourceVirtualPlaytestV5.cs": "2c0981d8dccba05bbe77d870993006c72f36f957cc55d2dd3610828e53415144",
+  "RotateRings/Editor/SourceSolverV3.cs": "02706e5db4184a84e48d2ef3ff2686fd1662f04b7da4688c0b7d283466bba744",
+  "RotateRings/Scripts/RotateRingsCollisionWorld.cs": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+  "RotateRings/Scripts/RotateRingsBombContacts.cs": "15b9fee6515ada057bf467eea23e5a6b544f9cf2c792829a8609e6b798034a34",
+  "RotateRings/Scripts/RotateRingsLevelData.cs": "f4bb8fb59a27fc465e1024b786a529290e31b972c3be1e1bc9dd5d1778191107",
+  "RotateRings/Scripts/RotateRingsRuntime.cs": "0aed236f63389d7dd789b493b794051cbd2f50d7a3dd609b1d6dc1637c56233b",
+  "RotateRings/Scripts/RotateRingsNativeInterlockPolicy.cs": "df8a744acd3d3f632edac0058a5a8aec768619181f8720c71d3d0895be215368",
+  "RotateRings/Resources/SourceOverlapQueries.json": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22"
+}

@@ -1,0 +1,20 @@
+old-source source=10012 solvedGoal=True replayed=9 error=
+step=1 kind=rotate part=4 requestedDelta=-1.999939 requestedSlide=0 captured=True actualAngle=185->183.0001 slide=0->0 blocked=False blocker=-1/ bindings=10->10 removedDelta=
+step=2 kind=rotate part=10 requestedDelta=141.1223 requestedSlide=0 captured=True actualAngle=110->251.1223 slide=0->0 blocked=False blocker=-1/ bindings=10->9 removedDelta=10
+step=3 kind=slide part=7 requestedDelta=0 requestedSlide=-2.4 captured=True actualAngle=273->273 slide=0->-2.39 blocked=False blocker=-1/ bindings=9->7 removedDelta=7,8,9
+step=4 kind=rotate part=4 requestedDelta=83.30875 requestedSlide=0 captured=True actualAngle=183.0001->266.3088 slide=0->0 blocked=False blocker=-1/ bindings=7->6 removedDelta=5
+step=5 kind=rotate part=6 requestedDelta=135 requestedSlide=0 captured=True actualAngle=185->320 slide=0->0 blocked=False blocker=-1/ bindings=6->5 removedDelta=6
+step=6 kind=rotate part=4 requestedDelta=143.6912 requestedSlide=0 captured=True actualAngle=266.3088->410 slide=0->0 blocked=False blocker=-1/ bindings=5->4 removedDelta=4
+step=7 kind=slide part=11 requestedDelta=0 requestedSlide=-2.4 captured=True actualAngle=130->130 slide=0->-2.38 blocked=False blocker=-1/ bindings=4->2 removedDelta=11,12,13
+step=8 kind=rotate part=2 requestedDelta=79.99996 requestedSlide=0 captured=True actualAngle=50.00001->130 slide=0->0 blocked=False blocker=-1/ bindings=2->1 removedDelta=1
+step=9 kind=rotate part=2 requestedDelta=117.7326 requestedSlide=0 captured=True actualAngle=130->247.7325 slide=0->0 blocked=False blocker=-1/ bindings=1->0 removedDelta=2,3
+old-candidate source=7800007 solvedGoal=True replayed=9 error=
+step=1 kind=rotate part=4 requestedDelta=-1.999939 requestedSlide=0 captured=True actualAngle=185->183.0001 slide=0->0 blocked=False blocker=-1/ bindings=10->10 removedDelta=
+step=2 kind=rotate part=10 requestedDelta=-125.9928 requestedSlide=0 captured=True actualAngle=61.93002->-64.06279 slide=0->0 blocked=False blocker=-1/ bindings=10->9 removedDelta=10
+step=3 kind=slide part=7 requestedDelta=0 requestedSlide=-2.4 captured=True actualAngle=273->273 slide=0->-2.39 blocked=False blocker=-1/ bindings=9->7 removedDelta=7,8,9
+step=4 kind=rotate part=4 requestedDelta=83.30875 requestedSlide=0 captured=True actualAngle=183.0001->266.3088 slide=0->0 blocked=False blocker=-1/ bindings=7->6 removedDelta=
+step=5 kind=rotate part=6 requestedDelta=135 requestedSlide=0 captured=True actualAngle=185->320 slide=0->0 blocked=False blocker=-1/ bindings=6->5 removedDelta=6
+step=6 kind=rotate part=5 requestedDelta=199.7948 requestedSlide=0 captured=True actualAngle=164.4752->364.27 slide=0->0 blocked=False blocker=-1/ bindings=5->4 removedDelta=3,5
+step=7 kind=rotate part=4 requestedDelta=143.6912 requestedSlide=0 captured=True actualAngle=266.3088->410 slide=0->0 blocked=False blocker=-1/ bindings=4->3 removedDelta=4
+step=8 kind=slide part=11 requestedDelta=0 requestedSlide=-2.4 captured=True actualAngle=130->130 slide=0->-2.38 blocked=False blocker=-1/ bindings=3->1 removedDelta=11,12,13
+step=9 kind=rotate part=2 requestedDelta=79.99996 requestedSlide=0 captured=True actualAngle=50.00001->130 slide=0->0 blocked=False blocker=-1/ bindings=1->0 removedDelta=1,2

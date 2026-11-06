@@ -1,0 +1,1 @@
+Obsolete incomplete prefix: heldout evaluation selected mean-per-part baseline over ExtraTrees. Final pack restarts same seed with selected baseline primary target, unchanged35percent gate, same physics and novelty rules.

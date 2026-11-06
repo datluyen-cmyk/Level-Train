@@ -1,0 +1,211 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "status": "proposal-only geometry and heuristic500-source novelty evidence, native replay absent",
+  "sourceExclusions": 500,
+  "compatibleExtra7Excluded": false,
+  "criteria": {
+    "minimumCoverage": 0.9,
+    "maximumMeanCenterErrorWidths": 0.35,
+    "maximumP90CenterErrorWidths": 0.7,
+    "maximumMeanAngleErrorDegrees": 15.0,
+    "maximumMeanShapeError": 0.15,
+    "spacingScaleRange": [
+      0.85,
+      1.15
+    ]
+  },
+  "results": [
+    {
+      "id": 3000001,
+      "position": 1,
+      "passed": false,
+      "nearCopies": [
+        {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.4408918572349725e-16,
+          "p90CenterErrorWidths": 7.993605343022951e-16,
+          "meanAngleErrorDegrees": 1.337781866146191e-14,
+          "meanShapeError": 0.0,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": true,
+          "sourceId": "10001"
+        }
+      ],
+      "nearestCompatible": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 4.4408918572349725e-16,
+        "p90CenterErrorWidths": 7.993605343022951e-16,
+        "meanAngleErrorDegrees": 1.337781866146191e-14,
+        "meanShapeError": 0.0,
+        "alignmentReflection": false,
+        "spacingScale": 1.0000000000000002,
+        "nearCopy": true,
+        "sourceId": "10001"
+      }
+    },
+    {
+      "id": 3000002,
+      "position": 42,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9,
+        "meanCenterErrorWidths": 8.518438205359214,
+        "p90CenterErrorWidths": 16.499754330476513,
+        "meanAngleErrorDegrees": 75.88802526067111,
+        "meanShapeError": 0.5269154498830118,
+        "alignmentReflection": false,
+        "spacingScale": 0.9627641087959451,
+        "nearCopy": false,
+        "sourceId": "71027"
+      }
+    },
+    {
+      "id": 3000003,
+      "position": 84,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 4.650632199715752,
+        "p90CenterErrorWidths": 7.900501557782471,
+        "meanAngleErrorDegrees": 85.2337763317789,
+        "meanShapeError": 0.8287020258532475,
+        "alignmentReflection": true,
+        "spacingScale": 0.9509623692634679,
+        "nearCopy": false,
+        "sourceId": "70006"
+      }
+    },
+    {
+      "id": 3000004,
+      "position": 126,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": null
+    },
+    {
+      "id": 3000005,
+      "position": 167,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": null
+    },
+    {
+      "id": 3000006,
+      "position": 209,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9,
+        "meanCenterErrorWidths": 5.5342167168460135,
+        "p90CenterErrorWidths": 10.51765857584504,
+        "meanAngleErrorDegrees": 90.79059433998253,
+        "meanShapeError": 1.034180027636198,
+        "alignmentReflection": true,
+        "spacingScale": 0.870901462723072,
+        "nearCopy": false,
+        "sourceId": "60094"
+      }
+    },
+    {
+      "id": 3000007,
+      "position": 251,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9130434782608695,
+        "meanCenterErrorWidths": 7.635429947730496,
+        "p90CenterErrorWidths": 13.18259439450994,
+        "meanAngleErrorDegrees": 79.09980407675774,
+        "meanShapeError": 1.7551178031843566,
+        "alignmentReflection": true,
+        "spacingScale": 1.15,
+        "nearCopy": false,
+        "sourceId": "10029"
+      }
+    },
+    {
+      "id": 3000008,
+      "position": 292,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": null
+    },
+    {
+      "id": 3000009,
+      "position": 334,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9032258064516129,
+        "meanCenterErrorWidths": 5.62698709013563,
+        "p90CenterErrorWidths": 11.38990958030119,
+        "meanAngleErrorDegrees": 89.19269940524121,
+        "meanShapeError": 0.7177292588789547,
+        "alignmentReflection": false,
+        "spacingScale": 1.15,
+        "nearCopy": false,
+        "sourceId": "10027"
+      }
+    },
+    {
+      "id": 3000010,
+      "position": 376,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9444444444444444,
+        "meanCenterErrorWidths": 9.681416634528413,
+        "p90CenterErrorWidths": 23.075954354068532,
+        "meanAngleErrorDegrees": 80.30968061930307,
+        "meanShapeError": 0.5125333926886343,
+        "alignmentReflection": true,
+        "spacingScale": 1.15,
+        "nearCopy": false,
+        "sourceId": "71031"
+      }
+    },
+    {
+      "id": 3000011,
+      "position": 417,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.925,
+        "meanCenterErrorWidths": 17.19299801797796,
+        "p90CenterErrorWidths": 27.909846517511003,
+        "meanAngleErrorDegrees": 82.62453037312802,
+        "meanShapeError": 0.45632921682821737,
+        "alignmentReflection": false,
+        "spacingScale": 1.15,
+        "nearCopy": false,
+        "sourceId": "73001"
+      }
+    },
+    {
+      "id": 3000012,
+      "position": 459,
+      "passed": true,
+      "nearCopies": [],
+      "nearestCompatible": {
+        "coverage": 0.9090909090909091,
+        "meanCenterErrorWidths": 11.443168971624344,
+        "p90CenterErrorWidths": 22.878414007913015,
+        "meanAngleErrorDegrees": 73.8236634004938,
+        "meanShapeError": 1.2291372889769048,
+        "alignmentReflection": false,
+        "spacingScale": 1.15,
+        "nearCopy": false,
+        "sourceId": "71021"
+      }
+    }
+  ],
+  "hashes": {
+    "proposalPack": "18d361af9c4b82b5646203a2ac1e828da84ecd27199103d028e7d34b0c5f0d8a",
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "noveltyTool": "7a28809b7b546cd92181cc79e6abd527d91bfdb1d4930be524ca3e5012a53dd1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "passed": false,
+    "pairs": 17,
+    "poses": 1224,
+    "assertions": 6120,
+    "failures": 1,
+    "asymmetricPoses": 0,
+    "bodyOnlyPoses": 0,
+    "staticInputChecks": 0,
+    "sourcePackSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templatesSha256": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "queriesSha256": "b0599c42d57b48b73c10a09e8174c4b62203ff6397a39773fad2904e40455493",
+    "collisionWorldSha256": "c9cc0d6974e13dc2089c4bdf2a21983c36ba1b813ef0110c48c45f627c717875",
+    "qaSha256": "349660a9bb4c562f5f320662f0c8e4e93da4beb7f1e93d5e7c80f9308390a6e6",
+    "scope": "Isolated original ring pairs at diagnostic poses; does not certify a legal drag path, Android runtime parity, or solvability.",
+    "witnesses": [],
+    "errors": [
+        "Required asymmetric/body-only/static-map regression coverage was not found."
+    ]
+}

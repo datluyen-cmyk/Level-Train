@@ -1,0 +1,12 @@
+source=10010; sliderId=2; ringId=3; rulesHash=237a0cccbec3486b2e43c948a6b637bfb7698cdcbc75588b6b0be46434414e82
+method=SourceSolverV3.FixtureWorld.ApplyAction on production CollisionWorld/BombContacts; no forced removals; targets alternate slider2(+/-2.5) and ring3(+/-30deg); clean-fixture replay compares StateKey.
+initial; slide2=0.0000; ring3=120.000; activeBindings=6
+attempt=0; action=slide/2 target=2.500; changed=True; blocked=True; reachedSlide2=0.8434; ring3Angle=120.000; removed=[]; activeBindings=6; blocker=3/0/body
+attempt=1; action=rotate/3 delta=30.00; changed=True; blocked=False; reachedSlide2=0.8434; ring3Angle=150.000; removed=[]; activeBindings=6; blocker=-1/-1/
+attempt=2; action=slide/2 target=-2.500; changed=True; blocked=True; reachedSlide2=-0.1390; ring3Angle=150.000; removed=[]; activeBindings=6; blocker=3/0/body
+attempt=3; action=rotate/3 delta=-30.00; changed=True; blocked=False; reachedSlide2=-0.1390; ring3Angle=120.000; removed=[]; activeBindings=6; blocker=-1/-1/
+attempt=4; action=slide/2 target=2.500; changed=True; blocked=True; reachedSlide2=0.8434; ring3Angle=120.000; removed=[]; activeBindings=6; blocker=3/0/body
+attempt=5; action=rotate/3 delta=30.00; changed=True; blocked=False; reachedSlide2=0.8434; ring3Angle=150.000; removed=[]; activeBindings=6; blocker=-1/-1/
+attempt=6; action=slide/2 target=-2.500; changed=True; blocked=True; reachedSlide2=-0.1390; ring3Angle=150.000; removed=[]; activeBindings=6; blocker=3/0/body
+attempt=7; action=rotate/3 delta=-30.00; changed=True; blocked=False; reachedSlide2=-0.1390; ring3Angle=120.000; removed=[]; activeBindings=6; blocker=-1/-1/
+replay; acceptedActions=8/8; exactStateKeyMatch=True; finalSlide2=-0.1390; finalRing3=120.000; removed=[]; activeBindings=6

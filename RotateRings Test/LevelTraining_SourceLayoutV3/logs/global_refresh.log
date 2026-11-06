@@ -1,0 +1,38 @@
+GLOBAL FEATURES 100 /500
+GLOBAL FEATURES 200 /500
+GLOBAL FEATURES 300 /500
+GLOBAL FEATURES 400 /500
+GLOBAL FEATURES 500 /500
+GLOBAL FOLD 0 {"fold": 0, "trainLevels": 400, "heldOutLevels": 100, "styleNormalizedMAE": {"extraTreesConditionedGlobalStyle": 0.5300261264944616, "countMechanicsTopologyLinearBaseline": 0.7806632374311098}, "syntheticPerturbationRanking": {"smallJitter": {"sourceVsPerturbedAUC": 0.8468, "pairedSourceRanksHigherFraction": 0.95, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterOrientation": {"sourceVsPerturbedAUC": 0.8708, "pairedSourceRanksHigherFraction": 0.88, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterSpacing": {"sourceVsPerturbedAUC": 0.8914000000000001, "pairedSourceRanksHigherFraction": 0.98, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "grossPoseShuffle": {"sourceVsPerturbedAUC": 0.7814, "pairedSourceRanksHigherFraction": 0.92, "countMechanicsOnlyPairedBaselineAUC": 0.5}}}
+GLOBAL FOLD 1 {"fold": 1, "trainLevels": 400, "heldOutLevels": 100, "styleNormalizedMAE": {"extraTreesConditionedGlobalStyle": 0.5399117745906656, "countMechanicsTopologyLinearBaseline": 0.6698088839419915}, "syntheticPerturbationRanking": {"smallJitter": {"sourceVsPerturbedAUC": 0.6421, "pairedSourceRanksHigherFraction": 0.9, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterOrientation": {"sourceVsPerturbedAUC": 0.6691499999999999, "pairedSourceRanksHigherFraction": 0.865, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterSpacing": {"sourceVsPerturbedAUC": 0.762, "pairedSourceRanksHigherFraction": 0.88, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "grossPoseShuffle": {"sourceVsPerturbedAUC": 0.9574, "pairedSourceRanksHigherFraction": 0.95, "countMechanicsOnlyPairedBaselineAUC": 0.5}}}
+GLOBAL FOLD 2 {"fold": 2, "trainLevels": 400, "heldOutLevels": 100, "styleNormalizedMAE": {"extraTreesConditionedGlobalStyle": 0.46111683551613636, "countMechanicsTopologyLinearBaseline": 0.5941913199046553}, "syntheticPerturbationRanking": {"smallJitter": {"sourceVsPerturbedAUC": 0.6468, "pairedSourceRanksHigherFraction": 0.89, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterOrientation": {"sourceVsPerturbedAUC": 0.6250500000000001, "pairedSourceRanksHigherFraction": 0.765, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterSpacing": {"sourceVsPerturbedAUC": 0.8111, "pairedSourceRanksHigherFraction": 0.91, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "grossPoseShuffle": {"sourceVsPerturbedAUC": 0.97495, "pairedSourceRanksHigherFraction": 0.955, "countMechanicsOnlyPairedBaselineAUC": 0.5}}}
+GLOBAL FOLD 3 {"fold": 3, "trainLevels": 400, "heldOutLevels": 100, "styleNormalizedMAE": {"extraTreesConditionedGlobalStyle": 0.5696387504813292, "countMechanicsTopologyLinearBaseline": 0.7101286539514544}, "syntheticPerturbationRanking": {"smallJitter": {"sourceVsPerturbedAUC": 0.6274, "pairedSourceRanksHigherFraction": 0.83, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterOrientation": {"sourceVsPerturbedAUC": 0.62675, "pairedSourceRanksHigherFraction": 0.825, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterSpacing": {"sourceVsPerturbedAUC": 0.7602000000000001, "pairedSourceRanksHigherFraction": 0.85, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "grossPoseShuffle": {"sourceVsPerturbedAUC": 0.9822500000000001, "pairedSourceRanksHigherFraction": 0.975, "countMechanicsOnlyPairedBaselineAUC": 0.5}}}
+GLOBAL FOLD 4 {"fold": 4, "trainLevels": 400, "heldOutLevels": 100, "styleNormalizedMAE": {"extraTreesConditionedGlobalStyle": 0.548254773295662, "countMechanicsTopologyLinearBaseline": 0.6623230531705739}, "syntheticPerturbationRanking": {"smallJitter": {"sourceVsPerturbedAUC": 0.6361, "pairedSourceRanksHigherFraction": 0.94, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterOrientation": {"sourceVsPerturbedAUC": 0.5805, "pairedSourceRanksHigherFraction": 0.73, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "clusterSpacing": {"sourceVsPerturbedAUC": 0.8013000000000001, "pairedSourceRanksHigherFraction": 0.85, "countMechanicsOnlyPairedBaselineAUC": 0.5}, "grossPoseShuffle": {"sourceVsPerturbedAUC": 0.98305, "pairedSourceRanksHigherFraction": 0.965, "countMechanicsOnlyPairedBaselineAUC": 0.5}}}
+{
+  "styleNormalizedMAE": {
+    "extraTreesConditionedGlobalStyle": 0.529789652075651,
+    "countMechanicsTopologyLinearBaseline": 0.6834230296799569
+  },
+  "syntheticRanking": {
+    "smallJitter": {
+      "sourceVsPerturbedAUC": 0.6798399999999999,
+      "pairedSourceRanksHigherFraction": 0.9019999999999999,
+      "countMechanicsOnlyPairedBaselineAUC": 0.5
+    },
+    "clusterOrientation": {
+      "sourceVsPerturbedAUC": 0.67445,
+      "pairedSourceRanksHigherFraction": 0.813,
+      "countMechanicsOnlyPairedBaselineAUC": 0.5
+    },
+    "clusterSpacing": {
+      "sourceVsPerturbedAUC": 0.8052000000000001,
+      "pairedSourceRanksHigherFraction": 0.8939999999999999,
+      "countMechanicsOnlyPairedBaselineAUC": 0.5
+    },
+    "grossPoseShuffle": {
+      "sourceVsPerturbedAUC": 0.93581,
+      "pairedSourceRanksHigherFraction": 0.9530000000000001,
+      "countMechanicsOnlyPairedBaselineAUC": 0.5
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "HISTORICAL_MINOR_EDIT_RESEARCH_NOT_CURRENT_GENERATION",
+  "acceptedCount": 0,
+  "queuePromotionStopped": true,
+  "reason": "Latest user requires whole new boards from learned organization, not source-board minor edits",
+  "historicalPackAndQueueImmutable": true,
+  "replacementBranch": "From-empty constructive_layout_v5.py ordinary460",
+  "nativeAcceptance": "UNVERIFIED"
+}

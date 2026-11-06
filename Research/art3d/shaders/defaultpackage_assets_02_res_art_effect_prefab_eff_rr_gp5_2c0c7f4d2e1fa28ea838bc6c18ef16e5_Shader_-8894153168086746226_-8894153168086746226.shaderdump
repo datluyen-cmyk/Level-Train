@@ -1,0 +1,104 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "HsApp/Particles/XYStyleFragment" {
+Properties {
+
+[Header(Main)] _MainTex ("Main Texture", 2D) = "white" { }
+
+_Color ("Tint", Color) = (1,1,1,1)
+
+_ColorIntensity ("Tint Intensity", Range(0, 10)) = 1.0
+
+_Blend ("Blend To White", Range(0, 1)) = 0.0
+
+_RecolorStrength ("Recolor Strength", Range(0, 1)) = 0.0
+
+_Contrast ("Contrast", Range(0, 2)) = 1.0
+
+_Saturation ("Saturation", Range(0, 2)) = 1.0
+
+[Toggle] _UseVertexColor ("Use Particle Color", Float) = 1.0
+
+[Toggle] _ColorfulBlend ("Colorful Blend", Float) = 0.0
+
+[Toggle(_ALPHACLIP_ON)] _AlphaClipEnable ("Alpha Clip Enable", Float) = 0.0
+
+_AlphaClip ("Alpha Clip Threshold", Range(0, 1)) = 0.009999999776482582
+
+[Header(Normal And Lighting)] [Toggle(_NORMALMAP_ON)] _NormalMapEnable ("Normal Map Enable", Float) = 0.0
+
+_NormalMap ("Normal Map", 2D) = "bump" { }
+
+_NormalScale ("Normal Scale", Range(0, 2)) = 1.0
+
+[Toggle(_MATCAP_ON)] _MatCapEnable ("MatCap Enable", Float) = 0.0
+
+_MatCapTex ("MatCap", 2D) = "white" { }
+
+_MatCapColor ("MatCap Color", Color) = (1,1,1,1)
+
+_MatCapStrength ("MatCap Strength", Range(0, 10)) = 1.0
+
+_MatCapLOD ("MatCap LOD", Range(0, 8)) = 0.0
+
+_MatCapRotation ("MatCap Rotation", Range(0, 360)) = 0.0
+
+_MatCapBlendMode ("MatCap Blend Mode", Float) = 2.0
+
+[Toggle(_SIMPLELIGHT_ON)] _SimpleLightEnable ("Simple Lighting Enable", Float) = 0.0
+
+_LightDir ("Light Direction World", Vector) = (0.3,0.6,-0.75,0)
+
+_LightColor ("Light Color", Color) = (1,1,1,1)
+
+_LightIntensity ("Light Intensity", Range(0, 10)) = 1.0
+
+_ShadowColor ("Shadow Color", Color) = (0.25,0.28,0.35,1)
+
+_LightStrength ("Light Strength", Range(0, 2)) = 1.0
+
+_LightWrap ("Light Wrap", Range(0, 1)) = 1.0
+
+[Header(Underlay SDF)] [KeywordEnum(None, Normal, Inner)] _Underlay ("Underlay Type", Float) = 0.0
+
+_SDFTex ("SDF Texture", 2D) = "white" { }
+
+_UnderlayColor ("Underlay Color", Color) = (0,0,0,0.5)
+
+_UnderlayDilate ("Underlay Dilate", Range(-1, 1)) = 0.0
+
+_UnderlaySoftness ("Underlay Softness", Range(0, 1)) = 0.05000000074505806
+
+_StyleLineRectMaskRect ("RectMask Rect (xyxy px)", Vector) = (-100000,-100000,100000,100000)
+
+_StyleLineRectMaskSoftness ("RectMask Softness (px)", Vector) = (0,0,0,0)
+
+[Header(Rendering)] [Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend ("Src Blend", Float) = 5.0
+
+[Enum(UnityEngine.Rendering.BlendMode)] _DstBlend ("Dst Blend", Float) = 10.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 0.0
+
+[Enum(Off,0,On,1)] _ZWrite ("ZWrite", Float) = 0.0
+
+[Enum(UnityEngine.Rendering.CompareFunction)] _ZTest ("ZTest", Float) = 4.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ Pass {
+ Name "Forward"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "UniversalForward" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+ Cull Off
+  GpuProgramID 18079
+}
+}
+CustomEditor "XingYun.Rendering.Editor.HsStyleFragmentShaderGUI"
+}

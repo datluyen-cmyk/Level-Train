@@ -1,0 +1,17 @@
+FOLD 0 {'learnedSpatialContext': {'meanLevelRelationNLL': 3.48, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.1447, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}, 'countMechanicsOnlyBaseline': {'meanLevelRelationNLL': 7.011, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.3838, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}}
+FOLD 1 {'learnedSpatialContext': {'meanLevelRelationNLL': 5.654, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.4183, 'sourceBeatsOneSyntheticPoseShuffleFraction': 0.99}, 'countMechanicsOnlyBaseline': {'meanLevelRelationNLL': 10.3042, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.7876, 'sourceBeatsOneSyntheticPoseShuffleFraction': 0.99}}
+FOLD 2 {'learnedSpatialContext': {'meanLevelRelationNLL': 4.6725, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.3137, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}, 'countMechanicsOnlyBaseline': {'meanLevelRelationNLL': 10.8864, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.7563, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}}
+FOLD 3 {'learnedSpatialContext': {'meanLevelRelationNLL': 5.3602, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.3894, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}, 'countMechanicsOnlyBaseline': {'meanLevelRelationNLL': 11.6953, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.8085, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}}
+FOLD 4 {'learnedSpatialContext': {'meanLevelRelationNLL': 5.3036, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.3642, 'sourceBeatsOneSyntheticPoseShuffleFraction': 1.0}, 'countMechanicsOnlyBaseline': {'meanLevelRelationNLL': 10.622, 'meanLevelBestOf32PoseXYErrorInWidthUnits': 0.7675, 'sourceBeatsOneSyntheticPoseShuffleFraction': 0.99}}
+{
+  "learnedSpatialContext": {
+    "meanLevelRelationNLL": 4.894050685956007,
+    "meanLevelBestOf32PoseXYErrorInWidthUnits": 0.32605350034189806,
+    "sourceBeatsOneSyntheticPoseShuffleFraction": 0.998
+  },
+  "countMechanicsOnlyBaseline": {
+    "meanLevelRelationNLL": 10.103777274948682,
+    "meanLevelBestOf32PoseXYErrorInWidthUnits": 0.7007306740840475,
+    "sourceBeatsOneSyntheticPoseShuffleFraction": 0.9960000000000001
+  }
+}

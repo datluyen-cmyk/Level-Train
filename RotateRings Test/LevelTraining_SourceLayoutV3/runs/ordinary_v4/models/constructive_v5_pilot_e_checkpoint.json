@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 5,
+  "status": "JOINT_CONDITIONED_PILOT_COMPLETE_PROVISIONAL_NOT_ACCEPTED",
+  "acceptedCount": 0,
+  "packSha256": "c79a05db540a8d1a0f41ab34594fba8f32d8e5b7f4bbfd34f5591fc80c3454ca",
+  "attempts": 4,
+  "preliminaryCount": 4,
+  "elapsedSeconds": 203.64312639995478,
+  "rows": [
+    {
+      "candidateId": 9300000,
+      "position": 7,
+      "organizationFieldSourceId": "10010",
+      "organizationFieldSourcePosition": 6,
+      "actualRootCount": 10,
+      "softTargetRootCount": 10.000000000000002,
+      "motifCount": 4,
+      "sourceIds": [
+        "10010",
+        "10011",
+        "10082"
+      ],
+      "organizationScore": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.9297057228446305,
+        "standardizedScoreContributions": {
+          "latentField": 0.8540523823585439,
+          "logPartCount": 0.0,
+          "logSpan": 0.0756533404860865,
+          "levelContext": 0.0
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.3510910104109857,
+        "nativeBodyFieldL1": 1.6828723085692245,
+        "relationFieldL1": 0.459856267583479,
+        "actualRootCount": 10,
+        "softTargetRootCount": 10.000000000000002,
+        "actualSpan": 24.40285868029649,
+        "softTargetSpan": 12.640811398410657,
+        "limits": "Proposal organization only; not native difficulty or quality."
+      }
+    },
+    {
+      "candidateId": 9300001,
+      "position": 7,
+      "organizationFieldSourceId": "10065",
+      "organizationFieldSourcePosition": 28,
+      "actualRootCount": 28,
+      "softTargetRootCount": 26.0,
+      "motifCount": 6,
+      "sourceIds": [
+        "70028",
+        "70031",
+        "70032",
+        "71019"
+      ],
+      "organizationScore": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.5700873118896628,
+        "standardizedScoreContributions": {
+          "latentField": 0.5128842438577571,
+          "logPartCount": 0.004853218787064689,
+          "logSpan": 0.03158551790735206,
+          "levelContext": 0.02076433133748895
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.4095306438507387,
+        "nativeBodyFieldL1": 1.4356397393206084,
+        "relationFieldL1": 0.6039202122192189,
+        "actualRootCount": 28,
+        "softTargetRootCount": 26.0,
+        "actualSpan": 29.935353768794144,
+        "softTargetSpan": 22.746679346655114,
+        "limits": "Proposal organization only; not native difficulty or quality."
+      }
+    },
+    {
+      "candidateId": 9300002,
+      "position": 18,
+      "organizationFieldSourceId": "70010",
+      "organizationFieldSourcePosition": 18,
+      "actualRootCount": 18,
+      "softTargetRootCount": 17.999999999999996,
+      "motifCount": 4,
+      "sourceIds": [
+        "10035",
+        "10043"
+      ],
+      "organizationScore": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.6950152623299559,
+        "standardizedScoreContributions": {
+          "latentField": 0.6319714109300694,
+          "logPartCount": 0.0,
+          "logSpan": 0.026669118909394454,
+          "levelContext": 0.03637473249049217
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.52998983028654,
+        "nativeBodyFieldL1": 1.4874509599089953,
+        "relationFieldL1": 0.5513079638710648,
+        "actualRootCount": 18,
+        "softTargetRootCount": 17.999999999999996,
+        "actualSpan": 23.013708062506883,
+        "softTargetSpan": 18.250906951501246,
+        "limits": "Proposal organization only; not native difficulty or quality."
+      }
+    },
+    {
+      "candidateId": 9300003,
+      "position": 18,
+      "organizationFieldSourceId": "70003",
+      "organizationFieldSourcePosition": 17,
+      "actualRootCount": 13,
+      "softTargetRootCount": 12.999999999999996,
+      "motifCount": 2,
+      "sourceIds": [
+        "10050",
+        "20049"
+      ],
+      "organizationScore": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.5837642102880742,
+        "standardizedScoreContributions": {
+          "latentField": 0.5517399973916527,
+          "logPartCount": 0.0,
+          "logSpan": 0.020136276574562018,
+          "levelContext": 0.011887936321859416
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.1876211485352381,
+        "nativeBodyFieldL1": 1.0093629457367888,
+        "relationFieldL1": 0.4968162061766739,
+        "actualRootCount": 13,
+        "softTargetRootCount": 12.999999999999996,
+        "actualSpan": 28.523445567849375,
+        "softTargetSpan": 23.942403258654807,
+        "limits": "Proposal organization only; not native difficulty or quality."
+      }
+    }
+  ],
+  "visualReview": {
+    "sheet": "Research/physics_v3/visual_qa/constructive_v5_pilot_e_joint_final/comparison_01.png",
+    "allViewed": true,
+    "findings": {
+      "9300000": "Large native seed ring dominates; several small independent groups, weak whole-layout arrangement.",
+      "9300001": "Central branching chain improves coherence, but28rootsvsintended7source13roots; field sampledposition28.",
+      "9300002": "WITHHELD:16of18roots reproduce source10043 rigid subset exactly (seedtile423,pair427,triple428 share same transform). Coherence is source partial reuse, not evidence of new whole-layout design.",
+      "9300003": "Only2motifs/2sources, long separate simple ringchains; native interaction quality weak."
+    }
+  },
+  "independentAuditStatus": "PENDING",
+  "nativeReplayStatus": "PENDING",
+  "difficultyStatus": "UNMEASURED",
+  "limits": [
+    "Soft count matching alone cannot establish game difficulty.",
+    "No generation acceptance or300level/1000/10000capacity claim."
+  ],
+  "withheldFromPromotion": [
+    {
+      "candidateId": 9300002,
+      "reason": "Exact rigid source10043 subset16of18roots plus2donorroots; whole-source canonical rejection does not detect this."
+    }
+  ]
+}

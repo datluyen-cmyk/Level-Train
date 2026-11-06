@@ -1,0 +1,282 @@
+#ifdef VERTEX
+#version 300 es
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 1
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+UNITY_BINDING(1) uniform UnityPerDraw {
+#endif
+	UNITY_UNIFORM vec4                hlslcc_mtx4x4unity_ObjectToWorld[4];
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXhlslcc_mtx4x4unity_WorldToObject[4];
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_LODFade;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_WorldTransformParams;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_RenderingLayer;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_LightData;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_LightIndices[2];
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_ProbesOcclusion;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SpecCube0_HDR;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SpecCube1_HDR;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube0_BoxMax;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube0_BoxMin;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube0_ProbePosition;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube0_Rotation;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube1_BoxMax;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube1_BoxMin;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube1_ProbePosition;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpecCube1_Rotation;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_LightmapST;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_DynamicLightmapST;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHAr;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHAg;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHAb;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHBr;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHBg;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHBb;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedXunity_SHC;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_RendererBounds_Min;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_RendererBounds_Max;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXhlslcc_mtx4x4unity_MatrixPreviousM[4];
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXhlslcc_mtx4x4unity_MatrixPreviousMI[4];
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_MotionVectorsParams;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpriteColor;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedXunity_SpriteProps;
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+};
+#endif
+in mediump vec4 in_POSITION0;
+in mediump vec4 in_TEXCOORD1;
+in mediump vec4 in_TEXCOORD0;
+in mediump vec4 in_COLOR0;
+mediump vec3 vs_TEXCOORD0;
+out mediump vec4 vs_COLOR0;
+out mediump vec4 vs_TEXCOORD3;
+out mediump vec4 vs_TEXCOORD4;
+vec4 u_xlat0;
+vec4 u_xlat1;
+void main()
+{
+    u_xlat0.xyz = in_POSITION0.yyy * hlslcc_mtx4x4unity_ObjectToWorld[1].xyz;
+    u_xlat0.xyz = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * in_POSITION0.xxx + u_xlat0.xyz;
+    u_xlat0.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * in_POSITION0.zzz + u_xlat0.xyz;
+    u_xlat0.xyz = u_xlat0.xyz + hlslcc_mtx4x4unity_ObjectToWorld[3].xyz;
+    u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];
+    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat0.xxxx + u_xlat1;
+    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat0.zzzz + u_xlat1;
+    vs_TEXCOORD0.xyz = u_xlat0.xyz;
+    u_xlat0 = u_xlat1 + hlslcc_mtx4x4unity_MatrixVP[3];
+    gl_Position = u_xlat0;
+    vs_COLOR0 = in_COLOR0;
+    vs_TEXCOORD3.xy = in_TEXCOORD0.xy;
+    vs_TEXCOORD3.zw = vec2(0.0, 0.0);
+    vs_TEXCOORD4 = in_TEXCOORD1;
+    return;
+}
+
+#endif
+#ifdef FRAGMENT
+#version 300 es
+
+precision highp float;
+precision highp int;
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 1
+#if UNITY_SUPPORTS_UNIFORM_LOCATION
+#define UNITY_LOCATION(x) layout(location = x)
+#define UNITY_BINDING(x) layout(binding = x, std140)
+#else
+#define UNITY_LOCATION(x)
+#define UNITY_BINDING(x) layout(std140)
+#endif
+uniform 	vec4 _Time;
+uniform 	vec4 _TimeParameters;
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+UNITY_BINDING(0) uniform UnityPerMaterial {
+#endif
+	UNITY_UNIFORM mediump vec4                _MainTex_ST;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedX_Mask_Tex_ST;
+	UNITY_UNIFORM mediump vec4                _Main_Tex_Color;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedX_Distortion_Tex_ST;
+	UNITY_UNIFORM mediump vec4                _Dissolve_Tex_ST;
+	UNITY_UNIFORM mediump vec4                _Dissolve_Dir_Tex_ST;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedX_Dissolve_Outline_Color;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedX_Remap_Tex_ST;
+	UNITY_UNIFORM mediump float                _Dissolve_Tex_A_R;
+	UNITY_UNIFORM mediump float                _Dissolve_Tex_power;
+	UNITY_UNIFORM mediump float                _Dissolve_Tex_Custom_X;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Remap_Tex_U_speed;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Remap_Tex_V_speed;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_CullMode;
+	UNITY_UNIFORM mediump float                _Main_Tex_A_R;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Mask_Tex_U_speed;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Mask_Tex_V_speed;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Remap_Tex_Followl_Main_Tex;
+	UNITY_UNIFORM float                _Dissolve_Tex_V_speed;
+	UNITY_UNIFORM mediump float                _Dissolve_Tex_smooth;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Dst;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_GammaRestore;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_RemapGammaSRGB;
+	UNITY_UNIFORM float                _Main_Tex_U_speed;
+	UNITY_UNIFORM float                _Main_Tex_V_speed;
+	UNITY_UNIFORM mediump float                _Main_Tex_Custom_ZW;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Distortion_Tex_Power;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Distortion_Tex_U_speed;
+	UNITY_UNIFORM float Xhlslcc_UnusedX_Distortion_Tex_V_speed;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Distortion_Switch;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Distortion_Affect_Dissolve;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Distortion_Affect_Mask;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Distortion_Vec2_Mode;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Mask_Tex_A_R;
+	UNITY_UNIFORM float                _Dissolve_Tex_U_speed;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Remap_Tex_A_R;
+	UNITY_UNIFORM mediump float                _Main_Tex_CoordMode;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Remap_Tex_CoordMode;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Mask_Tex_CoordMode;
+	UNITY_UNIFORM mediump float                _Dissolve_Tex_CoordMode;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Remap_BlendMode;
+	UNITY_UNIFORM mediump vec4 Xhlslcc_UnusedX_Remap_Tex_Color;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Dissolve_Outline_On;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Dissolve_Outline_Width;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Dissolve_Outline_Trans;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_Dissolve_Outline_BlendMode;
+	UNITY_UNIFORM mediump float                _Dissolve_Dir_Enabled;
+	UNITY_UNIFORM vec4 Xhlslcc_UnusedX_ClipRect;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_UIMaskSoftnessX;
+	UNITY_UNIFORM mediump float Xhlslcc_UnusedX_UIMaskSoftnessY;
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+};
+#endif
+UNITY_LOCATION(0) uniform mediump sampler2D _MainTex;
+UNITY_LOCATION(1) uniform mediump sampler2D _Dissolve_Tex;
+UNITY_LOCATION(2) uniform mediump sampler2D _Dissolve_Dir_Tex;
+in mediump  vec4 vs_COLOR0;
+in mediump  vec4 vs_TEXCOORD3;
+in mediump  vec4 vs_TEXCOORD4;
+layout(location = 0) out mediump vec4 SV_Target0;
+vec2 u_xlat0;
+mediump vec4 u_xlat16_0;
+mediump vec2 u_xlat16_1;
+vec2 u_xlat2;
+mediump vec2 u_xlat16_2;
+bool u_xlatb2;
+vec2 u_xlat3;
+mediump vec4 u_xlat16_3;
+vec2 u_xlat4;
+bool u_xlatb4;
+mediump vec2 u_xlat16_6;
+vec2 u_xlat7;
+bool u_xlatb7;
+vec2 u_xlat10;
+vec2 u_xlat12;
+bool u_xlatb12;
+float u_xlat13;
+bool u_xlatb13;
+float u_xlat17;
+float u_xlat18;
+void main()
+{
+    u_xlat0.xy = _TimeParameters.xx * vec2(_Main_Tex_U_speed, _Main_Tex_V_speed);
+    u_xlat0.xy = fract(u_xlat0.xy);
+    u_xlat16_1.xy = vs_TEXCOORD3.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    u_xlat10.xy = u_xlat0.xy + u_xlat16_1.xy;
+    u_xlat2.xy = u_xlat16_1.xy + vs_TEXCOORD4.zw;
+    u_xlat2.xy = (-u_xlat10.xy) + u_xlat2.xy;
+    u_xlat10.xy = vec2(_Main_Tex_Custom_ZW) * u_xlat2.xy + u_xlat10.xy;
+    u_xlatb2 = 0.5<_Main_Tex_CoordMode;
+    u_xlat7.xy = (-u_xlat0.xy) + vs_TEXCOORD4.zw;
+    u_xlat0.xy = vec2(_Main_Tex_Custom_ZW) * u_xlat7.xy + u_xlat0.xy;
+    u_xlat7.xy = vs_TEXCOORD3.yx + vec2(-0.5, -0.5);
+    u_xlat17 = dot(u_xlat7.xy, u_xlat7.xy);
+    u_xlat17 = sqrt(u_xlat17);
+    u_xlat3.x = u_xlat17 + u_xlat17;
+    u_xlat17 = min(abs(u_xlat7.y), abs(u_xlat7.x));
+    u_xlat13 = max(abs(u_xlat7.y), abs(u_xlat7.x));
+    u_xlat13 = float(1.0) / u_xlat13;
+    u_xlat17 = u_xlat17 * u_xlat13;
+    u_xlat13 = u_xlat17 * u_xlat17;
+    u_xlat18 = u_xlat13 * 0.0208350997 + -0.0851330012;
+    u_xlat18 = u_xlat13 * u_xlat18 + 0.180141002;
+    u_xlat18 = u_xlat13 * u_xlat18 + -0.330299497;
+    u_xlat13 = u_xlat13 * u_xlat18 + 0.999866009;
+    u_xlat18 = u_xlat17 * u_xlat13;
+    u_xlatb4 = abs(u_xlat7.y)<abs(u_xlat7.x);
+    u_xlat18 = u_xlat18 * -2.0 + 1.57079637;
+    u_xlat18 = u_xlatb4 ? u_xlat18 : float(0.0);
+    u_xlat17 = u_xlat17 * u_xlat13 + u_xlat18;
+    u_xlatb13 = u_xlat7.y<(-u_xlat7.y);
+    u_xlat13 = u_xlatb13 ? -3.14159274 : float(0.0);
+    u_xlat17 = u_xlat17 + u_xlat13;
+    u_xlat13 = min(u_xlat7.y, u_xlat7.x);
+    u_xlat7.x = max(u_xlat7.y, u_xlat7.x);
+    u_xlatb12 = u_xlat13<(-u_xlat13);
+    u_xlatb7 = u_xlat7.x>=(-u_xlat7.x);
+    u_xlatb7 = u_xlatb7 && u_xlatb12;
+    u_xlat7.x = (u_xlatb7) ? (-u_xlat17) : u_xlat17;
+    u_xlat3.y = u_xlat7.x * 0.159154937 + 0.5;
+    u_xlat7.xy = u_xlat3.xy * _MainTex_ST.xy + _MainTex_ST.zw;
+    u_xlat0.xy = u_xlat0.xy + u_xlat7.xy;
+    u_xlat0.xy = (bool(u_xlatb2)) ? u_xlat0.xy : u_xlat10.xy;
+    u_xlat16_0 = texture(_MainTex, u_xlat0.xy);
+    u_xlat2.x = _Time.y * _Dissolve_Tex_U_speed;
+    u_xlat2.y = _Time.y * _Dissolve_Tex_V_speed;
+    u_xlat2.xy = fract(u_xlat2.xy);
+    u_xlat16_1.xy = vs_TEXCOORD3.xy * _Dissolve_Tex_ST.xy + _Dissolve_Tex_ST.zw;
+    u_xlat12.xy = u_xlat16_1.xy + u_xlat2.xy;
+    u_xlatb13 = 0.5<_Dissolve_Tex_CoordMode;
+    u_xlat4.xy = u_xlat3.xy * _Dissolve_Tex_ST.xy + _Dissolve_Tex_ST.zw;
+    u_xlat2.xy = u_xlat2.xy + u_xlat4.xy;
+    u_xlat2.xy = (bool(u_xlatb13)) ? u_xlat2.xy : u_xlat12.xy;
+    u_xlat16_2.xy = texture(_Dissolve_Tex, u_xlat2.xy).xw;
+    u_xlat16_1.x = (-u_xlat16_2.x) + u_xlat16_2.y;
+    u_xlat16_1.x = _Dissolve_Tex_A_R * u_xlat16_1.x + u_xlat16_2.x;
+    u_xlatb2 = 0.5<_Dissolve_Dir_Enabled;
+    if(u_xlatb2){
+        u_xlat16_6.xy = vs_TEXCOORD3.xy * _Dissolve_Dir_Tex_ST.xy + _Dissolve_Dir_Tex_ST.zw;
+        u_xlat2.xy = u_xlat3.xy * _Dissolve_Dir_Tex_ST.xy + _Dissolve_Dir_Tex_ST.zw;
+        u_xlat2.xy = (bool(u_xlatb13)) ? u_xlat2.xy : u_xlat16_6.xy;
+        u_xlat16_2.x = texture(_Dissolve_Dir_Tex, u_xlat2.xy).x;
+        u_xlat16_6.x = u_xlat16_1.x * 0.5 + u_xlat16_2.x;
+        u_xlat16_1.x = u_xlat16_6.x * 0.5;
+        u_xlat16_1.x = clamp(u_xlat16_1.x, 0.0, 1.0);
+    }
+    u_xlat16_6.x = vs_TEXCOORD4.x + (-_Dissolve_Tex_power);
+    u_xlat16_6.x = _Dissolve_Tex_Custom_X * u_xlat16_6.x + _Dissolve_Tex_power;
+    u_xlat2.x = u_xlat16_1.x + 1.0;
+    u_xlat2.x = (-u_xlat16_6.x) * 2.0 + u_xlat2.x;
+    u_xlat2.x = clamp(u_xlat2.x, 0.0, 1.0);
+    u_xlat7.x = (-_Dissolve_Tex_smooth) + 1.0;
+    u_xlat12.x = (-u_xlat7.x) + _Dissolve_Tex_smooth;
+    u_xlat2.x = (-u_xlat7.x) + u_xlat2.x;
+    u_xlat7.x = float(1.0) / u_xlat12.x;
+    u_xlat2.x = u_xlat7.x * u_xlat2.x;
+    u_xlat2.x = clamp(u_xlat2.x, 0.0, 1.0);
+    u_xlat7.x = u_xlat2.x * -2.0 + 3.0;
+    u_xlat2.x = u_xlat2.x * u_xlat2.x;
+    u_xlat2.x = u_xlat2.x * u_xlat7.x;
+    u_xlat16_1.x = (-u_xlat16_0.x) + u_xlat16_0.w;
+    u_xlat16_1.x = _Main_Tex_A_R * u_xlat16_1.x + u_xlat16_0.x;
+    u_xlat16_3 = vs_COLOR0.wxyz * _Main_Tex_Color.wxyz;
+    u_xlat16_6.x = u_xlat2.x * u_xlat16_3.x;
+    SV_Target0.w = u_xlat16_1.x * u_xlat16_6.x;
+    SV_Target0.xyz = u_xlat16_0.xyz * u_xlat16_3.yzw;
+    return;
+}
+
+#endif

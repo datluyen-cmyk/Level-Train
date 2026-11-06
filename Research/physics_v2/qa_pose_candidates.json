@@ -1,0 +1,12 @@
+{
+  "head_wall": {
+    "center": {
+      "x": -3.670518139898459,
+      "y": 0.9835123713895798
+    },
+    "angle": 315,
+    "delta": 44.5,
+    "firstContactAt": 356.5,
+    "role": "head_wall"
+  }
+}

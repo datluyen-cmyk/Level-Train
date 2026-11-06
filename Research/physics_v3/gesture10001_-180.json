@@ -1,0 +1,13 @@
+{
+    "sourceId": 10001,
+    "part": 2,
+    "from": 0.0,
+    "requested": -180.0,
+    "reached": -180.0,
+    "settled": -180.0,
+    "blocked": false,
+    "canSolve": true,
+    "blocker": -1,
+    "blockerRole": "",
+    "contacts": "no active authored contacts"
+}

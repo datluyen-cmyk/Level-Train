@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 3,
+  "complete": false,
+  "acceptedCount": 0,
+  "status": "INCOMPLETE_NATIVE_REPLAY_AND_HUMAN_DIFFICULTY_REVIEW_REQUIRED",
+  "pilot": "connected native tutorial motifs; target progression positions 1-5",
+  "targets": [
+    {
+      "position": 1,
+      "sourceId": "10001",
+      "parts": 2,
+      "kindInventory": {
+        "ring": 2
+      },
+      "pinEdges": 1,
+      "guideLinks": 0,
+      "bombs": 0,
+      "candidateCount": 287,
+      "screenPassingCount": 270,
+      "rejectedSubgraphCounts": {
+        "nativeShapeOrDormantPinMismatch": 3635,
+        "searchStateCapReached": 0,
+        "collectibleInventoryMismatch": 2242,
+        "chainLockInventoryMismatch": 160,
+        "guideClosureAddsRoots": 90
+      },
+      "subsetSearchComplete": true,
+      "distinctLowDifficultyCandidatesExist": "unknown; human difficulty and native replay not measured",
+      "reportedCandidateIds": [
+        4010048,
+        4010248,
+        4010256,
+        4010111,
+        4010244,
+        4010200,
+        4010206,
+        4010218
+      ]
+    },
+    {
+      "position": 2,
+      "sourceId": "10002",
+      "parts": 3,
+      "kindInventory": {
+        "ring": 3
+      },
+      "pinEdges": 2,
+      "guideLinks": 0,
+      "bombs": 0,
+      "candidateCount": 47,
+      "screenPassingCount": 47,
+      "rejectedSubgraphCounts": {
+        "nativeShapeOrDormantPinMismatch": 4028,
+        "searchStateCapReached": 0,
+        "collectibleInventoryMismatch": 2843,
+        "inducedPinEdgeCountMismatch": 104,
+        "directedAuthoredTopologyMismatch": 33,
+        "chainLockInventoryMismatch": 263,
+        "guideClosureAddsRoots": 132
+      },
+      "subsetSearchComplete": true,
+      "distinctLowDifficultyCandidatesExist": "unknown; human difficulty and native replay not measured",
+      "reportedCandidateIds": [
+        4010323,
+        4010300,
+        4010328,
+        4010291,
+        4010322,
+        4010290,
+        4010317,
+        4010329
+      ]
+    },
+    {
+      "position": 3,
+      "sourceId": "10003",
+      "parts": 4,
+      "kindInventory": {
+        "ring": 4
+      },
+      "pinEdges": 3,
+      "guideLinks": 0,
+      "bombs": 0,
+      "candidateCount": 2,
+      "screenPassingCount": 2,
+      "rejectedSubgraphCounts": {
+        "nativeShapeOrDormantPinMismatch": 4952,
+        "searchStateCapReached": 0,
+        "inducedPinEdgeCountMismatch": 484,
+        "collectibleInventoryMismatch": 3776,
+        "directedAuthoredTopologyMismatch": 4,
+        "chainLockInventoryMismatch": 411,
+        "guideClosureAddsRoots": 189
+      },
+      "subsetSearchComplete": true,
+      "distinctLowDifficultyCandidatesExist": "unknown; human difficulty and native replay not measured",
+      "reportedCandidateIds": [
+        4010335,
+        4010336
+      ]
+    },
+    {
+      "position": 4,
+      "sourceId": "10005",
+      "parts": 7,
+      "kindInventory": {
+        "ring": 7
+      },
+      "pinEdges": 6,
+      "guideLinks": 0,
+      "bombs": 0,
+      "candidateCount": 0,
+      "screenPassingCount": 0,
+      "rejectedSubgraphCounts": {
+        "inducedPinEdgeCountMismatch": 8380,
+        "searchStateCapReached": 1,
+        "collectibleInventoryMismatch": 11771,
+        "nativeShapeOrDormantPinMismatch": 14290,
+        "chainLockInventoryMismatch": 1568,
+        "guideClosureAddsRoots": 580
+      },
+      "subsetSearchComplete": false,
+      "distinctLowDifficultyCandidatesExist": "unknown; human difficulty and native replay not measured",
+      "reportedCandidateIds": []
+    },
+    {
+      "position": 5,
+      "sourceId": "10004",
+      "parts": 7,
+      "kindInventory": {
+        "ring": 7
+      },
+      "pinEdges": 8,
+      "guideLinks": 0,
+      "bombs": 0,
+      "candidateCount": 0,
+      "screenPassingCount": 0,
+      "rejectedSubgraphCounts": {
+        "inducedPinEdgeCountMismatch": 20925,
+        "searchStateCapReached": 1,
+        "collectibleInventoryMismatch": 11780,
+        "nativeShapeOrDormantPinMismatch": 1757,
+        "chainLockInventoryMismatch": 1568,
+        "guideClosureAddsRoots": 580
+      },
+      "subsetSearchComplete": false,
+      "distinctLowDifficultyCandidatesExist": "unknown; human difficulty and native replay not measured",
+      "reportedCandidateIds": []
+    }
+  ],
+  "topologyRegression": {
+    "passed": true,
+    "rejectsFanoutChainWithSameCounts": true,
+    "acceptsIsomorphicRelabeling": true,
+    "targetEdges": 3,
+    "comparisonEdges": 3
+  },
+  "limitations": [
+    "Native poses and assets are retained exactly; this is structural matching, not native replay.",
+    "Learned composition likelihood ranks authored source relation contexts; it does not predict difficulty.",
+    "Raw geometry seams and novelty507 are screening gates only.",
+    "All proposals remain incomplete and unaccepted."
+  ],
+  "hashes": {
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\novelty_extras\\source_parity_pack.json": "e32ef6b5eac04db0f9da4960e68e3fcc201f512d45862c768d32cb3639687bdc",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\novelty_extras\\source_templates.json": "2a5f9d6046919464e0f9ed9f3dc0184fba1255df58e8be7ca2036a07429bd7ff",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\models\\composition_pose.joblib": "6fdd7246b99ca0aa95e3cfb6aab1dce402c9be0910389fde01c19b9204108447",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\tools\\tutorial_motif_proposer_v3.py": "dd412ad123f52bd5a5a6d59a0458cb78f20af37ac41802365be5a62fdb6636df",
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\tools\\render_layout_diagnostics_v3.py": "9dfc8ee1a4025f0e60fb7689b3399bc8cdbedb1b752a4239f34b07013e138d7e"
+  }
+}

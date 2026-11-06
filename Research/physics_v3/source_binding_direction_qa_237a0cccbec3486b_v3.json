@@ -1,0 +1,51 @@
+{
+    "passed": true,
+    "pairs": 17,
+    "poses": 3672,
+    "assertions": 19034,
+    "failures": 0,
+    "asymmetricPoses": 62,
+    "bodyOnlyPoses": 609,
+    "staticInputChecks": 65,
+    "sourceQueryPoses": 1892,
+    "targetQueryPoses": 1948,
+    "relativeQueryPoses": 1283,
+    "directContactPoses": 1218,
+    "sourcePackSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templatesSha256": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "queriesSha256": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+    "collisionWorldSha256": "8c6d849f72e420ea72c10c6eeca28716c4b9fd61a6dbda350de3d08fc57e9ec3",
+    "qaSha256": "8faf592613a77adcab9ef31f4c629dc9f58ac0b26440fcb02c6dd670eb72e5f0",
+    "scope": "Isolated original ring pairs at diagnostic poses; does not certify a legal drag path, Android runtime parity, or solvability.",
+    "witnesses": [
+        {
+            "sourceId": "10001",
+            "kind": "body goal without relative input lock",
+            "source": 1,
+            "target": 2,
+            "targetAngle": 75.0,
+            "targetDx": -1.5,
+            "targetDy": -1.5,
+            "sourceQuery": true,
+            "targetQuery": true,
+            "relativeQuery": false,
+            "directContact": false,
+            "legalMotionVerified": false
+        },
+        {
+            "sourceId": "10057",
+            "kind": "asymmetric persistence",
+            "source": 1,
+            "target": 4,
+            "targetAngle": 310.0,
+            "targetDx": -1.5,
+            "targetDy": 0.0,
+            "sourceQuery": false,
+            "targetQuery": true,
+            "relativeQuery": false,
+            "directContact": false,
+            "legalMotionVerified": false
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,277 @@
+{
+  "acceptedCount": 0,
+  "reusedReferenceCacheCount": 37,
+  "levels": [
+    {
+      "position": 1,
+      "reused": true,
+      "checkedTopOptionCount": 101
+    },
+    {
+      "position": 2,
+      "reused": true,
+      "checkedTopOptionCount": 240
+    },
+    {
+      "position": 3,
+      "reused": true,
+      "checkedTopOptionCount": 320
+    },
+    {
+      "position": 4,
+      "reused": true,
+      "checkedTopOptionCount": 529
+    },
+    {
+      "position": 5,
+      "reused": true,
+      "checkedTopOptionCount": 449
+    },
+    {
+      "position": 6,
+      "reused": true,
+      "checkedTopOptionCount": 166
+    },
+    {
+      "position": 7,
+      "reused": true,
+      "checkedTopOptionCount": 205
+    },
+    {
+      "position": 8,
+      "reused": true,
+      "checkedTopOptionCount": 495
+    },
+    {
+      "position": 9,
+      "reused": true,
+      "checkedTopOptionCount": 463
+    },
+    {
+      "position": 10,
+      "reused": true,
+      "checkedTopOptionCount": 0
+    },
+    {
+      "position": 11,
+      "reused": true,
+      "checkedTopOptionCount": 540
+    },
+    {
+      "position": 12,
+      "reused": true,
+      "checkedTopOptionCount": 201
+    },
+    {
+      "position": 13,
+      "reused": true,
+      "checkedTopOptionCount": 520
+    },
+    {
+      "position": 14,
+      "reused": true,
+      "checkedTopOptionCount": 843
+    },
+    {
+      "position": 15,
+      "reused": true,
+      "checkedTopOptionCount": 195
+    },
+    {
+      "position": 16,
+      "reused": true,
+      "checkedTopOptionCount": 790
+    },
+    {
+      "position": 17,
+      "reused": true,
+      "checkedTopOptionCount": 535
+    },
+    {
+      "position": 18,
+      "reused": true,
+      "checkedTopOptionCount": 146
+    },
+    {
+      "position": 19,
+      "reused": true,
+      "checkedTopOptionCount": 349
+    },
+    {
+      "position": 20,
+      "reused": true,
+      "checkedTopOptionCount": 0
+    },
+    {
+      "position": 22,
+      "reused": true,
+      "checkedTopOptionCount": 230
+    },
+    {
+      "position": 23,
+      "reused": true,
+      "checkedTopOptionCount": 252
+    },
+    {
+      "position": 24,
+      "reused": true,
+      "checkedTopOptionCount": 663
+    },
+    {
+      "position": 25,
+      "reused": true,
+      "checkedTopOptionCount": 802
+    },
+    {
+      "position": 27,
+      "reused": true,
+      "checkedTopOptionCount": 490
+    },
+    {
+      "position": 28,
+      "reused": true,
+      "checkedTopOptionCount": 634
+    },
+    {
+      "position": 29,
+      "reused": false,
+      "reason": "must_regenerate_after_semantic_filtering",
+      "cosmeticTopOptions": [
+        [
+          27,
+          0
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          27,
+          2
+        ]
+      ],
+      "checkedTopOptionCount": 166
+    },
+    {
+      "position": 31,
+      "reused": true,
+      "checkedTopOptionCount": 137
+    },
+    {
+      "position": 32,
+      "reused": true,
+      "checkedTopOptionCount": 213
+    },
+    {
+      "position": 33,
+      "reused": true,
+      "checkedTopOptionCount": 530
+    },
+    {
+      "position": 34,
+      "reused": true,
+      "checkedTopOptionCount": 1032
+    },
+    {
+      "position": 35,
+      "reused": true,
+      "checkedTopOptionCount": 639
+    },
+    {
+      "position": 36,
+      "reused": false,
+      "reason": "must_regenerate_after_semantic_filtering",
+      "cosmeticTopOptions": [
+        [
+          21,
+          0
+        ]
+      ],
+      "checkedTopOptionCount": 115
+    },
+    {
+      "position": 37,
+      "reused": true,
+      "checkedTopOptionCount": 372
+    },
+    {
+      "position": 38,
+      "reused": false,
+      "reason": "must_regenerate_after_semantic_filtering",
+      "cosmeticTopOptions": [
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "checkedTopOptionCount": 13
+    },
+    {
+      "position": 39,
+      "reused": false,
+      "reason": "must_regenerate_after_semantic_filtering",
+      "cosmeticTopOptions": [
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          1
+        ]
+      ],
+      "checkedTopOptionCount": 89
+    },
+    {
+      "position": 41,
+      "reused": true,
+      "checkedTopOptionCount": 618
+    },
+    {
+      "position": 42,
+      "reused": true,
+      "checkedTopOptionCount": 851
+    },
+    {
+      "position": 43,
+      "reused": true,
+      "checkedTopOptionCount": 410
+    },
+    {
+      "position": 44,
+      "reused": true,
+      "checkedTopOptionCount": 595
+    },
+    {
+      "position": 45,
+      "reused": true,
+      "checkedTopOptionCount": 545
+    }
+  ],
+  "hashes": {
+    "legacyFunction": "2429910bfc4f8b526f6f2b205d1d73e19db869cda4cef7bc883be9360501f3bf",
+    "semanticFunction": "47176b39f54b3ce953f577b848bc4ffa25ae78e80c6052fac554766ad3138a90",
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "tool": "c01437ff95fd2f3c5c80b935c76eac660b0041038e8520bedadc3366c9a72103"
+  }
+}

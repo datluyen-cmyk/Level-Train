@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "identity",
+      "expectedNearCopy": true,
+      "passed": true,
+      "canonicalInvariantRequired": true,
+      "canonicalInvariantPassed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 2.3092637657621857e-15,
+        "p90CenterErrorWidths": 3.552713485787978e-15,
+        "meanAngleErrorDegrees": 1.465496936543272e-14,
+        "meanShapeError": 0.0,
+        "alignmentReflection": false,
+        "spacingScale": 1.0,
+        "nearCopy": true
+      }
+    },
+    {
+      "case": "rotateTranslate",
+      "expectedNearCopy": true,
+      "passed": true,
+      "canonicalInvariantRequired": true,
+      "canonicalInvariantPassed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 4.97844780577844e-15,
+        "p90CenterErrorWidths": 8.056517127703075e-15,
+        "meanAngleErrorDegrees": 1.1721296150587889e-14,
+        "meanShapeError": 0.0,
+        "alignmentReflection": false,
+        "spacingScale": 0.9999999999999997,
+        "nearCopy": true
+      }
+    },
+    {
+      "case": "reflected",
+      "expectedNearCopy": true,
+      "passed": true,
+      "canonicalInvariantRequired": true,
+      "canonicalInvariantPassed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 2.070673164701824e-15,
+        "p90CenterErrorWidths": 5.024295594827153e-15,
+        "meanAngleErrorDegrees": 1.0459042537948847e-14,
+        "meanShapeError": 0.0,
+        "alignmentReflection": true,
+        "spacingScale": 1.0,
+        "nearCopy": true
+      }
+    },
+    {
+      "case": "smallSpacingChange",
+      "expectedNearCopy": true,
+      "passed": true,
+      "canonicalInvariantRequired": false,
+      "canonicalInvariantPassed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 3.678515768871907e-15,
+        "p90CenterErrorWidths": 7.105426971575956e-15,
+        "meanAngleErrorDegrees": 8.36842768199572e-15,
+        "meanShapeError": 0.0,
+        "alignmentReflection": false,
+        "spacingScale": 0.9615384615384616,
+        "nearCopy": true
+      }
+    },
+    {
+      "case": "tinyJitter",
+      "expectedNearCopy": true,
+      "passed": true,
+      "canonicalInvariantRequired": false,
+      "canonicalInvariantPassed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 0.020428113412166427,
+        "p90CenterErrorWidths": 0.026097927488293732,
+        "meanAngleErrorDegrees": 0.04786855442479414,
+        "meanShapeError": 0.0,
+        "alignmentReflection": false,
+        "spacingScale": 0.9996497279914508,
+        "nearCopy": true
+      }
+    },
+    {
+      "case": "grossPoseShuffle",
+      "expectedNearCopy": false,
+      "passed": true,
+      "result": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 4.019374283463902,
+        "p90CenterErrorWidths": 6.62547027852569,
+        "meanAngleErrorDegrees": 57.48315174381321,
+        "meanShapeError": 0.32807764064044154,
+        "alignmentReflection": false,
+        "spacingScale": 0.9645642034439988,
+        "nearCopy": false
+      }
+    }
+  ],
+  "meaning": "Synthetic invariance regression only; not generated-level acceptance.",
+  "hashes": {
+    "Research\\physics_v3\\source_parity_pack.json": "2014cc1ebac91cbac6b80a8e99464d16f765d13d78db72173658dea094312ad7",
+    "Research\\physics_v3\\source_templates.json": "cf0c696b0952af8331bedb916c39c1d961054bebc93d207cd1c5222da94d4b11",
+    "D:\\RotateRings\\Tools\\layout_novelty_v3.py": "7a28809b7b546cd92181cc79e6abd527d91bfdb1d4930be524ca3e5012a53dd1"
+  }
+}

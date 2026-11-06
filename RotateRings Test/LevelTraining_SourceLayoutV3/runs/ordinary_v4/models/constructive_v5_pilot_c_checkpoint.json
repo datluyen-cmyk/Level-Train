@@ -1,0 +1,40 @@
+{
+  "status": "FROM_EMPTY_CONSTRUCTOR_PILOT_C_COMPLETE_STRUCTURAL_ONLY",
+  "acceptedCount": 0,
+  "seed": 20261108,
+  "candidatePackSha256": "bddf6ebb2936872552a998965b167327a10521e28d67bc89c6d937b8bdc5fc6c",
+  "candidateCount": 8,
+  "elapsedSeconds": 147.4320151999127,
+  "sourceScaffoldUsed": false,
+  "nativeSourceCount": 460,
+  "pictorialExcluded47Influence": "NONE_IN_MODEL_OR_DONOR_PARTS; all507 used onlynovelty comparison",
+  "models": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "macroModel": "9b1bb8d6c3b423c18f97b7b546392a33b7ab2d02699f9cb23715802e6dc7d360",
+    "organizationModel": "a5d7225d5cd62ba0d0ac3d107a356a3a2c394904314c41b3685f3160a16f56e1",
+    "tool": "c46bf4b829f9774268c07dee5bce187672107b82856c8642968752d4d10be27f",
+    "sourceFilter": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "ordinaryRefitManifest": "7da9af3ec0d866b4f0b89083ff25da1c4bba4ef02469e2986fe45a8d45e135f6",
+    "continuationModel": "7dd958f4e5c95cc5bdcdb5cb6d5a747395672bae20860272259ca504244ff246"
+  },
+  "nativeMotifSupport": {
+    "eligibleClosedProperMotifs": 3621,
+    "unsupported": {
+      "closureEqualsWholeSourceBoard": 7
+    }
+  },
+  "diagnosticCandidateId": 9003500,
+  "visualReview": {
+    "files": [
+      "Research/physics_v3/visual_qa/constructive_v5_pilot_c_final/comparison_01.png",
+      "Research/physics_v3/visual_qa/constructive_v5_pilot_c_final/comparison_02.png"
+    ],
+    "finding": "Whole boards differ from sources but compactness/interaction and wholeboardorganization remain weak; sparse assemblies and isolated motifs. No candidate accepted.9000701 is a single-source partial layout and is withheld from promotion."
+  },
+  "nextResearch": "Sharper learned latent organization mode, same from-empty rigidnativeconstructor; no minor-edit promotion or numerical compactness gate.",
+  "limits": [
+    "Independent native integrity/placement/wholecopy audit pending, native replay/difficulty/visual pending.",
+    "1000/10000 generation capacity and300accepted levels remain unmet."
+  ]
+}

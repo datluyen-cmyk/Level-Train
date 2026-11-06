@@ -1,0 +1,108 @@
+{
+  "gameName": "Rotate Rings â€” Native Source Layout V3",
+  "workspaceName": "LevelTraining_SourceLayoutV3",
+  "adapter": "adapters/layout_v3_adapter.py",
+  "references": "references.json",
+  "corpus": "corpus.json",
+  "seed": 20261105,
+  "proposalBudget": 600,
+  "oracleCheckBudget": 250,
+  "perReference": {},
+  "datasetKind": "user provided",
+  "nativeParityRequired": true,
+  "generationEnabled": false,
+  "contentPolicy": "batches/user_revised_soft_policy_v4/policy.json",
+  "activeResearchRun": "runs/ordinary_v4",
+  "trainingScope": "Ordinary layouts only; historical root models are superseded for proposals",
+  "phase": "Original Hard/VeryHard stepwise native mechanism research; joint constructive grammar in structural audit; accepted new pack incomplete",
+  "acceptance": {
+    "requestedCount": 300,
+    "sourceCountMinimum": 500,
+    "canonicalDuplicatesAllowed": false,
+    "nativeUnmodeledMechanics": "retain source, withhold labels and generation",
+    "targetReferencePositions": [
+      1,
+      300
+    ],
+    "trainingReferencePositions": [
+      1,
+      500
+    ],
+    "nativeNoveltySourcesMinimum": 507,
+    "rawGeometrySeamRequired": true,
+    "independentNativeAssemblyIntegrityRequired": true,
+    "nativeReplayRequired": true,
+    "sourceDifficultyCalibrationRequired": true
+  },
+  "policies": [
+    {
+      "strategy": "native_contract",
+      "maxSeconds": 30
+    }
+  ],
+  "nativeSourcePack": "data/source500_native.json",
+  "nativeTemplates": "data/source_templates.json",
+  "spatialGrammar": "data/source500_spatial_grammar.json",
+  "compositionModel": "models/composition_pose.joblib",
+  "compositionEvaluation": "models/composition_evaluation.json",
+  "familySplits": "models/family_splits.json",
+  "macroAssemblyModel": "models/macro_assembly.joblib",
+  "macroPatternModel": "models/macro_pattern.joblib",
+  "wholeBoardFieldModel": "models/whole_board_field.joblib",
+  "globalCompositionModel": "models/global_composition.joblib",
+  "nativePhysicsMaterials": "data/physics_materials.json",
+  "noveltyExtraSources": "data/novelty_extras/source_parity_pack.json",
+  "noveltyExtraTemplates": "data/novelty_extras/source_templates.json",
+  "generationMethod": "construct from empty board using learned native motifs, relation grammar and whole-board organization; original board scaffold/local-repair packs are not deliverable",
+  "activeConstructiveModel": "runs/ordinary_v4/models/organization_v5.joblib",
+  "historicalMutationPacksAcceptedForDelivery": false,
+  "playtest": {
+    "requestedUsers": 1000,
+    "meaning": "Distinct seeded virtual-player profiles, not human users or1000 LLM agents",
+    "physics": "current Unity production transitions with hash-bound state/action cache",
+    "pilotUsers": 32,
+    "pairedReferenceAndGeneratedSeeds": true,
+    "reservePolicyFamiliesForFinalEvaluation": true,
+    "storedSolutionVisibleToAgent": false,
+    "humanCalibrationAvailable": false,
+    "status": "SOURCE1000_COMPLETE__NEW_PREVIEW_PAIRED32_COMPLETE__PAIRED1000_WAITS_UNITY_IDLE",
+    "numericContentGatesApplied": [],
+    "completedSourceProfiles": 1000,
+    "completedSourceSessions": 2000,
+    "completedSourceSummary": "runs/ordinary_v4/batches/virtual_players_v5_source1000_a/summary/summary.json",
+    "pairedDiagnosticCheckpoint": "runs/ordinary_v4/batches/virtual_players_v5_paired_c1000_cached/native_report.json",
+    "currentPreviewPairedPilot": "runs/ordinary_v4/batches/virtual_players_v6_preview_pair32/summary/summary.json",
+    "currentPreviewPaired1000Status": "Interrupted by user Play Mode; no result claimed"
+  },
+  "trainingPreview": {
+    "enabled": true,
+    "manifest": "runs/ordinary_v4/preview/current_preview.json",
+    "acceptedToward300": 0,
+    "relativeDifficultyToleranceRequested": 0.15,
+    "difficultyToleranceVerified": false,
+    "userPriority": "Coherent interlocking gameplay and ongoing feedback across difficulty samples; some source-like layouts allowed; from-empty generation still required.",
+    "revision": "preview-v3-six-native-replayed",
+    "samples": 6,
+    "nativeReplayVerifiedSamples": 6,
+    "userFeedback": "User classifies all current six samples as SUPER EASY",
+    "userFeedbackSource": "Explicit user chat; applies to current pack",
+    "humanDifficultyMatched": false
+  },
+  "sourceDesignResearch": {
+    "method": "Original source data played through Unity clone native gestures, not direct APK runtime input",
+    "summary": "runs/ordinary_v4/playtests/source_design_v7/source_mechanism_lessons_v7.json",
+    "report": "runs/ordinary_v4/playtests/source_design_v7/SOURCE_MECHANISMS_V7.md",
+    "originalPositionsWithNativeGoal": [
+      39,
+      49,
+      129,
+      175,
+      285
+    ],
+    "humanDifficultyCalibration": false,
+    "hudNumbering": "Original QA displays source progression position, not filtered corpus list index",
+    "staticUiTagRankerStatus": "Rejected for acceptance: mechanism features OOF balanced accuracy0.4069 below counts-only0.4371; cyclic UI labels are not human difficulty",
+    "staticUiTagRankerReport": "runs/ordinary_v4/reports/mechanism_rank_v8.json",
+    "jointV8NativePilot": "runs/ordinary_v4/batches/joint_hyperedge_v8_native_six_20261106/withheld_summary.json"
+  }
+}

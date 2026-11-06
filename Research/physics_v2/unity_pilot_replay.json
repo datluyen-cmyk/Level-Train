@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"solved\":false,\"gestures\":0,\"error\":\"Initial solid overlap against part 5 (body)\"},\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "solved": false,
+        "gestures": 0,
+        "error": "Initial solid overlap against part 5 (body)"
+      },
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

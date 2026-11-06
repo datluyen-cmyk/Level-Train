@@ -1,0 +1,309 @@
+{
+    "schemaVersion": 3,
+    "status": "partial",
+    "semantics": "production Physics2D collision/bomb components; bounded action search; solved rows are action witnesses, not optimality or human-difficulty claims; failed search is unknown",
+    "packPath": "D:\\RotateRings\\Research\\physics_v3\\source_parity_pack.json",
+    "templatesPath": "D:\\RotateRings\\Research\\physics_v3\\source_templates.json",
+    "maxStates": 256,
+    "wallTimeBudgetMs": 15000,
+    "complete": true,
+    "completedLevels": 8,
+    "totalLevels": 8,
+    "inputHash": "9d3cc933a355b0127d0de8cbc3a319eb77e9012a11820267ebffe63326b08c14",
+    "rulesHash": "85cecbb0a6b8c5c31b18612106c36896909dbf915c6f23b29e28f6721e1748a0",
+    "unityVersion": "6000.0.78f1",
+    "fixedDeltaTime": 0.01666666753590107,
+    "levels": [
+        {
+            "sourceId": 10001,
+            "sourcePosition": 1,
+            "partCount": 2,
+            "exploredStates": 1,
+            "generatedActions": 1,
+            "replayedActions": 1,
+            "moveCount": 1,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2
+            ]
+        },
+        {
+            "sourceId": 10010,
+            "sourcePosition": 6,
+            "partCount": 10,
+            "exploredStates": 16,
+            "generatedActions": 2077,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 10012,
+            "sourcePosition": 7,
+            "partCount": 13,
+            "exploredStates": 11,
+            "generatedActions": 1504,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 10154,
+            "sourcePosition": 10,
+            "partCount": 19,
+            "exploredStates": 54,
+            "generatedActions": 10699,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 10109,
+            "sourcePosition": 20,
+            "partCount": 22,
+            "exploredStates": 66,
+            "generatedActions": 8782,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 10166,
+            "sourcePosition": 101,
+            "partCount": 16,
+            "exploredStates": 105,
+            "generatedActions": 7489,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 10190,
+            "sourcePosition": 256,
+            "partCount": 23,
+            "exploredStates": 2,
+            "generatedActions": 243,
+            "replayedActions": 0,
+            "moveCount": -1,
+            "status": "unknown",
+            "proof": "wall time budget reached before a goal; bounded search cannot establish unsolvability",
+            "error": "",
+            "validationError": "",
+            "goal": false,
+            "replayGoal": false,
+            "actions": [],
+            "finalRemoved": []
+        },
+        {
+            "sourceId": 140004,
+            "sourcePosition": 430,
+            "partCount": 13,
+            "exploredStates": 90,
+            "generatedActions": 2222,
+            "replayedActions": 16,
+            "moveCount": 16,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": 97.49258422851563,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": -167.70042419433595,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 5,
+                    "delta": -120.19200134277344,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": 186.123291015625,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 8,
+                    "delta": -98.34857177734375,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 6,
+                    "delta": 167.70040893554688,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 9,
+                    "delta": 110.33200073242188,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 7,
+                    "delta": -186.12332153320313,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 11,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 13,
+                    "delta": 0.0,
+                    "targetSlide": 0.36000001430511477,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 13,
+                    "delta": 0.0,
+                    "targetSlide": 0.7100000381469727,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 13,
+                    "delta": 0.0,
+                    "targetSlide": 1.059999942779541,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 12,
+                    "delta": 0.0,
+                    "targetSlide": 0.36000001430511477,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 12,
+                    "delta": 0.0,
+                    "targetSlide": 0.7100000381469727,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "slide",
+                    "part": 12,
+                    "delta": 0.0,
+                    "targetSlide": 1.059999942779541,
+                    "blocked": false,
+                    "guided": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 10,
+                    "delta": -90.00003051757813,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ]
+        }
+    ]
+}

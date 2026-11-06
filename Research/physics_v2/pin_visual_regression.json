@@ -1,0 +1,56 @@
+{
+    "passed": true,
+    "status": "passed",
+    "startedUtc": "2026-11-05T08:39:04.6964889Z",
+    "finishedUtc": "2026-11-05T08:39:04.7664213Z",
+    "unityVersion": "6000.0.78f1",
+    "levelId": 5,
+    "sourceId": 0,
+    "targetId": 1,
+    "runtimeSha256": "71d3970a8712e875c6662c111a398915922d2f148482685ef4945db58a4760df",
+    "worldViewSha256": "b9a8b5f141be3a8680e108989855662d97194d138004cb977a030d6e2b96c92b",
+    "collisionWorldSha256": "57f05df23a9c9d383da1fe5006a08a4ae16d6aeadd90daf800823313cda40b76",
+    "qaHarnessSha256": "ab0b2e5f6f2fe0c0f9e6e3cffffa6a9fcb5d048aa7da7e7c3b574f7cde153ab5",
+    "levelPackSha256": "88574cc744ed69f00cf5ae7e9ad8f0c333099e814abb78ff9885e5959e9103ae",
+    "templateCatalogSha256": "6f1e3d338a7ab1ca2a63cc125c8bdc3e9be3812b0e0456de07086a0577ee7c4a",
+    "playerPrefsRestored": true,
+    "runInBackgroundPreserved": true,
+    "assertions": [
+        {
+            "name": "Source attachment is included in the rendered source-part mesh",
+            "passed": true,
+            "detail": "mesh vertices=132, renderer=True"
+        },
+        {
+            "name": "Binding unlock and relock leave the integrated source attachment visible",
+            "passed": true,
+            "detail": "active: start=True, opened=False, relocked=True, source mesh while opened=True"
+        },
+        {
+            "name": "Changing source angle rotates the attachment with its whole-part mesh",
+            "passed": true,
+            "detail": "pointBefore=(-2.76, -5.19, 0.00), pointAfter=(-1.45, -5.49, 0.00), travel=1.338289"
+        },
+        {
+            "name": "Removing target hides its mesh and keeps the source attachment mesh visible",
+            "passed": true,
+            "detail": "targetRendererAfterRemoval=False, sourceMeshAfterRemoval=True"
+        },
+        {
+            "name": "Source removal hides its integrated attachment and runtime Undo restores it",
+            "passed": true,
+            "detail": "sourceHidden=True, attachmentHidden=True, sourceRestored=True, attachmentRestored=True"
+        },
+        {
+            "name": "PlayerPrefs progress preserved",
+            "passed": true,
+            "detail": "hadKey=True, value=4"
+        },
+        {
+            "name": "Application.runInBackground preserved",
+            "passed": true,
+            "detail": "value=True"
+        }
+    ],
+    "error": ""
+}

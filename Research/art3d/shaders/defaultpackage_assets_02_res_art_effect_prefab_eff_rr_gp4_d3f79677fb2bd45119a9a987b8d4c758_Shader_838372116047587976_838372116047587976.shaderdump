@@ -1,0 +1,166 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "HsApp/Particles/HsAppVFXAllEffect" {
+Properties {
+
+_EmissionColor ("Emission Color", Color) = (1,1,1,1)
+
+_AlphaCutoff ("Alpha Cutoff ", Range(0, 1)) = 0.5
+
+_Main_Tex ("Main_Tex", 2D) = "white" { }
+
+[Header(Main_Tex)] _MainTex ("MainTex", 2D) = "white" { }
+
+[Enum(Add,1,Alpha,10)] _Dst ("BlendMode", Float) = 1.0
+
+[ToggleUI] _GammaRestore ("近似还原Gamma空间", Float) = 0.0
+
+_RemapGammaSRGB ("Remap Gamma sRGB", Float) = 1.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _CullMode ("CullMode", Float) = 2.0
+
+[Enum(Less or Equal,4,Always,8)] _ZTestMode ("ZTest", Float) = 4.0
+
+[Enum(ON,1,OFF,0)] _Zwrite ("Zwrite", Float) = 0.0
+
+_Main_Tex_Color ("Main_Tex_Color", Color) = (1,1,1,1)
+
+[Enum(R,0,A,1)] _Main_Tex_A_R ("Main_Tex_A_R", Float) = 0.0
+
+[Enum(Normal,0,Custom,1)] _Main_Tex_Custom_ZW ("Main_Tex_Custom_ZW", Float) = 0.0
+
+_Main_Tex_U_speed ("Main_Tex_U_speed", Float) = 0.0
+
+_Main_Tex_V_speed ("Main_Tex_V_speed", Float) = 0.0
+
+[Enum(Rectangular,0,Polar,1)] _Main_Tex_CoordMode ("MainTex Coordinate Mode", Float) = 0.0
+
+[Header(Remap_Tex)] _Remap_Tex ("Remap_Tex", 2D) = "white" { }
+
+_Remap_Tex_Color ("Remap_Tex_Color", Color) = (1,1,1,1)
+
+[Toggle(_REMAP_SWITCH_ON)] _Remap_Switch ("Remap_Switch", Float) = 0.0
+
+[Enum(OFF,0,ON,1)] _Remap_Tex_Followl_Main_Tex ("Remap_Tex_Followl_Main_Tex", Float) = 0.0
+
+[Enum(R,0,A,1)] _Remap_Tex_A_R ("Remap_Tex_A_R", Float) = 0.0
+
+_Remap_Tex_U_speed ("Remap_Tex_U_speed", Float) = 0.0
+
+_Remap_Tex_V_speed ("Remap_Tex_V_speed", Float) = 0.0
+
+[Enum(Rectangular,0,Polar,1)] _Remap_Tex_CoordMode ("RemapTex Coordinate Mode", Float) = 0.0
+
+_Remap_BlendMode ("Remap Blend Mode (0=Alpha,1=Add,2=Over)", Float) = 0.0
+
+[Header(Mask_Tex)] _Mask_Tex ("Mask_Tex", 2D) = "white" { }
+
+[Toggle(_MASK_SWITCH_ON)] _Mask_Switch ("Mask_Switch", Float) = 0.0
+
+[Enum(R,0,A,1)] _Mask_Tex_A_R ("Mask_Tex_A_R", Float) = 0.0
+
+_Mask_Tex_U_speed ("Mask_Tex_U_speed", Float) = 0.0
+
+_Mask_Tex_V_speed ("Mask_Tex_V_speed", Float) = 0.0
+
+[Enum(Rectangular,0,Polar,1)] _Mask_Tex_CoordMode ("MaskTex Coordinate Mode", Float) = 0.0
+
+[Header(Dissolve_Tex)] _Dissolve_Tex ("Dissolve_Tex", 2D) = "white" { }
+
+[Toggle(_DISSOLVE_SWITCH_ON)] _Dissolve_Switch ("Dissolve_Switch", Float) = 0.0
+
+[Enum(R,0,A,1)] _Dissolve_Tex_A_R ("Dissolve_Tex_A_R", Float) = 0.0
+
+[Enum(OFF,0,ON,1)] _Dissolve_Tex_Custom_X ("Dissolve_Tex_Custom_X", Float) = 0.0
+
+_Dissolve_Tex_smooth ("Dissolve_Tex_smooth", Range(0.5, 1)) = 0.5
+
+_Dissolve_Tex_power ("Dissolve_Tex_power", Range(0, 1)) = 0.0
+
+_Dissolve_Tex_U_speed ("Dissolve_Tex_U_speed", Float) = 0.0
+
+_Dissolve_Tex_V_speed ("Dissolve_Tex_V_speed", Float) = 0.0
+
+[Enum(Rectangular,0,Polar,1)] _Dissolve_Tex_CoordMode ("DissolveTex Coordinate Mode", Float) = 0.0
+
+_Dissolve_Dir_Tex ("Dissolve Dir Tex", 2D) = "white" { }
+
+_Dissolve_Dir_Enabled ("", Float) = 0.0
+
+[Toggle(_DISSOLVE_OUTLINE_ON)] _Dissolve_Outline_On ("Dissolve Outline On", Float) = 0.0
+
+_Dissolve_Outline_Color ("Dissolve Outline Color", Color) = (1,0.65,0.2,1)
+
+_Dissolve_Outline_Width ("Dissolve Outline Width", Range(0, 1)) = 0.20000000298023224
+
+_Dissolve_Outline_Trans ("Dissolve Outline Trans", Range(0, 0.5)) = 0.10000000149011612
+
+_Dissolve_Outline_BlendMode ("Outline Blend Mode (0=Add,1=Alpha,2=Lerp)", Float) = 0.0
+
+[Header(Distortion_Tex)] _Distortion_Tex ("Distortion_Tex", 2D) = "white" { }
+
+[Toggle(_DISTORTION_SWITCH_ON)] _Distortion_Switch ("Distortion_Switch", Float) = 0.0
+
+_Distortion_Tex_Power ("Distortion_Tex_Power", Float) = 0.0
+
+_Distortion_Tex_U_speed ("Distortion_Tex_U_speed", Float) = 0.0
+
+_Distortion_Tex_V_speed ("Distortion_Tex_V_speed", Float) = 0.0
+
+[Enum(OFF,0,ON,1)] _Distortion_Affect_Dissolve ("Distortion Affects Dissolve", Float) = 0.0
+
+[Enum(OFF,0,ON,1)] _Distortion_Affect_Mask ("Distortion Affects Mask", Float) = 0.0
+
+[Enum(Classic,0,Normal,1)] _Distortion_Vec2_Mode ("Distortion Vec2 Mode (RG 双通道 2D 位移)", Float) = 0.0
+
+[Toggle(_SCREEN_DISTORTION_ON)] _Screen_Distortion_Switch ("Screen Distortion (屏幕空间折射)", Float) = 0.0
+
+_StencilComp ("Stencil Comparison", Float) = 8.0
+
+_Stencil ("Stencil ID", Float) = 0.0
+
+_StencilOp ("Stencil Operation", Float) = 0.0
+
+_StencilWriteMask ("Stencil Write Mask", Float) = 255.0
+
+_StencilReadMask ("Stencil Read Mask", Float) = 255.0
+
+_ColorMask ("Color Mask", Float) = 15.0
+
+_ClipRect ("Clip Rect", Vector) = (-32767,-32767,32767,32767)
+
+_UIMaskSoftnessX ("Mask SoftnessX", Float) = 0.0
+
+_UIMaskSoftnessY ("Mask SoftnessY", Float) = 0.0
+
+[Enum(FollowShaderDefault,0,UnityPresetQueue,1,Transparent3000Offset,2)] _VFXEditorQueueMode ("", Float) = 2.0
+
+_VFXEditorQueueOffset ("", Range(-200, 200)) = 0.0
+
+[Enum(Background,0,Geometry,1,AlphaTest,2,Transparent,3,Overlay,4)] _VFXEditorQueuePreset ("", Float) = 3.0
+
+_VFXEditorQueueCustomOn ("", Float) = 0.0
+
+_VFXEditorQueueUiChoice ("", Float) = 0.0
+
+_VFXEditorQueueCustomValue ("", Float) = 3000.0
+
+[Enum(Particle,0,Model,1,UI,2,Sprite,3)] _VFXAppScene ("", Float) = 0.0
+
+}
+SubShader {
+ Tags { "CanUseSpriteAtlas" = "true" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ Pass {
+ Name "Forward"
+  Tags { "CanUseSpriteAtlas" = "true" "LIGHTMODE" = "UniversalForward" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+ Cull Off
+  GpuProgramID 44676
+}
+}
+CustomEditor "XingYun.Rendering.Editor.HS_VFXAllEffectShaderGUI"
+}

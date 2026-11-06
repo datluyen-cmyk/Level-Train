@@ -1,0 +1,45 @@
+{
+  "testKind": "actual Tkinter app methods with real saved-model subprocess; window withdrawn",
+  "bundle": "D:\\RotateRings\\RotateRings Test\\LevelTraining",
+  "finalPackExcludedByDefault": true,
+  "tests": {
+    "config": {
+      "info": "Rotate Rings / LevelTraining · 300 level tham chiếu · Đã có mô hình; sẽ kiểm tra tính toàn vẹn khi chạy.",
+      "title": "Level Generator • Rotate Rings",
+      "modelsRecognized": true
+    },
+    "cancellation": {
+      "started": true,
+      "checkpointWritten": true,
+      "stopped": true,
+      "cancelledFlag": true,
+      "status": "Đã dừng. Các level đã lưu nằm trong partial_levels.json nếu có.",
+      "output": "D:\\RotateRings\\RotateRings Test\\LevelTraining\\batches\\gui-qa\\batch-20261105-122659-402271",
+      "retainedAcceptedCount": 1,
+      "partialStillExists": true,
+      "controlsRestored": true
+    },
+    "generation": {
+      "finished": true,
+      "output": "D:\\RotateRings\\RotateRings Test\\LevelTraining\\batches\\gui-qa\\batch-20261105-122702-100717",
+      "status": "Hoàn tất: 1/1 level đạt. Mở kết quả để lấy JSON.",
+      "reportPresent": true,
+      "requestedCount": 1,
+      "generatedCount": 1,
+      "passed": true,
+      "packPresent": true,
+      "progressValue": 1.0,
+      "openResultsEnabled": true,
+      "errors": []
+    },
+    "incompletePresentation": {
+      "fixtureOnly": true,
+      "status": "Chưa đủ số lượng: 1/2 level đạt. Đã giữ phần đạt; xem báo cáo lý do loại.",
+      "correctlyReportsPartial": true
+    }
+  },
+  "passed": true,
+  "finalPackSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+  "finalPackUnchanged": true,
+  "status": "complete"
+}

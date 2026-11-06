@@ -1,0 +1,5120 @@
+{
+  "status": "SOURCE_ONLY_DISTANCE_CALIBRATION_NO_GATE_CHANGE",
+  "acceptedCount": 0,
+  "sourceCount": 500,
+  "sourceFamilies": 446,
+  "representation": "10 native normalized board-frame channels, own solid bounding span and stroke heading; orientation histogram excluded",
+  "protocol": "Five existing whole-family heldout folds; scaler and nearest32 context index training-only. Measure heldout source normalized field L1 to nearest context and closest field within32 contexts. No candidate used to set quantiles.",
+  "importantMetricDifference": "Historical rewrite delta uses candidate/source shared reference frame and raw L1 threshold2*removedfraction. This calibration uses independent board native normalization and distances to a source distribution, not changed-fraction or similarity to one reference. It does not retrospectively pass old rejects.",
+  "declaredBeforeEvaluation": {
+    "neighbors": 32,
+    "reportedQuantiles": [
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "hardGate": "none; visual/native/replay/noncopy remain mandatory"
+  },
+  "quantiles": {
+    "nearestContextFieldL1": {
+      "0.05": 1.0779706347034506,
+      "0.25": 2.9422741783319664,
+      "0.5": 3.222704794067761,
+      "0.75": 3.4410811051238537,
+      "0.9": 3.6418440820846656,
+      "0.95": 3.765696546931397,
+      "0.99": 3.8847726265490006
+    },
+    "nearestFieldAmong32L1": {
+      "0.05": 0.7540191109714568,
+      "0.25": 2.6379725712407405,
+      "0.5": 2.8323712975210995,
+      "0.75": 2.9892034810040324,
+      "0.9": 3.144709460909756,
+      "0.95": 3.228280283241272,
+      "0.99": 3.3036080034581072
+    }
+  },
+  "levels": [
+    {
+      "sourceId": "60023",
+      "position": 14,
+      "fold": 0,
+      "nearestContextSourceId": "60001",
+      "nearestContextFieldL1": 3.117945692739021,
+      "nearestFieldAmong32SourceId": "10030",
+      "nearestFieldAmong32L1": 2.6042349447499413,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10060",
+      "position": 19,
+      "fold": 0,
+      "nearestContextSourceId": "10056",
+      "nearestContextFieldL1": 3.4605449346376687,
+      "nearestFieldAmong32SourceId": "10064",
+      "nearestFieldAmong32L1": 2.7924934005596063,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10069",
+      "position": 25,
+      "fold": 0,
+      "nearestContextSourceId": "10014",
+      "nearestContextFieldL1": 3.0957624161516804,
+      "nearestFieldAmong32SourceId": "10038",
+      "nearestFieldAmong32L1": 2.833093601827864,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10157",
+      "position": 30,
+      "fold": 0,
+      "nearestContextSourceId": "10111",
+      "nearestContextFieldL1": 3.2499588911599817,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 2.864318322300387,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70011",
+      "position": 31,
+      "fold": 0,
+      "nearestContextSourceId": "71017",
+      "nearestContextFieldL1": 3.5527226310034443,
+      "nearestFieldAmong32SourceId": "71022",
+      "nearestFieldAmong32L1": 3.251213256058813,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10168",
+      "position": 102,
+      "fold": 0,
+      "nearestContextSourceId": "71030",
+      "nearestContextFieldL1": 3.3967442364457487,
+      "nearestFieldAmong32SourceId": "10067",
+      "nearestFieldAmong32L1": 2.8346169122765206,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20003",
+      "position": 103,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.224516162298376,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8939206288860437,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20031",
+      "position": 108,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.7250976649517802,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7145161722971306,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71006",
+      "position": 109,
+      "fold": 0,
+      "nearestContextSourceId": "10040",
+      "nearestContextFieldL1": 3.547719987793537,
+      "nearestFieldAmong32SourceId": "71120",
+      "nearestFieldAmong32L1": 2.954695346420692,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20001",
+      "position": 113,
+      "fold": 0,
+      "nearestContextSourceId": "10050",
+      "nearestContextFieldL1": 2.4882077407369163,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.83179528816693,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71020",
+      "position": 114,
+      "fold": 0,
+      "nearestContextSourceId": "70025",
+      "nearestContextFieldL1": 3.347327040492755,
+      "nearestFieldAmong32SourceId": "71012",
+      "nearestFieldAmong32L1": 2.80366270047915,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20029",
+      "position": 118,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7332270585371914,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6951736191712315,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10159",
+      "position": 120,
+      "fold": 0,
+      "nearestContextSourceId": "72012",
+      "nearestContextFieldL1": 3.7825852568035883,
+      "nearestFieldAmong32SourceId": "72006",
+      "nearestFieldAmong32L1": 2.9243673859804398,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20005",
+      "position": 123,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.2345624458276143,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9224699912566807,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60030",
+      "position": 125,
+      "fold": 0,
+      "nearestContextSourceId": "73007",
+      "nearestContextFieldL1": 3.4345506630187446,
+      "nearestFieldAmong32SourceId": "10006",
+      "nearestFieldAmong32L1": 2.707048194075818,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20023",
+      "position": 128,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.8178205565556923,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7747716784113795,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20007",
+      "position": 133,
+      "fold": 0,
+      "nearestContextSourceId": "10053",
+      "nearestContextFieldL1": 1.8774669797374446,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8774669797374446,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71023",
+      "position": 136,
+      "fold": 0,
+      "nearestContextSourceId": "10044",
+      "nearestContextFieldL1": 3.0597235674492653,
+      "nearestFieldAmong32SourceId": "71032",
+      "nearestFieldAmong32L1": 2.711064571106955,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20033",
+      "position": 138,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.8345271073675274,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.8345271073675274,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60032",
+      "position": 141,
+      "fold": 0,
+      "nearestContextSourceId": "60001",
+      "nearestContextFieldL1": 2.881883550175383,
+      "nearestFieldAmong32SourceId": "73009",
+      "nearestFieldAmong32L1": 2.6226151332914296,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20009",
+      "position": 143,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.1555304004882627,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8808407742033846,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71027",
+      "position": 147,
+      "fold": 0,
+      "nearestContextSourceId": "71028",
+      "nearestContextFieldL1": 2.868634065463356,
+      "nearestFieldAmong32SourceId": "71012",
+      "nearestFieldAmong32L1": 2.82342155169893,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20037",
+      "position": 148,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7247910829862061,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6902087190512349,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71021",
+      "position": 152,
+      "fold": 0,
+      "nearestContextSourceId": "71019",
+      "nearestContextFieldL1": 3.0916199154190354,
+      "nearestFieldAmong32SourceId": "71124",
+      "nearestFieldAmong32L1": 2.8029401395647486,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20013",
+      "position": 153,
+      "fold": 0,
+      "nearestContextSourceId": "10050",
+      "nearestContextFieldL1": 2.467001381560285,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9003905660505476,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20027",
+      "position": 158,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7969109000741115,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7056979358690244,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60028",
+      "position": 159,
+      "fold": 0,
+      "nearestContextSourceId": "60001",
+      "nearestContextFieldL1": 2.076234912457129,
+      "nearestFieldAmong32SourceId": "90006",
+      "nearestFieldAmong32L1": 2.0691535259616893,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20015",
+      "position": 163,
+      "fold": 0,
+      "nearestContextSourceId": "10050",
+      "nearestContextFieldL1": 2.4527155579793742,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9107763596518228,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10037",
+      "position": 164,
+      "fold": 0,
+      "nearestContextSourceId": "10179",
+      "nearestContextFieldL1": 3.430013084339935,
+      "nearestFieldAmong32SourceId": "10066",
+      "nearestFieldAmong32L1": 2.8305939132732854,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20039",
+      "position": 168,
+      "fold": 0,
+      "nearestContextSourceId": "70013",
+      "nearestContextFieldL1": 3.114109924477449,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7542334005851541,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10155",
+      "position": 170,
+      "fold": 0,
+      "nearestContextSourceId": "72009",
+      "nearestContextFieldL1": 2.6887422171396893,
+      "nearestFieldAmong32SourceId": "72009",
+      "nearestFieldAmong32L1": 2.6887422171396893,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20017",
+      "position": 173,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.261834211920474,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.907814856147728,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71029",
+      "position": 175,
+      "fold": 0,
+      "nearestContextSourceId": "71132",
+      "nearestContextFieldL1": 3.222704794067761,
+      "nearestFieldAmong32SourceId": "71135",
+      "nearestFieldAmong32L1": 2.7499591914487955,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20025",
+      "position": 178,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7306203731242704,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6777739425813655,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20019",
+      "position": 183,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.2164091086522135,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8939839544801103,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70034",
+      "position": 186,
+      "fold": 0,
+      "nearestContextSourceId": "10017",
+      "nearestContextFieldL1": 3.2079408852225275,
+      "nearestFieldAmong32SourceId": "50014",
+      "nearestFieldAmong32L1": 3.164955579955914,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20021",
+      "position": 188,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.6995958879729739,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.6995958879729739,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10032",
+      "position": 191,
+      "fold": 0,
+      "nearestContextSourceId": "10017",
+      "nearestContextFieldL1": 3.1149345231098726,
+      "nearestFieldAmong32SourceId": "70023",
+      "nearestFieldAmong32L1": 2.612431909039943,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20011",
+      "position": 193,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.2503929014210144,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8644032280782985,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10047",
+      "position": 197,
+      "fold": 0,
+      "nearestContextSourceId": "10024",
+      "nearestContextFieldL1": 3.3692295008948965,
+      "nearestFieldAmong32SourceId": "10044",
+      "nearestFieldAmong32L1": 2.8761524407093306,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20035",
+      "position": 198,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.8614735543758049,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7964287028258861,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70038",
+      "position": 201,
+      "fold": 0,
+      "nearestContextSourceId": "70025",
+      "nearestContextFieldL1": 3.1870364535974263,
+      "nearestFieldAmong32SourceId": "71140",
+      "nearestFieldAmong32L1": 2.7810012185218946,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20043",
+      "position": 203,
+      "fold": 0,
+      "nearestContextSourceId": "10050",
+      "nearestContextFieldL1": 2.4814428192935885,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8958891988133217,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60045",
+      "position": 207,
+      "fold": 0,
+      "nearestContextSourceId": "71024",
+      "nearestContextFieldL1": 3.472605725075649,
+      "nearestFieldAmong32SourceId": "71012",
+      "nearestFieldAmong32L1": 2.7816978494854006,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20088",
+      "position": 208,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 1.0796790393178846,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 1.0796790393178846,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71114",
+      "position": 212,
+      "fold": 0,
+      "nearestContextSourceId": "71112",
+      "nearestContextFieldL1": 3.0594474632135036,
+      "nearestFieldAmong32SourceId": "71202",
+      "nearestFieldAmong32L1": 2.8712626499711567,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20067",
+      "position": 213,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.218183835654864,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9217208982044425,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20087",
+      "position": 218,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.6086772885838869,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.6086772885838869,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71136",
+      "position": 219,
+      "fold": 0,
+      "nearestContextSourceId": "71135",
+      "nearestContextFieldL1": 2.9452702731825955,
+      "nearestFieldAmong32SourceId": "71137",
+      "nearestFieldAmong32L1": 2.7681859409330642,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20071",
+      "position": 223,
+      "fold": 0,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.213864926383659,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8855708343473387,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60050",
+      "position": 224,
+      "fold": 0,
+      "nearestContextSourceId": "60067",
+      "nearestContextFieldL1": 3.1750755577128023,
+      "nearestFieldAmong32SourceId": "50006",
+      "nearestFieldAmong32L1": 3.112962350992551,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20082",
+      "position": 228,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7774268902460626,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7550805802088416,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60079",
+      "position": 230,
+      "fold": 0,
+      "nearestContextSourceId": "60047",
+      "nearestContextFieldL1": 3.7852349885506293,
+      "nearestFieldAmong32SourceId": "10156",
+      "nearestFieldAmong32L1": 3.2426591634856656,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20057",
+      "position": 233,
+      "fold": 0,
+      "nearestContextSourceId": "10050",
+      "nearestContextFieldL1": 2.4996432296609816,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8634672485798456,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71107",
+      "position": 235,
+      "fold": 0,
+      "nearestContextSourceId": "71110",
+      "nearestContextFieldL1": 2.7029814496933326,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 2.7029814496933326,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20090",
+      "position": 238,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.6188317244212473,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6188317244212473,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20041",
+      "position": 243,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9051561308549982,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9051561308549982,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73011",
+      "position": 246,
+      "fold": 0,
+      "nearestContextSourceId": "60006",
+      "nearestContextFieldL1": 3.6422906997319906,
+      "nearestFieldAmong32SourceId": "73013",
+      "nearestFieldAmong32L1": 3.1879825176068968,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20084",
+      "position": 248,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.6983990472785304,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.6983990472785304,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71117",
+      "position": 251,
+      "fold": 0,
+      "nearestContextSourceId": "71113",
+      "nearestContextFieldL1": 3.2495250436898013,
+      "nearestFieldAmong32SourceId": "71013",
+      "nearestFieldAmong32L1": 2.789128419825135,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20045",
+      "position": 253,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9035449372881559,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7966914086866828,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71122",
+      "position": 257,
+      "fold": 0,
+      "nearestContextSourceId": "71131",
+      "nearestContextFieldL1": 3.376885652421352,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.7517658163497405,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20097",
+      "position": 258,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7186454888142058,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6726939648618779,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71115",
+      "position": 262,
+      "fold": 0,
+      "nearestContextSourceId": "71120",
+      "nearestContextFieldL1": 3.0936820595015018,
+      "nearestFieldAmong32SourceId": "71120",
+      "nearestFieldAmong32L1": 3.0936820595015018,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20075",
+      "position": 263,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.875440015606738,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.875440015606738,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20086",
+      "position": 268,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.6996181578582762,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6996181578582762,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60055",
+      "position": 269,
+      "fold": 0,
+      "nearestContextSourceId": "70035",
+      "nearestContextFieldL1": 3.078337708586585,
+      "nearestFieldAmong32SourceId": "70023",
+      "nearestFieldAmong32L1": 2.9433486316085022,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20063",
+      "position": 273,
+      "fold": 0,
+      "nearestContextSourceId": "60034",
+      "nearestContextFieldL1": 2.7868463390083673,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.9182452424475462,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71129",
+      "position": 274,
+      "fold": 0,
+      "nearestContextSourceId": "71125",
+      "nearestContextFieldL1": 3.0919867940656465,
+      "nearestFieldAmong32SourceId": "71103",
+      "nearestFieldAmong32L1": 2.9169544680298873,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20085",
+      "position": 278,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7373346865123735,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7373346865123735,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72014",
+      "position": 280,
+      "fold": 0,
+      "nearestContextSourceId": "10095",
+      "nearestContextFieldL1": 3.7909508341935565,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 2.708114801182263,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20079",
+      "position": 283,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.8942885876785116,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8942885876785116,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10187",
+      "position": 285,
+      "fold": 0,
+      "nearestContextSourceId": "10186",
+      "nearestContextFieldL1": 3.218277750938663,
+      "nearestFieldAmong32SourceId": "60078",
+      "nearestFieldAmong32L1": 2.954185246996368,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20099",
+      "position": 288,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7066323719237722,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.6464032462521069,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20061",
+      "position": 293,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.8709151092503304,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8697813657932727,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60043",
+      "position": 296,
+      "fold": 0,
+      "nearestContextSourceId": "10033",
+      "nearestContextFieldL1": 3.0538544414897055,
+      "nearestFieldAmong32SourceId": "150006",
+      "nearestFieldAmong32L1": 2.8604173355343523,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20083",
+      "position": 298,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.7339413772034717,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7060107000924789,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20047",
+      "position": 303,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.887335715265784,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.880160576148446,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60092",
+      "position": 306,
+      "fold": 0,
+      "nearestContextSourceId": "60073",
+      "nearestContextFieldL1": 3.439293471739928,
+      "nearestFieldAmong32SourceId": "71012",
+      "nearestFieldAmong32L1": 3.125381322013739,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20081",
+      "position": 308,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.740928095953896,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7291361200042928,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10174",
+      "position": 311,
+      "fold": 0,
+      "nearestContextSourceId": "10173",
+      "nearestContextFieldL1": 3.102390698415038,
+      "nearestFieldAmong32SourceId": "10178",
+      "nearestFieldAmong32L1": 2.958702990979018,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20069",
+      "position": 313,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.937500932799448,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.9067427649524626,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10195",
+      "position": 317,
+      "fold": 0,
+      "nearestContextSourceId": "10183",
+      "nearestContextFieldL1": 3.0309854507670773,
+      "nearestFieldAmong32SourceId": "10182",
+      "nearestFieldAmong32L1": 2.9309226300571805,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20098",
+      "position": 318,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.7025039610094452,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.6630246500555941,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71047",
+      "position": 322,
+      "fold": 0,
+      "nearestContextSourceId": "71124",
+      "nearestContextFieldL1": 2.8332256287452102,
+      "nearestFieldAmong32SourceId": "71106",
+      "nearestFieldAmong32L1": 2.7561147426297063,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20049",
+      "position": 323,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.8595158290463512,
+      "nearestFieldAmong32SourceId": "50010",
+      "nearestFieldAmong32L1": 1.8595158290463512,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20096",
+      "position": 328,
+      "fold": 0,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.6973523957676853,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.6973523957676853,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71127",
+      "position": 329,
+      "fold": 0,
+      "nearestContextSourceId": "71131",
+      "nearestContextFieldL1": 3.125529229309187,
+      "nearestFieldAmong32SourceId": "71050",
+      "nearestFieldAmong32L1": 2.7442397935214426,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20073",
+      "position": 333,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.8953161261584874,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.819441720346934,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71105",
+      "position": 334,
+      "fold": 0,
+      "nearestContextSourceId": "71048",
+      "nearestContextFieldL1": 3.1187131370224326,
+      "nearestFieldAmong32SourceId": "71145",
+      "nearestFieldAmong32L1": 2.6869774349723468,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20100",
+      "position": 338,
+      "fold": 0,
+      "nearestContextSourceId": "20089",
+      "nearestContextFieldL1": 0.630177695936432,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.630177695936432,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10208",
+      "position": 340,
+      "fold": 0,
+      "nearestContextSourceId": "10209",
+      "nearestContextFieldL1": 2.7860115754410053,
+      "nearestFieldAmong32SourceId": "10206",
+      "nearestFieldAmong32L1": 2.7609691411601736,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20077",
+      "position": 343,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.8791781842582935,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7499476083112074,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71038",
+      "position": 345,
+      "fold": 0,
+      "nearestContextSourceId": "71124",
+      "nearestContextFieldL1": 2.94830978299938,
+      "nearestFieldAmong32SourceId": "71039",
+      "nearestFieldAmong32L1": 2.8579225957103813,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10207",
+      "position": 350,
+      "fold": 0,
+      "nearestContextSourceId": "10209",
+      "nearestContextFieldL1": 3.2433656422020567,
+      "nearestFieldAmong32SourceId": "60044",
+      "nearestFieldAmong32L1": 2.755196483255333,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20059",
+      "position": 353,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9070667948946998,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7269711960529908,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20065",
+      "position": 363,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.885167810427695,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7473951355318016,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20055",
+      "position": 373,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9674035112130235,
+      "nearestFieldAmong32SourceId": "20089",
+      "nearestFieldAmong32L1": 0.7445926779892859,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20051",
+      "position": 383,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9259022715191905,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 1.8970411926929005,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20053",
+      "position": 393,
+      "fold": 0,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 1.9153728653207724,
+      "nearestFieldAmong32SourceId": "20094",
+      "nearestFieldAmong32L1": 0.7651850148382159,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10005",
+      "position": 4,
+      "fold": 1,
+      "nearestContextSourceId": "10007",
+      "nearestContextFieldL1": 3.263730757204035,
+      "nearestFieldAmong32SourceId": "10009",
+      "nearestFieldAmong32L1": 2.8139619480110656,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10010",
+      "position": 6,
+      "fold": 1,
+      "nearestContextSourceId": "10011",
+      "nearestContextFieldL1": 3.7839920658659354,
+      "nearestFieldAmong32SourceId": "70010",
+      "nearestFieldAmong32L1": 3.2970119859838305,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10154",
+      "position": 10,
+      "fold": 1,
+      "nearestContextSourceId": "10152",
+      "nearestContextFieldL1": 3.80626594864058,
+      "nearestFieldAmong32SourceId": "10054",
+      "nearestFieldAmong32L1": 3.329518974725797,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70002",
+      "position": 15,
+      "fold": 1,
+      "nearestContextSourceId": "70005",
+      "nearestContextFieldL1": 3.1015976548760777,
+      "nearestFieldAmong32SourceId": "60058",
+      "nearestFieldAmong32L1": 2.82888196423872,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10109",
+      "position": 20,
+      "fold": 1,
+      "nearestContextSourceId": "10029",
+      "nearestContextFieldL1": 4.158025446293463,
+      "nearestFieldAmong32SourceId": "10159",
+      "nearestFieldAmong32L1": 3.468751008667379,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10111",
+      "position": 21,
+      "fold": 1,
+      "nearestContextSourceId": "10157",
+      "nearestContextFieldL1": 3.2499588911599817,
+      "nearestFieldAmong32SourceId": "90024",
+      "nearestFieldAmong32L1": 2.719434233844785,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60010",
+      "position": 26,
+      "fold": 1,
+      "nearestContextSourceId": "10070",
+      "nearestContextFieldL1": 2.780493516985672,
+      "nearestFieldAmong32SourceId": "60011",
+      "nearestFieldAmong32L1": 2.2299533595799232,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10048",
+      "position": 32,
+      "fold": 1,
+      "nearestContextSourceId": "71009",
+      "nearestContextFieldL1": 3.2783669020446338,
+      "nearestFieldAmong32SourceId": "71027",
+      "nearestFieldAmong32L1": 2.8582916527349616,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10039",
+      "position": 41,
+      "fold": 1,
+      "nearestContextSourceId": "10056",
+      "nearestContextFieldL1": 3.178840131718688,
+      "nearestFieldAmong32SourceId": "10040",
+      "nearestFieldAmong32L1": 3.12996629884261,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70025",
+      "position": 47,
+      "fold": 1,
+      "nearestContextSourceId": "71020",
+      "nearestContextFieldL1": 3.347327040492755,
+      "nearestFieldAmong32SourceId": "10051",
+      "nearestFieldAmong32L1": 2.3612392411521963,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60007",
+      "position": 54,
+      "fold": 1,
+      "nearestContextSourceId": "60006",
+      "nearestContextFieldL1": 3.2756265933556783,
+      "nearestFieldAmong32SourceId": "60009",
+      "nearestFieldAmong32L1": 2.997160909968008,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71002",
+      "position": 58,
+      "fold": 1,
+      "nearestContextSourceId": "10045",
+      "nearestContextFieldL1": 3.1906694431363767,
+      "nearestFieldAmong32SourceId": "70030",
+      "nearestFieldAmong32L1": 2.816312231203007,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70006",
+      "position": 61,
+      "fold": 1,
+      "nearestContextSourceId": "60011",
+      "nearestContextFieldL1": 2.31785742817004,
+      "nearestFieldAmong32SourceId": "20057",
+      "nearestFieldAmong32L1": 2.055718581242557,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10043",
+      "position": 65,
+      "fold": 1,
+      "nearestContextSourceId": "10045",
+      "nearestContextFieldL1": 3.656606985372305,
+      "nearestFieldAmong32SourceId": "10031",
+      "nearestFieldAmong32L1": 2.9486118935403676,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70028",
+      "position": 69,
+      "fold": 1,
+      "nearestContextSourceId": "10045",
+      "nearestContextFieldL1": 3.259810007889687,
+      "nearestFieldAmong32SourceId": "10038",
+      "nearestFieldAmong32L1": 2.954275763905717,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60001",
+      "position": 72,
+      "fold": 1,
+      "nearestContextSourceId": "60032",
+      "nearestContextFieldL1": 2.881883550175383,
+      "nearestFieldAmong32SourceId": "60028",
+      "nearestFieldAmong32L1": 2.076234912457129,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10057",
+      "position": 76,
+      "fold": 1,
+      "nearestContextSourceId": "10065",
+      "nearestContextFieldL1": 3.3528329900806866,
+      "nearestFieldAmong32SourceId": "10031",
+      "nearestFieldAmong32L1": 3.0804126345349134,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10072",
+      "position": 80,
+      "fold": 1,
+      "nearestContextSourceId": "10160",
+      "nearestContextFieldL1": 3.849830829020573,
+      "nearestFieldAmong32SourceId": "10152",
+      "nearestFieldAmong32L1": 2.854976565354556,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10021",
+      "position": 83,
+      "fold": 1,
+      "nearestContextSourceId": "71014",
+      "nearestContextFieldL1": 3.5000408939959637,
+      "nearestFieldAmong32SourceId": "70026",
+      "nearestFieldAmong32L1": 2.9716739686134988,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70012",
+      "position": 87,
+      "fold": 1,
+      "nearestContextSourceId": "70034",
+      "nearestContextFieldL1": 3.2742326270811617,
+      "nearestFieldAmong32SourceId": "71136",
+      "nearestFieldAmong32L1": 2.9896508644813653,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71005",
+      "position": 94,
+      "fold": 1,
+      "nearestContextSourceId": "10067",
+      "nearestContextFieldL1": 3.2397887008225563,
+      "nearestFieldAmong32SourceId": "70030",
+      "nearestFieldAmong32L1": 2.842266083994055,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10166",
+      "position": 101,
+      "fold": 1,
+      "nearestContextSourceId": "10168",
+      "nearestContextFieldL1": 3.6100224206574842,
+      "nearestFieldAmong32SourceId": "71029",
+      "nearestFieldAmong32L1": 2.9615672424194233,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10018",
+      "position": 107,
+      "fold": 1,
+      "nearestContextSourceId": "71003",
+      "nearestContextFieldL1": 3.503180133957379,
+      "nearestFieldAmong32SourceId": "10045",
+      "nearestFieldAmong32L1": 3.267205048343233,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60034",
+      "position": 112,
+      "fold": 1,
+      "nearestContextSourceId": "73006",
+      "nearestContextFieldL1": 2.899061475193879,
+      "nearestFieldAmong32SourceId": "10050",
+      "nearestFieldAmong32L1": 2.240986339010765,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70018",
+      "position": 119,
+      "fold": 1,
+      "nearestContextSourceId": "70009",
+      "nearestContextFieldL1": 3.518958879151824,
+      "nearestFieldAmong32SourceId": "71116",
+      "nearestFieldAmong32L1": 2.7552952254829273,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10046",
+      "position": 124,
+      "fold": 1,
+      "nearestContextSourceId": "70029",
+      "nearestContextFieldL1": 3.7571266580065825,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 3.0594526705889544,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72002",
+      "position": 130,
+      "fold": 1,
+      "nearestContextSourceId": "10157",
+      "nearestContextFieldL1": 3.3863387044086144,
+      "nearestFieldAmong32SourceId": "71033",
+      "nearestFieldAmong32L1": 2.723579749655552,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71024",
+      "position": 135,
+      "fold": 1,
+      "nearestContextSourceId": "71025",
+      "nearestContextFieldL1": 2.9819545502506077,
+      "nearestFieldAmong32SourceId": "71019",
+      "nearestFieldAmong32L1": 2.7393707231097144,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10122",
+      "position": 146,
+      "fold": 1,
+      "nearestContextSourceId": "10157",
+      "nearestContextFieldL1": 3.1421084814160576,
+      "nearestFieldAmong32SourceId": "72006",
+      "nearestFieldAmong32L1": 2.552392202397226,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60005",
+      "position": 151,
+      "fold": 1,
+      "nearestContextSourceId": "71010",
+      "nearestContextFieldL1": 2.9379545032657717,
+      "nearestFieldAmong32SourceId": "10051",
+      "nearestFieldAmong32L1": 2.4910943878031326,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70035",
+      "position": 157,
+      "fold": 1,
+      "nearestContextSourceId": "10019",
+      "nearestContextFieldL1": 3.484319123063782,
+      "nearestFieldAmong32SourceId": "10032",
+      "nearestFieldAmong32L1": 2.929907385652114,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60003",
+      "position": 162,
+      "fold": 1,
+      "nearestContextSourceId": "60048",
+      "nearestContextFieldL1": 2.8453358665359723,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 2.4424552631769343,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70023",
+      "position": 169,
+      "fold": 1,
+      "nearestContextSourceId": "70015",
+      "nearestContextFieldL1": 3.267299459971829,
+      "nearestFieldAmong32SourceId": "10032",
+      "nearestFieldAmong32L1": 2.612431909039943,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70022",
+      "position": 174,
+      "fold": 1,
+      "nearestContextSourceId": "70021",
+      "nearestContextFieldL1": 3.0846057257073394,
+      "nearestFieldAmong32SourceId": "10164",
+      "nearestFieldAmong32L1": 2.995887263451102,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10028",
+      "position": 180,
+      "fold": 1,
+      "nearestContextSourceId": "10041",
+      "nearestContextFieldL1": 3.346573301007534,
+      "nearestFieldAmong32SourceId": "50018",
+      "nearestFieldAmong32L1": 2.9676421283224954,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10030",
+      "position": 185,
+      "fold": 1,
+      "nearestContextSourceId": "20043",
+      "nearestContextFieldL1": 2.41391163402825,
+      "nearestFieldAmong32SourceId": "10050",
+      "nearestFieldAmong32L1": 1.5025666800093271,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10033",
+      "position": 196,
+      "fold": 1,
+      "nearestContextSourceId": "10024",
+      "nearestContextFieldL1": 3.4846911507628042,
+      "nearestFieldAmong32SourceId": "10047",
+      "nearestFieldAmong32L1": 3.0272016114159364,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60060",
+      "position": 206,
+      "fold": 1,
+      "nearestContextSourceId": "70005",
+      "nearestContextFieldL1": 2.878405073262691,
+      "nearestFieldAmong32SourceId": "60046",
+      "nearestFieldAmong32L1": 2.4291734471719515,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71119",
+      "position": 211,
+      "fold": 1,
+      "nearestContextSourceId": "71113",
+      "nearestContextFieldL1": 3.5824484161945653,
+      "nearestFieldAmong32SourceId": "60067",
+      "nearestFieldAmong32L1": 3.24492412559875,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60042",
+      "position": 217,
+      "fold": 1,
+      "nearestContextSourceId": "60057",
+      "nearestContextFieldL1": 3.2883668705551754,
+      "nearestFieldAmong32SourceId": "71016",
+      "nearestFieldAmong32L1": 2.865199027034704,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71111",
+      "position": 222,
+      "fold": 1,
+      "nearestContextSourceId": "71113",
+      "nearestContextFieldL1": 3.3578857608455976,
+      "nearestFieldAmong32SourceId": "71107",
+      "nearestFieldAmong32L1": 2.774063176828065,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70040",
+      "position": 229,
+      "fold": 1,
+      "nearestContextSourceId": "60081",
+      "nearestContextFieldL1": 3.273710759010629,
+      "nearestFieldAmong32SourceId": "10020",
+      "nearestFieldAmong32L1": 2.971109761997919,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60051",
+      "position": 234,
+      "fold": 1,
+      "nearestContextSourceId": "10170",
+      "nearestContextFieldL1": 3.394364422624763,
+      "nearestFieldAmong32SourceId": "70031",
+      "nearestFieldAmong32L1": 2.9679643516167884,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72009",
+      "position": 240,
+      "fold": 1,
+      "nearestContextSourceId": "72005",
+      "nearestContextFieldL1": 3.213825748141167,
+      "nearestFieldAmong32SourceId": "10155",
+      "nearestFieldAmong32L1": 2.6887422171396893,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71037",
+      "position": 245,
+      "fold": 1,
+      "nearestContextSourceId": "50016",
+      "nearestContextFieldL1": 3.1817495345381728,
+      "nearestFieldAmong32SourceId": "50004",
+      "nearestFieldAmong32L1": 3.141334671186222,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10190",
+      "position": 256,
+      "fold": 1,
+      "nearestContextSourceId": "10188",
+      "nearestContextFieldL1": 3.6663563281690137,
+      "nearestFieldAmong32SourceId": "20092",
+      "nearestFieldAmong32L1": 3.2271012723876584,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71120",
+      "position": 261,
+      "fold": 1,
+      "nearestContextSourceId": "71115",
+      "nearestContextFieldL1": 3.0936820595015018,
+      "nearestFieldAmong32SourceId": "71102",
+      "nearestFieldAmong32L1": 2.8762778977073804,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70039",
+      "position": 267,
+      "fold": 1,
+      "nearestContextSourceId": "10196",
+      "nearestContextFieldL1": 3.3200882746928637,
+      "nearestFieldAmong32SourceId": "71127",
+      "nearestFieldAmong32L1": 2.98546895374721,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60064",
+      "position": 272,
+      "fold": 1,
+      "nearestContextSourceId": "71109",
+      "nearestContextFieldL1": 3.4787931491400426,
+      "nearestFieldAmong32SourceId": "71004",
+      "nearestFieldAmong32L1": 2.9551894314691816,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71036",
+      "position": 279,
+      "fold": 1,
+      "nearestContextSourceId": "71035",
+      "nearestContextFieldL1": 3.0185763051811483,
+      "nearestFieldAmong32SourceId": "71038",
+      "nearestFieldAmong32L1": 2.756158342494591,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71104",
+      "position": 284,
+      "fold": 1,
+      "nearestContextSourceId": "10045",
+      "nearestContextFieldL1": 3.287192019952684,
+      "nearestFieldAmong32SourceId": "71125",
+      "nearestFieldAmong32L1": 2.7345121834351165,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60047",
+      "position": 290,
+      "fold": 1,
+      "nearestContextSourceId": "60079",
+      "nearestContextFieldL1": 3.7852349885506293,
+      "nearestFieldAmong32SourceId": "72013",
+      "nearestFieldAmong32L1": 3.253172466124394,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10186",
+      "position": 295,
+      "fold": 1,
+      "nearestContextSourceId": "10187",
+      "nearestContextFieldL1": 3.218277750938663,
+      "nearestFieldAmong32SourceId": "10183",
+      "nearestFieldAmong32L1": 2.982372449676639,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10189",
+      "position": 305,
+      "fold": 1,
+      "nearestContextSourceId": "10203",
+      "nearestContextFieldL1": 3.048594490475362,
+      "nearestFieldAmong32SourceId": "10203",
+      "nearestFieldAmong32L1": 3.048594490475362,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10193",
+      "position": 316,
+      "fold": 1,
+      "nearestContextSourceId": "10171",
+      "nearestContextFieldL1": 3.623710205940931,
+      "nearestFieldAmong32SourceId": "880001",
+      "nearestFieldAmong32L1": 3.2657837913932264,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71103",
+      "position": 321,
+      "fold": 1,
+      "nearestContextSourceId": "71116",
+      "nearestContextFieldL1": 3.240914824537314,
+      "nearestFieldAmong32SourceId": "71122",
+      "nearestFieldAmong32L1": 2.7713302229110504,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10197",
+      "position": 327,
+      "fold": 1,
+      "nearestContextSourceId": "73001",
+      "nearestContextFieldL1": 3.508304491723614,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 2.7900028969399524,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10178",
+      "position": 332,
+      "fold": 1,
+      "nearestContextSourceId": "60067",
+      "nearestContextFieldL1": 3.4358964821607243,
+      "nearestFieldAmong32SourceId": "10174",
+      "nearestFieldAmong32L1": 2.958702990979018,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71108",
+      "position": 339,
+      "fold": 1,
+      "nearestContextSourceId": "50013",
+      "nearestContextFieldL1": 3.443359846978077,
+      "nearestFieldAmong32SourceId": "60061",
+      "nearestFieldAmong32L1": 2.7932261721396365,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60072",
+      "position": 344,
+      "fold": 1,
+      "nearestContextSourceId": "60065",
+      "nearestContextFieldL1": 3.7953572893784355,
+      "nearestFieldAmong32SourceId": "10184",
+      "nearestFieldAmong32L1": 2.9019958758717816,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10202",
+      "position": 349,
+      "fold": 1,
+      "nearestContextSourceId": "10200",
+      "nearestContextFieldL1": 2.9501416669509517,
+      "nearestFieldAmong32SourceId": "50018",
+      "nearestFieldAmong32L1": 2.9386186795899825,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10180",
+      "position": 354,
+      "fold": 1,
+      "nearestContextSourceId": "10182",
+      "nearestContextFieldL1": 3.437392420885675,
+      "nearestFieldAmong32SourceId": "10201",
+      "nearestFieldAmong32L1": 3.0578518486695585,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20095",
+      "position": 358,
+      "fold": 1,
+      "nearestContextSourceId": "20092",
+      "nearestContextFieldL1": 1.2552513515046129,
+      "nearestFieldAmong32SourceId": "20086",
+      "nearestFieldAmong32L1": 0.9337538599161814,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10176",
+      "position": 361,
+      "fold": 1,
+      "nearestContextSourceId": "10177",
+      "nearestContextFieldL1": 3.385859128911572,
+      "nearestFieldAmong32SourceId": "60053",
+      "nearestFieldAmong32L1": 2.9943630137630217,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10192",
+      "position": 366,
+      "fold": 1,
+      "nearestContextSourceId": "10160",
+      "nearestContextFieldL1": 3.705748062956557,
+      "nearestFieldAmong32SourceId": "10161",
+      "nearestFieldAmong32L1": 3.2627193496316123,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10209",
+      "position": 370,
+      "fold": 1,
+      "nearestContextSourceId": "10208",
+      "nearestContextFieldL1": 2.7860115754410053,
+      "nearestFieldAmong32SourceId": "10206",
+      "nearestFieldAmong32L1": 2.7575183723733883,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71040",
+      "position": 374,
+      "fold": 1,
+      "nearestContextSourceId": "71039",
+      "nearestContextFieldL1": 2.8036821246227897,
+      "nearestFieldAmong32SourceId": "71043",
+      "nearestFieldAmong32L1": 2.6553570958395207,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20093",
+      "position": 378,
+      "fold": 1,
+      "nearestContextSourceId": "20092",
+      "nearestContextFieldL1": 1.3037665662293731,
+      "nearestFieldAmong32SourceId": "20086",
+      "nearestFieldAmong32L1": 0.9200670165888301,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71042",
+      "position": 381,
+      "fold": 1,
+      "nearestContextSourceId": "71048",
+      "nearestContextFieldL1": 2.823746060844165,
+      "nearestFieldAmong32SourceId": "71213",
+      "nearestFieldAmong32L1": 2.7537485209735824,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60091",
+      "position": 386,
+      "fold": 1,
+      "nearestContextSourceId": "60068",
+      "nearestContextFieldL1": 3.2302315275731903,
+      "nearestFieldAmong32SourceId": "60066",
+      "nearestFieldAmong32L1": 2.724381145555779,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60080",
+      "position": 390,
+      "fold": 1,
+      "nearestContextSourceId": "90024",
+      "nearestContextFieldL1": 3.1299981491892668,
+      "nearestFieldAmong32SourceId": "60052",
+      "nearestFieldAmong32L1": 2.5721375071209147,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71049",
+      "position": 394,
+      "fold": 1,
+      "nearestContextSourceId": "71044",
+      "nearestContextFieldL1": 2.8977668271384025,
+      "nearestFieldAmong32SourceId": "71106",
+      "nearestFieldAmong32L1": 2.6265327802695015,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20089",
+      "position": 398,
+      "fold": 1,
+      "nearestContextSourceId": "20094",
+      "nearestContextFieldL1": 0.7625299663452135,
+      "nearestFieldAmong32SourceId": "20090",
+      "nearestFieldAmong32L1": 0.6188317244212473,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50008",
+      "position": 404,
+      "fold": 1,
+      "nearestContextSourceId": "60065",
+      "nearestContextFieldL1": 3.466171955633437,
+      "nearestFieldAmong32SourceId": "10056",
+      "nearestFieldAmong32L1": 3.0335573499209127,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50006",
+      "position": 408,
+      "fold": 1,
+      "nearestContextSourceId": "10191",
+      "nearestContextFieldL1": 3.720656779515839,
+      "nearestFieldAmong32SourceId": "10173",
+      "nearestFieldAmong32L1": 2.9796868717482745,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50012",
+      "position": 411,
+      "fold": 1,
+      "nearestContextSourceId": "73001",
+      "nearestContextFieldL1": 3.4225075142100936,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 2.9240697054367004,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50011",
+      "position": 415,
+      "fold": 1,
+      "nearestContextSourceId": "50013",
+      "nearestContextFieldL1": 3.284340189643105,
+      "nearestFieldAmong32SourceId": "60097",
+      "nearestFieldAmong32L1": 2.9507134912844135,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880002",
+      "position": 419,
+      "fold": 1,
+      "nearestContextSourceId": "71123",
+      "nearestContextFieldL1": 3.324443573415972,
+      "nearestFieldAmong32SourceId": "71127",
+      "nearestFieldAmong32L1": 2.7786645885645935,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "660005",
+      "position": 422,
+      "fold": 1,
+      "nearestContextSourceId": "680013",
+      "nearestContextFieldL1": 3.5659710824940443,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 3.101588915032851,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73013",
+      "position": 426,
+      "fold": 1,
+      "nearestContextSourceId": "73014",
+      "nearestContextFieldL1": 2.9345757696103942,
+      "nearestFieldAmong32SourceId": "90030",
+      "nearestFieldAmong32L1": 2.7673186211484024,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "140004",
+      "position": 430,
+      "fold": 1,
+      "nearestContextSourceId": "60036",
+      "nearestContextFieldL1": 3.333852645442921,
+      "nearestFieldAmong32SourceId": "90055",
+      "nearestFieldAmong32L1": 3.106223163908888,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71146",
+      "position": 431,
+      "fold": 1,
+      "nearestContextSourceId": "71206",
+      "nearestContextFieldL1": 3.08521698072028,
+      "nearestFieldAmong32SourceId": "71204",
+      "nearestFieldAmong32L1": 2.8357940348815025,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71142",
+      "position": 434,
+      "fold": 1,
+      "nearestContextSourceId": "71209",
+      "nearestContextFieldL1": 2.8775593876848173,
+      "nearestFieldAmong32SourceId": "71039",
+      "nearestFieldAmong32L1": 2.717838083773671,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71144",
+      "position": 438,
+      "fold": 1,
+      "nearestContextSourceId": "71035",
+      "nearestContextFieldL1": 2.784201519832116,
+      "nearestFieldAmong32SourceId": "71034",
+      "nearestFieldAmong32L1": 2.501290805429109,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71150",
+      "position": 441,
+      "fold": 1,
+      "nearestContextSourceId": "71201",
+      "nearestContextFieldL1": 3.5018293093381647,
+      "nearestFieldAmong32SourceId": "71204",
+      "nearestFieldAmong32L1": 3.0097827769350487,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880010",
+      "position": 445,
+      "fold": 1,
+      "nearestContextSourceId": "880004",
+      "nearestContextFieldL1": 3.159410450794847,
+      "nearestFieldAmong32SourceId": "71145",
+      "nearestFieldAmong32L1": 2.960757329824655,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880007",
+      "position": 449,
+      "fold": 1,
+      "nearestContextSourceId": "90012",
+      "nearestContextFieldL1": 2.8372399291106136,
+      "nearestFieldAmong32SourceId": "90002",
+      "nearestFieldAmong32L1": 2.779729354064094,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71205",
+      "position": 451,
+      "fold": 1,
+      "nearestContextSourceId": "71206",
+      "nearestContextFieldL1": 3.08521698072028,
+      "nearestFieldAmong32SourceId": "71204",
+      "nearestFieldAmong32L1": 2.8357940348815025,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150003",
+      "position": 453,
+      "fold": 1,
+      "nearestContextSourceId": "90002",
+      "nearestContextFieldL1": 3.178913339092615,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 2.988740061811148,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60096",
+      "position": 457,
+      "fold": 1,
+      "nearestContextSourceId": "10179",
+      "nearestContextFieldL1": 3.583035069605152,
+      "nearestFieldAmong32SourceId": "60057",
+      "nearestFieldAmong32L1": 2.7361935871051988,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71230",
+      "position": 464,
+      "fold": 1,
+      "nearestContextSourceId": "71208",
+      "nearestContextFieldL1": 3.330160844309484,
+      "nearestFieldAmong32SourceId": "71215",
+      "nearestFieldAmong32L1": 2.930752118810605,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71217",
+      "position": 468,
+      "fold": 1,
+      "nearestContextSourceId": "71207",
+      "nearestContextFieldL1": 3.5075972894817684,
+      "nearestFieldAmong32SourceId": "71227",
+      "nearestFieldAmong32L1": 2.849871966074299,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150014",
+      "position": 471,
+      "fold": 1,
+      "nearestContextSourceId": "90008",
+      "nearestContextFieldL1": 2.637047278029157,
+      "nearestFieldAmong32SourceId": "90055",
+      "nearestFieldAmong32L1": 2.523372465097818,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90006",
+      "position": 475,
+      "fold": 1,
+      "nearestContextSourceId": "50010",
+      "nearestContextFieldL1": 2.239264828766296,
+      "nearestFieldAmong32SourceId": "60002",
+      "nearestFieldAmong32L1": 2.148375193489585,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71224",
+      "position": 479,
+      "fold": 1,
+      "nearestContextSourceId": "71218",
+      "nearestContextFieldL1": 2.9623064322971735,
+      "nearestFieldAmong32SourceId": "73016",
+      "nearestFieldAmong32L1": 2.8363005678134314,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150004",
+      "position": 482,
+      "fold": 1,
+      "nearestContextSourceId": "90013",
+      "nearestContextFieldL1": 3.486264092482699,
+      "nearestFieldAmong32SourceId": "71145",
+      "nearestFieldAmong32L1": 3.0034531330065026,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90009",
+      "position": 486,
+      "fold": 1,
+      "nearestContextSourceId": "90015",
+      "nearestContextFieldL1": 2.78957001491724,
+      "nearestFieldAmong32SourceId": "90008",
+      "nearestFieldAmong32L1": 2.5727745707741887,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150005",
+      "position": 490,
+      "fold": 1,
+      "nearestContextSourceId": "60044",
+      "nearestContextFieldL1": 3.064498523993496,
+      "nearestFieldAmong32SourceId": "72005",
+      "nearestFieldAmong32L1": 2.8810283392869813,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90020",
+      "position": 493,
+      "fold": 1,
+      "nearestContextSourceId": "110001",
+      "nearestContextFieldL1": 3.2028794622933923,
+      "nearestFieldAmong32SourceId": "90002",
+      "nearestFieldAmong32L1": 2.620656415843933,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71226",
+      "position": 497,
+      "fold": 1,
+      "nearestContextSourceId": "71213",
+      "nearestContextFieldL1": 3.046769772238803,
+      "nearestFieldAmong32SourceId": "71131",
+      "nearestFieldAmong32L1": 3.001605513616944,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10003",
+      "position": 3,
+      "fold": 2,
+      "nearestContextSourceId": "10008",
+      "nearestContextFieldL1": 3.405244422256283,
+      "nearestFieldAmong32SourceId": "70002",
+      "nearestFieldAmong32L1": 3.001699087623966,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10004",
+      "position": 5,
+      "fold": 2,
+      "nearestContextSourceId": "10008",
+      "nearestContextFieldL1": 3.4094521470026864,
+      "nearestFieldAmong32SourceId": "60002",
+      "nearestFieldAmong32L1": 2.7084141542046023,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10012",
+      "position": 7,
+      "fold": 2,
+      "nearestContextSourceId": "70018",
+      "nearestContextFieldL1": 3.5328913016619508,
+      "nearestFieldAmong32SourceId": "71115",
+      "nearestFieldAmong32L1": 3.2147021789070416,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10006",
+      "position": 11,
+      "fold": 2,
+      "nearestContextSourceId": "10008",
+      "nearestContextFieldL1": 3.31532193871653,
+      "nearestFieldAmong32SourceId": "70006",
+      "nearestFieldAmong32L1": 2.442113738650434,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70017",
+      "position": 16,
+      "fold": 2,
+      "nearestContextSourceId": "60026",
+      "nearestContextFieldL1": 3.3954600183560117,
+      "nearestFieldAmong32SourceId": "60001",
+      "nearestFieldAmong32L1": 2.1669497523836987,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10062",
+      "position": 22,
+      "fold": 2,
+      "nearestContextSourceId": "10039",
+      "nearestContextFieldL1": 3.567992630349157,
+      "nearestFieldAmong32SourceId": "10064",
+      "nearestFieldAmong32L1": 2.9468072604095132,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10067",
+      "position": 27,
+      "fold": 2,
+      "nearestContextSourceId": "71001",
+      "nearestContextFieldL1": 3.146516092466899,
+      "nearestFieldAmong32SourceId": "71021",
+      "nearestFieldAmong32L1": 2.9174165087071904,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10054",
+      "position": 33,
+      "fold": 2,
+      "nearestContextSourceId": "10040",
+      "nearestContextFieldL1": 3.442559030500634,
+      "nearestFieldAmong32SourceId": "10198",
+      "nearestFieldAmong32L1": 3.039418977753514,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10023",
+      "position": 37,
+      "fold": 2,
+      "nearestContextSourceId": "70024",
+      "nearestContextFieldL1": 3.355326021590269,
+      "nearestFieldAmong32SourceId": "60055",
+      "nearestFieldAmong32L1": 3.0560051327296494,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70033",
+      "position": 39,
+      "fold": 2,
+      "nearestContextSourceId": "10018",
+      "nearestContextFieldL1": 3.5079749369427913,
+      "nearestFieldAmong32SourceId": "71002",
+      "nearestFieldAmong32L1": 2.8475324461752916,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10035",
+      "position": 42,
+      "fold": 2,
+      "nearestContextSourceId": "70031",
+      "nearestContextFieldL1": 3.2375924218176437,
+      "nearestFieldAmong32SourceId": "70027",
+      "nearestFieldAmong32L1": 2.9768606613719584,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10031",
+      "position": 45,
+      "fold": 2,
+      "nearestContextSourceId": "10014",
+      "nearestContextFieldL1": 3.3933446145155717,
+      "nearestFieldAmong32SourceId": "71011",
+      "nearestFieldAmong32L1": 2.906304499353176,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10038",
+      "position": 48,
+      "fold": 2,
+      "nearestContextSourceId": "10014",
+      "nearestContextFieldL1": 2.884919268930715,
+      "nearestFieldAmong32SourceId": "70030",
+      "nearestFieldAmong32L1": 2.7329552152919643,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10053",
+      "position": 53,
+      "fold": 2,
+      "nearestContextSourceId": "60002",
+      "nearestContextFieldL1": 2.113028489580436,
+      "nearestFieldAmong32SourceId": "20059",
+      "nearestFieldAmong32L1": 1.8671576552792282,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70009",
+      "position": 57,
+      "fold": 2,
+      "nearestContextSourceId": "70018",
+      "nearestContextFieldL1": 3.518958879151824,
+      "nearestFieldAmong32SourceId": "71005",
+      "nearestFieldAmong32L1": 3.1946717533994997,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10029",
+      "position": 64,
+      "fold": 2,
+      "nearestContextSourceId": "10109",
+      "nearestContextFieldL1": 4.158025446293463,
+      "nearestFieldAmong32SourceId": "70012",
+      "nearestFieldAmong32L1": 3.2278914030288943,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71013",
+      "position": 68,
+      "fold": 2,
+      "nearestContextSourceId": "71009",
+      "nearestContextFieldL1": 3.197395419952435,
+      "nearestFieldAmong32SourceId": "71117",
+      "nearestFieldAmong32L1": 2.789128419825135,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10066",
+      "position": 71,
+      "fold": 2,
+      "nearestContextSourceId": "71019",
+      "nearestContextFieldL1": 3.450047322173241,
+      "nearestFieldAmong32SourceId": "10037",
+      "nearestFieldAmong32L1": 2.8305939132732854,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71003",
+      "position": 75,
+      "fold": 2,
+      "nearestContextSourceId": "10018",
+      "nearestContextFieldL1": 3.503180133957379,
+      "nearestFieldAmong32SourceId": "10014",
+      "nearestFieldAmong32L1": 2.728007872983601,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70032",
+      "position": 79,
+      "fold": 2,
+      "nearestContextSourceId": "71020",
+      "nearestContextFieldL1": 3.58683300556675,
+      "nearestFieldAmong32SourceId": "71018",
+      "nearestFieldAmong32L1": 2.669154028456004,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70026",
+      "position": 82,
+      "fold": 2,
+      "nearestContextSourceId": "71113",
+      "nearestContextFieldL1": 3.538239569748369,
+      "nearestFieldAmong32SourceId": "10021",
+      "nearestFieldAmong32L1": 2.9716739686134988,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73004",
+      "position": 86,
+      "fold": 2,
+      "nearestContextSourceId": "71021",
+      "nearestContextFieldL1": 2.9330757827196394,
+      "nearestFieldAmong32SourceId": "10015",
+      "nearestFieldAmong32L1": 2.820210167741968,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10153",
+      "position": 90,
+      "fold": 2,
+      "nearestContextSourceId": "10125",
+      "nearestContextFieldL1": 3.9816763019964725,
+      "nearestFieldAmong32SourceId": "10134",
+      "nearestFieldAmong32L1": 3.235669007276452,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70014",
+      "position": 93,
+      "fold": 2,
+      "nearestContextSourceId": "70015",
+      "nearestContextFieldL1": 3.252088711699657,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 2.5385111064355605,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71016",
+      "position": 97,
+      "fold": 2,
+      "nearestContextSourceId": "71014",
+      "nearestContextFieldL1": 3.3704038640418044,
+      "nearestFieldAmong32SourceId": "71024",
+      "nearestFieldAmong32L1": 2.8028416041862645,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10160",
+      "position": 100,
+      "fold": 2,
+      "nearestContextSourceId": "10042",
+      "nearestContextFieldL1": 3.4365733921477304,
+      "nearestFieldAmong32SourceId": "10048",
+      "nearestFieldAmong32L1": 3.1121506857434023,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71004",
+      "position": 106,
+      "fold": 2,
+      "nearestContextSourceId": "71007",
+      "nearestContextFieldL1": 3.138561135652897,
+      "nearestFieldAmong32SourceId": "71026",
+      "nearestFieldAmong32L1": 2.982799973620204,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71015",
+      "position": 111,
+      "fold": 2,
+      "nearestContextSourceId": "10014",
+      "nearestContextFieldL1": 3.554047680926286,
+      "nearestFieldAmong32SourceId": "71005",
+      "nearestFieldAmong32L1": 3.114808580424178,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71025",
+      "position": 117,
+      "fold": 2,
+      "nearestContextSourceId": "71024",
+      "nearestContextFieldL1": 2.9819545502506077,
+      "nearestFieldAmong32SourceId": "71018",
+      "nearestFieldAmong32L1": 2.552754710854323,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71017",
+      "position": 122,
+      "fold": 2,
+      "nearestContextSourceId": "71022",
+      "nearestContextFieldL1": 3.412199395626799,
+      "nearestFieldAmong32SourceId": "71103",
+      "nearestFieldAmong32L1": 3.0425634574920193,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10017",
+      "position": 129,
+      "fold": 2,
+      "nearestContextSourceId": "70034",
+      "nearestContextFieldL1": 3.2079408852225275,
+      "nearestFieldAmong32SourceId": "10047",
+      "nearestFieldAmong32L1": 3.0804512680503686,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10019",
+      "position": 134,
+      "fold": 2,
+      "nearestContextSourceId": "70035",
+      "nearestContextFieldL1": 3.484319123063782,
+      "nearestFieldAmong32SourceId": "70023",
+      "nearestFieldAmong32L1": 3.1901543920403492,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10158",
+      "position": 140,
+      "fold": 2,
+      "nearestContextSourceId": "10125",
+      "nearestContextFieldL1": 3.553769455466975,
+      "nearestFieldAmong32SourceId": "10152",
+      "nearestFieldAmong32L1": 3.107089312162433,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10045",
+      "position": 145,
+      "fold": 2,
+      "nearestContextSourceId": "10043",
+      "nearestContextFieldL1": 3.656606985372305,
+      "nearestFieldAmong32SourceId": "10014",
+      "nearestFieldAmong32L1": 3.0164642683353677,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10071",
+      "position": 156,
+      "fold": 2,
+      "nearestContextSourceId": "10041",
+      "nearestContextFieldL1": 3.5275838089264453,
+      "nearestFieldAmong32SourceId": "50018",
+      "nearestFieldAmong32L1": 2.9699324477383815,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60004",
+      "position": 161,
+      "fold": 2,
+      "nearestContextSourceId": "73007",
+      "nearestContextFieldL1": 2.7752458608812054,
+      "nearestFieldAmong32SourceId": "60002",
+      "nearestFieldAmong32L1": 1.8262426551477136,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10034",
+      "position": 167,
+      "fold": 2,
+      "nearestContextSourceId": "10056",
+      "nearestContextFieldL1": 3.6876245748559717,
+      "nearestFieldAmong32SourceId": "70031",
+      "nearestFieldAmong32L1": 3.0146671567967456,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10044",
+      "position": 172,
+      "fold": 2,
+      "nearestContextSourceId": "10032",
+      "nearestContextFieldL1": 3.086325804197303,
+      "nearestFieldAmong32SourceId": "10065",
+      "nearestFieldAmong32L1": 2.8375348994458474,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10024",
+      "position": 179,
+      "fold": 2,
+      "nearestContextSourceId": "10033",
+      "nearestContextFieldL1": 3.4846911507628042,
+      "nearestFieldAmong32SourceId": "10015",
+      "nearestFieldAmong32L1": 3.19072251996145,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71034",
+      "position": 184,
+      "fold": 2,
+      "nearestContextSourceId": "10047",
+      "nearestContextFieldL1": 2.9911779977306345,
+      "nearestFieldAmong32SourceId": "71018",
+      "nearestFieldAmong32L1": 2.6373720193115004,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10095",
+      "position": 190,
+      "fold": 2,
+      "nearestContextSourceId": "72006",
+      "nearestContextFieldL1": 3.791713040780991,
+      "nearestFieldAmong32SourceId": "72012",
+      "nearestFieldAmong32L1": 3.619343157179208,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10027",
+      "position": 195,
+      "fold": 2,
+      "nearestContextSourceId": "70021",
+      "nearestContextFieldL1": 3.454156972588306,
+      "nearestFieldAmong32SourceId": "10202",
+      "nearestFieldAmong32L1": 2.957382500692562,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60049",
+      "position": 205,
+      "fold": 2,
+      "nearestContextSourceId": "70020",
+      "nearestContextFieldL1": 3.345441525717904,
+      "nearestFieldAmong32SourceId": "71032",
+      "nearestFieldAmong32L1": 2.673459346853225,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73003",
+      "position": 216,
+      "fold": 2,
+      "nearestContextSourceId": "73006",
+      "nearestContextFieldL1": 2.3862432981665074,
+      "nearestFieldAmong32SourceId": "20009",
+      "nearestFieldAmong32L1": 2.3696244025581907,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60058",
+      "position": 221,
+      "fold": 2,
+      "nearestContextSourceId": "71018",
+      "nearestContextFieldL1": 3.0324374768435494,
+      "nearestFieldAmong32SourceId": "60046",
+      "nearestFieldAmong32L1": 2.599226043680326,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71109",
+      "position": 227,
+      "fold": 2,
+      "nearestContextSourceId": "60064",
+      "nearestContextFieldL1": 3.4787931491400426,
+      "nearestFieldAmong32SourceId": "71124",
+      "nearestFieldAmong32L1": 2.7998643237875713,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10172",
+      "position": 232,
+      "fold": 2,
+      "nearestContextSourceId": "10177",
+      "nearestContextFieldL1": 3.2706685596108227,
+      "nearestFieldAmong32SourceId": "10178",
+      "nearestFieldAmong32L1": 3.136534058958964,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71132",
+      "position": 239,
+      "fold": 2,
+      "nearestContextSourceId": "71029",
+      "nearestContextFieldL1": 3.222704794067761,
+      "nearestFieldAmong32SourceId": "71036",
+      "nearestFieldAmong32L1": 3.0062604746554604,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71125",
+      "position": 244,
+      "fold": 2,
+      "nearestContextSourceId": "71129",
+      "nearestContextFieldL1": 3.0919867940656465,
+      "nearestFieldAmong32SourceId": "71116",
+      "nearestFieldAmong32L1": 2.835708451217447,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72013",
+      "position": 250,
+      "fold": 2,
+      "nearestContextSourceId": "10205",
+      "nearestContextFieldL1": 3.479911516040737,
+      "nearestFieldAmong32SourceId": "60047",
+      "nearestFieldAmong32L1": 3.253172466124394,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71138",
+      "position": 255,
+      "fold": 2,
+      "nearestContextSourceId": "71137",
+      "nearestContextFieldL1": 3.02490408340268,
+      "nearestFieldAmong32SourceId": "71134",
+      "nearestFieldAmong32L1": 2.8035735889746007,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60057",
+      "position": 266,
+      "fold": 2,
+      "nearestContextSourceId": "60042",
+      "nearestContextFieldL1": 3.2883668705551754,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 2.7361935871051988,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71121",
+      "position": 271,
+      "fold": 2,
+      "nearestContextSourceId": "71117",
+      "nearestContextFieldL1": 2.9604097652953874,
+      "nearestFieldAmong32SourceId": "71117",
+      "nearestFieldAmong32L1": 2.9604097652953874,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71110",
+      "position": 277,
+      "fold": 2,
+      "nearestContextSourceId": "71107",
+      "nearestContextFieldL1": 2.7029814496933326,
+      "nearestFieldAmong32SourceId": "71107",
+      "nearestFieldAmong32L1": 2.7029814496933326,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60059",
+      "position": 282,
+      "fold": 2,
+      "nearestContextSourceId": "71115",
+      "nearestContextFieldL1": 3.587513931744294,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 3.0610285046356003,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60061",
+      "position": 289,
+      "fold": 2,
+      "nearestContextSourceId": "60043",
+      "nearestContextFieldL1": 3.1213635381406117,
+      "nearestFieldAmong32SourceId": "71108",
+      "nearestFieldAmong32L1": 2.7932261721396365,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71123",
+      "position": 294,
+      "fold": 2,
+      "nearestContextSourceId": "10179",
+      "nearestContextFieldL1": 3.3087622967042343,
+      "nearestFieldAmong32SourceId": "71124",
+      "nearestFieldAmong32L1": 3.007931119460454,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72005",
+      "position": 300,
+      "fold": 2,
+      "nearestContextSourceId": "72009",
+      "nearestContextFieldL1": 3.213825748141167,
+      "nearestFieldAmong32SourceId": "50005",
+      "nearestFieldAmong32L1": 2.7940635104483125,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10182",
+      "position": 304,
+      "fold": 2,
+      "nearestContextSourceId": "10180",
+      "nearestContextFieldL1": 3.437392420885675,
+      "nearestFieldAmong32SourceId": "10195",
+      "nearestFieldAmong32L1": 2.9309226300571805,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72007",
+      "position": 310,
+      "fold": 2,
+      "nearestContextSourceId": "50005",
+      "nearestContextFieldL1": 2.635570422397788,
+      "nearestFieldAmong32SourceId": "50005",
+      "nearestFieldAmong32L1": 2.635570422397788,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71039",
+      "position": 315,
+      "fold": 2,
+      "nearestContextSourceId": "71040",
+      "nearestContextFieldL1": 2.8036821246227897,
+      "nearestFieldAmong32SourceId": "150014",
+      "nearestFieldAmong32L1": 2.5702182177663735,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10194",
+      "position": 326,
+      "fold": 2,
+      "nearestContextSourceId": "10183",
+      "nearestContextFieldL1": 3.624197620729643,
+      "nearestFieldAmong32SourceId": "60092",
+      "nearestFieldAmong32L1": 3.2004322933372373,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60065",
+      "position": 331,
+      "fold": 2,
+      "nearestContextSourceId": "60072",
+      "nearestContextFieldL1": 3.7953572893784355,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 2.6869337220630864,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71106",
+      "position": 337,
+      "fold": 2,
+      "nearestContextSourceId": "71042",
+      "nearestContextFieldL1": 3.0580875015892004,
+      "nearestFieldAmong32SourceId": "71049",
+      "nearestFieldAmong32L1": 2.6265327802695015,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60073",
+      "position": 342,
+      "fold": 2,
+      "nearestContextSourceId": "71118",
+      "nearestContextFieldL1": 3.3293394438276493,
+      "nearestFieldAmong32SourceId": "71131",
+      "nearestFieldAmong32L1": 2.9362490888314294,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20094",
+      "position": 348,
+      "fold": 2,
+      "nearestContextSourceId": "20096",
+      "nearestContextFieldL1": 0.6973523957676853,
+      "nearestFieldAmong32SourceId": "20087",
+      "nearestFieldAmong32L1": 0.6086772885838869,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10171",
+      "position": 352,
+      "fold": 2,
+      "nearestContextSourceId": "50001",
+      "nearestContextFieldL1": 3.3115223218795506,
+      "nearestFieldAmong32SourceId": "10198",
+      "nearestFieldAmong32L1": 3.11592175899502,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10199",
+      "position": 357,
+      "fold": 2,
+      "nearestContextSourceId": "10180",
+      "nearestContextFieldL1": 3.283562039504427,
+      "nearestFieldAmong32SourceId": "10198",
+      "nearestFieldAmong32L1": 2.8663356164179774,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60075",
+      "position": 365,
+      "fold": 2,
+      "nearestContextSourceId": "60076",
+      "nearestContextFieldL1": 3.6985473374854188,
+      "nearestFieldAmong32SourceId": "10036",
+      "nearestFieldAmong32L1": 3.0116847670447564,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10203",
+      "position": 369,
+      "fold": 2,
+      "nearestContextSourceId": "10189",
+      "nearestContextFieldL1": 3.048594490475362,
+      "nearestFieldAmong32SourceId": "90003",
+      "nearestFieldAmong32L1": 2.8646676176765755,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71046",
+      "position": 372,
+      "fold": 2,
+      "nearestContextSourceId": "71045",
+      "nearestContextFieldL1": 3.066041383957825,
+      "nearestFieldAmong32SourceId": "71120",
+      "nearestFieldAmong32L1": 2.8569957043199095,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71043",
+      "position": 377,
+      "fold": 2,
+      "nearestContextSourceId": "71049",
+      "nearestContextFieldL1": 2.9799073147091795,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.6553570958395207,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60077",
+      "position": 385,
+      "fold": 2,
+      "nearestContextSourceId": "70036",
+      "nearestContextFieldL1": 3.6878654541857863,
+      "nearestFieldAmong32SourceId": "50008",
+      "nearestFieldAmong32L1": 3.2199104914386023,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60062",
+      "position": 389,
+      "fold": 2,
+      "nearestContextSourceId": "60081",
+      "nearestContextFieldL1": 2.998388115223945,
+      "nearestFieldAmong32SourceId": "60081",
+      "nearestFieldAmong32L1": 2.998388115223945,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71044",
+      "position": 392,
+      "fold": 2,
+      "nearestContextSourceId": "71049",
+      "nearestContextFieldL1": 2.8977668271384025,
+      "nearestFieldAmong32SourceId": "71131",
+      "nearestFieldAmong32L1": 2.6731781325733275,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60066",
+      "position": 397,
+      "fold": 2,
+      "nearestContextSourceId": "50017",
+      "nearestContextFieldL1": 3.108003693629343,
+      "nearestFieldAmong32SourceId": "60091",
+      "nearestFieldAmong32L1": 2.724381145555779,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50010",
+      "position": 403,
+      "fold": 2,
+      "nearestContextSourceId": "20051",
+      "nearestContextFieldL1": 1.9259022715191905,
+      "nearestFieldAmong32SourceId": "20001",
+      "nearestFieldAmong32L1": 1.83179528816693,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50016",
+      "position": 407,
+      "fold": 2,
+      "nearestContextSourceId": "71037",
+      "nearestContextFieldL1": 3.1817495345381728,
+      "nearestFieldAmong32SourceId": "50004",
+      "nearestFieldAmong32L1": 2.786623163459771,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "110001",
+      "position": 414,
+      "fold": 2,
+      "nearestContextSourceId": "70037",
+      "nearestContextFieldL1": 3.8115848495391482,
+      "nearestFieldAmong32SourceId": "10013",
+      "nearestFieldAmong32L1": 3.072678477593452,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "110003",
+      "position": 418,
+      "fold": 2,
+      "nearestContextSourceId": "71209",
+      "nearestContextFieldL1": 2.9535057368029514,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 2.7731021590066667,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "110005",
+      "position": 421,
+      "fold": 2,
+      "nearestContextSourceId": "50020",
+      "nearestContextFieldL1": 3.668880918985262,
+      "nearestFieldAmong32SourceId": "71101",
+      "nearestFieldAmong32L1": 3.2188658202666574,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50013",
+      "position": 425,
+      "fold": 2,
+      "nearestContextSourceId": "60097",
+      "nearestContextFieldL1": 2.9183117987938623,
+      "nearestFieldAmong32SourceId": "90026",
+      "nearestFieldAmong32L1": 2.85414421393979,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880003",
+      "position": 429,
+      "fold": 2,
+      "nearestContextSourceId": "880001",
+      "nearestContextFieldL1": 3.240240698747228,
+      "nearestFieldAmong32SourceId": "71101",
+      "nearestFieldAmong32L1": 3.0863017377561834,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73016",
+      "position": 433,
+      "fold": 2,
+      "nearestContextSourceId": "71230",
+      "nearestContextFieldL1": 3.4853527140233798,
+      "nearestFieldAmong32SourceId": "71140",
+      "nearestFieldAmong32L1": 2.933786476200554,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71145",
+      "position": 437,
+      "fold": 2,
+      "nearestContextSourceId": "71048",
+      "nearestContextFieldL1": 2.987229184788462,
+      "nearestFieldAmong32SourceId": "71105",
+      "nearestFieldAmong32L1": 2.6869774349723468,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71202",
+      "position": 444,
+      "fold": 2,
+      "nearestContextSourceId": "71213",
+      "nearestContextFieldL1": 3.218543420765756,
+      "nearestFieldAmong32SourceId": "71203",
+      "nearestFieldAmong32L1": 2.8666982005495503,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71149",
+      "position": 448,
+      "fold": 2,
+      "nearestContextSourceId": "71102",
+      "nearestContextFieldL1": 3.1201005520892733,
+      "nearestFieldAmong32SourceId": "71049",
+      "nearestFieldAmong32L1": 2.930613532253908,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60094",
+      "position": 452,
+      "fold": 2,
+      "nearestContextSourceId": "50004",
+      "nearestContextFieldL1": 3.4321328412552203,
+      "nearestFieldAmong32SourceId": "10195",
+      "nearestFieldAmong32L1": 3.1354723817219012,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90030",
+      "position": 456,
+      "fold": 2,
+      "nearestContextSourceId": "71209",
+      "nearestContextFieldL1": 3.1332193895778317,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 2.6194746229354915,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90022",
+      "position": 460,
+      "fold": 2,
+      "nearestContextSourceId": "150005",
+      "nearestContextFieldL1": 3.2151487949378588,
+      "nearestFieldAmong32SourceId": "10156",
+      "nearestFieldAmong32L1": 2.8316489932143347,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90012",
+      "position": 463,
+      "fold": 2,
+      "nearestContextSourceId": "150006",
+      "nearestContextFieldL1": 3.4482837386086356,
+      "nearestFieldAmong32SourceId": "90008",
+      "nearestFieldAmong32L1": 2.6970981782259154,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71229",
+      "position": 467,
+      "fold": 2,
+      "nearestContextSourceId": "71141",
+      "nearestContextFieldL1": 3.5599431845860243,
+      "nearestFieldAmong32SourceId": "71142",
+      "nearestFieldAmong32L1": 3.0241627766854284,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71206",
+      "position": 474,
+      "fold": 2,
+      "nearestContextSourceId": "71213",
+      "nearestContextFieldL1": 3.1639086453981755,
+      "nearestFieldAmong32SourceId": "71204",
+      "nearestFieldAmong32L1": 2.710148556056163,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71208",
+      "position": 478,
+      "fold": 2,
+      "nearestContextSourceId": "71230",
+      "nearestContextFieldL1": 3.330160844309484,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.763026994967407,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90013",
+      "position": 481,
+      "fold": 2,
+      "nearestContextSourceId": "71048",
+      "nearestContextFieldL1": 3.0141559831769396,
+      "nearestFieldAmong32SourceId": "90014",
+      "nearestFieldAmong32L1": 2.590749858184802,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90005",
+      "position": 485,
+      "fold": 2,
+      "nearestContextSourceId": "150004",
+      "nearestContextFieldL1": 3.2625679645460792,
+      "nearestFieldAmong32SourceId": "90014",
+      "nearestFieldAmong32L1": 2.5101704956574067,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71223",
+      "position": 489,
+      "fold": 2,
+      "nearestContextSourceId": "71204",
+      "nearestContextFieldL1": 3.310934872527948,
+      "nearestFieldAmong32SourceId": "71218",
+      "nearestFieldAmong32L1": 2.798126727499885,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150007",
+      "position": 492,
+      "fold": 2,
+      "nearestContextSourceId": "150001",
+      "nearestContextFieldL1": 2.737016748430614,
+      "nearestFieldAmong32SourceId": "71218",
+      "nearestFieldAmong32L1": 2.7018264201607947,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90015",
+      "position": 496,
+      "fold": 2,
+      "nearestContextSourceId": "150006",
+      "nearestContextFieldL1": 3.540574569237795,
+      "nearestFieldAmong32SourceId": "90009",
+      "nearestFieldAmong32L1": 2.78957001491724,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150013",
+      "position": 500,
+      "fold": 2,
+      "nearestContextSourceId": "150005",
+      "nearestContextFieldL1": 3.313983535699671,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 2.767042245030204,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10002",
+      "position": 2,
+      "fold": 3,
+      "nearestContextSourceId": "10001",
+      "nearestContextFieldL1": 3.8846483963517806,
+      "nearestFieldAmong32SourceId": "10009",
+      "nearestFieldAmong32L1": 3.3024213890418146,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10007",
+      "position": 8,
+      "fold": 3,
+      "nearestContextSourceId": "10005",
+      "nearestContextFieldL1": 3.263730757204035,
+      "nearestFieldAmong32SourceId": "20015",
+      "nearestFieldAmong32L1": 2.938166152861863,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10011",
+      "position": 12,
+      "fold": 3,
+      "nearestContextSourceId": "10010",
+      "nearestContextFieldL1": 3.7839920658659354,
+      "nearestFieldAmong32SourceId": "10170",
+      "nearestFieldAmong32L1": 3.246932518157582,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70003",
+      "position": 17,
+      "fold": 3,
+      "nearestContextSourceId": "10006",
+      "nearestContextFieldL1": 2.815212648335274,
+      "nearestFieldAmong32SourceId": "70006",
+      "nearestFieldAmong32L1": 2.245995409871811,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10070",
+      "position": 23,
+      "fold": 3,
+      "nearestContextSourceId": "60010",
+      "nearestContextFieldL1": 2.780493516985672,
+      "nearestFieldAmong32SourceId": "10053",
+      "nearestFieldAmong32L1": 2.2023056585258507,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10065",
+      "position": 28,
+      "fold": 3,
+      "nearestContextSourceId": "10057",
+      "nearestContextFieldL1": 3.3528329900806866,
+      "nearestFieldAmong32SourceId": "10069",
+      "nearestFieldAmong32L1": 2.989439243639997,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10050",
+      "position": 34,
+      "fold": 3,
+      "nearestContextSourceId": "20001",
+      "nearestContextFieldL1": 2.4882077407369163,
+      "nearestFieldAmong32SourceId": "60034",
+      "nearestFieldAmong32L1": 2.240986339010765,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10058",
+      "position": 43,
+      "fold": 3,
+      "nearestContextSourceId": "10046",
+      "nearestContextFieldL1": 3.7430783831728256,
+      "nearestFieldAmong32SourceId": "10013",
+      "nearestFieldAmong32L1": 3.1221586358331406,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60009",
+      "position": 46,
+      "fold": 3,
+      "nearestContextSourceId": "73013",
+      "nearestContextFieldL1": 2.8960437366259804,
+      "nearestFieldAmong32SourceId": "90030",
+      "nearestFieldAmong32L1": 2.517664391192806,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60011",
+      "position": 49,
+      "fold": 3,
+      "nearestContextSourceId": "20003",
+      "nearestContextFieldL1": 2.224516162298376,
+      "nearestFieldAmong32SourceId": "20009",
+      "nearestFieldAmong32L1": 2.1555304004882627,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60026",
+      "position": 52,
+      "fold": 3,
+      "nearestContextSourceId": "10053",
+      "nearestContextFieldL1": 2.680214999396463,
+      "nearestFieldAmong32SourceId": "20079",
+      "nearestFieldAmong32L1": 2.398077482396723,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10026",
+      "position": 56,
+      "fold": 3,
+      "nearestContextSourceId": "10067",
+      "nearestContextFieldL1": 3.1668578011025517,
+      "nearestFieldAmong32SourceId": "10067",
+      "nearestFieldAmong32L1": 3.1668578011025517,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10063",
+      "position": 60,
+      "fold": 3,
+      "nearestContextSourceId": "10152",
+      "nearestContextFieldL1": 2.9118361358699247,
+      "nearestFieldAmong32SourceId": "10152",
+      "nearestFieldAmong32L1": 2.9118361358699247,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10025",
+      "position": 63,
+      "fold": 3,
+      "nearestContextSourceId": "70009",
+      "nearestContextFieldL1": 3.816204589129681,
+      "nearestFieldAmong32SourceId": "10034",
+      "nearestFieldAmong32L1": 3.1402571357865634,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70004",
+      "position": 67,
+      "fold": 3,
+      "nearestContextSourceId": "70010",
+      "nearestContextFieldL1": 3.5066828911140098,
+      "nearestFieldAmong32SourceId": "70018",
+      "nearestFieldAmong32L1": 3.149259207488295,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71026",
+      "position": 74,
+      "fold": 3,
+      "nearestContextSourceId": "71019",
+      "nearestContextFieldL1": 3.3829992042281085,
+      "nearestFieldAmong32SourceId": "71126",
+      "nearestFieldAmong32L1": 2.8809550645503257,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10056",
+      "position": 78,
+      "fold": 3,
+      "nearestContextSourceId": "10039",
+      "nearestContextFieldL1": 3.178840131718688,
+      "nearestFieldAmong32SourceId": "10037",
+      "nearestFieldAmong32L1": 3.071126438662332,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71011",
+      "position": 81,
+      "fold": 3,
+      "nearestContextSourceId": "71015",
+      "nearestContextFieldL1": 3.349898885718045,
+      "nearestFieldAmong32SourceId": "10014",
+      "nearestFieldAmong32L1": 2.711342874462207,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10052",
+      "position": 85,
+      "fold": 3,
+      "nearestContextSourceId": "10039",
+      "nearestContextFieldL1": 3.494943890548732,
+      "nearestFieldAmong32SourceId": "10018",
+      "nearestFieldAmong32L1": 3.0130672471251367,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60006",
+      "position": 89,
+      "fold": 3,
+      "nearestContextSourceId": "73011",
+      "nearestContextFieldL1": 3.6422906997319906,
+      "nearestFieldAmong32SourceId": "10068",
+      "nearestFieldAmong32L1": 3.140085340313308,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70030",
+      "position": 92,
+      "fold": 3,
+      "nearestContextSourceId": "71019",
+      "nearestContextFieldL1": 3.095933693316521,
+      "nearestFieldAmong32SourceId": "10038",
+      "nearestFieldAmong32L1": 2.7329552152919643,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10055",
+      "position": 96,
+      "fold": 3,
+      "nearestContextSourceId": "10071",
+      "nearestContextFieldL1": 3.353256847175606,
+      "nearestFieldAmong32SourceId": "60043",
+      "nearestFieldAmong32L1": 2.931393019783858,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70029",
+      "position": 99,
+      "fold": 3,
+      "nearestContextSourceId": "10046",
+      "nearestContextFieldL1": 3.7571266580065825,
+      "nearestFieldAmong32SourceId": "73004",
+      "nearestFieldAmong32L1": 2.9879743233053384,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71008",
+      "position": 105,
+      "fold": 3,
+      "nearestContextSourceId": "71114",
+      "nearestContextFieldL1": 3.232182267881349,
+      "nearestFieldAmong32SourceId": "71018",
+      "nearestFieldAmong32L1": 2.624807487545371,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71028",
+      "position": 116,
+      "fold": 3,
+      "nearestContextSourceId": "71027",
+      "nearestContextFieldL1": 2.868634065463356,
+      "nearestFieldAmong32SourceId": "71021",
+      "nearestFieldAmong32L1": 2.838301851129449,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70019",
+      "position": 121,
+      "fold": 3,
+      "nearestContextSourceId": "60007",
+      "nearestContextFieldL1": 3.6976034632846986,
+      "nearestFieldAmong32SourceId": "71023",
+      "nearestFieldAmong32L1": 2.870530318322238,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10064",
+      "position": 127,
+      "fold": 3,
+      "nearestContextSourceId": "10039",
+      "nearestContextFieldL1": 3.303274385450071,
+      "nearestFieldAmong32SourceId": "10045",
+      "nearestFieldAmong32L1": 2.701017023199596,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71032",
+      "position": 132,
+      "fold": 3,
+      "nearestContextSourceId": "70014",
+      "nearestContextFieldL1": 3.2725584896094384,
+      "nearestFieldAmong32SourceId": "71018",
+      "nearestFieldAmong32L1": 2.5828403149100527,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71012",
+      "position": 139,
+      "fold": 3,
+      "nearestContextSourceId": "71007",
+      "nearestContextFieldL1": 2.8532369121348857,
+      "nearestFieldAmong32SourceId": "71002",
+      "nearestFieldAmong32L1": 2.552638823541467,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71010",
+      "position": 144,
+      "fold": 3,
+      "nearestContextSourceId": "10051",
+      "nearestContextFieldL1": 3.4378331227435543,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 2.7033024432888393,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10156",
+      "position": 150,
+      "fold": 3,
+      "nearestContextSourceId": "10158",
+      "nearestContextFieldL1": 3.163237127803844,
+      "nearestFieldAmong32SourceId": "90022",
+      "nearestFieldAmong32L1": 2.8316489932143347,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70020",
+      "position": 155,
+      "fold": 3,
+      "nearestContextSourceId": "60049",
+      "nearestContextFieldL1": 3.345441525717904,
+      "nearestFieldAmong32SourceId": "70005",
+      "nearestFieldAmong32L1": 3.0644468090977375,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71030",
+      "position": 166,
+      "fold": 3,
+      "nearestContextSourceId": "10164",
+      "nearestContextFieldL1": 3.044258254141919,
+      "nearestFieldAmong32SourceId": "10047",
+      "nearestFieldAmong32L1": 2.970381241381551,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71031",
+      "position": 171,
+      "fold": 3,
+      "nearestContextSourceId": "71029",
+      "nearestContextFieldL1": 2.921204263006265,
+      "nearestFieldAmong32SourceId": "71035",
+      "nearestFieldAmong32L1": 2.8888502145197394,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70015",
+      "position": 177,
+      "fold": 3,
+      "nearestContextSourceId": "70035",
+      "nearestContextFieldL1": 3.3680277815665063,
+      "nearestFieldAmong32SourceId": "71025",
+      "nearestFieldAmong32L1": 3.0340199409451434,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10162",
+      "position": 182,
+      "fold": 3,
+      "nearestContextSourceId": "10164",
+      "nearestContextFieldL1": 3.570217897691762,
+      "nearestFieldAmong32SourceId": "71138",
+      "nearestFieldAmong32L1": 3.029302569210146,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70021",
+      "position": 189,
+      "fold": 3,
+      "nearestContextSourceId": "70022",
+      "nearestContextFieldL1": 3.0846057257073394,
+      "nearestFieldAmong32SourceId": "50011",
+      "nearestFieldAmong32L1": 2.958122606504628,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10036",
+      "position": 194,
+      "fold": 3,
+      "nearestContextSourceId": "71108",
+      "nearestContextFieldL1": 3.220015637205338,
+      "nearestFieldAmong32SourceId": "60075",
+      "nearestFieldAmong32L1": 3.0116847670447564,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10161",
+      "position": 200,
+      "fold": 3,
+      "nearestContextSourceId": "10179",
+      "nearestContextFieldL1": 3.407214939339215,
+      "nearestFieldAmong32SourceId": "71005",
+      "nearestFieldAmong32L1": 3.1819940640339754,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71112",
+      "position": 204,
+      "fold": 3,
+      "nearestContextSourceId": "71114",
+      "nearestContextFieldL1": 3.0594474632135036,
+      "nearestFieldAmong32SourceId": "71201",
+      "nearestFieldAmong32L1": 2.8053926435693572,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72012",
+      "position": 210,
+      "fold": 3,
+      "nearestContextSourceId": "10159",
+      "nearestContextFieldL1": 3.7825852568035883,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 3.2109318846626964,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71135",
+      "position": 215,
+      "fold": 3,
+      "nearestContextSourceId": "71136",
+      "nearestContextFieldL1": 2.9452702731825955,
+      "nearestFieldAmong32SourceId": "71137",
+      "nearestFieldAmong32L1": 2.818153998634979,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60046",
+      "position": 226,
+      "fold": 3,
+      "nearestContextSourceId": "60048",
+      "nearestContextFieldL1": 3.009421289644706,
+      "nearestFieldAmong32SourceId": "60060",
+      "nearestFieldAmong32L1": 2.4291734471719515,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60063",
+      "position": 231,
+      "fold": 3,
+      "nearestContextSourceId": "71019",
+      "nearestContextFieldL1": 3.4405884633315935,
+      "nearestFieldAmong32SourceId": "10066",
+      "nearestFieldAmong32L1": 3.0920938803021354,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60054",
+      "position": 237,
+      "fold": 3,
+      "nearestContextSourceId": "10174",
+      "nearestContextFieldL1": 3.764807667464441,
+      "nearestFieldAmong32SourceId": "71104",
+      "nearestFieldAmong32L1": 3.202583875654649,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60069",
+      "position": 242,
+      "fold": 3,
+      "nearestContextSourceId": "60073",
+      "nearestContextFieldL1": 3.6417944579016295,
+      "nearestFieldAmong32SourceId": "60065",
+      "nearestFieldAmong32L1": 3.3033462764756054,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70036",
+      "position": 249,
+      "fold": 3,
+      "nearestContextSourceId": "70022",
+      "nearestContextFieldL1": 3.4513297121593456,
+      "nearestFieldAmong32SourceId": "60050",
+      "nearestFieldAmong32L1": 3.3305083855082698,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71124",
+      "position": 254,
+      "fold": 3,
+      "nearestContextSourceId": "71110",
+      "nearestContextFieldL1": 2.9706866256385793,
+      "nearestFieldAmong32SourceId": "71109",
+      "nearestFieldAmong32L1": 2.7998643237875713,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72004",
+      "position": 260,
+      "fold": 3,
+      "nearestContextSourceId": "880001",
+      "nearestContextFieldL1": 3.4543108282747443,
+      "nearestFieldAmong32SourceId": "880003",
+      "nearestFieldAmong32L1": 2.979936681183549,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71139",
+      "position": 265,
+      "fold": 3,
+      "nearestContextSourceId": "71110",
+      "nearestContextFieldL1": 2.991815275922101,
+      "nearestFieldAmong32SourceId": "71101",
+      "nearestFieldAmong32L1": 2.8268259545464445,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60053",
+      "position": 276,
+      "fold": 3,
+      "nearestContextSourceId": "10178",
+      "nearestContextFieldL1": 3.437071900324086,
+      "nearestFieldAmong32SourceId": "10176",
+      "nearestFieldAmong32L1": 2.9943630137630217,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60067",
+      "position": 281,
+      "fold": 3,
+      "nearestContextSourceId": "10178",
+      "nearestContextFieldL1": 3.4358964821607243,
+      "nearestFieldAmong32SourceId": "10040",
+      "nearestFieldAmong32L1": 3.0936871696934016,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71130",
+      "position": 287,
+      "fold": 3,
+      "nearestContextSourceId": "71105",
+      "nearestContextFieldL1": 3.252914689594959,
+      "nearestFieldAmong32SourceId": "71039",
+      "nearestFieldAmong32L1": 2.6750748899373975,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71118",
+      "position": 292,
+      "fold": 3,
+      "nearestContextSourceId": "71105",
+      "nearestContextFieldL1": 3.3869948026363446,
+      "nearestFieldAmong32SourceId": "71149",
+      "nearestFieldAmong32L1": 2.952327025728369,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71134",
+      "position": 299,
+      "fold": 3,
+      "nearestContextSourceId": "71108",
+      "nearestContextFieldL1": 3.078020867928401,
+      "nearestFieldAmong32SourceId": "71138",
+      "nearestFieldAmong32L1": 2.8035735889746007,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10177",
+      "position": 302,
+      "fold": 3,
+      "nearestContextSourceId": "10172",
+      "nearestContextFieldL1": 3.2706685596108227,
+      "nearestFieldAmong32SourceId": "10196",
+      "nearestFieldAmong32L1": 2.9341479964771806,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71131",
+      "position": 309,
+      "fold": 3,
+      "nearestContextSourceId": "71122",
+      "nearestContextFieldL1": 3.376885652421352,
+      "nearestFieldAmong32SourceId": "71044",
+      "nearestFieldAmong32L1": 2.6731781325733275,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10183",
+      "position": 314,
+      "fold": 3,
+      "nearestContextSourceId": "10195",
+      "nearestContextFieldL1": 3.0309854507670773,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 2.984140434604609,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72006",
+      "position": 320,
+      "fold": 3,
+      "nearestContextSourceId": "71037",
+      "nearestContextFieldL1": 3.2253666155305085,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 2.805504948236754,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71133",
+      "position": 325,
+      "fold": 3,
+      "nearestContextSourceId": "71106",
+      "nearestContextFieldL1": 2.839237857476424,
+      "nearestFieldAmong32SourceId": "71107",
+      "nearestFieldAmong32L1": 2.679451518474003,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73010",
+      "position": 336,
+      "fold": 3,
+      "nearestContextSourceId": "71128",
+      "nearestContextFieldL1": 3.7146499129720643,
+      "nearestFieldAmong32SourceId": "880007",
+      "nearestFieldAmong32L1": 3.270888153257081,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10175",
+      "position": 341,
+      "fold": 3,
+      "nearestContextSourceId": "10178",
+      "nearestContextFieldL1": 3.281896324500796,
+      "nearestFieldAmong32SourceId": "60073",
+      "nearestFieldAmong32L1": 3.202314027931884,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10198",
+      "position": 347,
+      "fold": 3,
+      "nearestContextSourceId": "10181",
+      "nearestContextFieldL1": 2.9218121895070297,
+      "nearestFieldAmong32SourceId": "10199",
+      "nearestFieldAmong32L1": 2.8663356164179774,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71102",
+      "position": 351,
+      "fold": 3,
+      "nearestContextSourceId": "71105",
+      "nearestContextFieldL1": 3.2706634986431222,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 2.7220328284515207,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10191",
+      "position": 356,
+      "fold": 3,
+      "nearestContextSourceId": "50006",
+      "nearestContextFieldL1": 3.720656779515839,
+      "nearestFieldAmong32SourceId": "10040",
+      "nearestFieldAmong32L1": 3.0970792827965283,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60044",
+      "position": 360,
+      "fold": 3,
+      "nearestContextSourceId": "150005",
+      "nearestContextFieldL1": 3.064498523993496,
+      "nearestFieldAmong32SourceId": "10207",
+      "nearestFieldAmong32L1": 2.755196483255333,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60068",
+      "position": 364,
+      "fold": 3,
+      "nearestContextSourceId": "60091",
+      "nearestContextFieldL1": 3.2302315275731903,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 2.8601004970862576,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20092",
+      "position": 368,
+      "fold": 3,
+      "nearestContextSourceId": "20093",
+      "nearestContextFieldL1": 1.3037665662293731,
+      "nearestFieldAmong32SourceId": "20100",
+      "nearestFieldAmong32L1": 0.9825353192198867,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10173",
+      "position": 371,
+      "fold": 3,
+      "nearestContextSourceId": "10174",
+      "nearestContextFieldL1": 3.102390698415038,
+      "nearestFieldAmong32SourceId": "50006",
+      "nearestFieldAmong32L1": 2.9796868717482745,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73002",
+      "position": 376,
+      "fold": 3,
+      "nearestContextSourceId": "71041",
+      "nearestContextFieldL1": 3.002457218216747,
+      "nearestFieldAmong32SourceId": "71041",
+      "nearestFieldAmong32L1": 3.002457218216747,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72011",
+      "position": 380,
+      "fold": 3,
+      "nearestContextSourceId": "10153",
+      "nearestContextFieldL1": 3.426306089719558,
+      "nearestFieldAmong32SourceId": "10155",
+      "nearestFieldAmong32L1": 2.5736151238007277,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10184",
+      "position": 384,
+      "fold": 3,
+      "nearestContextSourceId": "10196",
+      "nearestContextFieldL1": 3.3588597138361083,
+      "nearestFieldAmong32SourceId": "60072",
+      "nearestFieldAmong32L1": 2.9019958758717816,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "20091",
+      "position": 388,
+      "fold": 3,
+      "nearestContextSourceId": "20095",
+      "nearestContextFieldL1": 1.045510947029204,
+      "nearestFieldAmong32SourceId": "20099",
+      "nearestFieldAmong32L1": 0.6904568181785805,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71048",
+      "position": 391,
+      "fold": 3,
+      "nearestContextSourceId": "71042",
+      "nearestContextFieldL1": 2.823746060844165,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.7256056694942528,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73001",
+      "position": 396,
+      "fold": 3,
+      "nearestContextSourceId": "10196",
+      "nearestContextFieldL1": 3.3730715270888485,
+      "nearestFieldAmong32SourceId": "60091",
+      "nearestFieldAmong32L1": 3.1603160474742498,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10206",
+      "position": 400,
+      "fold": 3,
+      "nearestContextSourceId": "10158",
+      "nearestContextFieldL1": 3.1560499432543194,
+      "nearestFieldAmong32SourceId": "10209",
+      "nearestFieldAmong32L1": 2.7575183723733883,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50001",
+      "position": 402,
+      "fold": 3,
+      "nearestContextSourceId": "10171",
+      "nearestContextFieldL1": 3.3115223218795506,
+      "nearestFieldAmong32SourceId": "71129",
+      "nearestFieldAmong32L1": 3.1424787348508447,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "130006",
+      "position": 406,
+      "fold": 3,
+      "nearestContextSourceId": "60076",
+      "nearestContextFieldL1": 4.126661469024593,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 3.1725333821324213,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "130004",
+      "position": 410,
+      "fold": 3,
+      "nearestContextSourceId": "100005",
+      "nearestContextFieldL1": 3.5538914330064264,
+      "nearestFieldAmong32SourceId": "10045",
+      "nearestFieldAmong32L1": 3.2233288424056967,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50020",
+      "position": 413,
+      "fold": 3,
+      "nearestContextSourceId": "110005",
+      "nearestContextFieldL1": 3.668880918985262,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 2.809338497500715,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50018",
+      "position": 417,
+      "fold": 3,
+      "nearestContextSourceId": "60076",
+      "nearestContextFieldL1": 3.636042407487332,
+      "nearestFieldAmong32SourceId": "50016",
+      "nearestFieldAmong32L1": 2.823090730038242,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "680013",
+      "position": 424,
+      "fold": 3,
+      "nearestContextSourceId": "660005",
+      "nearestContextFieldL1": 3.5659710824940443,
+      "nearestFieldAmong32SourceId": "71042",
+      "nearestFieldAmong32L1": 2.8919109003982344,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71140",
+      "position": 428,
+      "fold": 3,
+      "nearestContextSourceId": "71226",
+      "nearestContextFieldL1": 3.317025346806436,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 2.9818391487861593,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71143",
+      "position": 432,
+      "fold": 3,
+      "nearestContextSourceId": "71117",
+      "nearestContextFieldL1": 3.1674577892812223,
+      "nearestFieldAmong32SourceId": "71125",
+      "nearestFieldAmong32L1": 2.873099585301468,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73014",
+      "position": 436,
+      "fold": 3,
+      "nearestContextSourceId": "73013",
+      "nearestContextFieldL1": 2.9345757696103942,
+      "nearestFieldAmong32SourceId": "73013",
+      "nearestFieldAmong32L1": 2.9345757696103942,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50002",
+      "position": 440,
+      "fold": 3,
+      "nearestContextSourceId": "10153",
+      "nearestContextFieldL1": 3.791190642188464,
+      "nearestFieldAmong32SourceId": "60079",
+      "nearestFieldAmong32L1": 3.1442039335121406,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71147",
+      "position": 443,
+      "fold": 3,
+      "nearestContextSourceId": "50014",
+      "nearestContextFieldL1": 3.4256100263991227,
+      "nearestFieldAmong32SourceId": "10047",
+      "nearestFieldAmong32L1": 3.249156828392236,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71148",
+      "position": 447,
+      "fold": 3,
+      "nearestContextSourceId": "50014",
+      "nearestContextFieldL1": 3.4472182638210773,
+      "nearestFieldAmong32SourceId": "71108",
+      "nearestFieldAmong32L1": 3.1826147137613057,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90026",
+      "position": 455,
+      "fold": 3,
+      "nearestContextSourceId": "90003",
+      "nearestContextFieldL1": 2.955337321587553,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 2.6414763184726855,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60097",
+      "position": 459,
+      "fold": 3,
+      "nearestContextSourceId": "60076",
+      "nearestContextFieldL1": 3.646839973048548,
+      "nearestFieldAmong32SourceId": "60078",
+      "nearestFieldAmong32L1": 2.8392533240701208,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150001",
+      "position": 462,
+      "fold": 3,
+      "nearestContextSourceId": "150014",
+      "nearestContextFieldL1": 2.7649258583597196,
+      "nearestFieldAmong32SourceId": "150014",
+      "nearestFieldAmong32L1": 2.7649258583597196,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150006",
+      "position": 466,
+      "fold": 3,
+      "nearestContextSourceId": "90012",
+      "nearestContextFieldL1": 3.4482837386086356,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 3.271521895397838,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150015",
+      "position": 470,
+      "fold": 3,
+      "nearestContextSourceId": "90014",
+      "nearestContextFieldL1": 3.215824800655507,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 3.0202345045649914,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90002",
+      "position": 473,
+      "fold": 3,
+      "nearestContextSourceId": "90012",
+      "nearestContextFieldL1": 2.714162597450402,
+      "nearestFieldAmong32SourceId": "71038",
+      "nearestFieldAmong32L1": 2.6892039250552022,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71203",
+      "position": 477,
+      "fold": 3,
+      "nearestContextSourceId": "71205",
+      "nearestContextFieldL1": 3.2471882410962163,
+      "nearestFieldAmong32SourceId": "71207",
+      "nearestFieldAmong32L1": 2.677935550272835,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71216",
+      "position": 484,
+      "fold": 3,
+      "nearestContextSourceId": "71209",
+      "nearestContextFieldL1": 2.991913368817283,
+      "nearestFieldAmong32SourceId": "71217",
+      "nearestFieldAmong32L1": 2.619862411762792,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71218",
+      "position": 488,
+      "fold": 3,
+      "nearestContextSourceId": "71224",
+      "nearestContextFieldL1": 2.9623064322971735,
+      "nearestFieldAmong32SourceId": "71215",
+      "nearestFieldAmong32L1": 2.6379725712407405,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150011",
+      "position": 491,
+      "fold": 3,
+      "nearestContextSourceId": "150007",
+      "nearestContextFieldL1": 2.881625788107658,
+      "nearestFieldAmong32SourceId": "150014",
+      "nearestFieldAmong32L1": 2.4058657487760664,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90008",
+      "position": 495,
+      "fold": 3,
+      "nearestContextSourceId": "71049",
+      "nearestContextFieldL1": 3.0523504373834927,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 2.581877789277285,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90025",
+      "position": 499,
+      "fold": 3,
+      "nearestContextSourceId": "50014",
+      "nearestContextFieldL1": 2.9343085581938775,
+      "nearestFieldAmong32SourceId": "90012",
+      "nearestFieldAmong32L1": 2.595009440779847,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10001",
+      "position": 1,
+      "fold": 4,
+      "nearestContextSourceId": "10002",
+      "nearestContextFieldL1": 3.8846483963517806,
+      "nearestFieldAmong32SourceId": "10003",
+      "nearestFieldAmong32L1": 3.263854077697797,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10008",
+      "position": 9,
+      "fold": 4,
+      "nearestContextSourceId": "10006",
+      "nearestContextFieldL1": 3.31532193871653,
+      "nearestFieldAmong32SourceId": "60011",
+      "nearestFieldAmong32L1": 2.847810654711349,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10009",
+      "position": 13,
+      "fold": 4,
+      "nearestContextSourceId": "10005",
+      "nearestContextFieldL1": 2.8139619480110656,
+      "nearestFieldAmong32SourceId": "70006",
+      "nearestFieldAmong32L1": 2.4459206692785638,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70010",
+      "position": 18,
+      "fold": 4,
+      "nearestContextSourceId": "70004",
+      "nearestContextFieldL1": 3.5066828911140098,
+      "nearestFieldAmong32SourceId": "10010",
+      "nearestFieldAmong32L1": 3.2970119859838305,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10068",
+      "position": 24,
+      "fold": 4,
+      "nearestContextSourceId": "71008",
+      "nearestContextFieldL1": 3.009147202046492,
+      "nearestFieldAmong32SourceId": "10037",
+      "nearestFieldAmong32L1": 2.852494042951795,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71009",
+      "position": 29,
+      "fold": 4,
+      "nearestContextSourceId": "10048",
+      "nearestContextFieldL1": 3.2783669020446338,
+      "nearestFieldAmong32SourceId": "71129",
+      "nearestFieldAmong32L1": 2.920493428704204,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10061",
+      "position": 35,
+      "fold": 4,
+      "nearestContextSourceId": "10067",
+      "nearestContextFieldL1": 3.5312219379180454,
+      "nearestFieldAmong32SourceId": "10031",
+      "nearestFieldAmong32L1": 2.919661153585114,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71001",
+      "position": 36,
+      "fold": 4,
+      "nearestContextSourceId": "10067",
+      "nearestContextFieldL1": 3.146516092466899,
+      "nearestFieldAmong32SourceId": "71120",
+      "nearestFieldAmong32L1": 2.7659351136245687,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60008",
+      "position": 38,
+      "fold": 4,
+      "nearestContextSourceId": "60054",
+      "nearestContextFieldL1": 3.4563622115201422,
+      "nearestFieldAmong32SourceId": "10197",
+      "nearestFieldAmong32L1": 3.000390115569199,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10042",
+      "position": 40,
+      "fold": 4,
+      "nearestContextSourceId": "10154",
+      "nearestContextFieldL1": 3.8970714160737883,
+      "nearestFieldAmong32SourceId": "72005",
+      "nearestFieldAmong32L1": 3.289217569125249,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10059",
+      "position": 44,
+      "fold": 4,
+      "nearestContextSourceId": "10046",
+      "nearestContextFieldL1": 3.311289829746933,
+      "nearestFieldAmong32SourceId": "10038",
+      "nearestFieldAmong32L1": 3.136159667771844,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10134",
+      "position": 50,
+      "fold": 4,
+      "nearestContextSourceId": "10063",
+      "nearestContextFieldL1": 3.1533198876531605,
+      "nearestFieldAmong32SourceId": "70033",
+      "nearestFieldAmong32L1": 3.016495128812912,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73005",
+      "position": 51,
+      "fold": 4,
+      "nearestContextSourceId": "71021",
+      "nearestContextFieldL1": 3.43903481202647,
+      "nearestFieldAmong32SourceId": "71107",
+      "nearestFieldAmong32L1": 2.989124893458711,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10015",
+      "position": 55,
+      "fold": 4,
+      "nearestContextSourceId": "10026",
+      "nearestContextFieldL1": 3.555403840622779,
+      "nearestFieldAmong32SourceId": "10043",
+      "nearestFieldAmong32L1": 2.94173439480537,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60036",
+      "position": 59,
+      "fold": 4,
+      "nearestContextSourceId": "71005",
+      "nearestContextFieldL1": 3.2834007408829455,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 2.7468952582025348,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70027",
+      "position": 62,
+      "fold": 4,
+      "nearestContextSourceId": "71004",
+      "nearestContextFieldL1": 3.0554786704948906,
+      "nearestFieldAmong32SourceId": "71025",
+      "nearestFieldAmong32L1": 2.9574998952106406,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70008",
+      "position": 66,
+      "fold": 4,
+      "nearestContextSourceId": "71013",
+      "nearestContextFieldL1": 3.525214314208813,
+      "nearestFieldAmong32SourceId": "71020",
+      "nearestFieldAmong32L1": 2.979011430410572,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10152",
+      "position": 70,
+      "fold": 4,
+      "nearestContextSourceId": "10154",
+      "nearestContextFieldL1": 3.80626594864058,
+      "nearestFieldAmong32SourceId": "10072",
+      "nearestFieldAmong32L1": 2.854976565354556,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71014",
+      "position": 73,
+      "fold": 4,
+      "nearestContextSourceId": "10066",
+      "nearestContextFieldL1": 3.743190094374937,
+      "nearestFieldAmong32SourceId": "71002",
+      "nearestFieldAmong32L1": 2.797600661527481,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10051",
+      "position": 77,
+      "fold": 4,
+      "nearestContextSourceId": "71010",
+      "nearestContextFieldL1": 3.4378331227435543,
+      "nearestFieldAmong32SourceId": "70025",
+      "nearestFieldAmong32L1": 2.3612392411521963,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73006",
+      "position": 84,
+      "fold": 4,
+      "nearestContextSourceId": "60034",
+      "nearestContextFieldL1": 2.899061475193879,
+      "nearestFieldAmong32SourceId": "20007",
+      "nearestFieldAmong32L1": 2.171944613093532,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10014",
+      "position": 88,
+      "fold": 4,
+      "nearestContextSourceId": "10031",
+      "nearestContextFieldL1": 3.3933446145155717,
+      "nearestFieldAmong32SourceId": "71011",
+      "nearestFieldAmong32L1": 2.711342874462207,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71007",
+      "position": 91,
+      "fold": 4,
+      "nearestContextSourceId": "71004",
+      "nearestContextFieldL1": 3.138561135652897,
+      "nearestFieldAmong32SourceId": "71020",
+      "nearestFieldAmong32L1": 2.82802182640234,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70031",
+      "position": 95,
+      "fold": 4,
+      "nearestContextSourceId": "71003",
+      "nearestContextFieldL1": 3.223172891678927,
+      "nearestFieldAmong32SourceId": "60051",
+      "nearestFieldAmong32L1": 2.9679643516167884,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71018",
+      "position": 98,
+      "fold": 4,
+      "nearestContextSourceId": "70025",
+      "nearestContextFieldL1": 3.0294230014165127,
+      "nearestFieldAmong32SourceId": "60060",
+      "nearestFieldAmong32L1": 2.4332410013942654,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70007",
+      "position": 104,
+      "fold": 4,
+      "nearestContextSourceId": "10057",
+      "nearestContextFieldL1": 3.3897790518488913,
+      "nearestFieldAmong32SourceId": "70030",
+      "nearestFieldAmong32L1": 2.8239711733967106,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10125",
+      "position": 110,
+      "fold": 4,
+      "nearestContextSourceId": "10158",
+      "nearestContextFieldL1": 3.553769455466975,
+      "nearestFieldAmong32SourceId": "150005",
+      "nearestFieldAmong32L1": 2.91921863937507,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71022",
+      "position": 115,
+      "fold": 4,
+      "nearestContextSourceId": "71017",
+      "nearestContextFieldL1": 3.412199395626799,
+      "nearestFieldAmong32SourceId": "71013",
+      "nearestFieldAmong32L1": 3.0133243582789317,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10013",
+      "position": 126,
+      "fold": 4,
+      "nearestContextSourceId": "10064",
+      "nearestContextFieldL1": 2.9437140700206976,
+      "nearestFieldAmong32SourceId": "10064",
+      "nearestFieldAmong32L1": 2.9437140700206976,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10164",
+      "position": 131,
+      "fold": 4,
+      "nearestContextSourceId": "10162",
+      "nearestContextFieldL1": 3.570217897691762,
+      "nearestFieldAmong32SourceId": "10168",
+      "nearestFieldAmong32L1": 2.951487668624325,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10040",
+      "position": 137,
+      "fold": 4,
+      "nearestContextSourceId": "71006",
+      "nearestContextFieldL1": 3.547719987793537,
+      "nearestFieldAmong32SourceId": "50006",
+      "nearestFieldAmong32L1": 2.9819196920217177,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71019",
+      "position": 142,
+      "fold": 4,
+      "nearestContextSourceId": "10066",
+      "nearestContextFieldL1": 3.450047322173241,
+      "nearestFieldAmong32SourceId": "71004",
+      "nearestFieldAmong32L1": 2.9895881706729623,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70024",
+      "position": 149,
+      "fold": 4,
+      "nearestContextSourceId": "10024",
+      "nearestContextFieldL1": 3.583208347308944,
+      "nearestFieldAmong32SourceId": "70012",
+      "nearestFieldAmong32L1": 3.121478278817751,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70005",
+      "position": 154,
+      "fold": 4,
+      "nearestContextSourceId": "60060",
+      "nearestContextFieldL1": 2.878405073262691,
+      "nearestFieldAmong32SourceId": "70025",
+      "nearestFieldAmong32L1": 2.8142133354786036,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10082",
+      "position": 160,
+      "fold": 4,
+      "nearestContextSourceId": "10018",
+      "nearestContextFieldL1": 3.6899168391792636,
+      "nearestFieldAmong32SourceId": "10177",
+      "nearestFieldAmong32L1": 3.275244424937024,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60002",
+      "position": 165,
+      "fold": 4,
+      "nearestContextSourceId": "10053",
+      "nearestContextFieldL1": 2.113028489580436,
+      "nearestFieldAmong32SourceId": "60004",
+      "nearestFieldAmong32L1": 1.8262426551477136,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70013",
+      "position": 176,
+      "fold": 4,
+      "nearestContextSourceId": "20039",
+      "nearestContextFieldL1": 3.114109924477449,
+      "nearestFieldAmong32SourceId": "10044",
+      "nearestFieldAmong32L1": 3.0744515231341074,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10049",
+      "position": 181,
+      "fold": 4,
+      "nearestContextSourceId": "20039",
+      "nearestContextFieldL1": 3.3993845391122406,
+      "nearestFieldAmong32SourceId": "10202",
+      "nearestFieldAmong32L1": 2.6502794760632233,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10041",
+      "position": 187,
+      "fold": 4,
+      "nearestContextSourceId": "10071",
+      "nearestContextFieldL1": 3.5275838089264453,
+      "nearestFieldAmong32SourceId": "10055",
+      "nearestFieldAmong32L1": 2.9362882965732267,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10020",
+      "position": 192,
+      "fold": 4,
+      "nearestContextSourceId": "10036",
+      "nearestContextFieldL1": 3.59006022039832,
+      "nearestFieldAmong32SourceId": "70040",
+      "nearestFieldAmong32L1": 2.971109761997919,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71033",
+      "position": 199,
+      "fold": 4,
+      "nearestContextSourceId": "72002",
+      "nearestContextFieldL1": 2.723579749655552,
+      "nearestFieldAmong32SourceId": "10122",
+      "nearestFieldAmong32L1": 2.6720584839029478,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71113",
+      "position": 202,
+      "fold": 4,
+      "nearestContextSourceId": "71117",
+      "nearestContextFieldL1": 3.2495250436898013,
+      "nearestFieldAmong32SourceId": "71121",
+      "nearestFieldAmong32L1": 3.01613337718665,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60074",
+      "position": 209,
+      "fold": 4,
+      "nearestContextSourceId": "70022",
+      "nearestContextFieldL1": 3.337971566485023,
+      "nearestFieldAmong32SourceId": "10202",
+      "nearestFieldAmong32L1": 3.3366495188404004,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60048",
+      "position": 214,
+      "fold": 4,
+      "nearestContextSourceId": "60058",
+      "nearestContextFieldL1": 3.0606467143162366,
+      "nearestFieldAmong32SourceId": "71203",
+      "nearestFieldAmong32L1": 2.775611225316345,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "72003",
+      "position": 220,
+      "fold": 4,
+      "nearestContextSourceId": "10063",
+      "nearestContextFieldL1": 3.507962938588479,
+      "nearestFieldAmong32SourceId": "10176",
+      "nearestFieldAmong32L1": 3.100225958291708,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71137",
+      "position": 225,
+      "fold": 4,
+      "nearestContextSourceId": "71138",
+      "nearestContextFieldL1": 3.02490408340268,
+      "nearestFieldAmong32SourceId": "71136",
+      "nearestFieldAmong32L1": 2.7681859409330642,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73007",
+      "position": 236,
+      "fold": 4,
+      "nearestContextSourceId": "60004",
+      "nearestContextFieldL1": 2.7752458608812054,
+      "nearestFieldAmong32SourceId": "60004",
+      "nearestFieldAmong32L1": 2.7752458608812054,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60070",
+      "position": 241,
+      "fold": 4,
+      "nearestContextSourceId": "71103",
+      "nearestContextFieldL1": 3.4157582290351494,
+      "nearestFieldAmong32SourceId": "71106",
+      "nearestFieldAmong32L1": 3.061509810852711,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71128",
+      "position": 247,
+      "fold": 4,
+      "nearestContextSourceId": "10064",
+      "nearestContextFieldL1": 3.0806193073954504,
+      "nearestFieldAmong32SourceId": "71110",
+      "nearestFieldAmong32L1": 2.968499308615516,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60071",
+      "position": 252,
+      "fold": 4,
+      "nearestContextSourceId": "60051",
+      "nearestContextFieldL1": 3.820193295815109,
+      "nearestFieldAmong32SourceId": "60096",
+      "nearestFieldAmong32L1": 3.1271948947706623,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71035",
+      "position": 259,
+      "fold": 4,
+      "nearestContextSourceId": "71029",
+      "nearestContextFieldL1": 3.003509402751604,
+      "nearestFieldAmong32SourceId": "71010",
+      "nearestFieldAmong32L1": 2.569152658634367,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "70037",
+      "position": 264,
+      "fold": 4,
+      "nearestContextSourceId": "110001",
+      "nearestContextFieldL1": 3.8115848495391482,
+      "nearestFieldAmong32SourceId": "10199",
+      "nearestFieldAmong32L1": 3.0365141531268467,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60052",
+      "position": 270,
+      "fold": 4,
+      "nearestContextSourceId": "10159",
+      "nearestContextFieldL1": 3.7094439996365294,
+      "nearestFieldAmong32SourceId": "60080",
+      "nearestFieldAmong32L1": 2.5721375071209147,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10185",
+      "position": 275,
+      "fold": 4,
+      "nearestContextSourceId": "20039",
+      "nearestContextFieldL1": 3.277294988316246,
+      "nearestFieldAmong32SourceId": "10055",
+      "nearestFieldAmong32L1": 2.9809710017365445,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73009",
+      "position": 286,
+      "fold": 4,
+      "nearestContextSourceId": "60030",
+      "nearestContextFieldL1": 3.6274485101371443,
+      "nearestFieldAmong32SourceId": "60034",
+      "nearestFieldAmong32L1": 2.4684402633343856,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10170",
+      "position": 291,
+      "fold": 4,
+      "nearestContextSourceId": "60051",
+      "nearestContextFieldL1": 3.394364422624763,
+      "nearestFieldAmong32SourceId": "60067",
+      "nearestFieldAmong32L1": 3.1788798877159645,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60078",
+      "position": 297,
+      "fold": 4,
+      "nearestContextSourceId": "60062",
+      "nearestContextFieldL1": 3.6680910036278194,
+      "nearestFieldAmong32SourceId": "60097",
+      "nearestFieldAmong32L1": 2.8392533240701208,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71116",
+      "position": 301,
+      "fold": 4,
+      "nearestContextSourceId": "71103",
+      "nearestContextFieldL1": 3.240914824537314,
+      "nearestFieldAmong32SourceId": "71125",
+      "nearestFieldAmong32L1": 2.835708451217447,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71126",
+      "position": 307,
+      "fold": 4,
+      "nearestContextSourceId": "71110",
+      "nearestContextFieldL1": 3.203050336960924,
+      "nearestFieldAmong32SourceId": "71039",
+      "nearestFieldAmong32L1": 2.8905096268891026,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10179",
+      "position": 312,
+      "fold": 4,
+      "nearestContextSourceId": "71123",
+      "nearestContextFieldL1": 3.3087622967042343,
+      "nearestFieldAmong32SourceId": "50012",
+      "nearestFieldAmong32L1": 3.1265849371382197,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60081",
+      "position": 319,
+      "fold": 4,
+      "nearestContextSourceId": "60062",
+      "nearestContextFieldL1": 2.998388115223945,
+      "nearestFieldAmong32SourceId": "60062",
+      "nearestFieldAmong32L1": 2.998388115223945,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10181",
+      "position": 324,
+      "fold": 4,
+      "nearestContextSourceId": "10198",
+      "nearestContextFieldL1": 2.9218121895070297,
+      "nearestFieldAmong32SourceId": "10198",
+      "nearestFieldAmong32L1": 2.9218121895070297,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10205",
+      "position": 330,
+      "fold": 4,
+      "nearestContextSourceId": "10209",
+      "nearestContextFieldL1": 3.291255281036303,
+      "nearestFieldAmong32SourceId": "72009",
+      "nearestFieldAmong32L1": 2.868640655191104,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60056",
+      "position": 335,
+      "fold": 4,
+      "nearestContextSourceId": "130006",
+      "nearestContextFieldL1": 3.532773876670703,
+      "nearestFieldAmong32SourceId": "60055",
+      "nearestFieldAmong32L1": 2.9149181292680315,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73008",
+      "position": 346,
+      "fold": 4,
+      "nearestContextSourceId": "73002",
+      "nearestContextFieldL1": 3.276518907886806,
+      "nearestFieldAmong32SourceId": "110001",
+      "nearestFieldAmong32L1": 3.1265228959731095,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "60076",
+      "position": 355,
+      "fold": 4,
+      "nearestContextSourceId": "60097",
+      "nearestContextFieldL1": 3.646839973048548,
+      "nearestFieldAmong32SourceId": "10202",
+      "nearestFieldAmong32L1": 3.2170523928398347,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10201",
+      "position": 359,
+      "fold": 4,
+      "nearestContextSourceId": "10202",
+      "nearestContextFieldL1": 3.179154628639325,
+      "nearestFieldAmong32SourceId": "10064",
+      "nearestFieldAmong32L1": 2.9054567293228244,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71041",
+      "position": 362,
+      "fold": 4,
+      "nearestContextSourceId": "73002",
+      "nearestContextFieldL1": 3.002457218216747,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.817713216947193,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10196",
+      "position": 367,
+      "fold": 4,
+      "nearestContextSourceId": "10184",
+      "nearestContextFieldL1": 3.3588597138361083,
+      "nearestFieldAmong32SourceId": "10177",
+      "nearestFieldAmong32L1": 2.9341479964771806,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10188",
+      "position": 375,
+      "fold": 4,
+      "nearestContextSourceId": "10171",
+      "nearestContextFieldL1": 3.5575612186317676,
+      "nearestFieldAmong32SourceId": "10186",
+      "nearestFieldAmong32L1": 2.9760824252011324,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10200",
+      "position": 379,
+      "fold": 4,
+      "nearestContextSourceId": "10202",
+      "nearestContextFieldL1": 2.9501416669509517,
+      "nearestFieldAmong32SourceId": "10202",
+      "nearestFieldAmong32L1": 2.9501416669509517,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71045",
+      "position": 382,
+      "fold": 4,
+      "nearestContextSourceId": "71046",
+      "nearestContextFieldL1": 3.066041383957825,
+      "nearestFieldAmong32SourceId": "71049",
+      "nearestFieldAmong32L1": 2.6710048515120124,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71050",
+      "position": 387,
+      "fold": 4,
+      "nearestContextSourceId": "71046",
+      "nearestContextFieldL1": 3.1928344113582354,
+      "nearestFieldAmong32SourceId": "71133",
+      "nearestFieldAmong32L1": 2.739669631270123,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71101",
+      "position": 395,
+      "fold": 4,
+      "nearestContextSourceId": "880010",
+      "nearestContextFieldL1": 3.0481390808230344,
+      "nearestFieldAmong32SourceId": "71042",
+      "nearestFieldAmong32L1": 2.824673512619471,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "10204",
+      "position": 399,
+      "fold": 4,
+      "nearestContextSourceId": "50016",
+      "nearestContextFieldL1": 3.392014626009974,
+      "nearestFieldAmong32SourceId": "50008",
+      "nearestFieldAmong32L1": 2.913893822222549,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50004",
+      "position": 401,
+      "fold": 4,
+      "nearestContextSourceId": "50006",
+      "nearestContextFieldL1": 3.362305744973418,
+      "nearestFieldAmong32SourceId": "10184",
+      "nearestFieldAmong32L1": 3.1830600543084033,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "110002",
+      "position": 405,
+      "fold": 4,
+      "nearestContextSourceId": "71032",
+      "nearestContextFieldL1": 3.3678727812649063,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 2.6393607337721967,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880001",
+      "position": 409,
+      "fold": 4,
+      "nearestContextSourceId": "880003",
+      "nearestContextFieldL1": 3.240240698747228,
+      "nearestFieldAmong32SourceId": "10197",
+      "nearestFieldAmong32L1": 2.8510503049667415,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50017",
+      "position": 412,
+      "fold": 4,
+      "nearestContextSourceId": "10198",
+      "nearestContextFieldL1": 3.185869524639394,
+      "nearestFieldAmong32SourceId": "50020",
+      "nearestFieldAmong32L1": 2.9130117274376,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "130008",
+      "position": 416,
+      "fold": 4,
+      "nearestContextSourceId": "150004",
+      "nearestContextFieldL1": 3.287582222961837,
+      "nearestFieldAmong32SourceId": "90012",
+      "nearestFieldAmong32L1": 3.1152705153477234,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "100005",
+      "position": 420,
+      "fold": 4,
+      "nearestContextSourceId": "60096",
+      "nearestContextFieldL1": 3.479450595043356,
+      "nearestFieldAmong32SourceId": "10037",
+      "nearestFieldAmong32L1": 2.8456638676741113,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "660002",
+      "position": 423,
+      "fold": 4,
+      "nearestContextSourceId": "60065",
+      "nearestContextFieldL1": 3.411650746709924,
+      "nearestFieldAmong32SourceId": "60073",
+      "nearestFieldAmong32L1": 3.1670567955544877,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71141",
+      "position": 427,
+      "fold": 4,
+      "nearestContextSourceId": "71047",
+      "nearestContextFieldL1": 2.979826754351941,
+      "nearestFieldAmong32SourceId": "71218",
+      "nearestFieldAmong32L1": 2.72985608437206,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50014",
+      "position": 435,
+      "fold": 4,
+      "nearestContextSourceId": "71148",
+      "nearestContextFieldL1": 3.4472182638210773,
+      "nearestFieldAmong32SourceId": "90026",
+      "nearestFieldAmong32L1": 2.7887152648541367,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "880004",
+      "position": 439,
+      "fold": 4,
+      "nearestContextSourceId": "880010",
+      "nearestContextFieldL1": 3.159410450794847,
+      "nearestFieldAmong32SourceId": "10052",
+      "nearestFieldAmong32L1": 2.8461793754077185,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71201",
+      "position": 442,
+      "fold": 4,
+      "nearestContextSourceId": "71150",
+      "nearestContextFieldL1": 3.5018293093381647,
+      "nearestFieldAmong32SourceId": "71112",
+      "nearestFieldAmong32L1": 2.8053926435693572,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "73012",
+      "position": 446,
+      "fold": 4,
+      "nearestContextSourceId": "880007",
+      "nearestContextFieldL1": 3.368919217441564,
+      "nearestFieldAmong32SourceId": "73013",
+      "nearestFieldAmong32L1": 2.8653321756443093,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "50005",
+      "position": 450,
+      "fold": 4,
+      "nearestContextSourceId": "72005",
+      "nearestContextFieldL1": 2.7940635104483125,
+      "nearestFieldAmong32SourceId": "72007",
+      "nearestFieldAmong32L1": 2.635570422397788,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71207",
+      "position": 454,
+      "fold": 4,
+      "nearestContextSourceId": "71217",
+      "nearestContextFieldL1": 3.5075972894817684,
+      "nearestFieldAmong32SourceId": "71203",
+      "nearestFieldAmong32L1": 2.677935550272835,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71209",
+      "position": 458,
+      "fold": 4,
+      "nearestContextSourceId": "71216",
+      "nearestContextFieldL1": 2.991913368817283,
+      "nearestFieldAmong32SourceId": "71040",
+      "nearestFieldAmong32L1": 2.6878471864098668,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71213",
+      "position": 461,
+      "fold": 4,
+      "nearestContextSourceId": "71226",
+      "nearestContextFieldL1": 3.046769772238803,
+      "nearestFieldAmong32SourceId": "71042",
+      "nearestFieldAmong32L1": 2.7537485209735824,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90003",
+      "position": 465,
+      "fold": 4,
+      "nearestContextSourceId": "90026",
+      "nearestContextFieldL1": 2.955337321587553,
+      "nearestFieldAmong32SourceId": "90012",
+      "nearestFieldAmong32L1": 2.756919568440484,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71227",
+      "position": 469,
+      "fold": 4,
+      "nearestContextSourceId": "71216",
+      "nearestContextFieldL1": 2.9532214892181283,
+      "nearestFieldAmong32SourceId": "71217",
+      "nearestFieldAmong32L1": 2.849871966074299,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "150002",
+      "position": 472,
+      "fold": 4,
+      "nearestContextSourceId": "150004",
+      "nearestContextFieldL1": 3.403733362979823,
+      "nearestFieldAmong32SourceId": "90013",
+      "nearestFieldAmong32L1": 2.9703965279128637,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90055",
+      "position": 476,
+      "fold": 4,
+      "nearestContextSourceId": "71040",
+      "nearestContextFieldL1": 2.689758537145842,
+      "nearestFieldAmong32SourceId": "150014",
+      "nearestFieldAmong32L1": 2.523372465097818,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90024",
+      "position": 480,
+      "fold": 4,
+      "nearestContextSourceId": "60080",
+      "nearestContextFieldL1": 3.1299981491892668,
+      "nearestFieldAmong32SourceId": "60066",
+      "nearestFieldAmong32L1": 2.73181700172313,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "90014",
+      "position": 483,
+      "fold": 4,
+      "nearestContextSourceId": "90013",
+      "nearestContextFieldL1": 2.590749858184802,
+      "nearestFieldAmong32SourceId": "90005",
+      "nearestFieldAmong32L1": 2.5101704956574067,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71204",
+      "position": 487,
+      "fold": 4,
+      "nearestContextSourceId": "71223",
+      "nearestContextFieldL1": 3.310934872527948,
+      "nearestFieldAmong32SourceId": "71102",
+      "nearestFieldAmong32L1": 2.6865389137517712,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71222",
+      "position": 494,
+      "fold": 4,
+      "nearestContextSourceId": "71226",
+      "nearestContextFieldL1": 3.2564807494720016,
+      "nearestFieldAmong32SourceId": "71105",
+      "nearestFieldAmong32L1": 2.8356983277940913,
+      "sameFamilyAllowed": false
+    },
+    {
+      "sourceId": "71215",
+      "position": 498,
+      "fold": 4,
+      "nearestContextSourceId": "71203",
+      "nearestContextFieldL1": 3.1447528234437874,
+      "nearestFieldAmong32SourceId": "71218",
+      "nearestFieldAmong32L1": 2.6379725712407405,
+      "sameFamilyAllowed": false
+    }
+  ],
+  "hashes": {
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templates": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "familySplits": "6184a49dda14dacefb2625b73c6f1975e0c06911ce6c964f9062b1c56dc5dd30",
+    "fieldModel": "8834347260c73f317d68e6a51fc50143d5708b0d108253bf273c4bceed34df52",
+    "tool": "28085c41f29ffcd36e04e9c48217549273326563088e7fcb994c56aa159925be",
+    "candidatePack": "340de8190014bcf1578bca5611a97ad8b6a42c00ccf65709724fa9c0ba863bf4"
+  },
+  "candidateReviewOnly": [
+    {
+      "id": 5000030,
+      "position": 76,
+      "excludedSourceFamily": "source-layout-family-75",
+      "nearestContextSourceId": "71004",
+      "nearestContextFieldL1": 3.6112675558340435,
+      "nearestFieldAmong32SourceId": "70010",
+      "nearestFieldAmong32L1": 3.355965258826831,
+      "heldoutSourcePercentile": 0.996,
+      "accepted": false
+    },
+    {
+      "id": 5000102,
+      "position": 76,
+      "excludedSourceFamily": "source-layout-family-75",
+      "nearestContextSourceId": "10051",
+      "nearestContextFieldL1": 3.3582912203623914,
+      "nearestFieldAmong32SourceId": "60005",
+      "nearestFieldAmong32L1": 3.0814364730676918,
+      "heldoutSourcePercentile": 0.842,
+      "accepted": false
+    },
+    {
+      "id": 5000190,
+      "position": 176,
+      "excludedSourceFamily": "source-layout-family-175",
+      "nearestContextSourceId": "10185",
+      "nearestContextFieldL1": 3.762112012424188,
+      "nearestFieldAmong32SourceId": "10059",
+      "nearestFieldAmong32L1": 3.4137330315123293,
+      "heldoutSourcePercentile": 0.996,
+      "accepted": false
+    },
+    {
+      "id": 5000314,
+      "position": 176,
+      "excludedSourceFamily": "source-layout-family-175",
+      "nearestContextSourceId": "10185",
+      "nearestContextFieldL1": 3.4774826093091322,
+      "nearestFieldAmong32SourceId": "71021",
+      "nearestFieldAmong32L1": 2.7627719993481294,
+      "heldoutSourcePercentile": 0.388,
+      "accepted": false
+    },
+    {
+      "id": 5000342,
+      "position": 176,
+      "excludedSourceFamily": "source-layout-family-175",
+      "nearestContextSourceId": "10185",
+      "nearestContextFieldL1": 3.572728181891698,
+      "nearestFieldAmong32SourceId": "10057",
+      "nearestFieldAmong32L1": 3.3321493461768634,
+      "heldoutSourcePercentile": 0.994,
+      "accepted": false
+    },
+    {
+      "id": 5000346,
+      "position": 176,
+      "excludedSourceFamily": "source-layout-family-175",
+      "nearestContextSourceId": "10185",
+      "nearestContextFieldL1": 3.629398643986417,
+      "nearestFieldAmong32SourceId": "71019",
+      "nearestFieldAmong32L1": 3.0297205242649907,
+      "heldoutSourcePercentile": 0.808,
+      "accepted": false
+    }
+  ]
+}

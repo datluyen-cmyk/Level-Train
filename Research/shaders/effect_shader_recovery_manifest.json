@@ -1,0 +1,58 @@
+{
+  "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+  "bundleSha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+  "shaderPathId": 838372116047587976,
+  "shaderName": "HsApp/Particles/HsAppVFXAllEffect",
+  "method": "UnityPy lz4 decompress platform9; little-endian ShaderSubProgram table entries4..7; no invented shader code",
+  "programs": [
+    {
+      "index": 4,
+      "keywords": [],
+      "entryOffset": 2788,
+      "entrySize": 10236,
+      "entrySegment": 0,
+      "bytes": 10194,
+      "file": "HsAppVFXAllEffect_GLES3_program4.glsl",
+      "sha256": "0822f81b0c6213558f2f94dab21f4ac95adcc56bb775299defe23cdf89521fdd"
+    },
+    {
+      "index": 5,
+      "keywords": [
+        "_DISSOLVE_SWITCH_ON"
+      ],
+      "entryOffset": 13024,
+      "entrySize": 12464,
+      "entrySegment": 0,
+      "bytes": 12399,
+      "file": "HsAppVFXAllEffect_GLES3_program5.glsl",
+      "sha256": "96d64bbe6bd29e391072eca07e0f73d4409c4819aac0f3010d2594e98a082f76"
+    },
+    {
+      "index": 6,
+      "keywords": [
+        "UNITY_UI_CLIP_RECT"
+      ],
+      "entryOffset": 25488,
+      "entrySize": 14560,
+      "entrySegment": 0,
+      "bytes": 14494,
+      "file": "HsAppVFXAllEffect_GLES3_program6.glsl",
+      "sha256": "07c09914b3dd0c28e7062662c2071089e90d68bef48c594bb10ee2ab5acf042b"
+    },
+    {
+      "index": 7,
+      "keywords": [
+        "UNITY_UI_CLIP_RECT",
+        "_DISSOLVE_SWITCH_ON"
+      ],
+      "entryOffset": 40048,
+      "entrySize": 16768,
+      "entrySegment": 0,
+      "bytes": 16677,
+      "file": "HsAppVFXAllEffect_GLES3_program7.glsl",
+      "sha256": "2a9aeb49462739217e04c97513ba5cc27a6cdf2506167456aead2f96f8eaf9b1"
+    }
+  ],
+  "activeProgram": 4,
+  "limits": "GLSL is original compiler output, not authored HLSL source. Direct ShaderLab cross-platform loading needs a semantic port. Platform18 decompressed data retained but SPIRV not decompiled here."
+}

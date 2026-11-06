@@ -1,0 +1,1676 @@
+{
+  "schemaVersion": 4,
+  "status": "CURRENT_RULES_PAIRED_BOUNDED_COMPUTER_SOLVER_OBSERVATIONS",
+  "inputAndReportedRulesBudgetPairingValid": true,
+  "currentRuleMatch": true,
+  "historicalRulesSnapshotByteVerified": true,
+  "validationErrors": [],
+  "warnings": [],
+  "levels": [
+    {
+      "position": 2,
+      "source": {
+        "status": "solved",
+        "sourceId": 10002,
+        "partCount": 3,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 3,
+        "solvedPath": {
+          "boundedSolverSegments": 3,
+          "distinctActedRootCount": 2,
+          "distinctActedRootIds": [
+            1,
+            2
+          ],
+          "partSwitches": 1,
+          "perRootRequestedRotationSignReversals": 0,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 299.93453216552734,
+          "rotationSegmentCount": 3,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "independentReplay": {
+          "capturedSegmentCount": 3,
+          "actualAngularTravelMagnitudeDegrees": 299.9345245361328,
+          "actualSlideTravelMagnitudeNativeUnits": 0.0,
+          "perRootActualMovementSignReversals": 0,
+          "physicalReplayBlockedSegmentCount": 0,
+          "bindingChangingSegmentCount": 2,
+          "bindingCountDecreaseSum": 2,
+          "bindingCountIncreaseSum": 0,
+          "removalSegmentCount": 2,
+          "removedRootCountFromDeltas": 3,
+          "steps": [
+            {
+              "kind": "rotate",
+              "part": 1,
+              "actualAngleBeforeDegrees": 30.000011444091797,
+              "actualAngleAfterDegrees": 135.193115234375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 105.19309997558594,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 2,
+              "activeBindingCountAfter": 2,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 1,
+              "actualAngleBeforeDegrees": 135.193115234375,
+              "actualAngleAfterDegrees": 180.00799560546875,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 44.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 2,
+              "activeBindingCountAfter": 1,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [
+                1
+              ],
+              "removedIdsDelta": [
+                1
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 2,
+              "actualAngleBeforeDegrees": 150.0,
+              "actualAngleAfterDegrees": 299.9265441894531,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 149.92654418945312,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 1,
+              "activeBindingCountAfter": 0,
+              "removedIdsBefore": [
+                1
+              ],
+              "removedIdsAfter": [
+                1,
+                2,
+                3
+              ],
+              "removedIdsDelta": [
+                2,
+                3
+              ]
+            }
+          ],
+          "semantics": "Reached production replay movement and physical CollisionWorld blocked flags; independent from requested intent and legacy bomb-inclusive blocked flag"
+        },
+        "boundedSearch": {
+          "exploredStates": 3,
+          "generatedActions": 6,
+          "replayedActions": 3,
+          "searchElapsedMs": 86,
+          "maximumFrontier": 6,
+          "attemptedActions": 6,
+          "appliedActions": 6,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 2,
+          "maximumRemovedParts": 3,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 6,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": false
+        }
+      },
+      "candidate": {
+        "status": "solved",
+        "sourceId": 7800002,
+        "partCount": 3,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 3,
+        "solvedPath": {
+          "boundedSolverSegments": 3,
+          "distinctActedRootCount": 1,
+          "distinctActedRootIds": [
+            1
+          ],
+          "partSwitches": 0,
+          "perRootRequestedRotationSignReversals": 0,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 209.96721649169922,
+          "rotationSegmentCount": 3,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "independentReplay": {
+          "capturedSegmentCount": 3,
+          "actualAngularTravelMagnitudeDegrees": 209.9672088623047,
+          "actualSlideTravelMagnitudeNativeUnits": 0.0,
+          "perRootActualMovementSignReversals": 0,
+          "physicalReplayBlockedSegmentCount": 0,
+          "bindingChangingSegmentCount": 2,
+          "bindingCountDecreaseSum": 2,
+          "bindingCountIncreaseSum": 0,
+          "removalSegmentCount": 2,
+          "removedRootCountFromDeltas": 3,
+          "steps": [
+            {
+              "kind": "rotate",
+              "part": 1,
+              "actualAngleBeforeDegrees": 30.000011444091797,
+              "actualAngleAfterDegrees": 135.193115234375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 105.19309997558594,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 2,
+              "activeBindingCountAfter": 2,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 1,
+              "actualAngleBeforeDegrees": 135.193115234375,
+              "actualAngleAfterDegrees": 180.00799560546875,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 44.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 2,
+              "activeBindingCountAfter": 1,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [
+                2
+              ],
+              "removedIdsDelta": [
+                2
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 1,
+              "actualAngleBeforeDegrees": 180.00799560546875,
+              "actualAngleAfterDegrees": 239.96722412109375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 59.959228515625,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 1,
+              "activeBindingCountAfter": 0,
+              "removedIdsBefore": [
+                2
+              ],
+              "removedIdsAfter": [
+                1,
+                2,
+                3
+              ],
+              "removedIdsDelta": [
+                1,
+                3
+              ]
+            }
+          ],
+          "semantics": "Reached production replay movement and physical CollisionWorld blocked flags; independent from requested intent and legacy bomb-inclusive blocked flag"
+        },
+        "boundedSearch": {
+          "exploredStates": 3,
+          "generatedActions": 6,
+          "replayedActions": 3,
+          "searchElapsedMs": 57,
+          "maximumFrontier": 6,
+          "attemptedActions": 6,
+          "appliedActions": 6,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 2,
+          "maximumRemovedParts": 3,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 6,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": false
+        }
+      },
+      "pairedCompleteSolveWitnesses": true,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": 1.0,
+        "distinctActedRootCount": 0.5,
+        "partSwitches": 0.0,
+        "requestedAngularDeltaMagnitudeDegrees": 0.7000434894099585,
+        "exploredStates": 1.0,
+        "generatedActions": 1.0,
+        "attemptedActions": 1.0,
+        "appliedActions": 1.0,
+        "searchElapsedMs": 0.6627906976744186
+      },
+      "ratioMissingReason": null,
+      "candidateOverSourceActualReplayRatios": {
+        "actualAngularTravelMagnitudeDegrees": 0.7000434817800048,
+        "actualSlideTravelMagnitudeNativeUnits": null,
+        "physicalReplayBlockedSegmentCount": null,
+        "perRootActualMovementSignReversals": null,
+        "bindingChangingSegmentCount": 1.0
+      },
+      "actualReplayRatioMissingReason": null,
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    },
+    {
+      "position": 7,
+      "source": {
+        "status": "unknown",
+        "sourceId": 10012,
+        "partCount": 13,
+        "censored": true,
+        "reason": "No complete replayed solve witness under this finite search budget; path metrics missing/censored",
+        "reportedMoveCountRaw": -1,
+        "solvedPath": null,
+        "independentReplay": null,
+        "boundedSearch": {
+          "exploredStates": 7,
+          "generatedActions": 502,
+          "replayedActions": 0,
+          "searchElapsedMs": 15013,
+          "maximumFrontier": 128,
+          "attemptedActions": 502,
+          "appliedActions": 502,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 5,
+          "maximumRemovedParts": 7,
+          "bestRemainingRootCount": 6,
+          "bestActiveBindings": 4,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 61,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "candidate": {
+        "status": "unknown",
+        "sourceId": 7800007,
+        "partCount": 13,
+        "censored": true,
+        "reason": "No complete replayed solve witness under this finite search budget; path metrics missing/censored",
+        "reportedMoveCountRaw": -1,
+        "solvedPath": null,
+        "independentReplay": null,
+        "boundedSearch": {
+          "exploredStates": 8,
+          "generatedActions": 505,
+          "replayedActions": 0,
+          "searchElapsedMs": 15030,
+          "maximumFrontier": 128,
+          "attemptedActions": 505,
+          "appliedActions": 505,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 14,
+          "maximumRemovedParts": 8,
+          "bestRemainingRootCount": 5,
+          "bestActiveBindings": 3,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 60,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "pairedCompleteSolveWitnesses": false,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": null,
+        "distinctActedRootCount": null,
+        "partSwitches": null,
+        "requestedAngularDeltaMagnitudeDegrees": null,
+        "exploredStates": null,
+        "generatedActions": null,
+        "attemptedActions": null,
+        "appliedActions": null,
+        "searchElapsedMs": null
+      },
+      "ratioMissingReason": "At least one solved path is missing/censored",
+      "candidateOverSourceActualReplayRatios": {
+        "actualAngularTravelMagnitudeDegrees": null,
+        "actualSlideTravelMagnitudeNativeUnits": null,
+        "physicalReplayBlockedSegmentCount": null,
+        "perRootActualMovementSignReversals": null,
+        "bindingChangingSegmentCount": null
+      },
+      "actualReplayRatioMissingReason": "Independent reached-movement replay evidence is missing/censored or pair validation failed",
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    },
+    {
+      "position": 26,
+      "source": {
+        "status": "solved",
+        "sourceId": 60010,
+        "partCount": 17,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 35,
+        "solvedPath": {
+          "boundedSolverSegments": 35,
+          "distinctActedRootCount": 12,
+          "distinctActedRootIds": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            13,
+            14,
+            16
+          ],
+          "partSwitches": 22,
+          "perRootRequestedRotationSignReversals": 6,
+          "consecutiveSameRootRequestedRotationReversals": 1,
+          "requestedAngularDeltaMagnitudeDegrees": 3092.8422927856445,
+          "rotationSegmentCount": 35,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 2,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 2,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "independentReplay": {
+          "capturedSegmentCount": 35,
+          "actualAngularTravelMagnitudeDegrees": 3071.9189376831055,
+          "actualSlideTravelMagnitudeNativeUnits": 0.0,
+          "perRootActualMovementSignReversals": 6,
+          "physicalReplayBlockedSegmentCount": 2,
+          "bindingChangingSegmentCount": 22,
+          "bindingCountDecreaseSum": 22,
+          "bindingCountIncreaseSum": 0,
+          "removalSegmentCount": 13,
+          "removedRootCountFromDeltas": 17,
+          "steps": [
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": 175.0,
+              "actualAngleAfterDegrees": 158.27810668945312,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -16.721893310546875,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 22,
+              "activeBindingCountAfter": 22,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": 158.27810668945312,
+              "actualAngleAfterDegrees": 113.46322631835938,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -44.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 22,
+              "activeBindingCountAfter": 21,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 355.0,
+              "actualAngleAfterDegrees": 291.9104309082031,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -63.089569091796875,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 21,
+              "activeBindingCountAfter": 20,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 8,
+              "actualAngleBeforeDegrees": 90.00000762939453,
+              "actualAngleAfterDegrees": 10.254890441894531,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -79.7451171875,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 20,
+              "activeBindingCountAfter": 19,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 6,
+              "actualAngleBeforeDegrees": 271.0,
+              "actualAngleAfterDegrees": 351.1777038574219,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 80.17770385742188,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 19,
+              "activeBindingCountAfter": 18,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 13,
+              "actualAngleBeforeDegrees": 164.0,
+              "actualAngleAfterDegrees": 48.54046630859375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -115.45953369140625,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 18,
+              "activeBindingCountAfter": 17,
+              "removedIdsBefore": [],
+              "removedIdsAfter": [
+                13
+              ],
+              "removedIdsDelta": [
+                13
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": 113.46322631835938,
+              "actualAngleAfterDegrees": 47.171142578125,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -66.29208374023438,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 17,
+              "activeBindingCountAfter": 16,
+              "removedIdsBefore": [
+                13
+              ],
+              "removedIdsAfter": [
+                13
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": 47.171142578125,
+              "actualAngleAfterDegrees": -69.62276458740234,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -116.79390716552734,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 16,
+              "activeBindingCountAfter": 16,
+              "removedIdsBefore": [
+                13
+              ],
+              "removedIdsAfter": [
+                13
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": -69.62276458740234,
+              "actualAngleAfterDegrees": -77.62275695800781,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -7.999992370605469,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 16,
+              "activeBindingCountAfter": 16,
+              "removedIdsBefore": [
+                13
+              ],
+              "removedIdsAfter": [
+                13
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": -77.62275695800781,
+              "actualAngleAfterDegrees": -114.43763732910156,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -36.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 16,
+              "activeBindingCountAfter": 16,
+              "removedIdsBefore": [
+                13
+              ],
+              "removedIdsAfter": [
+                13
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 16,
+              "actualAngleBeforeDegrees": 0.0,
+              "actualAngleAfterDegrees": -124.12496948242188,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -124.12496948242188,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 16,
+              "activeBindingCountAfter": 15,
+              "removedIdsBefore": [
+                13
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                16,
+                17
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 291.9104309082031,
+              "actualAngleAfterDegrees": 229.39865112304688,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -62.51177978515625,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 15,
+              "activeBindingCountAfter": 14,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 6,
+              "actualAngleBeforeDegrees": 351.1777038574219,
+              "actualAngleAfterDegrees": 449.9974365234375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 98.81973266601562,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 14,
+              "activeBindingCountAfter": 13,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 6,
+              "actualAngleBeforeDegrees": 449.9974365234375,
+              "actualAngleAfterDegrees": 546.39208984375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 96.3946533203125,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 13,
+              "activeBindingCountAfter": 13,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 229.39865112304688,
+              "actualAngleAfterDegrees": 116.60945892333984,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -112.78919219970703,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 13,
+              "activeBindingCountAfter": 13,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 116.60945892333984,
+              "actualAngleAfterDegrees": 108.60946655273438,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -7.999992370605469,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 13,
+              "activeBindingCountAfter": 13,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 108.60946655273438,
+              "actualAngleAfterDegrees": 71.79458618164062,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -36.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 13,
+              "activeBindingCountAfter": 13,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 14,
+              "actualAngleBeforeDegrees": 175.0,
+              "actualAngleAfterDegrees": 304.4884033203125,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 129.4884033203125,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 13,
+              "activeBindingCountAfter": 12,
+              "removedIdsBefore": [
+                13,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                14,
+                15
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": -114.43763732910156,
+              "actualAngleAfterDegrees": -49.508201599121094,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 64.92943572998047,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 12,
+              "activeBindingCountAfter": 11,
+              "removedIdsBefore": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 6,
+              "actualAngleBeforeDegrees": 546.39208984375,
+              "actualAngleAfterDegrees": 449.9974365234375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -96.3946533203125,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 11,
+              "activeBindingCountAfter": 10,
+              "removedIdsBefore": [
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                6
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": -49.508201599121094,
+              "actualAngleAfterDegrees": 47.17115020751953,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 96.67935180664062,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 10,
+              "activeBindingCountAfter": 10,
+              "removedIdsBefore": [
+                6,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 11,
+              "actualAngleBeforeDegrees": 356.0,
+              "actualAngleAfterDegrees": 490.9089660644531,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 134.90896606445312,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 10,
+              "activeBindingCountAfter": 9,
+              "removedIdsBefore": [
+                6,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                10,
+                11
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 71.79458618164062,
+              "actualAngleAfterDegrees": 132.40322875976562,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 60.608642578125,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 9,
+              "activeBindingCountAfter": 8,
+              "removedIdsBefore": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 132.40322875976562,
+              "actualAngleAfterDegrees": 229.39865112304688,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 96.99542236328125,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 8,
+              "activeBindingCountAfter": 8,
+              "removedIdsBefore": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 8,
+              "actualAngleBeforeDegrees": 10.254890441894531,
+              "actualAngleAfterDegrees": -88.88225555419922,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -99.13714599609375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 8,
+              "activeBindingCountAfter": 7,
+              "removedIdsBefore": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 8,
+              "actualAngleBeforeDegrees": -88.88225555419922,
+              "actualAngleAfterDegrees": -189.83309936523438,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -100.95084381103516,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 7,
+              "activeBindingCountAfter": 7,
+              "removedIdsBefore": [
+                6,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                12
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 8,
+              "actualAngleBeforeDegrees": -189.83309936523438,
+              "actualAngleAfterDegrees": -88.88225555419922,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 100.95084381103516,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 7,
+              "activeBindingCountAfter": 6,
+              "removedIdsBefore": [
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                6,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                8
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 3,
+              "actualAngleBeforeDegrees": 131.0,
+              "actualAngleAfterDegrees": -48.36643981933594,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -179.36643981933594,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 6,
+              "activeBindingCountAfter": 5,
+              "removedIdsBefore": [
+                6,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                6,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                3
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 7,
+              "actualAngleBeforeDegrees": 47.17115020751953,
+              "actualAngleAfterDegrees": -49.508201599121094,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -96.67935180664062,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 5,
+              "activeBindingCountAfter": 4,
+              "removedIdsBefore": [
+                3,
+                6,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                7
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 4,
+              "actualAngleBeforeDegrees": 319.0,
+              "actualAngleAfterDegrees": 132.69644165039062,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -186.30355834960938,
+              "replayBlocked": true,
+              "replayBlockerOwner": 1,
+              "replayBlockerShapeIndex": 16,
+              "replayBlockerRole": "head_trigger",
+              "activeBindingCountBefore": 4,
+              "activeBindingCountAfter": 3,
+              "removedIdsBefore": [
+                3,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                4
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 229.39865112304688,
+              "actualAngleAfterDegrees": 177.21810913085938,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -52.1805419921875,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 3,
+              "activeBindingCountAfter": 3,
+              "removedIdsBefore": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 177.21810913085938,
+              "actualAngleAfterDegrees": 169.21810913085938,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -8.0,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 3,
+              "activeBindingCountAfter": 3,
+              "removedIdsBefore": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": []
+            },
+            {
+              "kind": "rotate",
+              "part": 9,
+              "actualAngleBeforeDegrees": 169.21810913085938,
+              "actualAngleAfterDegrees": 132.40322875976562,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -36.81488037109375,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 3,
+              "activeBindingCountAfter": 2,
+              "removedIdsBefore": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                9
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 2,
+              "actualAngleBeforeDegrees": 37.999996185302734,
+              "actualAngleAfterDegrees": 228.33131408691406,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": 190.33131408691406,
+              "replayBlocked": false,
+              "replayBlockerOwner": -1,
+              "replayBlockerShapeIndex": -1,
+              "replayBlockerRole": "",
+              "activeBindingCountBefore": 2,
+              "activeBindingCountAfter": 1,
+              "removedIdsBefore": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                2
+              ]
+            },
+            {
+              "kind": "rotate",
+              "part": 5,
+              "actualAngleBeforeDegrees": 215.0,
+              "actualAngleAfterDegrees": 41.165618896484375,
+              "actualSlideBefore": 0.0,
+              "actualSlideAfter": 0.0,
+              "actualMovementConsumed": -173.83438110351562,
+              "replayBlocked": true,
+              "replayBlockerOwner": 1,
+              "replayBlockerShapeIndex": 16,
+              "replayBlockerRole": "head_trigger",
+              "activeBindingCountBefore": 1,
+              "activeBindingCountAfter": 0,
+              "removedIdsBefore": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsAfter": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "removedIdsDelta": [
+                1,
+                5
+              ]
+            }
+          ],
+          "semantics": "Reached production replay movement and physical CollisionWorld blocked flags; independent from requested intent and legacy bomb-inclusive blocked flag"
+        },
+        "boundedSearch": {
+          "exploredStates": 35,
+          "generatedActions": 392,
+          "replayedActions": 35,
+          "searchElapsedMs": 11435,
+          "maximumFrontier": 128,
+          "attemptedActions": 392,
+          "appliedActions": 392,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 160,
+          "maximumRemovedParts": 17,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "candidate": {
+        "status": "unknown",
+        "sourceId": 7800026,
+        "partCount": 17,
+        "censored": true,
+        "reason": "No complete replayed solve witness under this finite search budget; path metrics missing/censored",
+        "reportedMoveCountRaw": -1,
+        "solvedPath": null,
+        "independentReplay": null,
+        "boundedSearch": {
+          "exploredStates": 27,
+          "generatedActions": 1391,
+          "replayedActions": 0,
+          "searchElapsedMs": 15031,
+          "maximumFrontier": 128,
+          "attemptedActions": 1391,
+          "appliedActions": 463,
+          "noOpActions": 928,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 242,
+          "maximumRemovedParts": 7,
+          "bestRemainingRootCount": 10,
+          "bestActiveBindings": 11,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 1,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "pairedCompleteSolveWitnesses": false,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": null,
+        "distinctActedRootCount": null,
+        "partSwitches": null,
+        "requestedAngularDeltaMagnitudeDegrees": null,
+        "exploredStates": null,
+        "generatedActions": null,
+        "attemptedActions": null,
+        "appliedActions": null,
+        "searchElapsedMs": null
+      },
+      "ratioMissingReason": "At least one solved path is missing/censored",
+      "candidateOverSourceActualReplayRatios": {
+        "actualAngularTravelMagnitudeDegrees": null,
+        "actualSlideTravelMagnitudeNativeUnits": null,
+        "physicalReplayBlockedSegmentCount": null,
+        "perRootActualMovementSignReversals": null,
+        "bindingChangingSegmentCount": null
+      },
+      "actualReplayRatioMissingReason": "Independent reached-movement replay evidence is missing/censored or pair validation failed",
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    }
+  ],
+  "budgets": {
+    "source": {
+      "maxStates": 128,
+      "wallTimeBudgetMs": 15000
+    },
+    "candidate": {
+      "maxStates": 128,
+      "wallTimeBudgetMs": 15000
+    }
+  },
+  "reportedRulesHash": {
+    "source": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+    "candidate": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571"
+  },
+  "verifiedRulesHash": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+  "solverPolicy": {
+    "source": {
+      "policyId": "source-solver-v3-guided-priority-bounded-search-v1",
+      "defaultMaxStates": 256,
+      "defaultWallTimeBudgetMs": 1000,
+      "moveCountSemantics": "Count of solver ApplyAction segments in the witness path; not a human drag count or level par.",
+      "actionMovementSemantics": "Requested delta/targetSlide are intent; actual replay fields record reached angle/slide after collision clamping."
+    },
+    "candidate": {
+      "policyId": "source-solver-v3-guided-priority-bounded-search-v1",
+      "defaultMaxStates": 256,
+      "defaultWallTimeBudgetMs": 1000,
+      "moveCountSemantics": "Count of solver ApplyAction segments in the witness path; not a human drag count or level par.",
+      "actionMovementSemantics": "Requested delta/targetSlide are intent; actual replay fields record reached angle/slide after collision clamping."
+    }
+  },
+  "acceptedGeneratedCount": 0,
+  "numericContentGatesApplied": [],
+  "limits": [
+    "Segments are bounded computer-solver action witnesses, not human drags, minimal moves, human difficulty or acceptance.",
+    "Equal segment counts do not establish equal difficulty; acted roots, switches, reversals, blocking/order and mechanic constraints also matter.",
+    "Unknown/missing paths remain null and censored. Raw-1 moveCount is never treated as zero; bounded search failure is not unsolvability.",
+    "Requested angular delta magnitude is requested motion, not measured travel when contact or quick release truncates it.",
+    "Solver action.blocked includes physical blocking or spent-bomb events; trace observations are bounded search logs, not complete selected-path contact telemetry.",
+    "Effort ratios are descriptive under identical budgets and verified rules/inputs; timing depends on machine/editor state and does not measure player effort.",
+    "Historical same-rules comparison requires matching reported rules hashes and verified input bundles/budgets. If old rule bytes are unavailable, historicalRulesSnapshotByteVerified is false; it is not current-runtime certification.",
+    "Zero source denominators yield null ratios. No fixed design cutoff or difficulty-equivalence claim is applied."
+  ],
+  "hashes": {
+    "sourceReport": "6e49e0d806415adea63d3837e4bff45ed77d5961bf1272520f97a9716ce72f5d",
+    "candidateReport": "d67c2ffe93b989a29716393c1e46d028ac212f88dfd86d419d18660d1459abd5",
+    "sourceInputBundle": "d7a06ec7ed8d61e652847a496589903e07b499a28b09eb7bd0cd99b7873967d6",
+    "candidateInputBundle": "39997f6cacf1aecf16053b95c312bf26d6272bd885e3d404fff2f372d854d8d8",
+    "rulesBundle": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+    "tool": "7726ec2161bc4950fad537c62c6355abf7bbd2c03d6edf596447afa00a6f8616",
+    "boundFiles": {
+      "D:\\RotateRings\\Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+      "D:\\RotateRings\\Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+      "D:\\RotateRings\\Research\\physics_v3\\visual_qa\\staged_semantic_review_20261106_0524\\proposals_snapshot.json": "c638d752ab9bb64ff83d7db4be5720f2c757d65bfc82ef7f1bcc657832fe030a",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsCollisionWorld.cs": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsBombContacts.cs": "15b9fee6515ada057bf467eea23e5a6b544f9cf2c792829a8609e6b798034a34",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsLevelData.cs": "f4bb8fb59a27fc465e1024b786a529290e31b972c3be1e1bc9dd5d1778191107",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsRuntime.cs": "0aed236f63389d7dd789b493b794051cbd2f50d7a3dd609b1d6dc1637c56233b",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsNativeInterlockPolicy.cs": "df8a744acd3d3f632edac0058a5a8aec768619181f8720c71d3d0895be215368",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Resources\\SourceOverlapQueries.json": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Editor\\SourceSolverV3.cs": "f41830d6006c8f0d41b2c972dab173a1faa3b5af16f6de30489fc729f5069742"
+    }
+  },
+  "reportPaths": {
+    "source": "D:\\RotateRings\\Research\\physics_v3\\source_solver_v3_pairs_2_7_26_sources_1aaa48490ae656c8_report.json",
+    "candidate": "D:\\RotateRings\\Research\\physics_v3\\source_solver_v3_pairs_2_7_26_candidates_1aaa48490ae656c8_report.json"
+  }
+}

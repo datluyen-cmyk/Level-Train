@@ -1,0 +1,20 @@
+{
+  "reason": "User revised numeric policy: source-relative soft features/ranking, no immutable20\u201325percent/density/45degree/component profile content gates",
+  "historicalWriterStoppedPid": 10820,
+  "acceptedGeneratedCount": 0,
+  "stagedCount": 74,
+  "statusCounts": {
+    "UNSUPPORTED_CURRENT_GRAMMAR_BUDGET": 27,
+    "STAGED_PRELIMINARY": 74,
+    "SEARCHING": 1,
+    "UNPROCESSED": 198
+  },
+  "interruptedSearchingPosition": [
+    99
+  ],
+  "resumePolicy": "Do not resume this historical hard-gated writer automatically. Position99 SEARCHING is safely checkpointed; a new policy branch must read frozen historical evidence without rewriting it.",
+  "historicalHashes": {
+    "coverage.json": "4d28db7cff577c2d68b1d7eb56868c890097b6d4db581c49b09b8067382162be",
+    "proposals.json": "7cd65bb60dff0a6a88dc91cf87a367fd5c434785cf7a777474eb947c98a532c7"
+  }
+}

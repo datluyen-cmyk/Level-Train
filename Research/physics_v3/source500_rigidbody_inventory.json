@@ -1,0 +1,59 @@
+{
+  "sourceCount": 500,
+  "rigidbodyCount": 11277,
+  "bodylessRootCount": 3401,
+  "byKind": {
+    "('ring', True)": 7295,
+    "('slider', True)": 3982,
+    "('fixed', False)": 3339,
+    "('butterfly', False)": 62
+  },
+  "fieldDistributions": {
+    "bodyType": {
+      "1": 11277
+    },
+    "simulated": {
+      "True": 11277
+    },
+    "useFullKinematicContacts": {
+      "True": 11277
+    },
+    "useAutoMass": {
+      "False": 11277
+    },
+    "mass": {
+      "1.0": 11277
+    },
+    "linearDamping": {
+      "0.0": 11277
+    },
+    "angularDamping": {
+      "0.0": 11277
+    },
+    "gravityScale": {
+      "0.0": 11277
+    },
+    "includeLayers": {
+      "0": 11277
+    },
+    "excludeLayers": {
+      "0": 11277
+    },
+    "interpolation": {
+      "0": 11277
+    },
+    "sleepMode": {
+      "1": 11277
+    },
+    "collisionDetection": {
+      "1": 11277
+    },
+    "constraints": {
+      "3": 7295,
+      "4": 3982
+    }
+  },
+  "physicsMaterialPathIds": {
+    "-7623606798472899569": 11277
+  }
+}

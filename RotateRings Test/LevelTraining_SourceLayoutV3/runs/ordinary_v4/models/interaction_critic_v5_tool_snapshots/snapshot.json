@@ -1,0 +1,15 @@
+{
+  "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+  "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+  "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+  "global_composition_v3.py": "8b2f7ed9c7c085dc72f318232ea4e8a4de89ae885b2df0f2d54f524433241cd9",
+  "guide_anchor_role_motifs_v3.py": "5a952628aa230ffb8e753e4a816a4a46faa14880d6a0161d835ad23a880ff4cc",
+  "guide_neighborhood_motifs_v3.py": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f",
+  "interaction_critic_v5.py": "1df4617ce171753b9852f6730453f9bb0516f2a1de356d0bf1663e66fe199874",
+  "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+  "macro_assembly_v3.py": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+  "macro_pattern_v3.py": "af83b2e243b641a60411e971e39795701a15bcab1162c26618925b612d150d60",
+  "ordinary_source_filter_guard_v4.py": "3978aacb2e419915f2f432504c7338e1cc1b171addbc800a823e04edd535ffb7",
+  "refit_ordinary_models_v4.py": "693929c43be6626bc52995bc467c265fdee7054b78539e73d7353767d96f2b77",
+  "source_physical_composition_v3.py": "7df71089897d1838fec7fae8a3e7e5065e0e106017e38e11ea58abc1d43e69a6"
+}

@@ -1,0 +1,120 @@
+{
+  "acceptedCount": 0,
+  "gateStatus": "REJECTED_UNCALIBRATED_FIELD_THRESHOLD_REVIEW_PENDING",
+  "levels": [
+    {
+      "id": 5000030,
+      "position": 76,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 7,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1522786328100283,
+        0.8728383095955845
+      ],
+      "nativeStrokeCoverageRatio": 0.8619448246010879,
+      "oldLocalAuthoredEdges": 7,
+      "newLocalAuthoredEdges": 6,
+      "sourceWholeFieldDelta": 1.0999656734245074,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5833333333333334
+    },
+    {
+      "id": 5000102,
+      "position": 76,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 7,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.181658048346009,
+        0.7887417130208351
+      ],
+      "nativeStrokeCoverageRatio": 0.8223879078499392,
+      "oldLocalAuthoredEdges": 7,
+      "newLocalAuthoredEdges": 7,
+      "sourceWholeFieldDelta": 1.0064582738982113,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5833333333333334
+    },
+    {
+      "id": 5000190,
+      "position": 176,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0495548148656333,
+        1.0181677634524986
+      ],
+      "nativeStrokeCoverageRatio": 0.9999999999999999,
+      "oldLocalAuthoredEdges": 5,
+      "newLocalAuthoredEdges": 5,
+      "sourceWholeFieldDelta": 0.8219542262038919,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5217391304347826
+    },
+    {
+      "id": 5000314,
+      "position": 176,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.8983221128883255,
+        1.013989503255514
+      ],
+      "nativeStrokeCoverageRatio": 1.107355487853135,
+      "oldLocalAuthoredEdges": 5,
+      "newLocalAuthoredEdges": 6,
+      "sourceWholeFieldDelta": 0.9987430846258738,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5217391304347826
+    },
+    {
+      "id": 5000342,
+      "position": 176,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.909870155174674,
+        0.9517792301697838
+      ],
+      "nativeStrokeCoverageRatio": 1.0440622886582225,
+      "oldLocalAuthoredEdges": 5,
+      "newLocalAuthoredEdges": 6,
+      "sourceWholeFieldDelta": 1.0405762506630696,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5217391304347826
+    },
+    {
+      "id": 5000346,
+      "position": 176,
+      "rejections": [
+        "wholeCompositionFieldDelta"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8348747798305898,
+        0.9649595685058536
+      ],
+      "nativeStrokeCoverageRatio": 0.7983035110452064,
+      "oldLocalAuthoredEdges": 5,
+      "newLocalAuthoredEdges": 5,
+      "sourceWholeFieldDelta": 0.9028748623578469,
+      "allPreliminaryGatesPassed": false,
+      "unmeasuredOriginalFieldThreshold": 0.5217391304347826
+    }
+  ]
+}

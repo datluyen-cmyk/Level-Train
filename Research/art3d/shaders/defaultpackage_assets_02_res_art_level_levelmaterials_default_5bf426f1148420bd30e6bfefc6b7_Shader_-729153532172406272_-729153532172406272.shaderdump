@@ -1,0 +1,35 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Sprites/BrowCatchSprite" {
+Properties {
+
+_MainTex ("Sprite Texture", 2D) = "white" { }
+
+_NormalMap ("Normal Map", 2D) = "bump" { }
+
+_Color ("Tint", Color) = (1,1,1,1)
+
+_NormalScale ("Normal Scale", Range(0, 2)) = 0.0
+
+_LightDir ("Fake Light Dir", Vector) = (0.25,0.45,1,0)
+
+[MaterialToggle] _ZWrite ("ZWrite", Float) = 1.0
+
+_RendererColor ("RendererColor", Color) = (1,1,1,1)
+
+}
+SubShader {
+ Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ Pass {
+ Name "UniversalForward"
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "UniversalForward" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ ZWrite Off
+ Cull Off
+  GpuProgramID 7482
+}
+}
+Fall back "Universal Render Pipeline/2D/Sprite-Unlit-Default"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "native source macro relation proposal; no physics or quality labels",
+  "folds": [
+    {
+      "fold": 0,
+      "trainingRelations": 6102,
+      "heldOutRelations": 1142,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 61.5538850658468,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.5399752619102656
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 62.04131248556665,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.6202942551777872
+      }
+    },
+    {
+      "fold": 1,
+      "trainingRelations": 5680,
+      "heldOutRelations": 1564,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 46.64876540746638,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.029914451444296
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 48.59953027328119,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.1289477615944348
+      }
+    },
+    {
+      "fold": 2,
+      "trainingRelations": 5720,
+      "heldOutRelations": 1524,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 41.331276564506275,
+        "levelMeanOracleBest32XYErrorWidthUnits": 2.8020427544061146
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 41.775619065009565,
+        "levelMeanOracleBest32XYErrorWidthUnits": 2.8737681007072498
+      }
+    },
+    {
+      "fold": 3,
+      "trainingRelations": 5706,
+      "heldOutRelations": 1538,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 50.77740038252956,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.06791221111444
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 49.656985112931416,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.0944262828144704
+      }
+    },
+    {
+      "fold": 4,
+      "trainingRelations": 5768,
+      "heldOutRelations": 1476,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 52.49398172537914,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.09972012946428
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 49.760601679803564,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.0527414610852923
+      }
+    }
+  ],
+  "summary": {
+    "nativeMacroGeometry": {
+      "levelMeanNLL": 50.56106182914563,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.1079129616678793
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 50.36680972331847,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.1540355722758466
+    }
+  },
+  "limitations": [
+    "Macro partition is deterministic analysis of source topology and source nearest-neighbor organization. It is not an authored semantic annotation.",
+    "Relation reconstruction is oracle best-of32, not single-sample accuracy.",
+    "Some original boards have one macro tile and supply no intertile relation labels. They remain in tile corpus and native validation corpus.",
+    "Full native seam initialization, replay and difficulty gates remain mandatory."
+  ],
+  "sourceCount": 460,
+  "actualUniqueOrdinaryCount": 460,
+  "tileCount": 3628,
+  "macroRelationCount": 7244,
+  "evaluation": "Five source-family folds with baseline before final refit on all eligible ordinary sources",
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatePack": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "sourceFilter": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "trainer": "693929c43be6626bc52995bc467c265fdee7054b78539e73d7353767d96f2b77",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "model": "9b1bb8d6c3b423c18f97b7b546392a33b7ab2d02699f9cb23715802e6dc7d360"
+  }
+}

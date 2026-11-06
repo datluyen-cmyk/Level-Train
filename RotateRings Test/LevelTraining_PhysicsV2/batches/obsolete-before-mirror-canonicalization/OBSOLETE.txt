@@ -1,0 +1,1 @@
+Obsolete incomplete prefix: global reflection could evade prior pin-angle canonicalization. Final delivery uses conservative piece-wise reflection normalization, regrouped source families, refitted held-out metrics and same-seed restart. Do not export this prefix.

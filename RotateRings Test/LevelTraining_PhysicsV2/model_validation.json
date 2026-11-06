@@ -1,0 +1,3504 @@
+{
+  "ruleVersion": "native-template-polygon-sweep-2.1-mirror",
+  "originalCountInspected": 500,
+  "supportedSourceLevelInventory": 62,
+  "physicallySolvedAndReplayedOriginals": 6,
+  "sourceRejectReasons": {
+    "unsupported mechanics": 438,
+    "excluded source template inventory": 9,
+    "declared search budget exhausted; solvability inconclusive": 47
+  },
+  "sourceStatus": [
+    {
+      "id": "10001",
+      "index": 0,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 2,
+      "score": 2.649999909456768,
+      "cost": 1,
+      "solution": [
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 180.00001629778177,
+          "delta": -179.99998370221823
+        }
+      ]
+    },
+    {
+      "id": "10002",
+      "index": 1,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 3,
+      "score": 4.966302824896983,
+      "cost": 2,
+      "solution": [
+        {
+          "part": 1,
+          "kind": "rotate",
+          "angle": 180.00801185678242,
+          "delta": 150.00800116728163
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 299.92650851115957,
+          "delta": 149.92650731417535
+        }
+      ]
+    },
+    {
+      "id": "10003",
+      "index": 2,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 4,
+      "score": 6.000019247602586,
+      "cost": 3,
+      "solution": [
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 300.0000173049688,
+          "delta": 120.00002231392494
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 59.86588693450131,
+          "delta": 119.86586962953248
+        },
+        {
+          "part": 3,
+          "kind": "rotate",
+          "angle": 120.13757262500818,
+          "delta": 120.13757262500815
+        }
+      ]
+    },
+    {
+      "id": "10005",
+      "index": 3,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 7,
+      "score": 12.273766961743425,
+      "cost": 6,
+      "solution": [
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 319.99998235532996,
+          "delta": -105.0000206951371
+        },
+        {
+          "part": 1,
+          "kind": "rotate",
+          "angle": 219.99999940605113,
+          "delta": -165.0000140684907
+        },
+        {
+          "part": 6,
+          "kind": "rotate",
+          "angle": 54.99999033903957,
+          "delta": 179.99999644639723
+        },
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 34.999954172998656,
+          "delta": 69.99995253307543
+        },
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 125.26747380224498,
+          "delta": 90.2675196292463
+        },
+        {
+          "part": 3,
+          "kind": "rotate",
+          "angle": 230.01054425721946,
+          "delta": 105.01054974146996
+        }
+      ]
+    },
+    {
+      "id": "10004",
+      "index": 4,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 7,
+      "score": 15.510845588586342,
+      "cost": 8,
+      "solution": [
+        {
+          "part": 1,
+          "kind": "rotate",
+          "angle": 49.99602424994546,
+          "delta": -100.00397694703875
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 135.02993525267027,
+          "delta": 105.02992456316946
+        },
+        {
+          "part": 1,
+          "kind": "rotate",
+          "angle": 314.9213844712727,
+          "delta": -95.0746397786728
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 225.1085631190063,
+          "delta": 90.07862786633609
+        },
+        {
+          "part": 6,
+          "kind": "rotate",
+          "angle": 155.02436046192392,
+          "delta": -114.97563183988169
+        },
+        {
+          "part": 4,
+          "kind": "rotate",
+          "angle": 30.005300009295063,
+          "delta": -179.99870781273484
+        },
+        {
+          "part": 6,
+          "kind": "rotate",
+          "angle": 31.299467864091763,
+          "delta": -123.72489259783215
+        },
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 150.66345727222506,
+          "delta": 183.06580453987561
+        }
+      ]
+    },
+    {
+      "id": "10010",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10007",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "10008",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "10154",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10006",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "10011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "10009",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "60023",
+      "index": 13,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 12
+    },
+    {
+      "id": "70002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "70017",
+      "index": 15,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 13
+    },
+    {
+      "id": "70003",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch",
+        "inner mount excluded from this source-constrained batch"
+      ]
+    },
+    {
+      "id": "70010",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10060",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10109",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10111",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10062",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10070",
+      "physicalLabel": false,
+      "reason": [
+        "inner mount excluded from this source-constrained batch"
+      ]
+    },
+    {
+      "id": "10068",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10069",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60010",
+      "index": 25,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 17
+    },
+    {
+      "id": "10067",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10065",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71009",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10157",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "70011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10048",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10054",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10050",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "10061",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10023",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70033",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10042",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10039",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10035",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10058",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10059",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10031",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60009",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70025",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10038",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60011",
+      "index": 48,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 22
+    },
+    {
+      "id": "10134",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60026",
+      "index": 51,
+      "physicalLabel": true,
+      "reason": null,
+      "parts": 17,
+      "score": 37.55461570698694,
+      "cost": 22,
+      "solution": [
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 213.59635483450606,
+          "delta": -72.40365052791756
+        },
+        {
+          "part": 7,
+          "kind": "rotate",
+          "angle": 330.58413146488743,
+          "delta": 84.58412841296285
+        },
+        {
+          "part": 7,
+          "kind": "rotate",
+          "angle": 17.030602105473356,
+          "delta": 46.446470640585915
+        },
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 165.27046417735312,
+          "delta": -48.32589065715294
+        },
+        {
+          "part": 10,
+          "kind": "rotate",
+          "angle": 218.55777315826757,
+          "delta": -77.4422266062638
+        },
+        {
+          "part": 13,
+          "kind": "rotate",
+          "angle": 180.4534976944429,
+          "delta": -86.54649766845404
+        },
+        {
+          "part": 10,
+          "kind": "rotate",
+          "angle": 73.05963369664373,
+          "delta": -145.49813946162385
+        },
+        {
+          "part": 11,
+          "kind": "rotate",
+          "angle": 325.7664977113568,
+          "delta": 90.76650381871445
+        },
+        {
+          "part": 11,
+          "kind": "rotate",
+          "angle": 105.80010720416132,
+          "delta": 140.03360949280454
+        },
+        {
+          "part": 4,
+          "kind": "rotate",
+          "angle": 150.85775922552128,
+          "delta": 77.85774539641852
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 25.36440474413648,
+          "delta": -93.63558990214946
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 333.14524437908335,
+          "delta": -52.21916036505314
+        },
+        {
+          "part": 4,
+          "kind": "rotate",
+          "angle": 212.36892363692132,
+          "delta": 61.51116441140002
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 209.4611490234474,
+          "delta": -123.68409535563595
+        },
+        {
+          "part": 4,
+          "kind": "rotate",
+          "angle": 339.5831979047437,
+          "delta": 127.21427426782236
+        },
+        {
+          "part": 5,
+          "kind": "rotate",
+          "angle": 34.47396189186317,
+          "delta": -130.79650228548996
+        },
+        {
+          "part": 7,
+          "kind": "rotate",
+          "angle": 150.48503269985832,
+          "delta": 133.45443059438497
+        },
+        {
+          "part": 8,
+          "kind": "rotate",
+          "angle": 253.48401748026862,
+          "delta": 85.48402185430518
+        },
+        {
+          "part": 8,
+          "kind": "rotate",
+          "angle": 25.158000332115495,
+          "delta": 131.67398285184686
+        },
+        {
+          "part": 9,
+          "kind": "rotate",
+          "angle": 292.5807451414614,
+          "delta": -86.41924761302118
+        },
+        {
+          "part": 9,
+          "kind": "rotate",
+          "angle": 154.84195405576455,
+          "delta": -137.73879108569687
+        },
+        {
+          "part": 14,
+          "kind": "rotate",
+          "angle": 358.9053037102504,
+          "delta": -91.094703987944
+        }
+      ]
+    },
+    {
+      "id": "10053",
+      "physicalLabel": false,
+      "reason": [
+        "attachment/head inventory mismatch",
+        "headed bar excluded from this batch"
+      ]
+    },
+    {
+      "id": "60007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10015",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10026",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70009",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60036",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "10063",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70006",
+      "index": 60,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 17
+    },
+    {
+      "id": "70027",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10025",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10029",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10043",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70028",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10152",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10066",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60001",
+      "index": 71,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 15
+    },
+    {
+      "id": "71014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71026",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10057",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10051",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10056",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70032",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10072",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70026",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10021",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73006",
+      "index": 83,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 19
+    },
+    {
+      "id": "10052",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "10153",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70030",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70031",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10055",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71016",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71018",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "70029",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10160",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10166",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10168",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "20003",
+      "index": 102,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "70007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "71008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10018",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20031",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10125",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71015",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60034",
+      "index": 111,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 23
+    },
+    {
+      "id": "20001",
+      "index": 112,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71020",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71022",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71028",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71025",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20029",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70018",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10159",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70019",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "71017",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20005",
+      "index": 122,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10046",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60030",
+      "index": 124,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 14
+    },
+    {
+      "id": "10013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10064",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20023",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "10017",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10164",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "71032",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,complexSliderPaths"
+    },
+    {
+      "id": "20007",
+      "index": 132,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10019",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71024",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71023",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10040",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20033",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10158",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60032",
+      "index": 140,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 17
+    },
+    {
+      "id": "71019",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20009",
+      "index": 142,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71010",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10045",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10122",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71027",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20037",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70024",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10156",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71021",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20013",
+      "index": 152,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "70005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "70020",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10071",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "70035",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20027",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "60028",
+      "index": 158,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 14
+    },
+    {
+      "id": "10082",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60004",
+      "index": 160,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 16
+    },
+    {
+      "id": "60003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "20015",
+      "index": 162,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10037",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60002",
+      "index": 164,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 19
+    },
+    {
+      "id": "71030",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10034",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20039",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70023",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10155",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71031",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10044",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20017",
+      "index": 172,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "70022",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71029",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "70013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "70015",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20025",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "10024",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10028",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10049",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10162",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "20019",
+      "index": 182,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71034",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10030",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs"
+    },
+    {
+      "id": "70034",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10041",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20021",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70021",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10095",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10032",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10020",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20011",
+      "index": 192,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10036",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10027",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10033",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10047",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20035",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71033",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10161",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70038",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71113",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20043",
+      "index": 202,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71112",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60049",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60060",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "60045",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20088",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "60074",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71119",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71114",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20067",
+      "index": 212,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "60048",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71135",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73003",
+      "index": 215,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 19
+    },
+    {
+      "id": "60042",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20087",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71136",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60058",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71111",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20071",
+      "index": 222,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "60050",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71137",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "60046",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71109",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20082",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70040",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60079",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60063",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10172",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20057",
+      "index": 232,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "60051",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71107",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73007",
+      "index": 235,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 15
+    },
+    {
+      "id": "60054",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20090",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71132",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "72009",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "60070",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60069",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20041",
+      "index": 242,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71125",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71037",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71128",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20084",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "70036",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs"
+    },
+    {
+      "id": "71117",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60071",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20045",
+      "index": 252,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71124",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71138",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10190",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies"
+    },
+    {
+      "id": "71122",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20097",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71035",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "72004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71120",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71115",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20075",
+      "index": 262,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "70037",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71139",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60057",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "70039",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20086",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "60055",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60052",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71121",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60064",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20063",
+      "index": 272,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71129",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10185",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60053",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71110",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20085",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71036",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "72014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "60067",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60059",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20079",
+      "index": 282,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71104",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10187",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73009",
+      "index": 285,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 21
+    },
+    {
+      "id": "71130",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20099",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "60061",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60047",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10170",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71118",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20061",
+      "index": 292,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71123",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10186",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60043",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60078",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "20083",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71134",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71116",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10177",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20047",
+      "index": 302,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10182",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "10189",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60092",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71126",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20081",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71131",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "72007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "10174",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10179",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20069",
+      "index": 312,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10183",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "71039",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10193",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies"
+    },
+    {
+      "id": "10195",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "20098",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "60081",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "72006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71103",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71047",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20049",
+      "index": 322,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10181",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71133",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10194",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "10197",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20096",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71127",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10205",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60065",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10178",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20073",
+      "index": 332,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71105",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60056",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73010",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71106",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20100",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,chainLockedParts"
+    },
+    {
+      "id": "71108",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10208",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10175",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60073",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20077",
+      "index": 342,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "60072",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71038",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10198",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20094",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "10202",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10207",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71102",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10171",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "20059",
+      "index": 352,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10180",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "60076",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10191",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "10199",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "20095",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "10201",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "60044",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10176",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71041",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20065",
+      "index": 362,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "60068",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60075",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "10192",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10196",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20092",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "10203",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10209",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs"
+    },
+    {
+      "id": "10173",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71046",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20055",
+      "index": 372,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71040",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "10188",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71043",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20093",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "10200",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "72011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71042",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71045",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20051",
+      "index": 382,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "10184",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60077",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60091",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71050",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20091",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "60062",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "60080",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71048",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71044",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20053",
+      "index": 392,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 24
+    },
+    {
+      "id": "71049",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71101",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60066",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "20089",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: butterflies,bombs,chainLockedParts"
+    },
+    {
+      "id": "10204",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "10206",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "50010",
+      "index": 402,
+      "physicalLabel": false,
+      "reason": "declared search budget exhausted; solvability inconclusive",
+      "parts": 28
+    },
+    {
+      "id": "50008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "110002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: bombs,complexSliderPaths"
+    },
+    {
+      "id": "130006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "50016",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "50006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "880001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "130004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50017",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50020",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "110001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,bombs,complexSliderPaths"
+    },
+    {
+      "id": "130008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50018",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "110003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "880002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "100005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "110005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "660005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "660002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "680013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71141",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71140",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "880003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "140004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: "
+    },
+    {
+      "id": "71146",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71143",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73016",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71142",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "50014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "73014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71145",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71144",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,chainLockedParts,complexSliderPaths"
+    },
+    {
+      "id": "880004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "71150",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71201",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71147",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71202",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "880010",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "73012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71148",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "71149",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "880007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "50005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "71205",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60094",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71207",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90026",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "90030",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "60096",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71209",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "60097",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "90022",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71213",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150001",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90012",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71230",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90003",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "150006",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71229",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71217",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71227",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150015",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,butterflies,complexSliderPaths"
+    },
+    {
+      "id": "150014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90002",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71206",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90006",
+      "physicalLabel": false,
+      "reason": [
+        "inner mount excluded from this source-constrained batch"
+      ]
+    },
+    {
+      "id": "90055",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "71203",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71208",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71224",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90024",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "90013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150004",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90014",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71216",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90009",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71204",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71218",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71223",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150005",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "150011",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "150007",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90020",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71222",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90008",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "90015",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches"
+    },
+    {
+      "id": "71226",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    },
+    {
+      "id": "71215",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: complexSliderPaths"
+    },
+    {
+      "id": "90025",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,bombs,complexSliderPaths"
+    },
+    {
+      "id": "150013",
+      "physicalLabel": false,
+      "reason": "unsupported source mechanics: catches,complexSliderPaths"
+    }
+  ],
+  "split": {
+    "method": "whole physical piece/graph WL families before fitting; color/IDs/rigid transforms ignored; conservative independent-piece mirror normalization (overrejects some distinct layouts)",
+    "trainFamilies": 400,
+    "testFamilies": 99,
+    "trainSourceIds": [
+      "10001",
+      "10002",
+      "10003",
+      "10004",
+      "10010",
+      "10007",
+      "10008",
+      "10154",
+      "10011",
+      "10009",
+      "60023",
+      "70002",
+      "70017",
+      "70003",
+      "70010",
+      "10060",
+      "10111",
+      "10062",
+      "10070",
+      "10068",
+      "10069",
+      "60010",
+      "10067",
+      "10065",
+      "71009",
+      "70011",
+      "10048",
+      "10054",
+      "10050",
+      "10061",
+      "10023",
+      "60008",
+      "70033",
+      "10042",
+      "10039",
+      "10035",
+      "10058",
+      "10031",
+      "60009",
+      "70025",
+      "10038",
+      "60011",
+      "10134",
+      "73005",
+      "60026",
+      "10053",
+      "60007",
+      "10015",
+      "10026",
+      "71002",
+      "60036",
+      "10063",
+      "70006",
+      "70027",
+      "10025",
+      "10029",
+      "10043",
+      "70008",
+      "70004",
+      "71013",
+      "10152",
+      "10066",
+      "60001",
+      "71014",
+      "71026",
+      "71003",
+      "10051",
+      "10056",
+      "70032",
+      "10072",
+      "71011",
+      "70026",
+      "73006",
+      "10052",
+      "73004",
+      "70012",
+      "60006",
+      "10153",
+      "70030",
+      "70014",
+      "71005",
+      "70031",
+      "10055",
+      "71018",
+      "70029",
+      "10160",
+      "10166",
+      "10168",
+      "70007",
+      "71008",
+      "71004",
+      "10018",
+      "20031",
+      "71006",
+      "10125",
+      "71015",
+      "60034",
+      "20001",
+      "71025",
+      "20029",
+      "10159",
+      "70019",
+      "20005",
+      "10046",
+      "60030",
+      "10013",
+      "10064",
+      "20023",
+      "10017",
+      "72002",
+      "10164",
+      "20007",
+      "10019",
+      "71024",
+      "71023",
+      "10040",
+      "20033",
+      "71012",
+      "10158",
+      "71019",
+      "20009",
+      "10045",
+      "10122",
+      "71027",
+      "20037",
+      "10156",
+      "60005",
+      "71021",
+      "20013",
+      "70005",
+      "70020",
+      "20027",
+      "60028",
+      "10037",
+      "20039",
+      "70023",
+      "71031",
+      "10044",
+      "70022",
+      "71029",
+      "70015",
+      "20025",
+      "10024",
+      "10028",
+      "10049",
+      "10162",
+      "20019",
+      "71034",
+      "10030",
+      "70034",
+      "10041",
+      "20021",
+      "10032",
+      "20011",
+      "10036",
+      "10027",
+      "10033",
+      "20035",
+      "71033",
+      "10161",
+      "70038",
+      "71112",
+      "60049",
+      "60060",
+      "60045",
+      "20088",
+      "72012",
+      "71119",
+      "20067",
+      "60048",
+      "71135",
+      "60042",
+      "72003",
+      "60058",
+      "20071",
+      "60050",
+      "71137",
+      "60046",
+      "71109",
+      "20082",
+      "70040",
+      "60079",
+      "60063",
+      "10172",
+      "20057",
+      "60051",
+      "73007",
+      "60054",
+      "20090",
+      "71132",
+      "72009",
+      "60070",
+      "60069",
+      "20041",
+      "71125",
+      "73011",
+      "72013",
+      "71117",
+      "60071",
+      "20045",
+      "71124",
+      "71138",
+      "10190",
+      "71122",
+      "20097",
+      "71035",
+      "72004",
+      "70037",
+      "71139",
+      "60057",
+      "70039",
+      "20086",
+      "60055",
+      "60052",
+      "71121",
+      "60064",
+      "20063",
+      "71129",
+      "10185",
+      "60053",
+      "20085",
+      "71036",
+      "60067",
+      "60059",
+      "20079",
+      "71104",
+      "73009",
+      "71130",
+      "20099",
+      "60061",
+      "60047",
+      "10170",
+      "71118",
+      "20061",
+      "10186",
+      "60043",
+      "60078",
+      "20083",
+      "72005",
+      "71116",
+      "10177",
+      "20047",
+      "10182",
+      "10189",
+      "60092",
+      "71126",
+      "20081",
+      "71131",
+      "72007",
+      "10174",
+      "10179",
+      "20069",
+      "10183",
+      "71039",
+      "10193",
+      "10195",
+      "20098",
+      "60081",
+      "72006",
+      "71047",
+      "20049",
+      "71133",
+      "10194",
+      "10197",
+      "20096",
+      "71127",
+      "60065",
+      "10178",
+      "20073",
+      "71105",
+      "60056",
+      "73010",
+      "71106",
+      "20100",
+      "10208",
+      "10175",
+      "60073",
+      "20077",
+      "60072",
+      "71038",
+      "73008",
+      "10198",
+      "20094",
+      "10202",
+      "10207",
+      "71102",
+      "10171",
+      "10180",
+      "60076",
+      "10191",
+      "20095",
+      "10201",
+      "60044",
+      "20065",
+      "60068",
+      "60075",
+      "10192",
+      "10196",
+      "20092",
+      "10209",
+      "10173",
+      "71046",
+      "20055",
+      "10188",
+      "73002",
+      "71042",
+      "71045",
+      "20051",
+      "10184",
+      "60077",
+      "60091",
+      "71050",
+      "60062",
+      "60080",
+      "71044",
+      "20053",
+      "71049",
+      "71101",
+      "73001",
+      "60066",
+      "10204",
+      "10206",
+      "50001",
+      "50010",
+      "50008",
+      "110002",
+      "130006",
+      "50006",
+      "880001",
+      "50017",
+      "50020",
+      "110001",
+      "50011",
+      "130008",
+      "50018",
+      "110003",
+      "880002",
+      "100005",
+      "110005",
+      "660005",
+      "660002",
+      "73013",
+      "880003",
+      "140004",
+      "71146",
+      "73016",
+      "71142",
+      "50014",
+      "73014",
+      "71145",
+      "71144",
+      "71150",
+      "71201",
+      "71147",
+      "71202",
+      "880010",
+      "73012",
+      "880007",
+      "50005",
+      "71205",
+      "60094",
+      "150003",
+      "90026",
+      "90030",
+      "60096",
+      "71209",
+      "90022",
+      "71213",
+      "150001",
+      "90012",
+      "150006",
+      "71229",
+      "71217",
+      "71227",
+      "150015",
+      "150014",
+      "150002",
+      "90002",
+      "71206",
+      "90006",
+      "90055",
+      "71203",
+      "71208",
+      "71224",
+      "90013",
+      "150004",
+      "90014",
+      "71216",
+      "90005",
+      "90009",
+      "71204",
+      "71223",
+      "150005",
+      "150011",
+      "150007",
+      "90020",
+      "90008",
+      "71226",
+      "71215",
+      "90025",
+      "150013"
+    ],
+    "testSourceIds": [
+      "10005",
+      "10012",
+      "10006",
+      "10109",
+      "10157",
+      "71001",
+      "10059",
+      "70009",
+      "70028",
+      "10057",
+      "10021",
+      "10014",
+      "71007",
+      "71016",
+      "20003",
+      "71020",
+      "71022",
+      "71028",
+      "70018",
+      "71017",
+      "71032",
+      "60032",
+      "71010",
+      "70024",
+      "10071",
+      "70035",
+      "10082",
+      "60004",
+      "60003",
+      "20015",
+      "60002",
+      "71030",
+      "10034",
+      "10155",
+      "20017",
+      "70013",
+      "70021",
+      "10095",
+      "10020",
+      "10047",
+      "71113",
+      "20043",
+      "60074",
+      "71114",
+      "73003",
+      "20087",
+      "71136",
+      "71111",
+      "71107",
+      "71037",
+      "71128",
+      "20084",
+      "70036",
+      "71120",
+      "71115",
+      "20075",
+      "71110",
+      "72014",
+      "10187",
+      "71123",
+      "71134",
+      "71103",
+      "10181",
+      "10205",
+      "71108",
+      "20059",
+      "10199",
+      "10176",
+      "71041",
+      "10203",
+      "71040",
+      "71043",
+      "20093",
+      "10200",
+      "72011",
+      "20091",
+      "71048",
+      "20089",
+      "50004",
+      "50016",
+      "130004",
+      "50012",
+      "680013",
+      "50013",
+      "71141",
+      "71140",
+      "71143",
+      "880004",
+      "50002",
+      "71148",
+      "71149",
+      "71207",
+      "60097",
+      "71230",
+      "90003",
+      "90024",
+      "71218",
+      "71222",
+      "90015"
+    ]
+  },
+  "proposalHeldOutAgainstBaseline": {
+    "branching": {
+      "conditionalMAE": 2.003787878787879,
+      "globalMeanMAE": 2.0788936749036497
+    },
+    "components": {
+      "conditionalMAE": 5.07260101010101,
+      "globalMeanMAE": 5.103201591979648
+    },
+    "depth": {
+      "conditionalMAE": 1.3131313131313131,
+      "globalMeanMAE": 1.2732814428575026
+    },
+    "largestComponent": {
+      "conditionalMAE": 5.220959595959596,
+      "globalMeanMAE": 5.4858056878007
+    },
+    "links": {
+      "conditionalMAE": 5.762626262626263,
+      "globalMeanMAE": 6.162371848157383
+    },
+    "meanGap": {
+      "conditionalMAE": 15.771578899622265,
+      "globalMeanMAE": 17.413850790823556
+    },
+    "meanRadius": {
+      "conditionalMAE": 0.4238207833104194,
+      "globalMeanMAE": 0.41099512085129136
+    },
+    "parts": {
+      "conditionalMAE": 4.758207070707071,
+      "globalMeanMAE": 4.981359731983174
+    },
+    "pins": {
+      "conditionalMAE": 5.765782828282828,
+      "globalMeanMAE": 6.252071840600518
+    }
+  },
+  "difficulty": {
+    "targetUnit": "score-per-part; multiplied by complete part count",
+    "MAE": 0.19374987242886554,
+    "meanPerPartBaselineMAE": 0.19374987242886554,
+    "R2": null,
+    "heldOutRows": 1,
+    "trainingRows": 5,
+    "extrapolation": "Piece-count scaling is additive; shape/unsupported mechanics/human difficulty extrapolation unverified.",
+    "selectedPredictor": "mean-per-part baseline (lower heldout MAE than ExtraTrees)",
+    "finalMeanPerPart": 1.776460741252497,
+    "limitations": "Only1 heldout source and6 complete physical labels; no reliable generalization or human/native difficulty equivalence claim."
+  },
+  "difficultyMeaning": "nonoptimal computer cost+angular travel+graph depth/branching under conservative native-polygon rules; original native/human parity unmeasured",
+  "templatePoolCount": 369,
+  "templateInventory": {
+    "1": 194,
+    "0": 1,
+    "2": 140,
+    "3": 34
+  },
+  "generatedSubset": "ring-only,90-degree physical gap, radius1.75, width.5, 0..3 outer TBar pins, source shortstem<=1.6. Straight pulls and all unimplemented mechanics explicitly excluded.",
+  "sourceSearchBudget": {
+    "maxActions": 120,
+    "maxSeconds": 20,
+    "meaning": "per-source search bound; timeout is inconclusive, no native unsolvability claim",
+    "checkpointLabels": "all successful paths independently replayed under final packaged rules after performance-only transform and distance optimization"
+  },
+  "extraTreesDiagnostic": {
+    "targetUnit": "score-per-part; multiplied by complete part count",
+    "MAE": 0.8456689245044959,
+    "meanPerPartBaselineMAE": 0.19374987242886554,
+    "R2": null,
+    "heldOutRows": 1,
+    "trainingRows": 5,
+    "extrapolation": "Piece-count scaling is additive; shape/unsupported mechanics/human difficulty extrapolation unverified."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Independent post-generation audits; does not alter saved pipeline or models",
+  "files": {
+    "extra_originals_for_novelty.json": "1d1f3e629bce62fc7d7d2379a8b348bac1780634877cdc0663e546187476264d",
+    "extra_originals_novelty_audit.json": "cea68fd571b552783443e2945ac86bdacc0d364ee18cd0f580e3c9e9b0bc0cc5",
+    "final_pack_audit.json": "712f1716419ec724da650a405f268da6d6536eeec4211232783c5af65ed15434",
+    "generator_gui_qa.json": "975bdd4188722847ef7ddd8f165afe3d0293a81d4003e26bb8ef069651a51684",
+    "source_provenance_audit.json": "6863e9de3ae63807f5fe5eff6ef2d39f2d4cd6002d556c1fe4428c1f58f8d4ee",
+    "training_audit.json": "0be5ae84484971e9694c35642e72ab224890a1734b56eef521f78468dfecf410"
+  }
+}

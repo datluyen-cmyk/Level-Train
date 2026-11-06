@@ -1,0 +1,46 @@
+{
+  "complete": false,
+  "generatedCount": 31,
+  "requestedCount": 300,
+  "accepted": 31,
+  "requested": 300,
+  "attempts": 55,
+  "rejections": {
+    "computer difficulty outside declared range": 24
+  },
+  "seconds": 104.04788208007812,
+  "sourceCount": 500,
+  "templatePool": 369,
+  "criteria": {
+    "requestedCount": 300,
+    "sourceCountMinimum": 500,
+    "maxAttemptsPerLevel": 250,
+    "maximumParts": 84,
+    "maximumSweepStepDegrees": 0.5,
+    "initialHardOverlapAllowed": false,
+    "templateInventoryMustMatch": true,
+    "canonicalDuplicatesAllowed": false,
+    "nativeUnmodeledMechanics": "reject before labeling",
+    "nearCopyDistance": 0.1,
+    "computerScoreRelativeTolerance": 0.35,
+    "minimumParts": 2,
+    "blockNewUnboundContacts": true,
+    "blockCrossingPinSensors": true
+  },
+  "inputHashes": {
+    "adapters\\rotate_rings_physics_v2.py": "c4e8b5d6855c5d4b645caa6b4148a51f12eee1a8d891a62a40b5244313a8c382",
+    "corpus.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "references.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "templates.json": "12bef8bac58a879b05a4815cd73186d5e408dd7380f4641d952d820e3f9f2095",
+    "models\\proposal.joblib": "876e41565f62122c430a9b0f77464cdc39e67c5f851f0d43b04c73134f9d61b6",
+    "models\\difficulty.joblib": "f26605ec0927235f13bfead34394b5f266c8db3a0acc167c7111620e43b4aa3b",
+    "level_training.json": "449a7facd9ef8c77e0a69153196904fcb968d85e8440f6ad54f7efa67c372072",
+    "tools\\train_native_physics.py": "247854a4ca846ee9544f49d99206d65d85d9381942046ff1ff75507d69a610de",
+    "tools/refit_saved_labels.py": "58c7811eff9755c61c4cbf20c9de9eb18503ab49c029d0f3b3ce6759507a43fe",
+    "model_validation.json": "46c5c83e56610503f296f8cbe38b329fee96f434709d1565b135d47baca90932",
+    "tools/generate_batch.py": "b1a09e34a6ac21b8881bce5fcdf9483a4a863825e3a20e5e321083e67ada70d8"
+  },
+  "exclusionPacks": [],
+  "packSha256": "2da7a7e5bdc12f4d23109f5fc3657e2a80a485dd436fe363b100f342e3b78ef3",
+  "limits": "ring-only,90-degree physical gap, radius1.75, width.5, 0..3 outer TBar pins, source shortstem<=1.6. Straight pulls and all unimplemented mechanics explicitly excluded. Difficulty/fun equivalence remains unmeasured."
+}

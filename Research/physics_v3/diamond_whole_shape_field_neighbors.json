@@ -1,0 +1,133 @@
+{
+  "referenceSourceId": "10157",
+  "referencePosition": 30,
+  "learnedRepresentation": "Saved whole native solid-footprint fields overall500; normalized board frame",
+  "ranking": "Nativebody footprint4channels L1; no semantic silhouette/family/class truth or accepted-design claim",
+  "levels": [
+    {
+      "sourceId": "10157",
+      "position": 30,
+      "nativeBodyFieldL1": 0.0
+    },
+    {
+      "sourceId": "71033",
+      "position": 199,
+      "nativeBodyFieldL1": 1.2590856456595407
+    },
+    {
+      "sourceId": "60080",
+      "position": 390,
+      "nativeBodyFieldL1": 1.3043760788292285
+    },
+    {
+      "sourceId": "10125",
+      "position": 110,
+      "nativeBodyFieldL1": 1.3074284668171612
+    },
+    {
+      "sourceId": "10155",
+      "position": 170,
+      "nativeBodyFieldL1": 1.3280850031686522
+    },
+    {
+      "sourceId": "10208",
+      "position": 340,
+      "nativeBodyFieldL1": 1.3289145464899685
+    },
+    {
+      "sourceId": "10122",
+      "position": 146,
+      "nativeBodyFieldL1": 1.358098544958731
+    },
+    {
+      "sourceId": "90022",
+      "position": 460,
+      "nativeBodyFieldL1": 1.359791304575244
+    },
+    {
+      "sourceId": "10206",
+      "position": 400,
+      "nativeBodyFieldL1": 1.3663325177573005
+    },
+    {
+      "sourceId": "50008",
+      "position": 404,
+      "nativeBodyFieldL1": 1.3911091033681264
+    },
+    {
+      "sourceId": "72011",
+      "position": 380,
+      "nativeBodyFieldL1": 1.4009854930975165
+    },
+    {
+      "sourceId": "10111",
+      "position": 21,
+      "nativeBodyFieldL1": 1.4019093035205543
+    },
+    {
+      "sourceId": "72003",
+      "position": 220,
+      "nativeBodyFieldL1": 1.415654573824764
+    },
+    {
+      "sourceId": "10192",
+      "position": 366,
+      "nativeBodyFieldL1": 1.4164925897914147
+    },
+    {
+      "sourceId": "60065",
+      "position": 331,
+      "nativeBodyFieldL1": 1.4332041894310348
+    },
+    {
+      "sourceId": "60052",
+      "position": 270,
+      "nativeBodyFieldL1": 1.4335052693487407
+    },
+    {
+      "sourceId": "10156",
+      "position": 150,
+      "nativeBodyFieldL1": 1.4345807377041162
+    },
+    {
+      "sourceId": "130006",
+      "position": 406,
+      "nativeBodyFieldL1": 1.438715936845968
+    },
+    {
+      "sourceId": "60053",
+      "position": 276,
+      "nativeBodyFieldL1": 1.4463168659706849
+    },
+    {
+      "sourceId": "72005",
+      "position": 300,
+      "nativeBodyFieldL1": 1.4488130505770356
+    },
+    {
+      "sourceId": "72012",
+      "position": 210,
+      "nativeBodyFieldL1": 1.4534636305451172
+    },
+    {
+      "sourceId": "10028",
+      "position": 180,
+      "nativeBodyFieldL1": 1.4630827276559946
+    },
+    {
+      "sourceId": "72006",
+      "position": 320,
+      "nativeBodyFieldL1": 1.4664128569658281
+    },
+    {
+      "sourceId": "10191",
+      "position": 356,
+      "nativeBodyFieldL1": 1.4666587970847962
+    },
+    {
+      "sourceId": "10176",
+      "position": 361,
+      "nativeBodyFieldL1": 1.4702466648794577
+    }
+  ]
+}

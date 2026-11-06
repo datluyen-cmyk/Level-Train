@@ -1,0 +1,2594 @@
+{
+  "schemaVersion": 1,
+  "scope": "source500 positions 1-500; static authored/native pose only",
+  "method": {
+    "runtimeUsed": false,
+    "geometry": "Shapely polygon intersection on source points/paths transformed by the authored part x/y/angle; opposite-winding enclosed polygon paths are treated as holes.",
+    "limits": [
+      "No Physics2D/ColliderDistance2D calls.",
+      "No sampled or swept rotation poses evaluated.",
+      "This establishes authored-pose overlap only; non-overlap extra shapes may become contact during motion."
+    ],
+    "shapelyVersion": "2.2.0"
+  },
+  "hashes": {
+    "source500NativeSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "sourceTemplatesSha256": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "sourceOverlapQueriesSha256": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+    "collisionWorldSha256": "8c6d849f72e420ea72c10c6eeca28716c4b9fd61a6dbda350de3d08fc57e9ec3"
+  },
+  "counts": {
+    "sourceLevels": 500,
+    "levelsWithGuideLinks": 402,
+    "guideLinks": 3463,
+    "guideShapeIndexOrTargetErrors": 0,
+    "ringGuideLinksWithNonQueryExtraShapes": 41,
+    "ringGuideLinksAcrossPositions": 22,
+    "extraShapeReferences": 117,
+    "extraShapeReferencesOverlappingSelectedGuideAtNativePose": 0,
+    "minExtraShapeDistanceAtNativePose": 0.45070596214621317,
+    "maxExtraShapeDistanceAtNativePose": 6.444240828622708,
+    "ringGuideLinksWithValidQueryShapeOverlapAtNativePose": 41
+  },
+  "guideShapeErrors": [],
+  "nonGuideBodyTargets": [],
+  "ringExtraShapeRelations": [
+    {
+      "position": 250,
+      "sourceId": "72013",
+      "guidePartId": "guide_18",
+      "guideOwnerId": 38,
+      "lockedOwnerId": 11,
+      "guideKind": "fixed",
+      "guideShapeIndex": 0,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_1",
+          "sourceColliderId": -1117184875083910323,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 6.444240828622708,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 285,
+      "sourceId": "10187",
+      "guidePartId": "guide_8",
+      "guideOwnerId": 8,
+      "lockedOwnerId": 4,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -394802553687371302,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.258231596817896,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -9150977717791871118,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.4083663666157875,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -4949107073969277724,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.6646382810929814,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.728580186875351,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 295,
+      "sourceId": "10186",
+      "guidePartId": "guide_8",
+      "guideOwnerId": 9,
+      "lockedOwnerId": 7,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -7742141865978881558,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.5034695513129628,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -5573936948870229978,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.4731940021903083,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -3152820696002398160,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.7879122825321976,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.8449956143017707,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 295,
+      "sourceId": "10186",
+      "guidePartId": "guide_9",
+      "guideOwnerId": 9,
+      "lockedOwnerId": 8,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": 4332526785002752701,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.472809261099699,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": 2093511842736112349,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.5003640082898086,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": -3706255372177869715,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.800356911033474,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.859635625745747,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 314,
+      "sourceId": "10183",
+      "guidePartId": "guide_8",
+      "guideOwnerId": 14,
+      "lockedOwnerId": 13,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_14",
+          "sourceColliderId": -8219077575017733768,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.023032967486813,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_14",
+          "sourceColliderId": -3057176879587916433,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.016304803023852,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_14",
+          "sourceColliderId": -4940176460157151173,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.2872525686212435,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.34966569846478,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 317,
+      "sourceId": "10195",
+      "guidePartId": "guide_9",
+      "guideOwnerId": 16,
+      "lockedOwnerId": 7,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 4316343677959090762,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.030043205553812,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 7604628110673487280,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.970225249992698,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -2454904813679256206,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.3284510250780777,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.3858446105336535,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 326,
+      "sourceId": "10194",
+      "guidePartId": "guide_9",
+      "guideOwnerId": 13,
+      "lockedOwnerId": 4,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -9163171161172436029,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.37568899711488,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": 4463217448898699048,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 5.4826246092709185,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -8038843729315026518,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.733358998480792,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 4.797867549605584,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 326,
+      "sourceId": "10194",
+      "guidePartId": "guide_11",
+      "guideOwnerId": 14,
+      "lockedOwnerId": 3,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": -4273303125066418392,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.2857957056535732,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": 8953311771042699400,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.230554792383261,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": -2573312652380708354,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.5790734654758993,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.6351710559234396,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 348,
+      "sourceId": "20094",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 24,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_24",
+          "sourceColliderId": -534939500832163479,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300432347787205,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_24",
+          "sourceColliderId": -8991704548998251324,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9027527570089213,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_24",
+          "sourceColliderId": -8290930561806630664,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.2242488760788874,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2809121775897476,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 352,
+      "sourceId": "10171",
+      "guidePartId": "guide_8",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 1,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 7008411623004420329,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.4319696716125005,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 7769919673741797701,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.4102214191679474,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": -6974668966533665473,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.717175587994355,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.774460192757868,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 352,
+      "sourceId": "10171",
+      "guidePartId": "guide_9",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 6,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_2",
+          "sourceColliderId": 7156525390019214975,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.0610455530047558,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 352,
+      "sourceId": "10171",
+      "guidePartId": "guide_10",
+      "guideOwnerId": 13,
+      "lockedOwnerId": 12,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -8000792595240439051,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.258171076203167,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 8285977327893878838,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.812649486297642,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -7976742099052255262,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.0678233952979435,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 4.1318850486901475,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 354,
+      "sourceId": "10180",
+      "guidePartId": "guide_16",
+      "guideOwnerId": 20,
+      "lockedOwnerId": 2,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 4231744895914856910,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.2853274660976408,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 787009921978138066,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.2356846292341963,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": -1597211434528002191,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.5728632784447414,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.6289506729472807,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 354,
+      "sourceId": "10180",
+      "guidePartId": "guide_17",
+      "guideOwnerId": 20,
+      "lockedOwnerId": 3,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 8144870190046756881,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9484627115993596,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -2172044483463187112,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.9987571874160928,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 6621231883350765874,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.318127171959169,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.3801483387531444,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 357,
+      "sourceId": "10199",
+      "guidePartId": "guide_12",
+      "guideOwnerId": 4,
+      "lockedOwnerId": 3,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -4698765437824202606,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.649872298258859,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -5286686212123044804,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.6572737707355882,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 5025854822611198966,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9921652439971385,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.052434806268233,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 358,
+      "sourceId": "20095",
+      "guidePartId": "guide_2",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 8,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_1",
+          "sourceColliderId": -5107772406670991978,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.4222460720085435,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 359,
+      "sourceId": "10201",
+      "guidePartId": "guide_15",
+      "guideOwnerId": 8,
+      "lockedOwnerId": 2,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -8417719973528209711,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.2142212345863492,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 7463891924536887636,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.3384181813104234,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -7441892894039294522,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.6150334413442358,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.678735337857317,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 359,
+      "sourceId": "10201",
+      "guidePartId": "guide_16",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 1,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 550617836626050847,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.486419003678336,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": -5352618292794477097,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.522021491513102,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 6526732942813592446,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.824970044461666,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.884215405328232,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 359,
+      "sourceId": "10201",
+      "guidePartId": "guide_17",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 10,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": 5982564985591533269,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.3656495034903877,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": -957169979182823907,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.3228356450405387,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_7",
+          "sourceColliderId": 1162913398720153597,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.6523495294655208,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.7098850467565982,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 368,
+      "sourceId": "20092",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 2,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 8426906227463093398,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300434258610807,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 7944954666907691953,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9027529033443007,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 8975849304817325000,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.224249074789996,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2809123707147907,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 368,
+      "sourceId": "20092",
+      "guidePartId": "guide_3",
+      "guideOwnerId": 26,
+      "lockedOwnerId": 2,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 8426906227463093398,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.422246090221641,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 7944954666907691953,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.489262016036478,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 8975849304817325000,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.739262116036474,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.803842883963496,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 369,
+      "sourceId": "10203",
+      "guidePartId": "guide_14",
+      "guideOwnerId": 5,
+      "lockedOwnerId": 4,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -5771938599721707174,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.258270637034997,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -7451288519770733968,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.64906605300095,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": 6762474825804767172,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.141327353209174,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 5,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": 6004454412263860296,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.4969338075590084,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 7,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 8610214223865411038,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.839347068421608,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 8,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -347562462890801894,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.1271766552453566,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.5524210859678116,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 6,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.18781738798695,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 369,
+      "sourceId": "10203",
+      "guidePartId": "guide_15",
+      "guideOwnerId": 5,
+      "lockedOwnerId": 6,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": 1034650470179823253,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.2287142443645058,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": 2641919970454437954,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.8995067589131662,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -4058809745248313271,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.994740768900496,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 5,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -6756104627826042737,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.2716222433757096,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 7,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": 1636544484837765197,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.1109300737242758,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 8,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": 1724754567994986391,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.5133166932972473,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.3334208969283794,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 6,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.5681255986312173,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 370,
+      "sourceId": "10209",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 33,
+      "lockedOwnerId": 7,
+      "guideKind": "fixed",
+      "guideShapeIndex": 0,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_1",
+          "sourceColliderId": -5240295139116622696,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 0.6007687015117611,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 370,
+      "sourceId": "10209",
+      "guidePartId": "guide_2",
+      "guideOwnerId": 34,
+      "lockedOwnerId": 8,
+      "guideKind": "fixed",
+      "guideShapeIndex": 0,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_2",
+          "sourceColliderId": 6129369194633092922,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 0.45070596214621317,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 370,
+      "sourceId": "10209",
+      "guidePartId": "guide_3",
+      "guideOwnerId": 37,
+      "lockedOwnerId": 9,
+      "guideKind": "fixed",
+      "guideShapeIndex": 0,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_3",
+          "sourceColliderId": -5911632813018832241,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 0.6880448868711598,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 375,
+      "sourceId": "10188",
+      "guidePartId": "guide_11",
+      "guideOwnerId": 2,
+      "lockedOwnerId": 1,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": -1402873067288846083,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.998466933729363,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 4838651855558298002,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.109865531648916,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_1",
+          "sourceColliderId": 6114531952844758432,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.380907838955886,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.443321162446301,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 375,
+      "sourceId": "10188",
+      "guidePartId": "guide_12",
+      "guideOwnerId": 2,
+      "lockedOwnerId": 4,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 6125060597401084602,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.2381682616454237,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": 6211961057481874871,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.3037824421159145,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_2",
+          "sourceColliderId": -1032794683255750623,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.6645664944086112,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.719594985113464,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 375,
+      "sourceId": "10188",
+      "guidePartId": "guide_13",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 8,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -1592399624524403543,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.149674171146949,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -1527228564373845910,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.280442365661802,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -5376743505780629938,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.5426743910995864,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.6060033839336483,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 375,
+      "sourceId": "10188",
+      "guidePartId": "guide_14",
+      "guideOwnerId": 11,
+      "lockedOwnerId": 10,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -7212502929192453913,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.9341206995802385,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": 6306185645441637523,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.150622795968119,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -1648181542842883314,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.456374958754941,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.514895626578375,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 378,
+      "sourceId": "20093",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 9,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_9",
+          "sourceColliderId": -454309490468004108,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.422246072008549,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_9",
+          "sourceColliderId": -8140531153318351671,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.4892619540940055,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_9",
+          "sourceColliderId": 8818236981259485210,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.7392620540940245,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.803842854094025,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 378,
+      "sourceId": "20093",
+      "guidePartId": "guide_3",
+      "guideOwnerId": 26,
+      "lockedOwnerId": 20,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_20",
+          "sourceColliderId": -4820049626982915135,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300432347787205,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_21",
+          "sourceColliderId": 6255976289578240271,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.4222460720085275,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_20",
+          "sourceColliderId": -558792578277677622,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9140337707133575,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 5,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_20",
+          "sourceColliderId": 9128476201787970610,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.234877115737622,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 7,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_21",
+          "sourceColliderId": -8732030497566268773,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.501412754093986,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 8,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_21",
+          "sourceColliderId": 6212238516768130406,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.7514127540940057,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2916200438641314,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 6,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.8159935540940033,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 378,
+      "sourceId": "20093",
+      "guidePartId": "guide_5",
+      "guideOwnerId": 27,
+      "lockedOwnerId": 6,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -3064315174946444784,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300431712517804,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -4575620056402631858,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9140336859132145,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_6",
+          "sourceColliderId": -2758373649897686472,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.234877069295712,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2916199931869734,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 388,
+      "sourceId": "20091",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 19,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_18",
+          "sourceColliderId": 8406354554326293462,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300434177075437,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_18",
+          "sourceColliderId": -2269922731806324411,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.902752915547411,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_18",
+          "sourceColliderId": -7111362227655022012,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.224249077139368,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2809123741457804,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 388,
+      "sourceId": "20091",
+      "guidePartId": "guide_3",
+      "guideOwnerId": 26,
+      "lockedOwnerId": 6,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": -8151462424983008394,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0300433900548516,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": -2511383060334895416,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.9027530707928184,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_5",
+          "sourceColliderId": -4797253881533394912,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.2242491250178587,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.280912411917888,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 398,
+      "sourceId": "20089",
+      "guidePartId": "guide_1",
+      "guideOwnerId": 25,
+      "lockedOwnerId": 16,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_16",
+          "sourceColliderId": 1106514458034510087,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.030043175232094,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_16",
+          "sourceColliderId": -7865251482471184621,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.914033716349753,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_16",
+          "sourceColliderId": -1417861181351034359,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.234877135728008,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 2.2916200577765795,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 399,
+      "sourceId": "10204",
+      "guidePartId": "guide_18",
+      "guideOwnerId": 14,
+      "lockedOwnerId": 13,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -5078780723781613977,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.108283708780975,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -5148735658868291195,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.9895728290298387,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 113262226850815265,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.3814762873444177,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.4332690711858596,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 399,
+      "sourceId": "10204",
+      "guidePartId": "guide_20",
+      "guideOwnerId": 17,
+      "lockedOwnerId": 16,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_2",
+          "sourceColliderId": 3172698188835108657,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.4674911761461047,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 399,
+      "sourceId": "10204",
+      "guidePartId": "guide_21",
+      "guideOwnerId": 17,
+      "lockedOwnerId": 7,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 2,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -8912864181193011745,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.4086221538143273,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": -4297937505678718039,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.3842422877461313,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_3",
+          "sourceColliderId": 5309158880253041456,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 1.694263112594653,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 1.751629083633066,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 402,
+      "sourceId": "50001",
+      "guidePartId": "guide_7",
+      "guideOwnerId": 24,
+      "lockedOwnerId": 9,
+      "guideKind": "butterfly",
+      "guideShapeIndex": 1,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": -2423204074793442539,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.255682392634313,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 3,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 6141532915703309624,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 4.359845008278748,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 4,
+          "sourceRole": "RingRelativeWall",
+          "sourceFeatureId": "attachment.pin_4",
+          "sourceColliderId": 8041482656783786283,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "BoxCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.6617583685251436,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "RingRelativeBody",
+          "nativePoseDistance": 3.7256867594949776,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "queryIdentityErrors": []
+    },
+    {
+      "position": 423,
+      "sourceId": "660002",
+      "guidePartId": "guide_3",
+      "guideOwnerId": 6,
+      "lockedOwnerId": 1,
+      "guideKind": "fixed",
+      "guideShapeIndex": 0,
+      "extraShapes": [
+        {
+          "shapeIndex": 1,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_1",
+          "sourceColliderId": -7312552963908962156,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 3.372579901763201,
+          "nativePoseOverlaps": false
+        },
+        {
+          "shapeIndex": 2,
+          "sourceRole": "HardBlockPin",
+          "sourceFeatureId": "attachment.stop_pin_2",
+          "sourceColliderId": 4128545440049838847,
+          "sourceLayer": 7,
+          "trigger": false,
+          "sourceEnabled": true,
+          "sourceColliderType": "PolygonCollider2D",
+          "edgeRadius": 0.0,
+          "nativePoseDistance": 2.0512129548198805,
+          "nativePoseOverlaps": false
+        }
+      ],
+      "validGuideQueryShapes": [
+        {
+          "shapeIndex": 0,
+          "sourceRole": "RingBody",
+          "nativePoseDistance": 0.0,
+          "nativePoseOverlaps": true
+        }
+      ],
+      "queryIdentityErrors": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Hot</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Core" />
+    <Reference Include="UnityEngine.Physics2DModule" />
+    <Reference Include="UniTask" />
+    <Reference Include="XingYun" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="spine-unity" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="LeanTouch" />
+    <Reference Include="DOTween" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="Serialization" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="Render.Runtime" />
+    <Reference Include="spine-csharp" />
+    <Reference Include="YooAsset" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="MemoryPack" />
+    <Reference Include="SuperScrollView" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="XingYun.SpineAnimSequence" />
+    <Reference Include="Aot" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime" />
+    <Reference Include="com.audioforge.runtime" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="UnityEngine.UnityWebRequestModule" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" />
+    <Reference Include="XYUIKit.Runtime" />
+    <Reference Include="Coffee.UIParticle" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="DOTween.Module" />
+    <Reference Include="Log" />
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="EasySave3" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.14\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

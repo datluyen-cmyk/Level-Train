@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "status": "pilot stopped to investigate proposal anchor coverage; gates unchanged",
+  "generatedCount": 27,
+  "requestedCount": 300,
+  "rejections": {
+    "partScale": 241,
+    "computerDifficulty": 463,
+    "solverReplay": 17
+  }
+}

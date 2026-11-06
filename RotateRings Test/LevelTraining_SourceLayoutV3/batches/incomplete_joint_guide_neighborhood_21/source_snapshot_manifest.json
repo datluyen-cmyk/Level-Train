@@ -1,0 +1,16 @@
+{
+  "purpose": "Post-run frozen source snapshot; pilot hashes match source executed at run start, helpers were unchanged during run",
+  "tools": {
+    "guide_neighborhood_pilot_v3.py": "e897b91df8a77bfec0bd9358d6c5d913837a8fec19b80006e655c8183af064a3",
+    "guide_neighborhood_motifs_v3.py": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f",
+    "native_asset_variant_v3.py": "d10fbdf9d1fb347e85b270d7e310ac97274dbf4d4d56c889a249d8c17cc8621a",
+    "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+    "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+    "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+    "learned_placement_audit_v3.py": "d8d5f2817ceb6e71cae0c34c658a73c7a377029c559adcb986b78982305cb72c",
+    "native_feature_socket_v3.py": "7f0aee90b4bd5b7d5727e1dca20abd254b5bbebd167b550bc2144674c1e19ea3",
+    "layout_novelty_v3.py": "7a28809b7b546cd92181cc79e6abd527d91bfdb1d4930be524ca3e5012a53dd1",
+    "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60"
+  },
+  "acceptedCount": 0
+}

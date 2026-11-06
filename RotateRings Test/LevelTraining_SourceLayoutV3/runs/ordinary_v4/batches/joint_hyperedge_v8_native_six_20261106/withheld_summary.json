@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 8,
+  "status": "WITHHELD_NO_VERIFIED_NATIVE_SOLUTION",
+  "reportSha256": "83644db6deedd27c175d7e8bbb6756356db2288d72258b94ce4bb44bb41f14f2",
+  "completeBoundedEvaluation": true,
+  "nativeSolvedAndReplayed": 0,
+  "levels": [
+    {
+      "sourceId": 9910000,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 0,
+      "partCount": 13,
+      "exploredStates": 1,
+      "searchElapsedMs": 1417,
+      "stopReason": "finite sampled frontier exhausted"
+    },
+    {
+      "sourceId": 9910001,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 0,
+      "partCount": 18,
+      "exploredStates": 3,
+      "searchElapsedMs": 15008,
+      "stopReason": "wall time budget"
+    },
+    {
+      "sourceId": 9910002,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 1,
+      "partCount": 15,
+      "exploredStates": 8,
+      "searchElapsedMs": 15004,
+      "stopReason": "wall time budget"
+    },
+    {
+      "sourceId": 9910003,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 1,
+      "partCount": 19,
+      "exploredStates": 11,
+      "searchElapsedMs": 15007,
+      "stopReason": "wall time budget"
+    },
+    {
+      "sourceId": 9910004,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 2,
+      "partCount": 19,
+      "exploredStates": 5,
+      "searchElapsedMs": 15014,
+      "stopReason": "wall time budget"
+    },
+    {
+      "sourceId": 9910005,
+      "status": "unknown",
+      "goal": false,
+      "replayGoal": false,
+      "maximumRemovedParts": 2,
+      "partCount": 22,
+      "exploredStates": 6,
+      "searchElapsedMs": 15004,
+      "stopReason": "wall time budget"
+    }
+  ],
+  "interpretation": "Failed finite searches are unknown, never proof of unsolvability. Native construction integrity does not validate accidental cross-graft physical overlaps or human difficulty. None added to user preview.",
+  "acceptedToward300": 0
+}

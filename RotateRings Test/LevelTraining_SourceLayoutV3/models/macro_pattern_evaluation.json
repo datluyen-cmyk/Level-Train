@@ -1,0 +1,110 @@
+{
+  "sourceCount": 500,
+  "sourceMacroPatternCount": 37380,
+  "sourceLevelsWithAtLeast3Tiles": 494,
+  "status": "actual native macro triple learning; physical labels absent",
+  "targetNormalization": "outgoing macro vector / incoming macro spacing, angular target relative to incoming vector; rotation/translation invariant",
+  "selection": "up to4 spatial nearest macro neighbors; all ordered distinct incoming/outgoing frontier choices retained, no target-informed feature",
+  "evaluation": "same5 conservative whole-source-family folds; source triples follow parent source; no augmentation before split",
+  "hyperparametersDeclaredBeforeEvaluation": {
+    "neighbors": 32,
+    "kernelBandwidthXYCosSin": [
+      0.45,
+      0.45,
+      0.35,
+      0.35
+    ],
+    "contextScaler": "StandardScaler fit train only"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "trainingTriples": 31338,
+      "heldOutTriples": 6042,
+      "nativeMacroContinuation": {
+        "levelMeanNLL": 5.895938238738467,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.3341394696300006
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 5.27880742567413,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.3483367171996864
+      }
+    },
+    {
+      "fold": 1,
+      "trainingTriples": 29820,
+      "heldOutTriples": 7560,
+      "nativeMacroContinuation": {
+        "levelMeanNLL": 59.628596162569416,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.521413685726077
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 79.616342325973,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.5784560447008276
+      }
+    },
+    {
+      "fold": 2,
+      "trainingTriples": 29667,
+      "heldOutTriples": 7713,
+      "nativeMacroContinuation": {
+        "levelMeanNLL": 8.533224963145539,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.42807356752184234
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 11.293186546264161,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4895159058674632
+      }
+    },
+    {
+      "fold": 3,
+      "trainingTriples": 29364,
+      "heldOutTriples": 8016,
+      "nativeMacroContinuation": {
+        "levelMeanNLL": 6.2279233857875855,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.3961085526169561
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 6.917360678014825,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4348674159808831
+      }
+    },
+    {
+      "fold": 4,
+      "trainingTriples": 29331,
+      "heldOutTriples": 8049,
+      "nativeMacroContinuation": {
+        "levelMeanNLL": 12.14092813656497,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4552089218410463
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 14.877378102123657,
+        "levelMeanBest32XYErrorIncomingSpacingUnits": 0.501455229503648
+      }
+    }
+  ],
+  "summary": {
+    "nativeMacroContinuation": {
+      "levelMeanNLL": 18.485322177361198,
+      "levelMeanBest32XYErrorIncomingSpacingUnits": 0.42698883946718447
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 23.596615015609956,
+      "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4705262626505017
+    }
+  },
+  "limitations": [
+    "Macro triples model a real local-to-macro continuation, not complete-board preference.",
+    "Oracle best32 is a mixture reconstruction lower bound, not expected single-sample error.",
+    "Different source patterns can share a frontier and remain multimodal.",
+    "No style, solvability or human difficulty certification."
+  ],
+  "hashes": {
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templates": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "macroModel": "a45a9c1574e45cf953e3268069cf3533ff4b9e60c15110bf4ff2c6c0241f80d5",
+    "familySplits": "6184a49dda14dacefb2625b73c6f1975e0c06911ce6c964f9062b1c56dc5dd30",
+    "trainer": "a98c5f8d40f47868decd3ef33819a4d520039b2f0e733fe914dcb7a05900eede",
+    "model": "6550eca8831bed1fba43a97a178fc4abfbfbcaabe1f103620b5baa60ba69c76d"
+  }
+}

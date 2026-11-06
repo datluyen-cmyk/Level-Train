@@ -1,0 +1,25 @@
+{
+    "kind": "synthetic engine regression microfixtures",
+    "checks": [
+        {
+            "name": "frame-sampled drag reaches bomb and removes moving owner before passing through",
+            "passed": true,
+            "observed": "frames=3, slide=0.58, blocked=True, blocker=-1/-1/, ownerRemoved=True, spent=1, cast=x=0:body 0#L7#TFalse#d0;x=0.11:body 0#L7#TFalse#d0;x=0.22:body 0#L7#TFalse#d0;x=0.33:body 0#L7#TFalse#d0, trace=sample=0.11, fired=False, removed=False;sample=0.22, fired=False, removed=False;sample=0.33, fired=False, removed=False;sample=0.3500001, fired=False, removed=False;frame=1, from=0, to=0.3500001, blocked=False, blocker=-1/-1/;sample=0.46, fired=False, removed=False;sample=0.58, fired=True, removed=True;frame=2, from=0.3500001, to=0.58, blocked=True, blocker=-1/-1/"
+        },
+        {
+            "name": "repeated clear slider frames progress without a false physical block",
+            "passed": true,
+            "observed": "frames=6, slide=1.6, blocked=False"
+        },
+        {
+            "name": "carried bomb ignores its own host colliders",
+            "passed": true,
+            "observed": "fired=False"
+        },
+        {
+            "name": "external contact removes external fixture and bomb host",
+            "passed": true,
+            "observed": "fired=True, removed=2"
+        }
+    ]
+}

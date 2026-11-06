@@ -1,0 +1,20 @@
+{
+    "kind": "synthetic engine regression microfixtures",
+    "checks": [
+        {
+            "name": "frame-sampled drag reaches bomb and removes moving owner before passing through",
+            "passed": false,
+            "observed": "frames=2, slide=0.3500001, ownerRemoved=False, spent=0"
+        },
+        {
+            "name": "carried bomb ignores its own host colliders",
+            "passed": true,
+            "observed": "fired=False"
+        },
+        {
+            "name": "external contact removes external fixture and bomb host",
+            "passed": true,
+            "observed": "fired=True, removed=2"
+        }
+    ]
+}

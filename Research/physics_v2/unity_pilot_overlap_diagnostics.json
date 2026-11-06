@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":\"Physical original piece 1/body -1 -> Physical original piece 5/body -1 depth=-0.01455232 A=(-3.38, -0.76) B=(-3.38, -0.74)\",\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": "Physical original piece 1/body -1 -> Physical original piece 5/body -1 depth=-0.01455232 A=(-3.38, -0.76) B=(-3.38, -0.74)",
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

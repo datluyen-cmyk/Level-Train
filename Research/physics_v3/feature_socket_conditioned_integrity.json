@@ -1,0 +1,3963 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "levelId": 5000001,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000002,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000003,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000004,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000005,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000006,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000007,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000008,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000009,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000010,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000011,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000012,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000013,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000014,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000015,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000016,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000017,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000018,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000019,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000020,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000021,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000022,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000023,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000024,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000025,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000026,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000027,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000028,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000029,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000030,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000031,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000032,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000033,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000034,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000035,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000036,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000037,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000038,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000039,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000040,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000041,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000042,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000043,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000044,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000045,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000046,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000047,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000048,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000049,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000050,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000051,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000052,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000053,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000054,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000055,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000056,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000057,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000058,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000059,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000060,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000061,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000062,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000063,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000064,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000065,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000066,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000067,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000068,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000069,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000070,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000071,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000072,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000073,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000074,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000075,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000076,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000077,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000078,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000079,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000080,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000081,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000082,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000083,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000084,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000085,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000086,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000087,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000088,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000089,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000090,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000091,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000092,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000093,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000094,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000095,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000096,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000097,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000098,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000099,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000100,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000101,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000102,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000103,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000104,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000105,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000106,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000107,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000108,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000109,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000110,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000111,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000112,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000113,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000114,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000115,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000116,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000117,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000118,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000119,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000120,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000121,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000122,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000123,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000124,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000125,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000126,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000127,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000128,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000129,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000130,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000131,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000132,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000133,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000134,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000135,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000136,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000137,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000138,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000139,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000140,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000141,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000142,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000143,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000144,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000145,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000146,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000147,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000148,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000149,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000150,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000151,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000152,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000153,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000154,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000155,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000156,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000157,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000158,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000159,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000160,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000161,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000162,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000163,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000164,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000165,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000166,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000167,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000168,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000169,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000170,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000171,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000172,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000173,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000174,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000175,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000176,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000177,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000178,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000179,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000180,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000181,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000182,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000183,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000184,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000185,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000186,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000187,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000188,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000189,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000190,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000191,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000192,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000193,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000194,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000195,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000196,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000197,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000198,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000199,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000200,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000201,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000202,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000203,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000204,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000205,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000206,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000207,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000208,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000209,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000210,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000211,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000212,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000213,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000214,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000215,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000216,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000217,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000218,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000219,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000220,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000221,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000222,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000223,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000224,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000225,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000226,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000227,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000228,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000229,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000230,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000231,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000232,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000233,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000234,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000235,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000236,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000237,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000238,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000239,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000240,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000241,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000242,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000243,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000244,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000245,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000246,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000247,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000248,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000249,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000250,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000251,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000252,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000253,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000254,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000255,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000256,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000257,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000258,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000259,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000260,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000261,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000262,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000263,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000264,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000265,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000266,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000267,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000268,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000269,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000270,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000271,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000272,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000273,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000274,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000275,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000276,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000277,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000278,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000279,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000280,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000281,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000282,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000283,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000284,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000285,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000286,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000287,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000288,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000289,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000290,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000291,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000292,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000293,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000294,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000295,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000296,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000297,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000298,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000299,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000300,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000301,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000302,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000303,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000304,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000305,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000306,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000307,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000308,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000309,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000310,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000311,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000312,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000313,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000314,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000315,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000316,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000317,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000318,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000319,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000320,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000321,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000322,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000323,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000324,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000325,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000326,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000327,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000328,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000329,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000330,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000331,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000332,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000333,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000334,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000335,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000336,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000337,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000338,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000339,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000340,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000341,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000342,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000343,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 24,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000344,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000345,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000346,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000347,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000348,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000349,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000350,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000351,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000352,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000353,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000354,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000355,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 22,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000356,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000357,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 23,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000358,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000359,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000360,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000361,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000362,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000363,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000364,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000365,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000366,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000367,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000368,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000369,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000370,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000371,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000372,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000373,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000374,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000375,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000376,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000377,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000378,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000379,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000380,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000381,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000382,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000383,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000384,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000385,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000386,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000387,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000388,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000389,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000390,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000391,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000392,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000393,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000394,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000395,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000396,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000397,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000398,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000399,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000400,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000401,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000402,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000403,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000404,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000405,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000406,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000407,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000408,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000409,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000410,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000411,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000412,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000413,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000414,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000415,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000416,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000417,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000418,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000419,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000420,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000421,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000422,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000423,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000424,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000425,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000426,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000427,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000428,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000429,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000430,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000431,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000432,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000433,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000434,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000435,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000436,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000437,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000438,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000439,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000440,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000441,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000442,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000443,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000444,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000445,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000446,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000447,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000448,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000449,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000450,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000451,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000452,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000453,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000454,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000455,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000456,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000457,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000458,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000459,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000460,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000461,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000462,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000463,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000464,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000465,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000466,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000467,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000468,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000469,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000470,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000471,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000472,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000473,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000474,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000475,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000476,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000477,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000478,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000479,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000480,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000481,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000482,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000483,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000484,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000485,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000486,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000487,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000488,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000489,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000490,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000491,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000492,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000493,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 5000494,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 19,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\incomplete_feature_socket_conditioned\\proposals.json": "e54d0637ee1d061693ecbf0f87bc5484d738f288d487cc8475840bc2122f3656",
+    "Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\assembly_integrity_audit_v3.py": "619c18242c59f578b497595d487c9c2f2e9a24a0925f489684abb8d8c0e638a2"
+  }
+}

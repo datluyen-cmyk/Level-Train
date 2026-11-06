@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source-level feasibility and puzzle-structure audit. No engine, no source solver labels, no training/proposer changes.",
+  "hashes": {
+    "sourcePackSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templatePackSha256": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee"
+  },
+  "sourcePositions1to20": [
+    {
+      "position": 1,
+      "sourceId": "10001",
+      "levelId": 10001,
+      "partCount": 2,
+      "kindCounts": {
+        "ring": 2
+      },
+      "authoredRingLinks": 1,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 1
+    },
+    {
+      "position": 2,
+      "sourceId": "10002",
+      "levelId": 10002,
+      "partCount": 3,
+      "kindCounts": {
+        "ring": 3
+      },
+      "authoredRingLinks": 2,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 3,
+      "sourceId": "10003",
+      "levelId": 10003,
+      "partCount": 4,
+      "kindCounts": {
+        "ring": 4
+      },
+      "authoredRingLinks": 3,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 4,
+      "sourceId": "10005",
+      "levelId": 10005,
+      "partCount": 7,
+      "kindCounts": {
+        "ring": 7
+      },
+      "authoredRingLinks": 6,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 2,
+      "maxDegree": 3
+    },
+    {
+      "position": 5,
+      "sourceId": "10004",
+      "levelId": 10004,
+      "partCount": 7,
+      "kindCounts": {
+        "ring": 7
+      },
+      "authoredRingLinks": 8,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 1,
+      "maxDegree": 4
+    },
+    {
+      "position": 6,
+      "sourceId": "10010",
+      "levelId": 10010,
+      "partCount": 10,
+      "kindCounts": {
+        "ring": 6,
+        "slider": 2,
+        "fixed": 2
+      },
+      "authoredRingLinks": 4,
+      "guideLinks": 2,
+      "bombs": 0,
+      "authoredGraphComponents": 4,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 7,
+      "sourceId": "10012",
+      "levelId": 10012,
+      "partCount": 13,
+      "kindCounts": {
+        "ring": 7,
+        "slider": 2,
+        "fixed": 4
+      },
+      "authoredRingLinks": 6,
+      "guideLinks": 4,
+      "bombs": 0,
+      "authoredGraphComponents": 3,
+      "branchNodes_degree_gt2": 1,
+      "maxDegree": 4
+    },
+    {
+      "position": 8,
+      "sourceId": "10007",
+      "levelId": 10007,
+      "partCount": 9,
+      "kindCounts": {
+        "ring": 9
+      },
+      "authoredRingLinks": 7,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 2,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 9,
+      "sourceId": "10008",
+      "levelId": 10008,
+      "partCount": 9,
+      "kindCounts": {
+        "ring": 9
+      },
+      "authoredRingLinks": 7,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 2,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 10,
+      "sourceId": "10154",
+      "levelId": 10154,
+      "partCount": 19,
+      "kindCounts": {
+        "ring": 4,
+        "slider": 8,
+        "fixed": 7
+      },
+      "authoredRingLinks": 3,
+      "guideLinks": 7,
+      "bombs": 0,
+      "authoredGraphComponents": 9,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 11,
+      "sourceId": "10006",
+      "levelId": 10006,
+      "partCount": 9,
+      "kindCounts": {
+        "ring": 9
+      },
+      "authoredRingLinks": 8,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 2,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 12,
+      "sourceId": "10011",
+      "levelId": 10011,
+      "partCount": 15,
+      "kindCounts": {
+        "ring": 7,
+        "slider": 4,
+        "fixed": 4
+      },
+      "authoredRingLinks": 5,
+      "guideLinks": 4,
+      "bombs": 0,
+      "authoredGraphComponents": 6,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 13,
+      "sourceId": "10009",
+      "levelId": 10009,
+      "partCount": 12,
+      "kindCounts": {
+        "ring": 12
+      },
+      "authoredRingLinks": 9,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 3,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 14,
+      "sourceId": "60023",
+      "levelId": 60023,
+      "partCount": 12,
+      "kindCounts": {
+        "ring": 12
+      },
+      "authoredRingLinks": 16,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 7,
+      "maxDegree": 4
+    },
+    {
+      "position": 15,
+      "sourceId": "70002",
+      "levelId": 70002,
+      "partCount": 12,
+      "kindCounts": {
+        "slider": 2,
+        "ring": 10
+      },
+      "authoredRingLinks": 10,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 2,
+      "branchNodes_degree_gt2": 1,
+      "maxDegree": 3
+    },
+    {
+      "position": 16,
+      "sourceId": "70017",
+      "levelId": 70017,
+      "partCount": 13,
+      "kindCounts": {
+        "ring": 13
+      },
+      "authoredRingLinks": 16,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 1,
+      "branchNodes_degree_gt2": 3,
+      "maxDegree": 6
+    },
+    {
+      "position": 17,
+      "sourceId": "70003",
+      "levelId": 70003,
+      "partCount": 13,
+      "kindCounts": {
+        "ring": 13
+      },
+      "authoredRingLinks": 9,
+      "guideLinks": 0,
+      "bombs": 0,
+      "authoredGraphComponents": 4,
+      "branchNodes_degree_gt2": 1,
+      "maxDegree": 3
+    },
+    {
+      "position": 18,
+      "sourceId": "70010",
+      "levelId": 70010,
+      "partCount": 18,
+      "kindCounts": {
+        "ring": 10,
+        "slider": 4,
+        "fixed": 4
+      },
+      "authoredRingLinks": 9,
+      "guideLinks": 4,
+      "bombs": 0,
+      "authoredGraphComponents": 5,
+      "branchNodes_degree_gt2": 0,
+      "maxDegree": 2
+    },
+    {
+      "position": 19,
+      "sourceId": "10060",
+      "levelId": 10060,
+      "partCount": 33,
+      "kindCounts": {
+        "ring": 9,
+        "slider": 11,
+        "fixed": 13
+      },
+      "authoredRingLinks": 8,
+      "guideLinks": 13,
+      "bombs": 0,
+      "authoredGraphComponents": 12,
+      "branchNodes_degree_gt2": 1,
+      "maxDegree": 3
+    },
+    {
+      "position": 20,
+      "sourceId": "10109",
+      "levelId": 10109,
+      "partCount": 22,
+      "kindCounts": {
+        "ring": 6,
+        "slider": 8,
+        "fixed": 8
+      },
+      "authoredRingLinks": 5,
+      "guideLinks": 8,
+      "bombs": 2,
+      "authoredGraphComponents": 9,
+      "branchNodes_degree_gt2": 2,
+      "maxDegree": 3
+    }
+  ],
+  "tutorialNoveltyFeasibility": {
+    "observedEarlyCurriculum": [
+      {
+        "sourceId": "10001",
+        "position": 1,
+        "motif": "2 rings, 1 native pin link; smallest simple release lesson."
+      },
+      {
+        "sourceId": "10002",
+        "position": 2,
+        "motif": "3 rings, 2 native pin links; short path."
+      },
+      {
+        "sourceId": "10003",
+        "position": 3,
+        "motif": "4 rings, 3 native pin links; short path."
+      },
+      {
+        "sourceId": "10005",
+        "position": 4,
+        "motif": "7 rings, 6 links; two branch nodes in authored relation graph."
+      },
+      {
+        "sourceId": "10004",
+        "position": 5,
+        "motif": "7 rings, 8 links; one branch node and degree-4 hub."
+      },
+      {
+        "sourceId": "10010",
+        "position": 6,
+        "motif": "6 rings, 2 sliders, 2 fixed guides; 4 ring links and 2 fixed-guide-to-Pull guides."
+      },
+      {
+        "sourceId": "10012",
+        "position": 7,
+        "motif": "7 rings, 2 sliders, 4 fixed guides; 6 ring links and 4 guide links."
+      }
+    ],
+    "boundedApproaches": [
+      {
+        "name": "Keep positions 1–3 as source-referenced tutorial lessons",
+        "sources": [
+          "10001",
+          "10002",
+          "10003"
+        ],
+        "why": "Their scope is deliberately small and has very low topology entropy: one edge, then a path of two or three edges. Treating these as reference lessons avoids manufacturing apparent novelty with tiny coordinate/angle perturbations. If new content is required here, target a structural addition (one extra ring plus a new authored pin dependency) and withhold it until physical validation."
+      },
+      {
+        "name": "Small branch/merge lesson from native pin motifs",
+        "sources": [
+          "10004",
+          "10005",
+          "60023",
+          "70017"
+        ],
+        "why": "Use 5–9 ring pieces with a distinct branch/hub dependency or multiple connected components, based on source pin assignments and graph motifs rather than shuffled whole ring poses. Preserve exact source atomic templates and source-feature pin roles; create new links only by exact feature sockets and rerun raw seam/contact and native release validation."
+      },
+      {
+        "name": "Introduce one Pull mechanic via a complete guide motif",
+        "sources": [
+          "10010",
+          "10012"
+        ],
+        "why": "Retain a complete fixed-guide host→Pull pair (never a loose Pull-only visual) and its actual guide shape indices. Add one small 3–5 ring pin motif through a compatible native socket. This raises a small lesson to roughly 8–13 parts with a genuinely new interaction while limiting scope."
+      },
+      {
+        "name": "Use same-grid ring banks with changed dependency maps as semantic candidates",
+        "sources": [
+          "20075",
+          "20047",
+          "20082",
+          "20053"
+        ],
+        "why": "The native corpus contains multiple 24-ring puzzles over exactly repeated center grids with materially different directed pin graphs and attachment assignments. Learn or assemble dependency motifs over stable spatial scaffolds; keep a separate semantic-structure comparison alongside the unchanged whole-layout geometric check."
+      }
+    ],
+    "inherentLimits": [
+      "A two-ring, one-edge lesson has almost no structural alternatives while preserving its teaching objective; cosmetic pose changes are not strong novelty evidence.",
+      "The current geometry near-copy criterion can certify geometric non-copy only; it cannot decide that a changed pin graph makes a new puzzle or that the puzzle is playable.",
+      "Merging whole native motifs is a proposal method, not proof: all moved or newly joined pins need exact socket relations, raw geometry checks, native solver replay, and independent difficulty review.",
+      "Do not promise a fully novel 2–4-piece generated tutorial under strict source-fidelity and source-near-copy rejection without relaxing the target scope or adding a real mechanic."
+    ]
+  },
+  "sameGrid200xxAudit": {
+    "sourceLevelCount": 59,
+    "partCounts": {
+      "24": 53,
+      "25": 2,
+      "27": 3,
+      "26": 1
+    },
+    "authoredLinkCounts": {
+      "24": 11,
+      "20": 2,
+      "23": 14,
+      "22": 16,
+      "25": 5,
+      "21": 4,
+      "26": 4,
+      "27": 2,
+      "29": 1
+    },
+    "exactCenterScaffoldVariantCount": 19,
+    "levelsPerScaffoldTopCounts": [
+      37,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sameExactCenterScaffoldPairCount": 676,
+    "sameScaffoldGraphComparison": {
+      "meanDirectedEdgeSymmetricDifference": 31.988165680473372,
+      "meanDirectedEdgeJaccard": 0.18256504383242403,
+      "meanFeatureEdgeSymmetricDifference": 45.582840236686394,
+      "meanFeatureEdgeJaccard": 0.004186418520248623,
+      "exactDirectedTopologyPairs": 0
+    },
+    "layoutNoveltyV3PairAudit": {
+      "criteria": {
+        "minimumCoverage": 0.9,
+        "maximumMeanCenterErrorWidths": 0.35,
+        "maximumP90CenterErrorWidths": 0.7,
+        "maximumMeanAngleErrorDegrees": 15.0,
+        "maximumMeanShapeError": 0.15,
+        "spacingScaleRange": [
+          0.85,
+          1.15
+        ]
+      },
+      "compatiblePairsCompared": 1552,
+      "nearCopyPairs": 0,
+      "interpretation": "The novelty heuristic ignores authored links and pin feature identities. Zero near-copy outcomes here reflect its geometric pose/template thresholds and do not establish puzzle-level originality."
+    },
+    "concreteSameScaffoldExample": {
+      "sourceIds": [
+        "20075",
+        "20047"
+      ],
+      "same24CenterCoordinates": true,
+      "partCounts": [
+        24,
+        24
+      ],
+      "authoredDirectedLinkCounts": [
+        22,
+        24
+      ],
+      "sharedDirectedCoordinateEdges": 14,
+      "directedEdgeUnion": 32,
+      "directedEdgeSymmetricDifference": 18,
+      "directedEdgeJaccard": 0.4375,
+      "commonEndpointEdgesWithDifferentAttachmentId": 4,
+      "layoutNoveltyV3": {
+        "coverage": 1.0,
+        "meanCenterErrorWidths": 5.487930960467902e-15,
+        "p90CenterErrorWidths": 8.537994761303907e-15,
+        "meanAngleErrorDegrees": 89.9999948678704,
+        "meanShapeError": 0.3249008662628592,
+        "alignmentReflection": false,
+        "spacingScale": 0.9999999999999999,
+        "nearCopy": false
+      },
+      "sourceEvidence": "Both appear as separate original source IDs/progression entries in the full 500 pack; their authored link maps differ despite the same center grid. This is evidence of distinct source-level structure, not a claim of verified solvability or player-perceived novelty."
+    }
+  },
+  "existingProposalState": {
+    "pilots": [
+      {
+        "batch": "incomplete_macro_pilot",
+        "status": "INCOMPLETE_NATIVE_REPLAY_AND_NOVELTY_REQUIRED",
+        "proposalCount": 12,
+        "acceptedCount": 0,
+        "novelty507PassCount": null,
+        "novelty507NearCopyProposalCount": null,
+        "scope": "Macro reconstruction proposals; no native replay/difficulty certification."
+      },
+      {
+        "batch": "incomplete_macro_boardframe_pilot",
+        "status": "INCOMPLETE_NATIVE_REPLAY_AND_NOVELTY_REQUIRED",
+        "proposalCount": 12,
+        "acceptedCount": 0,
+        "novelty507PassCount": null,
+        "novelty507NearCopyProposalCount": null,
+        "scope": "Macro reconstruction proposals; no native replay/difficulty certification."
+      },
+      {
+        "batch": "incomplete_nativeframework_pilot",
+        "status": "INCOMPLETE_NATIVE_REPLAY_AND_NOVELTY_REQUIRED",
+        "proposalCount": 12,
+        "acceptedCount": 0,
+        "novelty507PassCount": null,
+        "novelty507NearCopyProposalCount": null,
+        "scope": "Feature construction only; independent integrity and raw seams pending."
+      },
+      {
+        "batch": "incomplete_physical_macro_feature",
+        "status": "FEATURE_CONSTRUCTION_ONLY_INDEPENDENT_INTEGRITY_AND_RAW_SEAM_PENDING",
+        "proposalCount": 235,
+        "acceptedCount": 0,
+        "novelty507PassCount": null,
+        "novelty507NearCopyProposalCount": null,
+        "scope": "Macro reconstruction proposals; no native replay/difficulty certification."
+      },
+      {
+        "batch": "incomplete_macro_rewrite_pilot",
+        "status": "INCOMPLETE_EMPIRICAL_NATIVE_MACRO_REWRITE_NO_REPLAY_OR_DIFFICULTY",
+        "proposalCount": 4,
+        "acceptedCount": 0,
+        "novelty507PassCount": 1,
+        "novelty507NearCopyProposalCount": 3,
+        "scope": "Macro reconstruction proposals; no native replay/difficulty certification."
+      }
+    ],
+    "semanticPhysicalMacroEvaluation": {
+      "evaluationExists": true,
+      "sourceCount": 500,
+      "tileCount": 3561,
+      "macroRelationCount": 7110,
+      "compositionEdgeCounts": {
+        "pull_axis_crosses_ring": 2641,
+        "pull_near_ring": 3720,
+        "pull_hull_contains_ring_center": 780
+      },
+      "status": "native source macro relation proposal; no physics or quality labels",
+      "limitations": [
+        "Macro partition is deterministic analysis of source topology and source nearest-neighbor organization. It is not an authored semantic annotation.",
+        "Relation reconstruction is oracle best-of32, not single-sample accuracy.",
+        "Some original boards have one macro tile and supply no intertile relation labels. They remain in tile corpus and native validation corpus.",
+        "Full native seam initialization, replay and difficulty gates remain mandatory."
+      ],
+      "newTutorialProposalBatchExists": false
+    },
+    "missingStructures": [
+      "No generated proposal batch or accepted tutorial curriculum is present for the semantic/physical macro model.",
+      "Existing macro pilots can show raw polygon seam previews, but proposal batches remain acceptedCount 0 and native replay/difficulty are outstanding.",
+      "The macro rewrite pilot has 3/4 candidates rejected as near copies and 1/4 passing the geometric source novelty check, but all four remain INCOMPLETE_NATIVE_REWRITE_PREVIEW.",
+      "The 235-level physical macro feature batch is feature construction only; it has no independent integrity/seam or gameplay acceptance."
+    ]
+  },
+  "semanticNearCopyRecommendation": {
+    "additiveMetric": "Keep layout_novelty_v3 geometric output unchanged and add a separate informational puzzle-structure distance after geometric alignment: compare directed owner edges, native sourceFeature/targetFeature and attachment IDs, relation/activity kinds, guide host/locked Pull features, bomb ownership, and attached pin/head geometry in matched owner-local frames.",
+    "interpretation": "Report visual scaffold near-copy and puzzle-graph divergence as separate axes. A high geometry match plus large graph edit should be flagged for expert review as a reused scaffold with changed interaction structure, not silently treated as fully novel or as identical gameplay.",
+    "limitation": "Source structure differences are observable, but without native replay they remain unverified rule-level dependencies."
+  }
+}

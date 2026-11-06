@@ -1,0 +1,729 @@
+{
+  "status": "COHERENT_PREVIEW_DIAGNOSTICS_PENDING_NATIVE_REPLAY",
+  "acceptedCount": 0,
+  "packSha256": "e9d684700f921ac4dbb53ec1e9164ef132a771c0279821f90839fda50f0bfd38",
+  "attempts": 4,
+  "preliminaryCount": 3,
+  "elapsedSeconds": 139.16620689991396,
+  "rows": [
+    {
+      "candidateId": 9500000,
+      "intendedPosition": 2,
+      "rootCount": 13,
+      "targetFieldSourceId": "70017",
+      "softTargetRootCount": 12.999999999999996,
+      "sourceIds": [
+        "60026"
+      ],
+      "score": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.6794328602568441,
+        "standardizedScoreContributions": {
+          "latentField": 0.660983973762146,
+          "logPartCount": 0.0,
+          "logSpan": 0.018448886494698082,
+          "levelContext": 0.0
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.2654441326295194,
+        "nativeBodyFieldL1": 1.0373669459696826,
+        "relationFieldL1": 0.5883291591180326,
+        "actualRootCount": 13,
+        "softTargetRootCount": 12.999999999999996,
+        "actualSpan": 19.456012697872847,
+        "softTargetSpan": 22.841074433059013,
+        "limits": "Proposal organization only; not native difficulty or quality.",
+        "rankStrategy": "held-family evaluated native static composition critic plus learned-standardized soft profile distance",
+        "nativeStaticCompositionProbability": 0.4601093135241899,
+        "rankScore": 0.8439370967816177,
+        "learnedStandardizedSoftProfileDistance": 0.0676459171472263,
+        "staticInteractionFeatureNames": [
+          "logAspect",
+          "minorExtentWidthUnits",
+          "majorExtentWidthUnits",
+          "bboxWhitespace",
+          "hullWhitespace",
+          "symmetryX",
+          "symmetryY",
+          "symmetryPCA",
+          "orientationParallel",
+          "orientationCardinal",
+          "orientationDiagonal",
+          "nearestCenterP10",
+          "nearestCenterP50",
+          "nearestCenterP90",
+          "nearestOutlineP10",
+          "nearestOutlineP50",
+          "nearestOutlineP90",
+          "radialP10",
+          "radialP50",
+          "radialP90",
+          "centerCovAnisotropy",
+          "clusterCenterSpreadMajor",
+          "clusterCenterSpreadMinor",
+          "clusterNearestCenterP50",
+          "clusterPairDistanceCV",
+          "guideAxisOffsetP50",
+          "guidePerpendicularOffsetP50",
+          "angleNeighborAlignment",
+          "envelopeNestingFraction",
+          "authored_componentsPerRoot",
+          "authored_largestComponentFraction",
+          "authored_isolatedRootFraction",
+          "authored_degreeMean",
+          "authored_degreeP90",
+          "authored_maxDegree",
+          "authored_cycleRankPerRoot",
+          "authored_bridgeFraction",
+          "authored_articulationFraction",
+          "authored_meanCoreNumber",
+          "authored_meanClustering",
+          "authored_reachablePairFraction",
+          "authored_meanConnectedPathLength",
+          "staticComposition_componentsPerRoot",
+          "staticComposition_largestComponentFraction",
+          "staticComposition_isolatedRootFraction",
+          "staticComposition_degreeMean",
+          "staticComposition_degreeP90",
+          "staticComposition_maxDegree",
+          "staticComposition_cycleRankPerRoot",
+          "staticComposition_bridgeFraction",
+          "staticComposition_articulationFraction",
+          "staticComposition_meanCoreNumber",
+          "staticComposition_meanClustering",
+          "staticComposition_reachablePairFraction",
+          "staticComposition_meanConnectedPathLength",
+          "proxy_pull_axis_crosses_ringPerRoot",
+          "proxy_pull_hull_contains_ring_centerPerRoot",
+          "proxy_pull_near_ringPerRoot",
+          "proxyStrongPerRoot",
+          "combinedAuthoredCrossComponentEdgesPerRoot"
+        ],
+        "staticInteractionFeatures": [
+          0.30019022570459497,
+          24.559560134014994,
+          33.15824550781639,
+          0.8293213996913915,
+          0.8014745174071564,
+          1.0204597452891606,
+          1.2706614738078856,
+          0.9205805137784971,
+          0.49659352443974136,
+          0.8065714783119338,
+          0.4598275274534776,
+          8.21599640386033,
+          8.638716033578348,
+          9.044666750060571,
+          0.6965995269690565,
+          1.7044303433702235,
+          5.40664790196367,
+          8.418760161484858,
+          9.849166046692957,
+          17.47599185134417,
+          0.6524622098678335,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.6976719446231245,
+          0.0,
+          0.07692307692307693,
+          1.0,
+          0.0,
+          2.4615384615384617,
+          4.0,
+          4.0,
+          0.3076923076923077,
+          0.25,
+          0.15384615384615385,
+          1.6923076923076923,
+          0.0,
+          1.0,
+          2.6666666666666665,
+          0.07692307692307693,
+          1.0,
+          0.0,
+          2.4615384615384617,
+          4.0,
+          4.0,
+          0.3076923076923077,
+          0.25,
+          0.15384615384615385,
+          1.6923076923076923,
+          0.0,
+          1.0,
+          2.6666666666666665,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "partialSourceReuse": {
+          "rigidSourceGroups": [
+            {
+              "sourceId": "60026",
+              "rotation": -92.87571422140716,
+              "translation": [
+                7.779470526545407,
+                9.141505570987924
+              ],
+              "importIndices": [
+                0,
+                1
+              ],
+              "candidateRootCount": 13,
+              "candidateRootFraction": 1.0
+            }
+          ],
+          "largestMultiImportRigidSourceRootFraction": 1.0,
+          "softSourceReconstructionCost": null,
+          "entireCandidateIsExactMultiImportSourceSubset": true,
+          "requiresPartialSourceOriginalityReview": true,
+          "meaning": "Multiple native motifs placed with identical source transform restore an exact rigid source subset; evidence is provenance-based and must be independently checked.",
+          "numericDonorQuotaApplied": false
+        },
+        "qualityProbabilityMeaning": "Original-versus-synthetic static arrangement proxy only, not playability or enjoyment.",
+        "noveltyDiagnosticUsedAsRankPenalty": false
+      }
+    },
+    {
+      "candidateId": 9500002,
+      "intendedPosition": 18,
+      "rootCount": 34,
+      "targetFieldSourceId": "10054",
+      "softTargetRootCount": 37.99999999999999,
+      "sourceIds": [
+        "10052",
+        "10060",
+        "10062",
+        "10063",
+        "10134",
+        "70039"
+      ],
+      "score": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.7385152204338143,
+        "standardizedScoreContributions": {
+          "latentField": 0.6957683794894757,
+          "logPartCount": 0.007349451667432752,
+          "logSpan": 0.002687323510266712,
+          "levelContext": 0.03271006576663908
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.4618588477821324,
+        "nativeBodyFieldL1": 1.5161265034592852,
+        "relationFieldL1": 0.4452485105432238,
+        "actualRootCount": 34,
+        "softTargetRootCount": 37.99999999999999,
+        "actualSpan": 22.526046562293708,
+        "softTargetSpan": 22.005826709936507,
+        "limits": "Proposal organization only; not native difficulty or quality.",
+        "rankStrategy": "held-family evaluated native static composition critic plus learned-standardized soft profile distance",
+        "nativeStaticCompositionProbability": 0.5399951706168314,
+        "rankScore": 0.7729334995618806,
+        "learnedStandardizedSoftProfileDistance": 0.156738416795908,
+        "staticInteractionFeatureNames": [
+          "logAspect",
+          "minorExtentWidthUnits",
+          "majorExtentWidthUnits",
+          "bboxWhitespace",
+          "hullWhitespace",
+          "symmetryX",
+          "symmetryY",
+          "symmetryPCA",
+          "orientationParallel",
+          "orientationCardinal",
+          "orientationDiagonal",
+          "nearestCenterP10",
+          "nearestCenterP50",
+          "nearestCenterP90",
+          "nearestOutlineP10",
+          "nearestOutlineP50",
+          "nearestOutlineP90",
+          "radialP10",
+          "radialP50",
+          "radialP90",
+          "centerCovAnisotropy",
+          "clusterCenterSpreadMajor",
+          "clusterCenterSpreadMinor",
+          "clusterNearestCenterP50",
+          "clusterPairDistanceCV",
+          "guideAxisOffsetP50",
+          "guidePerpendicularOffsetP50",
+          "angleNeighborAlignment",
+          "envelopeNestingFraction",
+          "authored_componentsPerRoot",
+          "authored_largestComponentFraction",
+          "authored_isolatedRootFraction",
+          "authored_degreeMean",
+          "authored_degreeP90",
+          "authored_maxDegree",
+          "authored_cycleRankPerRoot",
+          "authored_bridgeFraction",
+          "authored_articulationFraction",
+          "authored_meanCoreNumber",
+          "authored_meanClustering",
+          "authored_reachablePairFraction",
+          "authored_meanConnectedPathLength",
+          "staticComposition_componentsPerRoot",
+          "staticComposition_largestComponentFraction",
+          "staticComposition_isolatedRootFraction",
+          "staticComposition_degreeMean",
+          "staticComposition_degreeP90",
+          "staticComposition_maxDegree",
+          "staticComposition_cycleRankPerRoot",
+          "staticComposition_bridgeFraction",
+          "staticComposition_articulationFraction",
+          "staticComposition_meanCoreNumber",
+          "staticComposition_meanClustering",
+          "staticComposition_reachablePairFraction",
+          "staticComposition_meanConnectedPathLength",
+          "proxy_pull_axis_crosses_ringPerRoot",
+          "proxy_pull_hull_contains_ring_centerPerRoot",
+          "proxy_pull_near_ringPerRoot",
+          "proxyStrongPerRoot",
+          "combinedAuthoredCrossComponentEdgesPerRoot"
+        ],
+        "staticInteractionFeatures": [
+          0.027482463278489078,
+          18.034005108988318,
+          18.536497226039373,
+          0.8563014752518734,
+          0.799160041292295,
+          3.3142403476110878,
+          4.938084966294376,
+          2.6763107734624882,
+          0.5948996473326764,
+          0.6377155594183604,
+          0.7282882204581456,
+          0.020833969116208138,
+          1.2092335284819655,
+          2.806439966358283,
+          0.3312772334081261,
+          1.0879090539421785,
+          3.287409603201482,
+          1.9049543980479977,
+          7.0487440512032045,
+          10.09626206076379,
+          0.5232942511423924,
+          5.034816503536061,
+          5.115468914268994,
+          2.470440259354632,
+          0.4391276310976726,
+          0.3749999999999978,
+          7.521704503867723e-08,
+          0.6433977479994291,
+          0.14285714285714285,
+          0.5,
+          0.058823529411764705,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.030303030303030304,
+          1.0,
+          0.38235294117647056,
+          0.23529411764705882,
+          0.0,
+          1.3529411764705883,
+          2.6999999999999993,
+          4.0,
+          0.058823529411764705,
+          0.782608695652174,
+          0.17647058823529413,
+          1.1176470588235294,
+          0.04901960784313725,
+          0.08021390374331551,
+          1.1391941391941391,
+          0.029411764705882353,
+          0.0,
+          0.17647058823529413,
+          0.029411764705882353,
+          0.17647058823529413
+        ],
+        "partialSourceReuse": {
+          "rigidSourceGroups": [
+            {
+              "sourceId": "10062",
+              "rotation": -90.00001539638879,
+              "translation": [
+                23.87822371614807,
+                13.526530525027997
+              ],
+              "importIndices": [
+                0
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.11764705882352941
+            },
+            {
+              "sourceId": "10063",
+              "rotation": 90.0000153963888,
+              "translation": [
+                -32.87209853336814,
+                -15.644894850160245
+              ],
+              "importIndices": [
+                1,
+                4,
+                6
+              ],
+              "candidateRootCount": 8,
+              "candidateRootFraction": 0.23529411764705882
+            },
+            {
+              "sourceId": "10134",
+              "rotation": -157.91719783212403,
+              "translation": [
+                10.66922239412667,
+                -12.15227068939686
+              ],
+              "importIndices": [
+                2
+              ],
+              "candidateRootCount": 2,
+              "candidateRootFraction": 0.058823529411764705
+            },
+            {
+              "sourceId": "10052",
+              "rotation": 0.0,
+              "translation": [
+                -2.7917644381523132,
+                21.586284637451172
+              ],
+              "importIndices": [
+                3
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.11764705882352941
+            },
+            {
+              "sourceId": "10063",
+              "rotation": 10.000016452365983,
+              "translation": [
+                -8.151990240950937,
+                26.092181958147382
+              ],
+              "importIndices": [
+                5
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.11764705882352941
+            },
+            {
+              "sourceId": "70039",
+              "rotation": -47.91958398969545,
+              "translation": [
+                7.916184031665584,
+                16.510704158083236
+              ],
+              "importIndices": [
+                7
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.11764705882352941
+            },
+            {
+              "sourceId": "10063",
+              "rotation": 75.97915833545528,
+              "translation": [
+                -22.490960880211077,
+                -13.075903910062065
+              ],
+              "importIndices": [
+                8
+              ],
+              "candidateRootCount": 2,
+              "candidateRootFraction": 0.058823529411764705
+            },
+            {
+              "sourceId": "10060",
+              "rotation": -180.7475072867507,
+              "translation": [
+                10.121902279272467,
+                -12.022067586913606
+              ],
+              "importIndices": [
+                9
+              ],
+              "candidateRootCount": 2,
+              "candidateRootFraction": 0.058823529411764705
+            },
+            {
+              "sourceId": "10063",
+              "rotation": 175.47145948670868,
+              "translation": [
+                -1.7873359389484786,
+                -40.244442921122356
+              ],
+              "importIndices": [
+                10
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.11764705882352941
+            }
+          ],
+          "largestMultiImportRigidSourceRootFraction": 0.23529411764705882,
+          "softSourceReconstructionCost": 0.26826398659467937,
+          "entireCandidateIsExactMultiImportSourceSubset": false,
+          "requiresPartialSourceOriginalityReview": true,
+          "meaning": "Multiple native motifs placed with identical source transform restore an exact rigid source subset; evidence is provenance-based and must be independently checked.",
+          "numericDonorQuotaApplied": false
+        },
+        "qualityProbabilityMeaning": "Original-versus-synthetic static arrangement proxy only, not playability or enjoyment.",
+        "noveltyDiagnosticUsedAsRankPenalty": false
+      }
+    },
+    {
+      "candidateId": 9500003,
+      "intendedPosition": 35,
+      "rootCount": 27,
+      "targetFieldSourceId": "70033",
+      "softTargetRootCount": 22.0,
+      "sourceIds": [
+        "10062",
+        "10067",
+        "71001",
+        "71009"
+      ],
+      "score": {
+        "jointLearnedStandardizedFieldProfileMAE": 0.984830628805801,
+        "standardizedScoreContributions": {
+          "latentField": 0.9248430325733872,
+          "logPartCount": 0.013359808797151214,
+          "logSpan": 0.0067944047692228456,
+          "levelContext": 0.03983338266603978
+        },
+        "standardizedResidualDimensionCount": 44,
+        "kindFieldL1": 1.8535325799242197,
+        "nativeBodyFieldL1": 1.9349885471379409,
+        "relationFieldL1": 0.7185077298236873,
+        "actualRootCount": 27,
+        "softTargetRootCount": 22.0,
+        "actualSpan": 24.267032050030945,
+        "softTargetSpan": 22.875000093496134,
+        "limits": "Proposal organization only; not native difficulty or quality.",
+        "rankStrategy": "held-family evaluated native static composition critic plus learned-standardized soft profile distance",
+        "nativeStaticCompositionProbability": 0.4540764531023338,
+        "rankScore": 1.0094442157333248,
+        "learnedStandardizedSoftProfileDistance": 0.21995451951885078,
+        "staticInteractionFeatureNames": [
+          "logAspect",
+          "minorExtentWidthUnits",
+          "majorExtentWidthUnits",
+          "bboxWhitespace",
+          "hullWhitespace",
+          "symmetryX",
+          "symmetryY",
+          "symmetryPCA",
+          "orientationParallel",
+          "orientationCardinal",
+          "orientationDiagonal",
+          "nearestCenterP10",
+          "nearestCenterP50",
+          "nearestCenterP90",
+          "nearestOutlineP10",
+          "nearestOutlineP50",
+          "nearestOutlineP90",
+          "radialP10",
+          "radialP50",
+          "radialP90",
+          "centerCovAnisotropy",
+          "clusterCenterSpreadMajor",
+          "clusterCenterSpreadMinor",
+          "clusterNearestCenterP50",
+          "clusterPairDistanceCV",
+          "guideAxisOffsetP50",
+          "guidePerpendicularOffsetP50",
+          "angleNeighborAlignment",
+          "envelopeNestingFraction",
+          "authored_componentsPerRoot",
+          "authored_largestComponentFraction",
+          "authored_isolatedRootFraction",
+          "authored_degreeMean",
+          "authored_degreeP90",
+          "authored_maxDegree",
+          "authored_cycleRankPerRoot",
+          "authored_bridgeFraction",
+          "authored_articulationFraction",
+          "authored_meanCoreNumber",
+          "authored_meanClustering",
+          "authored_reachablePairFraction",
+          "authored_meanConnectedPathLength",
+          "staticComposition_componentsPerRoot",
+          "staticComposition_largestComponentFraction",
+          "staticComposition_isolatedRootFraction",
+          "staticComposition_degreeMean",
+          "staticComposition_degreeP90",
+          "staticComposition_maxDegree",
+          "staticComposition_cycleRankPerRoot",
+          "staticComposition_bridgeFraction",
+          "staticComposition_articulationFraction",
+          "staticComposition_meanCoreNumber",
+          "staticComposition_meanClustering",
+          "staticComposition_reachablePairFraction",
+          "staticComposition_meanConnectedPathLength",
+          "proxy_pull_axis_crosses_ringPerRoot",
+          "proxy_pull_hull_contains_ring_centerPerRoot",
+          "proxy_pull_near_ringPerRoot",
+          "proxyStrongPerRoot",
+          "combinedAuthoredCrossComponentEdgesPerRoot"
+        ],
+        "staticInteractionFeatures": [
+          0.24204160708441338,
+          17.176771314651297,
+          21.88058192021457,
+          0.8352548710621037,
+          0.785584372865328,
+          2.8038391637878024,
+          2.9602012571326557,
+          3.0904584303694183,
+          0.6583328625360941,
+          0.6612729084809095,
+          0.6210983473370396,
+          2.0819116395038577,
+          3.225508874136001,
+          4.4999995819343965,
+          0.3944598616201523,
+          0.6862082855992249,
+          3.000698639337033,
+          3.966737731310502,
+          8.542237994039194,
+          11.56576814045254,
+          0.6960037293604462,
+          4.040368067572184,
+          5.394323221277433,
+          4.457006234123051,
+          0.41598138544360536,
+          0.35630035409423055,
+          1.2944781609125489e-07,
+          0.5218572468071875,
+          0.08333333333333333,
+          0.25925925925925924,
+          0.5555555555555556,
+          0.0,
+          1.6296296296296295,
+          3.400000000000002,
+          4.0,
+          0.07407407407407407,
+          0.6818181818181818,
+          0.2222222222222222,
+          1.2962962962962963,
+          0.05555555555555555,
+          0.3162393162393162,
+          1.3278911564625848,
+          0.14814814814814814,
+          0.7777777777777778,
+          0.0,
+          2.2962962962962963,
+          4.0,
+          5.0,
+          0.2962962962962963,
+          0.3225806451612903,
+          0.2962962962962963,
+          1.5185185185185186,
+          0.13580246913580246,
+          0.6068376068376068,
+          1.6369047619047619,
+          0.14814814814814814,
+          0.0,
+          0.2962962962962963,
+          0.14814814814814814,
+          0.14814814814814814
+        ],
+        "partialSourceReuse": {
+          "rigidSourceGroups": [
+            {
+              "sourceId": "10067",
+              "rotation": -149.03580486168053,
+              "translation": [
+                10.625769630537004,
+                -3.971237713140931
+              ],
+              "importIndices": [
+                0,
+                2
+              ],
+              "candidateRootCount": 11,
+              "candidateRootFraction": 0.4074074074074074
+            },
+            {
+              "sourceId": "71001",
+              "rotation": 75.00002679528924,
+              "translation": [
+                -10.07873659997967,
+                -8.153638309870928
+              ],
+              "importIndices": [
+                1
+              ],
+              "candidateRootCount": 2,
+              "candidateRootFraction": 0.07407407407407407
+            },
+            {
+              "sourceId": "10062",
+              "rotation": -149.03580486168053,
+              "translation": [
+                21.780305176557516,
+                -21.055516968058882
+              ],
+              "importIndices": [
+                3
+              ],
+              "candidateRootCount": 4,
+              "candidateRootFraction": 0.14814814814814814
+            },
+            {
+              "sourceId": "71009",
+              "rotation": 240.9641944091297,
+              "translation": [
+                36.58934050960192,
+                -4.317262383583665
+              ],
+              "importIndices": [
+                4
+              ],
+              "candidateRootCount": 9,
+              "candidateRootFraction": 0.3333333333333333
+            },
+            {
+              "sourceId": "71009",
+              "rotation": 29.999997141663904,
+              "translation": [
+                -16.83791597356451,
+                20.18044328847913
+              ],
+              "importIndices": [
+                5
+              ],
+              "candidateRootCount": 2,
+              "candidateRootFraction": 0.07407407407407407
+            }
+          ],
+          "largestMultiImportRigidSourceRootFraction": 0.4074074074074074,
+          "softSourceReconstructionCost": 0.5232481437645478,
+          "entireCandidateIsExactMultiImportSourceSubset": false,
+          "requiresPartialSourceOriginalityReview": true,
+          "meaning": "Multiple native motifs placed with identical source transform restore an exact rigid source subset; evidence is provenance-based and must be independently checked.",
+          "numericDonorQuotaApplied": false
+        },
+        "qualityProbabilityMeaning": "Original-versus-synthetic static arrangement proxy only, not playability or enjoyment.",
+        "noveltyDiagnosticUsedAsRankPenalty": false
+      }
+    }
+  ],
+  "visualSheet": "Research/physics_v3/visual_qa/constructive_v5_pilot_f2_final/comparison_01.png",
+  "findings": [
+    "9500000 ringbranchlatticecoherent13roots,but intendedposition2original3roots mismatch.",
+    "9500003 densemixedring/slider27rootprototype; currentnative replay/difficulty unknown.",
+    "9500002 guide/sliderheavy34roots lesswholeboardcoherent.",
+    "Actual difficulty within15percent unmeasured; provisional userpreview only."
+  ],
+  "noveltyDiagnosticUsedAsRankPenalty": false
+}

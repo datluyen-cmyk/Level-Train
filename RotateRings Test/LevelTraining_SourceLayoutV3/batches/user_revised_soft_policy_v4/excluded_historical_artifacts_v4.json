@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 4,
+  "policyOrigin": "User excludes identifiable pictorial whole-board levels from training and generation",
+  "acceptedGeneratedCount": 0,
+  "generationEnabled": false,
+  "excludedArtifacts": [
+    {
+      "path": "batches/user_revised_soft_policy_v4/proposals_pilot_18_30.json",
+      "sha256": "4d35b779c38f19b139e423a488f951155ce497d7e8e39dd1bdd17e7aa6ba65df",
+      "candidateIds": [8010000],
+      "sourceIds": ["10157"],
+      "reason": "Intentional diamond whole-board reference excluded by user; retain immutable historical evidence only",
+      "trainingOrGenerationEligible": false,
+      "productionEvaluationStatus": "STOPPED_BY_USER_SCOPE_REVISION"
+    }
+  ]
+}

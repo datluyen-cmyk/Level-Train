@@ -1,0 +1,8948 @@
+{
+  "sourceCount": 460,
+  "sourceProvidedGroupsWereAllSingletons": true,
+  "conservativeGeometryTopologyFamilyCount": 406,
+  "families": {
+    "10001": "source-layout-family-0",
+    "10002": "source-layout-family-1",
+    "10003": "source-layout-family-2",
+    "10005": "source-layout-family-3",
+    "10004": "source-layout-family-4",
+    "10010": "source-layout-family-5",
+    "10012": "source-layout-family-6",
+    "10007": "source-layout-family-7",
+    "10008": "source-layout-family-8",
+    "10154": "source-layout-family-9",
+    "10006": "source-layout-family-10",
+    "10011": "source-layout-family-11",
+    "10009": "source-layout-family-12",
+    "60023": "source-layout-family-13",
+    "70002": "source-layout-family-14",
+    "70017": "source-layout-family-15",
+    "70003": "source-layout-family-16",
+    "70010": "source-layout-family-17",
+    "10060": "source-layout-family-18",
+    "10111": "source-layout-family-19",
+    "10062": "source-layout-family-20",
+    "10070": "source-layout-family-21",
+    "10068": "source-layout-family-22",
+    "10069": "source-layout-family-23",
+    "60010": "source-layout-family-24",
+    "10067": "source-layout-family-25",
+    "10065": "source-layout-family-26",
+    "71009": "source-layout-family-27",
+    "70011": "source-layout-family-28",
+    "10048": "source-layout-family-29",
+    "10054": "source-layout-family-30",
+    "10050": "source-layout-family-31",
+    "10061": "source-layout-family-32",
+    "71001": "source-layout-family-33",
+    "10023": "source-layout-family-34",
+    "60008": "source-layout-family-35",
+    "70033": "source-layout-family-36",
+    "10039": "source-layout-family-37",
+    "10035": "source-layout-family-38",
+    "10058": "source-layout-family-39",
+    "10059": "source-layout-family-40",
+    "10031": "source-layout-family-41",
+    "60009": "source-layout-family-42",
+    "70025": "source-layout-family-43",
+    "10038": "source-layout-family-44",
+    "60011": "source-layout-family-45",
+    "10134": "source-layout-family-46",
+    "73005": "source-layout-family-47",
+    "60026": "source-layout-family-48",
+    "10053": "source-layout-family-49",
+    "60007": "source-layout-family-50",
+    "10015": "source-layout-family-51",
+    "10026": "source-layout-family-52",
+    "70009": "source-layout-family-53",
+    "71002": "source-layout-family-54",
+    "60036": "source-layout-family-55",
+    "10063": "source-layout-family-56",
+    "70006": "source-layout-family-57",
+    "70027": "source-layout-family-58",
+    "10025": "source-layout-family-59",
+    "10029": "source-layout-family-60",
+    "10043": "source-layout-family-61",
+    "70008": "source-layout-family-62",
+    "70004": "source-layout-family-63",
+    "71013": "source-layout-family-64",
+    "70028": "source-layout-family-65",
+    "10152": "source-layout-family-66",
+    "10066": "source-layout-family-67",
+    "60001": "source-layout-family-68",
+    "71014": "source-layout-family-69",
+    "71026": "source-layout-family-70",
+    "71003": "source-layout-family-71",
+    "10057": "source-layout-family-72",
+    "10051": "source-layout-family-73",
+    "10056": "source-layout-family-74",
+    "70032": "source-layout-family-75",
+    "71011": "source-layout-family-76",
+    "70026": "source-layout-family-77",
+    "10021": "source-layout-family-78",
+    "73006": "source-layout-family-79",
+    "10052": "source-layout-family-80",
+    "73004": "source-layout-family-81",
+    "70012": "source-layout-family-82",
+    "10014": "source-layout-family-83",
+    "60006": "source-layout-family-84",
+    "10153": "source-layout-family-85",
+    "71007": "source-layout-family-86",
+    "70030": "source-layout-family-87",
+    "70014": "source-layout-family-88",
+    "71005": "source-layout-family-89",
+    "70031": "source-layout-family-90",
+    "10055": "source-layout-family-91",
+    "71016": "source-layout-family-92",
+    "71018": "source-layout-family-93",
+    "70029": "source-layout-family-94",
+    "10166": "source-layout-family-95",
+    "10168": "source-layout-family-96",
+    "20003": "source-layout-family-97",
+    "70007": "source-layout-family-98",
+    "71008": "source-layout-family-99",
+    "71004": "source-layout-family-100",
+    "10018": "source-layout-family-101",
+    "20031": "source-layout-family-97",
+    "71006": "source-layout-family-103",
+    "71015": "source-layout-family-104",
+    "60034": "source-layout-family-105",
+    "20001": "source-layout-family-97",
+    "71020": "source-layout-family-107",
+    "71022": "source-layout-family-108",
+    "71028": "source-layout-family-109",
+    "71025": "source-layout-family-110",
+    "20029": "source-layout-family-97",
+    "70018": "source-layout-family-112",
+    "70019": "source-layout-family-113",
+    "71017": "source-layout-family-114",
+    "20005": "source-layout-family-97",
+    "10046": "source-layout-family-116",
+    "60030": "source-layout-family-117",
+    "10013": "source-layout-family-118",
+    "10064": "source-layout-family-119",
+    "20023": "source-layout-family-97",
+    "10017": "source-layout-family-121",
+    "10164": "source-layout-family-122",
+    "71032": "source-layout-family-123",
+    "20007": "source-layout-family-97",
+    "10019": "source-layout-family-125",
+    "71024": "source-layout-family-126",
+    "71023": "source-layout-family-127",
+    "10040": "source-layout-family-128",
+    "20033": "source-layout-family-97",
+    "71012": "source-layout-family-130",
+    "60032": "source-layout-family-131",
+    "71019": "source-layout-family-132",
+    "20009": "source-layout-family-97",
+    "71010": "source-layout-family-134",
+    "10045": "source-layout-family-135",
+    "10122": "source-layout-family-136",
+    "71027": "source-layout-family-137",
+    "20037": "source-layout-family-97",
+    "70024": "source-layout-family-139",
+    "60005": "source-layout-family-140",
+    "71021": "source-layout-family-141",
+    "20013": "source-layout-family-97",
+    "70005": "source-layout-family-143",
+    "70020": "source-layout-family-144",
+    "10071": "source-layout-family-145",
+    "70035": "source-layout-family-146",
+    "20027": "source-layout-family-97",
+    "60028": "source-layout-family-148",
+    "10082": "source-layout-family-149",
+    "60004": "source-layout-family-150",
+    "60003": "source-layout-family-151",
+    "20015": "source-layout-family-97",
+    "10037": "source-layout-family-153",
+    "60002": "source-layout-family-154",
+    "71030": "source-layout-family-155",
+    "10034": "source-layout-family-156",
+    "20039": "source-layout-family-97",
+    "70023": "source-layout-family-158",
+    "71031": "source-layout-family-159",
+    "10044": "source-layout-family-160",
+    "20017": "source-layout-family-97",
+    "70022": "source-layout-family-162",
+    "71029": "source-layout-family-163",
+    "70013": "source-layout-family-164",
+    "70015": "source-layout-family-165",
+    "20025": "source-layout-family-97",
+    "10024": "source-layout-family-167",
+    "10049": "source-layout-family-168",
+    "10162": "source-layout-family-169",
+    "20019": "source-layout-family-97",
+    "71034": "source-layout-family-171",
+    "10030": "source-layout-family-172",
+    "70034": "source-layout-family-173",
+    "10041": "source-layout-family-174",
+    "20021": "source-layout-family-97",
+    "70021": "source-layout-family-176",
+    "10032": "source-layout-family-177",
+    "10020": "source-layout-family-178",
+    "20011": "source-layout-family-97",
+    "10036": "source-layout-family-180",
+    "10027": "source-layout-family-181",
+    "10033": "source-layout-family-182",
+    "10047": "source-layout-family-183",
+    "20035": "source-layout-family-97",
+    "71033": "source-layout-family-185",
+    "10161": "source-layout-family-186",
+    "70038": "source-layout-family-187",
+    "71113": "source-layout-family-188",
+    "20043": "source-layout-family-97",
+    "71112": "source-layout-family-190",
+    "60049": "source-layout-family-191",
+    "60060": "source-layout-family-192",
+    "60045": "source-layout-family-193",
+    "20088": "source-layout-family-97",
+    "60074": "source-layout-family-195",
+    "72012": "source-layout-family-196",
+    "71119": "source-layout-family-197",
+    "71114": "source-layout-family-198",
+    "20067": "source-layout-family-97",
+    "60048": "source-layout-family-200",
+    "71135": "source-layout-family-201",
+    "73003": "source-layout-family-202",
+    "60042": "source-layout-family-203",
+    "20087": "source-layout-family-97",
+    "71136": "source-layout-family-205",
+    "72003": "source-layout-family-206",
+    "60058": "source-layout-family-207",
+    "71111": "source-layout-family-208",
+    "20071": "source-layout-family-97",
+    "60050": "source-layout-family-210",
+    "71137": "source-layout-family-211",
+    "60046": "source-layout-family-212",
+    "71109": "source-layout-family-213",
+    "20082": "source-layout-family-97",
+    "70040": "source-layout-family-215",
+    "60079": "source-layout-family-216",
+    "60063": "source-layout-family-217",
+    "10172": "source-layout-family-218",
+    "20057": "source-layout-family-97",
+    "60051": "source-layout-family-220",
+    "71107": "source-layout-family-221",
+    "73007": "source-layout-family-222",
+    "60054": "source-layout-family-223",
+    "20090": "source-layout-family-97",
+    "71132": "source-layout-family-225",
+    "72009": "source-layout-family-226",
+    "60070": "source-layout-family-227",
+    "60069": "source-layout-family-228",
+    "20041": "source-layout-family-97",
+    "71125": "source-layout-family-230",
+    "71037": "source-layout-family-231",
+    "73011": "source-layout-family-232",
+    "71128": "source-layout-family-233",
+    "20084": "source-layout-family-97",
+    "70036": "source-layout-family-235",
+    "72013": "source-layout-family-236",
+    "71117": "source-layout-family-237",
+    "60071": "source-layout-family-238",
+    "20045": "source-layout-family-97",
+    "71124": "source-layout-family-240",
+    "71138": "source-layout-family-241",
+    "10190": "source-layout-family-242",
+    "71122": "source-layout-family-243",
+    "20097": "source-layout-family-97",
+    "71035": "source-layout-family-245",
+    "71120": "source-layout-family-246",
+    "71115": "source-layout-family-247",
+    "20075": "source-layout-family-97",
+    "70037": "source-layout-family-249",
+    "71139": "source-layout-family-250",
+    "60057": "source-layout-family-251",
+    "70039": "source-layout-family-252",
+    "20086": "source-layout-family-97",
+    "60055": "source-layout-family-254",
+    "60052": "source-layout-family-255",
+    "71121": "source-layout-family-256",
+    "60064": "source-layout-family-257",
+    "20063": "source-layout-family-97",
+    "71129": "source-layout-family-259",
+    "10185": "source-layout-family-260",
+    "60053": "source-layout-family-261",
+    "71110": "source-layout-family-262",
+    "20085": "source-layout-family-97",
+    "71036": "source-layout-family-264",
+    "60067": "source-layout-family-265",
+    "60059": "source-layout-family-266",
+    "20079": "source-layout-family-97",
+    "71104": "source-layout-family-268",
+    "10187": "source-layout-family-269",
+    "73009": "source-layout-family-270",
+    "71130": "source-layout-family-271",
+    "20099": "source-layout-family-97",
+    "10170": "source-layout-family-273",
+    "71118": "source-layout-family-274",
+    "20061": "source-layout-family-97",
+    "71123": "source-layout-family-276",
+    "10186": "source-layout-family-277",
+    "60078": "source-layout-family-278",
+    "20083": "source-layout-family-97",
+    "71134": "source-layout-family-280",
+    "71116": "source-layout-family-281",
+    "10177": "source-layout-family-282",
+    "20047": "source-layout-family-97",
+    "10182": "source-layout-family-284",
+    "10189": "source-layout-family-285",
+    "71126": "source-layout-family-286",
+    "20081": "source-layout-family-97",
+    "71131": "source-layout-family-288",
+    "10174": "source-layout-family-289",
+    "10179": "source-layout-family-290",
+    "20069": "source-layout-family-97",
+    "10183": "source-layout-family-292",
+    "71039": "source-layout-family-293",
+    "10195": "source-layout-family-294",
+    "20098": "source-layout-family-97",
+    "60081": "source-layout-family-296",
+    "71103": "source-layout-family-297",
+    "71047": "source-layout-family-298",
+    "20049": "source-layout-family-97",
+    "10181": "source-layout-family-300",
+    "71133": "source-layout-family-301",
+    "10194": "source-layout-family-302",
+    "10197": "source-layout-family-303",
+    "20096": "source-layout-family-97",
+    "71127": "source-layout-family-305",
+    "10205": "source-layout-family-306",
+    "60065": "source-layout-family-307",
+    "10178": "source-layout-family-308",
+    "20073": "source-layout-family-97",
+    "71105": "source-layout-family-310",
+    "60056": "source-layout-family-311",
+    "71106": "source-layout-family-312",
+    "20100": "source-layout-family-97",
+    "71108": "source-layout-family-314",
+    "10175": "source-layout-family-315",
+    "60073": "source-layout-family-316",
+    "20077": "source-layout-family-97",
+    "60072": "source-layout-family-318",
+    "71038": "source-layout-family-319",
+    "73008": "source-layout-family-320",
+    "10198": "source-layout-family-321",
+    "20094": "source-layout-family-322",
+    "10202": "source-layout-family-323",
+    "71102": "source-layout-family-324",
+    "10171": "source-layout-family-325",
+    "20059": "source-layout-family-97",
+    "10180": "source-layout-family-327",
+    "60076": "source-layout-family-328",
+    "10191": "source-layout-family-329",
+    "10199": "source-layout-family-330",
+    "20095": "source-layout-family-331",
+    "10201": "source-layout-family-332",
+    "10176": "source-layout-family-333",
+    "71041": "source-layout-family-334",
+    "20065": "source-layout-family-97",
+    "60068": "source-layout-family-336",
+    "60075": "source-layout-family-337",
+    "10196": "source-layout-family-338",
+    "20092": "source-layout-family-339",
+    "10203": "source-layout-family-340",
+    "10209": "source-layout-family-341",
+    "10173": "source-layout-family-342",
+    "71046": "source-layout-family-343",
+    "20055": "source-layout-family-97",
+    "71040": "source-layout-family-345",
+    "10188": "source-layout-family-346",
+    "73002": "source-layout-family-347",
+    "71043": "source-layout-family-348",
+    "20093": "source-layout-family-349",
+    "10200": "source-layout-family-350",
+    "71042": "source-layout-family-351",
+    "71045": "source-layout-family-352",
+    "20051": "source-layout-family-97",
+    "10184": "source-layout-family-354",
+    "60077": "source-layout-family-355",
+    "71050": "source-layout-family-356",
+    "20091": "source-layout-family-357",
+    "60062": "source-layout-family-358",
+    "71048": "source-layout-family-359",
+    "71044": "source-layout-family-360",
+    "20053": "source-layout-family-97",
+    "71049": "source-layout-family-362",
+    "71101": "source-layout-family-363",
+    "73001": "source-layout-family-364",
+    "60066": "source-layout-family-365",
+    "20089": "source-layout-family-366",
+    "10204": "source-layout-family-367",
+    "50004": "source-layout-family-368",
+    "50001": "source-layout-family-369",
+    "50010": "source-layout-family-370",
+    "50008": "source-layout-family-371",
+    "110002": "source-layout-family-372",
+    "130006": "source-layout-family-373",
+    "50016": "source-layout-family-374",
+    "50006": "source-layout-family-375",
+    "880001": "source-layout-family-376",
+    "130004": "source-layout-family-377",
+    "50012": "source-layout-family-378",
+    "50017": "source-layout-family-379",
+    "50020": "source-layout-family-380",
+    "110001": "source-layout-family-381",
+    "50011": "source-layout-family-382",
+    "130008": "source-layout-family-383",
+    "50018": "source-layout-family-384",
+    "110003": "source-layout-family-385",
+    "880002": "source-layout-family-386",
+    "110005": "source-layout-family-387",
+    "660005": "source-layout-family-388",
+    "660002": "source-layout-family-389",
+    "680013": "source-layout-family-390",
+    "50013": "source-layout-family-391",
+    "73013": "source-layout-family-392",
+    "71141": "source-layout-family-393",
+    "71140": "source-layout-family-394",
+    "71146": "source-layout-family-415",
+    "71143": "source-layout-family-396",
+    "73016": "source-layout-family-397",
+    "71142": "source-layout-family-398",
+    "50014": "source-layout-family-399",
+    "73014": "source-layout-family-400",
+    "71145": "source-layout-family-401",
+    "71144": "source-layout-family-402",
+    "880004": "source-layout-family-403",
+    "50002": "source-layout-family-404",
+    "71150": "source-layout-family-405",
+    "71201": "source-layout-family-406",
+    "71147": "source-layout-family-407",
+    "71202": "source-layout-family-408",
+    "880010": "source-layout-family-409",
+    "73012": "source-layout-family-410",
+    "71148": "source-layout-family-411",
+    "71149": "source-layout-family-412",
+    "880007": "source-layout-family-413",
+    "50005": "source-layout-family-414",
+    "71205": "source-layout-family-415",
+    "60094": "source-layout-family-416",
+    "150003": "source-layout-family-417",
+    "71207": "source-layout-family-418",
+    "90026": "source-layout-family-419",
+    "90030": "source-layout-family-420",
+    "60096": "source-layout-family-421",
+    "71209": "source-layout-family-422",
+    "60097": "source-layout-family-423",
+    "71213": "source-layout-family-424",
+    "150001": "source-layout-family-425",
+    "90012": "source-layout-family-426",
+    "71230": "source-layout-family-427",
+    "90003": "source-layout-family-428",
+    "150006": "source-layout-family-429",
+    "71229": "source-layout-family-430",
+    "71217": "source-layout-family-431",
+    "71227": "source-layout-family-432",
+    "150015": "source-layout-family-433",
+    "150014": "source-layout-family-434",
+    "150002": "source-layout-family-435",
+    "90002": "source-layout-family-436",
+    "71206": "source-layout-family-437",
+    "90006": "source-layout-family-438",
+    "90055": "source-layout-family-439",
+    "71203": "source-layout-family-440",
+    "71208": "source-layout-family-441",
+    "71224": "source-layout-family-442",
+    "90013": "source-layout-family-443",
+    "150004": "source-layout-family-444",
+    "90014": "source-layout-family-445",
+    "71216": "source-layout-family-446",
+    "90005": "source-layout-family-447",
+    "90009": "source-layout-family-448",
+    "71204": "source-layout-family-449",
+    "71218": "source-layout-family-450",
+    "71223": "source-layout-family-451",
+    "150011": "source-layout-family-452",
+    "150007": "source-layout-family-453",
+    "90020": "source-layout-family-454",
+    "71222": "source-layout-family-455",
+    "90008": "source-layout-family-456",
+    "71226": "source-layout-family-457",
+    "71215": "source-layout-family-458",
+    "90025": "source-layout-family-459"
+  },
+  "familySizes": {
+    "source-layout-family-0": 1,
+    "source-layout-family-1": 1,
+    "source-layout-family-2": 1,
+    "source-layout-family-3": 1,
+    "source-layout-family-4": 1,
+    "source-layout-family-5": 1,
+    "source-layout-family-6": 1,
+    "source-layout-family-7": 1,
+    "source-layout-family-8": 1,
+    "source-layout-family-9": 1,
+    "source-layout-family-10": 1,
+    "source-layout-family-11": 1,
+    "source-layout-family-12": 1,
+    "source-layout-family-13": 1,
+    "source-layout-family-14": 1,
+    "source-layout-family-15": 1,
+    "source-layout-family-16": 1,
+    "source-layout-family-17": 1,
+    "source-layout-family-18": 1,
+    "source-layout-family-19": 1,
+    "source-layout-family-20": 1,
+    "source-layout-family-21": 1,
+    "source-layout-family-22": 1,
+    "source-layout-family-23": 1,
+    "source-layout-family-24": 1,
+    "source-layout-family-25": 1,
+    "source-layout-family-26": 1,
+    "source-layout-family-27": 1,
+    "source-layout-family-28": 1,
+    "source-layout-family-29": 1,
+    "source-layout-family-30": 1,
+    "source-layout-family-31": 1,
+    "source-layout-family-32": 1,
+    "source-layout-family-33": 1,
+    "source-layout-family-34": 1,
+    "source-layout-family-35": 1,
+    "source-layout-family-36": 1,
+    "source-layout-family-37": 1,
+    "source-layout-family-38": 1,
+    "source-layout-family-39": 1,
+    "source-layout-family-40": 1,
+    "source-layout-family-41": 1,
+    "source-layout-family-42": 1,
+    "source-layout-family-43": 1,
+    "source-layout-family-44": 1,
+    "source-layout-family-45": 1,
+    "source-layout-family-46": 1,
+    "source-layout-family-47": 1,
+    "source-layout-family-48": 1,
+    "source-layout-family-49": 1,
+    "source-layout-family-50": 1,
+    "source-layout-family-51": 1,
+    "source-layout-family-52": 1,
+    "source-layout-family-53": 1,
+    "source-layout-family-54": 1,
+    "source-layout-family-55": 1,
+    "source-layout-family-56": 1,
+    "source-layout-family-57": 1,
+    "source-layout-family-58": 1,
+    "source-layout-family-59": 1,
+    "source-layout-family-60": 1,
+    "source-layout-family-61": 1,
+    "source-layout-family-62": 1,
+    "source-layout-family-63": 1,
+    "source-layout-family-64": 1,
+    "source-layout-family-65": 1,
+    "source-layout-family-66": 1,
+    "source-layout-family-67": 1,
+    "source-layout-family-68": 1,
+    "source-layout-family-69": 1,
+    "source-layout-family-70": 1,
+    "source-layout-family-71": 1,
+    "source-layout-family-72": 1,
+    "source-layout-family-73": 1,
+    "source-layout-family-74": 1,
+    "source-layout-family-75": 1,
+    "source-layout-family-76": 1,
+    "source-layout-family-77": 1,
+    "source-layout-family-78": 1,
+    "source-layout-family-79": 1,
+    "source-layout-family-80": 1,
+    "source-layout-family-81": 1,
+    "source-layout-family-82": 1,
+    "source-layout-family-83": 1,
+    "source-layout-family-84": 1,
+    "source-layout-family-85": 1,
+    "source-layout-family-86": 1,
+    "source-layout-family-87": 1,
+    "source-layout-family-88": 1,
+    "source-layout-family-89": 1,
+    "source-layout-family-90": 1,
+    "source-layout-family-91": 1,
+    "source-layout-family-92": 1,
+    "source-layout-family-93": 1,
+    "source-layout-family-94": 1,
+    "source-layout-family-95": 1,
+    "source-layout-family-96": 1,
+    "source-layout-family-97": 54,
+    "source-layout-family-98": 1,
+    "source-layout-family-99": 1,
+    "source-layout-family-100": 1,
+    "source-layout-family-101": 1,
+    "source-layout-family-103": 1,
+    "source-layout-family-104": 1,
+    "source-layout-family-105": 1,
+    "source-layout-family-107": 1,
+    "source-layout-family-108": 1,
+    "source-layout-family-109": 1,
+    "source-layout-family-110": 1,
+    "source-layout-family-112": 1,
+    "source-layout-family-113": 1,
+    "source-layout-family-114": 1,
+    "source-layout-family-116": 1,
+    "source-layout-family-117": 1,
+    "source-layout-family-118": 1,
+    "source-layout-family-119": 1,
+    "source-layout-family-121": 1,
+    "source-layout-family-122": 1,
+    "source-layout-family-123": 1,
+    "source-layout-family-125": 1,
+    "source-layout-family-126": 1,
+    "source-layout-family-127": 1,
+    "source-layout-family-128": 1,
+    "source-layout-family-130": 1,
+    "source-layout-family-131": 1,
+    "source-layout-family-132": 1,
+    "source-layout-family-134": 1,
+    "source-layout-family-135": 1,
+    "source-layout-family-136": 1,
+    "source-layout-family-137": 1,
+    "source-layout-family-139": 1,
+    "source-layout-family-140": 1,
+    "source-layout-family-141": 1,
+    "source-layout-family-143": 1,
+    "source-layout-family-144": 1,
+    "source-layout-family-145": 1,
+    "source-layout-family-146": 1,
+    "source-layout-family-148": 1,
+    "source-layout-family-149": 1,
+    "source-layout-family-150": 1,
+    "source-layout-family-151": 1,
+    "source-layout-family-153": 1,
+    "source-layout-family-154": 1,
+    "source-layout-family-155": 1,
+    "source-layout-family-156": 1,
+    "source-layout-family-158": 1,
+    "source-layout-family-159": 1,
+    "source-layout-family-160": 1,
+    "source-layout-family-162": 1,
+    "source-layout-family-163": 1,
+    "source-layout-family-164": 1,
+    "source-layout-family-165": 1,
+    "source-layout-family-167": 1,
+    "source-layout-family-168": 1,
+    "source-layout-family-169": 1,
+    "source-layout-family-171": 1,
+    "source-layout-family-172": 1,
+    "source-layout-family-173": 1,
+    "source-layout-family-174": 1,
+    "source-layout-family-176": 1,
+    "source-layout-family-177": 1,
+    "source-layout-family-178": 1,
+    "source-layout-family-180": 1,
+    "source-layout-family-181": 1,
+    "source-layout-family-182": 1,
+    "source-layout-family-183": 1,
+    "source-layout-family-185": 1,
+    "source-layout-family-186": 1,
+    "source-layout-family-187": 1,
+    "source-layout-family-188": 1,
+    "source-layout-family-190": 1,
+    "source-layout-family-191": 1,
+    "source-layout-family-192": 1,
+    "source-layout-family-193": 1,
+    "source-layout-family-195": 1,
+    "source-layout-family-196": 1,
+    "source-layout-family-197": 1,
+    "source-layout-family-198": 1,
+    "source-layout-family-200": 1,
+    "source-layout-family-201": 1,
+    "source-layout-family-202": 1,
+    "source-layout-family-203": 1,
+    "source-layout-family-205": 1,
+    "source-layout-family-206": 1,
+    "source-layout-family-207": 1,
+    "source-layout-family-208": 1,
+    "source-layout-family-210": 1,
+    "source-layout-family-211": 1,
+    "source-layout-family-212": 1,
+    "source-layout-family-213": 1,
+    "source-layout-family-215": 1,
+    "source-layout-family-216": 1,
+    "source-layout-family-217": 1,
+    "source-layout-family-218": 1,
+    "source-layout-family-220": 1,
+    "source-layout-family-221": 1,
+    "source-layout-family-222": 1,
+    "source-layout-family-223": 1,
+    "source-layout-family-225": 1,
+    "source-layout-family-226": 1,
+    "source-layout-family-227": 1,
+    "source-layout-family-228": 1,
+    "source-layout-family-230": 1,
+    "source-layout-family-231": 1,
+    "source-layout-family-232": 1,
+    "source-layout-family-233": 1,
+    "source-layout-family-235": 1,
+    "source-layout-family-236": 1,
+    "source-layout-family-237": 1,
+    "source-layout-family-238": 1,
+    "source-layout-family-240": 1,
+    "source-layout-family-241": 1,
+    "source-layout-family-242": 1,
+    "source-layout-family-243": 1,
+    "source-layout-family-245": 1,
+    "source-layout-family-246": 1,
+    "source-layout-family-247": 1,
+    "source-layout-family-249": 1,
+    "source-layout-family-250": 1,
+    "source-layout-family-251": 1,
+    "source-layout-family-252": 1,
+    "source-layout-family-254": 1,
+    "source-layout-family-255": 1,
+    "source-layout-family-256": 1,
+    "source-layout-family-257": 1,
+    "source-layout-family-259": 1,
+    "source-layout-family-260": 1,
+    "source-layout-family-261": 1,
+    "source-layout-family-262": 1,
+    "source-layout-family-264": 1,
+    "source-layout-family-265": 1,
+    "source-layout-family-266": 1,
+    "source-layout-family-268": 1,
+    "source-layout-family-269": 1,
+    "source-layout-family-270": 1,
+    "source-layout-family-271": 1,
+    "source-layout-family-273": 1,
+    "source-layout-family-274": 1,
+    "source-layout-family-276": 1,
+    "source-layout-family-277": 1,
+    "source-layout-family-278": 1,
+    "source-layout-family-280": 1,
+    "source-layout-family-281": 1,
+    "source-layout-family-282": 1,
+    "source-layout-family-284": 1,
+    "source-layout-family-285": 1,
+    "source-layout-family-286": 1,
+    "source-layout-family-288": 1,
+    "source-layout-family-289": 1,
+    "source-layout-family-290": 1,
+    "source-layout-family-292": 1,
+    "source-layout-family-293": 1,
+    "source-layout-family-294": 1,
+    "source-layout-family-296": 1,
+    "source-layout-family-297": 1,
+    "source-layout-family-298": 1,
+    "source-layout-family-300": 1,
+    "source-layout-family-301": 1,
+    "source-layout-family-302": 1,
+    "source-layout-family-303": 1,
+    "source-layout-family-305": 1,
+    "source-layout-family-306": 1,
+    "source-layout-family-307": 1,
+    "source-layout-family-308": 1,
+    "source-layout-family-310": 1,
+    "source-layout-family-311": 1,
+    "source-layout-family-312": 1,
+    "source-layout-family-314": 1,
+    "source-layout-family-315": 1,
+    "source-layout-family-316": 1,
+    "source-layout-family-318": 1,
+    "source-layout-family-319": 1,
+    "source-layout-family-320": 1,
+    "source-layout-family-321": 1,
+    "source-layout-family-322": 1,
+    "source-layout-family-323": 1,
+    "source-layout-family-324": 1,
+    "source-layout-family-325": 1,
+    "source-layout-family-327": 1,
+    "source-layout-family-328": 1,
+    "source-layout-family-329": 1,
+    "source-layout-family-330": 1,
+    "source-layout-family-331": 1,
+    "source-layout-family-332": 1,
+    "source-layout-family-333": 1,
+    "source-layout-family-334": 1,
+    "source-layout-family-336": 1,
+    "source-layout-family-337": 1,
+    "source-layout-family-338": 1,
+    "source-layout-family-339": 1,
+    "source-layout-family-340": 1,
+    "source-layout-family-341": 1,
+    "source-layout-family-342": 1,
+    "source-layout-family-343": 1,
+    "source-layout-family-345": 1,
+    "source-layout-family-346": 1,
+    "source-layout-family-347": 1,
+    "source-layout-family-348": 1,
+    "source-layout-family-349": 1,
+    "source-layout-family-350": 1,
+    "source-layout-family-351": 1,
+    "source-layout-family-352": 1,
+    "source-layout-family-354": 1,
+    "source-layout-family-355": 1,
+    "source-layout-family-356": 1,
+    "source-layout-family-357": 1,
+    "source-layout-family-358": 1,
+    "source-layout-family-359": 1,
+    "source-layout-family-360": 1,
+    "source-layout-family-362": 1,
+    "source-layout-family-363": 1,
+    "source-layout-family-364": 1,
+    "source-layout-family-365": 1,
+    "source-layout-family-366": 1,
+    "source-layout-family-367": 1,
+    "source-layout-family-368": 1,
+    "source-layout-family-369": 1,
+    "source-layout-family-370": 1,
+    "source-layout-family-371": 1,
+    "source-layout-family-372": 1,
+    "source-layout-family-373": 1,
+    "source-layout-family-374": 1,
+    "source-layout-family-375": 1,
+    "source-layout-family-376": 1,
+    "source-layout-family-377": 1,
+    "source-layout-family-378": 1,
+    "source-layout-family-379": 1,
+    "source-layout-family-380": 1,
+    "source-layout-family-381": 1,
+    "source-layout-family-382": 1,
+    "source-layout-family-383": 1,
+    "source-layout-family-384": 1,
+    "source-layout-family-385": 1,
+    "source-layout-family-386": 1,
+    "source-layout-family-387": 1,
+    "source-layout-family-388": 1,
+    "source-layout-family-389": 1,
+    "source-layout-family-390": 1,
+    "source-layout-family-391": 1,
+    "source-layout-family-392": 1,
+    "source-layout-family-393": 1,
+    "source-layout-family-394": 1,
+    "source-layout-family-415": 2,
+    "source-layout-family-396": 1,
+    "source-layout-family-397": 1,
+    "source-layout-family-398": 1,
+    "source-layout-family-399": 1,
+    "source-layout-family-400": 1,
+    "source-layout-family-401": 1,
+    "source-layout-family-402": 1,
+    "source-layout-family-403": 1,
+    "source-layout-family-404": 1,
+    "source-layout-family-405": 1,
+    "source-layout-family-406": 1,
+    "source-layout-family-407": 1,
+    "source-layout-family-408": 1,
+    "source-layout-family-409": 1,
+    "source-layout-family-410": 1,
+    "source-layout-family-411": 1,
+    "source-layout-family-412": 1,
+    "source-layout-family-413": 1,
+    "source-layout-family-414": 1,
+    "source-layout-family-416": 1,
+    "source-layout-family-417": 1,
+    "source-layout-family-418": 1,
+    "source-layout-family-419": 1,
+    "source-layout-family-420": 1,
+    "source-layout-family-421": 1,
+    "source-layout-family-422": 1,
+    "source-layout-family-423": 1,
+    "source-layout-family-424": 1,
+    "source-layout-family-425": 1,
+    "source-layout-family-426": 1,
+    "source-layout-family-427": 1,
+    "source-layout-family-428": 1,
+    "source-layout-family-429": 1,
+    "source-layout-family-430": 1,
+    "source-layout-family-431": 1,
+    "source-layout-family-432": 1,
+    "source-layout-family-433": 1,
+    "source-layout-family-434": 1,
+    "source-layout-family-435": 1,
+    "source-layout-family-436": 1,
+    "source-layout-family-437": 1,
+    "source-layout-family-438": 1,
+    "source-layout-family-439": 1,
+    "source-layout-family-440": 1,
+    "source-layout-family-441": 1,
+    "source-layout-family-442": 1,
+    "source-layout-family-443": 1,
+    "source-layout-family-444": 1,
+    "source-layout-family-445": 1,
+    "source-layout-family-446": 1,
+    "source-layout-family-447": 1,
+    "source-layout-family-448": 1,
+    "source-layout-family-449": 1,
+    "source-layout-family-450": 1,
+    "source-layout-family-451": 1,
+    "source-layout-family-452": 1,
+    "source-layout-family-453": 1,
+    "source-layout-family-454": 1,
+    "source-layout-family-455": 1,
+    "source-layout-family-456": 1,
+    "source-layout-family-457": 1,
+    "source-layout-family-458": 1,
+    "source-layout-family-459": 1
+  },
+  "spatialFamilyJoins": [
+    [
+      "20003",
+      "20031"
+    ],
+    [
+      "20003",
+      "20001"
+    ],
+    [
+      "20003",
+      "20029"
+    ],
+    [
+      "20003",
+      "20005"
+    ],
+    [
+      "20003",
+      "20023"
+    ],
+    [
+      "20003",
+      "20007"
+    ],
+    [
+      "20003",
+      "20033"
+    ],
+    [
+      "20003",
+      "20009"
+    ],
+    [
+      "20003",
+      "20037"
+    ],
+    [
+      "20003",
+      "20013"
+    ],
+    [
+      "20003",
+      "20027"
+    ],
+    [
+      "20003",
+      "20015"
+    ],
+    [
+      "20003",
+      "20039"
+    ],
+    [
+      "20003",
+      "20017"
+    ],
+    [
+      "20003",
+      "20025"
+    ],
+    [
+      "20003",
+      "20019"
+    ],
+    [
+      "20003",
+      "20021"
+    ],
+    [
+      "20003",
+      "20011"
+    ],
+    [
+      "20003",
+      "20035"
+    ],
+    [
+      "20003",
+      "20043"
+    ],
+    [
+      "20003",
+      "20088"
+    ],
+    [
+      "20003",
+      "20067"
+    ],
+    [
+      "20003",
+      "20087"
+    ],
+    [
+      "20003",
+      "20071"
+    ],
+    [
+      "20003",
+      "20082"
+    ],
+    [
+      "20003",
+      "20057"
+    ],
+    [
+      "20003",
+      "20090"
+    ],
+    [
+      "20003",
+      "20041"
+    ],
+    [
+      "20003",
+      "20084"
+    ],
+    [
+      "20003",
+      "20045"
+    ],
+    [
+      "20003",
+      "20097"
+    ],
+    [
+      "20003",
+      "20075"
+    ],
+    [
+      "20003",
+      "20086"
+    ],
+    [
+      "20003",
+      "20063"
+    ],
+    [
+      "20003",
+      "20085"
+    ],
+    [
+      "20003",
+      "20079"
+    ],
+    [
+      "20003",
+      "20099"
+    ],
+    [
+      "20003",
+      "20061"
+    ],
+    [
+      "20003",
+      "20083"
+    ],
+    [
+      "20003",
+      "20047"
+    ],
+    [
+      "20003",
+      "20081"
+    ],
+    [
+      "20003",
+      "20069"
+    ],
+    [
+      "20003",
+      "20098"
+    ],
+    [
+      "20003",
+      "20049"
+    ],
+    [
+      "20003",
+      "20096"
+    ],
+    [
+      "20003",
+      "20073"
+    ],
+    [
+      "20003",
+      "20100"
+    ],
+    [
+      "20003",
+      "20077"
+    ],
+    [
+      "20003",
+      "20059"
+    ],
+    [
+      "20003",
+      "20065"
+    ],
+    [
+      "20003",
+      "20055"
+    ],
+    [
+      "20003",
+      "20051"
+    ],
+    [
+      "20003",
+      "20053"
+    ],
+    [
+      "20031",
+      "20001"
+    ],
+    [
+      "20031",
+      "20029"
+    ],
+    [
+      "20031",
+      "20005"
+    ],
+    [
+      "20031",
+      "20023"
+    ],
+    [
+      "20031",
+      "20007"
+    ],
+    [
+      "20031",
+      "20033"
+    ],
+    [
+      "20031",
+      "20009"
+    ],
+    [
+      "20031",
+      "20037"
+    ],
+    [
+      "20031",
+      "20013"
+    ],
+    [
+      "20031",
+      "20027"
+    ],
+    [
+      "20031",
+      "20015"
+    ],
+    [
+      "20031",
+      "20039"
+    ],
+    [
+      "20031",
+      "20017"
+    ],
+    [
+      "20031",
+      "20025"
+    ],
+    [
+      "20031",
+      "20019"
+    ],
+    [
+      "20031",
+      "20021"
+    ],
+    [
+      "20031",
+      "20011"
+    ],
+    [
+      "20031",
+      "20035"
+    ],
+    [
+      "20031",
+      "20043"
+    ],
+    [
+      "20031",
+      "20088"
+    ],
+    [
+      "20031",
+      "20067"
+    ],
+    [
+      "20031",
+      "20087"
+    ],
+    [
+      "20031",
+      "20071"
+    ],
+    [
+      "20031",
+      "20082"
+    ],
+    [
+      "20031",
+      "20057"
+    ],
+    [
+      "20031",
+      "20090"
+    ],
+    [
+      "20031",
+      "20041"
+    ],
+    [
+      "20031",
+      "20084"
+    ],
+    [
+      "20031",
+      "20045"
+    ],
+    [
+      "20031",
+      "20097"
+    ],
+    [
+      "20031",
+      "20075"
+    ],
+    [
+      "20031",
+      "20086"
+    ],
+    [
+      "20031",
+      "20063"
+    ],
+    [
+      "20031",
+      "20085"
+    ],
+    [
+      "20031",
+      "20079"
+    ],
+    [
+      "20031",
+      "20099"
+    ],
+    [
+      "20031",
+      "20061"
+    ],
+    [
+      "20031",
+      "20083"
+    ],
+    [
+      "20031",
+      "20047"
+    ],
+    [
+      "20031",
+      "20081"
+    ],
+    [
+      "20031",
+      "20069"
+    ],
+    [
+      "20031",
+      "20098"
+    ],
+    [
+      "20031",
+      "20049"
+    ],
+    [
+      "20031",
+      "20096"
+    ],
+    [
+      "20031",
+      "20073"
+    ],
+    [
+      "20031",
+      "20100"
+    ],
+    [
+      "20031",
+      "20077"
+    ],
+    [
+      "20031",
+      "20059"
+    ],
+    [
+      "20031",
+      "20065"
+    ],
+    [
+      "20031",
+      "20055"
+    ],
+    [
+      "20031",
+      "20051"
+    ],
+    [
+      "20031",
+      "20053"
+    ],
+    [
+      "20001",
+      "20029"
+    ],
+    [
+      "20001",
+      "20005"
+    ],
+    [
+      "20001",
+      "20023"
+    ],
+    [
+      "20001",
+      "20007"
+    ],
+    [
+      "20001",
+      "20033"
+    ],
+    [
+      "20001",
+      "20009"
+    ],
+    [
+      "20001",
+      "20037"
+    ],
+    [
+      "20001",
+      "20013"
+    ],
+    [
+      "20001",
+      "20027"
+    ],
+    [
+      "20001",
+      "20015"
+    ],
+    [
+      "20001",
+      "20039"
+    ],
+    [
+      "20001",
+      "20017"
+    ],
+    [
+      "20001",
+      "20025"
+    ],
+    [
+      "20001",
+      "20019"
+    ],
+    [
+      "20001",
+      "20021"
+    ],
+    [
+      "20001",
+      "20011"
+    ],
+    [
+      "20001",
+      "20035"
+    ],
+    [
+      "20001",
+      "20043"
+    ],
+    [
+      "20001",
+      "20088"
+    ],
+    [
+      "20001",
+      "20067"
+    ],
+    [
+      "20001",
+      "20087"
+    ],
+    [
+      "20001",
+      "20071"
+    ],
+    [
+      "20001",
+      "20082"
+    ],
+    [
+      "20001",
+      "20057"
+    ],
+    [
+      "20001",
+      "20090"
+    ],
+    [
+      "20001",
+      "20041"
+    ],
+    [
+      "20001",
+      "20084"
+    ],
+    [
+      "20001",
+      "20045"
+    ],
+    [
+      "20001",
+      "20097"
+    ],
+    [
+      "20001",
+      "20075"
+    ],
+    [
+      "20001",
+      "20086"
+    ],
+    [
+      "20001",
+      "20063"
+    ],
+    [
+      "20001",
+      "20085"
+    ],
+    [
+      "20001",
+      "20079"
+    ],
+    [
+      "20001",
+      "20099"
+    ],
+    [
+      "20001",
+      "20061"
+    ],
+    [
+      "20001",
+      "20083"
+    ],
+    [
+      "20001",
+      "20047"
+    ],
+    [
+      "20001",
+      "20081"
+    ],
+    [
+      "20001",
+      "20069"
+    ],
+    [
+      "20001",
+      "20098"
+    ],
+    [
+      "20001",
+      "20049"
+    ],
+    [
+      "20001",
+      "20096"
+    ],
+    [
+      "20001",
+      "20073"
+    ],
+    [
+      "20001",
+      "20100"
+    ],
+    [
+      "20001",
+      "20077"
+    ],
+    [
+      "20001",
+      "20059"
+    ],
+    [
+      "20001",
+      "20065"
+    ],
+    [
+      "20001",
+      "20055"
+    ],
+    [
+      "20001",
+      "20051"
+    ],
+    [
+      "20001",
+      "20053"
+    ],
+    [
+      "20029",
+      "20005"
+    ],
+    [
+      "20029",
+      "20023"
+    ],
+    [
+      "20029",
+      "20007"
+    ],
+    [
+      "20029",
+      "20033"
+    ],
+    [
+      "20029",
+      "20009"
+    ],
+    [
+      "20029",
+      "20037"
+    ],
+    [
+      "20029",
+      "20013"
+    ],
+    [
+      "20029",
+      "20027"
+    ],
+    [
+      "20029",
+      "20015"
+    ],
+    [
+      "20029",
+      "20039"
+    ],
+    [
+      "20029",
+      "20017"
+    ],
+    [
+      "20029",
+      "20025"
+    ],
+    [
+      "20029",
+      "20019"
+    ],
+    [
+      "20029",
+      "20021"
+    ],
+    [
+      "20029",
+      "20011"
+    ],
+    [
+      "20029",
+      "20035"
+    ],
+    [
+      "20029",
+      "20043"
+    ],
+    [
+      "20029",
+      "20088"
+    ],
+    [
+      "20029",
+      "20067"
+    ],
+    [
+      "20029",
+      "20087"
+    ],
+    [
+      "20029",
+      "20071"
+    ],
+    [
+      "20029",
+      "20082"
+    ],
+    [
+      "20029",
+      "20057"
+    ],
+    [
+      "20029",
+      "20090"
+    ],
+    [
+      "20029",
+      "20041"
+    ],
+    [
+      "20029",
+      "20084"
+    ],
+    [
+      "20029",
+      "20045"
+    ],
+    [
+      "20029",
+      "20097"
+    ],
+    [
+      "20029",
+      "20075"
+    ],
+    [
+      "20029",
+      "20086"
+    ],
+    [
+      "20029",
+      "20063"
+    ],
+    [
+      "20029",
+      "20085"
+    ],
+    [
+      "20029",
+      "20079"
+    ],
+    [
+      "20029",
+      "20099"
+    ],
+    [
+      "20029",
+      "20061"
+    ],
+    [
+      "20029",
+      "20083"
+    ],
+    [
+      "20029",
+      "20047"
+    ],
+    [
+      "20029",
+      "20081"
+    ],
+    [
+      "20029",
+      "20069"
+    ],
+    [
+      "20029",
+      "20098"
+    ],
+    [
+      "20029",
+      "20049"
+    ],
+    [
+      "20029",
+      "20096"
+    ],
+    [
+      "20029",
+      "20073"
+    ],
+    [
+      "20029",
+      "20100"
+    ],
+    [
+      "20029",
+      "20077"
+    ],
+    [
+      "20029",
+      "20059"
+    ],
+    [
+      "20029",
+      "20065"
+    ],
+    [
+      "20029",
+      "20055"
+    ],
+    [
+      "20029",
+      "20051"
+    ],
+    [
+      "20029",
+      "20053"
+    ],
+    [
+      "20005",
+      "20023"
+    ],
+    [
+      "20005",
+      "20007"
+    ],
+    [
+      "20005",
+      "20033"
+    ],
+    [
+      "20005",
+      "20009"
+    ],
+    [
+      "20005",
+      "20037"
+    ],
+    [
+      "20005",
+      "20013"
+    ],
+    [
+      "20005",
+      "20027"
+    ],
+    [
+      "20005",
+      "20015"
+    ],
+    [
+      "20005",
+      "20039"
+    ],
+    [
+      "20005",
+      "20017"
+    ],
+    [
+      "20005",
+      "20025"
+    ],
+    [
+      "20005",
+      "20019"
+    ],
+    [
+      "20005",
+      "20021"
+    ],
+    [
+      "20005",
+      "20011"
+    ],
+    [
+      "20005",
+      "20035"
+    ],
+    [
+      "20005",
+      "20043"
+    ],
+    [
+      "20005",
+      "20088"
+    ],
+    [
+      "20005",
+      "20067"
+    ],
+    [
+      "20005",
+      "20087"
+    ],
+    [
+      "20005",
+      "20071"
+    ],
+    [
+      "20005",
+      "20082"
+    ],
+    [
+      "20005",
+      "20057"
+    ],
+    [
+      "20005",
+      "20090"
+    ],
+    [
+      "20005",
+      "20041"
+    ],
+    [
+      "20005",
+      "20084"
+    ],
+    [
+      "20005",
+      "20045"
+    ],
+    [
+      "20005",
+      "20097"
+    ],
+    [
+      "20005",
+      "20075"
+    ],
+    [
+      "20005",
+      "20086"
+    ],
+    [
+      "20005",
+      "20063"
+    ],
+    [
+      "20005",
+      "20085"
+    ],
+    [
+      "20005",
+      "20079"
+    ],
+    [
+      "20005",
+      "20099"
+    ],
+    [
+      "20005",
+      "20061"
+    ],
+    [
+      "20005",
+      "20083"
+    ],
+    [
+      "20005",
+      "20047"
+    ],
+    [
+      "20005",
+      "20081"
+    ],
+    [
+      "20005",
+      "20069"
+    ],
+    [
+      "20005",
+      "20098"
+    ],
+    [
+      "20005",
+      "20049"
+    ],
+    [
+      "20005",
+      "20096"
+    ],
+    [
+      "20005",
+      "20073"
+    ],
+    [
+      "20005",
+      "20100"
+    ],
+    [
+      "20005",
+      "20077"
+    ],
+    [
+      "20005",
+      "20059"
+    ],
+    [
+      "20005",
+      "20065"
+    ],
+    [
+      "20005",
+      "20055"
+    ],
+    [
+      "20005",
+      "20051"
+    ],
+    [
+      "20005",
+      "20053"
+    ],
+    [
+      "20023",
+      "20007"
+    ],
+    [
+      "20023",
+      "20033"
+    ],
+    [
+      "20023",
+      "20009"
+    ],
+    [
+      "20023",
+      "20037"
+    ],
+    [
+      "20023",
+      "20013"
+    ],
+    [
+      "20023",
+      "20027"
+    ],
+    [
+      "20023",
+      "20015"
+    ],
+    [
+      "20023",
+      "20039"
+    ],
+    [
+      "20023",
+      "20017"
+    ],
+    [
+      "20023",
+      "20025"
+    ],
+    [
+      "20023",
+      "20019"
+    ],
+    [
+      "20023",
+      "20021"
+    ],
+    [
+      "20023",
+      "20011"
+    ],
+    [
+      "20023",
+      "20035"
+    ],
+    [
+      "20023",
+      "20043"
+    ],
+    [
+      "20023",
+      "20088"
+    ],
+    [
+      "20023",
+      "20067"
+    ],
+    [
+      "20023",
+      "20087"
+    ],
+    [
+      "20023",
+      "20071"
+    ],
+    [
+      "20023",
+      "20082"
+    ],
+    [
+      "20023",
+      "20057"
+    ],
+    [
+      "20023",
+      "20090"
+    ],
+    [
+      "20023",
+      "20041"
+    ],
+    [
+      "20023",
+      "20084"
+    ],
+    [
+      "20023",
+      "20045"
+    ],
+    [
+      "20023",
+      "20097"
+    ],
+    [
+      "20023",
+      "20075"
+    ],
+    [
+      "20023",
+      "20086"
+    ],
+    [
+      "20023",
+      "20063"
+    ],
+    [
+      "20023",
+      "20085"
+    ],
+    [
+      "20023",
+      "20079"
+    ],
+    [
+      "20023",
+      "20099"
+    ],
+    [
+      "20023",
+      "20061"
+    ],
+    [
+      "20023",
+      "20083"
+    ],
+    [
+      "20023",
+      "20047"
+    ],
+    [
+      "20023",
+      "20081"
+    ],
+    [
+      "20023",
+      "20069"
+    ],
+    [
+      "20023",
+      "20098"
+    ],
+    [
+      "20023",
+      "20049"
+    ],
+    [
+      "20023",
+      "20096"
+    ],
+    [
+      "20023",
+      "20073"
+    ],
+    [
+      "20023",
+      "20100"
+    ],
+    [
+      "20023",
+      "20077"
+    ],
+    [
+      "20023",
+      "20059"
+    ],
+    [
+      "20023",
+      "20065"
+    ],
+    [
+      "20023",
+      "20055"
+    ],
+    [
+      "20023",
+      "20051"
+    ],
+    [
+      "20023",
+      "20053"
+    ],
+    [
+      "20007",
+      "20033"
+    ],
+    [
+      "20007",
+      "20009"
+    ],
+    [
+      "20007",
+      "20037"
+    ],
+    [
+      "20007",
+      "20013"
+    ],
+    [
+      "20007",
+      "20027"
+    ],
+    [
+      "20007",
+      "20015"
+    ],
+    [
+      "20007",
+      "20039"
+    ],
+    [
+      "20007",
+      "20017"
+    ],
+    [
+      "20007",
+      "20025"
+    ],
+    [
+      "20007",
+      "20019"
+    ],
+    [
+      "20007",
+      "20021"
+    ],
+    [
+      "20007",
+      "20011"
+    ],
+    [
+      "20007",
+      "20035"
+    ],
+    [
+      "20007",
+      "20043"
+    ],
+    [
+      "20007",
+      "20088"
+    ],
+    [
+      "20007",
+      "20067"
+    ],
+    [
+      "20007",
+      "20087"
+    ],
+    [
+      "20007",
+      "20071"
+    ],
+    [
+      "20007",
+      "20082"
+    ],
+    [
+      "20007",
+      "20057"
+    ],
+    [
+      "20007",
+      "20090"
+    ],
+    [
+      "20007",
+      "20041"
+    ],
+    [
+      "20007",
+      "20084"
+    ],
+    [
+      "20007",
+      "20045"
+    ],
+    [
+      "20007",
+      "20097"
+    ],
+    [
+      "20007",
+      "20075"
+    ],
+    [
+      "20007",
+      "20086"
+    ],
+    [
+      "20007",
+      "20063"
+    ],
+    [
+      "20007",
+      "20085"
+    ],
+    [
+      "20007",
+      "20079"
+    ],
+    [
+      "20007",
+      "20099"
+    ],
+    [
+      "20007",
+      "20061"
+    ],
+    [
+      "20007",
+      "20083"
+    ],
+    [
+      "20007",
+      "20047"
+    ],
+    [
+      "20007",
+      "20081"
+    ],
+    [
+      "20007",
+      "20069"
+    ],
+    [
+      "20007",
+      "20098"
+    ],
+    [
+      "20007",
+      "20049"
+    ],
+    [
+      "20007",
+      "20096"
+    ],
+    [
+      "20007",
+      "20073"
+    ],
+    [
+      "20007",
+      "20100"
+    ],
+    [
+      "20007",
+      "20077"
+    ],
+    [
+      "20007",
+      "20059"
+    ],
+    [
+      "20007",
+      "20065"
+    ],
+    [
+      "20007",
+      "20055"
+    ],
+    [
+      "20007",
+      "20051"
+    ],
+    [
+      "20007",
+      "20053"
+    ],
+    [
+      "20033",
+      "20009"
+    ],
+    [
+      "20033",
+      "20037"
+    ],
+    [
+      "20033",
+      "20013"
+    ],
+    [
+      "20033",
+      "20027"
+    ],
+    [
+      "20033",
+      "20015"
+    ],
+    [
+      "20033",
+      "20039"
+    ],
+    [
+      "20033",
+      "20017"
+    ],
+    [
+      "20033",
+      "20025"
+    ],
+    [
+      "20033",
+      "20019"
+    ],
+    [
+      "20033",
+      "20021"
+    ],
+    [
+      "20033",
+      "20011"
+    ],
+    [
+      "20033",
+      "20035"
+    ],
+    [
+      "20033",
+      "20043"
+    ],
+    [
+      "20033",
+      "20088"
+    ],
+    [
+      "20033",
+      "20067"
+    ],
+    [
+      "20033",
+      "20087"
+    ],
+    [
+      "20033",
+      "20071"
+    ],
+    [
+      "20033",
+      "20082"
+    ],
+    [
+      "20033",
+      "20057"
+    ],
+    [
+      "20033",
+      "20090"
+    ],
+    [
+      "20033",
+      "20041"
+    ],
+    [
+      "20033",
+      "20084"
+    ],
+    [
+      "20033",
+      "20045"
+    ],
+    [
+      "20033",
+      "20097"
+    ],
+    [
+      "20033",
+      "20075"
+    ],
+    [
+      "20033",
+      "20086"
+    ],
+    [
+      "20033",
+      "20063"
+    ],
+    [
+      "20033",
+      "20085"
+    ],
+    [
+      "20033",
+      "20079"
+    ],
+    [
+      "20033",
+      "20099"
+    ],
+    [
+      "20033",
+      "20061"
+    ],
+    [
+      "20033",
+      "20083"
+    ],
+    [
+      "20033",
+      "20047"
+    ],
+    [
+      "20033",
+      "20081"
+    ],
+    [
+      "20033",
+      "20069"
+    ],
+    [
+      "20033",
+      "20098"
+    ],
+    [
+      "20033",
+      "20049"
+    ],
+    [
+      "20033",
+      "20096"
+    ],
+    [
+      "20033",
+      "20073"
+    ],
+    [
+      "20033",
+      "20100"
+    ],
+    [
+      "20033",
+      "20077"
+    ],
+    [
+      "20033",
+      "20059"
+    ],
+    [
+      "20033",
+      "20065"
+    ],
+    [
+      "20033",
+      "20055"
+    ],
+    [
+      "20033",
+      "20051"
+    ],
+    [
+      "20033",
+      "20053"
+    ],
+    [
+      "20009",
+      "20037"
+    ],
+    [
+      "20009",
+      "20013"
+    ],
+    [
+      "20009",
+      "20027"
+    ],
+    [
+      "20009",
+      "20015"
+    ],
+    [
+      "20009",
+      "20039"
+    ],
+    [
+      "20009",
+      "20017"
+    ],
+    [
+      "20009",
+      "20025"
+    ],
+    [
+      "20009",
+      "20019"
+    ],
+    [
+      "20009",
+      "20021"
+    ],
+    [
+      "20009",
+      "20011"
+    ],
+    [
+      "20009",
+      "20035"
+    ],
+    [
+      "20009",
+      "20043"
+    ],
+    [
+      "20009",
+      "20088"
+    ],
+    [
+      "20009",
+      "20067"
+    ],
+    [
+      "20009",
+      "20087"
+    ],
+    [
+      "20009",
+      "20071"
+    ],
+    [
+      "20009",
+      "20082"
+    ],
+    [
+      "20009",
+      "20057"
+    ],
+    [
+      "20009",
+      "20090"
+    ],
+    [
+      "20009",
+      "20041"
+    ],
+    [
+      "20009",
+      "20084"
+    ],
+    [
+      "20009",
+      "20045"
+    ],
+    [
+      "20009",
+      "20097"
+    ],
+    [
+      "20009",
+      "20075"
+    ],
+    [
+      "20009",
+      "20086"
+    ],
+    [
+      "20009",
+      "20063"
+    ],
+    [
+      "20009",
+      "20085"
+    ],
+    [
+      "20009",
+      "20079"
+    ],
+    [
+      "20009",
+      "20099"
+    ],
+    [
+      "20009",
+      "20061"
+    ],
+    [
+      "20009",
+      "20083"
+    ],
+    [
+      "20009",
+      "20047"
+    ],
+    [
+      "20009",
+      "20081"
+    ],
+    [
+      "20009",
+      "20069"
+    ],
+    [
+      "20009",
+      "20098"
+    ],
+    [
+      "20009",
+      "20049"
+    ],
+    [
+      "20009",
+      "20096"
+    ],
+    [
+      "20009",
+      "20073"
+    ],
+    [
+      "20009",
+      "20100"
+    ],
+    [
+      "20009",
+      "20077"
+    ],
+    [
+      "20009",
+      "20059"
+    ],
+    [
+      "20009",
+      "20065"
+    ],
+    [
+      "20009",
+      "20055"
+    ],
+    [
+      "20009",
+      "20051"
+    ],
+    [
+      "20009",
+      "20053"
+    ],
+    [
+      "20037",
+      "20013"
+    ],
+    [
+      "20037",
+      "20027"
+    ],
+    [
+      "20037",
+      "20015"
+    ],
+    [
+      "20037",
+      "20039"
+    ],
+    [
+      "20037",
+      "20017"
+    ],
+    [
+      "20037",
+      "20025"
+    ],
+    [
+      "20037",
+      "20019"
+    ],
+    [
+      "20037",
+      "20021"
+    ],
+    [
+      "20037",
+      "20011"
+    ],
+    [
+      "20037",
+      "20035"
+    ],
+    [
+      "20037",
+      "20043"
+    ],
+    [
+      "20037",
+      "20088"
+    ],
+    [
+      "20037",
+      "20067"
+    ],
+    [
+      "20037",
+      "20087"
+    ],
+    [
+      "20037",
+      "20071"
+    ],
+    [
+      "20037",
+      "20082"
+    ],
+    [
+      "20037",
+      "20057"
+    ],
+    [
+      "20037",
+      "20090"
+    ],
+    [
+      "20037",
+      "20041"
+    ],
+    [
+      "20037",
+      "20084"
+    ],
+    [
+      "20037",
+      "20045"
+    ],
+    [
+      "20037",
+      "20097"
+    ],
+    [
+      "20037",
+      "20075"
+    ],
+    [
+      "20037",
+      "20086"
+    ],
+    [
+      "20037",
+      "20063"
+    ],
+    [
+      "20037",
+      "20085"
+    ],
+    [
+      "20037",
+      "20079"
+    ],
+    [
+      "20037",
+      "20099"
+    ],
+    [
+      "20037",
+      "20061"
+    ],
+    [
+      "20037",
+      "20083"
+    ],
+    [
+      "20037",
+      "20047"
+    ],
+    [
+      "20037",
+      "20081"
+    ],
+    [
+      "20037",
+      "20069"
+    ],
+    [
+      "20037",
+      "20098"
+    ],
+    [
+      "20037",
+      "20049"
+    ],
+    [
+      "20037",
+      "20096"
+    ],
+    [
+      "20037",
+      "20073"
+    ],
+    [
+      "20037",
+      "20100"
+    ],
+    [
+      "20037",
+      "20077"
+    ],
+    [
+      "20037",
+      "20059"
+    ],
+    [
+      "20037",
+      "20065"
+    ],
+    [
+      "20037",
+      "20055"
+    ],
+    [
+      "20037",
+      "20051"
+    ],
+    [
+      "20037",
+      "20053"
+    ],
+    [
+      "20013",
+      "20027"
+    ],
+    [
+      "20013",
+      "20015"
+    ],
+    [
+      "20013",
+      "20039"
+    ],
+    [
+      "20013",
+      "20017"
+    ],
+    [
+      "20013",
+      "20025"
+    ],
+    [
+      "20013",
+      "20019"
+    ],
+    [
+      "20013",
+      "20021"
+    ],
+    [
+      "20013",
+      "20011"
+    ],
+    [
+      "20013",
+      "20035"
+    ],
+    [
+      "20013",
+      "20043"
+    ],
+    [
+      "20013",
+      "20088"
+    ],
+    [
+      "20013",
+      "20067"
+    ],
+    [
+      "20013",
+      "20087"
+    ],
+    [
+      "20013",
+      "20071"
+    ],
+    [
+      "20013",
+      "20082"
+    ],
+    [
+      "20013",
+      "20057"
+    ],
+    [
+      "20013",
+      "20090"
+    ],
+    [
+      "20013",
+      "20041"
+    ],
+    [
+      "20013",
+      "20084"
+    ],
+    [
+      "20013",
+      "20045"
+    ],
+    [
+      "20013",
+      "20097"
+    ],
+    [
+      "20013",
+      "20075"
+    ],
+    [
+      "20013",
+      "20086"
+    ],
+    [
+      "20013",
+      "20063"
+    ],
+    [
+      "20013",
+      "20085"
+    ],
+    [
+      "20013",
+      "20079"
+    ],
+    [
+      "20013",
+      "20099"
+    ],
+    [
+      "20013",
+      "20061"
+    ],
+    [
+      "20013",
+      "20083"
+    ],
+    [
+      "20013",
+      "20047"
+    ],
+    [
+      "20013",
+      "20081"
+    ],
+    [
+      "20013",
+      "20069"
+    ],
+    [
+      "20013",
+      "20098"
+    ],
+    [
+      "20013",
+      "20049"
+    ],
+    [
+      "20013",
+      "20096"
+    ],
+    [
+      "20013",
+      "20073"
+    ],
+    [
+      "20013",
+      "20100"
+    ],
+    [
+      "20013",
+      "20077"
+    ],
+    [
+      "20013",
+      "20059"
+    ],
+    [
+      "20013",
+      "20065"
+    ],
+    [
+      "20013",
+      "20055"
+    ],
+    [
+      "20013",
+      "20051"
+    ],
+    [
+      "20013",
+      "20053"
+    ],
+    [
+      "20027",
+      "20015"
+    ],
+    [
+      "20027",
+      "20039"
+    ],
+    [
+      "20027",
+      "20017"
+    ],
+    [
+      "20027",
+      "20025"
+    ],
+    [
+      "20027",
+      "20019"
+    ],
+    [
+      "20027",
+      "20021"
+    ],
+    [
+      "20027",
+      "20011"
+    ],
+    [
+      "20027",
+      "20035"
+    ],
+    [
+      "20027",
+      "20043"
+    ],
+    [
+      "20027",
+      "20088"
+    ],
+    [
+      "20027",
+      "20067"
+    ],
+    [
+      "20027",
+      "20087"
+    ],
+    [
+      "20027",
+      "20071"
+    ],
+    [
+      "20027",
+      "20082"
+    ],
+    [
+      "20027",
+      "20057"
+    ],
+    [
+      "20027",
+      "20090"
+    ],
+    [
+      "20027",
+      "20041"
+    ],
+    [
+      "20027",
+      "20084"
+    ],
+    [
+      "20027",
+      "20045"
+    ],
+    [
+      "20027",
+      "20097"
+    ],
+    [
+      "20027",
+      "20075"
+    ],
+    [
+      "20027",
+      "20086"
+    ],
+    [
+      "20027",
+      "20063"
+    ],
+    [
+      "20027",
+      "20085"
+    ],
+    [
+      "20027",
+      "20079"
+    ],
+    [
+      "20027",
+      "20099"
+    ],
+    [
+      "20027",
+      "20061"
+    ],
+    [
+      "20027",
+      "20083"
+    ],
+    [
+      "20027",
+      "20047"
+    ],
+    [
+      "20027",
+      "20081"
+    ],
+    [
+      "20027",
+      "20069"
+    ],
+    [
+      "20027",
+      "20098"
+    ],
+    [
+      "20027",
+      "20049"
+    ],
+    [
+      "20027",
+      "20096"
+    ],
+    [
+      "20027",
+      "20073"
+    ],
+    [
+      "20027",
+      "20100"
+    ],
+    [
+      "20027",
+      "20077"
+    ],
+    [
+      "20027",
+      "20059"
+    ],
+    [
+      "20027",
+      "20065"
+    ],
+    [
+      "20027",
+      "20055"
+    ],
+    [
+      "20027",
+      "20051"
+    ],
+    [
+      "20027",
+      "20053"
+    ],
+    [
+      "20015",
+      "20039"
+    ],
+    [
+      "20015",
+      "20017"
+    ],
+    [
+      "20015",
+      "20025"
+    ],
+    [
+      "20015",
+      "20019"
+    ],
+    [
+      "20015",
+      "20021"
+    ],
+    [
+      "20015",
+      "20011"
+    ],
+    [
+      "20015",
+      "20035"
+    ],
+    [
+      "20015",
+      "20043"
+    ],
+    [
+      "20015",
+      "20088"
+    ],
+    [
+      "20015",
+      "20067"
+    ],
+    [
+      "20015",
+      "20087"
+    ],
+    [
+      "20015",
+      "20071"
+    ],
+    [
+      "20015",
+      "20082"
+    ],
+    [
+      "20015",
+      "20057"
+    ],
+    [
+      "20015",
+      "20090"
+    ],
+    [
+      "20015",
+      "20041"
+    ],
+    [
+      "20015",
+      "20084"
+    ],
+    [
+      "20015",
+      "20045"
+    ],
+    [
+      "20015",
+      "20097"
+    ],
+    [
+      "20015",
+      "20075"
+    ],
+    [
+      "20015",
+      "20086"
+    ],
+    [
+      "20015",
+      "20063"
+    ],
+    [
+      "20015",
+      "20085"
+    ],
+    [
+      "20015",
+      "20079"
+    ],
+    [
+      "20015",
+      "20099"
+    ],
+    [
+      "20015",
+      "20061"
+    ],
+    [
+      "20015",
+      "20083"
+    ],
+    [
+      "20015",
+      "20047"
+    ],
+    [
+      "20015",
+      "20081"
+    ],
+    [
+      "20015",
+      "20069"
+    ],
+    [
+      "20015",
+      "20098"
+    ],
+    [
+      "20015",
+      "20049"
+    ],
+    [
+      "20015",
+      "20096"
+    ],
+    [
+      "20015",
+      "20073"
+    ],
+    [
+      "20015",
+      "20100"
+    ],
+    [
+      "20015",
+      "20077"
+    ],
+    [
+      "20015",
+      "20059"
+    ],
+    [
+      "20015",
+      "20065"
+    ],
+    [
+      "20015",
+      "20055"
+    ],
+    [
+      "20015",
+      "20051"
+    ],
+    [
+      "20015",
+      "20053"
+    ],
+    [
+      "20039",
+      "20017"
+    ],
+    [
+      "20039",
+      "20025"
+    ],
+    [
+      "20039",
+      "20019"
+    ],
+    [
+      "20039",
+      "20021"
+    ],
+    [
+      "20039",
+      "20011"
+    ],
+    [
+      "20039",
+      "20035"
+    ],
+    [
+      "20039",
+      "20043"
+    ],
+    [
+      "20039",
+      "20088"
+    ],
+    [
+      "20039",
+      "20067"
+    ],
+    [
+      "20039",
+      "20087"
+    ],
+    [
+      "20039",
+      "20071"
+    ],
+    [
+      "20039",
+      "20082"
+    ],
+    [
+      "20039",
+      "20057"
+    ],
+    [
+      "20039",
+      "20090"
+    ],
+    [
+      "20039",
+      "20041"
+    ],
+    [
+      "20039",
+      "20084"
+    ],
+    [
+      "20039",
+      "20045"
+    ],
+    [
+      "20039",
+      "20097"
+    ],
+    [
+      "20039",
+      "20075"
+    ],
+    [
+      "20039",
+      "20086"
+    ],
+    [
+      "20039",
+      "20063"
+    ],
+    [
+      "20039",
+      "20085"
+    ],
+    [
+      "20039",
+      "20079"
+    ],
+    [
+      "20039",
+      "20099"
+    ],
+    [
+      "20039",
+      "20061"
+    ],
+    [
+      "20039",
+      "20083"
+    ],
+    [
+      "20039",
+      "20047"
+    ],
+    [
+      "20039",
+      "20081"
+    ],
+    [
+      "20039",
+      "20069"
+    ],
+    [
+      "20039",
+      "20098"
+    ],
+    [
+      "20039",
+      "20049"
+    ],
+    [
+      "20039",
+      "20096"
+    ],
+    [
+      "20039",
+      "20073"
+    ],
+    [
+      "20039",
+      "20100"
+    ],
+    [
+      "20039",
+      "20077"
+    ],
+    [
+      "20039",
+      "20059"
+    ],
+    [
+      "20039",
+      "20065"
+    ],
+    [
+      "20039",
+      "20055"
+    ],
+    [
+      "20039",
+      "20051"
+    ],
+    [
+      "20039",
+      "20053"
+    ],
+    [
+      "20017",
+      "20025"
+    ],
+    [
+      "20017",
+      "20019"
+    ],
+    [
+      "20017",
+      "20021"
+    ],
+    [
+      "20017",
+      "20011"
+    ],
+    [
+      "20017",
+      "20035"
+    ],
+    [
+      "20017",
+      "20043"
+    ],
+    [
+      "20017",
+      "20088"
+    ],
+    [
+      "20017",
+      "20067"
+    ],
+    [
+      "20017",
+      "20087"
+    ],
+    [
+      "20017",
+      "20071"
+    ],
+    [
+      "20017",
+      "20082"
+    ],
+    [
+      "20017",
+      "20057"
+    ],
+    [
+      "20017",
+      "20090"
+    ],
+    [
+      "20017",
+      "20041"
+    ],
+    [
+      "20017",
+      "20084"
+    ],
+    [
+      "20017",
+      "20045"
+    ],
+    [
+      "20017",
+      "20097"
+    ],
+    [
+      "20017",
+      "20075"
+    ],
+    [
+      "20017",
+      "20086"
+    ],
+    [
+      "20017",
+      "20063"
+    ],
+    [
+      "20017",
+      "20085"
+    ],
+    [
+      "20017",
+      "20079"
+    ],
+    [
+      "20017",
+      "20099"
+    ],
+    [
+      "20017",
+      "20061"
+    ],
+    [
+      "20017",
+      "20083"
+    ],
+    [
+      "20017",
+      "20047"
+    ],
+    [
+      "20017",
+      "20081"
+    ],
+    [
+      "20017",
+      "20069"
+    ],
+    [
+      "20017",
+      "20098"
+    ],
+    [
+      "20017",
+      "20049"
+    ],
+    [
+      "20017",
+      "20096"
+    ],
+    [
+      "20017",
+      "20073"
+    ],
+    [
+      "20017",
+      "20100"
+    ],
+    [
+      "20017",
+      "20077"
+    ],
+    [
+      "20017",
+      "20059"
+    ],
+    [
+      "20017",
+      "20065"
+    ],
+    [
+      "20017",
+      "20055"
+    ],
+    [
+      "20017",
+      "20051"
+    ],
+    [
+      "20017",
+      "20053"
+    ],
+    [
+      "20025",
+      "20019"
+    ],
+    [
+      "20025",
+      "20021"
+    ],
+    [
+      "20025",
+      "20011"
+    ],
+    [
+      "20025",
+      "20035"
+    ],
+    [
+      "20025",
+      "20043"
+    ],
+    [
+      "20025",
+      "20088"
+    ],
+    [
+      "20025",
+      "20067"
+    ],
+    [
+      "20025",
+      "20087"
+    ],
+    [
+      "20025",
+      "20071"
+    ],
+    [
+      "20025",
+      "20082"
+    ],
+    [
+      "20025",
+      "20057"
+    ],
+    [
+      "20025",
+      "20090"
+    ],
+    [
+      "20025",
+      "20041"
+    ],
+    [
+      "20025",
+      "20084"
+    ],
+    [
+      "20025",
+      "20045"
+    ],
+    [
+      "20025",
+      "20097"
+    ],
+    [
+      "20025",
+      "20075"
+    ],
+    [
+      "20025",
+      "20086"
+    ],
+    [
+      "20025",
+      "20063"
+    ],
+    [
+      "20025",
+      "20085"
+    ],
+    [
+      "20025",
+      "20079"
+    ],
+    [
+      "20025",
+      "20099"
+    ],
+    [
+      "20025",
+      "20061"
+    ],
+    [
+      "20025",
+      "20083"
+    ],
+    [
+      "20025",
+      "20047"
+    ],
+    [
+      "20025",
+      "20081"
+    ],
+    [
+      "20025",
+      "20069"
+    ],
+    [
+      "20025",
+      "20098"
+    ],
+    [
+      "20025",
+      "20049"
+    ],
+    [
+      "20025",
+      "20096"
+    ],
+    [
+      "20025",
+      "20073"
+    ],
+    [
+      "20025",
+      "20100"
+    ],
+    [
+      "20025",
+      "20077"
+    ],
+    [
+      "20025",
+      "20059"
+    ],
+    [
+      "20025",
+      "20065"
+    ],
+    [
+      "20025",
+      "20055"
+    ],
+    [
+      "20025",
+      "20051"
+    ],
+    [
+      "20025",
+      "20053"
+    ],
+    [
+      "20019",
+      "20021"
+    ],
+    [
+      "20019",
+      "20011"
+    ],
+    [
+      "20019",
+      "20035"
+    ],
+    [
+      "20019",
+      "20043"
+    ],
+    [
+      "20019",
+      "20088"
+    ],
+    [
+      "20019",
+      "20067"
+    ],
+    [
+      "20019",
+      "20087"
+    ],
+    [
+      "20019",
+      "20071"
+    ],
+    [
+      "20019",
+      "20082"
+    ],
+    [
+      "20019",
+      "20057"
+    ],
+    [
+      "20019",
+      "20090"
+    ],
+    [
+      "20019",
+      "20041"
+    ],
+    [
+      "20019",
+      "20084"
+    ],
+    [
+      "20019",
+      "20045"
+    ],
+    [
+      "20019",
+      "20097"
+    ],
+    [
+      "20019",
+      "20075"
+    ],
+    [
+      "20019",
+      "20086"
+    ],
+    [
+      "20019",
+      "20063"
+    ],
+    [
+      "20019",
+      "20085"
+    ],
+    [
+      "20019",
+      "20079"
+    ],
+    [
+      "20019",
+      "20099"
+    ],
+    [
+      "20019",
+      "20061"
+    ],
+    [
+      "20019",
+      "20083"
+    ],
+    [
+      "20019",
+      "20047"
+    ],
+    [
+      "20019",
+      "20081"
+    ],
+    [
+      "20019",
+      "20069"
+    ],
+    [
+      "20019",
+      "20098"
+    ],
+    [
+      "20019",
+      "20049"
+    ],
+    [
+      "20019",
+      "20096"
+    ],
+    [
+      "20019",
+      "20073"
+    ],
+    [
+      "20019",
+      "20100"
+    ],
+    [
+      "20019",
+      "20077"
+    ],
+    [
+      "20019",
+      "20059"
+    ],
+    [
+      "20019",
+      "20065"
+    ],
+    [
+      "20019",
+      "20055"
+    ],
+    [
+      "20019",
+      "20051"
+    ],
+    [
+      "20019",
+      "20053"
+    ],
+    [
+      "20021",
+      "20011"
+    ],
+    [
+      "20021",
+      "20035"
+    ],
+    [
+      "20021",
+      "20043"
+    ],
+    [
+      "20021",
+      "20088"
+    ],
+    [
+      "20021",
+      "20067"
+    ],
+    [
+      "20021",
+      "20087"
+    ],
+    [
+      "20021",
+      "20071"
+    ],
+    [
+      "20021",
+      "20082"
+    ],
+    [
+      "20021",
+      "20057"
+    ],
+    [
+      "20021",
+      "20090"
+    ],
+    [
+      "20021",
+      "20041"
+    ],
+    [
+      "20021",
+      "20084"
+    ],
+    [
+      "20021",
+      "20045"
+    ],
+    [
+      "20021",
+      "20097"
+    ],
+    [
+      "20021",
+      "20075"
+    ],
+    [
+      "20021",
+      "20086"
+    ],
+    [
+      "20021",
+      "20063"
+    ],
+    [
+      "20021",
+      "20085"
+    ],
+    [
+      "20021",
+      "20079"
+    ],
+    [
+      "20021",
+      "20099"
+    ],
+    [
+      "20021",
+      "20061"
+    ],
+    [
+      "20021",
+      "20083"
+    ],
+    [
+      "20021",
+      "20047"
+    ],
+    [
+      "20021",
+      "20081"
+    ],
+    [
+      "20021",
+      "20069"
+    ],
+    [
+      "20021",
+      "20098"
+    ],
+    [
+      "20021",
+      "20049"
+    ],
+    [
+      "20021",
+      "20096"
+    ],
+    [
+      "20021",
+      "20073"
+    ],
+    [
+      "20021",
+      "20100"
+    ],
+    [
+      "20021",
+      "20077"
+    ],
+    [
+      "20021",
+      "20059"
+    ],
+    [
+      "20021",
+      "20065"
+    ],
+    [
+      "20021",
+      "20055"
+    ],
+    [
+      "20021",
+      "20051"
+    ],
+    [
+      "20021",
+      "20053"
+    ],
+    [
+      "20011",
+      "20035"
+    ],
+    [
+      "20011",
+      "20043"
+    ],
+    [
+      "20011",
+      "20088"
+    ],
+    [
+      "20011",
+      "20067"
+    ],
+    [
+      "20011",
+      "20087"
+    ],
+    [
+      "20011",
+      "20071"
+    ],
+    [
+      "20011",
+      "20082"
+    ],
+    [
+      "20011",
+      "20057"
+    ],
+    [
+      "20011",
+      "20090"
+    ],
+    [
+      "20011",
+      "20041"
+    ],
+    [
+      "20011",
+      "20084"
+    ],
+    [
+      "20011",
+      "20045"
+    ],
+    [
+      "20011",
+      "20097"
+    ],
+    [
+      "20011",
+      "20075"
+    ],
+    [
+      "20011",
+      "20086"
+    ],
+    [
+      "20011",
+      "20063"
+    ],
+    [
+      "20011",
+      "20085"
+    ],
+    [
+      "20011",
+      "20079"
+    ],
+    [
+      "20011",
+      "20099"
+    ],
+    [
+      "20011",
+      "20061"
+    ],
+    [
+      "20011",
+      "20083"
+    ],
+    [
+      "20011",
+      "20047"
+    ],
+    [
+      "20011",
+      "20081"
+    ],
+    [
+      "20011",
+      "20069"
+    ],
+    [
+      "20011",
+      "20098"
+    ],
+    [
+      "20011",
+      "20049"
+    ],
+    [
+      "20011",
+      "20096"
+    ],
+    [
+      "20011",
+      "20073"
+    ],
+    [
+      "20011",
+      "20100"
+    ],
+    [
+      "20011",
+      "20077"
+    ],
+    [
+      "20011",
+      "20059"
+    ],
+    [
+      "20011",
+      "20065"
+    ],
+    [
+      "20011",
+      "20055"
+    ],
+    [
+      "20011",
+      "20051"
+    ],
+    [
+      "20011",
+      "20053"
+    ],
+    [
+      "20035",
+      "20043"
+    ],
+    [
+      "20035",
+      "20088"
+    ],
+    [
+      "20035",
+      "20067"
+    ],
+    [
+      "20035",
+      "20087"
+    ],
+    [
+      "20035",
+      "20071"
+    ],
+    [
+      "20035",
+      "20082"
+    ],
+    [
+      "20035",
+      "20057"
+    ],
+    [
+      "20035",
+      "20090"
+    ],
+    [
+      "20035",
+      "20041"
+    ],
+    [
+      "20035",
+      "20084"
+    ],
+    [
+      "20035",
+      "20045"
+    ],
+    [
+      "20035",
+      "20097"
+    ],
+    [
+      "20035",
+      "20075"
+    ],
+    [
+      "20035",
+      "20086"
+    ],
+    [
+      "20035",
+      "20063"
+    ],
+    [
+      "20035",
+      "20085"
+    ],
+    [
+      "20035",
+      "20079"
+    ],
+    [
+      "20035",
+      "20099"
+    ],
+    [
+      "20035",
+      "20061"
+    ],
+    [
+      "20035",
+      "20083"
+    ],
+    [
+      "20035",
+      "20047"
+    ],
+    [
+      "20035",
+      "20081"
+    ],
+    [
+      "20035",
+      "20069"
+    ],
+    [
+      "20035",
+      "20098"
+    ],
+    [
+      "20035",
+      "20049"
+    ],
+    [
+      "20035",
+      "20096"
+    ],
+    [
+      "20035",
+      "20073"
+    ],
+    [
+      "20035",
+      "20100"
+    ],
+    [
+      "20035",
+      "20077"
+    ],
+    [
+      "20035",
+      "20059"
+    ],
+    [
+      "20035",
+      "20065"
+    ],
+    [
+      "20035",
+      "20055"
+    ],
+    [
+      "20035",
+      "20051"
+    ],
+    [
+      "20035",
+      "20053"
+    ],
+    [
+      "20043",
+      "20088"
+    ],
+    [
+      "20043",
+      "20067"
+    ],
+    [
+      "20043",
+      "20087"
+    ],
+    [
+      "20043",
+      "20071"
+    ],
+    [
+      "20043",
+      "20082"
+    ],
+    [
+      "20043",
+      "20057"
+    ],
+    [
+      "20043",
+      "20090"
+    ],
+    [
+      "20043",
+      "20041"
+    ],
+    [
+      "20043",
+      "20084"
+    ],
+    [
+      "20043",
+      "20045"
+    ],
+    [
+      "20043",
+      "20097"
+    ],
+    [
+      "20043",
+      "20075"
+    ],
+    [
+      "20043",
+      "20086"
+    ],
+    [
+      "20043",
+      "20063"
+    ],
+    [
+      "20043",
+      "20085"
+    ],
+    [
+      "20043",
+      "20079"
+    ],
+    [
+      "20043",
+      "20099"
+    ],
+    [
+      "20043",
+      "20061"
+    ],
+    [
+      "20043",
+      "20083"
+    ],
+    [
+      "20043",
+      "20047"
+    ],
+    [
+      "20043",
+      "20081"
+    ],
+    [
+      "20043",
+      "20069"
+    ],
+    [
+      "20043",
+      "20098"
+    ],
+    [
+      "20043",
+      "20049"
+    ],
+    [
+      "20043",
+      "20096"
+    ],
+    [
+      "20043",
+      "20073"
+    ],
+    [
+      "20043",
+      "20100"
+    ],
+    [
+      "20043",
+      "20077"
+    ],
+    [
+      "20043",
+      "20059"
+    ],
+    [
+      "20043",
+      "20065"
+    ],
+    [
+      "20043",
+      "20055"
+    ],
+    [
+      "20043",
+      "20051"
+    ],
+    [
+      "20043",
+      "20053"
+    ],
+    [
+      "20088",
+      "20067"
+    ],
+    [
+      "20088",
+      "20087"
+    ],
+    [
+      "20088",
+      "20071"
+    ],
+    [
+      "20088",
+      "20082"
+    ],
+    [
+      "20088",
+      "20057"
+    ],
+    [
+      "20088",
+      "20090"
+    ],
+    [
+      "20088",
+      "20041"
+    ],
+    [
+      "20088",
+      "20084"
+    ],
+    [
+      "20088",
+      "20045"
+    ],
+    [
+      "20088",
+      "20097"
+    ],
+    [
+      "20088",
+      "20075"
+    ],
+    [
+      "20088",
+      "20086"
+    ],
+    [
+      "20088",
+      "20063"
+    ],
+    [
+      "20088",
+      "20085"
+    ],
+    [
+      "20088",
+      "20079"
+    ],
+    [
+      "20088",
+      "20099"
+    ],
+    [
+      "20088",
+      "20061"
+    ],
+    [
+      "20088",
+      "20083"
+    ],
+    [
+      "20088",
+      "20047"
+    ],
+    [
+      "20088",
+      "20081"
+    ],
+    [
+      "20088",
+      "20069"
+    ],
+    [
+      "20088",
+      "20098"
+    ],
+    [
+      "20088",
+      "20049"
+    ],
+    [
+      "20088",
+      "20096"
+    ],
+    [
+      "20088",
+      "20073"
+    ],
+    [
+      "20088",
+      "20100"
+    ],
+    [
+      "20088",
+      "20077"
+    ],
+    [
+      "20088",
+      "20059"
+    ],
+    [
+      "20088",
+      "20065"
+    ],
+    [
+      "20088",
+      "20055"
+    ],
+    [
+      "20088",
+      "20051"
+    ],
+    [
+      "20088",
+      "20053"
+    ],
+    [
+      "20067",
+      "20087"
+    ],
+    [
+      "20067",
+      "20071"
+    ],
+    [
+      "20067",
+      "20082"
+    ],
+    [
+      "20067",
+      "20057"
+    ],
+    [
+      "20067",
+      "20090"
+    ],
+    [
+      "20067",
+      "20041"
+    ],
+    [
+      "20067",
+      "20084"
+    ],
+    [
+      "20067",
+      "20045"
+    ],
+    [
+      "20067",
+      "20097"
+    ],
+    [
+      "20067",
+      "20075"
+    ],
+    [
+      "20067",
+      "20086"
+    ],
+    [
+      "20067",
+      "20063"
+    ],
+    [
+      "20067",
+      "20085"
+    ],
+    [
+      "20067",
+      "20079"
+    ],
+    [
+      "20067",
+      "20099"
+    ],
+    [
+      "20067",
+      "20061"
+    ],
+    [
+      "20067",
+      "20083"
+    ],
+    [
+      "20067",
+      "20047"
+    ],
+    [
+      "20067",
+      "20081"
+    ],
+    [
+      "20067",
+      "20069"
+    ],
+    [
+      "20067",
+      "20098"
+    ],
+    [
+      "20067",
+      "20049"
+    ],
+    [
+      "20067",
+      "20096"
+    ],
+    [
+      "20067",
+      "20073"
+    ],
+    [
+      "20067",
+      "20100"
+    ],
+    [
+      "20067",
+      "20077"
+    ],
+    [
+      "20067",
+      "20059"
+    ],
+    [
+      "20067",
+      "20065"
+    ],
+    [
+      "20067",
+      "20055"
+    ],
+    [
+      "20067",
+      "20051"
+    ],
+    [
+      "20067",
+      "20053"
+    ],
+    [
+      "20087",
+      "20071"
+    ],
+    [
+      "20087",
+      "20082"
+    ],
+    [
+      "20087",
+      "20057"
+    ],
+    [
+      "20087",
+      "20090"
+    ],
+    [
+      "20087",
+      "20041"
+    ],
+    [
+      "20087",
+      "20084"
+    ],
+    [
+      "20087",
+      "20045"
+    ],
+    [
+      "20087",
+      "20097"
+    ],
+    [
+      "20087",
+      "20075"
+    ],
+    [
+      "20087",
+      "20086"
+    ],
+    [
+      "20087",
+      "20063"
+    ],
+    [
+      "20087",
+      "20085"
+    ],
+    [
+      "20087",
+      "20079"
+    ],
+    [
+      "20087",
+      "20099"
+    ],
+    [
+      "20087",
+      "20061"
+    ],
+    [
+      "20087",
+      "20083"
+    ],
+    [
+      "20087",
+      "20047"
+    ],
+    [
+      "20087",
+      "20081"
+    ],
+    [
+      "20087",
+      "20069"
+    ],
+    [
+      "20087",
+      "20098"
+    ],
+    [
+      "20087",
+      "20049"
+    ],
+    [
+      "20087",
+      "20096"
+    ],
+    [
+      "20087",
+      "20073"
+    ],
+    [
+      "20087",
+      "20100"
+    ],
+    [
+      "20087",
+      "20077"
+    ],
+    [
+      "20087",
+      "20059"
+    ],
+    [
+      "20087",
+      "20065"
+    ],
+    [
+      "20087",
+      "20055"
+    ],
+    [
+      "20087",
+      "20051"
+    ],
+    [
+      "20087",
+      "20053"
+    ],
+    [
+      "20071",
+      "20082"
+    ],
+    [
+      "20071",
+      "20057"
+    ],
+    [
+      "20071",
+      "20090"
+    ],
+    [
+      "20071",
+      "20041"
+    ],
+    [
+      "20071",
+      "20084"
+    ],
+    [
+      "20071",
+      "20045"
+    ],
+    [
+      "20071",
+      "20097"
+    ],
+    [
+      "20071",
+      "20075"
+    ],
+    [
+      "20071",
+      "20086"
+    ],
+    [
+      "20071",
+      "20063"
+    ],
+    [
+      "20071",
+      "20085"
+    ],
+    [
+      "20071",
+      "20079"
+    ],
+    [
+      "20071",
+      "20099"
+    ],
+    [
+      "20071",
+      "20061"
+    ],
+    [
+      "20071",
+      "20083"
+    ],
+    [
+      "20071",
+      "20047"
+    ],
+    [
+      "20071",
+      "20081"
+    ],
+    [
+      "20071",
+      "20069"
+    ],
+    [
+      "20071",
+      "20098"
+    ],
+    [
+      "20071",
+      "20049"
+    ],
+    [
+      "20071",
+      "20096"
+    ],
+    [
+      "20071",
+      "20073"
+    ],
+    [
+      "20071",
+      "20100"
+    ],
+    [
+      "20071",
+      "20077"
+    ],
+    [
+      "20071",
+      "20059"
+    ],
+    [
+      "20071",
+      "20065"
+    ],
+    [
+      "20071",
+      "20055"
+    ],
+    [
+      "20071",
+      "20051"
+    ],
+    [
+      "20071",
+      "20053"
+    ],
+    [
+      "20082",
+      "20057"
+    ],
+    [
+      "20082",
+      "20090"
+    ],
+    [
+      "20082",
+      "20041"
+    ],
+    [
+      "20082",
+      "20084"
+    ],
+    [
+      "20082",
+      "20045"
+    ],
+    [
+      "20082",
+      "20097"
+    ],
+    [
+      "20082",
+      "20075"
+    ],
+    [
+      "20082",
+      "20086"
+    ],
+    [
+      "20082",
+      "20063"
+    ],
+    [
+      "20082",
+      "20085"
+    ],
+    [
+      "20082",
+      "20079"
+    ],
+    [
+      "20082",
+      "20099"
+    ],
+    [
+      "20082",
+      "20061"
+    ],
+    [
+      "20082",
+      "20083"
+    ],
+    [
+      "20082",
+      "20047"
+    ],
+    [
+      "20082",
+      "20081"
+    ],
+    [
+      "20082",
+      "20069"
+    ],
+    [
+      "20082",
+      "20098"
+    ],
+    [
+      "20082",
+      "20049"
+    ],
+    [
+      "20082",
+      "20096"
+    ],
+    [
+      "20082",
+      "20073"
+    ],
+    [
+      "20082",
+      "20100"
+    ],
+    [
+      "20082",
+      "20077"
+    ],
+    [
+      "20082",
+      "20059"
+    ],
+    [
+      "20082",
+      "20065"
+    ],
+    [
+      "20082",
+      "20055"
+    ],
+    [
+      "20082",
+      "20051"
+    ],
+    [
+      "20082",
+      "20053"
+    ],
+    [
+      "20057",
+      "20090"
+    ],
+    [
+      "20057",
+      "20041"
+    ],
+    [
+      "20057",
+      "20084"
+    ],
+    [
+      "20057",
+      "20045"
+    ],
+    [
+      "20057",
+      "20097"
+    ],
+    [
+      "20057",
+      "20075"
+    ],
+    [
+      "20057",
+      "20086"
+    ],
+    [
+      "20057",
+      "20063"
+    ],
+    [
+      "20057",
+      "20085"
+    ],
+    [
+      "20057",
+      "20079"
+    ],
+    [
+      "20057",
+      "20099"
+    ],
+    [
+      "20057",
+      "20061"
+    ],
+    [
+      "20057",
+      "20083"
+    ],
+    [
+      "20057",
+      "20047"
+    ],
+    [
+      "20057",
+      "20081"
+    ],
+    [
+      "20057",
+      "20069"
+    ],
+    [
+      "20057",
+      "20098"
+    ],
+    [
+      "20057",
+      "20049"
+    ],
+    [
+      "20057",
+      "20096"
+    ],
+    [
+      "20057",
+      "20073"
+    ],
+    [
+      "20057",
+      "20100"
+    ],
+    [
+      "20057",
+      "20077"
+    ],
+    [
+      "20057",
+      "20059"
+    ],
+    [
+      "20057",
+      "20065"
+    ],
+    [
+      "20057",
+      "20055"
+    ],
+    [
+      "20057",
+      "20051"
+    ],
+    [
+      "20057",
+      "20053"
+    ],
+    [
+      "20090",
+      "20041"
+    ],
+    [
+      "20090",
+      "20084"
+    ],
+    [
+      "20090",
+      "20045"
+    ],
+    [
+      "20090",
+      "20097"
+    ],
+    [
+      "20090",
+      "20075"
+    ],
+    [
+      "20090",
+      "20086"
+    ],
+    [
+      "20090",
+      "20063"
+    ],
+    [
+      "20090",
+      "20085"
+    ],
+    [
+      "20090",
+      "20079"
+    ],
+    [
+      "20090",
+      "20099"
+    ],
+    [
+      "20090",
+      "20061"
+    ],
+    [
+      "20090",
+      "20083"
+    ],
+    [
+      "20090",
+      "20047"
+    ],
+    [
+      "20090",
+      "20081"
+    ],
+    [
+      "20090",
+      "20069"
+    ],
+    [
+      "20090",
+      "20098"
+    ],
+    [
+      "20090",
+      "20049"
+    ],
+    [
+      "20090",
+      "20096"
+    ],
+    [
+      "20090",
+      "20073"
+    ],
+    [
+      "20090",
+      "20100"
+    ],
+    [
+      "20090",
+      "20077"
+    ],
+    [
+      "20090",
+      "20059"
+    ],
+    [
+      "20090",
+      "20065"
+    ],
+    [
+      "20090",
+      "20055"
+    ],
+    [
+      "20090",
+      "20051"
+    ],
+    [
+      "20090",
+      "20053"
+    ],
+    [
+      "20041",
+      "20084"
+    ],
+    [
+      "20041",
+      "20045"
+    ],
+    [
+      "20041",
+      "20097"
+    ],
+    [
+      "20041",
+      "20075"
+    ],
+    [
+      "20041",
+      "20086"
+    ],
+    [
+      "20041",
+      "20063"
+    ],
+    [
+      "20041",
+      "20085"
+    ],
+    [
+      "20041",
+      "20079"
+    ],
+    [
+      "20041",
+      "20099"
+    ],
+    [
+      "20041",
+      "20061"
+    ],
+    [
+      "20041",
+      "20083"
+    ],
+    [
+      "20041",
+      "20047"
+    ],
+    [
+      "20041",
+      "20081"
+    ],
+    [
+      "20041",
+      "20069"
+    ],
+    [
+      "20041",
+      "20098"
+    ],
+    [
+      "20041",
+      "20049"
+    ],
+    [
+      "20041",
+      "20096"
+    ],
+    [
+      "20041",
+      "20073"
+    ],
+    [
+      "20041",
+      "20100"
+    ],
+    [
+      "20041",
+      "20077"
+    ],
+    [
+      "20041",
+      "20059"
+    ],
+    [
+      "20041",
+      "20065"
+    ],
+    [
+      "20041",
+      "20055"
+    ],
+    [
+      "20041",
+      "20051"
+    ],
+    [
+      "20041",
+      "20053"
+    ],
+    [
+      "20084",
+      "20045"
+    ],
+    [
+      "20084",
+      "20097"
+    ],
+    [
+      "20084",
+      "20075"
+    ],
+    [
+      "20084",
+      "20086"
+    ],
+    [
+      "20084",
+      "20063"
+    ],
+    [
+      "20084",
+      "20085"
+    ],
+    [
+      "20084",
+      "20079"
+    ],
+    [
+      "20084",
+      "20099"
+    ],
+    [
+      "20084",
+      "20061"
+    ],
+    [
+      "20084",
+      "20083"
+    ],
+    [
+      "20084",
+      "20047"
+    ],
+    [
+      "20084",
+      "20081"
+    ],
+    [
+      "20084",
+      "20069"
+    ],
+    [
+      "20084",
+      "20098"
+    ],
+    [
+      "20084",
+      "20049"
+    ],
+    [
+      "20084",
+      "20096"
+    ],
+    [
+      "20084",
+      "20073"
+    ],
+    [
+      "20084",
+      "20100"
+    ],
+    [
+      "20084",
+      "20077"
+    ],
+    [
+      "20084",
+      "20059"
+    ],
+    [
+      "20084",
+      "20065"
+    ],
+    [
+      "20084",
+      "20055"
+    ],
+    [
+      "20084",
+      "20051"
+    ],
+    [
+      "20084",
+      "20053"
+    ],
+    [
+      "20045",
+      "20097"
+    ],
+    [
+      "20045",
+      "20075"
+    ],
+    [
+      "20045",
+      "20086"
+    ],
+    [
+      "20045",
+      "20063"
+    ],
+    [
+      "20045",
+      "20085"
+    ],
+    [
+      "20045",
+      "20079"
+    ],
+    [
+      "20045",
+      "20099"
+    ],
+    [
+      "20045",
+      "20061"
+    ],
+    [
+      "20045",
+      "20083"
+    ],
+    [
+      "20045",
+      "20047"
+    ],
+    [
+      "20045",
+      "20081"
+    ],
+    [
+      "20045",
+      "20069"
+    ],
+    [
+      "20045",
+      "20098"
+    ],
+    [
+      "20045",
+      "20049"
+    ],
+    [
+      "20045",
+      "20096"
+    ],
+    [
+      "20045",
+      "20073"
+    ],
+    [
+      "20045",
+      "20100"
+    ],
+    [
+      "20045",
+      "20077"
+    ],
+    [
+      "20045",
+      "20059"
+    ],
+    [
+      "20045",
+      "20065"
+    ],
+    [
+      "20045",
+      "20055"
+    ],
+    [
+      "20045",
+      "20051"
+    ],
+    [
+      "20045",
+      "20053"
+    ],
+    [
+      "20097",
+      "20075"
+    ],
+    [
+      "20097",
+      "20086"
+    ],
+    [
+      "20097",
+      "20063"
+    ],
+    [
+      "20097",
+      "20085"
+    ],
+    [
+      "20097",
+      "20079"
+    ],
+    [
+      "20097",
+      "20099"
+    ],
+    [
+      "20097",
+      "20061"
+    ],
+    [
+      "20097",
+      "20083"
+    ],
+    [
+      "20097",
+      "20047"
+    ],
+    [
+      "20097",
+      "20081"
+    ],
+    [
+      "20097",
+      "20069"
+    ],
+    [
+      "20097",
+      "20098"
+    ],
+    [
+      "20097",
+      "20049"
+    ],
+    [
+      "20097",
+      "20096"
+    ],
+    [
+      "20097",
+      "20073"
+    ],
+    [
+      "20097",
+      "20100"
+    ],
+    [
+      "20097",
+      "20077"
+    ],
+    [
+      "20097",
+      "20059"
+    ],
+    [
+      "20097",
+      "20065"
+    ],
+    [
+      "20097",
+      "20055"
+    ],
+    [
+      "20097",
+      "20051"
+    ],
+    [
+      "20097",
+      "20053"
+    ],
+    [
+      "20075",
+      "20086"
+    ],
+    [
+      "20075",
+      "20063"
+    ],
+    [
+      "20075",
+      "20085"
+    ],
+    [
+      "20075",
+      "20079"
+    ],
+    [
+      "20075",
+      "20099"
+    ],
+    [
+      "20075",
+      "20061"
+    ],
+    [
+      "20075",
+      "20083"
+    ],
+    [
+      "20075",
+      "20047"
+    ],
+    [
+      "20075",
+      "20081"
+    ],
+    [
+      "20075",
+      "20069"
+    ],
+    [
+      "20075",
+      "20098"
+    ],
+    [
+      "20075",
+      "20049"
+    ],
+    [
+      "20075",
+      "20096"
+    ],
+    [
+      "20075",
+      "20073"
+    ],
+    [
+      "20075",
+      "20100"
+    ],
+    [
+      "20075",
+      "20077"
+    ],
+    [
+      "20075",
+      "20059"
+    ],
+    [
+      "20075",
+      "20065"
+    ],
+    [
+      "20075",
+      "20055"
+    ],
+    [
+      "20075",
+      "20051"
+    ],
+    [
+      "20075",
+      "20053"
+    ],
+    [
+      "20086",
+      "20063"
+    ],
+    [
+      "20086",
+      "20085"
+    ],
+    [
+      "20086",
+      "20079"
+    ],
+    [
+      "20086",
+      "20099"
+    ],
+    [
+      "20086",
+      "20061"
+    ],
+    [
+      "20086",
+      "20083"
+    ],
+    [
+      "20086",
+      "20047"
+    ],
+    [
+      "20086",
+      "20081"
+    ],
+    [
+      "20086",
+      "20069"
+    ],
+    [
+      "20086",
+      "20098"
+    ],
+    [
+      "20086",
+      "20049"
+    ],
+    [
+      "20086",
+      "20096"
+    ],
+    [
+      "20086",
+      "20073"
+    ],
+    [
+      "20086",
+      "20100"
+    ],
+    [
+      "20086",
+      "20077"
+    ],
+    [
+      "20086",
+      "20059"
+    ],
+    [
+      "20086",
+      "20065"
+    ],
+    [
+      "20086",
+      "20055"
+    ],
+    [
+      "20086",
+      "20051"
+    ],
+    [
+      "20086",
+      "20053"
+    ],
+    [
+      "20063",
+      "20085"
+    ],
+    [
+      "20063",
+      "20079"
+    ],
+    [
+      "20063",
+      "20099"
+    ],
+    [
+      "20063",
+      "20061"
+    ],
+    [
+      "20063",
+      "20083"
+    ],
+    [
+      "20063",
+      "20047"
+    ],
+    [
+      "20063",
+      "20081"
+    ],
+    [
+      "20063",
+      "20069"
+    ],
+    [
+      "20063",
+      "20098"
+    ],
+    [
+      "20063",
+      "20049"
+    ],
+    [
+      "20063",
+      "20096"
+    ],
+    [
+      "20063",
+      "20073"
+    ],
+    [
+      "20063",
+      "20100"
+    ],
+    [
+      "20063",
+      "20077"
+    ],
+    [
+      "20063",
+      "20059"
+    ],
+    [
+      "20063",
+      "20065"
+    ],
+    [
+      "20063",
+      "20055"
+    ],
+    [
+      "20063",
+      "20051"
+    ],
+    [
+      "20063",
+      "20053"
+    ],
+    [
+      "20085",
+      "20079"
+    ],
+    [
+      "20085",
+      "20099"
+    ],
+    [
+      "20085",
+      "20061"
+    ],
+    [
+      "20085",
+      "20083"
+    ],
+    [
+      "20085",
+      "20047"
+    ],
+    [
+      "20085",
+      "20081"
+    ],
+    [
+      "20085",
+      "20069"
+    ],
+    [
+      "20085",
+      "20098"
+    ],
+    [
+      "20085",
+      "20049"
+    ],
+    [
+      "20085",
+      "20096"
+    ],
+    [
+      "20085",
+      "20073"
+    ],
+    [
+      "20085",
+      "20100"
+    ],
+    [
+      "20085",
+      "20077"
+    ],
+    [
+      "20085",
+      "20059"
+    ],
+    [
+      "20085",
+      "20065"
+    ],
+    [
+      "20085",
+      "20055"
+    ],
+    [
+      "20085",
+      "20051"
+    ],
+    [
+      "20085",
+      "20053"
+    ],
+    [
+      "20079",
+      "20099"
+    ],
+    [
+      "20079",
+      "20061"
+    ],
+    [
+      "20079",
+      "20083"
+    ],
+    [
+      "20079",
+      "20047"
+    ],
+    [
+      "20079",
+      "20081"
+    ],
+    [
+      "20079",
+      "20069"
+    ],
+    [
+      "20079",
+      "20098"
+    ],
+    [
+      "20079",
+      "20049"
+    ],
+    [
+      "20079",
+      "20096"
+    ],
+    [
+      "20079",
+      "20073"
+    ],
+    [
+      "20079",
+      "20100"
+    ],
+    [
+      "20079",
+      "20077"
+    ],
+    [
+      "20079",
+      "20059"
+    ],
+    [
+      "20079",
+      "20065"
+    ],
+    [
+      "20079",
+      "20055"
+    ],
+    [
+      "20079",
+      "20051"
+    ],
+    [
+      "20079",
+      "20053"
+    ],
+    [
+      "20099",
+      "20061"
+    ],
+    [
+      "20099",
+      "20083"
+    ],
+    [
+      "20099",
+      "20047"
+    ],
+    [
+      "20099",
+      "20081"
+    ],
+    [
+      "20099",
+      "20069"
+    ],
+    [
+      "20099",
+      "20098"
+    ],
+    [
+      "20099",
+      "20049"
+    ],
+    [
+      "20099",
+      "20096"
+    ],
+    [
+      "20099",
+      "20073"
+    ],
+    [
+      "20099",
+      "20100"
+    ],
+    [
+      "20099",
+      "20077"
+    ],
+    [
+      "20099",
+      "20059"
+    ],
+    [
+      "20099",
+      "20065"
+    ],
+    [
+      "20099",
+      "20055"
+    ],
+    [
+      "20099",
+      "20051"
+    ],
+    [
+      "20099",
+      "20053"
+    ],
+    [
+      "20061",
+      "20083"
+    ],
+    [
+      "20061",
+      "20047"
+    ],
+    [
+      "20061",
+      "20081"
+    ],
+    [
+      "20061",
+      "20069"
+    ],
+    [
+      "20061",
+      "20098"
+    ],
+    [
+      "20061",
+      "20049"
+    ],
+    [
+      "20061",
+      "20096"
+    ],
+    [
+      "20061",
+      "20073"
+    ],
+    [
+      "20061",
+      "20100"
+    ],
+    [
+      "20061",
+      "20077"
+    ],
+    [
+      "20061",
+      "20059"
+    ],
+    [
+      "20061",
+      "20065"
+    ],
+    [
+      "20061",
+      "20055"
+    ],
+    [
+      "20061",
+      "20051"
+    ],
+    [
+      "20061",
+      "20053"
+    ],
+    [
+      "20083",
+      "20047"
+    ],
+    [
+      "20083",
+      "20081"
+    ],
+    [
+      "20083",
+      "20069"
+    ],
+    [
+      "20083",
+      "20098"
+    ],
+    [
+      "20083",
+      "20049"
+    ],
+    [
+      "20083",
+      "20096"
+    ],
+    [
+      "20083",
+      "20073"
+    ],
+    [
+      "20083",
+      "20100"
+    ],
+    [
+      "20083",
+      "20077"
+    ],
+    [
+      "20083",
+      "20059"
+    ],
+    [
+      "20083",
+      "20065"
+    ],
+    [
+      "20083",
+      "20055"
+    ],
+    [
+      "20083",
+      "20051"
+    ],
+    [
+      "20083",
+      "20053"
+    ],
+    [
+      "20047",
+      "20081"
+    ],
+    [
+      "20047",
+      "20069"
+    ],
+    [
+      "20047",
+      "20098"
+    ],
+    [
+      "20047",
+      "20049"
+    ],
+    [
+      "20047",
+      "20096"
+    ],
+    [
+      "20047",
+      "20073"
+    ],
+    [
+      "20047",
+      "20100"
+    ],
+    [
+      "20047",
+      "20077"
+    ],
+    [
+      "20047",
+      "20059"
+    ],
+    [
+      "20047",
+      "20065"
+    ],
+    [
+      "20047",
+      "20055"
+    ],
+    [
+      "20047",
+      "20051"
+    ],
+    [
+      "20047",
+      "20053"
+    ],
+    [
+      "20081",
+      "20069"
+    ],
+    [
+      "20081",
+      "20098"
+    ],
+    [
+      "20081",
+      "20049"
+    ],
+    [
+      "20081",
+      "20096"
+    ],
+    [
+      "20081",
+      "20073"
+    ],
+    [
+      "20081",
+      "20100"
+    ],
+    [
+      "20081",
+      "20077"
+    ],
+    [
+      "20081",
+      "20059"
+    ],
+    [
+      "20081",
+      "20065"
+    ],
+    [
+      "20081",
+      "20055"
+    ],
+    [
+      "20081",
+      "20051"
+    ],
+    [
+      "20081",
+      "20053"
+    ],
+    [
+      "20069",
+      "20098"
+    ],
+    [
+      "20069",
+      "20049"
+    ],
+    [
+      "20069",
+      "20096"
+    ],
+    [
+      "20069",
+      "20073"
+    ],
+    [
+      "20069",
+      "20100"
+    ],
+    [
+      "20069",
+      "20077"
+    ],
+    [
+      "20069",
+      "20059"
+    ],
+    [
+      "20069",
+      "20065"
+    ],
+    [
+      "20069",
+      "20055"
+    ],
+    [
+      "20069",
+      "20051"
+    ],
+    [
+      "20069",
+      "20053"
+    ],
+    [
+      "20098",
+      "20049"
+    ],
+    [
+      "20098",
+      "20096"
+    ],
+    [
+      "20098",
+      "20073"
+    ],
+    [
+      "20098",
+      "20100"
+    ],
+    [
+      "20098",
+      "20077"
+    ],
+    [
+      "20098",
+      "20059"
+    ],
+    [
+      "20098",
+      "20065"
+    ],
+    [
+      "20098",
+      "20055"
+    ],
+    [
+      "20098",
+      "20051"
+    ],
+    [
+      "20098",
+      "20053"
+    ],
+    [
+      "20049",
+      "20096"
+    ],
+    [
+      "20049",
+      "20073"
+    ],
+    [
+      "20049",
+      "20100"
+    ],
+    [
+      "20049",
+      "20077"
+    ],
+    [
+      "20049",
+      "20059"
+    ],
+    [
+      "20049",
+      "20065"
+    ],
+    [
+      "20049",
+      "20055"
+    ],
+    [
+      "20049",
+      "20051"
+    ],
+    [
+      "20049",
+      "20053"
+    ],
+    [
+      "20096",
+      "20073"
+    ],
+    [
+      "20096",
+      "20100"
+    ],
+    [
+      "20096",
+      "20077"
+    ],
+    [
+      "20096",
+      "20059"
+    ],
+    [
+      "20096",
+      "20065"
+    ],
+    [
+      "20096",
+      "20055"
+    ],
+    [
+      "20096",
+      "20051"
+    ],
+    [
+      "20096",
+      "20053"
+    ],
+    [
+      "20073",
+      "20100"
+    ],
+    [
+      "20073",
+      "20077"
+    ],
+    [
+      "20073",
+      "20059"
+    ],
+    [
+      "20073",
+      "20065"
+    ],
+    [
+      "20073",
+      "20055"
+    ],
+    [
+      "20073",
+      "20051"
+    ],
+    [
+      "20073",
+      "20053"
+    ],
+    [
+      "20100",
+      "20077"
+    ],
+    [
+      "20100",
+      "20059"
+    ],
+    [
+      "20100",
+      "20065"
+    ],
+    [
+      "20100",
+      "20055"
+    ],
+    [
+      "20100",
+      "20051"
+    ],
+    [
+      "20100",
+      "20053"
+    ],
+    [
+      "20077",
+      "20059"
+    ],
+    [
+      "20077",
+      "20065"
+    ],
+    [
+      "20077",
+      "20055"
+    ],
+    [
+      "20077",
+      "20051"
+    ],
+    [
+      "20077",
+      "20053"
+    ],
+    [
+      "20059",
+      "20065"
+    ],
+    [
+      "20059",
+      "20055"
+    ],
+    [
+      "20059",
+      "20051"
+    ],
+    [
+      "20059",
+      "20053"
+    ],
+    [
+      "20065",
+      "20055"
+    ],
+    [
+      "20065",
+      "20051"
+    ],
+    [
+      "20065",
+      "20053"
+    ],
+    [
+      "20055",
+      "20051"
+    ],
+    [
+      "20055",
+      "20053"
+    ],
+    [
+      "20051",
+      "20053"
+    ],
+    [
+      "71146",
+      "71205"
+    ]
+  ],
+  "familyMethod": "Union of (1) directed native relation+guide graph, node geometry rounded0.1, mirror-invariant attachment geometry; (2) same kind inventory and invariant sorted whole-board pair-distance spectrum within RMS0.075/max0.25 width units, ignoring link/part-angle edits. Global rotation/reflection/color/names/sourceCollider IDs ignored. Conservative grouping may merge distinct layouts; heuristic, not a proof of all near-copy equivalence.",
+  "splits": [
+    {
+      "fold": 0,
+      "trainSourceIds": [
+        "10001",
+        "10002",
+        "10003",
+        "10004",
+        "10010",
+        "10012",
+        "10007",
+        "10008",
+        "10154",
+        "10006",
+        "10011",
+        "10009",
+        "60023",
+        "70002",
+        "70017",
+        "70003",
+        "10060",
+        "10111",
+        "10062",
+        "10070",
+        "10069",
+        "60010",
+        "10067",
+        "10065",
+        "70011",
+        "10048",
+        "10054",
+        "10061",
+        "71001",
+        "10023",
+        "60008",
+        "70033",
+        "10039",
+        "10035",
+        "10058",
+        "10059",
+        "10031",
+        "60009",
+        "70025",
+        "10038",
+        "60011",
+        "10134",
+        "73005",
+        "60026",
+        "10053",
+        "60007",
+        "10015",
+        "10026",
+        "70009",
+        "71002",
+        "60036",
+        "10063",
+        "70006",
+        "70027",
+        "10025",
+        "10029",
+        "10043",
+        "70008",
+        "70004",
+        "71013",
+        "70028",
+        "10152",
+        "10066",
+        "60001",
+        "71014",
+        "71026",
+        "71003",
+        "10057",
+        "10051",
+        "10056",
+        "70032",
+        "71011",
+        "70026",
+        "10021",
+        "73006",
+        "10052",
+        "73004",
+        "70012",
+        "10014",
+        "60006",
+        "10153",
+        "71007",
+        "70030",
+        "70014",
+        "71005",
+        "70031",
+        "10055",
+        "71016",
+        "71018",
+        "70029",
+        "10166",
+        "10168",
+        "70007",
+        "71008",
+        "71004",
+        "71006",
+        "71015",
+        "60034",
+        "71020",
+        "71028",
+        "71025",
+        "70018",
+        "71017",
+        "10046",
+        "60030",
+        "10013",
+        "10017",
+        "10164",
+        "71032",
+        "71024",
+        "71023",
+        "10040",
+        "60032",
+        "71019",
+        "71010",
+        "10045",
+        "71027",
+        "70024",
+        "60005",
+        "70005",
+        "70020",
+        "10071",
+        "70035",
+        "10082",
+        "60004",
+        "60003",
+        "60002",
+        "71030",
+        "10034",
+        "70023",
+        "10044",
+        "70022",
+        "71029",
+        "70015",
+        "10024",
+        "10049",
+        "10162",
+        "71034",
+        "10030",
+        "70034",
+        "10041",
+        "10032",
+        "10020",
+        "10036",
+        "10033",
+        "10047",
+        "71033",
+        "10161",
+        "71113",
+        "71112",
+        "60049",
+        "60045",
+        "60074",
+        "72012",
+        "71119",
+        "60048",
+        "71135",
+        "60042",
+        "71136",
+        "72003",
+        "60058",
+        "60050",
+        "71137",
+        "60046",
+        "70040",
+        "60079",
+        "60063",
+        "10172",
+        "60051",
+        "71107",
+        "73007",
+        "60054",
+        "72009",
+        "60070",
+        "60069",
+        "71037",
+        "73011",
+        "71128",
+        "70036",
+        "71117",
+        "60071",
+        "71124",
+        "10190",
+        "71122",
+        "71035",
+        "71120",
+        "70037",
+        "71139",
+        "60057",
+        "60055",
+        "60052",
+        "71121",
+        "60064",
+        "10185",
+        "60053",
+        "71110",
+        "60067",
+        "60059",
+        "71104",
+        "10187",
+        "73009",
+        "71130",
+        "10170",
+        "71118",
+        "10186",
+        "60078",
+        "71134",
+        "10177",
+        "10182",
+        "10189",
+        "71126",
+        "10174",
+        "10179",
+        "10183",
+        "10195",
+        "60081",
+        "71103",
+        "71047",
+        "10181",
+        "71133",
+        "10194",
+        "71127",
+        "10205",
+        "60065",
+        "10178",
+        "71105",
+        "60056",
+        "71106",
+        "71108",
+        "10175",
+        "60073",
+        "60072",
+        "71038",
+        "73008",
+        "10198",
+        "20094",
+        "10202",
+        "71102",
+        "10171",
+        "10180",
+        "60076",
+        "10191",
+        "10199",
+        "20095",
+        "10201",
+        "10176",
+        "71041",
+        "60068",
+        "60075",
+        "10196",
+        "20092",
+        "10203",
+        "10209",
+        "10173",
+        "71046",
+        "71040",
+        "10188",
+        "73002",
+        "71043",
+        "20093",
+        "10200",
+        "71042",
+        "71045",
+        "10184",
+        "60077",
+        "71050",
+        "20091",
+        "60062",
+        "71048",
+        "71044",
+        "71049",
+        "71101",
+        "73001",
+        "60066",
+        "20089",
+        "10204",
+        "50004",
+        "50001",
+        "50010",
+        "50008",
+        "110002",
+        "130006",
+        "50016",
+        "50006",
+        "880001",
+        "130004",
+        "50012",
+        "50017",
+        "50020",
+        "110001",
+        "50011",
+        "130008",
+        "50018",
+        "110003",
+        "880002",
+        "110005",
+        "660005",
+        "660002",
+        "680013",
+        "50013",
+        "73013",
+        "71141",
+        "71140",
+        "71146",
+        "71143",
+        "73016",
+        "71142",
+        "50014",
+        "73014",
+        "71145",
+        "71144",
+        "880004",
+        "50002",
+        "71150",
+        "71201",
+        "71147",
+        "71202",
+        "880010",
+        "73012",
+        "71148",
+        "71149",
+        "880007",
+        "50005",
+        "71205",
+        "60094",
+        "150003",
+        "71207",
+        "90026",
+        "90030",
+        "60096",
+        "71209",
+        "60097",
+        "71213",
+        "150001",
+        "90012",
+        "71230",
+        "90003",
+        "150006",
+        "71229",
+        "71217",
+        "71227",
+        "150015",
+        "150014",
+        "150002",
+        "90002",
+        "71206",
+        "90006",
+        "90055",
+        "71203",
+        "71208",
+        "71224",
+        "90013",
+        "150004",
+        "90014",
+        "71216",
+        "90005",
+        "90009",
+        "71204",
+        "71218",
+        "71223",
+        "150011",
+        "150007",
+        "90020",
+        "71222",
+        "90008",
+        "71226",
+        "71215",
+        "90025"
+      ],
+      "heldOutSourceIds": [
+        "10005",
+        "70010",
+        "10068",
+        "71009",
+        "10050",
+        "20003",
+        "10018",
+        "20031",
+        "20001",
+        "71022",
+        "20029",
+        "70019",
+        "20005",
+        "10064",
+        "20023",
+        "20007",
+        "10019",
+        "20033",
+        "71012",
+        "20009",
+        "10122",
+        "20037",
+        "71021",
+        "20013",
+        "20027",
+        "60028",
+        "20015",
+        "10037",
+        "20039",
+        "71031",
+        "20017",
+        "70013",
+        "20025",
+        "20019",
+        "20021",
+        "70021",
+        "20011",
+        "10027",
+        "20035",
+        "70038",
+        "20043",
+        "60060",
+        "20088",
+        "71114",
+        "20067",
+        "73003",
+        "20087",
+        "71111",
+        "20071",
+        "71109",
+        "20082",
+        "20057",
+        "20090",
+        "71132",
+        "20041",
+        "71125",
+        "20084",
+        "72013",
+        "20045",
+        "71138",
+        "20097",
+        "71115",
+        "20075",
+        "70039",
+        "20086",
+        "20063",
+        "71129",
+        "20085",
+        "71036",
+        "20079",
+        "20099",
+        "20061",
+        "71123",
+        "20083",
+        "71116",
+        "20047",
+        "20081",
+        "71131",
+        "20069",
+        "71039",
+        "20098",
+        "20049",
+        "10197",
+        "20096",
+        "20073",
+        "20100",
+        "20077",
+        "20059",
+        "20065",
+        "20055",
+        "20051",
+        "20053"
+      ],
+      "familyIntersection": []
+    },
+    {
+      "fold": 1,
+      "trainSourceIds": [
+        "10001",
+        "10002",
+        "10003",
+        "10005",
+        "10004",
+        "10010",
+        "10007",
+        "10008",
+        "10154",
+        "10006",
+        "10011",
+        "10009",
+        "70002",
+        "70017",
+        "70003",
+        "70010",
+        "10060",
+        "10111",
+        "10062",
+        "10070",
+        "10068",
+        "60010",
+        "10067",
+        "10065",
+        "71009",
+        "70011",
+        "10048",
+        "10054",
+        "10050",
+        "10061",
+        "71001",
+        "10023",
+        "60008",
+        "70033",
+        "10039",
+        "10035",
+        "10058",
+        "10031",
+        "60009",
+        "10038",
+        "60011",
+        "10134",
+        "73005",
+        "60026",
+        "60007",
+        "10015",
+        "70009",
+        "71002",
+        "60036",
+        "70006",
+        "70027",
+        "10025",
+        "10029",
+        "10043",
+        "70008",
+        "71013",
+        "70028",
+        "10152",
+        "60001",
+        "71014",
+        "71003",
+        "10057",
+        "10051",
+        "70032",
+        "71011",
+        "70026",
+        "73006",
+        "10052",
+        "70012",
+        "10014",
+        "60006",
+        "71007",
+        "70030",
+        "70014",
+        "70031",
+        "10055",
+        "71018",
+        "70029",
+        "10166",
+        "10168",
+        "20003",
+        "70007",
+        "71008",
+        "10018",
+        "20031",
+        "71006",
+        "71015",
+        "60034",
+        "20001",
+        "71022",
+        "71028",
+        "71025",
+        "20029",
+        "70019",
+        "71017",
+        "20005",
+        "10046",
+        "60030",
+        "10064",
+        "20023",
+        "10017",
+        "10164",
+        "20007",
+        "10019",
+        "71024",
+        "71023",
+        "10040",
+        "20033",
+        "71012",
+        "60032",
+        "71019",
+        "20009",
+        "71010",
+        "10122",
+        "71027",
+        "20037",
+        "70024",
+        "71021",
+        "20013",
+        "70005",
+        "70020",
+        "10071",
+        "20027",
+        "60028",
+        "10082",
+        "60004",
+        "20015",
+        "10037",
+        "60002",
+        "71030",
+        "10034",
+        "20039",
+        "71031",
+        "10044",
+        "20017",
+        "70022",
+        "70013",
+        "70015",
+        "20025",
+        "10024",
+        "10049",
+        "20019",
+        "71034",
+        "10030",
+        "70034",
+        "20021",
+        "70021",
+        "10032",
+        "10020",
+        "20011",
+        "10027",
+        "10033",
+        "10047",
+        "20035",
+        "71033",
+        "70038",
+        "71113",
+        "20043",
+        "71112",
+        "60060",
+        "60045",
+        "20088",
+        "60074",
+        "72012",
+        "71114",
+        "20067",
+        "60048",
+        "73003",
+        "60042",
+        "20087",
+        "71136",
+        "72003",
+        "71111",
+        "20071",
+        "60050",
+        "71137",
+        "71109",
+        "20082",
+        "70040",
+        "60079",
+        "60063",
+        "20057",
+        "60051",
+        "71107",
+        "73007",
+        "20090",
+        "71132",
+        "72009",
+        "60070",
+        "60069",
+        "20041",
+        "71125",
+        "71037",
+        "73011",
+        "71128",
+        "20084",
+        "72013",
+        "71117",
+        "60071",
+        "20045",
+        "71138",
+        "10190",
+        "71122",
+        "20097",
+        "71035",
+        "71115",
+        "20075",
+        "70037",
+        "71139",
+        "70039",
+        "20086",
+        "60055",
+        "60052",
+        "71121",
+        "20063",
+        "71129",
+        "10185",
+        "60053",
+        "20085",
+        "71036",
+        "60067",
+        "60059",
+        "20079",
+        "71104",
+        "73009",
+        "71130",
+        "20099",
+        "10170",
+        "20061",
+        "71123",
+        "10186",
+        "60078",
+        "20083",
+        "71116",
+        "10177",
+        "20047",
+        "10182",
+        "10189",
+        "20081",
+        "71131",
+        "10174",
+        "10179",
+        "20069",
+        "71039",
+        "10195",
+        "20098",
+        "60081",
+        "71103",
+        "20049",
+        "10181",
+        "71133",
+        "10197",
+        "20096",
+        "71127",
+        "10205",
+        "60065",
+        "20073",
+        "71105",
+        "60056",
+        "71106",
+        "20100",
+        "10175",
+        "60073",
+        "20077",
+        "60072",
+        "73008",
+        "10198",
+        "10202",
+        "71102",
+        "10171",
+        "20059",
+        "60076",
+        "10191",
+        "20095",
+        "10201",
+        "10176",
+        "20065",
+        "60068",
+        "60075",
+        "10196",
+        "10203",
+        "10209",
+        "71046",
+        "20055",
+        "71040",
+        "10188",
+        "71043",
+        "20093",
+        "71042",
+        "71045",
+        "20051",
+        "10184",
+        "71050",
+        "20091",
+        "60062",
+        "71044",
+        "20053",
+        "71049",
+        "73001",
+        "60066",
+        "20089",
+        "50004",
+        "50001",
+        "50008",
+        "110002",
+        "130006",
+        "50006",
+        "880001",
+        "130004",
+        "50017",
+        "50020",
+        "50011",
+        "130008",
+        "50018",
+        "880002",
+        "110005",
+        "660005",
+        "680013",
+        "50013",
+        "71141",
+        "71140",
+        "71143",
+        "71142",
+        "50014",
+        "73014",
+        "71145",
+        "71144",
+        "50002",
+        "71150",
+        "71201",
+        "71202",
+        "880010",
+        "71148",
+        "71149",
+        "880007",
+        "60094",
+        "150003",
+        "71207",
+        "90030",
+        "60096",
+        "60097",
+        "71213",
+        "150001",
+        "71230",
+        "90003",
+        "150006",
+        "71229",
+        "71217",
+        "71227",
+        "150014",
+        "150002",
+        "90002",
+        "90006",
+        "90055",
+        "71208",
+        "71224",
+        "90013",
+        "90014",
+        "71216",
+        "90005",
+        "71204",
+        "71218",
+        "150011",
+        "150007",
+        "90020",
+        "90008",
+        "71226",
+        "71215"
+      ],
+      "heldOutSourceIds": [
+        "10012",
+        "60023",
+        "10069",
+        "10059",
+        "70025",
+        "10053",
+        "10026",
+        "10063",
+        "70004",
+        "10066",
+        "71026",
+        "10056",
+        "10021",
+        "73004",
+        "10153",
+        "71005",
+        "71016",
+        "71004",
+        "71020",
+        "70018",
+        "10013",
+        "71032",
+        "10045",
+        "60005",
+        "70035",
+        "60003",
+        "70023",
+        "71029",
+        "10162",
+        "10041",
+        "10036",
+        "10161",
+        "60049",
+        "71119",
+        "71135",
+        "60058",
+        "60046",
+        "10172",
+        "60054",
+        "70036",
+        "71124",
+        "71120",
+        "60057",
+        "60064",
+        "71110",
+        "10187",
+        "71118",
+        "71134",
+        "71126",
+        "10183",
+        "71047",
+        "10194",
+        "10178",
+        "71108",
+        "71038",
+        "20094",
+        "10180",
+        "10199",
+        "71041",
+        "20092",
+        "10173",
+        "73002",
+        "10200",
+        "60077",
+        "71048",
+        "71101",
+        "10204",
+        "50010",
+        "50016",
+        "50012",
+        "110001",
+        "110003",
+        "660002",
+        "73013",
+        "71146",
+        "73016",
+        "880004",
+        "71147",
+        "73012",
+        "50005",
+        "71205",
+        "90026",
+        "71209",
+        "90012",
+        "150015",
+        "71206",
+        "71203",
+        "150004",
+        "90009",
+        "71223",
+        "71222",
+        "90025"
+      ],
+      "familyIntersection": []
+    },
+    {
+      "fold": 2,
+      "trainSourceIds": [
+        "10001",
+        "10002",
+        "10003",
+        "10005",
+        "10010",
+        "10012",
+        "10008",
+        "10154",
+        "10011",
+        "10009",
+        "60023",
+        "70017",
+        "70003",
+        "70010",
+        "10111",
+        "10062",
+        "10070",
+        "10068",
+        "10069",
+        "10067",
+        "10065",
+        "71009",
+        "10048",
+        "10054",
+        "10050",
+        "10061",
+        "10023",
+        "70033",
+        "10035",
+        "10058",
+        "10059",
+        "60009",
+        "70025",
+        "60011",
+        "10134",
+        "73005",
+        "10053",
+        "60007",
+        "10026",
+        "70009",
+        "71002",
+        "10063",
+        "70006",
+        "70027",
+        "10029",
+        "10043",
+        "70004",
+        "71013",
+        "70028",
+        "10066",
+        "60001",
+        "71014",
+        "71026",
+        "71003",
+        "10057",
+        "10056",
+        "70032",
+        "71011",
+        "10021",
+        "73006",
+        "73004",
+        "70012",
+        "10014",
+        "10153",
+        "71007",
+        "70030",
+        "71005",
+        "70031",
+        "71016",
+        "71018",
+        "70029",
+        "10168",
+        "20003",
+        "70007",
+        "71004",
+        "10018",
+        "20031",
+        "71006",
+        "71015",
+        "20001",
+        "71020",
+        "71022",
+        "71028",
+        "20029",
+        "70018",
+        "70019",
+        "71017",
+        "20005",
+        "10046",
+        "10013",
+        "10064",
+        "20023",
+        "10017",
+        "71032",
+        "20007",
+        "10019",
+        "71024",
+        "71023",
+        "20033",
+        "71012",
+        "60032",
+        "71019",
+        "20009",
+        "10045",
+        "10122",
+        "71027",
+        "20037",
+        "70024",
+        "60005",
+        "71021",
+        "20013",
+        "70005",
+        "70020",
+        "70035",
+        "20027",
+        "60028",
+        "10082",
+        "60003",
+        "20015",
+        "10037",
+        "60002",
+        "71030",
+        "20039",
+        "70023",
+        "71031",
+        "10044",
+        "20017",
+        "71029",
+        "70013",
+        "70015",
+        "20025",
+        "10024",
+        "10162",
+        "20019",
+        "71034",
+        "10030",
+        "10041",
+        "20021",
+        "70021",
+        "10032",
+        "10020",
+        "20011",
+        "10036",
+        "10027",
+        "10033",
+        "10047",
+        "20035",
+        "10161",
+        "70038",
+        "71113",
+        "20043",
+        "60049",
+        "60060",
+        "60045",
+        "20088",
+        "60074",
+        "71119",
+        "71114",
+        "20067",
+        "71135",
+        "73003",
+        "60042",
+        "20087",
+        "71136",
+        "60058",
+        "71111",
+        "20071",
+        "60050",
+        "60046",
+        "71109",
+        "20082",
+        "70040",
+        "60079",
+        "10172",
+        "20057",
+        "60051",
+        "71107",
+        "60054",
+        "20090",
+        "71132",
+        "72009",
+        "60070",
+        "20041",
+        "71125",
+        "71037",
+        "73011",
+        "20084",
+        "70036",
+        "72013",
+        "71117",
+        "60071",
+        "20045",
+        "71124",
+        "71138",
+        "10190",
+        "71122",
+        "20097",
+        "71120",
+        "71115",
+        "20075",
+        "70037",
+        "60057",
+        "70039",
+        "20086",
+        "60055",
+        "60052",
+        "60064",
+        "20063",
+        "71129",
+        "10185",
+        "71110",
+        "20085",
+        "71036",
+        "60067",
+        "60059",
+        "20079",
+        "10187",
+        "73009",
+        "71130",
+        "20099",
+        "71118",
+        "20061",
+        "71123",
+        "10186",
+        "60078",
+        "20083",
+        "71134",
+        "71116",
+        "10177",
+        "20047",
+        "10182",
+        "71126",
+        "20081",
+        "71131",
+        "10174",
+        "20069",
+        "10183",
+        "71039",
+        "10195",
+        "20098",
+        "60081",
+        "71047",
+        "20049",
+        "10181",
+        "10194",
+        "10197",
+        "20096",
+        "71127",
+        "10205",
+        "10178",
+        "20073",
+        "71105",
+        "60056",
+        "20100",
+        "71108",
+        "10175",
+        "60073",
+        "20077",
+        "71038",
+        "73008",
+        "20094",
+        "10202",
+        "71102",
+        "20059",
+        "10180",
+        "60076",
+        "10191",
+        "10199",
+        "20095",
+        "10201",
+        "71041",
+        "20065",
+        "60068",
+        "60075",
+        "20092",
+        "10203",
+        "10173",
+        "71046",
+        "20055",
+        "71040",
+        "73002",
+        "71043",
+        "20093",
+        "10200",
+        "71042",
+        "71045",
+        "20051",
+        "60077",
+        "71050",
+        "20091",
+        "71048",
+        "71044",
+        "20053",
+        "71101",
+        "73001",
+        "60066",
+        "10204",
+        "50004",
+        "50001",
+        "50010",
+        "50008",
+        "110002",
+        "50016",
+        "50006",
+        "880001",
+        "50012",
+        "50017",
+        "110001",
+        "50011",
+        "130008",
+        "110003",
+        "880002",
+        "110005",
+        "660002",
+        "680013",
+        "73013",
+        "71141",
+        "71140",
+        "71146",
+        "73016",
+        "71142",
+        "50014",
+        "73014",
+        "71145",
+        "880004",
+        "50002",
+        "71150",
+        "71147",
+        "71202",
+        "880010",
+        "73012",
+        "71148",
+        "71149",
+        "50005",
+        "71205",
+        "60094",
+        "150003",
+        "90026",
+        "90030",
+        "71209",
+        "60097",
+        "71213",
+        "90012",
+        "71230",
+        "90003",
+        "71229",
+        "71217",
+        "150015",
+        "150014",
+        "150002",
+        "71206",
+        "90006",
+        "90055",
+        "71203",
+        "71208",
+        "71224",
+        "150004",
+        "90014",
+        "71216",
+        "90009",
+        "71204",
+        "71223",
+        "150011",
+        "150007",
+        "71222",
+        "90008",
+        "71226",
+        "90025"
+      ],
+      "heldOutSourceIds": [
+        "10004",
+        "10007",
+        "10006",
+        "70002",
+        "10060",
+        "60010",
+        "70011",
+        "71001",
+        "60008",
+        "10039",
+        "10031",
+        "10038",
+        "60026",
+        "10015",
+        "60036",
+        "10025",
+        "70008",
+        "10152",
+        "10051",
+        "70026",
+        "10052",
+        "60006",
+        "70014",
+        "10055",
+        "10166",
+        "71008",
+        "60034",
+        "71025",
+        "60030",
+        "10164",
+        "10040",
+        "71010",
+        "10071",
+        "60004",
+        "10034",
+        "70022",
+        "10049",
+        "70034",
+        "71033",
+        "71112",
+        "72012",
+        "60048",
+        "72003",
+        "71137",
+        "60063",
+        "73007",
+        "60069",
+        "71128",
+        "71035",
+        "71139",
+        "71121",
+        "60053",
+        "71104",
+        "10170",
+        "10189",
+        "10179",
+        "71103",
+        "71133",
+        "60065",
+        "71106",
+        "60072",
+        "10198",
+        "10171",
+        "10176",
+        "10196",
+        "10209",
+        "10188",
+        "10184",
+        "60062",
+        "71049",
+        "20089",
+        "130006",
+        "130004",
+        "50020",
+        "50018",
+        "660005",
+        "50013",
+        "71143",
+        "71144",
+        "71201",
+        "880007",
+        "71207",
+        "60096",
+        "150001",
+        "150006",
+        "71227",
+        "90002",
+        "90013",
+        "90005",
+        "71218",
+        "90020",
+        "71215"
+      ],
+      "familyIntersection": []
+    },
+    {
+      "fold": 3,
+      "trainSourceIds": [
+        "10001",
+        "10003",
+        "10005",
+        "10004",
+        "10010",
+        "10012",
+        "10007",
+        "10154",
+        "10006",
+        "10009",
+        "60023",
+        "70002",
+        "70003",
+        "70010",
+        "10060",
+        "10070",
+        "10068",
+        "10069",
+        "60010",
+        "10065",
+        "71009",
+        "70011",
+        "10054",
+        "10050",
+        "10061",
+        "71001",
+        "10023",
+        "60008",
+        "70033",
+        "10039",
+        "10058",
+        "10059",
+        "10031",
+        "60009",
+        "70025",
+        "10038",
+        "10134",
+        "60026",
+        "10053",
+        "10015",
+        "10026",
+        "70009",
+        "60036",
+        "10063",
+        "70006",
+        "10025",
+        "10029",
+        "70008",
+        "70004",
+        "71013",
+        "10152",
+        "10066",
+        "60001",
+        "71026",
+        "71003",
+        "10051",
+        "10056",
+        "70032",
+        "70026",
+        "10021",
+        "73006",
+        "10052",
+        "73004",
+        "70012",
+        "60006",
+        "10153",
+        "71007",
+        "70014",
+        "71005",
+        "10055",
+        "71016",
+        "71018",
+        "10166",
+        "10168",
+        "20003",
+        "71008",
+        "71004",
+        "10018",
+        "20031",
+        "71006",
+        "60034",
+        "20001",
+        "71020",
+        "71022",
+        "71028",
+        "71025",
+        "20029",
+        "70018",
+        "70019",
+        "71017",
+        "20005",
+        "60030",
+        "10013",
+        "10064",
+        "20023",
+        "10164",
+        "71032",
+        "20007",
+        "10019",
+        "71024",
+        "10040",
+        "20033",
+        "71012",
+        "60032",
+        "20009",
+        "71010",
+        "10045",
+        "10122",
+        "71027",
+        "20037",
+        "60005",
+        "71021",
+        "20013",
+        "70005",
+        "10071",
+        "70035",
+        "20027",
+        "60028",
+        "10082",
+        "60004",
+        "60003",
+        "20015",
+        "10037",
+        "60002",
+        "10034",
+        "20039",
+        "70023",
+        "71031",
+        "20017",
+        "70022",
+        "71029",
+        "70013",
+        "70015",
+        "20025",
+        "10049",
+        "10162",
+        "20019",
+        "71034",
+        "70034",
+        "10041",
+        "20021",
+        "70021",
+        "10032",
+        "20011",
+        "10036",
+        "10027",
+        "10033",
+        "20035",
+        "71033",
+        "10161",
+        "70038",
+        "71113",
+        "20043",
+        "71112",
+        "60049",
+        "60060",
+        "60045",
+        "20088",
+        "72012",
+        "71119",
+        "71114",
+        "20067",
+        "60048",
+        "71135",
+        "73003",
+        "60042",
+        "20087",
+        "72003",
+        "60058",
+        "71111",
+        "20071",
+        "71137",
+        "60046",
+        "71109",
+        "20082",
+        "70040",
+        "60063",
+        "10172",
+        "20057",
+        "60051",
+        "73007",
+        "60054",
+        "20090",
+        "71132",
+        "72009",
+        "60069",
+        "20041",
+        "71125",
+        "71037",
+        "71128",
+        "20084",
+        "70036",
+        "72013",
+        "71117",
+        "20045",
+        "71124",
+        "71138",
+        "10190",
+        "20097",
+        "71035",
+        "71120",
+        "71115",
+        "20075",
+        "70037",
+        "71139",
+        "60057",
+        "70039",
+        "20086",
+        "60055",
+        "71121",
+        "60064",
+        "20063",
+        "71129",
+        "60053",
+        "71110",
+        "20085",
+        "71036",
+        "60067",
+        "20079",
+        "71104",
+        "10187",
+        "73009",
+        "20099",
+        "10170",
+        "71118",
+        "20061",
+        "71123",
+        "10186",
+        "20083",
+        "71134",
+        "71116",
+        "10177",
+        "20047",
+        "10189",
+        "71126",
+        "20081",
+        "71131",
+        "10174",
+        "10179",
+        "20069",
+        "10183",
+        "71039",
+        "10195",
+        "20098",
+        "71103",
+        "71047",
+        "20049",
+        "71133",
+        "10194",
+        "10197",
+        "20096",
+        "71127",
+        "60065",
+        "10178",
+        "20073",
+        "71105",
+        "71106",
+        "20100",
+        "71108",
+        "10175",
+        "20077",
+        "60072",
+        "71038",
+        "10198",
+        "20094",
+        "10202",
+        "10171",
+        "20059",
+        "10180",
+        "60076",
+        "10199",
+        "20095",
+        "10176",
+        "71041",
+        "20065",
+        "60068",
+        "10196",
+        "20092",
+        "10209",
+        "10173",
+        "71046",
+        "20055",
+        "10188",
+        "73002",
+        "71043",
+        "10200",
+        "71042",
+        "20051",
+        "10184",
+        "60077",
+        "71050",
+        "60062",
+        "71048",
+        "20053",
+        "71049",
+        "71101",
+        "73001",
+        "20089",
+        "10204",
+        "50004",
+        "50010",
+        "50008",
+        "130006",
+        "50016",
+        "50006",
+        "130004",
+        "50012",
+        "50017",
+        "50020",
+        "110001",
+        "50011",
+        "50018",
+        "110003",
+        "880002",
+        "660005",
+        "660002",
+        "50013",
+        "73013",
+        "71141",
+        "71146",
+        "71143",
+        "73016",
+        "71142",
+        "73014",
+        "71144",
+        "880004",
+        "50002",
+        "71201",
+        "71147",
+        "71202",
+        "73012",
+        "71148",
+        "880007",
+        "50005",
+        "71205",
+        "60094",
+        "71207",
+        "90026",
+        "60096",
+        "71209",
+        "60097",
+        "150001",
+        "90012",
+        "71230",
+        "150006",
+        "71229",
+        "71227",
+        "150015",
+        "150014",
+        "90002",
+        "71206",
+        "90006",
+        "71203",
+        "71208",
+        "90013",
+        "150004",
+        "90014",
+        "90005",
+        "90009",
+        "71204",
+        "71218",
+        "71223",
+        "150011",
+        "90020",
+        "71222",
+        "90008",
+        "71215",
+        "90025"
+      ],
+      "heldOutSourceIds": [
+        "10002",
+        "10008",
+        "10011",
+        "70017",
+        "10111",
+        "10062",
+        "10067",
+        "10048",
+        "10035",
+        "60011",
+        "73005",
+        "60007",
+        "71002",
+        "70027",
+        "10043",
+        "70028",
+        "71014",
+        "10057",
+        "71011",
+        "10014",
+        "70030",
+        "70031",
+        "70029",
+        "70007",
+        "71015",
+        "10046",
+        "10017",
+        "71023",
+        "71019",
+        "70024",
+        "70020",
+        "71030",
+        "10044",
+        "10024",
+        "10030",
+        "10020",
+        "10047",
+        "60074",
+        "71136",
+        "60050",
+        "60079",
+        "71107",
+        "60070",
+        "73011",
+        "60071",
+        "71122",
+        "60052",
+        "10185",
+        "60059",
+        "71130",
+        "60078",
+        "10182",
+        "60081",
+        "10181",
+        "10205",
+        "60056",
+        "60073",
+        "73008",
+        "71102",
+        "10191",
+        "10201",
+        "60075",
+        "10203",
+        "71040",
+        "20093",
+        "71045",
+        "20091",
+        "71044",
+        "60066",
+        "50001",
+        "110002",
+        "880001",
+        "130008",
+        "110005",
+        "680013",
+        "71140",
+        "50014",
+        "71145",
+        "71150",
+        "880010",
+        "71149",
+        "150003",
+        "90030",
+        "71213",
+        "90003",
+        "71217",
+        "150002",
+        "90055",
+        "71224",
+        "71216",
+        "150007",
+        "71226"
+      ],
+      "familyIntersection": []
+    },
+    {
+      "fold": 4,
+      "trainSourceIds": [
+        "10002",
+        "10005",
+        "10004",
+        "10012",
+        "10007",
+        "10008",
+        "10006",
+        "10011",
+        "60023",
+        "70002",
+        "70017",
+        "70010",
+        "10060",
+        "10111",
+        "10062",
+        "10068",
+        "10069",
+        "60010",
+        "10067",
+        "71009",
+        "70011",
+        "10048",
+        "10050",
+        "71001",
+        "60008",
+        "10039",
+        "10035",
+        "10059",
+        "10031",
+        "70025",
+        "10038",
+        "60011",
+        "73005",
+        "60026",
+        "10053",
+        "60007",
+        "10015",
+        "10026",
+        "71002",
+        "60036",
+        "10063",
+        "70027",
+        "10025",
+        "10043",
+        "70008",
+        "70004",
+        "70028",
+        "10152",
+        "10066",
+        "71014",
+        "71026",
+        "10057",
+        "10051",
+        "10056",
+        "71011",
+        "70026",
+        "10021",
+        "10052",
+        "73004",
+        "10014",
+        "60006",
+        "10153",
+        "70030",
+        "70014",
+        "71005",
+        "70031",
+        "10055",
+        "71016",
+        "70029",
+        "10166",
+        "20003",
+        "70007",
+        "71008",
+        "71004",
+        "10018",
+        "20031",
+        "71015",
+        "60034",
+        "20001",
+        "71020",
+        "71022",
+        "71025",
+        "20029",
+        "70018",
+        "70019",
+        "20005",
+        "10046",
+        "60030",
+        "10013",
+        "10064",
+        "20023",
+        "10017",
+        "10164",
+        "71032",
+        "20007",
+        "10019",
+        "71023",
+        "10040",
+        "20033",
+        "71012",
+        "71019",
+        "20009",
+        "71010",
+        "10045",
+        "10122",
+        "20037",
+        "70024",
+        "60005",
+        "71021",
+        "20013",
+        "70020",
+        "10071",
+        "70035",
+        "20027",
+        "60028",
+        "60004",
+        "60003",
+        "20015",
+        "10037",
+        "71030",
+        "10034",
+        "20039",
+        "70023",
+        "71031",
+        "10044",
+        "20017",
+        "70022",
+        "71029",
+        "70013",
+        "20025",
+        "10024",
+        "10049",
+        "10162",
+        "20019",
+        "10030",
+        "70034",
+        "10041",
+        "20021",
+        "70021",
+        "10020",
+        "20011",
+        "10036",
+        "10027",
+        "10047",
+        "20035",
+        "71033",
+        "10161",
+        "70038",
+        "20043",
+        "71112",
+        "60049",
+        "60060",
+        "20088",
+        "60074",
+        "72012",
+        "71119",
+        "71114",
+        "20067",
+        "60048",
+        "71135",
+        "73003",
+        "20087",
+        "71136",
+        "72003",
+        "60058",
+        "71111",
+        "20071",
+        "60050",
+        "71137",
+        "60046",
+        "71109",
+        "20082",
+        "60079",
+        "60063",
+        "10172",
+        "20057",
+        "71107",
+        "73007",
+        "60054",
+        "20090",
+        "71132",
+        "60070",
+        "60069",
+        "20041",
+        "71125",
+        "73011",
+        "71128",
+        "20084",
+        "70036",
+        "72013",
+        "60071",
+        "20045",
+        "71124",
+        "71138",
+        "71122",
+        "20097",
+        "71035",
+        "71120",
+        "71115",
+        "20075",
+        "71139",
+        "60057",
+        "70039",
+        "20086",
+        "60052",
+        "71121",
+        "60064",
+        "20063",
+        "71129",
+        "10185",
+        "60053",
+        "71110",
+        "20085",
+        "71036",
+        "60059",
+        "20079",
+        "71104",
+        "10187",
+        "71130",
+        "20099",
+        "10170",
+        "71118",
+        "20061",
+        "71123",
+        "60078",
+        "20083",
+        "71134",
+        "71116",
+        "20047",
+        "10182",
+        "10189",
+        "71126",
+        "20081",
+        "71131",
+        "10179",
+        "20069",
+        "10183",
+        "71039",
+        "20098",
+        "60081",
+        "71103",
+        "71047",
+        "20049",
+        "10181",
+        "71133",
+        "10194",
+        "10197",
+        "20096",
+        "10205",
+        "60065",
+        "10178",
+        "20073",
+        "60056",
+        "71106",
+        "20100",
+        "71108",
+        "60073",
+        "20077",
+        "60072",
+        "71038",
+        "73008",
+        "10198",
+        "20094",
+        "71102",
+        "10171",
+        "20059",
+        "10180",
+        "10191",
+        "10199",
+        "10201",
+        "10176",
+        "71041",
+        "20065",
+        "60075",
+        "10196",
+        "20092",
+        "10203",
+        "10209",
+        "10173",
+        "20055",
+        "71040",
+        "10188",
+        "73002",
+        "20093",
+        "10200",
+        "71045",
+        "20051",
+        "10184",
+        "60077",
+        "20091",
+        "60062",
+        "71048",
+        "71044",
+        "20053",
+        "71049",
+        "71101",
+        "60066",
+        "20089",
+        "10204",
+        "50001",
+        "50010",
+        "110002",
+        "130006",
+        "50016",
+        "880001",
+        "130004",
+        "50012",
+        "50020",
+        "110001",
+        "130008",
+        "50018",
+        "110003",
+        "110005",
+        "660005",
+        "660002",
+        "680013",
+        "50013",
+        "73013",
+        "71140",
+        "71146",
+        "71143",
+        "73016",
+        "50014",
+        "71145",
+        "71144",
+        "880004",
+        "71150",
+        "71201",
+        "71147",
+        "880010",
+        "73012",
+        "71149",
+        "880007",
+        "50005",
+        "71205",
+        "150003",
+        "71207",
+        "90026",
+        "90030",
+        "60096",
+        "71209",
+        "71213",
+        "150001",
+        "90012",
+        "90003",
+        "150006",
+        "71217",
+        "71227",
+        "150015",
+        "150002",
+        "90002",
+        "71206",
+        "90055",
+        "71203",
+        "71224",
+        "90013",
+        "150004",
+        "71216",
+        "90005",
+        "90009",
+        "71218",
+        "71223",
+        "150007",
+        "90020",
+        "71222",
+        "71226",
+        "71215",
+        "90025"
+      ],
+      "heldOutSourceIds": [
+        "10001",
+        "10003",
+        "10010",
+        "10154",
+        "10009",
+        "70003",
+        "10070",
+        "10065",
+        "10054",
+        "10061",
+        "10023",
+        "70033",
+        "10058",
+        "60009",
+        "10134",
+        "70009",
+        "70006",
+        "10029",
+        "71013",
+        "60001",
+        "71003",
+        "70032",
+        "73006",
+        "70012",
+        "71007",
+        "71018",
+        "10168",
+        "71006",
+        "71028",
+        "71017",
+        "71024",
+        "60032",
+        "71027",
+        "70005",
+        "10082",
+        "60002",
+        "70015",
+        "71034",
+        "10032",
+        "10033",
+        "71113",
+        "60045",
+        "60042",
+        "70040",
+        "60051",
+        "72009",
+        "71037",
+        "71117",
+        "10190",
+        "70037",
+        "60055",
+        "60067",
+        "73009",
+        "10186",
+        "10177",
+        "10174",
+        "10195",
+        "71127",
+        "71105",
+        "10175",
+        "10202",
+        "60076",
+        "20095",
+        "60068",
+        "71046",
+        "71043",
+        "71042",
+        "71050",
+        "73001",
+        "50004",
+        "50008",
+        "50006",
+        "50017",
+        "50011",
+        "880002",
+        "71141",
+        "71142",
+        "73014",
+        "50002",
+        "71202",
+        "71148",
+        "60094",
+        "60097",
+        "71230",
+        "71229",
+        "150014",
+        "90006",
+        "71208",
+        "90014",
+        "71204",
+        "150011",
+        "90008"
+      ],
+      "familyIntersection": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "status": "STRUCTURAL_PRECHECK_ONLY_PENDING_VISUAL_CURRENT_REPLAY_DIFFICULTY",
+  "acceptedCount": 0,
+  "candidatePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\ordinary_guide_support_pilot_v4\\proposals.json",
+  "candidatePackSha256": "52dcb690a9c99aebb80849ab8d9201a07872ab47361e311d71072131cd72ec5c",
+  "templatePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source_templates.json",
+  "templatePackSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+  "sourcePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source500_native.json",
+  "sourcePackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+  "levels": [
+    {
+      "candidateId": 8001000,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "angleDeltaDegrees": -179.99999499104388
+    },
+    {
+      "candidateId": 8001001,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "angleDeltaDegrees": -179.9999846036112
+    },
+    {
+      "candidateId": 8001002,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "angleDeltaDegrees": -179.99999499104388
+    },
+    {
+      "candidateId": 8015001,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "angleDeltaDegrees": -9.99999107302257
+    },
+    {
+      "candidateId": 8015000,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "angleDeltaDegrees": 99.99999877121698
+    },
+    {
+      "candidateId": 8015002,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "angleDeltaDegrees": 239.99998756270762
+    },
+    {
+      "candidateId": 8022000,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "angleDeltaDegrees": 342.9999959658494
+    },
+    {
+      "candidateId": 8022001,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "angleDeltaDegrees": -179.9999846036112
+    }
+  ],
+  "limits": "Native asset/raw geometry and canonical novelty are not native gameplay, difficulty, human motion or acceptance. Do not interrupt active baseline run."
+}

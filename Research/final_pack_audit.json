@@ -1,0 +1,1521 @@
+{
+  "passed": true,
+  "generatedCount": 300,
+  "originalCount": 507,
+  "trainingOriginalCount": 500,
+  "extraNoveltyOnlyOriginalCount": 7,
+  "uniqueOriginalIds": 507,
+  "packSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+  "adapterSha256": "3db01e6246233f484b2c21a1fc99cade4e0083083cbf5d79a09b399eeca2f420",
+  "canonicalOriginalCollisions": [],
+  "canonicalGeneratedDuplicates": [],
+  "nearCopyThreshold": 0.1,
+  "nearCopyCollisions": [],
+  "minimumOriginalDistance": 0.2857142857142857,
+  "minimumGeneratedPairDistance": 0.4,
+  "replayCount": 300,
+  "replayFailed": [],
+  "comparisons": [
+    {
+      "generated": "new-001",
+      "nearestOriginal": "10001",
+      "distance": 0.2857142857142857
+    },
+    {
+      "generated": "new-002",
+      "nearestOriginal": "10001",
+      "distance": 0.5
+    },
+    {
+      "generated": "new-003",
+      "nearestOriginal": "10007",
+      "distance": 0.56
+    },
+    {
+      "generated": "new-004",
+      "nearestOriginal": "10007",
+      "distance": 0.5454545454545454
+    },
+    {
+      "generated": "new-005",
+      "nearestOriginal": "10008",
+      "distance": 0.53125
+    },
+    {
+      "generated": "new-006",
+      "nearestOriginal": "10003",
+      "distance": 0.65
+    },
+    {
+      "generated": "new-007",
+      "nearestOriginal": "10007",
+      "distance": 0.5897435897435898
+    },
+    {
+      "generated": "new-008",
+      "nearestOriginal": "10007",
+      "distance": 0.5428571428571429
+    },
+    {
+      "generated": "new-009",
+      "nearestOriginal": "10180",
+      "distance": 0.7384615384615385
+    },
+    {
+      "generated": "new-010",
+      "nearestOriginal": "60069",
+      "distance": 0.78
+    },
+    {
+      "generated": "new-011",
+      "nearestOriginal": "10005",
+      "distance": 0.6486486486486487
+    },
+    {
+      "generated": "new-012",
+      "nearestOriginal": "10005",
+      "distance": 0.4
+    },
+    {
+      "generated": "new-013",
+      "nearestOriginal": "10007",
+      "distance": 0.5853658536585367
+    },
+    {
+      "generated": "new-014",
+      "nearestOriginal": "71012",
+      "distance": 0.7924528301886793
+    },
+    {
+      "generated": "new-015",
+      "nearestOriginal": "70025",
+      "distance": 0.6857142857142857
+    },
+    {
+      "generated": "new-016",
+      "nearestOriginal": "70015",
+      "distance": 0.7875
+    },
+    {
+      "generated": "new-017",
+      "nearestOriginal": "10174",
+      "distance": 0.5471698113207547
+    },
+    {
+      "generated": "new-018",
+      "nearestOriginal": "10065",
+      "distance": 0.7530864197530864
+    },
+    {
+      "generated": "new-019",
+      "nearestOriginal": "71120",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-020",
+      "nearestOriginal": "10036",
+      "distance": 0.8695652173913043
+    },
+    {
+      "generated": "new-021",
+      "nearestOriginal": "71112",
+      "distance": 0.8888888888888888
+    },
+    {
+      "generated": "new-022",
+      "nearestOriginal": "71015",
+      "distance": 0.7888888888888889
+    },
+    {
+      "generated": "new-023",
+      "nearestOriginal": "20041",
+      "distance": 0.7844827586206897
+    },
+    {
+      "generated": "new-024",
+      "nearestOriginal": "71017",
+      "distance": 0.7634408602150538
+    },
+    {
+      "generated": "new-025",
+      "nearestOriginal": "10174",
+      "distance": 0.7792207792207793
+    },
+    {
+      "generated": "new-026",
+      "nearestOriginal": "71043",
+      "distance": 0.8059701492537313
+    },
+    {
+      "generated": "new-027",
+      "nearestOriginal": "20075",
+      "distance": 0.7307692307692308
+    },
+    {
+      "generated": "new-028",
+      "nearestOriginal": "10069",
+      "distance": 0.6071428571428572
+    },
+    {
+      "generated": "new-029",
+      "nearestOriginal": "60060",
+      "distance": 0.7582417582417582
+    },
+    {
+      "generated": "new-030",
+      "nearestOriginal": "10166",
+      "distance": 0.8461538461538461
+    },
+    {
+      "generated": "new-031",
+      "nearestOriginal": "71003",
+      "distance": 0.7941176470588236
+    },
+    {
+      "generated": "new-032",
+      "nearestOriginal": "71129",
+      "distance": 0.7692307692307692
+    },
+    {
+      "generated": "new-033",
+      "nearestOriginal": "71150",
+      "distance": 0.8736842105263158
+    },
+    {
+      "generated": "new-034",
+      "nearestOriginal": "20063",
+      "distance": 0.7289719626168225
+    },
+    {
+      "generated": "new-035",
+      "nearestOriginal": "90013",
+      "distance": 0.7443609022556391
+    },
+    {
+      "generated": "new-036",
+      "nearestOriginal": "10011",
+      "distance": 0.7121212121212122
+    },
+    {
+      "generated": "new-037",
+      "nearestOriginal": "10069",
+      "distance": 0.735632183908046
+    },
+    {
+      "generated": "new-038",
+      "nearestOriginal": "71218",
+      "distance": 0.9172413793103449
+    },
+    {
+      "generated": "new-039",
+      "nearestOriginal": "10196",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-040",
+      "nearestOriginal": "70011",
+      "distance": 0.8902439024390244
+    },
+    {
+      "generated": "new-041",
+      "nearestOriginal": "10069",
+      "distance": 0.6739130434782609
+    },
+    {
+      "generated": "new-042",
+      "nearestOriginal": "20029",
+      "distance": 0.7636363636363637
+    },
+    {
+      "generated": "new-043",
+      "nearestOriginal": "71011",
+      "distance": 0.71875
+    },
+    {
+      "generated": "new-044",
+      "nearestOriginal": "10180",
+      "distance": 0.7340425531914894
+    },
+    {
+      "generated": "new-045",
+      "nearestOriginal": "71226",
+      "distance": 0.693069306930693
+    },
+    {
+      "generated": "new-046",
+      "nearestOriginal": "71012",
+      "distance": 0.8200000000000001
+    },
+    {
+      "generated": "new-047",
+      "nearestOriginal": "10007",
+      "distance": 0.7611940298507462
+    },
+    {
+      "generated": "new-048",
+      "nearestOriginal": "71012",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-049",
+      "nearestOriginal": "71012",
+      "distance": 0.85
+    },
+    {
+      "generated": "new-050",
+      "nearestOriginal": "71016",
+      "distance": 0.7428571428571429
+    },
+    {
+      "generated": "new-051",
+      "nearestOriginal": "10023",
+      "distance": 0.7294117647058824
+    },
+    {
+      "generated": "new-052",
+      "nearestOriginal": "20027",
+      "distance": 0.7428571428571429
+    },
+    {
+      "generated": "new-053",
+      "nearestOriginal": "20021",
+      "distance": 0.8188976377952756
+    },
+    {
+      "generated": "new-054",
+      "nearestOriginal": "20041",
+      "distance": 0.7830188679245282
+    },
+    {
+      "generated": "new-055",
+      "nearestOriginal": "60060",
+      "distance": 0.7407407407407407
+    },
+    {
+      "generated": "new-056",
+      "nearestOriginal": "10166",
+      "distance": 0.6666666666666667
+    },
+    {
+      "generated": "new-057",
+      "nearestOriginal": "71025",
+      "distance": 0.735632183908046
+    },
+    {
+      "generated": "new-058",
+      "nearestOriginal": "71012",
+      "distance": 0.7697841726618705
+    },
+    {
+      "generated": "new-059",
+      "nearestOriginal": "20021",
+      "distance": 0.7906976744186046
+    },
+    {
+      "generated": "new-060",
+      "nearestOriginal": "10069",
+      "distance": 0.7476635514018692
+    },
+    {
+      "generated": "new-061",
+      "nearestOriginal": "71218",
+      "distance": 0.7610619469026548
+    },
+    {
+      "generated": "new-062",
+      "nearestOriginal": "70015",
+      "distance": 0.7407407407407407
+    },
+    {
+      "generated": "new-063",
+      "nearestOriginal": "10172",
+      "distance": 0.7777777777777778
+    },
+    {
+      "generated": "new-064",
+      "nearestOriginal": "71043",
+      "distance": 0.860655737704918
+    },
+    {
+      "generated": "new-065",
+      "nearestOriginal": "71218",
+      "distance": 0.7333333333333334
+    },
+    {
+      "generated": "new-066",
+      "nearestOriginal": "10069",
+      "distance": 0.6756756756756757
+    },
+    {
+      "generated": "new-067",
+      "nearestOriginal": "71007",
+      "distance": 0.7789473684210526
+    },
+    {
+      "generated": "new-068",
+      "nearestOriginal": "20027",
+      "distance": 0.7777777777777778
+    },
+    {
+      "generated": "new-069",
+      "nearestOriginal": "20075",
+      "distance": 0.7454545454545455
+    },
+    {
+      "generated": "new-070",
+      "nearestOriginal": "70034",
+      "distance": 0.8695652173913043
+    },
+    {
+      "generated": "new-071",
+      "nearestOriginal": "71048",
+      "distance": 0.7903225806451613
+    },
+    {
+      "generated": "new-072",
+      "nearestOriginal": "71012",
+      "distance": 0.8017241379310345
+    },
+    {
+      "generated": "new-073",
+      "nearestOriginal": "70023",
+      "distance": 0.7721518987341772
+    },
+    {
+      "generated": "new-074",
+      "nearestOriginal": "71018",
+      "distance": 0.7777777777777778
+    },
+    {
+      "generated": "new-075",
+      "nearestOriginal": "10069",
+      "distance": 0.7051282051282051
+    },
+    {
+      "generated": "new-076",
+      "nearestOriginal": "71011",
+      "distance": 0.74
+    },
+    {
+      "generated": "new-077",
+      "nearestOriginal": "71012",
+      "distance": 0.7538461538461538
+    },
+    {
+      "generated": "new-078",
+      "nearestOriginal": "10014",
+      "distance": 0.7303370786516854
+    },
+    {
+      "generated": "new-079",
+      "nearestOriginal": "90030",
+      "distance": 0.77
+    },
+    {
+      "generated": "new-080",
+      "nearestOriginal": "10014",
+      "distance": 0.7835051546391752
+    },
+    {
+      "generated": "new-081",
+      "nearestOriginal": "90005",
+      "distance": 0.7384615384615385
+    },
+    {
+      "generated": "new-082",
+      "nearestOriginal": "60055",
+      "distance": 0.7073170731707317
+    },
+    {
+      "generated": "new-083",
+      "nearestOriginal": "10185",
+      "distance": 0.7317073170731707
+    },
+    {
+      "generated": "new-084",
+      "nearestOriginal": "60064",
+      "distance": 0.8200000000000001
+    },
+    {
+      "generated": "new-085",
+      "nearestOriginal": "10197",
+      "distance": 0.775
+    },
+    {
+      "generated": "new-086",
+      "nearestOriginal": "71012",
+      "distance": 0.815068493150685
+    },
+    {
+      "generated": "new-087",
+      "nearestOriginal": "71032",
+      "distance": 0.775
+    },
+    {
+      "generated": "new-088",
+      "nearestOriginal": "10069",
+      "distance": 0.6625
+    },
+    {
+      "generated": "new-089",
+      "nearestOriginal": "20021",
+      "distance": 0.8636363636363636
+    },
+    {
+      "generated": "new-090",
+      "nearestOriginal": "70011",
+      "distance": 0.7972972972972973
+    },
+    {
+      "generated": "new-091",
+      "nearestOriginal": "71012",
+      "distance": 0.8166666666666667
+    },
+    {
+      "generated": "new-092",
+      "nearestOriginal": "71213",
+      "distance": 0.8059701492537313
+    },
+    {
+      "generated": "new-093",
+      "nearestOriginal": "20075",
+      "distance": 0.7340425531914894
+    },
+    {
+      "generated": "new-094",
+      "nearestOriginal": "71226",
+      "distance": 0.7102803738317758
+    },
+    {
+      "generated": "new-095",
+      "nearestOriginal": "10035",
+      "distance": 0.6744186046511628
+    },
+    {
+      "generated": "new-096",
+      "nearestOriginal": "10069",
+      "distance": 0.69
+    },
+    {
+      "generated": "new-097",
+      "nearestOriginal": "60060",
+      "distance": 0.7764705882352941
+    },
+    {
+      "generated": "new-098",
+      "nearestOriginal": "10069",
+      "distance": 0.6265060240963856
+    },
+    {
+      "generated": "new-099",
+      "nearestOriginal": "71035",
+      "distance": 0.8333333333333334
+    },
+    {
+      "generated": "new-100",
+      "nearestOriginal": "71024",
+      "distance": 0.7362637362637363
+    },
+    {
+      "generated": "new-101",
+      "nearestOriginal": "10005",
+      "distance": 0.7073170731707317
+    },
+    {
+      "generated": "new-102",
+      "nearestOriginal": "70031",
+      "distance": 0.813953488372093
+    },
+    {
+      "generated": "new-103",
+      "nearestOriginal": "71222",
+      "distance": 0.828125
+    },
+    {
+      "generated": "new-104",
+      "nearestOriginal": "20041",
+      "distance": 0.7641509433962264
+    },
+    {
+      "generated": "new-105",
+      "nearestOriginal": "71006",
+      "distance": 0.822429906542056
+    },
+    {
+      "generated": "new-106",
+      "nearestOriginal": "10065",
+      "distance": 0.7448979591836735
+    },
+    {
+      "generated": "new-107",
+      "nearestOriginal": "71150",
+      "distance": 0.7792207792207793
+    },
+    {
+      "generated": "new-108",
+      "nearestOriginal": "20075",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-109",
+      "nearestOriginal": "20035",
+      "distance": 0.7247706422018348
+    },
+    {
+      "generated": "new-110",
+      "nearestOriginal": "71001",
+      "distance": 0.803921568627451
+    },
+    {
+      "generated": "new-111",
+      "nearestOriginal": "70025",
+      "distance": 0.7765957446808511
+    },
+    {
+      "generated": "new-112",
+      "nearestOriginal": "20021",
+      "distance": 0.768595041322314
+    },
+    {
+      "generated": "new-113",
+      "nearestOriginal": "20025",
+      "distance": 0.792
+    },
+    {
+      "generated": "new-114",
+      "nearestOriginal": "20021",
+      "distance": 0.8090909090909091
+    },
+    {
+      "generated": "new-115",
+      "nearestOriginal": "20041",
+      "distance": 0.7075471698113207
+    },
+    {
+      "generated": "new-116",
+      "nearestOriginal": "20021",
+      "distance": 0.7457627118644068
+    },
+    {
+      "generated": "new-117",
+      "nearestOriginal": "71011",
+      "distance": 0.7450980392156863
+    },
+    {
+      "generated": "new-118",
+      "nearestOriginal": "90013",
+      "distance": 0.8142857142857143
+    },
+    {
+      "generated": "new-119",
+      "nearestOriginal": "10005",
+      "distance": 0.7959183673469388
+    },
+    {
+      "generated": "new-120",
+      "nearestOriginal": "70011",
+      "distance": 0.7894736842105263
+    },
+    {
+      "generated": "new-121",
+      "nearestOriginal": "71119",
+      "distance": 0.8387096774193549
+    },
+    {
+      "generated": "new-122",
+      "nearestOriginal": "10005",
+      "distance": 0.8363636363636364
+    },
+    {
+      "generated": "new-123",
+      "nearestOriginal": "71222",
+      "distance": 0.8211382113821138
+    },
+    {
+      "generated": "new-124",
+      "nearestOriginal": "20021",
+      "distance": 0.7666666666666666
+    },
+    {
+      "generated": "new-125",
+      "nearestOriginal": "20021",
+      "distance": 0.8018867924528301
+    },
+    {
+      "generated": "new-126",
+      "nearestOriginal": "71218",
+      "distance": 0.8037383177570093
+    },
+    {
+      "generated": "new-127",
+      "nearestOriginal": "71025",
+      "distance": 0.7722772277227723
+    },
+    {
+      "generated": "new-128",
+      "nearestOriginal": "71012",
+      "distance": 0.7615384615384615
+    },
+    {
+      "generated": "new-129",
+      "nearestOriginal": "10009",
+      "distance": 0.7068965517241379
+    },
+    {
+      "generated": "new-130",
+      "nearestOriginal": "71001",
+      "distance": 0.8902439024390244
+    },
+    {
+      "generated": "new-131",
+      "nearestOriginal": "60058",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-132",
+      "nearestOriginal": "20035",
+      "distance": 0.7128712871287128
+    },
+    {
+      "generated": "new-133",
+      "nearestOriginal": "71012",
+      "distance": 0.8251748251748252
+    },
+    {
+      "generated": "new-134",
+      "nearestOriginal": "10007",
+      "distance": 0.7636363636363637
+    },
+    {
+      "generated": "new-135",
+      "nearestOriginal": "10009",
+      "distance": 0.7681159420289855
+    },
+    {
+      "generated": "new-136",
+      "nearestOriginal": "71012",
+      "distance": 0.7936507936507937
+    },
+    {
+      "generated": "new-137",
+      "nearestOriginal": "71111",
+      "distance": 0.7303370786516854
+    },
+    {
+      "generated": "new-138",
+      "nearestOriginal": "10065",
+      "distance": 0.7238095238095238
+    },
+    {
+      "generated": "new-139",
+      "nearestOriginal": "71048",
+      "distance": 0.8251748251748252
+    },
+    {
+      "generated": "new-140",
+      "nearestOriginal": "70011",
+      "distance": 0.8461538461538461
+    },
+    {
+      "generated": "new-141",
+      "nearestOriginal": "60059",
+      "distance": 0.8421052631578947
+    },
+    {
+      "generated": "new-142",
+      "nearestOriginal": "71011",
+      "distance": 0.7596153846153846
+    },
+    {
+      "generated": "new-143",
+      "nearestOriginal": "20041",
+      "distance": 0.784
+    },
+    {
+      "generated": "new-144",
+      "nearestOriginal": "20065",
+      "distance": 0.7372881355932204
+    },
+    {
+      "generated": "new-145",
+      "nearestOriginal": "71024",
+      "distance": 0.7586206896551724
+    },
+    {
+      "generated": "new-146",
+      "nearestOriginal": "71112",
+      "distance": 0.8613861386138614
+    },
+    {
+      "generated": "new-147",
+      "nearestOriginal": "71025",
+      "distance": 0.7019230769230769
+    },
+    {
+      "generated": "new-148",
+      "nearestOriginal": "20041",
+      "distance": 0.6782608695652175
+    },
+    {
+      "generated": "new-149",
+      "nearestOriginal": "70012",
+      "distance": 0.7066666666666667
+    },
+    {
+      "generated": "new-150",
+      "nearestOriginal": "90055",
+      "distance": 0.8933333333333333
+    },
+    {
+      "generated": "new-151",
+      "nearestOriginal": "71011",
+      "distance": 0.6923076923076923
+    },
+    {
+      "generated": "new-152",
+      "nearestOriginal": "71012",
+      "distance": 0.8461538461538461
+    },
+    {
+      "generated": "new-153",
+      "nearestOriginal": "10035",
+      "distance": 0.7884615384615384
+    },
+    {
+      "generated": "new-154",
+      "nearestOriginal": "70012",
+      "distance": 0.7763157894736842
+    },
+    {
+      "generated": "new-155",
+      "nearestOriginal": "70036",
+      "distance": 0.7466666666666666
+    },
+    {
+      "generated": "new-156",
+      "nearestOriginal": "10166",
+      "distance": 0.7763157894736842
+    },
+    {
+      "generated": "new-157",
+      "nearestOriginal": "10014",
+      "distance": 0.6811594202898551
+    },
+    {
+      "generated": "new-158",
+      "nearestOriginal": "20021",
+      "distance": 0.7207207207207207
+    },
+    {
+      "generated": "new-159",
+      "nearestOriginal": "71012",
+      "distance": 0.8157894736842105
+    },
+    {
+      "generated": "new-160",
+      "nearestOriginal": "10005",
+      "distance": 0.782608695652174
+    },
+    {
+      "generated": "new-161",
+      "nearestOriginal": "60028",
+      "distance": 0.8191489361702128
+    },
+    {
+      "generated": "new-162",
+      "nearestOriginal": "60064",
+      "distance": 0.8191489361702128
+    },
+    {
+      "generated": "new-163",
+      "nearestOriginal": "20021",
+      "distance": 0.7027027027027026
+    },
+    {
+      "generated": "new-164",
+      "nearestOriginal": "20021",
+      "distance": 0.7936507936507937
+    },
+    {
+      "generated": "new-165",
+      "nearestOriginal": "20063",
+      "distance": 0.8181818181818181
+    },
+    {
+      "generated": "new-166",
+      "nearestOriginal": "20067",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-167",
+      "nearestOriginal": "71035",
+      "distance": 0.8671875
+    },
+    {
+      "generated": "new-168",
+      "nearestOriginal": "20096",
+      "distance": 0.8114754098360656
+    },
+    {
+      "generated": "new-169",
+      "nearestOriginal": "70023",
+      "distance": 0.7763157894736842
+    },
+    {
+      "generated": "new-170",
+      "nearestOriginal": "90055",
+      "distance": 0.8297872340425532
+    },
+    {
+      "generated": "new-171",
+      "nearestOriginal": "71048",
+      "distance": 0.7737226277372262
+    },
+    {
+      "generated": "new-172",
+      "nearestOriginal": "20021",
+      "distance": 0.7450980392156863
+    },
+    {
+      "generated": "new-173",
+      "nearestOriginal": "20021",
+      "distance": 0.7936507936507937
+    },
+    {
+      "generated": "new-174",
+      "nearestOriginal": "71115",
+      "distance": 0.7816091954022988
+    },
+    {
+      "generated": "new-175",
+      "nearestOriginal": "10065",
+      "distance": 0.7719298245614035
+    },
+    {
+      "generated": "new-176",
+      "nearestOriginal": "10057",
+      "distance": 0.7472527472527473
+    },
+    {
+      "generated": "new-177",
+      "nearestOriginal": "10197",
+      "distance": 0.7045454545454546
+    },
+    {
+      "generated": "new-178",
+      "nearestOriginal": "71011",
+      "distance": 0.7207207207207207
+    },
+    {
+      "generated": "new-179",
+      "nearestOriginal": "10166",
+      "distance": 0.7571428571428571
+    },
+    {
+      "generated": "new-180",
+      "nearestOriginal": "70011",
+      "distance": 0.7560975609756098
+    },
+    {
+      "generated": "new-181",
+      "nearestOriginal": "10014",
+      "distance": 0.7294117647058824
+    },
+    {
+      "generated": "new-182",
+      "nearestOriginal": "71011",
+      "distance": 0.6981132075471699
+    },
+    {
+      "generated": "new-183",
+      "nearestOriginal": "20029",
+      "distance": 0.7967479674796748
+    },
+    {
+      "generated": "new-184",
+      "nearestOriginal": "20021",
+      "distance": 0.7155172413793103
+    },
+    {
+      "generated": "new-185",
+      "nearestOriginal": "71012",
+      "distance": 0.7142857142857143
+    },
+    {
+      "generated": "new-186",
+      "nearestOriginal": "70011",
+      "distance": 0.765625
+    },
+    {
+      "generated": "new-187",
+      "nearestOriginal": "10069",
+      "distance": 0.7596153846153846
+    },
+    {
+      "generated": "new-188",
+      "nearestOriginal": "20041",
+      "distance": 0.7142857142857143
+    },
+    {
+      "generated": "new-189",
+      "nearestOriginal": "60055",
+      "distance": 0.7352941176470589
+    },
+    {
+      "generated": "new-190",
+      "nearestOriginal": "10009",
+      "distance": 0.8166666666666667
+    },
+    {
+      "generated": "new-191",
+      "nearestOriginal": "60058",
+      "distance": 0.782608695652174
+    },
+    {
+      "generated": "new-192",
+      "nearestOriginal": "71103",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-193",
+      "nearestOriginal": "20021",
+      "distance": 0.6814159292035398
+    },
+    {
+      "generated": "new-194",
+      "nearestOriginal": "70028",
+      "distance": 0.719626168224299
+    },
+    {
+      "generated": "new-195",
+      "nearestOriginal": "10166",
+      "distance": 0.8372093023255813
+    },
+    {
+      "generated": "new-196",
+      "nearestOriginal": "10009",
+      "distance": 0.7848101265822784
+    },
+    {
+      "generated": "new-197",
+      "nearestOriginal": "10069",
+      "distance": 0.7142857142857143
+    },
+    {
+      "generated": "new-198",
+      "nearestOriginal": "20021",
+      "distance": 0.7606837606837606
+    },
+    {
+      "generated": "new-199",
+      "nearestOriginal": "71201",
+      "distance": 0.8636363636363636
+    },
+    {
+      "generated": "new-200",
+      "nearestOriginal": "71016",
+      "distance": 0.8058252427184466
+    },
+    {
+      "generated": "new-201",
+      "nearestOriginal": "10035",
+      "distance": 0.7951807228915663
+    },
+    {
+      "generated": "new-202",
+      "nearestOriginal": "70015",
+      "distance": 0.7101449275362319
+    },
+    {
+      "generated": "new-203",
+      "nearestOriginal": "20063",
+      "distance": 0.7967479674796748
+    },
+    {
+      "generated": "new-204",
+      "nearestOriginal": "71119",
+      "distance": 0.6901408450704225
+    },
+    {
+      "generated": "new-205",
+      "nearestOriginal": "71012",
+      "distance": 0.7886178861788617
+    },
+    {
+      "generated": "new-206",
+      "nearestOriginal": "71118",
+      "distance": 0.7888888888888889
+    },
+    {
+      "generated": "new-207",
+      "nearestOriginal": "10009",
+      "distance": 0.6551724137931034
+    },
+    {
+      "generated": "new-208",
+      "nearestOriginal": "71012",
+      "distance": 0.823943661971831
+    },
+    {
+      "generated": "new-209",
+      "nearestOriginal": "10009",
+      "distance": 0.8142857142857143
+    },
+    {
+      "generated": "new-210",
+      "nearestOriginal": "71120",
+      "distance": 0.8591549295774648
+    },
+    {
+      "generated": "new-211",
+      "nearestOriginal": "70028",
+      "distance": 0.8089887640449438
+    },
+    {
+      "generated": "new-212",
+      "nearestOriginal": "70034",
+      "distance": 0.7205882352941176
+    },
+    {
+      "generated": "new-213",
+      "nearestOriginal": "70015",
+      "distance": 0.8256880733944953
+    },
+    {
+      "generated": "new-214",
+      "nearestOriginal": "10005",
+      "distance": 0.7307692307692308
+    },
+    {
+      "generated": "new-215",
+      "nearestOriginal": "10065",
+      "distance": 0.7685185185185185
+    },
+    {
+      "generated": "new-216",
+      "nearestOriginal": "71012",
+      "distance": 0.7984496124031008
+    },
+    {
+      "generated": "new-217",
+      "nearestOriginal": "70033",
+      "distance": 0.7164179104477613
+    },
+    {
+      "generated": "new-218",
+      "nearestOriginal": "20096",
+      "distance": 0.8257575757575757
+    },
+    {
+      "generated": "new-219",
+      "nearestOriginal": "60060",
+      "distance": 0.7980769230769231
+    },
+    {
+      "generated": "new-220",
+      "nearestOriginal": "50004",
+      "distance": 0.7215189873417722
+    },
+    {
+      "generated": "new-221",
+      "nearestOriginal": "10065",
+      "distance": 0.7608695652173914
+    },
+    {
+      "generated": "new-222",
+      "nearestOriginal": "10178",
+      "distance": 0.7297297297297297
+    },
+    {
+      "generated": "new-223",
+      "nearestOriginal": "20077",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-224",
+      "nearestOriginal": "70011",
+      "distance": 0.7878787878787878
+    },
+    {
+      "generated": "new-225",
+      "nearestOriginal": "71226",
+      "distance": 0.775
+    },
+    {
+      "generated": "new-226",
+      "nearestOriginal": "71003",
+      "distance": 0.7466666666666666
+    },
+    {
+      "generated": "new-227",
+      "nearestOriginal": "71003",
+      "distance": 0.782608695652174
+    },
+    {
+      "generated": "new-228",
+      "nearestOriginal": "20021",
+      "distance": 0.7203389830508475
+    },
+    {
+      "generated": "new-229",
+      "nearestOriginal": "71011",
+      "distance": 0.7525773195876289
+    },
+    {
+      "generated": "new-230",
+      "nearestOriginal": "70011",
+      "distance": 0.7313432835820896
+    },
+    {
+      "generated": "new-231",
+      "nearestOriginal": "70023",
+      "distance": 0.7564102564102564
+    },
+    {
+      "generated": "new-232",
+      "nearestOriginal": "50004",
+      "distance": 0.6891891891891893
+    },
+    {
+      "generated": "new-233",
+      "nearestOriginal": "20096",
+      "distance": 0.8217054263565892
+    },
+    {
+      "generated": "new-234",
+      "nearestOriginal": "70034",
+      "distance": 0.8533333333333333
+    },
+    {
+      "generated": "new-235",
+      "nearestOriginal": "71012",
+      "distance": 0.7862595419847328
+    },
+    {
+      "generated": "new-236",
+      "nearestOriginal": "71213",
+      "distance": 0.8050847457627118
+    },
+    {
+      "generated": "new-237",
+      "nearestOriginal": "70033",
+      "distance": 0.7391304347826086
+    },
+    {
+      "generated": "new-238",
+      "nearestOriginal": "20097",
+      "distance": 0.8455882352941176
+    },
+    {
+      "generated": "new-239",
+      "nearestOriginal": "71213",
+      "distance": 0.837037037037037
+    },
+    {
+      "generated": "new-240",
+      "nearestOriginal": "70011",
+      "distance": 0.8611111111111112
+    },
+    {
+      "generated": "new-241",
+      "nearestOriginal": "71048",
+      "distance": 0.8113207547169812
+    },
+    {
+      "generated": "new-242",
+      "nearestOriginal": "71120",
+      "distance": 0.821917808219178
+    },
+    {
+      "generated": "new-243",
+      "nearestOriginal": "71226",
+      "distance": 0.7723577235772358
+    },
+    {
+      "generated": "new-244",
+      "nearestOriginal": "10065",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-245",
+      "nearestOriginal": "90013",
+      "distance": 0.8859649122807017
+    },
+    {
+      "generated": "new-246",
+      "nearestOriginal": "71118",
+      "distance": 0.8279569892473118
+    },
+    {
+      "generated": "new-247",
+      "nearestOriginal": "90030",
+      "distance": 0.76
+    },
+    {
+      "generated": "new-248",
+      "nearestOriginal": "20096",
+      "distance": 0.8723404255319149
+    },
+    {
+      "generated": "new-249",
+      "nearestOriginal": "70015",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-250",
+      "nearestOriginal": "10069",
+      "distance": 0.75
+    },
+    {
+      "generated": "new-251",
+      "nearestOriginal": "10009",
+      "distance": 0.7761194029850746
+    },
+    {
+      "generated": "new-252",
+      "nearestOriginal": "10174",
+      "distance": 0.7714285714285715
+    },
+    {
+      "generated": "new-253",
+      "nearestOriginal": "10035",
+      "distance": 0.653061224489796
+    },
+    {
+      "generated": "new-254",
+      "nearestOriginal": "10166",
+      "distance": 0.7840909090909091
+    },
+    {
+      "generated": "new-255",
+      "nearestOriginal": "20031",
+      "distance": 0.6880733944954128
+    },
+    {
+      "generated": "new-256",
+      "nearestOriginal": "20021",
+      "distance": 0.7411764705882353
+    },
+    {
+      "generated": "new-257",
+      "nearestOriginal": "50013",
+      "distance": 0.746031746031746
+    },
+    {
+      "generated": "new-258",
+      "nearestOriginal": "20096",
+      "distance": 0.83206106870229
+    },
+    {
+      "generated": "new-259",
+      "nearestOriginal": "71035",
+      "distance": 0.8790322580645161
+    },
+    {
+      "generated": "new-260",
+      "nearestOriginal": "71035",
+      "distance": 0.8861788617886179
+    },
+    {
+      "generated": "new-261",
+      "nearestOriginal": "10005",
+      "distance": 0.7719298245614035
+    },
+    {
+      "generated": "new-262",
+      "nearestOriginal": "70012",
+      "distance": 0.6666666666666667
+    },
+    {
+      "generated": "new-263",
+      "nearestOriginal": "71218",
+      "distance": 0.8148148148148149
+    },
+    {
+      "generated": "new-264",
+      "nearestOriginal": "71035",
+      "distance": 0.7647058823529411
+    },
+    {
+      "generated": "new-265",
+      "nearestOriginal": "20041",
+      "distance": 0.8217054263565892
+    },
+    {
+      "generated": "new-266",
+      "nearestOriginal": "70025",
+      "distance": 0.7912087912087912
+    },
+    {
+      "generated": "new-267",
+      "nearestOriginal": "71032",
+      "distance": 0.8144329896907216
+    },
+    {
+      "generated": "new-268",
+      "nearestOriginal": "20096",
+      "distance": 0.875
+    },
+    {
+      "generated": "new-269",
+      "nearestOriginal": "71012",
+      "distance": 0.7542372881355932
+    },
+    {
+      "generated": "new-270",
+      "nearestOriginal": "71112",
+      "distance": 0.8645833333333334
+    },
+    {
+      "generated": "new-271",
+      "nearestOriginal": "71003",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-272",
+      "nearestOriginal": "10065",
+      "distance": 0.7415730337078652
+    },
+    {
+      "generated": "new-273",
+      "nearestOriginal": "20041",
+      "distance": 0.7272727272727273
+    },
+    {
+      "generated": "new-274",
+      "nearestOriginal": "70015",
+      "distance": 0.8241758241758241
+    },
+    {
+      "generated": "new-275",
+      "nearestOriginal": "10036",
+      "distance": 0.8198198198198199
+    },
+    {
+      "generated": "new-276",
+      "nearestOriginal": "70031",
+      "distance": 0.7901234567901234
+    },
+    {
+      "generated": "new-277",
+      "nearestOriginal": "71048",
+      "distance": 0.8333333333333334
+    },
+    {
+      "generated": "new-278",
+      "nearestOriginal": "20027",
+      "distance": 0.6213592233009708
+    },
+    {
+      "generated": "new-279",
+      "nearestOriginal": "20041",
+      "distance": 0.8134328358208955
+    },
+    {
+      "generated": "new-280",
+      "nearestOriginal": "70011",
+      "distance": 0.8625
+    },
+    {
+      "generated": "new-281",
+      "nearestOriginal": "10007",
+      "distance": 0.7636363636363637
+    },
+    {
+      "generated": "new-282",
+      "nearestOriginal": "10005",
+      "distance": 0.8
+    },
+    {
+      "generated": "new-283",
+      "nearestOriginal": "20021",
+      "distance": 0.7478991596638656
+    },
+    {
+      "generated": "new-284",
+      "nearestOriginal": "71119",
+      "distance": 0.7875
+    },
+    {
+      "generated": "new-285",
+      "nearestOriginal": "71112",
+      "distance": 0.7471264367816092
+    },
+    {
+      "generated": "new-286",
+      "nearestOriginal": "20098",
+      "distance": 0.8873239436619719
+    },
+    {
+      "generated": "new-287",
+      "nearestOriginal": "20027",
+      "distance": 0.7565217391304347
+    },
+    {
+      "generated": "new-288",
+      "nearestOriginal": "20093",
+      "distance": 0.8307692307692307
+    },
+    {
+      "generated": "new-289",
+      "nearestOriginal": "20067",
+      "distance": 0.8947368421052632
+    },
+    {
+      "generated": "new-290",
+      "nearestOriginal": "10197",
+      "distance": 0.6736842105263158
+    },
+    {
+      "generated": "new-291",
+      "nearestOriginal": "10198",
+      "distance": 0.7625
+    },
+    {
+      "generated": "new-292",
+      "nearestOriginal": "71043",
+      "distance": 0.792
+    },
+    {
+      "generated": "new-293",
+      "nearestOriginal": "20021",
+      "distance": 0.6902654867256637
+    },
+    {
+      "generated": "new-294",
+      "nearestOriginal": "71025",
+      "distance": 0.7628865979381443
+    },
+    {
+      "generated": "new-295",
+      "nearestOriginal": "20031",
+      "distance": 0.7128712871287128
+    },
+    {
+      "generated": "new-296",
+      "nearestOriginal": "71011",
+      "distance": 0.71
+    },
+    {
+      "generated": "new-297",
+      "nearestOriginal": "10187",
+      "distance": 0.7684210526315789
+    },
+    {
+      "generated": "new-298",
+      "nearestOriginal": "20096",
+      "distance": 0.8294573643410853
+    },
+    {
+      "generated": "new-299",
+      "nearestOriginal": "60060",
+      "distance": 0.7962962962962963
+    },
+    {
+      "generated": "new-300",
+      "nearestOriginal": "60050",
+      "distance": 0.7375
+    }
+  ],
+  "limits": "Replays reconstructed contact-sensitive pin/gap rules only. Graph equivalence is conservative WL; neighborhood distance is heuristic. Native mechanics and human difficulty/fun unmeasured."
+}

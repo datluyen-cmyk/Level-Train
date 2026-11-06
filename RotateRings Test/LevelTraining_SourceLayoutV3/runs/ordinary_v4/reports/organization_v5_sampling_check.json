@@ -1,0 +1,2065 @@
+{
+  "status": "PASS_ORGANIZATION_SAMPLING_ONLY",
+  "samples": 256,
+  "actualOrdinarySources": 460,
+  "excludedPictorialSources": 47,
+  "minimumLeafSupport": 4,
+  "noSourceScaffoldReturned": true,
+  "deterministicSeedPassed": true,
+  "numericContentGatesApplied": [],
+  "hashes": {
+    "model": "a5d7225d5cd62ba0d0ac3d107a356a3a2c394904314c41b3685f3160a16f56e1",
+    "trainer": "3212ed19b57f90727fe4df1bd77c39b93344cec96e07ee112b3722da84c121ee"
+  },
+  "limits": "These are256sampled organization targets, not playable generated levels or virtual-player sessions",
+  "rows": [
+    {
+      "position": 1,
+      "tree": 21,
+      "leaf": 2,
+      "support": 22,
+      "targetParts": 11.625148381447495,
+      "span": 16.48872170258007
+    },
+    {
+      "position": 1,
+      "tree": 8,
+      "leaf": 3,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 1,
+      "tree": 34,
+      "leaf": 4,
+      "support": 6,
+      "targetParts": 4.9013854953472125,
+      "span": 11.01699409507313
+    },
+    {
+      "position": 1,
+      "tree": 59,
+      "leaf": 3,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 1,
+      "tree": 38,
+      "leaf": 3,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 1,
+      "tree": 23,
+      "leaf": 9,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 1,
+      "tree": 84,
+      "leaf": 6,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 1,
+      "tree": 57,
+      "leaf": 5,
+      "support": 14,
+      "targetParts": 8.21796175691365,
+      "span": 14.021425000065268
+    },
+    {
+      "position": 1,
+      "tree": 72,
+      "leaf": 3,
+      "support": 39,
+      "targetParts": 16.653117547424014,
+      "span": 19.093095411638476
+    },
+    {
+      "position": 1,
+      "tree": 74,
+      "leaf": 3,
+      "support": 41,
+      "targetParts": 17.0997288643437,
+      "span": 19.236780876415885
+    },
+    {
+      "position": 1,
+      "tree": 5,
+      "leaf": 3,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 1,
+      "tree": 52,
+      "leaf": 2,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 1,
+      "tree": 72,
+      "leaf": 3,
+      "support": 39,
+      "targetParts": 16.653117547424014,
+      "span": 19.093095411638476
+    },
+    {
+      "position": 1,
+      "tree": 8,
+      "leaf": 3,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 1,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 1,
+      "tree": 68,
+      "leaf": 2,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 1,
+      "tree": 0,
+      "leaf": 3,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 1,
+      "tree": 57,
+      "leaf": 5,
+      "support": 14,
+      "targetParts": 8.21796175691365,
+      "span": 14.021425000065268
+    },
+    {
+      "position": 1,
+      "tree": 29,
+      "leaf": 2,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 1,
+      "tree": 60,
+      "leaf": 3,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 1,
+      "tree": 91,
+      "leaf": 7,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 1,
+      "tree": 50,
+      "leaf": 4,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 1,
+      "tree": 61,
+      "leaf": 4,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 1,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 1,
+      "tree": 67,
+      "leaf": 3,
+      "support": 63,
+      "targetParts": 19.600056856090813,
+      "span": 20.64343274268132
+    },
+    {
+      "position": 1,
+      "tree": 1,
+      "leaf": 5,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 1,
+      "tree": 58,
+      "leaf": 3,
+      "support": 38,
+      "targetParts": 16.456816042854964,
+      "span": 19.010404151291127
+    },
+    {
+      "position": 1,
+      "tree": 53,
+      "leaf": 6,
+      "support": 6,
+      "targetParts": 4.9013854953472125,
+      "span": 11.01699409507313
+    },
+    {
+      "position": 1,
+      "tree": 79,
+      "leaf": 3,
+      "support": 85,
+      "targetParts": 20.795448570895825,
+      "span": 21.62395728790077
+    },
+    {
+      "position": 1,
+      "tree": 76,
+      "leaf": 3,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 1,
+      "tree": 90,
+      "leaf": 1,
+      "support": 419,
+      "targetParts": 25.75999534149467,
+      "span": 24.588651731989586
+    },
+    {
+      "position": 1,
+      "tree": 66,
+      "leaf": 3,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 4,
+      "tree": 13,
+      "leaf": 4,
+      "support": 6,
+      "targetParts": 4.9013854953472125,
+      "span": 11.01699409507313
+    },
+    {
+      "position": 4,
+      "tree": 30,
+      "leaf": 8,
+      "support": 8,
+      "targetParts": 6.022334184071212,
+      "span": 12.2714257566486
+    },
+    {
+      "position": 4,
+      "tree": 46,
+      "leaf": 4,
+      "support": 19,
+      "targetParts": 9.91350471763488,
+      "span": 15.635246841052652
+    },
+    {
+      "position": 4,
+      "tree": 55,
+      "leaf": 3,
+      "support": 19,
+      "targetParts": 9.91350471763488,
+      "span": 15.635246841052652
+    },
+    {
+      "position": 4,
+      "tree": 4,
+      "leaf": 6,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 4,
+      "tree": 89,
+      "leaf": 2,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 4,
+      "tree": 26,
+      "leaf": 7,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 4,
+      "tree": 61,
+      "leaf": 4,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 4,
+      "tree": 89,
+      "leaf": 2,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 4,
+      "tree": 82,
+      "leaf": 3,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 4,
+      "tree": 64,
+      "leaf": 4,
+      "support": 8,
+      "targetParts": 6.022334184071212,
+      "span": 12.2714257566486
+    },
+    {
+      "position": 4,
+      "tree": 80,
+      "leaf": 3,
+      "support": 19,
+      "targetParts": 9.91350471763488,
+      "span": 15.635246841052652
+    },
+    {
+      "position": 4,
+      "tree": 30,
+      "leaf": 8,
+      "support": 8,
+      "targetParts": 6.022334184071212,
+      "span": 12.2714257566486
+    },
+    {
+      "position": 4,
+      "tree": 32,
+      "leaf": 5,
+      "support": 21,
+      "targetParts": 11.295648358985908,
+      "span": 16.120325819821986
+    },
+    {
+      "position": 4,
+      "tree": 26,
+      "leaf": 7,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 4,
+      "tree": 73,
+      "leaf": 5,
+      "support": 8,
+      "targetParts": 6.022334184071212,
+      "span": 12.2714257566486
+    },
+    {
+      "position": 4,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 4,
+      "tree": 29,
+      "leaf": 2,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 4,
+      "tree": 24,
+      "leaf": 4,
+      "support": 20,
+      "targetParts": 10.740076352441891,
+      "span": 15.710599389929149
+    },
+    {
+      "position": 4,
+      "tree": 5,
+      "leaf": 3,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 4,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 4,
+      "tree": 12,
+      "leaf": 3,
+      "support": 211,
+      "targetParts": 22.850967176072285,
+      "span": 23.507703793483017
+    },
+    {
+      "position": 4,
+      "tree": 25,
+      "leaf": 4,
+      "support": 20,
+      "targetParts": 10.740076352441891,
+      "span": 15.710599389929149
+    },
+    {
+      "position": 4,
+      "tree": 35,
+      "leaf": 7,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 4,
+      "tree": 4,
+      "leaf": 6,
+      "support": 4,
+      "targetParts": 3.680694638641432,
+      "span": 10.085364764778666
+    },
+    {
+      "position": 4,
+      "tree": 70,
+      "leaf": 7,
+      "support": 5,
+      "targetParts": 4.210342169394703,
+      "span": 10.718172679761189
+    },
+    {
+      "position": 4,
+      "tree": 20,
+      "leaf": 6,
+      "support": 7,
+      "targetParts": 5.67652189991183,
+      "span": 11.58333336513059
+    },
+    {
+      "position": 4,
+      "tree": 64,
+      "leaf": 4,
+      "support": 8,
+      "targetParts": 6.022334184071212,
+      "span": 12.2714257566486
+    },
+    {
+      "position": 4,
+      "tree": 52,
+      "leaf": 2,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 4,
+      "tree": 80,
+      "leaf": 3,
+      "support": 19,
+      "targetParts": 9.91350471763488,
+      "span": 15.635246841052652
+    },
+    {
+      "position": 4,
+      "tree": 87,
+      "leaf": 5,
+      "support": 11,
+      "targetParts": 7.236003833267812,
+      "span": 13.223687655359624
+    },
+    {
+      "position": 4,
+      "tree": 8,
+      "leaf": 3,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 18,
+      "tree": 20,
+      "leaf": 7,
+      "support": 11,
+      "targetParts": 12.455757610717896,
+      "span": 18.258065098237996
+    },
+    {
+      "position": 18,
+      "tree": 6,
+      "leaf": 8,
+      "support": 5,
+      "targetParts": 25.543856516013395,
+      "span": 21.601953801425196
+    },
+    {
+      "position": 18,
+      "tree": 23,
+      "leaf": 13,
+      "support": 13,
+      "targetParts": 24.244988906969546,
+      "span": 22.847876295874954
+    },
+    {
+      "position": 18,
+      "tree": 33,
+      "leaf": 7,
+      "support": 23,
+      "targetParts": 17.319802941779443,
+      "span": 19.92112405697399
+    },
+    {
+      "position": 18,
+      "tree": 94,
+      "leaf": 6,
+      "support": 18,
+      "targetParts": 9.245820864057732,
+      "span": 15.296851968993876
+    },
+    {
+      "position": 18,
+      "tree": 50,
+      "leaf": 7,
+      "support": 8,
+      "targetParts": 24.412609008841873,
+      "span": 22.569970840330722
+    },
+    {
+      "position": 18,
+      "tree": 76,
+      "leaf": 4,
+      "support": 15,
+      "targetParts": 14.391199950222745,
+      "span": 17.846378084563
+    },
+    {
+      "position": 18,
+      "tree": 61,
+      "leaf": 4,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 18,
+      "tree": 33,
+      "leaf": 7,
+      "support": 23,
+      "targetParts": 17.319802941779443,
+      "span": 19.92112405697399
+    },
+    {
+      "position": 18,
+      "tree": 11,
+      "leaf": 7,
+      "support": 12,
+      "targetParts": 22.876080159811124,
+      "span": 22.48558836511411
+    },
+    {
+      "position": 18,
+      "tree": 3,
+      "leaf": 4,
+      "support": 27,
+      "targetParts": 23.17116179487244,
+      "span": 22.32380417149022
+    },
+    {
+      "position": 18,
+      "tree": 75,
+      "leaf": 7,
+      "support": 15,
+      "targetParts": 24.970808347050305,
+      "span": 22.89562200027161
+    },
+    {
+      "position": 18,
+      "tree": 71,
+      "leaf": 1,
+      "support": 27,
+      "targetParts": 13.251685634829904,
+      "span": 17.476871184408225
+    },
+    {
+      "position": 18,
+      "tree": 11,
+      "leaf": 7,
+      "support": 12,
+      "targetParts": 22.876080159811124,
+      "span": 22.48558836511411
+    },
+    {
+      "position": 18,
+      "tree": 7,
+      "leaf": 4,
+      "support": 70,
+      "targetParts": 19.99916646057927,
+      "span": 20.9061535768462
+    },
+    {
+      "position": 18,
+      "tree": 13,
+      "leaf": 5,
+      "support": 102,
+      "targetParts": 23.539688360896516,
+      "span": 23.2455168644535
+    },
+    {
+      "position": 18,
+      "tree": 77,
+      "leaf": 8,
+      "support": 7,
+      "targetParts": 22.584376708617164,
+      "span": 22.419970862341508
+    },
+    {
+      "position": 18,
+      "tree": 85,
+      "leaf": 11,
+      "support": 11,
+      "targetParts": 12.455757610717896,
+      "span": 18.258065098237996
+    },
+    {
+      "position": 18,
+      "tree": 94,
+      "leaf": 6,
+      "support": 18,
+      "targetParts": 9.245820864057732,
+      "span": 15.296851968993876
+    },
+    {
+      "position": 18,
+      "tree": 54,
+      "leaf": 3,
+      "support": 29,
+      "targetParts": 13.865536937272395,
+      "span": 17.920823426689015
+    },
+    {
+      "position": 18,
+      "tree": 70,
+      "leaf": 11,
+      "support": 6,
+      "targetParts": 13.195148980221404,
+      "span": 19.841151911196892
+    },
+    {
+      "position": 18,
+      "tree": 16,
+      "leaf": 6,
+      "support": 36,
+      "targetParts": 15.97878835185016,
+      "span": 18.82984396435192
+    },
+    {
+      "position": 18,
+      "tree": 76,
+      "leaf": 4,
+      "support": 15,
+      "targetParts": 14.391199950222745,
+      "span": 17.846378084563
+    },
+    {
+      "position": 18,
+      "tree": 89,
+      "leaf": 2,
+      "support": 28,
+      "targetParts": 13.635617685540838,
+      "span": 17.83378987509535
+    },
+    {
+      "position": 18,
+      "tree": 23,
+      "leaf": 13,
+      "support": 13,
+      "targetParts": 24.244988906969546,
+      "span": 22.847876295874954
+    },
+    {
+      "position": 18,
+      "tree": 49,
+      "leaf": 0,
+      "support": 460,
+      "targetParts": 26.12372163224429,
+      "span": 24.962171054692632
+    },
+    {
+      "position": 18,
+      "tree": 4,
+      "leaf": 7,
+      "support": 33,
+      "targetParts": 19.03231495076713,
+      "span": 20.430314366828
+    },
+    {
+      "position": 18,
+      "tree": 37,
+      "leaf": 6,
+      "support": 17,
+      "targetParts": 16.189369031900902,
+      "span": 19.45310000805898
+    },
+    {
+      "position": 18,
+      "tree": 95,
+      "leaf": 6,
+      "support": 13,
+      "targetParts": 14.90958899045376,
+      "span": 18.512415642258556
+    },
+    {
+      "position": 18,
+      "tree": 8,
+      "leaf": 3,
+      "support": 30,
+      "targetParts": 14.125366751301172,
+      "span": 18.108026951060165
+    },
+    {
+      "position": 18,
+      "tree": 64,
+      "leaf": 6,
+      "support": 16,
+      "targetParts": 24.628242903236874,
+      "span": 22.853400823484034
+    },
+    {
+      "position": 18,
+      "tree": 7,
+      "leaf": 4,
+      "support": 70,
+      "targetParts": 19.99916646057927,
+      "span": 20.9061535768462
+    },
+    {
+      "position": 35,
+      "tree": 37,
+      "leaf": 7,
+      "support": 34,
+      "targetParts": 26.469465456541315,
+      "span": 23.46361422365255
+    },
+    {
+      "position": 35,
+      "tree": 71,
+      "leaf": 6,
+      "support": 6,
+      "targetParts": 27.38218245182656,
+      "span": 23.87354484721903
+    },
+    {
+      "position": 35,
+      "tree": 93,
+      "leaf": 15,
+      "support": 8,
+      "targetParts": 28.58635592345164,
+      "span": 22.74945621666381
+    },
+    {
+      "position": 35,
+      "tree": 94,
+      "leaf": 10,
+      "support": 16,
+      "targetParts": 26.772320678183103,
+      "span": 23.31101791837554
+    },
+    {
+      "position": 35,
+      "tree": 17,
+      "leaf": 9,
+      "support": 13,
+      "targetParts": 25.037802505046766,
+      "span": 23.604643687317342
+    },
+    {
+      "position": 35,
+      "tree": 95,
+      "leaf": 7,
+      "support": 13,
+      "targetParts": 25.39248936268999,
+      "span": 23.777522717335103
+    },
+    {
+      "position": 35,
+      "tree": 68,
+      "leaf": 9,
+      "support": 46,
+      "targetParts": 25.66547763987614,
+      "span": 23.39022784748129
+    },
+    {
+      "position": 35,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 35,
+      "tree": 81,
+      "leaf": 9,
+      "support": 6,
+      "targetParts": 26.71327192239989,
+      "span": 22.987892045225394
+    },
+    {
+      "position": 35,
+      "tree": 60,
+      "leaf": 6,
+      "support": 64,
+      "targetParts": 25.56112709297327,
+      "span": 24.095808699347174
+    },
+    {
+      "position": 35,
+      "tree": 24,
+      "leaf": 6,
+      "support": 10,
+      "targetParts": 27.596716972627423,
+      "span": 22.73447462848615
+    },
+    {
+      "position": 35,
+      "tree": 63,
+      "leaf": 9,
+      "support": 6,
+      "targetParts": 29.318078335860033,
+      "span": 23.050419017016758
+    },
+    {
+      "position": 35,
+      "tree": 25,
+      "leaf": 9,
+      "support": 6,
+      "targetParts": 29.318078335860033,
+      "span": 23.050419017016758
+    },
+    {
+      "position": 35,
+      "tree": 74,
+      "leaf": 3,
+      "support": 41,
+      "targetParts": 17.0997288643437,
+      "span": 19.236780876415885
+    },
+    {
+      "position": 35,
+      "tree": 13,
+      "leaf": 5,
+      "support": 102,
+      "targetParts": 23.539688360896516,
+      "span": 23.2455168644535
+    },
+    {
+      "position": 35,
+      "tree": 44,
+      "leaf": 10,
+      "support": 23,
+      "targetParts": 26.019376518479273,
+      "span": 23.224385408189992
+    },
+    {
+      "position": 35,
+      "tree": 26,
+      "leaf": 12,
+      "support": 7,
+      "targetParts": 28.4481256079681,
+      "span": 23.11381249587395
+    },
+    {
+      "position": 35,
+      "tree": 95,
+      "leaf": 7,
+      "support": 13,
+      "targetParts": 25.39248936268999,
+      "span": 23.777522717335103
+    },
+    {
+      "position": 35,
+      "tree": 74,
+      "leaf": 3,
+      "support": 41,
+      "targetParts": 17.0997288643437,
+      "span": 19.236780876415885
+    },
+    {
+      "position": 35,
+      "tree": 19,
+      "leaf": 4,
+      "support": 45,
+      "targetParts": 17.831301408893665,
+      "span": 19.63900314847204
+    },
+    {
+      "position": 35,
+      "tree": 80,
+      "leaf": 4,
+      "support": 26,
+      "targetParts": 27.05506805150708,
+      "span": 23.19937763098673
+    },
+    {
+      "position": 35,
+      "tree": 44,
+      "leaf": 10,
+      "support": 23,
+      "targetParts": 26.019376518479273,
+      "span": 23.224385408189992
+    },
+    {
+      "position": 35,
+      "tree": 80,
+      "leaf": 4,
+      "support": 26,
+      "targetParts": 27.05506805150708,
+      "span": 23.19937763098673
+    },
+    {
+      "position": 35,
+      "tree": 95,
+      "leaf": 7,
+      "support": 13,
+      "targetParts": 25.39248936268999,
+      "span": 23.777522717335103
+    },
+    {
+      "position": 35,
+      "tree": 51,
+      "leaf": 6,
+      "support": 8,
+      "targetParts": 26.631121353023477,
+      "span": 23.46806455003008
+    },
+    {
+      "position": 35,
+      "tree": 74,
+      "leaf": 3,
+      "support": 41,
+      "targetParts": 17.0997288643437,
+      "span": 19.236780876415885
+    },
+    {
+      "position": 35,
+      "tree": 15,
+      "leaf": 2,
+      "support": 34,
+      "targetParts": 15.38106927184905,
+      "span": 18.65093029098463
+    },
+    {
+      "position": 35,
+      "tree": 93,
+      "leaf": 15,
+      "support": 8,
+      "targetParts": 28.58635592345164,
+      "span": 22.74945621666381
+    },
+    {
+      "position": 35,
+      "tree": 57,
+      "leaf": 7,
+      "support": 22,
+      "targetParts": 27.01687802211459,
+      "span": 23.008248295883813
+    },
+    {
+      "position": 35,
+      "tree": 26,
+      "leaf": 12,
+      "support": 7,
+      "targetParts": 28.4481256079681,
+      "span": 23.11381249587395
+    },
+    {
+      "position": 35,
+      "tree": 3,
+      "leaf": 4,
+      "support": 27,
+      "targetParts": 23.17116179487244,
+      "span": 22.32380417149022
+    },
+    {
+      "position": 35,
+      "tree": 59,
+      "leaf": 13,
+      "support": 4,
+      "targetParts": 28.50233625637537,
+      "span": 23.262694874139243
+    },
+    {
+      "position": 100,
+      "tree": 76,
+      "leaf": 18,
+      "support": 26,
+      "targetParts": 23.603907364677912,
+      "span": 24.755562388535907
+    },
+    {
+      "position": 100,
+      "tree": 39,
+      "leaf": 10,
+      "support": 9,
+      "targetParts": 23.853448862472533,
+      "span": 23.897098659156278
+    },
+    {
+      "position": 100,
+      "tree": 39,
+      "leaf": 10,
+      "support": 9,
+      "targetParts": 23.853448862472533,
+      "span": 23.897098659156278
+    },
+    {
+      "position": 100,
+      "tree": 5,
+      "leaf": 10,
+      "support": 27,
+      "targetParts": 23.90370646715751,
+      "span": 24.72951124811991
+    },
+    {
+      "position": 100,
+      "tree": 95,
+      "leaf": 21,
+      "support": 24,
+      "targetParts": 25.851657734904887,
+      "span": 24.775515872523165
+    },
+    {
+      "position": 100,
+      "tree": 25,
+      "leaf": 19,
+      "support": 7,
+      "targetParts": 21.947498447065286,
+      "span": 23.856149273784013
+    },
+    {
+      "position": 100,
+      "tree": 9,
+      "leaf": 14,
+      "support": 30,
+      "targetParts": 24.924727994743574,
+      "span": 25.08131036747453
+    },
+    {
+      "position": 100,
+      "tree": 10,
+      "leaf": 6,
+      "support": 112,
+      "targetParts": 21.81784874251155,
+      "span": 22.508449655419888
+    },
+    {
+      "position": 100,
+      "tree": 16,
+      "leaf": 21,
+      "support": 5,
+      "targetParts": 23.210806974763397,
+      "span": 24.746266931515
+    },
+    {
+      "position": 100,
+      "tree": 90,
+      "leaf": 1,
+      "support": 419,
+      "targetParts": 25.75999534149467,
+      "span": 24.588651731989586
+    },
+    {
+      "position": 100,
+      "tree": 46,
+      "leaf": 18,
+      "support": 9,
+      "targetParts": 23.429862332315423,
+      "span": 24.78373675353803
+    },
+    {
+      "position": 100,
+      "tree": 93,
+      "leaf": 26,
+      "support": 17,
+      "targetParts": 24.31071599187398,
+      "span": 24.47895981746738
+    },
+    {
+      "position": 100,
+      "tree": 41,
+      "leaf": 25,
+      "support": 18,
+      "targetParts": 24.453103403959766,
+      "span": 24.918058739074972
+    },
+    {
+      "position": 100,
+      "tree": 73,
+      "leaf": 22,
+      "support": 19,
+      "targetParts": 24.07301542846275,
+      "span": 24.9964947328795
+    },
+    {
+      "position": 100,
+      "tree": 30,
+      "leaf": 20,
+      "support": 14,
+      "targetParts": 25.012491039177444,
+      "span": 24.587182651437224
+    },
+    {
+      "position": 100,
+      "tree": 83,
+      "leaf": 5,
+      "support": 30,
+      "targetParts": 24.33178052953761,
+      "span": 25.03215727190386
+    },
+    {
+      "position": 100,
+      "tree": 22,
+      "leaf": 25,
+      "support": 27,
+      "targetParts": 24.95228528977872,
+      "span": 25.209648975261942
+    },
+    {
+      "position": 100,
+      "tree": 26,
+      "leaf": 21,
+      "support": 7,
+      "targetParts": 22.745436056238773,
+      "span": 23.334356358046858
+    },
+    {
+      "position": 100,
+      "tree": 47,
+      "leaf": 8,
+      "support": 113,
+      "targetParts": 25.445297888463696,
+      "span": 24.64180661444128
+    },
+    {
+      "position": 100,
+      "tree": 81,
+      "leaf": 19,
+      "support": 43,
+      "targetParts": 24.942563676073167,
+      "span": 25.474177049098703
+    },
+    {
+      "position": 100,
+      "tree": 92,
+      "leaf": 23,
+      "support": 50,
+      "targetParts": 24.510073964431346,
+      "span": 25.197458389034907
+    },
+    {
+      "position": 100,
+      "tree": 46,
+      "leaf": 18,
+      "support": 9,
+      "targetParts": 23.429862332315423,
+      "span": 24.78373675353803
+    },
+    {
+      "position": 100,
+      "tree": 59,
+      "leaf": 30,
+      "support": 19,
+      "targetParts": 24.35042379704666,
+      "span": 24.47024163890326
+    },
+    {
+      "position": 100,
+      "tree": 70,
+      "leaf": 29,
+      "support": 5,
+      "targetParts": 21.732210724855747,
+      "span": 23.34878971684768
+    },
+    {
+      "position": 100,
+      "tree": 90,
+      "leaf": 1,
+      "support": 419,
+      "targetParts": 25.75999534149467,
+      "span": 24.588651731989586
+    },
+    {
+      "position": 100,
+      "tree": 21,
+      "leaf": 22,
+      "support": 18,
+      "targetParts": 24.90742353810581,
+      "span": 24.635326119095495
+    },
+    {
+      "position": 100,
+      "tree": 0,
+      "leaf": 34,
+      "support": 11,
+      "targetParts": 25.719677466989225,
+      "span": 25.12078307235497
+    },
+    {
+      "position": 100,
+      "tree": 35,
+      "leaf": 19,
+      "support": 29,
+      "targetParts": 24.993782645054896,
+      "span": 25.17412881184558
+    },
+    {
+      "position": 100,
+      "tree": 66,
+      "leaf": 9,
+      "support": 61,
+      "targetParts": 24.898584674766752,
+      "span": 24.327958917488022
+    },
+    {
+      "position": 100,
+      "tree": 92,
+      "leaf": 23,
+      "support": 50,
+      "targetParts": 24.510073964431346,
+      "span": 25.197458389034907
+    },
+    {
+      "position": 100,
+      "tree": 21,
+      "leaf": 22,
+      "support": 18,
+      "targetParts": 24.90742353810581,
+      "span": 24.635326119095495
+    },
+    {
+      "position": 100,
+      "tree": 49,
+      "leaf": 0,
+      "support": 460,
+      "targetParts": 26.12372163224429,
+      "span": 24.962171054692632
+    },
+    {
+      "position": 200,
+      "tree": 71,
+      "leaf": 34,
+      "support": 32,
+      "targetParts": 22.5587695263535,
+      "span": 24.309154905063657
+    },
+    {
+      "position": 200,
+      "tree": 53,
+      "leaf": 14,
+      "support": 168,
+      "targetParts": 24.414974462028,
+      "span": 24.719795781356176
+    },
+    {
+      "position": 200,
+      "tree": 26,
+      "leaf": 38,
+      "support": 10,
+      "targetParts": 28.40342337414238,
+      "span": 24.68725593650874
+    },
+    {
+      "position": 200,
+      "tree": 73,
+      "leaf": 38,
+      "support": 57,
+      "targetParts": 24.275828180511564,
+      "span": 24.535146537151363
+    },
+    {
+      "position": 200,
+      "tree": 38,
+      "leaf": 23,
+      "support": 11,
+      "targetParts": 22.434519136448444,
+      "span": 23.766776032463287
+    },
+    {
+      "position": 200,
+      "tree": 79,
+      "leaf": 14,
+      "support": 14,
+      "targetParts": 28.308548837232248,
+      "span": 25.254522673609372
+    },
+    {
+      "position": 200,
+      "tree": 54,
+      "leaf": 31,
+      "support": 44,
+      "targetParts": 24.11754633304991,
+      "span": 24.42918885618113
+    },
+    {
+      "position": 200,
+      "tree": 85,
+      "leaf": 50,
+      "support": 40,
+      "targetParts": 23.714112857195666,
+      "span": 24.559323017799926
+    },
+    {
+      "position": 200,
+      "tree": 78,
+      "leaf": 47,
+      "support": 6,
+      "targetParts": 28.945265352990994,
+      "span": 23.895872857484456
+    },
+    {
+      "position": 200,
+      "tree": 72,
+      "leaf": 30,
+      "support": 25,
+      "targetParts": 24.217918585349384,
+      "span": 23.879821478761023
+    },
+    {
+      "position": 200,
+      "tree": 78,
+      "leaf": 47,
+      "support": 6,
+      "targetParts": 28.945265352990994,
+      "span": 23.895872857484456
+    },
+    {
+      "position": 200,
+      "tree": 36,
+      "leaf": 2,
+      "support": 189,
+      "targetParts": 22.962004880622718,
+      "span": 23.46646784289866
+    },
+    {
+      "position": 200,
+      "tree": 67,
+      "leaf": 10,
+      "support": 13,
+      "targetParts": 26.259355465326955,
+      "span": 24.573654079314398
+    },
+    {
+      "position": 200,
+      "tree": 10,
+      "leaf": 27,
+      "support": 6,
+      "targetParts": 26.453355650860907,
+      "span": 25.090394206172014
+    },
+    {
+      "position": 200,
+      "tree": 40,
+      "leaf": 44,
+      "support": 70,
+      "targetParts": 24.23127206843995,
+      "span": 24.451313834015238
+    },
+    {
+      "position": 200,
+      "tree": 79,
+      "leaf": 14,
+      "support": 14,
+      "targetParts": 28.308548837232248,
+      "span": 25.254522673609372
+    },
+    {
+      "position": 200,
+      "tree": 9,
+      "leaf": 33,
+      "support": 25,
+      "targetParts": 23.844582483702062,
+      "span": 23.885574459480118
+    },
+    {
+      "position": 200,
+      "tree": 67,
+      "leaf": 10,
+      "support": 13,
+      "targetParts": 26.259355465326955,
+      "span": 24.573654079314398
+    },
+    {
+      "position": 200,
+      "tree": 72,
+      "leaf": 30,
+      "support": 25,
+      "targetParts": 24.217918585349384,
+      "span": 23.879821478761023
+    },
+    {
+      "position": 200,
+      "tree": 82,
+      "leaf": 32,
+      "support": 47,
+      "targetParts": 25.021292785384684,
+      "span": 24.64586147520709
+    },
+    {
+      "position": 200,
+      "tree": 81,
+      "leaf": 30,
+      "support": 12,
+      "targetParts": 27.553337541069734,
+      "span": 25.22051071790218
+    },
+    {
+      "position": 200,
+      "tree": 21,
+      "leaf": 31,
+      "support": 42,
+      "targetParts": 23.70431226605744,
+      "span": 24.24569198970411
+    },
+    {
+      "position": 200,
+      "tree": 1,
+      "leaf": 35,
+      "support": 10,
+      "targetParts": 27.18600064861375,
+      "span": 24.830439245704305
+    },
+    {
+      "position": 200,
+      "tree": 5,
+      "leaf": 30,
+      "support": 9,
+      "targetParts": 26.515991724866876,
+      "span": 23.85037212105508
+    },
+    {
+      "position": 200,
+      "tree": 91,
+      "leaf": 31,
+      "support": 6,
+      "targetParts": 22.168415560131866,
+      "span": 25.041922150181062
+    },
+    {
+      "position": 200,
+      "tree": 58,
+      "leaf": 39,
+      "support": 12,
+      "targetParts": 23.804747766465916,
+      "span": 23.800617716659275
+    },
+    {
+      "position": 200,
+      "tree": 1,
+      "leaf": 35,
+      "support": 10,
+      "targetParts": 27.18600064861375,
+      "span": 24.830439245704305
+    },
+    {
+      "position": 200,
+      "tree": 79,
+      "leaf": 14,
+      "support": 14,
+      "targetParts": 28.308548837232248,
+      "span": 25.254522673609372
+    },
+    {
+      "position": 200,
+      "tree": 76,
+      "leaf": 33,
+      "support": 19,
+      "targetParts": 23.977381785129293,
+      "span": 23.318999302953348
+    },
+    {
+      "position": 200,
+      "tree": 27,
+      "leaf": 33,
+      "support": 9,
+      "targetParts": 25.680137699682632,
+      "span": 23.99640608194927
+    },
+    {
+      "position": 200,
+      "tree": 1,
+      "leaf": 35,
+      "support": 10,
+      "targetParts": 27.18600064861375,
+      "span": 24.830439245704305
+    },
+    {
+      "position": 200,
+      "tree": 33,
+      "leaf": 30,
+      "support": 14,
+      "targetParts": 28.308548837232248,
+      "span": 24.854074929363478
+    },
+    {
+      "position": 323,
+      "tree": 83,
+      "leaf": 28,
+      "support": 18,
+      "targetParts": 30.70515649939105,
+      "span": 26.138117025759016
+    },
+    {
+      "position": 323,
+      "tree": 78,
+      "leaf": 59,
+      "support": 17,
+      "targetParts": 29.073766866208153,
+      "span": 25.018555038383816
+    },
+    {
+      "position": 323,
+      "tree": 91,
+      "leaf": 51,
+      "support": 105,
+      "targetParts": 31.846256157891418,
+      "span": 25.916255885123395
+    },
+    {
+      "position": 323,
+      "tree": 67,
+      "leaf": 31,
+      "support": 15,
+      "targetParts": 31.047776142970605,
+      "span": 26.140240199014436
+    },
+    {
+      "position": 323,
+      "tree": 92,
+      "leaf": 47,
+      "support": 6,
+      "targetParts": 30.079053752846647,
+      "span": 26.890358492767913
+    },
+    {
+      "position": 323,
+      "tree": 66,
+      "leaf": 61,
+      "support": 25,
+      "targetParts": 28.022865426116407,
+      "span": 24.816959706170024
+    },
+    {
+      "position": 323,
+      "tree": 33,
+      "leaf": 59,
+      "support": 8,
+      "targetParts": 30.214101676022757,
+      "span": 27.06571425185469
+    },
+    {
+      "position": 323,
+      "tree": 93,
+      "leaf": 74,
+      "support": 5,
+      "targetParts": 30.299477968101588,
+      "span": 26.86507835982656
+    },
+    {
+      "position": 323,
+      "tree": 44,
+      "leaf": 62,
+      "support": 19,
+      "targetParts": 30.91785682524989,
+      "span": 26.348477816467934
+    },
+    {
+      "position": 323,
+      "tree": 14,
+      "leaf": 54,
+      "support": 6,
+      "targetParts": 30.079053752846647,
+      "span": 26.890358492767913
+    },
+    {
+      "position": 323,
+      "tree": 36,
+      "leaf": 27,
+      "support": 5,
+      "targetParts": 28.85414417270943,
+      "span": 27.029491571328183
+    },
+    {
+      "position": 323,
+      "tree": 81,
+      "leaf": 57,
+      "support": 27,
+      "targetParts": 30.4468501526813,
+      "span": 26.444878515841143
+    },
+    {
+      "position": 323,
+      "tree": 11,
+      "leaf": 73,
+      "support": 30,
+      "targetParts": 28.01804406035547,
+      "span": 24.687770950367636
+    },
+    {
+      "position": 323,
+      "tree": 1,
+      "leaf": 52,
+      "support": 11,
+      "targetParts": 28.326764518757344,
+      "span": 25.179739043642225
+    },
+    {
+      "position": 323,
+      "tree": 40,
+      "leaf": 65,
+      "support": 8,
+      "targetParts": 30.214101676022757,
+      "span": 27.06571425185469
+    },
+    {
+      "position": 323,
+      "tree": 10,
+      "leaf": 38,
+      "support": 85,
+      "targetParts": 27.515866086321434,
+      "span": 25.246575344765986
+    },
+    {
+      "position": 323,
+      "tree": 17,
+      "leaf": 37,
+      "support": 6,
+      "targetParts": 29.80025212917878,
+      "span": 26.4624789478928
+    },
+    {
+      "position": 323,
+      "tree": 20,
+      "leaf": 57,
+      "support": 20,
+      "targetParts": 30.760082646138446,
+      "span": 26.87288855794871
+    },
+    {
+      "position": 323,
+      "tree": 51,
+      "leaf": 53,
+      "support": 74,
+      "targetParts": 27.450217293470846,
+      "span": 25.08917908429654
+    },
+    {
+      "position": 323,
+      "tree": 7,
+      "leaf": 47,
+      "support": 22,
+      "targetParts": 28.926842168901196,
+      "span": 25.544630463003333
+    },
+    {
+      "position": 323,
+      "tree": 81,
+      "leaf": 57,
+      "support": 27,
+      "targetParts": 30.4468501526813,
+      "span": 26.444878515841143
+    },
+    {
+      "position": 323,
+      "tree": 76,
+      "leaf": 54,
+      "support": 8,
+      "targetParts": 29.151016064704702,
+      "span": 25.85143490072266
+    },
+    {
+      "position": 323,
+      "tree": 7,
+      "leaf": 47,
+      "support": 22,
+      "targetParts": 28.926842168901196,
+      "span": 25.544630463003333
+    },
+    {
+      "position": 323,
+      "tree": 40,
+      "leaf": 65,
+      "support": 8,
+      "targetParts": 30.214101676022757,
+      "span": 27.06571425185469
+    },
+    {
+      "position": 323,
+      "tree": 57,
+      "leaf": 48,
+      "support": 14,
+      "targetParts": 28.355831052201776,
+      "span": 25.350900225570395
+    },
+    {
+      "position": 323,
+      "tree": 83,
+      "leaf": 28,
+      "support": 18,
+      "targetParts": 30.70515649939105,
+      "span": 26.138117025759016
+    },
+    {
+      "position": 323,
+      "tree": 5,
+      "leaf": 54,
+      "support": 18,
+      "targetParts": 30.913299503150277,
+      "span": 26.60421938048235
+    },
+    {
+      "position": 323,
+      "tree": 51,
+      "leaf": 53,
+      "support": 74,
+      "targetParts": 27.450217293470846,
+      "span": 25.08917908429654
+    },
+    {
+      "position": 323,
+      "tree": 5,
+      "leaf": 54,
+      "support": 18,
+      "targetParts": 30.913299503150277,
+      "span": 26.60421938048235
+    },
+    {
+      "position": 323,
+      "tree": 51,
+      "leaf": 53,
+      "support": 74,
+      "targetParts": 27.450217293470846,
+      "span": 25.08917908429654
+    },
+    {
+      "position": 323,
+      "tree": 68,
+      "leaf": 64,
+      "support": 17,
+      "targetParts": 31.37493214390547,
+      "span": 26.62621722139256
+    },
+    {
+      "position": 323,
+      "tree": 27,
+      "leaf": 58,
+      "support": 10,
+      "targetParts": 30.537193887311165,
+      "span": 26.73866237059405
+    },
+    {
+      "position": 460,
+      "tree": 67,
+      "leaf": 57,
+      "support": 18,
+      "targetParts": 30.643385259591795,
+      "span": 28.08509572029669
+    },
+    {
+      "position": 460,
+      "tree": 30,
+      "leaf": 94,
+      "support": 9,
+      "targetParts": 28.016485847526948,
+      "span": 27.182133221370886
+    },
+    {
+      "position": 460,
+      "tree": 87,
+      "leaf": 91,
+      "support": 11,
+      "targetParts": 28.096955538424496,
+      "span": 27.55247597040442
+    },
+    {
+      "position": 460,
+      "tree": 72,
+      "leaf": 69,
+      "support": 23,
+      "targetParts": 29.74957224915374,
+      "span": 27.40603799531384
+    },
+    {
+      "position": 460,
+      "tree": 33,
+      "leaf": 72,
+      "support": 53,
+      "targetParts": 28.898624637581694,
+      "span": 26.682013121039915
+    },
+    {
+      "position": 460,
+      "tree": 82,
+      "leaf": 63,
+      "support": 7,
+      "targetParts": 28.203145724204088,
+      "span": 27.555544087463968
+    },
+    {
+      "position": 460,
+      "tree": 52,
+      "leaf": 62,
+      "support": 10,
+      "targetParts": 29.242864974112464,
+      "span": 26.07261508246696
+    },
+    {
+      "position": 460,
+      "tree": 29,
+      "leaf": 79,
+      "support": 17,
+      "targetParts": 30.380022078026823,
+      "span": 27.630208111842137
+    },
+    {
+      "position": 460,
+      "tree": 57,
+      "leaf": 65,
+      "support": 5,
+      "targetParts": 28.795619328452904,
+      "span": 26.61023956360509
+    },
+    {
+      "position": 460,
+      "tree": 50,
+      "leaf": 84,
+      "support": 43,
+      "targetParts": 29.929693507357303,
+      "span": 29.205947224974295
+    },
+    {
+      "position": 460,
+      "tree": 76,
+      "leaf": 79,
+      "support": 4,
+      "targetParts": 28.15544544435683,
+      "span": 26.19936099027593
+    },
+    {
+      "position": 460,
+      "tree": 39,
+      "leaf": 41,
+      "support": 53,
+      "targetParts": 29.25830192400325,
+      "span": 27.54243562508281
+    },
+    {
+      "position": 460,
+      "tree": 14,
+      "leaf": 72,
+      "support": 26,
+      "targetParts": 29.551387018993033,
+      "span": 28.101737020215886
+    },
+    {
+      "position": 460,
+      "tree": 23,
+      "leaf": 83,
+      "support": 12,
+      "targetParts": 30.225269069312365,
+      "span": 27.00803060391333
+    },
+    {
+      "position": 460,
+      "tree": 41,
+      "leaf": 85,
+      "support": 9,
+      "targetParts": 30.49367449055843,
+      "span": 26.579669021730325
+    },
+    {
+      "position": 460,
+      "tree": 77,
+      "leaf": 91,
+      "support": 11,
+      "targetParts": 27.63539349336801,
+      "span": 27.84243996791613
+    },
+    {
+      "position": 460,
+      "tree": 7,
+      "leaf": 69,
+      "support": 50,
+      "targetParts": 29.142825821431114,
+      "span": 27.238742178621553
+    },
+    {
+      "position": 460,
+      "tree": 16,
+      "leaf": 58,
+      "support": 69,
+      "targetParts": 29.592733558218352,
+      "span": 28.654511838087505
+    },
+    {
+      "position": 460,
+      "tree": 45,
+      "leaf": 58,
+      "support": 11,
+      "targetParts": 29.689756877525593,
+      "span": 27.659015811090992
+    },
+    {
+      "position": 460,
+      "tree": 62,
+      "leaf": 60,
+      "support": 22,
+      "targetParts": 30.638831644241378,
+      "span": 28.5240212023808
+    },
+    {
+      "position": 460,
+      "tree": 47,
+      "leaf": 48,
+      "support": 9,
+      "targetParts": 28.016485847526948,
+      "span": 27.182133221370886
+    },
+    {
+      "position": 460,
+      "tree": 24,
+      "leaf": 52,
+      "support": 7,
+      "targetParts": 27.69611696745776,
+      "span": 27.187972288584234
+    },
+    {
+      "position": 460,
+      "tree": 72,
+      "leaf": 69,
+      "support": 23,
+      "targetParts": 29.74957224915374,
+      "span": 27.40603799531384
+    },
+    {
+      "position": 460,
+      "tree": 9,
+      "leaf": 73,
+      "support": 8,
+      "targetParts": 27.344376664830108,
+      "span": 27.33520304189809
+    },
+    {
+      "position": 460,
+      "tree": 17,
+      "leaf": 62,
+      "support": 15,
+      "targetParts": 28.988967024929075,
+      "span": 26.960025376711794
+    },
+    {
+      "position": 460,
+      "tree": 78,
+      "leaf": 83,
+      "support": 13,
+      "targetParts": 28.74740460272617,
+      "span": 27.20701963487196
+    },
+    {
+      "position": 460,
+      "tree": 85,
+      "leaf": 94,
+      "support": 10,
+      "targetParts": 30.23494897179269,
+      "span": 26.450603409656566
+    },
+    {
+      "position": 460,
+      "tree": 21,
+      "leaf": 44,
+      "support": 8,
+      "targetParts": 28.417363550252354,
+      "span": 27.488726278736994
+    },
+    {
+      "position": 460,
+      "tree": 87,
+      "leaf": 91,
+      "support": 11,
+      "targetParts": 28.096955538424496,
+      "span": 27.55247597040442
+    },
+    {
+      "position": 460,
+      "tree": 72,
+      "leaf": 69,
+      "support": 23,
+      "targetParts": 29.74957224915374,
+      "span": 27.40603799531384
+    },
+    {
+      "position": 460,
+      "tree": 0,
+      "leaf": 80,
+      "support": 27,
+      "targetParts": 30.379972169049196,
+      "span": 27.554098259201734
+    },
+    {
+      "position": 460,
+      "tree": 44,
+      "leaf": 74,
+      "support": 43,
+      "targetParts": 29.929693507357303,
+      "span": 29.205947224974295
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "ruleVersion": "source-native-pull-contract-v3.0-unverified",
+  "sourceLabelsAllowed": false,
+  "parityStatus": "unverified",
+  "collisionStatus": "exploratory geometry only; no casts or solved labels",
+  "levels": [
+    {
+      "sourceLevelId": "10001",
+      "position": 1,
+      "pulls": []
+    },
+    {
+      "sourceLevelId": "10010",
+      "position": 6,
+      "pulls": [
+        {
+          "partId": 2,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            -0.8191520607059308,
+            -0.5735764129052267
+          ],
+          "configuredColliderIds": [
+            -3548042516209043973
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -3548042516209043973
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 7,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            0.9659258199578075,
+            0.25881906873110677
+          ],
+          "configuredColliderIds": [
+            4040969495638083586
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            4040969495638083586
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "sourceLevelId": "10012",
+      "position": 7,
+      "pulls": [
+        {
+          "partId": 7,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            0.9986295313316573,
+            0.05233602155604112
+          ],
+          "configuredColliderIds": [
+            1721996078981800976,
+            7216725227612886737
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            1721996078981800976,
+            7216725227612886737
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 11,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            -0.7660443846124806,
+            -0.6427876794118614
+          ],
+          "configuredColliderIds": [
+            -9172654318467924873,
+            -8304482366237326924
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -9172654318467924873,
+            -8304482366237326924
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "sourceLevelId": "10154",
+      "position": 10,
+      "pulls": [
+        {
+          "partId": 3,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            -0.01745242704008705,
+            -0.9998476947967677
+          ],
+          "configuredColliderIds": [
+            5676353471046804276
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            5676353471046804276
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 5,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            -0.9848077543759368,
+            -0.17364816993284016
+          ],
+          "configuredColliderIds": [
+            3741862791128930927
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            3741862791128930927
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 7,
+          "sourceId": "slide_bar_3",
+          "axisWorld": [
+            -0.25881904945592665,
+            0.9659258251225766
+          ],
+          "configuredColliderIds": [
+            -5319488460388212075,
+            -1160584030660917331,
+            8818658430251556848
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -5319488460388212075,
+            -1160584030660917331,
+            8818658430251556848
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 10,
+          "sourceId": "slide_bar_4",
+          "axisWorld": [
+            0.9986295299755247,
+            0.052336047432554954
+          ],
+          "configuredColliderIds": [
+            4176747862833714744
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            4176747862833714744
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 12,
+          "sourceId": "slide_bar_5",
+          "axisWorld": [
+            -0.17364809505992304,
+            0.9848077675780487
+          ],
+          "configuredColliderIds": [
+            6372831757212870144
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            6372831757212870144
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 14,
+          "sourceId": "slide_bar_6",
+          "axisWorld": [
+            0.08715571950021121,
+            0.9961947001256333
+          ],
+          "configuredColliderIds": [
+            -7107309009744644883
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -7107309009744644883
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 15,
+          "sourceId": "slide_bar_7",
+          "axisWorld": [
+            0.9659257977972849,
+            0.2588191514352805
+          ],
+          "configuredColliderIds": [
+            1277485987805544611
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            1277485987805544611
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 18,
+          "sourceId": "slide_bar_8",
+          "axisWorld": [
+            0.9063077607411982,
+            0.42261831813147305
+          ],
+          "configuredColliderIds": [
+            -8662284478398116635
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -8662284478398116635
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "sourceLevelId": "10109",
+      "position": 20,
+      "pulls": [
+        {
+          "partId": 7,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            -0.49999998190759004,
+            -0.8660254142300962
+          ],
+          "configuredColliderIds": [
+            -8928408038234548024
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -8928408038234548024
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 8,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            0.9063077607411982,
+            0.42261831813147305
+          ],
+          "configuredColliderIds": [
+            -6203273632490308237
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -6203273632490308237
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 9,
+          "sourceId": "slide_bar_3",
+          "axisWorld": [
+            -0.4226183181314729,
+            -0.9063077607411983
+          ],
+          "configuredColliderIds": [
+            -2410920852726656547
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -2410920852726656547
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 12,
+          "sourceId": "slide_bar_4",
+          "axisWorld": [
+            0.4226181812517693,
+            -0.9063078245692501
+          ],
+          "configuredColliderIds": [
+            -2853721651627820150
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -2853721651627820150
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 13,
+          "sourceId": "slide_bar_5",
+          "axisWorld": [
+            -0.4226182134882432,
+            -0.9063078095371383
+          ],
+          "configuredColliderIds": [
+            1844476885755599055
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            1844476885755599055
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 14,
+          "sourceId": "slide_bar_6",
+          "axisWorld": [
+            -0.5000000716314393,
+            0.8660253624280039
+          ],
+          "configuredColliderIds": [
+            8402452452011063778
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            8402452452011063778
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 19,
+          "sourceId": "slide_bar_7",
+          "axisWorld": [
+            -0.9063077817871031,
+            0.4226182729983887
+          ],
+          "configuredColliderIds": [
+            -4113678534428788228
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -4113678534428788228
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 20,
+          "sourceId": "slide_bar_8",
+          "axisWorld": [
+            -0.4226182729983882,
+            0.9063077817871034
+          ],
+          "configuredColliderIds": [
+            -6807521889055317580
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -6807521889055317580
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "sourceLevelId": "10166",
+      "position": 101,
+      "pulls": [
+        {
+          "partId": 6,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            1.3435883890517886e-07,
+            0.999999999999991
+          ],
+          "configuredColliderIds": [
+            -6667027611637670665
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -6667027611637670665
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 10,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            -0.999999999999991,
+            -1.3435883843820489e-07
+          ],
+          "configuredColliderIds": [
+            526148883564323327,
+            2534309232886485993,
+            6664943416181784930
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            526148883564323327,
+            2534309232886485993,
+            6664943416181784930
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 11,
+          "sourceId": "slide_bar_3",
+          "axisWorld": [
+            1.3435883843820489e-07,
+            -0.999999999999991
+          ],
+          "configuredColliderIds": [
+            -4347272370731740330,
+            -3455360851286820247,
+            2445721428545489323
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -4347272370731740330,
+            -3455360851286820247,
+            2445721428545489323
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 12,
+          "sourceId": "slide_bar_4",
+          "axisWorld": [
+            8.742277645101107e-08,
+            -0.9999999999999962
+          ],
+          "configuredColliderIds": [
+            -5352379824099703710,
+            -4684483415396079347
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -5352379824099703710,
+            -4684483415396079347
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "sourceLevelId": "10190",
+      "position": 256,
+      "pulls": []
+    },
+    {
+      "sourceLevelId": "140004",
+      "position": 430,
+      "pulls": [
+        {
+          "partId": 12,
+          "sourceId": "slide_bar_1",
+          "axisWorld": [
+            -0.6427875258427981,
+            -0.7660445134722226
+          ],
+          "configuredColliderIds": [
+            -743241102614066113,
+            5926139641923427336,
+            8349665763025749273
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -743241102614066113,
+            5926139641923427336,
+            8349665763025749273
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        },
+        {
+          "partId": 13,
+          "sourceId": "slide_bar_2",
+          "axisWorld": [
+            0.6427876794118614,
+            -0.7660443846124806
+          ],
+          "configuredColliderIds": [
+            -4432968871828786333,
+            1817132000821608595,
+            7795021500603307791
+          ],
+          "exploratoryInitialActiveColliderIds": [
+            -4432968871828786333,
+            1817132000821608595,
+            7795021500603307791
+          ],
+          "signedProbeDistances": [
+            -0.12,
+            0.12,
+            -1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

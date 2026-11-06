@@ -1,0 +1,11 @@
+{
+  "sourceCount": 500,
+  "motifs": {
+    "levelsWithBranches": 463,
+    "levelsWithMerges": 459,
+    "levelsWithDirectedCycles": 4,
+    "levelsWithMultipleClusters": 461
+  },
+  "bytes": 18334330,
+  "output": "D:\\RotateRings\\Research\\physics_v3\\source500_spatial_grammar.json"
+}

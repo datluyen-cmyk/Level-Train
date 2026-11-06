@@ -1,0 +1,5138 @@
+{
+  "trainingSourceCount": 460,
+  "actualUniqueOrdinaryCount": 460,
+  "recordCount": 5883,
+  "sourceCountWithEligiblePairs": 334,
+  "folds": [
+    {
+      "fold": 0,
+      "sourceFamilyIntersection": [],
+      "trainingSourceIds": [
+        "10011",
+        "10012",
+        "10015",
+        "10017",
+        "10018",
+        "10019",
+        "10020",
+        "10021",
+        "10023",
+        "10024",
+        "10025",
+        "10026",
+        "10027",
+        "10029",
+        "10031",
+        "10033",
+        "10035",
+        "10036",
+        "10037",
+        "10039",
+        "10040",
+        "10041",
+        "10043",
+        "10044",
+        "10045",
+        "10046",
+        "10049",
+        "10051",
+        "10052",
+        "10054",
+        "10055",
+        "10056",
+        "10057",
+        "10059",
+        "10060",
+        "10061",
+        "10062",
+        "10063",
+        "10064",
+        "10066",
+        "10067",
+        "10068",
+        "10069",
+        "10071",
+        "10111",
+        "10122",
+        "10134",
+        "10152",
+        "10153",
+        "10154",
+        "10161",
+        "10162",
+        "10166",
+        "10168",
+        "10170",
+        "10172",
+        "10173",
+        "10174",
+        "10176",
+        "10178",
+        "10179",
+        "10181",
+        "10182",
+        "10183",
+        "10184",
+        "10185",
+        "10186",
+        "10188",
+        "10191",
+        "10194",
+        "10195",
+        "10197",
+        "10198",
+        "10199",
+        "10200",
+        "10202",
+        "10203",
+        "10204",
+        "10205",
+        "110001",
+        "110003",
+        "110005",
+        "130004",
+        "130006",
+        "150003",
+        "150006",
+        "150015",
+        "50001",
+        "50002",
+        "50005",
+        "50006",
+        "50012",
+        "50013",
+        "50014",
+        "50016",
+        "50017",
+        "50018",
+        "50020",
+        "60005",
+        "60006",
+        "60007",
+        "60008",
+        "60036",
+        "60045",
+        "60048",
+        "60050",
+        "60051",
+        "60052",
+        "60053",
+        "60054",
+        "60055",
+        "60056",
+        "60057",
+        "60059",
+        "60062",
+        "60063",
+        "60064",
+        "60065",
+        "60066",
+        "60067",
+        "60068",
+        "60069",
+        "60071",
+        "60072",
+        "60073",
+        "60075",
+        "60076",
+        "60077",
+        "60078",
+        "60079",
+        "60081",
+        "60094",
+        "60096",
+        "60097",
+        "660002",
+        "660005",
+        "680013",
+        "70007",
+        "70009",
+        "70010",
+        "70011",
+        "70012",
+        "70013",
+        "70015",
+        "70018",
+        "70021",
+        "70022",
+        "70023",
+        "70024",
+        "70025",
+        "70026",
+        "70027",
+        "70028",
+        "70029",
+        "70030",
+        "70031",
+        "70032",
+        "70034",
+        "70036",
+        "70037",
+        "70038",
+        "70039",
+        "71002",
+        "71004",
+        "71007",
+        "71011",
+        "71013",
+        "71014",
+        "71017",
+        "71020",
+        "71021",
+        "71022",
+        "71023",
+        "71024",
+        "71025",
+        "71026",
+        "71027",
+        "71028",
+        "71029",
+        "71030",
+        "71031",
+        "71036",
+        "71037",
+        "71038",
+        "71039",
+        "71040",
+        "71041",
+        "71042",
+        "71043",
+        "71044",
+        "71045",
+        "71046",
+        "71048",
+        "71049",
+        "71050",
+        "71102",
+        "71104",
+        "71105",
+        "71106",
+        "71107",
+        "71108",
+        "71109",
+        "71110",
+        "71111",
+        "71113",
+        "71116",
+        "71117",
+        "71118",
+        "71119",
+        "71120",
+        "71121",
+        "71122",
+        "71123",
+        "71124",
+        "71125",
+        "71126",
+        "71129",
+        "71130",
+        "71131",
+        "71132",
+        "71133",
+        "71134",
+        "71135",
+        "71138",
+        "71140",
+        "71141",
+        "71143",
+        "71144",
+        "71146",
+        "71147",
+        "71148",
+        "71149",
+        "71202",
+        "71205",
+        "71206",
+        "71207",
+        "71209",
+        "71213",
+        "71216",
+        "71217",
+        "71222",
+        "71223",
+        "71226",
+        "71227",
+        "71230",
+        "72003",
+        "72012",
+        "72013",
+        "73001",
+        "73004",
+        "73005",
+        "73008",
+        "73012",
+        "73014",
+        "880001",
+        "880002",
+        "880004",
+        "880007",
+        "880010",
+        "90002",
+        "90005",
+        "90008",
+        "90009",
+        "90012",
+        "90013",
+        "90014",
+        "90020",
+        "90025",
+        "90026"
+      ],
+      "heldSourceIds": [
+        "10010",
+        "10013",
+        "10014",
+        "10032",
+        "10034",
+        "10038",
+        "10047",
+        "10048",
+        "10058",
+        "10065",
+        "10082",
+        "10164",
+        "10171",
+        "10175",
+        "10177",
+        "10180",
+        "10187",
+        "10189",
+        "10196",
+        "10201",
+        "10209",
+        "130008",
+        "150002",
+        "150004",
+        "150014",
+        "50004",
+        "50008",
+        "50011",
+        "60009",
+        "60049",
+        "60070",
+        "60074",
+        "70004",
+        "70008",
+        "70033",
+        "70035",
+        "70040",
+        "71001",
+        "71003",
+        "71005",
+        "71006",
+        "71009",
+        "71010",
+        "71012",
+        "71015",
+        "71016",
+        "71019",
+        "71033",
+        "71047",
+        "71101",
+        "71103",
+        "71115",
+        "71127",
+        "71128",
+        "71137",
+        "71139",
+        "71145",
+        "71208",
+        "71229",
+        "72009",
+        "73002",
+        "73011",
+        "73013",
+        "73016",
+        "90003"
+      ],
+      "nativeUnitGeometryAndRole": {
+        "meanHeldSourceNLL": 2.199128456368091,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 3.0730515639149987,
+        "perHeldSource": [
+          {
+            "sourceId": "10010",
+            "nll": 8.65709448557212,
+            "oracle32RelativeAngleErrorDegrees": 35.000004490325495
+          },
+          {
+            "sourceId": "10013",
+            "nll": 1.1275621968463612,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10014",
+            "nll": 1.619811834490468,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10032",
+            "nll": 2.2612196825489246,
+            "oracle32RelativeAngleErrorDegrees": 6.000001181073778
+          },
+          {
+            "sourceId": "10034",
+            "nll": 1.3093256874821408,
+            "oracle32RelativeAngleErrorDegrees": 2.666667943594048
+          },
+          {
+            "sourceId": "10038",
+            "nll": 2.028936188548227,
+            "oracle32RelativeAngleErrorDegrees": 3.5714298677375305
+          },
+          {
+            "sourceId": "10047",
+            "nll": 1.9294567549949588,
+            "oracle32RelativeAngleErrorDegrees": 0.5700684255341734
+          },
+          {
+            "sourceId": "10048",
+            "nll": 1.3965814658709117,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10058",
+            "nll": 1.9253569238823038,
+            "oracle32RelativeAngleErrorDegrees": 0.04810891025046268
+          },
+          {
+            "sourceId": "10065",
+            "nll": 1.5081489061681708,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10082",
+            "nll": 8.677071270447623,
+            "oracle32RelativeAngleErrorDegrees": 19.166665456141857
+          },
+          {
+            "sourceId": "10164",
+            "nll": 1.600949454133112,
+            "oracle32RelativeAngleErrorDegrees": 1.2478851614565444e-06
+          },
+          {
+            "sourceId": "10171",
+            "nll": 2.995135814962743,
+            "oracle32RelativeAngleErrorDegrees": 1.9433661800807947e-06
+          },
+          {
+            "sourceId": "10175",
+            "nll": 1.076777199230888,
+            "oracle32RelativeAngleErrorDegrees": 7.557535154182512e-07
+          },
+          {
+            "sourceId": "10177",
+            "nll": 1.5111748266953553,
+            "oracle32RelativeAngleErrorDegrees": 4.1741301149933677e-07
+          },
+          {
+            "sourceId": "10180",
+            "nll": 2.8634269783123445,
+            "oracle32RelativeAngleErrorDegrees": 0.006521764305526781
+          },
+          {
+            "sourceId": "10187",
+            "nll": 2.851728152577902,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10189",
+            "nll": 3.3719272072809505,
+            "oracle32RelativeAngleErrorDegrees": 2.362147553947918e-06
+          },
+          {
+            "sourceId": "10196",
+            "nll": 1.3249113401953658,
+            "oracle32RelativeAngleErrorDegrees": 6.678608183989388e-07
+          },
+          {
+            "sourceId": "10201",
+            "nll": 1.4215675497733697,
+            "oracle32RelativeAngleErrorDegrees": 4.661551337246167e-06
+          },
+          {
+            "sourceId": "10209",
+            "nll": 1.8382251338006426,
+            "oracle32RelativeAngleErrorDegrees": 8.300000111474057
+          },
+          {
+            "sourceId": "130008",
+            "nll": 3.2768131559927567,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "150002",
+            "nll": 3.0826847515311693,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "150004",
+            "nll": 2.5115650761473143,
+            "oracle32RelativeAngleErrorDegrees": 1.500000823421559
+          },
+          {
+            "sourceId": "150014",
+            "nll": -0.106413782961512,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50004",
+            "nll": 1.0573910648549558,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50008",
+            "nll": 0.9340425210387546,
+            "oracle32RelativeAngleErrorDegrees": 9.423865722854864e-16
+          },
+          {
+            "sourceId": "50011",
+            "nll": 3.362139298665299,
+            "oracle32RelativeAngleErrorDegrees": 4.770434458918292e-07
+          },
+          {
+            "sourceId": "60009",
+            "nll": -0.2535923896562531,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60049",
+            "nll": 4.4895264779522055,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60070",
+            "nll": -0.0555363067682895,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60074",
+            "nll": 1.901879547272422,
+            "oracle32RelativeAngleErrorDegrees": 16.41893292333232
+          },
+          {
+            "sourceId": "70004",
+            "nll": 2.866207185987852,
+            "oracle32RelativeAngleErrorDegrees": 3.3333336413479
+          },
+          {
+            "sourceId": "70008",
+            "nll": 1.4498884213341003,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70033",
+            "nll": 1.423621934714306,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70035",
+            "nll": 0.30749478984851936,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70040",
+            "nll": 0.9185847036860859,
+            "oracle32RelativeAngleErrorDegrees": 6.785183320455502e-15
+          },
+          {
+            "sourceId": "71001",
+            "nll": 1.5820327273095642,
+            "oracle32RelativeAngleErrorDegrees": 3.749999667371236
+          },
+          {
+            "sourceId": "71003",
+            "nll": 2.184933538700504,
+            "oracle32RelativeAngleErrorDegrees": 10.457517501383608
+          },
+          {
+            "sourceId": "71005",
+            "nll": 1.86406286871713,
+            "oracle32RelativeAngleErrorDegrees": 6.428571179853355
+          },
+          {
+            "sourceId": "71006",
+            "nll": 1.3709876292301746,
+            "oracle32RelativeAngleErrorDegrees": 4.481480003259579
+          },
+          {
+            "sourceId": "71009",
+            "nll": 3.3406177651429445,
+            "oracle32RelativeAngleErrorDegrees": 16.59999784937845
+          },
+          {
+            "sourceId": "71010",
+            "nll": 2.162455852870257,
+            "oracle32RelativeAngleErrorDegrees": 14.999994206167791
+          },
+          {
+            "sourceId": "71012",
+            "nll": 0.9440025728863672,
+            "oracle32RelativeAngleErrorDegrees": 9.295702795844572e-07
+          },
+          {
+            "sourceId": "71015",
+            "nll": 1.8972450166193513,
+            "oracle32RelativeAngleErrorDegrees": 11.66666620688778
+          },
+          {
+            "sourceId": "71016",
+            "nll": 2.036808327105314,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71019",
+            "nll": 2.6789049171350925,
+            "oracle32RelativeAngleErrorDegrees": 13.400000167080337
+          },
+          {
+            "sourceId": "71033",
+            "nll": 2.4662001497027353,
+            "oracle32RelativeAngleErrorDegrees": 2.500000111808739
+          },
+          {
+            "sourceId": "71047",
+            "nll": 4.615459476707553,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71101",
+            "nll": 2.9881528710631766,
+            "oracle32RelativeAngleErrorDegrees": 8.330238898615275e-08
+          },
+          {
+            "sourceId": "71103",
+            "nll": 1.9284699042185247,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71115",
+            "nll": 2.092917235545095,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71127",
+            "nll": 1.0139548776677116,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71128",
+            "nll": 0.42810534116642013,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71137",
+            "nll": 0.13801404548531832,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71139",
+            "nll": 1.8974320901057213,
+            "oracle32RelativeAngleErrorDegrees": 2.8443401418422877e-06
+          },
+          {
+            "sourceId": "71145",
+            "nll": 1.960713204663062,
+            "oracle32RelativeAngleErrorDegrees": 5.088887490341627e-15
+          },
+          {
+            "sourceId": "71208",
+            "nll": 2.3609909979826837,
+            "oracle32RelativeAngleErrorDegrees": 8.533020429549067e-06
+          },
+          {
+            "sourceId": "71229",
+            "nll": 3.191886714256546,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "72009",
+            "nll": 1.5797419419038445,
+            "oracle32RelativeAngleErrorDegrees": 8.88235335370554
+          },
+          {
+            "sourceId": "73002",
+            "nll": 2.198531504047283,
+            "oracle32RelativeAngleErrorDegrees": 9.999995987624288
+          },
+          {
+            "sourceId": "73011",
+            "nll": 5.124908838189517,
+            "oracle32RelativeAngleErrorDegrees": 6.924955111376225e-06
+          },
+          {
+            "sourceId": "73013",
+            "nll": 5.272943464375165,
+            "oracle32RelativeAngleErrorDegrees": 2.1203697876423446e-15
+          },
+          {
+            "sourceId": "73016",
+            "nll": 1.8954294929364657,
+            "oracle32RelativeAngleErrorDegrees": 8.033206099654357e-06
+          },
+          {
+            "sourceId": "90003",
+            "nll": 1.2647607947378485,
+            "oracle32RelativeAngleErrorDegrees": 3.392591660227751e-15
+          }
+        ]
+      },
+      "countsRelativeCentersAndGlobalProfileBaseline": {
+        "meanHeldSourceNLL": 1.5603978641741145,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 3.156406121093459,
+        "perHeldSource": [
+          {
+            "sourceId": "10010",
+            "nll": 5.274811444450561,
+            "oracle32RelativeAngleErrorDegrees": 4.999989426676425
+          },
+          {
+            "sourceId": "10013",
+            "nll": 1.194880096779765,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10014",
+            "nll": 1.098388532758424,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10032",
+            "nll": 1.572118132109906,
+            "oracle32RelativeAngleErrorDegrees": 3.437842868038316e-06
+          },
+          {
+            "sourceId": "10034",
+            "nll": 1.3336639133005619,
+            "oracle32RelativeAngleErrorDegrees": 4.666665534867322
+          },
+          {
+            "sourceId": "10038",
+            "nll": 2.1026787811180467,
+            "oracle32RelativeAngleErrorDegrees": 7.85714326980828
+          },
+          {
+            "sourceId": "10047",
+            "nll": 0.9811688808955937,
+            "oracle32RelativeAngleErrorDegrees": 0.5700650246433582
+          },
+          {
+            "sourceId": "10048",
+            "nll": 1.183308068873494,
+            "oracle32RelativeAngleErrorDegrees": 1.0601848938211722e-14
+          },
+          {
+            "sourceId": "10058",
+            "nll": 1.3410838742795992,
+            "oracle32RelativeAngleErrorDegrees": 0.04810872111777208
+          },
+          {
+            "sourceId": "10065",
+            "nll": 1.3523257220652922,
+            "oracle32RelativeAngleErrorDegrees": 2.1203697876423446e-15
+          },
+          {
+            "sourceId": "10082",
+            "nll": 3.4872137276230557,
+            "oracle32RelativeAngleErrorDegrees": 17.500000420376825
+          },
+          {
+            "sourceId": "10164",
+            "nll": 1.2414439761215794,
+            "oracle32RelativeAngleErrorDegrees": 1.5738534401865139e-06
+          },
+          {
+            "sourceId": "10171",
+            "nll": 1.1423503362282883,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10175",
+            "nll": 1.1615249434414774,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10177",
+            "nll": 1.1890370265684584,
+            "oracle32RelativeAngleErrorDegrees": 1.283032400421365e-06
+          },
+          {
+            "sourceId": "10180",
+            "nll": 1.1681625052041797,
+            "oracle32RelativeAngleErrorDegrees": 0.006519931669344894
+          },
+          {
+            "sourceId": "10187",
+            "nll": 1.5411457852106607,
+            "oracle32RelativeAngleErrorDegrees": 1.2116398786527683e-15
+          },
+          {
+            "sourceId": "10189",
+            "nll": 1.2413872659383551,
+            "oracle32RelativeAngleErrorDegrees": 4.785881837840709e-06
+          },
+          {
+            "sourceId": "10196",
+            "nll": 1.0629731225573944,
+            "oracle32RelativeAngleErrorDegrees": 1.0387432667064339e-06
+          },
+          {
+            "sourceId": "10201",
+            "nll": 1.1850852607274642,
+            "oracle32RelativeAngleErrorDegrees": 1.5412172747921329e-06
+          },
+          {
+            "sourceId": "10209",
+            "nll": 2.075481141705809,
+            "oracle32RelativeAngleErrorDegrees": 14.333332644605846
+          },
+          {
+            "sourceId": "130008",
+            "nll": 1.0242782484071191,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "150002",
+            "nll": 1.4131790762110448,
+            "oracle32RelativeAngleErrorDegrees": 1.3357216315341633e-06
+          },
+          {
+            "sourceId": "150004",
+            "nll": 1.7421321765713231,
+            "oracle32RelativeAngleErrorDegrees": 1.5000019570518341
+          },
+          {
+            "sourceId": "150014",
+            "nll": 1.14671444722517,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50004",
+            "nll": 1.0306767961668009,
+            "oracle32RelativeAngleErrorDegrees": 1.0601848938211723e-15
+          },
+          {
+            "sourceId": "50008",
+            "nll": 0.9907756589291028,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50011",
+            "nll": 1.0433942825959008,
+            "oracle32RelativeAngleErrorDegrees": 4.946396520242274e-07
+          },
+          {
+            "sourceId": "60009",
+            "nll": 0.3353954099264765,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60049",
+            "nll": 0.8857695409458515,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60070",
+            "nll": 1.5172284228201045,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60074",
+            "nll": 1.405606661848223,
+            "oracle32RelativeAngleErrorDegrees": 6.831701732106715
+          },
+          {
+            "sourceId": "70004",
+            "nll": 2.0245040951911224,
+            "oracle32RelativeAngleErrorDegrees": 4.666665780149424
+          },
+          {
+            "sourceId": "70008",
+            "nll": 1.0452154286317639,
+            "oracle32RelativeAngleErrorDegrees": 1.484258851349641e-14
+          },
+          {
+            "sourceId": "70033",
+            "nll": 0.9303578395336025,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70035",
+            "nll": 0.4398981236124617,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70040",
+            "nll": 1.199060575232737,
+            "oracle32RelativeAngleErrorDegrees": 1.3570366640911004e-14
+          },
+          {
+            "sourceId": "71001",
+            "nll": 1.751440524850594,
+            "oracle32RelativeAngleErrorDegrees": 12.269053137078101
+          },
+          {
+            "sourceId": "71003",
+            "nll": 1.7462048341402583,
+            "oracle32RelativeAngleErrorDegrees": 7.911638042258127
+          },
+          {
+            "sourceId": "71005",
+            "nll": 1.4630477591869109,
+            "oracle32RelativeAngleErrorDegrees": 5.000000358115481
+          },
+          {
+            "sourceId": "71006",
+            "nll": 1.4549563136411778,
+            "oracle32RelativeAngleErrorDegrees": 3.923278895039931
+          },
+          {
+            "sourceId": "71009",
+            "nll": 2.059784711471371,
+            "oracle32RelativeAngleErrorDegrees": 17.799997653260682
+          },
+          {
+            "sourceId": "71010",
+            "nll": 3.02180614897728,
+            "oracle32RelativeAngleErrorDegrees": 28.99999926799527
+          },
+          {
+            "sourceId": "71012",
+            "nll": 1.2808503464364198,
+            "oracle32RelativeAngleErrorDegrees": 2.4999993675708425
+          },
+          {
+            "sourceId": "71015",
+            "nll": 1.759017710205234,
+            "oracle32RelativeAngleErrorDegrees": 9.000000434660775
+          },
+          {
+            "sourceId": "71016",
+            "nll": 1.2170588729795013,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71019",
+            "nll": 1.5015617248406627,
+            "oracle32RelativeAngleErrorDegrees": 10.693965536025313
+          },
+          {
+            "sourceId": "71033",
+            "nll": 1.664662896855569,
+            "oracle32RelativeAngleErrorDegrees": 1.6666668779537157
+          },
+          {
+            "sourceId": "71047",
+            "nll": 3.47795154944529,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71101",
+            "nll": 0.858846783761284,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71103",
+            "nll": 1.057976985574018,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71115",
+            "nll": 1.2573556004467925,
+            "oracle32RelativeAngleErrorDegrees": 8.481479150569379e-15
+          },
+          {
+            "sourceId": "71127",
+            "nll": 1.0003262358233889,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71128",
+            "nll": 1.0591484812524137,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71137",
+            "nll": 1.0477772870928197,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71139",
+            "nll": 1.488569593695446,
+            "oracle32RelativeAngleErrorDegrees": 1.1541591887633203e-06
+          },
+          {
+            "sourceId": "71145",
+            "nll": 1.7224923158077445,
+            "oracle32RelativeAngleErrorDegrees": 6.0000025660648
+          },
+          {
+            "sourceId": "71208",
+            "nll": 2.1149580656266767,
+            "oracle32RelativeAngleErrorDegrees": 1.0264259188091264e-05
+          },
+          {
+            "sourceId": "71229",
+            "nll": 2.082146142186817,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "72009",
+            "nll": 2.49844028031801,
+            "oracle32RelativeAngleErrorDegrees": 18.921567325587677
+          },
+          {
+            "sourceId": "73002",
+            "nll": 1.493816192579504,
+            "oracle32RelativeAngleErrorDegrees": 1.1541591880565304e-06
+          },
+          {
+            "sourceId": "73011",
+            "nll": 3.925595859505728,
+            "oracle32RelativeAngleErrorDegrees": 17.500003790004982
+          },
+          {
+            "sourceId": "73013",
+            "nll": 2.825398195026817,
+            "oracle32RelativeAngleErrorDegrees": 2.1128759682573796e-06
+          },
+          {
+            "sourceId": "73016",
+            "nll": 1.7233342881591307,
+            "oracle32RelativeAngleErrorDegrees": 4.240739575284689e-15
+          },
+          {
+            "sourceId": "90003",
+            "nll": 0.7669161496238139,
+            "oracle32RelativeAngleErrorDegrees": 3.392591660227751e-15
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "sourceFamilyIntersection": [],
+      "trainingSourceIds": [
+        "10010",
+        "10011",
+        "10012",
+        "10013",
+        "10014",
+        "10015",
+        "10017",
+        "10018",
+        "10019",
+        "10020",
+        "10021",
+        "10023",
+        "10024",
+        "10025",
+        "10026",
+        "10027",
+        "10031",
+        "10032",
+        "10033",
+        "10034",
+        "10037",
+        "10038",
+        "10039",
+        "10040",
+        "10041",
+        "10043",
+        "10044",
+        "10045",
+        "10047",
+        "10048",
+        "10049",
+        "10052",
+        "10054",
+        "10055",
+        "10056",
+        "10057",
+        "10058",
+        "10059",
+        "10061",
+        "10062",
+        "10063",
+        "10064",
+        "10065",
+        "10067",
+        "10068",
+        "10069",
+        "10071",
+        "10082",
+        "10111",
+        "10152",
+        "10153",
+        "10162",
+        "10164",
+        "10166",
+        "10170",
+        "10171",
+        "10172",
+        "10173",
+        "10174",
+        "10175",
+        "10176",
+        "10177",
+        "10178",
+        "10180",
+        "10181",
+        "10182",
+        "10183",
+        "10184",
+        "10185",
+        "10186",
+        "10187",
+        "10188",
+        "10189",
+        "10194",
+        "10195",
+        "10196",
+        "10198",
+        "10201",
+        "10202",
+        "10204",
+        "10205",
+        "10209",
+        "110001",
+        "110003",
+        "110005",
+        "130008",
+        "150002",
+        "150003",
+        "150004",
+        "150006",
+        "150014",
+        "50001",
+        "50002",
+        "50004",
+        "50005",
+        "50008",
+        "50011",
+        "50012",
+        "50013",
+        "50014",
+        "50016",
+        "50017",
+        "50018",
+        "50020",
+        "60005",
+        "60006",
+        "60007",
+        "60008",
+        "60009",
+        "60036",
+        "60045",
+        "60048",
+        "60049",
+        "60050",
+        "60051",
+        "60053",
+        "60054",
+        "60055",
+        "60056",
+        "60057",
+        "60059",
+        "60062",
+        "60063",
+        "60064",
+        "60066",
+        "60068",
+        "60069",
+        "60070",
+        "60071",
+        "60073",
+        "60074",
+        "60075",
+        "60076",
+        "60078",
+        "60081",
+        "60094",
+        "60097",
+        "660005",
+        "680013",
+        "70004",
+        "70008",
+        "70009",
+        "70011",
+        "70013",
+        "70015",
+        "70018",
+        "70023",
+        "70024",
+        "70025",
+        "70026",
+        "70028",
+        "70030",
+        "70031",
+        "70032",
+        "70033",
+        "70034",
+        "70035",
+        "70036",
+        "70039",
+        "70040",
+        "71001",
+        "71002",
+        "71003",
+        "71004",
+        "71005",
+        "71006",
+        "71007",
+        "71009",
+        "71010",
+        "71011",
+        "71012",
+        "71013",
+        "71014",
+        "71015",
+        "71016",
+        "71017",
+        "71019",
+        "71020",
+        "71022",
+        "71025",
+        "71028",
+        "71029",
+        "71030",
+        "71031",
+        "71033",
+        "71036",
+        "71037",
+        "71038",
+        "71040",
+        "71041",
+        "71042",
+        "71043",
+        "71044",
+        "71045",
+        "71046",
+        "71047",
+        "71048",
+        "71049",
+        "71050",
+        "71101",
+        "71103",
+        "71104",
+        "71106",
+        "71108",
+        "71109",
+        "71110",
+        "71113",
+        "71115",
+        "71116",
+        "71117",
+        "71119",
+        "71120",
+        "71122",
+        "71123",
+        "71124",
+        "71127",
+        "71128",
+        "71129",
+        "71130",
+        "71131",
+        "71133",
+        "71134",
+        "71135",
+        "71137",
+        "71139",
+        "71141",
+        "71143",
+        "71144",
+        "71145",
+        "71146",
+        "71147",
+        "71148",
+        "71202",
+        "71205",
+        "71206",
+        "71208",
+        "71209",
+        "71216",
+        "71217",
+        "71222",
+        "71223",
+        "71226",
+        "71229",
+        "71230",
+        "72003",
+        "72009",
+        "72012",
+        "72013",
+        "73002",
+        "73004",
+        "73011",
+        "73013",
+        "73014",
+        "73016",
+        "880002",
+        "880004",
+        "880010",
+        "90002",
+        "90003",
+        "90005",
+        "90008",
+        "90009",
+        "90012",
+        "90013",
+        "90014",
+        "90020",
+        "90026"
+      ],
+      "heldSourceIds": [
+        "10029",
+        "10035",
+        "10036",
+        "10046",
+        "10051",
+        "10060",
+        "10066",
+        "10122",
+        "10134",
+        "10154",
+        "10161",
+        "10168",
+        "10179",
+        "10191",
+        "10197",
+        "10199",
+        "10200",
+        "10203",
+        "130004",
+        "130006",
+        "150015",
+        "50006",
+        "60052",
+        "60065",
+        "60067",
+        "60072",
+        "60077",
+        "60079",
+        "60096",
+        "660002",
+        "70007",
+        "70010",
+        "70012",
+        "70021",
+        "70022",
+        "70027",
+        "70029",
+        "70037",
+        "70038",
+        "71021",
+        "71023",
+        "71024",
+        "71026",
+        "71027",
+        "71039",
+        "71102",
+        "71105",
+        "71107",
+        "71111",
+        "71118",
+        "71121",
+        "71125",
+        "71126",
+        "71132",
+        "71138",
+        "71140",
+        "71149",
+        "71207",
+        "71213",
+        "71227",
+        "73001",
+        "73005",
+        "73008",
+        "73012",
+        "880001",
+        "880007",
+        "90025"
+      ],
+      "nativeUnitGeometryAndRole": {
+        "meanHeldSourceNLL": 2.0436082672179063,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 3.601198626364545,
+        "perHeldSource": [
+          {
+            "sourceId": "10029",
+            "nll": 2.5032229009523643,
+            "oracle32RelativeAngleErrorDegrees": 2.1582808120383088e-06
+          },
+          {
+            "sourceId": "10035",
+            "nll": 2.036716789824336,
+            "oracle32RelativeAngleErrorDegrees": 6.924955128339183e-07
+          },
+          {
+            "sourceId": "10036",
+            "nll": 1.3786999462240914,
+            "oracle32RelativeAngleErrorDegrees": 6.924955213153975e-07
+          },
+          {
+            "sourceId": "10046",
+            "nll": 1.4349948343268533,
+            "oracle32RelativeAngleErrorDegrees": 3.333334301707674
+          },
+          {
+            "sourceId": "10051",
+            "nll": 0.9829003386533454,
+            "oracle32RelativeAngleErrorDegrees": 1.3496015959122118e-06
+          },
+          {
+            "sourceId": "10060",
+            "nll": 2.357911849602505,
+            "oracle32RelativeAngleErrorDegrees": 2.3867822493184586e-06
+          },
+          {
+            "sourceId": "10066",
+            "nll": 1.9710052234400643,
+            "oracle32RelativeAngleErrorDegrees": 2.2672605526887067e-06
+          },
+          {
+            "sourceId": "10122",
+            "nll": 1.9214161625480795,
+            "oracle32RelativeAngleErrorDegrees": 1.484074616475558e-06
+          },
+          {
+            "sourceId": "10134",
+            "nll": 2.0315888633008834,
+            "oracle32RelativeAngleErrorDegrees": 19.66666442397749
+          },
+          {
+            "sourceId": "10154",
+            "nll": 1.5898605166150133,
+            "oracle32RelativeAngleErrorDegrees": 5.428571107201403
+          },
+          {
+            "sourceId": "10161",
+            "nll": 3.0404873513719597,
+            "oracle32RelativeAngleErrorDegrees": 11.260315794587234
+          },
+          {
+            "sourceId": "10168",
+            "nll": 2.301184354489151,
+            "oracle32RelativeAngleErrorDegrees": 4.585260432574389e-06
+          },
+          {
+            "sourceId": "10179",
+            "nll": 1.1779415285065231,
+            "oracle32RelativeAngleErrorDegrees": 5.000000238544772
+          },
+          {
+            "sourceId": "10191",
+            "nll": 2.6805776125820566,
+            "oracle32RelativeAngleErrorDegrees": 17.985293540758832
+          },
+          {
+            "sourceId": "10197",
+            "nll": 1.4315129740288288,
+            "oracle32RelativeAngleErrorDegrees": 1.7004454107512497e-06
+          },
+          {
+            "sourceId": "10199",
+            "nll": 2.026741805612636,
+            "oracle32RelativeAngleErrorDegrees": 2.624608393432865e-06
+          },
+          {
+            "sourceId": "10200",
+            "nll": 1.7105833840641906,
+            "oracle32RelativeAngleErrorDegrees": 3.035730980759462e-07
+          },
+          {
+            "sourceId": "10203",
+            "nll": 2.0379155076927393,
+            "oracle32RelativeAngleErrorDegrees": 1.3048429462414428e-15
+          },
+          {
+            "sourceId": "130004",
+            "nll": 4.669020819668037,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "130006",
+            "nll": 2.0120167996565055,
+            "oracle32RelativeAngleErrorDegrees": 1.7312387778440563e-06
+          },
+          {
+            "sourceId": "150015",
+            "nll": 3.150778599653954,
+            "oracle32RelativeAngleErrorDegrees": 2.888885939516005
+          },
+          {
+            "sourceId": "50006",
+            "nll": 1.2588092636609172,
+            "oracle32RelativeAngleErrorDegrees": 1.5115070336636622e-06
+          },
+          {
+            "sourceId": "60052",
+            "nll": 2.3906895724418447,
+            "oracle32RelativeAngleErrorDegrees": 11.372547767878158
+          },
+          {
+            "sourceId": "60065",
+            "nll": 1.2906349511337525,
+            "oracle32RelativeAngleErrorDegrees": 0.034099388550872994
+          },
+          {
+            "sourceId": "60067",
+            "nll": 1.8203901214206684,
+            "oracle32RelativeAngleErrorDegrees": 8.932274599071024
+          },
+          {
+            "sourceId": "60072",
+            "nll": 0.8949134120478364,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60077",
+            "nll": 1.0960142585005463,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60079",
+            "nll": 2.0050067451363716,
+            "oracle32RelativeAngleErrorDegrees": 8.07591108922052
+          },
+          {
+            "sourceId": "60096",
+            "nll": 1.0132928809161497,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "660002",
+            "nll": 2.155050831961084,
+            "oracle32RelativeAngleErrorDegrees": 1.4135798584282298e-15
+          },
+          {
+            "sourceId": "70007",
+            "nll": 2.1072271382350585,
+            "oracle32RelativeAngleErrorDegrees": 4.416671240405013
+          },
+          {
+            "sourceId": "70010",
+            "nll": 2.046324773278952,
+            "oracle32RelativeAngleErrorDegrees": 17.666661601222277
+          },
+          {
+            "sourceId": "70012",
+            "nll": 1.7690734315311945,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70021",
+            "nll": 2.628838867977705,
+            "oracle32RelativeAngleErrorDegrees": 19.66666245153371
+          },
+          {
+            "sourceId": "70022",
+            "nll": 1.810377218273757,
+            "oracle32RelativeAngleErrorDegrees": 5.784225617569432
+          },
+          {
+            "sourceId": "70027",
+            "nll": 1.2429485281176789,
+            "oracle32RelativeAngleErrorDegrees": 0.21587249056642652
+          },
+          {
+            "sourceId": "70029",
+            "nll": 1.4784562607571512,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70037",
+            "nll": 2.0825934919713855,
+            "oracle32RelativeAngleErrorDegrees": 6.999996483099309
+          },
+          {
+            "sourceId": "70038",
+            "nll": 1.150680047185602,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71021",
+            "nll": 2.2929853227486774,
+            "oracle32RelativeAngleErrorDegrees": 14.09396815864086
+          },
+          {
+            "sourceId": "71023",
+            "nll": 3.80702360188074,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71024",
+            "nll": 1.7968369565617675,
+            "oracle32RelativeAngleErrorDegrees": 9.999997137073821
+          },
+          {
+            "sourceId": "71026",
+            "nll": 0.526369476218481,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71027",
+            "nll": 1.28109527516661,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71039",
+            "nll": 1.4655467779642448,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71102",
+            "nll": 1.7291068948295802,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71105",
+            "nll": 0.46372096551844544,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71107",
+            "nll": 1.399882784297673,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71111",
+            "nll": 1.6637630261839171,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71118",
+            "nll": 1.2940020915400403,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71121",
+            "nll": 1.3818886214699806,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71125",
+            "nll": 2.7890506516583473,
+            "oracle32RelativeAngleErrorDegrees": 3.392591660227751e-15
+          },
+          {
+            "sourceId": "71126",
+            "nll": 0.22909247887931003,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71132",
+            "nll": 3.8529843274642954,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71138",
+            "nll": 2.1670571329857955,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71140",
+            "nll": 1.383870606140361,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71149",
+            "nll": 7.923152384981828,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71207",
+            "nll": 2.3216941609615254,
+            "oracle32RelativeAngleErrorDegrees": 1.0264259211852397e-05
+          },
+          {
+            "sourceId": "71213",
+            "nll": 2.758436778647853,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71227",
+            "nll": 6.722974673714989,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73001",
+            "nll": 3.027070398593206,
+            "oracle32RelativeAngleErrorDegrees": 23.777771317532824
+          },
+          {
+            "sourceId": "73005",
+            "nll": 1.6452053789179808,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73008",
+            "nll": 2.581552955719211,
+            "oracle32RelativeAngleErrorDegrees": 16.22221911880168
+          },
+          {
+            "sourceId": "73012",
+            "nll": 2.5590422303424645,
+            "oracle32RelativeAngleErrorDegrees": 22.791664966210007
+          },
+          {
+            "sourceId": "880001",
+            "nll": 1.1552842698974661,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "880007",
+            "nll": 2.1976806560703888,
+            "oracle32RelativeAngleErrorDegrees": 5.66666544087192
+          },
+          {
+            "sourceId": "90025",
+            "nll": -0.1830169331172496,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          }
+        ]
+      },
+      "countsRelativeCentersAndGlobalProfileBaseline": {
+        "meanHeldSourceNLL": 1.4897201322551898,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 4.819943851925886,
+        "perHeldSource": [
+          {
+            "sourceId": "10029",
+            "nll": 1.5105745983563958,
+            "oracle32RelativeAngleErrorDegrees": 3.8867323637965085e-06
+          },
+          {
+            "sourceId": "10035",
+            "nll": 1.5010764178313778,
+            "oracle32RelativeAngleErrorDegrees": 1.3603563286009998e-06
+          },
+          {
+            "sourceId": "10036",
+            "nll": 1.2243040328667072,
+            "oracle32RelativeAngleErrorDegrees": 1.3357216375586119e-06
+          },
+          {
+            "sourceId": "10046",
+            "nll": 1.3477948698943225,
+            "oracle32RelativeAngleErrorDegrees": 3.1894196412062805
+          },
+          {
+            "sourceId": "10051",
+            "nll": 0.865385029197051,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10060",
+            "nll": 1.1991886398780975,
+            "oracle32RelativeAngleErrorDegrees": 1.3603563354735967e-06
+          },
+          {
+            "sourceId": "10066",
+            "nll": 1.4467578731541026,
+            "oracle32RelativeAngleErrorDegrees": 1.7107098706895913e-06
+          },
+          {
+            "sourceId": "10122",
+            "nll": 1.1089783195414646,
+            "oracle32RelativeAngleErrorDegrees": 1.1999999592165518
+          },
+          {
+            "sourceId": "10134",
+            "nll": 2.460358823237086,
+            "oracle32RelativeAngleErrorDegrees": 20.999998700265884
+          },
+          {
+            "sourceId": "10154",
+            "nll": 1.7132650472655016,
+            "oracle32RelativeAngleErrorDegrees": 13.333332458841813
+          },
+          {
+            "sourceId": "10161",
+            "nll": 1.8177899498932213,
+            "oracle32RelativeAngleErrorDegrees": 18.484850945053378
+          },
+          {
+            "sourceId": "10168",
+            "nll": 1.0845776829916918,
+            "oracle32RelativeAngleErrorDegrees": 9.444975796981298e-07
+          },
+          {
+            "sourceId": "10179",
+            "nll": 2.6440426469499934,
+            "oracle32RelativeAngleErrorDegrees": 17.3349594569914
+          },
+          {
+            "sourceId": "10191",
+            "nll": 2.4568107458462176,
+            "oracle32RelativeAngleErrorDegrees": 24.166668070589097
+          },
+          {
+            "sourceId": "10197",
+            "nll": 1.2171031307788422,
+            "oracle32RelativeAngleErrorDegrees": 1.7004454075706954e-06
+          },
+          {
+            "sourceId": "10199",
+            "nll": 1.0696275624321954,
+            "oracle32RelativeAngleErrorDegrees": 1.4841351486138737e-06
+          },
+          {
+            "sourceId": "10200",
+            "nll": 1.3277933757805052,
+            "oracle32RelativeAngleErrorDegrees": 2.484572728631526e-06
+          },
+          {
+            "sourceId": "10203",
+            "nll": 1.152829609194823,
+            "oracle32RelativeAngleErrorDegrees": 2.66344428665467e-07
+          },
+          {
+            "sourceId": "130004",
+            "nll": 2.6315278237267052,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "130006",
+            "nll": 2.194213908004737,
+            "oracle32RelativeAngleErrorDegrees": 9.853050622471983
+          },
+          {
+            "sourceId": "150015",
+            "nll": 1.7812132915091192,
+            "oracle32RelativeAngleErrorDegrees": 3.6111037190699022
+          },
+          {
+            "sourceId": "50006",
+            "nll": 1.130675843462566,
+            "oracle32RelativeAngleErrorDegrees": 1.909912703003588e-06
+          },
+          {
+            "sourceId": "60052",
+            "nll": 1.6000845614184525,
+            "oracle32RelativeAngleErrorDegrees": 9.313726255524799
+          },
+          {
+            "sourceId": "60065",
+            "nll": 0.9621263131421675,
+            "oracle32RelativeAngleErrorDegrees": 0.03409938855087421
+          },
+          {
+            "sourceId": "60067",
+            "nll": 1.5647408470934205,
+            "oracle32RelativeAngleErrorDegrees": 19.599084673216293
+          },
+          {
+            "sourceId": "60072",
+            "nll": 1.1070343140485113,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60077",
+            "nll": 0.5355393360520462,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60079",
+            "nll": 1.5187959896964742,
+            "oracle32RelativeAngleErrorDegrees": 7.313923794776365
+          },
+          {
+            "sourceId": "60096",
+            "nll": 1.133224705321763,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "660002",
+            "nll": 1.388296893813476,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70007",
+            "nll": 2.7132682586585575,
+            "oracle32RelativeAngleErrorDegrees": 24.87890851994682
+          },
+          {
+            "sourceId": "70010",
+            "nll": 1.9961500760166846,
+            "oracle32RelativeAngleErrorDegrees": 29.99999866535963
+          },
+          {
+            "sourceId": "70012",
+            "nll": 1.1359379990465075,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70021",
+            "nll": 2.0005602508058975,
+            "oracle32RelativeAngleErrorDegrees": 24.999995942969242
+          },
+          {
+            "sourceId": "70022",
+            "nll": 1.1727618732490457,
+            "oracle32RelativeAngleErrorDegrees": 5.056571938543446
+          },
+          {
+            "sourceId": "70027",
+            "nll": 1.4191567600954222,
+            "oracle32RelativeAngleErrorDegrees": 0.16666770178052456
+          },
+          {
+            "sourceId": "70029",
+            "nll": 1.200492653606715,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70037",
+            "nll": 1.9371885980222596,
+            "oracle32RelativeAngleErrorDegrees": 12.64391260890985
+          },
+          {
+            "sourceId": "70038",
+            "nll": 2.529341579198907,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71021",
+            "nll": 2.125710751108547,
+            "oracle32RelativeAngleErrorDegrees": 16.999994590658478
+          },
+          {
+            "sourceId": "71023",
+            "nll": 3.9141455386314226,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71024",
+            "nll": 1.552244395495176,
+            "oracle32RelativeAngleErrorDegrees": 2.3333338720053534
+          },
+          {
+            "sourceId": "71026",
+            "nll": 1.3186745256580263,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71027",
+            "nll": 0.9731983507281833,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71039",
+            "nll": 1.8576607550671733,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71102",
+            "nll": 1.1423103857745722,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71105",
+            "nll": 1.05035540014181,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71107",
+            "nll": 1.0368175578959868,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71111",
+            "nll": 1.3248170782366553,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71118",
+            "nll": 1.0018093766055844,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71121",
+            "nll": 0.8020863854663668,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71125",
+            "nll": 1.5291842074928075,
+            "oracle32RelativeAngleErrorDegrees": 3.392591660227751e-15
+          },
+          {
+            "sourceId": "71126",
+            "nll": 0.6564775558033502,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71132",
+            "nll": 1.3565631745772402,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71138",
+            "nll": 1.130671811348875,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71140",
+            "nll": 1.7406906483125397,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71149",
+            "nll": 0.8180417644418836,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71207",
+            "nll": 0.9020833777303904,
+            "oracle32RelativeAngleErrorDegrees": 6.924955111376225e-06
+          },
+          {
+            "sourceId": "71213",
+            "nll": 1.0403647070998592,
+            "oracle32RelativeAngleErrorDegrees": 2.1203697876423446e-15
+          },
+          {
+            "sourceId": "71227",
+            "nll": 0.6652229554269393,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73001",
+            "nll": 2.1115493677533093,
+            "oracle32RelativeAngleErrorDegrees": 7.833334746891661
+          },
+          {
+            "sourceId": "73005",
+            "nll": 1.0889089975658743,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73008",
+            "nll": 1.9772898452500012,
+            "oracle32RelativeAngleErrorDegrees": 8.333328320921973
+          },
+          {
+            "sourceId": "73012",
+            "nll": 1.9581266922768783,
+            "oracle32RelativeAngleErrorDegrees": 24.87499812165932
+          },
+          {
+            "sourceId": "880001",
+            "nll": 0.9829105404321952,
+            "oracle32RelativeAngleErrorDegrees": 4.946396508125874e-07
+          },
+          {
+            "sourceId": "880007",
+            "nll": 2.1365612024633216,
+            "oracle32RelativeAngleErrorDegrees": 16.380949500234106
+          },
+          {
+            "sourceId": "90025",
+            "nll": 0.8161812812337057,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "sourceFamilyIntersection": [],
+      "trainingSourceIds": [
+        "10010",
+        "10011",
+        "10012",
+        "10013",
+        "10014",
+        "10015",
+        "10023",
+        "10024",
+        "10025",
+        "10026",
+        "10027",
+        "10029",
+        "10032",
+        "10033",
+        "10034",
+        "10035",
+        "10036",
+        "10038",
+        "10040",
+        "10041",
+        "10043",
+        "10044",
+        "10045",
+        "10046",
+        "10047",
+        "10048",
+        "10051",
+        "10052",
+        "10054",
+        "10055",
+        "10058",
+        "10060",
+        "10062",
+        "10063",
+        "10064",
+        "10065",
+        "10066",
+        "10067",
+        "10068",
+        "10069",
+        "10071",
+        "10082",
+        "10122",
+        "10134",
+        "10152",
+        "10153",
+        "10154",
+        "10161",
+        "10162",
+        "10164",
+        "10166",
+        "10168",
+        "10171",
+        "10172",
+        "10175",
+        "10177",
+        "10178",
+        "10179",
+        "10180",
+        "10181",
+        "10183",
+        "10184",
+        "10185",
+        "10186",
+        "10187",
+        "10188",
+        "10189",
+        "10191",
+        "10196",
+        "10197",
+        "10198",
+        "10199",
+        "10200",
+        "10201",
+        "10202",
+        "10203",
+        "10205",
+        "10209",
+        "110001",
+        "110003",
+        "110005",
+        "130004",
+        "130006",
+        "130008",
+        "150002",
+        "150004",
+        "150014",
+        "150015",
+        "50004",
+        "50005",
+        "50006",
+        "50008",
+        "50011",
+        "50012",
+        "50013",
+        "50014",
+        "50016",
+        "50020",
+        "60005",
+        "60007",
+        "60009",
+        "60045",
+        "60048",
+        "60049",
+        "60050",
+        "60052",
+        "60054",
+        "60055",
+        "60056",
+        "60059",
+        "60062",
+        "60063",
+        "60065",
+        "60066",
+        "60067",
+        "60068",
+        "60070",
+        "60071",
+        "60072",
+        "60074",
+        "60075",
+        "60076",
+        "60077",
+        "60079",
+        "60081",
+        "60094",
+        "60096",
+        "60097",
+        "660002",
+        "660005",
+        "680013",
+        "70004",
+        "70007",
+        "70008",
+        "70009",
+        "70010",
+        "70012",
+        "70013",
+        "70021",
+        "70022",
+        "70023",
+        "70027",
+        "70029",
+        "70031",
+        "70032",
+        "70033",
+        "70035",
+        "70037",
+        "70038",
+        "70040",
+        "71001",
+        "71003",
+        "71004",
+        "71005",
+        "71006",
+        "71007",
+        "71009",
+        "71010",
+        "71011",
+        "71012",
+        "71013",
+        "71014",
+        "71015",
+        "71016",
+        "71017",
+        "71019",
+        "71020",
+        "71021",
+        "71022",
+        "71023",
+        "71024",
+        "71025",
+        "71026",
+        "71027",
+        "71028",
+        "71029",
+        "71030",
+        "71031",
+        "71033",
+        "71036",
+        "71037",
+        "71039",
+        "71040",
+        "71041",
+        "71042",
+        "71043",
+        "71046",
+        "71047",
+        "71048",
+        "71050",
+        "71101",
+        "71102",
+        "71103",
+        "71104",
+        "71105",
+        "71106",
+        "71107",
+        "71108",
+        "71110",
+        "71111",
+        "71113",
+        "71115",
+        "71117",
+        "71118",
+        "71119",
+        "71120",
+        "71121",
+        "71122",
+        "71123",
+        "71125",
+        "71126",
+        "71127",
+        "71128",
+        "71129",
+        "71130",
+        "71131",
+        "71132",
+        "71133",
+        "71134",
+        "71137",
+        "71138",
+        "71139",
+        "71140",
+        "71143",
+        "71144",
+        "71145",
+        "71146",
+        "71147",
+        "71148",
+        "71149",
+        "71205",
+        "71206",
+        "71207",
+        "71208",
+        "71209",
+        "71213",
+        "71216",
+        "71217",
+        "71222",
+        "71227",
+        "71229",
+        "71230",
+        "72003",
+        "72009",
+        "73001",
+        "73002",
+        "73004",
+        "73005",
+        "73008",
+        "73011",
+        "73012",
+        "73013",
+        "73014",
+        "73016",
+        "880001",
+        "880002",
+        "880004",
+        "880007",
+        "90003",
+        "90005",
+        "90008",
+        "90009",
+        "90012",
+        "90013",
+        "90020",
+        "90025",
+        "90026"
+      ],
+      "heldSourceIds": [
+        "10017",
+        "10018",
+        "10019",
+        "10020",
+        "10021",
+        "10031",
+        "10037",
+        "10039",
+        "10049",
+        "10056",
+        "10057",
+        "10059",
+        "10061",
+        "10111",
+        "10170",
+        "10173",
+        "10174",
+        "10176",
+        "10182",
+        "10194",
+        "10195",
+        "10204",
+        "150003",
+        "150006",
+        "50001",
+        "50002",
+        "50017",
+        "50018",
+        "60006",
+        "60008",
+        "60036",
+        "60051",
+        "60053",
+        "60057",
+        "60064",
+        "60069",
+        "60073",
+        "60078",
+        "70011",
+        "70015",
+        "70018",
+        "70024",
+        "70025",
+        "70026",
+        "70028",
+        "70030",
+        "70034",
+        "70036",
+        "70039",
+        "71002",
+        "71038",
+        "71044",
+        "71045",
+        "71049",
+        "71109",
+        "71116",
+        "71124",
+        "71135",
+        "71141",
+        "71202",
+        "71223",
+        "71226",
+        "72012",
+        "72013",
+        "880010",
+        "90002",
+        "90014"
+      ],
+      "nativeUnitGeometryAndRole": {
+        "meanHeldSourceNLL": 2.2546244111647096,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 4.099004074097765,
+        "perHeldSource": [
+          {
+            "sourceId": "10017",
+            "nll": 0.023128392342461446,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10018",
+            "nll": 1.320980018261871,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10019",
+            "nll": 0.6824032183030151,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10020",
+            "nll": 1.4067419050005805,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10021",
+            "nll": 1.6465429889977532,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10031",
+            "nll": 1.3349631993280608,
+            "oracle32RelativeAngleErrorDegrees": 9.333335683509553
+          },
+          {
+            "sourceId": "10037",
+            "nll": 2.234761029618677,
+            "oracle32RelativeAngleErrorDegrees": 1.7004454124507942e-06
+          },
+          {
+            "sourceId": "10039",
+            "nll": 1.8995033603347595,
+            "oracle32RelativeAngleErrorDegrees": 1.6819693899482163e-06
+          },
+          {
+            "sourceId": "10049",
+            "nll": 2.5805174439416954,
+            "oracle32RelativeAngleErrorDegrees": 1.9257699740108344e-06
+          },
+          {
+            "sourceId": "10056",
+            "nll": 1.473947161092493,
+            "oracle32RelativeAngleErrorDegrees": 4.7666671264155935
+          },
+          {
+            "sourceId": "10057",
+            "nll": 1.5641225886529477,
+            "oracle32RelativeAngleErrorDegrees": 1.669652041538074e-06
+          },
+          {
+            "sourceId": "10059",
+            "nll": 2.5051740262014337,
+            "oracle32RelativeAngleErrorDegrees": 6.190475723773341
+          },
+          {
+            "sourceId": "10061",
+            "nll": 1.4253039097015585,
+            "oracle32RelativeAngleErrorDegrees": 4.000000129515985
+          },
+          {
+            "sourceId": "10111",
+            "nll": 1.438863980308752,
+            "oracle32RelativeAngleErrorDegrees": 1.021665307570258e-06
+          },
+          {
+            "sourceId": "10170",
+            "nll": 1.6989579425146166,
+            "oracle32RelativeAngleErrorDegrees": 2.745347361989581e-06
+          },
+          {
+            "sourceId": "10173",
+            "nll": 2.037689737083232,
+            "oracle32RelativeAngleErrorDegrees": 8.750001058097645
+          },
+          {
+            "sourceId": "10174",
+            "nll": 2.523012975618878,
+            "oracle32RelativeAngleErrorDegrees": 7.300493086561244e-06
+          },
+          {
+            "sourceId": "10176",
+            "nll": 1.4403916114467508,
+            "oracle32RelativeAngleErrorDegrees": 5.456536902358384e-07
+          },
+          {
+            "sourceId": "10182",
+            "nll": 1.9918096233299698,
+            "oracle32RelativeAngleErrorDegrees": 1.5420871182853415e-15
+          },
+          {
+            "sourceId": "10194",
+            "nll": 3.0587225441677006,
+            "oracle32RelativeAngleErrorDegrees": 14.333331470341017
+          },
+          {
+            "sourceId": "10195",
+            "nll": 1.065686938680385,
+            "oracle32RelativeAngleErrorDegrees": 4.770434429251676e-07
+          },
+          {
+            "sourceId": "10204",
+            "nll": 2.6998927555238716,
+            "oracle32RelativeAngleErrorDegrees": 4.015539018083653e-06
+          },
+          {
+            "sourceId": "150003",
+            "nll": 1.3663008617256274,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "150006",
+            "nll": 1.5499963725511907,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50001",
+            "nll": 5.086462370800735,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50002",
+            "nll": 2.513506591924647,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50017",
+            "nll": 2.225149306916189,
+            "oracle32RelativeAngleErrorDegrees": 4.615383963735869
+          },
+          {
+            "sourceId": "50018",
+            "nll": 4.004605749072578,
+            "oracle32RelativeAngleErrorDegrees": 3.3333336184516447
+          },
+          {
+            "sourceId": "60006",
+            "nll": 1.640216881591637,
+            "oracle32RelativeAngleErrorDegrees": 2.106823410865211e-06
+          },
+          {
+            "sourceId": "60008",
+            "nll": 1.4660995691337533,
+            "oracle32RelativeAngleErrorDegrees": 1.6666676355648264
+          },
+          {
+            "sourceId": "60036",
+            "nll": 1.1787402764515689,
+            "oracle32RelativeAngleErrorDegrees": 1.9992573123435983e-06
+          },
+          {
+            "sourceId": "60051",
+            "nll": 2.8335618191209355,
+            "oracle32RelativeAngleErrorDegrees": 24.815349271651524
+          },
+          {
+            "sourceId": "60053",
+            "nll": 3.396059455186438,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60057",
+            "nll": 2.205788591977565,
+            "oracle32RelativeAngleErrorDegrees": 0.24218267853728456
+          },
+          {
+            "sourceId": "60064",
+            "nll": 4.815200799463576,
+            "oracle32RelativeAngleErrorDegrees": 6.7663484925976665
+          },
+          {
+            "sourceId": "60069",
+            "nll": 1.2687214936121112,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60073",
+            "nll": 1.6250232743269943,
+            "oracle32RelativeAngleErrorDegrees": 10.518671278141348
+          },
+          {
+            "sourceId": "60078",
+            "nll": 1.9324872841160814,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70011",
+            "nll": 3.813947656228328,
+            "oracle32RelativeAngleErrorDegrees": 3.333335662821144
+          },
+          {
+            "sourceId": "70015",
+            "nll": 3.7264194328749602,
+            "oracle32RelativeAngleErrorDegrees": 19.999999061611955
+          },
+          {
+            "sourceId": "70018",
+            "nll": 1.043324749419851,
+            "oracle32RelativeAngleErrorDegrees": 13.021480579095025
+          },
+          {
+            "sourceId": "70024",
+            "nll": 1.4135055836171442,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70025",
+            "nll": 0.8725826087144584,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70026",
+            "nll": 2.283296852944268,
+            "oracle32RelativeAngleErrorDegrees": 45.00000234965419
+          },
+          {
+            "sourceId": "70028",
+            "nll": 1.5918649753050331,
+            "oracle32RelativeAngleErrorDegrees": 1.8888900486027818
+          },
+          {
+            "sourceId": "70030",
+            "nll": 2.966332954505209,
+            "oracle32RelativeAngleErrorDegrees": 8.30958077529242
+          },
+          {
+            "sourceId": "70034",
+            "nll": 7.570323666635044,
+            "oracle32RelativeAngleErrorDegrees": 44.99999718515896
+          },
+          {
+            "sourceId": "70036",
+            "nll": 1.354079857413797,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70039",
+            "nll": 1.6030276336474234,
+            "oracle32RelativeAngleErrorDegrees": 3.1805546814635168e-15
+          },
+          {
+            "sourceId": "71002",
+            "nll": 2.685529559358983,
+            "oracle32RelativeAngleErrorDegrees": 12.206941568660573
+          },
+          {
+            "sourceId": "71038",
+            "nll": 3.495808925576154,
+            "oracle32RelativeAngleErrorDegrees": 1.7312387778440563e-06
+          },
+          {
+            "sourceId": "71044",
+            "nll": 0.4264540956202893,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71045",
+            "nll": 0.9876525184401019,
+            "oracle32RelativeAngleErrorDegrees": 7.694394596467403e-07
+          },
+          {
+            "sourceId": "71049",
+            "nll": 3.2971648196326404,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71109",
+            "nll": 1.0653512200688584,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71116",
+            "nll": 1.3537685448276406,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71124",
+            "nll": 0.22438948201010045,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71135",
+            "nll": 8.18260050292015,
+            "oracle32RelativeAngleErrorDegrees": 5.00895615071426e-06
+          },
+          {
+            "sourceId": "71141",
+            "nll": 1.0102781541632615,
+            "oracle32RelativeAngleErrorDegrees": 6.678608175070841e-06
+          },
+          {
+            "sourceId": "71202",
+            "nll": 1.2067212874418578,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71223",
+            "nll": 7.799402442384292,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71226",
+            "nll": 3.383440857123535,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "72012",
+            "nll": 3.493915216819417,
+            "oracle32RelativeAngleErrorDegrees": 15.133332777780447
+          },
+          {
+            "sourceId": "72013",
+            "nll": 1.570630946652994,
+            "oracle32RelativeAngleErrorDegrees": 1.923077622564702
+          },
+          {
+            "sourceId": "880010",
+            "nll": 1.9889902639566248,
+            "oracle32RelativeAngleErrorDegrees": 9.484845825072714
+          },
+          {
+            "sourceId": "90002",
+            "nll": 1.4324872118548722,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90014",
+            "nll": 2.055505479455172,
+            "oracle32RelativeAngleErrorDegrees": 1.4539678543833225e-14
+          }
+        ]
+      },
+      "countsRelativeCentersAndGlobalProfileBaseline": {
+        "meanHeldSourceNLL": 1.5587037026504156,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 5.012176514550014,
+        "perHeldSource": [
+          {
+            "sourceId": "10017",
+            "nll": 4.929366325956441,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10018",
+            "nll": 1.2101706451916374,
+            "oracle32RelativeAngleErrorDegrees": 1.4135798584282298e-15
+          },
+          {
+            "sourceId": "10019",
+            "nll": 1.3288741309182368,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10020",
+            "nll": 1.063555770381644,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10021",
+            "nll": 1.3661714797370068,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10031",
+            "nll": 1.2344322409124475,
+            "oracle32RelativeAngleErrorDegrees": 9.000002023916302
+          },
+          {
+            "sourceId": "10037",
+            "nll": 1.9970248345876012,
+            "oracle32RelativeAngleErrorDegrees": 5.416668562700411
+          },
+          {
+            "sourceId": "10039",
+            "nll": 1.1236390136497993,
+            "oracle32RelativeAngleErrorDegrees": 3.3393040945656084e-07
+          },
+          {
+            "sourceId": "10049",
+            "nll": 1.287630011553886,
+            "oracle32RelativeAngleErrorDegrees": 9.087299089895762e-15
+          },
+          {
+            "sourceId": "10056",
+            "nll": 1.5806061298844754,
+            "oracle32RelativeAngleErrorDegrees": 5.233333153339756
+          },
+          {
+            "sourceId": "10057",
+            "nll": 1.2543487424244837,
+            "oracle32RelativeAngleErrorDegrees": 4.564731521179185e-06
+          },
+          {
+            "sourceId": "10059",
+            "nll": 1.8569858361492777,
+            "oracle32RelativeAngleErrorDegrees": 2.8600222409502765e-06
+          },
+          {
+            "sourceId": "10061",
+            "nll": 1.313862305130794,
+            "oracle32RelativeAngleErrorDegrees": 4.333335612106054
+          },
+          {
+            "sourceId": "10111",
+            "nll": 1.2185261844732438,
+            "oracle32RelativeAngleErrorDegrees": 1.9195649539075387e-06
+          },
+          {
+            "sourceId": "10170",
+            "nll": 1.169873671074315,
+            "oracle32RelativeAngleErrorDegrees": 1.384991027364132e-06
+          },
+          {
+            "sourceId": "10173",
+            "nll": 1.2539010850913042,
+            "oracle32RelativeAngleErrorDegrees": 2.019778580512508e-06
+          },
+          {
+            "sourceId": "10174",
+            "nll": 1.3138692883222278,
+            "oracle32RelativeAngleErrorDegrees": 1.4841351503898098e-06
+          },
+          {
+            "sourceId": "10176",
+            "nll": 1.1205067020143595,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10182",
+            "nll": 1.4720146902351467,
+            "oracle32RelativeAngleErrorDegrees": 2.3480384104422812e-06
+          },
+          {
+            "sourceId": "10194",
+            "nll": 2.2202013826561635,
+            "oracle32RelativeAngleErrorDegrees": 18.333334795025074
+          },
+          {
+            "sourceId": "10195",
+            "nll": 1.2190496096061296,
+            "oracle32RelativeAngleErrorDegrees": 4.89360787646308e-06
+          },
+          {
+            "sourceId": "10204",
+            "nll": 1.1140156250527662,
+            "oracle32RelativeAngleErrorDegrees": 2.597058466874436e-06
+          },
+          {
+            "sourceId": "150003",
+            "nll": 2.553644141737833,
+            "oracle32RelativeAngleErrorDegrees": 14.999997882141583
+          },
+          {
+            "sourceId": "150006",
+            "nll": 1.3281293644871754,
+            "oracle32RelativeAngleErrorDegrees": 0.11111502154874138
+          },
+          {
+            "sourceId": "50001",
+            "nll": 1.217611787809348,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50002",
+            "nll": 1.467313710807661,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50017",
+            "nll": 1.6796026285806045,
+            "oracle32RelativeAngleErrorDegrees": 4.615383117578764
+          },
+          {
+            "sourceId": "50018",
+            "nll": 1.7975059426881512,
+            "oracle32RelativeAngleErrorDegrees": 3.3333340168573153
+          },
+          {
+            "sourceId": "60006",
+            "nll": 1.656405750966999,
+            "oracle32RelativeAngleErrorDegrees": 2.3002482967630097e-06
+          },
+          {
+            "sourceId": "60008",
+            "nll": 1.7492064039712587,
+            "oracle32RelativeAngleErrorDegrees": 8.333334133679445
+          },
+          {
+            "sourceId": "60036",
+            "nll": 1.095563390413916,
+            "oracle32RelativeAngleErrorDegrees": 1.999257308102859e-06
+          },
+          {
+            "sourceId": "60051",
+            "nll": 2.125421950980152,
+            "oracle32RelativeAngleErrorDegrees": 26.333334284413365
+          },
+          {
+            "sourceId": "60053",
+            "nll": 1.0440519792767058,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60057",
+            "nll": 0.448215493944919,
+            "oracle32RelativeAngleErrorDegrees": 0.24218267853728456
+          },
+          {
+            "sourceId": "60064",
+            "nll": 1.8319091083026895,
+            "oracle32RelativeAngleErrorDegrees": 6.766345493711714
+          },
+          {
+            "sourceId": "60069",
+            "nll": 1.1931347524705667,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60073",
+            "nll": 2.0151262477965144,
+            "oracle32RelativeAngleErrorDegrees": 26.75041795398221
+          },
+          {
+            "sourceId": "60078",
+            "nll": 1.1275196652576607,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70011",
+            "nll": 2.5640241421500267,
+            "oracle32RelativeAngleErrorDegrees": 24.499999137264425
+          },
+          {
+            "sourceId": "70015",
+            "nll": 1.6422878503411171,
+            "oracle32RelativeAngleErrorDegrees": 19.999999061611955
+          },
+          {
+            "sourceId": "70018",
+            "nll": 1.8891009466559252,
+            "oracle32RelativeAngleErrorDegrees": 20.00000006124061
+          },
+          {
+            "sourceId": "70024",
+            "nll": 0.8790732983943532,
+            "oracle32RelativeAngleErrorDegrees": 3.392591660227751e-15
+          },
+          {
+            "sourceId": "70025",
+            "nll": 0.4083579210350775,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70026",
+            "nll": 2.396293600855042,
+            "oracle32RelativeAngleErrorDegrees": 44.99999364642473
+          },
+          {
+            "sourceId": "70028",
+            "nll": 1.424647977257305,
+            "oracle32RelativeAngleErrorDegrees": 2.098412545073163
+          },
+          {
+            "sourceId": "70030",
+            "nll": 1.8324827282056506,
+            "oracle32RelativeAngleErrorDegrees": 1.8333348348727858
+          },
+          {
+            "sourceId": "70034",
+            "nll": 4.334893234545412,
+            "oracle32RelativeAngleErrorDegrees": 29.999982544425173
+          },
+          {
+            "sourceId": "70036",
+            "nll": 1.091732351070116,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70039",
+            "nll": 1.099403838798463,
+            "oracle32RelativeAngleErrorDegrees": 1.0601848938211723e-15
+          },
+          {
+            "sourceId": "71002",
+            "nll": 2.2078506809284346,
+            "oracle32RelativeAngleErrorDegrees": 20.52004122583864
+          },
+          {
+            "sourceId": "71038",
+            "nll": 1.4276393252990733,
+            "oracle32RelativeAngleErrorDegrees": 1.7312387863255354e-06
+          },
+          {
+            "sourceId": "71044",
+            "nll": 0.8623025135214903,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71045",
+            "nll": 1.2082325567585572,
+            "oracle32RelativeAngleErrorDegrees": 1.1404732457613773e-06
+          },
+          {
+            "sourceId": "71049",
+            "nll": 0.9549976003176014,
+            "oracle32RelativeAngleErrorDegrees": 1.6962958301138756e-15
+          },
+          {
+            "sourceId": "71109",
+            "nll": 0.749313770035679,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71116",
+            "nll": 0.8860614533296657,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71124",
+            "nll": 0.8546762979044193,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71135",
+            "nll": 3.8489559580501003,
+            "oracle32RelativeAngleErrorDegrees": 1.0387432667064337e-05
+          },
+          {
+            "sourceId": "71141",
+            "nll": 1.4474777707121247,
+            "oracle32RelativeAngleErrorDegrees": 3.3393040915576273e-06
+          },
+          {
+            "sourceId": "71202",
+            "nll": 1.1070136638165413,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71223",
+            "nll": 2.1941965015121627,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71226",
+            "nll": 1.0636907781512868,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "72012",
+            "nll": 1.8773013055495313,
+            "oracle32RelativeAngleErrorDegrees": 21.63333108738434
+          },
+          {
+            "sourceId": "72013",
+            "nll": 1.157223453685918,
+            "oracle32RelativeAngleErrorDegrees": 2.663444276868347e-07
+          },
+          {
+            "sourceId": "880010",
+            "nll": 2.245639208930101,
+            "oracle32RelativeAngleErrorDegrees": 14.99999718634626
+          },
+          {
+            "sourceId": "90002",
+            "nll": 1.4038243795781236,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90014",
+            "nll": 1.3954649456930046,
+            "oracle32RelativeAngleErrorDegrees": 1.4285708446734178
+          }
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "sourceFamilyIntersection": [],
+      "trainingSourceIds": [
+        "10010",
+        "10013",
+        "10014",
+        "10017",
+        "10018",
+        "10019",
+        "10020",
+        "10021",
+        "10027",
+        "10029",
+        "10031",
+        "10032",
+        "10033",
+        "10034",
+        "10035",
+        "10036",
+        "10037",
+        "10038",
+        "10039",
+        "10041",
+        "10043",
+        "10044",
+        "10045",
+        "10046",
+        "10047",
+        "10048",
+        "10049",
+        "10051",
+        "10054",
+        "10055",
+        "10056",
+        "10057",
+        "10058",
+        "10059",
+        "10060",
+        "10061",
+        "10063",
+        "10064",
+        "10065",
+        "10066",
+        "10068",
+        "10069",
+        "10082",
+        "10111",
+        "10122",
+        "10134",
+        "10154",
+        "10161",
+        "10164",
+        "10166",
+        "10168",
+        "10170",
+        "10171",
+        "10172",
+        "10173",
+        "10174",
+        "10175",
+        "10176",
+        "10177",
+        "10178",
+        "10179",
+        "10180",
+        "10182",
+        "10185",
+        "10187",
+        "10189",
+        "10191",
+        "10194",
+        "10195",
+        "10196",
+        "10197",
+        "10198",
+        "10199",
+        "10200",
+        "10201",
+        "10202",
+        "10203",
+        "10204",
+        "10209",
+        "110001",
+        "110003",
+        "130004",
+        "130006",
+        "130008",
+        "150002",
+        "150003",
+        "150004",
+        "150006",
+        "150014",
+        "150015",
+        "50001",
+        "50002",
+        "50004",
+        "50006",
+        "50008",
+        "50011",
+        "50012",
+        "50013",
+        "50014",
+        "50016",
+        "50017",
+        "50018",
+        "50020",
+        "60005",
+        "60006",
+        "60007",
+        "60008",
+        "60009",
+        "60036",
+        "60045",
+        "60049",
+        "60051",
+        "60052",
+        "60053",
+        "60056",
+        "60057",
+        "60062",
+        "60064",
+        "60065",
+        "60066",
+        "60067",
+        "60069",
+        "60070",
+        "60071",
+        "60072",
+        "60073",
+        "60074",
+        "60077",
+        "60078",
+        "60079",
+        "60081",
+        "60094",
+        "60096",
+        "60097",
+        "660002",
+        "70004",
+        "70007",
+        "70008",
+        "70009",
+        "70010",
+        "70011",
+        "70012",
+        "70013",
+        "70015",
+        "70018",
+        "70021",
+        "70022",
+        "70024",
+        "70025",
+        "70026",
+        "70027",
+        "70028",
+        "70029",
+        "70030",
+        "70032",
+        "70033",
+        "70034",
+        "70035",
+        "70036",
+        "70037",
+        "70038",
+        "70039",
+        "70040",
+        "71001",
+        "71002",
+        "71003",
+        "71004",
+        "71005",
+        "71006",
+        "71007",
+        "71009",
+        "71010",
+        "71012",
+        "71013",
+        "71015",
+        "71016",
+        "71019",
+        "71021",
+        "71022",
+        "71023",
+        "71024",
+        "71026",
+        "71027",
+        "71028",
+        "71031",
+        "71033",
+        "71036",
+        "71038",
+        "71039",
+        "71040",
+        "71041",
+        "71042",
+        "71044",
+        "71045",
+        "71046",
+        "71047",
+        "71049",
+        "71050",
+        "71101",
+        "71102",
+        "71103",
+        "71104",
+        "71105",
+        "71107",
+        "71109",
+        "71110",
+        "71111",
+        "71113",
+        "71115",
+        "71116",
+        "71118",
+        "71121",
+        "71122",
+        "71124",
+        "71125",
+        "71126",
+        "71127",
+        "71128",
+        "71129",
+        "71131",
+        "71132",
+        "71133",
+        "71135",
+        "71137",
+        "71138",
+        "71139",
+        "71140",
+        "71141",
+        "71143",
+        "71145",
+        "71146",
+        "71149",
+        "71202",
+        "71205",
+        "71206",
+        "71207",
+        "71208",
+        "71209",
+        "71213",
+        "71216",
+        "71222",
+        "71223",
+        "71226",
+        "71227",
+        "71229",
+        "72003",
+        "72009",
+        "72012",
+        "72013",
+        "73001",
+        "73002",
+        "73005",
+        "73008",
+        "73011",
+        "73012",
+        "73013",
+        "73014",
+        "73016",
+        "880001",
+        "880007",
+        "880010",
+        "90002",
+        "90003",
+        "90012",
+        "90014",
+        "90020",
+        "90025"
+      ],
+      "heldSourceIds": [
+        "10011",
+        "10012",
+        "10015",
+        "10023",
+        "10024",
+        "10025",
+        "10026",
+        "10040",
+        "10052",
+        "10062",
+        "10067",
+        "10071",
+        "10152",
+        "10153",
+        "10162",
+        "10181",
+        "10183",
+        "10184",
+        "10186",
+        "10188",
+        "10205",
+        "110005",
+        "50005",
+        "60048",
+        "60050",
+        "60054",
+        "60055",
+        "60059",
+        "60063",
+        "60068",
+        "60075",
+        "60076",
+        "660005",
+        "680013",
+        "70023",
+        "70031",
+        "71011",
+        "71014",
+        "71017",
+        "71020",
+        "71025",
+        "71029",
+        "71030",
+        "71037",
+        "71043",
+        "71048",
+        "71106",
+        "71108",
+        "71117",
+        "71119",
+        "71120",
+        "71123",
+        "71130",
+        "71134",
+        "71144",
+        "71147",
+        "71148",
+        "71217",
+        "71230",
+        "73004",
+        "880002",
+        "880004",
+        "90005",
+        "90008",
+        "90009",
+        "90013",
+        "90026"
+      ],
+      "nativeUnitGeometryAndRole": {
+        "meanHeldSourceNLL": 2.175415920681134,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 2.6369151137050935,
+        "perHeldSource": [
+          {
+            "sourceId": "10011",
+            "nll": 1.6641236303653641,
+            "oracle32RelativeAngleErrorDegrees": 13.666669758311079
+          },
+          {
+            "sourceId": "10012",
+            "nll": 3.2240926148945346,
+            "oracle32RelativeAngleErrorDegrees": 17.00000450925752
+          },
+          {
+            "sourceId": "10015",
+            "nll": 2.711029118722379,
+            "oracle32RelativeAngleErrorDegrees": 2.499998357399368
+          },
+          {
+            "sourceId": "10023",
+            "nll": 0.8740300686700142,
+            "oracle32RelativeAngleErrorDegrees": 7.6546088421053655
+          },
+          {
+            "sourceId": "10024",
+            "nll": 2.227805447649743,
+            "oracle32RelativeAngleErrorDegrees": 2.0528518388904746e-06
+          },
+          {
+            "sourceId": "10025",
+            "nll": 1.155564627265808,
+            "oracle32RelativeAngleErrorDegrees": 2.0774865351091635e-06
+          },
+          {
+            "sourceId": "10026",
+            "nll": 2.830072162903548,
+            "oracle32RelativeAngleErrorDegrees": 6.500003064020703
+          },
+          {
+            "sourceId": "10040",
+            "nll": 2.0192974225380587,
+            "oracle32RelativeAngleErrorDegrees": 1.8529261074440778e-06
+          },
+          {
+            "sourceId": "10052",
+            "nll": 1.5975700920149485,
+            "oracle32RelativeAngleErrorDegrees": 2.2877894583567474e-06
+          },
+          {
+            "sourceId": "10062",
+            "nll": 1.44449131155968,
+            "oracle32RelativeAngleErrorDegrees": 1.8688548792707936e-06
+          },
+          {
+            "sourceId": "10067",
+            "nll": 2.0410344521079167,
+            "oracle32RelativeAngleErrorDegrees": 2.8622606445790348e-06
+          },
+          {
+            "sourceId": "10071",
+            "nll": 2.200837490652155,
+            "oracle32RelativeAngleErrorDegrees": 7.4511973270095515
+          },
+          {
+            "sourceId": "10152",
+            "nll": 1.9235154068161384,
+            "oracle32RelativeAngleErrorDegrees": 10.878781625636043
+          },
+          {
+            "sourceId": "10153",
+            "nll": 1.9175576810842019,
+            "oracle32RelativeAngleErrorDegrees": 7.033334827990384
+          },
+          {
+            "sourceId": "10162",
+            "nll": 2.457015971842019,
+            "oracle32RelativeAngleErrorDegrees": 1.6696520515788218e-06
+          },
+          {
+            "sourceId": "10181",
+            "nll": 2.3461221681479816,
+            "oracle32RelativeAngleErrorDegrees": 3.035731003890769e-07
+          },
+          {
+            "sourceId": "10183",
+            "nll": 1.9980843050985648,
+            "oracle32RelativeAngleErrorDegrees": 1.3603563311454436e-06
+          },
+          {
+            "sourceId": "10184",
+            "nll": 1.977370652784182,
+            "oracle32RelativeAngleErrorDegrees": 5.0000008859316
+          },
+          {
+            "sourceId": "10186",
+            "nll": 2.777297377655839,
+            "oracle32RelativeAngleErrorDegrees": 1.9785586038561723e-06
+          },
+          {
+            "sourceId": "10188",
+            "nll": 3.35506333659873,
+            "oracle32RelativeAngleErrorDegrees": 1.8847731445709728e-15
+          },
+          {
+            "sourceId": "10205",
+            "nll": 4.111674928436515,
+            "oracle32RelativeAngleErrorDegrees": 17.10480656407241
+          },
+          {
+            "sourceId": "110005",
+            "nll": 2.049424006391687,
+            "oracle32RelativeAngleErrorDegrees": 8.499998798563805
+          },
+          {
+            "sourceId": "50005",
+            "nll": 2.1414434917894543,
+            "oracle32RelativeAngleErrorDegrees": 14.333331877287193
+          },
+          {
+            "sourceId": "60048",
+            "nll": -0.26176718258801007,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60050",
+            "nll": 1.0263425866894413,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60054",
+            "nll": 1.222591719328929,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60055",
+            "nll": 1.6847295782248328,
+            "oracle32RelativeAngleErrorDegrees": 4.999994312906839
+          },
+          {
+            "sourceId": "60059",
+            "nll": 2.187537122385161,
+            "oracle32RelativeAngleErrorDegrees": 10.669118903762646
+          },
+          {
+            "sourceId": "60063",
+            "nll": 1.4444776766197742,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60068",
+            "nll": 2.2647988654454076,
+            "oracle32RelativeAngleErrorDegrees": 8.481479150569378e-16
+          },
+          {
+            "sourceId": "60075",
+            "nll": 1.480749885834604,
+            "oracle32RelativeAngleErrorDegrees": 0.06057687593613508
+          },
+          {
+            "sourceId": "60076",
+            "nll": 1.1881908353327486,
+            "oracle32RelativeAngleErrorDegrees": 1.9852102040115163
+          },
+          {
+            "sourceId": "660005",
+            "nll": 3.4213082114387663,
+            "oracle32RelativeAngleErrorDegrees": 13.693967085846474
+          },
+          {
+            "sourceId": "680013",
+            "nll": 2.801998341363113,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70023",
+            "nll": 4.463835588618201,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70031",
+            "nll": 1.4819915994578161,
+            "oracle32RelativeAngleErrorDegrees": 8.599997477759867
+          },
+          {
+            "sourceId": "71011",
+            "nll": 2.144373586843342,
+            "oracle32RelativeAngleErrorDegrees": 9.99999926175827
+          },
+          {
+            "sourceId": "71014",
+            "nll": 1.5727632907802256,
+            "oracle32RelativeAngleErrorDegrees": 7.166664468929464
+          },
+          {
+            "sourceId": "71017",
+            "nll": 3.3674089815070523,
+            "oracle32RelativeAngleErrorDegrees": 6.158555523544019e-06
+          },
+          {
+            "sourceId": "71020",
+            "nll": 2.5105615453990646,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71025",
+            "nll": 1.9235815040577942,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71029",
+            "nll": 2.7191342258919327,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71030",
+            "nll": 1.0400121826840854,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71037",
+            "nll": 2.2024808348029983,
+            "oracle32RelativeAngleErrorDegrees": 8.481479150569378e-16
+          },
+          {
+            "sourceId": "71043",
+            "nll": 1.4450953754006413,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71048",
+            "nll": 1.3453084845892462,
+            "oracle32RelativeAngleErrorDegrees": 4.240739575284689e-15
+          },
+          {
+            "sourceId": "71106",
+            "nll": 1.1750672551744819,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71108",
+            "nll": 2.3378174232576163,
+            "oracle32RelativeAngleErrorDegrees": 1.7107098672284864e-06
+          },
+          {
+            "sourceId": "71117",
+            "nll": 3.035353270714157,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71119",
+            "nll": 0.0070976018957923616,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71120",
+            "nll": 2.857917250406443,
+            "oracle32RelativeAngleErrorDegrees": 4.297303578686786e-06
+          },
+          {
+            "sourceId": "71123",
+            "nll": 1.3503743479753478,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71130",
+            "nll": 1.5033990380178965,
+            "oracle32RelativeAngleErrorDegrees": 1.6962958301138757e-14
+          },
+          {
+            "sourceId": "71134",
+            "nll": 1.7349517120265132,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71144",
+            "nll": 3.378077795550466,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71147",
+            "nll": 4.740974951681386,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71148",
+            "nll": 1.3271187671444469,
+            "oracle32RelativeAngleErrorDegrees": 5.132129590865078e-06
+          },
+          {
+            "sourceId": "71217",
+            "nll": 1.7715543067005841,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71230",
+            "nll": 2.071159132321564,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73004",
+            "nll": 1.9393258937114983,
+            "oracle32RelativeAngleErrorDegrees": 1.9099178057912806e-06
+          },
+          {
+            "sourceId": "880002",
+            "nll": 1.9900594327722967,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "880004",
+            "nll": 4.396932644616437,
+            "oracle32RelativeAngleErrorDegrees": 2.0150150092283723e-06
+          },
+          {
+            "sourceId": "90005",
+            "nll": 1.8949956816528732,
+            "oracle32RelativeAngleErrorDegrees": 1.875001126848943
+          },
+          {
+            "sourceId": "90008",
+            "nll": 7.021587465024773,
+            "oracle32RelativeAngleErrorDegrees": 6.924955111376225e-06
+          },
+          {
+            "sourceId": "90009",
+            "nll": 1.4324593991963457,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90013",
+            "nll": 2.0680261319556883,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90026",
+            "nll": 1.9965945777427423,
+            "oracle32RelativeAngleErrorDegrees": 1.4135798584282298e-15
+          }
+        ]
+      },
+      "countsRelativeCentersAndGlobalProfileBaseline": {
+        "meanHeldSourceNLL": 1.5291811687781374,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 5.110465443121784,
+        "perHeldSource": [
+          {
+            "sourceId": "10011",
+            "nll": 1.9716341503906964,
+            "oracle32RelativeAngleErrorDegrees": 10.333339075278163
+          },
+          {
+            "sourceId": "10012",
+            "nll": 4.303540076477013,
+            "oracle32RelativeAngleErrorDegrees": 37.99998846449812
+          },
+          {
+            "sourceId": "10015",
+            "nll": 2.1800275937441556,
+            "oracle32RelativeAngleErrorDegrees": 9.999999598070202
+          },
+          {
+            "sourceId": "10023",
+            "nll": 1.0028726989765178,
+            "oracle32RelativeAngleErrorDegrees": 8.000004170049545
+          },
+          {
+            "sourceId": "10024",
+            "nll": 1.3957794562905694,
+            "oracle32RelativeAngleErrorDegrees": 5.416790611400127e-06
+          },
+          {
+            "sourceId": "10025",
+            "nll": 2.977642937845791,
+            "oracle32RelativeAngleErrorDegrees": 23.999997254652644
+          },
+          {
+            "sourceId": "10026",
+            "nll": 2.2223747410779358,
+            "oracle32RelativeAngleErrorDegrees": 6.666667894522103
+          },
+          {
+            "sourceId": "10040",
+            "nll": 1.2091406261191926,
+            "oracle32RelativeAngleErrorDegrees": 1.0387432696749513e-06
+          },
+          {
+            "sourceId": "10052",
+            "nll": 1.2336670721107326,
+            "oracle32RelativeAngleErrorDegrees": 1.4119056205244661e-06
+          },
+          {
+            "sourceId": "10062",
+            "nll": 1.3195225771895989,
+            "oracle32RelativeAngleErrorDegrees": 7.557535191877974e-07
+          },
+          {
+            "sourceId": "10067",
+            "nll": 1.3259501078814842,
+            "oracle32RelativeAngleErrorDegrees": 3.886732367431428e-06
+          },
+          {
+            "sourceId": "10071",
+            "nll": 2.0510510628824155,
+            "oracle32RelativeAngleErrorDegrees": 10.023234879737835
+          },
+          {
+            "sourceId": "10152",
+            "nll": 1.5527395150246939,
+            "oracle32RelativeAngleErrorDegrees": 15.818170870643316
+          },
+          {
+            "sourceId": "10153",
+            "nll": 2.563048186362969,
+            "oracle32RelativeAngleErrorDegrees": 15.99999776161081
+          },
+          {
+            "sourceId": "10162",
+            "nll": 1.3031093373344094,
+            "oracle32RelativeAngleErrorDegrees": 3.421419739258813e-06
+          },
+          {
+            "sourceId": "10181",
+            "nll": 1.114143391834995,
+            "oracle32RelativeAngleErrorDegrees": 4.626261354856024e-15
+          },
+          {
+            "sourceId": "10183",
+            "nll": 1.283319336997392,
+            "oracle32RelativeAngleErrorDegrees": 4.081068984954852e-06
+          },
+          {
+            "sourceId": "10184",
+            "nll": 1.880161812368768,
+            "oracle32RelativeAngleErrorDegrees": 3.3333344401382243
+          },
+          {
+            "sourceId": "10186",
+            "nll": 1.1846470319372684,
+            "oracle32RelativeAngleErrorDegrees": 1.024471721159813e-06
+          },
+          {
+            "sourceId": "10188",
+            "nll": 1.1125424299289919,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10205",
+            "nll": 1.5784137786289014,
+            "oracle32RelativeAngleErrorDegrees": 21.348484760444
+          },
+          {
+            "sourceId": "110005",
+            "nll": 1.825515998155056,
+            "oracle32RelativeAngleErrorDegrees": 10.366665345168245
+          },
+          {
+            "sourceId": "50005",
+            "nll": 2.013069002325603,
+            "oracle32RelativeAngleErrorDegrees": 17.761904105655795
+          },
+          {
+            "sourceId": "60048",
+            "nll": -0.0885950745260744,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60050",
+            "nll": 0.6551828651773719,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60054",
+            "nll": 2.027267918759929,
+            "oracle32RelativeAngleErrorDegrees": 21.458331825095424
+          },
+          {
+            "sourceId": "60055",
+            "nll": 2.6152653177996212,
+            "oracle32RelativeAngleErrorDegrees": 29.999999777353974
+          },
+          {
+            "sourceId": "60059",
+            "nll": 1.773729938960895,
+            "oracle32RelativeAngleErrorDegrees": 9.33333265589551
+          },
+          {
+            "sourceId": "60063",
+            "nll": 0.9340060832284808,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60068",
+            "nll": 1.056511198592762,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60075",
+            "nll": 0.8164997376737964,
+            "oracle32RelativeAngleErrorDegrees": 0.06057931394196899
+          },
+          {
+            "sourceId": "60076",
+            "nll": 1.0402432996088757,
+            "oracle32RelativeAngleErrorDegrees": 6.433686435206628
+          },
+          {
+            "sourceId": "660005",
+            "nll": 1.746000876726323,
+            "oracle32RelativeAngleErrorDegrees": 12.266654928872578
+          },
+          {
+            "sourceId": "680013",
+            "nll": 3.8479476625361233,
+            "oracle32RelativeAngleErrorDegrees": 6.801781647682807e-06
+          },
+          {
+            "sourceId": "70023",
+            "nll": 1.5930191964261045,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70031",
+            "nll": 1.421741690471607,
+            "oracle32RelativeAngleErrorDegrees": 3.333332717172687
+          },
+          {
+            "sourceId": "71011",
+            "nll": 1.9609785516037448,
+            "oracle32RelativeAngleErrorDegrees": 9.999995316271221
+          },
+          {
+            "sourceId": "71014",
+            "nll": 1.2940611714051433,
+            "oracle32RelativeAngleErrorDegrees": 3.3561089190411135e-06
+          },
+          {
+            "sourceId": "71017",
+            "nll": 1.74304863975607,
+            "oracle32RelativeAngleErrorDegrees": 5.988453845391146
+          },
+          {
+            "sourceId": "71020",
+            "nll": 3.907383768083429,
+            "oracle32RelativeAngleErrorDegrees": 44.99997455576254
+          },
+          {
+            "sourceId": "71025",
+            "nll": 0.8862662169718787,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71029",
+            "nll": 1.1422197134185026,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71030",
+            "nll": 1.3744474723668698,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71037",
+            "nll": 1.1074547237034504,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71043",
+            "nll": 1.3367680644069069,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71048",
+            "nll": 1.0529664829010015,
+            "oracle32RelativeAngleErrorDegrees": 4.240739575284689e-15
+          },
+          {
+            "sourceId": "71106",
+            "nll": 1.0567482967611015,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71108",
+            "nll": 1.3013843375688567,
+            "oracle32RelativeAngleErrorDegrees": 1.133630274613801e-06
+          },
+          {
+            "sourceId": "71117",
+            "nll": 1.235760776667595,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71119",
+            "nll": 0.7962924041895075,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71120",
+            "nll": 1.4584750696014863,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71123",
+            "nll": 1.314946076306782,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71130",
+            "nll": 1.6438595299601928,
+            "oracle32RelativeAngleErrorDegrees": 8.481479150569379e-15
+          },
+          {
+            "sourceId": "71134",
+            "nll": 1.1977768431824796,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71144",
+            "nll": 1.9616257419093222,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71147",
+            "nll": 1.7852770400463571,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71148",
+            "nll": 1.136532882134114,
+            "oracle32RelativeAngleErrorDegrees": 5.039749491707029e-06
+          },
+          {
+            "sourceId": "71217",
+            "nll": 1.1483301206264123,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71230",
+            "nll": 0.9062118566398693,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "73004",
+            "nll": 1.3458465605493057,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "880002",
+            "nll": 1.0285853414306811,
+            "oracle32RelativeAngleErrorDegrees": 2.473198255880397e-06
+          },
+          {
+            "sourceId": "880004",
+            "nll": 1.126615918710819,
+            "oracle32RelativeAngleErrorDegrees": 1.0183757516729743e-06
+          },
+          {
+            "sourceId": "90005",
+            "nll": 1.4842335758327765,
+            "oracle32RelativeAngleErrorDegrees": 1.8750006940392503
+          },
+          {
+            "sourceId": "90008",
+            "nll": 0.8168658822772242,
+            "oracle32RelativeAngleErrorDegrees": 3.4624775556881125e-06
+          },
+          {
+            "sourceId": "90009",
+            "nll": 1.1170693396505245,
+            "oracle32RelativeAngleErrorDegrees": 1.0387432667064337e-05
+          },
+          {
+            "sourceId": "90013",
+            "nll": 1.0829416903580469,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90026",
+            "nll": 1.6614305857937748,
+            "oracle32RelativeAngleErrorDegrees": 4.9999992940471945
+          }
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "sourceFamilyIntersection": [],
+      "trainingSourceIds": [
+        "10010",
+        "10011",
+        "10012",
+        "10013",
+        "10014",
+        "10015",
+        "10017",
+        "10018",
+        "10019",
+        "10020",
+        "10021",
+        "10023",
+        "10024",
+        "10025",
+        "10026",
+        "10029",
+        "10031",
+        "10032",
+        "10034",
+        "10035",
+        "10036",
+        "10037",
+        "10038",
+        "10039",
+        "10040",
+        "10046",
+        "10047",
+        "10048",
+        "10049",
+        "10051",
+        "10052",
+        "10056",
+        "10057",
+        "10058",
+        "10059",
+        "10060",
+        "10061",
+        "10062",
+        "10065",
+        "10066",
+        "10067",
+        "10071",
+        "10082",
+        "10111",
+        "10122",
+        "10134",
+        "10152",
+        "10153",
+        "10154",
+        "10161",
+        "10162",
+        "10164",
+        "10168",
+        "10170",
+        "10171",
+        "10173",
+        "10174",
+        "10175",
+        "10176",
+        "10177",
+        "10179",
+        "10180",
+        "10181",
+        "10182",
+        "10183",
+        "10184",
+        "10186",
+        "10187",
+        "10188",
+        "10189",
+        "10191",
+        "10194",
+        "10195",
+        "10196",
+        "10197",
+        "10199",
+        "10200",
+        "10201",
+        "10203",
+        "10204",
+        "10205",
+        "10209",
+        "110005",
+        "130004",
+        "130006",
+        "130008",
+        "150002",
+        "150003",
+        "150004",
+        "150006",
+        "150014",
+        "150015",
+        "50001",
+        "50002",
+        "50004",
+        "50005",
+        "50006",
+        "50008",
+        "50011",
+        "50017",
+        "50018",
+        "60006",
+        "60008",
+        "60009",
+        "60036",
+        "60048",
+        "60049",
+        "60050",
+        "60051",
+        "60052",
+        "60053",
+        "60054",
+        "60055",
+        "60057",
+        "60059",
+        "60063",
+        "60064",
+        "60065",
+        "60067",
+        "60068",
+        "60069",
+        "60070",
+        "60072",
+        "60073",
+        "60074",
+        "60075",
+        "60076",
+        "60077",
+        "60078",
+        "60079",
+        "60096",
+        "660002",
+        "660005",
+        "680013",
+        "70004",
+        "70007",
+        "70008",
+        "70010",
+        "70011",
+        "70012",
+        "70015",
+        "70018",
+        "70021",
+        "70022",
+        "70023",
+        "70024",
+        "70025",
+        "70026",
+        "70027",
+        "70028",
+        "70029",
+        "70030",
+        "70031",
+        "70033",
+        "70034",
+        "70035",
+        "70036",
+        "70037",
+        "70038",
+        "70039",
+        "70040",
+        "71001",
+        "71002",
+        "71003",
+        "71005",
+        "71006",
+        "71009",
+        "71010",
+        "71011",
+        "71012",
+        "71014",
+        "71015",
+        "71016",
+        "71017",
+        "71019",
+        "71020",
+        "71021",
+        "71023",
+        "71024",
+        "71025",
+        "71026",
+        "71027",
+        "71029",
+        "71030",
+        "71033",
+        "71037",
+        "71038",
+        "71039",
+        "71043",
+        "71044",
+        "71045",
+        "71047",
+        "71048",
+        "71049",
+        "71101",
+        "71102",
+        "71103",
+        "71105",
+        "71106",
+        "71107",
+        "71108",
+        "71109",
+        "71111",
+        "71115",
+        "71116",
+        "71117",
+        "71118",
+        "71119",
+        "71120",
+        "71121",
+        "71123",
+        "71124",
+        "71125",
+        "71126",
+        "71127",
+        "71128",
+        "71130",
+        "71132",
+        "71134",
+        "71135",
+        "71137",
+        "71138",
+        "71139",
+        "71140",
+        "71141",
+        "71144",
+        "71145",
+        "71147",
+        "71148",
+        "71149",
+        "71202",
+        "71207",
+        "71208",
+        "71213",
+        "71217",
+        "71223",
+        "71226",
+        "71227",
+        "71229",
+        "71230",
+        "72009",
+        "72012",
+        "72013",
+        "73001",
+        "73002",
+        "73004",
+        "73005",
+        "73008",
+        "73011",
+        "73012",
+        "73013",
+        "73016",
+        "880001",
+        "880002",
+        "880004",
+        "880007",
+        "880010",
+        "90002",
+        "90003",
+        "90005",
+        "90008",
+        "90009",
+        "90013",
+        "90014",
+        "90025",
+        "90026"
+      ],
+      "heldSourceIds": [
+        "10027",
+        "10033",
+        "10041",
+        "10043",
+        "10044",
+        "10045",
+        "10054",
+        "10055",
+        "10063",
+        "10064",
+        "10068",
+        "10069",
+        "10166",
+        "10172",
+        "10178",
+        "10185",
+        "10198",
+        "10202",
+        "110001",
+        "110003",
+        "50012",
+        "50013",
+        "50014",
+        "50016",
+        "50020",
+        "60005",
+        "60007",
+        "60045",
+        "60056",
+        "60062",
+        "60066",
+        "60071",
+        "60081",
+        "60094",
+        "60097",
+        "70009",
+        "70013",
+        "70032",
+        "71004",
+        "71007",
+        "71013",
+        "71022",
+        "71028",
+        "71031",
+        "71036",
+        "71040",
+        "71041",
+        "71042",
+        "71046",
+        "71050",
+        "71104",
+        "71110",
+        "71113",
+        "71122",
+        "71129",
+        "71131",
+        "71133",
+        "71143",
+        "71146",
+        "71205",
+        "71206",
+        "71209",
+        "71216",
+        "71222",
+        "72003",
+        "73014",
+        "90012",
+        "90020"
+      ],
+      "nativeUnitGeometryAndRole": {
+        "meanHeldSourceNLL": 1.8986326546333079,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 1.7032609781003658,
+        "perHeldSource": [
+          {
+            "sourceId": "10027",
+            "nll": 1.5955990887106992,
+            "oracle32RelativeAngleErrorDegrees": 1.2500020397573481
+          },
+          {
+            "sourceId": "10033",
+            "nll": 2.6376144250002285,
+            "oracle32RelativeAngleErrorDegrees": 4.000003610481268
+          },
+          {
+            "sourceId": "10041",
+            "nll": 1.6632994271159567,
+            "oracle32RelativeAngleErrorDegrees": 1.9992496641697742e-06
+          },
+          {
+            "sourceId": "10043",
+            "nll": 2.540224503492153,
+            "oracle32RelativeAngleErrorDegrees": 2.857142998052211
+          },
+          {
+            "sourceId": "10044",
+            "nll": 1.456062544539975,
+            "oracle32RelativeAngleErrorDegrees": 13.333330585211428
+          },
+          {
+            "sourceId": "10045",
+            "nll": 1.4329839484994094,
+            "oracle32RelativeAngleErrorDegrees": 4.166667765421869
+          },
+          {
+            "sourceId": "10054",
+            "nll": 1.1054359348951341,
+            "oracle32RelativeAngleErrorDegrees": 2.6634442964409917e-07
+          },
+          {
+            "sourceId": "10055",
+            "nll": 1.3708362518125539,
+            "oracle32RelativeAngleErrorDegrees": 4.25111352581794e-06
+          },
+          {
+            "sourceId": "10063",
+            "nll": 1.6347175994034462,
+            "oracle32RelativeAngleErrorDegrees": 4.235299333257044
+          },
+          {
+            "sourceId": "10064",
+            "nll": 1.2999833423886982,
+            "oracle32RelativeAngleErrorDegrees": 2.121213353459433
+          },
+          {
+            "sourceId": "10068",
+            "nll": 4.911843535666091,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10069",
+            "nll": 0.6464644142097429,
+            "oracle32RelativeAngleErrorDegrees": 3.3393040873168874e-06
+          },
+          {
+            "sourceId": "10166",
+            "nll": 0.40890619095822023,
+            "oracle32RelativeAngleErrorDegrees": 1.0017912249228444e-05
+          },
+          {
+            "sourceId": "10172",
+            "nll": 1.2552354339422063,
+            "oracle32RelativeAngleErrorDegrees": 2.87985685683207e-06
+          },
+          {
+            "sourceId": "10178",
+            "nll": 2.2805852635707944,
+            "oracle32RelativeAngleErrorDegrees": 3.4096889344491325e-06
+          },
+          {
+            "sourceId": "10185",
+            "nll": 1.8830834893306674,
+            "oracle32RelativeAngleErrorDegrees": 1.685048728904391e-06
+          },
+          {
+            "sourceId": "10198",
+            "nll": 1.6123507296379467,
+            "oracle32RelativeAngleErrorDegrees": 1.8662289440603642e-06
+          },
+          {
+            "sourceId": "10202",
+            "nll": 2.9605947727623994,
+            "oracle32RelativeAngleErrorDegrees": 9.166669412928469
+          },
+          {
+            "sourceId": "110001",
+            "nll": 2.731254084733936,
+            "oracle32RelativeAngleErrorDegrees": 8.267933398114753
+          },
+          {
+            "sourceId": "110003",
+            "nll": 1.087981657156366,
+            "oracle32RelativeAngleErrorDegrees": 6.3611093629270335e-15
+          },
+          {
+            "sourceId": "50012",
+            "nll": 2.3151688775857813,
+            "oracle32RelativeAngleErrorDegrees": 0.248670109433603
+          },
+          {
+            "sourceId": "50013",
+            "nll": 1.3228142473528441,
+            "oracle32RelativeAngleErrorDegrees": 1.1131013639982312e-06
+          },
+          {
+            "sourceId": "50014",
+            "nll": 3.359728644938954,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50016",
+            "nll": 2.043630312519566,
+            "oracle32RelativeAngleErrorDegrees": 1.1027940749889342e-06
+          },
+          {
+            "sourceId": "50020",
+            "nll": 0.8643246114188476,
+            "oracle32RelativeAngleErrorDegrees": 3.8267970668977824e-07
+          },
+          {
+            "sourceId": "60005",
+            "nll": 2.3108178378266833,
+            "oracle32RelativeAngleErrorDegrees": 2.000001018717393
+          },
+          {
+            "sourceId": "60007",
+            "nll": -0.23794959387629783,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60045",
+            "nll": 0.9900384289876427,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60056",
+            "nll": 2.3412028644927307,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60062",
+            "nll": 0.7516424662484931,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60066",
+            "nll": 1.5298252382188584,
+            "oracle32RelativeAngleErrorDegrees": 2.4613151283450865
+          },
+          {
+            "sourceId": "60071",
+            "nll": 1.3495129947746418,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60081",
+            "nll": 1.6746972790045715,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60094",
+            "nll": 1.3285434817967763,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60097",
+            "nll": 2.1263417119520636,
+            "oracle32RelativeAngleErrorDegrees": 12.285709280608273
+          },
+          {
+            "sourceId": "70009",
+            "nll": 2.4548689799737837,
+            "oracle32RelativeAngleErrorDegrees": 7.060490029265799
+          },
+          {
+            "sourceId": "70013",
+            "nll": 1.1756624706745171,
+            "oracle32RelativeAngleErrorDegrees": 2.4990716483808847e-07
+          },
+          {
+            "sourceId": "70032",
+            "nll": 2.7431793292009736,
+            "oracle32RelativeAngleErrorDegrees": 1.9992573017417494e-06
+          },
+          {
+            "sourceId": "71004",
+            "nll": 1.79887428399244,
+            "oracle32RelativeAngleErrorDegrees": 1.9999992274890335
+          },
+          {
+            "sourceId": "71007",
+            "nll": 2.70270178318363,
+            "oracle32RelativeAngleErrorDegrees": 7.827212565587225
+          },
+          {
+            "sourceId": "71013",
+            "nll": 1.8409381480996563,
+            "oracle32RelativeAngleErrorDegrees": 22.87336715223196
+          },
+          {
+            "sourceId": "71022",
+            "nll": 1.3826232863221253,
+            "oracle32RelativeAngleErrorDegrees": 5.712163749553139e-07
+          },
+          {
+            "sourceId": "71028",
+            "nll": 2.927104005494828,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71031",
+            "nll": 1.3971694298003063,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71036",
+            "nll": 4.17832055426597,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71040",
+            "nll": 2.229833649360337,
+            "oracle32RelativeAngleErrorDegrees": 2.1203697876423446e-15
+          },
+          {
+            "sourceId": "71041",
+            "nll": 0.919056867325988,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71042",
+            "nll": 1.4572570923156791,
+            "oracle32RelativeAngleErrorDegrees": 8.959793474827107e-07
+          },
+          {
+            "sourceId": "71046",
+            "nll": 1.3143318262105772,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71050",
+            "nll": 1.4041160514668263,
+            "oracle32RelativeAngleErrorDegrees": 3.847197298233701e-07
+          },
+          {
+            "sourceId": "71104",
+            "nll": 0.7931855352382371,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71110",
+            "nll": 1.4881417501159035,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71113",
+            "nll": 2.6347253836070235,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71122",
+            "nll": 0.6394726594245003,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71129",
+            "nll": 1.8655106491418765,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71131",
+            "nll": 3.232117141133931,
+            "oracle32RelativeAngleErrorDegrees": 6.000001873569285
+          },
+          {
+            "sourceId": "71133",
+            "nll": 2.2917027982908125,
+            "oracle32RelativeAngleErrorDegrees": 1.7004454119207017e-06
+          },
+          {
+            "sourceId": "71143",
+            "nll": 1.2749028014119097,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71146",
+            "nll": 2.9240648732220627,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71205",
+            "nll": 2.80207791562144,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71206",
+            "nll": 0.6297994821660432,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71209",
+            "nll": 1.1242022072725502,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71216",
+            "nll": 2.6622721226311072,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71222",
+            "nll": 2.79021412678299,
+            "oracle32RelativeAngleErrorDegrees": 4.235283433180559e-06
+          },
+          {
+            "sourceId": "72003",
+            "nll": 1.4014823980518003,
+            "oracle32RelativeAngleErrorDegrees": 3.666670208219192
+          },
+          {
+            "sourceId": "73014",
+            "nll": 3.0164599557667238,
+            "oracle32RelativeAngleErrorDegrees": 3.4008908215024993e-06
+          },
+          {
+            "sourceId": "90012",
+            "nll": 3.9130973618317393,
+            "oracle32RelativeAngleErrorDegrees": 1.6962958301138756e-15
+          },
+          {
+            "sourceId": "90020",
+            "nll": 3.1121575545978803,
+            "oracle32RelativeAngleErrorDegrees": 1.6696520457788136e-06
+          }
+        ]
+      },
+      "countsRelativeCentersAndGlobalProfileBaseline": {
+        "meanHeldSourceNLL": 1.4213001870572417,
+        "meanHeldSourceOracle32RelativeAngleErrorDegrees": 3.29080093405775,
+        "perHeldSource": [
+          {
+            "sourceId": "10027",
+            "nll": 2.3595198293190394,
+            "oracle32RelativeAngleErrorDegrees": 11.250002089559748
+          },
+          {
+            "sourceId": "10033",
+            "nll": 1.822983498477675,
+            "oracle32RelativeAngleErrorDegrees": 3.6764199140101852e-06
+          },
+          {
+            "sourceId": "10041",
+            "nll": 1.336106044121749,
+            "oracle32RelativeAngleErrorDegrees": 3.673485586492842e-06
+          },
+          {
+            "sourceId": "10043",
+            "nll": 1.1637870942184076,
+            "oracle32RelativeAngleErrorDegrees": 9.540868796672594e-07
+          },
+          {
+            "sourceId": "10044",
+            "nll": 0.825402855153345,
+            "oracle32RelativeAngleErrorDegrees": 13.04829723169872
+          },
+          {
+            "sourceId": "10045",
+            "nll": 1.165736936697192,
+            "oracle32RelativeAngleErrorDegrees": 2.6111113632315797
+          },
+          {
+            "sourceId": "10054",
+            "nll": 1.1563811267298734,
+            "oracle32RelativeAngleErrorDegrees": 3.914528838724329e-15
+          },
+          {
+            "sourceId": "10055",
+            "nll": 1.1149396457760612,
+            "oracle32RelativeAngleErrorDegrees": 3.710647128374103e-15
+          },
+          {
+            "sourceId": "10063",
+            "nll": 3.9451781751603,
+            "oracle32RelativeAngleErrorDegrees": 23.137253140171058
+          },
+          {
+            "sourceId": "10064",
+            "nll": 1.4367126632310794,
+            "oracle32RelativeAngleErrorDegrees": 0.9090938632409462
+          },
+          {
+            "sourceId": "10068",
+            "nll": 2.6259811066714063,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "10069",
+            "nll": 0.43187948757350014,
+            "oracle32RelativeAngleErrorDegrees": 1.7312387842051653e-06
+          },
+          {
+            "sourceId": "10166",
+            "nll": 1.8075339963533672,
+            "oracle32RelativeAngleErrorDegrees": 2.0405344929015e-05
+          },
+          {
+            "sourceId": "10172",
+            "nll": 1.7459982648943009,
+            "oracle32RelativeAngleErrorDegrees": 4.285714669891188
+          },
+          {
+            "sourceId": "10178",
+            "nll": 1.2755000653160398,
+            "oracle32RelativeAngleErrorDegrees": 4.946396508125874e-07
+          },
+          {
+            "sourceId": "10185",
+            "nll": 2.5884732341889887,
+            "oracle32RelativeAngleErrorDegrees": 12.500003114290502
+          },
+          {
+            "sourceId": "10198",
+            "nll": 1.1526047495018765,
+            "oracle32RelativeAngleErrorDegrees": 9.107192949988823e-07
+          },
+          {
+            "sourceId": "10202",
+            "nll": 2.9762394192513537,
+            "oracle32RelativeAngleErrorDegrees": 19.99999910247441
+          },
+          {
+            "sourceId": "110001",
+            "nll": 1.8394364580000828,
+            "oracle32RelativeAngleErrorDegrees": 10.133335759111743
+          },
+          {
+            "sourceId": "110003",
+            "nll": 0.9825467892064044,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "50012",
+            "nll": 1.0696916124050424,
+            "oracle32RelativeAngleErrorDegrees": 0.24867300688666277
+          },
+          {
+            "sourceId": "50013",
+            "nll": 2.138106832728282,
+            "oracle32RelativeAngleErrorDegrees": 9.999999144645072
+          },
+          {
+            "sourceId": "50014",
+            "nll": 0.6617382427551904,
+            "oracle32RelativeAngleErrorDegrees": 6.678608157670816e-06
+          },
+          {
+            "sourceId": "50016",
+            "nll": 1.83914735385304,
+            "oracle32RelativeAngleErrorDegrees": 8.000000923327347
+          },
+          {
+            "sourceId": "50020",
+            "nll": 1.5772987595871693,
+            "oracle32RelativeAngleErrorDegrees": 1.6962958301138756e-15
+          },
+          {
+            "sourceId": "60005",
+            "nll": 3.3449249491675976,
+            "oracle32RelativeAngleErrorDegrees": 27.999992094698328
+          },
+          {
+            "sourceId": "60007",
+            "nll": -0.24508240607269577,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60045",
+            "nll": 0.531599442499398,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60056",
+            "nll": 0.8335701216651815,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60062",
+            "nll": 0.6333705910243226,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60066",
+            "nll": 1.255114125976676,
+            "oracle32RelativeAngleErrorDegrees": 2.5925938263246646
+          },
+          {
+            "sourceId": "60071",
+            "nll": 1.282840113573816,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60081",
+            "nll": 0.881084504425661,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60094",
+            "nll": 0.833970956935119,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "60097",
+            "nll": 1.849357534864144,
+            "oracle32RelativeAngleErrorDegrees": 22.428566418383213
+          },
+          {
+            "sourceId": "70009",
+            "nll": 1.861963232258311,
+            "oracle32RelativeAngleErrorDegrees": 16.97690671898486
+          },
+          {
+            "sourceId": "70013",
+            "nll": 1.0140687713933128,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "70032",
+            "nll": 1.7090444512257534,
+            "oracle32RelativeAngleErrorDegrees": 1.9992573144639682e-06
+          },
+          {
+            "sourceId": "71004",
+            "nll": 1.4001637366649748,
+            "oracle32RelativeAngleErrorDegrees": 1.0000002812206128
+          },
+          {
+            "sourceId": "71007",
+            "nll": 1.7501746468885682,
+            "oracle32RelativeAngleErrorDegrees": 5.114914609138643
+          },
+          {
+            "sourceId": "71013",
+            "nll": 1.613094856424258,
+            "oracle32RelativeAngleErrorDegrees": 8.318905142708601
+          },
+          {
+            "sourceId": "71022",
+            "nll": 1.6688585532141837,
+            "oracle32RelativeAngleErrorDegrees": 4.285713058745925
+          },
+          {
+            "sourceId": "71028",
+            "nll": 1.2305610775967557,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71031",
+            "nll": 0.9676399416082625,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71036",
+            "nll": 2.3786064230435513,
+            "oracle32RelativeAngleErrorDegrees": 4.240739575284689e-15
+          },
+          {
+            "sourceId": "71040",
+            "nll": 1.0697649072972608,
+            "oracle32RelativeAngleErrorDegrees": 4.240739575284689e-15
+          },
+          {
+            "sourceId": "71041",
+            "nll": 0.6815761846581208,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71042",
+            "nll": 1.2507694903112272,
+            "oracle32RelativeAngleErrorDegrees": 5.770795947350552e-07
+          },
+          {
+            "sourceId": "71046",
+            "nll": 1.1583738246604443,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71050",
+            "nll": 0.9724779098826423,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71104",
+            "nll": 0.8450358747019374,
+            "oracle32RelativeAngleErrorDegrees": 2.4232797573055366e-15
+          },
+          {
+            "sourceId": "71110",
+            "nll": 0.7961054625892561,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71113",
+            "nll": 3.5758342098650395,
+            "oracle32RelativeAngleErrorDegrees": 9.999997582365877
+          },
+          {
+            "sourceId": "71122",
+            "nll": 1.1877571834027014,
+            "oracle32RelativeAngleErrorDegrees": 1.999998490047255
+          },
+          {
+            "sourceId": "71129",
+            "nll": 0.7783572575839448,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71131",
+            "nll": 1.1445509143558652,
+            "oracle32RelativeAngleErrorDegrees": 3.4378428594694236e-06
+          },
+          {
+            "sourceId": "71133",
+            "nll": 1.2881348971236843,
+            "oracle32RelativeAngleErrorDegrees": 3.4624775535677426e-06
+          },
+          {
+            "sourceId": "71143",
+            "nll": 0.8845854773179879,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71146",
+            "nll": 1.035259678799462,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71205",
+            "nll": 1.0331645082291092,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71206",
+            "nll": 1.1108531052431554,
+            "oracle32RelativeAngleErrorDegrees": 8.481479150569379e-15
+          },
+          {
+            "sourceId": "71209",
+            "nll": 1.709336653638502,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71216",
+            "nll": 0.5850946725666251,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "71222",
+            "nll": 1.3879242592754055,
+            "oracle32RelativeAngleErrorDegrees": 6.245230963700428e-06
+          },
+          {
+            "sourceId": "72003",
+            "nll": 1.6177360704280597,
+            "oracle32RelativeAngleErrorDegrees": 6.933332346193708
+          },
+          {
+            "sourceId": "73014",
+            "nll": 2.7822612842332153,
+            "oracle32RelativeAngleErrorDegrees": 3.622502784862152e-06
+          },
+          {
+            "sourceId": "90012",
+            "nll": 0.9636535287791494,
+            "oracle32RelativeAngleErrorDegrees": 0.0
+          },
+          {
+            "sourceId": "90020",
+            "nll": 0.9559554994017078,
+            "oracle32RelativeAngleErrorDegrees": 1.6696520404778892e-06
+          }
+        ]
+      }
+    }
+  ],
+  "declaredBeforeEvaluation": {
+    "neighbors": 32,
+    "angularCosSinBandwidth": 0.35,
+    "nearestOtherUnitsPerAnchor": 3,
+    "evaluation": "Five source-family folds; average records within source then sources equally; final refit only afterward"
+  },
+  "limits": [
+    "Ordinary source proposal support only, not native release/difficulty or player enjoyment labels.",
+    "Any below-requested training count is reported truthfully; no padding or retained pictorial influence.",
+    "Report baseline comparison honestly; no quality improvement claim when held-family metrics are worse."
+  ],
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatePack": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "sourceFilter": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "trainer": "693929c43be6626bc52995bc467c265fdee7054b78539e73d7353767d96f2b77",
+    "source": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "model": "d6b656f2ea68d5bbbea3b39279ee120073347c39279731ee59f61959a73fcef9"
+  }
+}

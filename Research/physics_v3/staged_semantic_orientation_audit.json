@@ -1,0 +1,3733 @@
+{
+  "acceptedGeneratedCount": 0,
+  "frozenStagedCount": 39,
+  "meaningfulRootGateFailures": [
+    36,
+    251
+  ],
+  "semanticNoveltyFailures": [
+    36
+  ],
+  "physicallyInputEquivalentEdits": [
+    {
+      "position": 36,
+      "partId": 21
+    },
+    {
+      "position": 251,
+      "partId": 16
+    },
+    {
+      "position": 251,
+      "partId": 17
+    }
+  ],
+  "actualSourceChecks": {
+    "closedRoundReceiver": {
+      "passed": true,
+      "position": 64,
+      "partId": 1
+    },
+    "straightTwoWayPull": {
+      "passed": true,
+      "position": 10,
+      "partId": 7
+    }
+  },
+  "levels": [
+    {
+      "position": 2,
+      "id": 7800002,
+      "nativeRoots": 3,
+      "claimedModifiedRootCount": 1,
+      "meaningfulModifiedRootCount": 1,
+      "meaningfulRootFraction": 0.3333333333333333,
+      "minimumMeaningfulRootCount": 1,
+      "legacyPreferredMaximumRootCountCeil25percent": 1,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 0.007484064754457433,
+          "p90CenterErrorWidths": 0.017961755410694287,
+          "meanAngleErrorDegrees": 15.055864063842087,
+          "meanShapeError": 0.0,
+          "alignmentReflection": true,
+          "spacingScale": 1.0012312805579804,
+          "nearCopy": false,
+          "sourceId": "10002"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.045368731318746,
+          "semanticAngleDelta": 45.045368731318746,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 3,
+      "id": 7800003,
+      "nativeRoots": 4,
+      "claimedModifiedRootCount": 1,
+      "meaningfulModifiedRootCount": 1,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 1,
+      "legacyPreferredMaximumRootCountCeil25percent": 1,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.4408918572349725e-16,
+          "p90CenterErrorWidths": 1.0658140457363935e-15,
+          "meanAngleErrorDegrees": 15.051001075451405,
+          "meanShapeError": 0.0625,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10003"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -60.20400430180561,
+          "semanticAngleDelta": 60.20400430180561,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 4,
+      "id": 7800004,
+      "nativeRoots": 7,
+      "claimedModifiedRootCount": 2,
+      "meaningfulModifiedRootCount": 2,
+      "meaningfulRootFraction": 0.2857142857142857,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 2,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.5376524898485557e-16,
+          "p90CenterErrorWidths": 7.105426971575962e-16,
+          "meanAngleErrorDegrees": 21.466778639284446,
+          "meanShapeError": 0.03571428571428571,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 100.26745252545817,
+          "semanticAngleDelta": 100.26745252545817,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 49.999997949532926,
+          "semanticAngleDelta": 49.99999794953294,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 5,
+      "id": 7800005,
+      "nativeRoots": 7,
+      "claimedModifiedRootCount": 2,
+      "meaningfulModifiedRootCount": 2,
+      "meaningfulRootFraction": 0.2857142857142857,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 2,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 3.1720656123106947e-16,
+          "p90CenterErrorWidths": 8.881783714469945e-16,
+          "meanAngleErrorDegrees": 15.431264859859166,
+          "meanShapeError": 0.0,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10004"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -48.033941196984216,
+          "semanticAngleDelta": 48.033941196984216,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -59.98491282202991,
+          "semanticAngleDelta": 59.98491282202991,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 6,
+      "id": 7800006,
+      "nativeRoots": 10,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.3,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.465328339995214e-15,
+          "p90CenterErrorWidths": 8.468679324173032e-15,
+          "meanAngleErrorDegrees": 18.602797313932378,
+          "meanShapeError": 0.05,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000004,
+          "nearCopy": false,
+          "sourceId": "10010"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 46.027911,
+          "semanticAngleDelta": 46.02791100000002,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -49.999984515749475,
+          "semanticAngleDelta": 49.999984515749475,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.00007762357427,
+          "semanticAngleDelta": 90.00007762357427,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 7,
+      "id": 7800007,
+      "nativeRoots": 13,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.23076923076923078,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 4,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.115476783287394e-15,
+          "p90CenterErrorWidths": 7.873006953472351e-15,
+          "meanAngleErrorDegrees": 22.95124115789575,
+          "meanShapeError": 0.0,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999999,
+          "nearCopy": false,
+          "sourceId": "10012"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -148.46251332603856,
+          "semanticAngleDelta": 148.46251332603856,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -101.83365436819429,
+          "semanticAngleDelta": 101.83365436819429,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -48.06996735841193,
+          "semanticAngleDelta": 48.06996735841193,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 8,
+      "id": 7800008,
+      "nativeRoots": 9,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.3333333333333333,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.1711026857593197e-15,
+          "p90CenterErrorWidths": 3.552713485787978e-15,
+          "meanAngleErrorDegrees": 27.455542895645717,
+          "meanShapeError": 0.08333333333333333,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10007"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -47.038634150855586,
+          "semanticAngleDelta": 47.038634150855586,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -64.86228609122287,
+          "semanticAngleDelta": 64.86228609122287,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -135.19896581873297,
+          "semanticAngleDelta": 135.19896581873297,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 9,
+      "id": 7800009,
+      "nativeRoots": 9,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.3333333333333333,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 7.70754554887113e-15,
+          "p90CenterErrorWidths": 1.0939299747734005e-14,
+          "meanAngleErrorDegrees": 22.488475108278088,
+          "meanShapeError": 0.05555555555555555,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000004,
+          "nearCopy": false,
+          "sourceId": "10008"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -100.00001669819439,
+          "semanticAngleDelta": 100.00001669819439,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -54.538972892642335,
+          "semanticAngleDelta": 54.538972892642335,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 47.85728638366601,
+          "semanticAngleDelta": 47.85728638366601,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 11,
+      "id": 7800011,
+      "nativeRoots": 9,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.3333333333333333,
+      "minimumMeaningfulRootCount": 2,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 8.756429335496789e-15,
+          "p90CenterErrorWidths": 1.308976330066315e-14,
+          "meanAngleErrorDegrees": 29.441205020162826,
+          "meanShapeError": 0.0,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999996,
+          "nearCopy": false,
+          "sourceId": "10006"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -174.96853593809982,
+          "semanticAngleDelta": 174.96853593809982,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00229681598148,
+          "semanticAngleDelta": 45.00229681598148,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00001242738412,
+          "semanticAngleDelta": 45.00001242738412,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 12,
+      "id": 7800012,
+      "nativeRoots": 15,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.2,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 4,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.938045223838924e-15,
+          "p90CenterErrorWidths": 7.258753070665929e-15,
+          "meanAngleErrorDegrees": 15.678292188761825,
+          "meanShapeError": 0.016666666666666666,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "10011"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 49.99998771169868,
+          "semanticAngleDelta": 49.99998771169868,
+          "meaningful": true
+        },
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -136.13414545679723,
+          "semanticAngleDelta": 136.13414545679723,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 49.040249662931444,
+          "semanticAngleDelta": 49.040249662931444,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 13,
+      "id": 7800013,
+      "nativeRoots": 12,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.6764720289924896e-15,
+          "p90CenterErrorWidths": 4.433991110656843e-15,
+          "meanAngleErrorDegrees": 18.853408726623606,
+          "meanShapeError": 0.020833333333333332,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10009"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 47.00007464158807,
+          "semanticAngleDelta": 47.00007464158807,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 125.5507513104992,
+          "semanticAngleDelta": 125.55075131049921,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 53.69007876739593,
+          "semanticAngleDelta": 53.69007876739593,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 14,
+      "id": 7800014,
+      "nativeRoots": 12,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 0.0,
+          "p90CenterErrorWidths": 0.0,
+          "meanAngleErrorDegrees": 24.999998866797984,
+          "meanShapeError": 0.041666666666666664,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "60023"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 69.99999069819438,
+          "semanticAngleDelta": 69.99999069819438,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 179.99998730180562,
+          "semanticAngleDelta": 179.99998730180562,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 50.0000084015758,
+          "semanticAngleDelta": 50.0000084015758,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 15,
+      "id": 7800015,
+      "nativeRoots": 12,
+      "claimedModifiedRootCount": 3,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 3,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.7160093478663714e-15,
+          "p90CenterErrorWidths": 3.651119264457329e-15,
+          "meanAngleErrorDegrees": 18.286668688636773,
+          "meanShapeError": 0.020833333333333332,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "70002"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -52.14343901410933,
+          "semanticAngleDelta": 52.14343901410933,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -94.99997299104388,
+          "semanticAngleDelta": 94.99997299104388,
+          "meaningful": true
+        },
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 72.29661225848804,
+          "semanticAngleDelta": 72.29661225848804,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 16,
+      "id": 7800016,
+      "nativeRoots": 13,
+      "claimedModifiedRootCount": 4,
+      "meaningfulModifiedRootCount": 4,
+      "meaningfulRootFraction": 0.3076923076923077,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 4,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.54102644608479e-14,
+          "p90CenterErrorWidths": 2.4239265860988256e-14,
+          "meanAngleErrorDegrees": 21.792519759403827,
+          "meanShapeError": 0.038461538461538464,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999993,
+          "nearCopy": false,
+          "sourceId": "70017"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.00000858772475,
+          "semanticAngleDelta": 45.00000858772475,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -53.409502935984904,
+          "semanticAngleDelta": 53.409502935984904,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -139.89323965034578,
+          "semanticAngleDelta": 139.89323965034578,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.0000056981944,
+          "semanticAngleDelta": 45.0000056981944,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 17,
+      "id": 7800017,
+      "nativeRoots": 13,
+      "claimedModifiedRootCount": 4,
+      "meaningfulModifiedRootCount": 4,
+      "meaningfulRootFraction": 0.3076923076923077,
+      "minimumMeaningfulRootCount": 3,
+      "legacyPreferredMaximumRootCountCeil25percent": 4,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.490534252881882e-16,
+          "p90CenterErrorWidths": 1.776356742893989e-15,
+          "meanAngleErrorDegrees": 30.542438342397514,
+          "meanShapeError": 0.038461538461538464,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "70003"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -175.56484799104388,
+          "semanticAngleDelta": 175.56484799104388,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.000010412275245,
+          "semanticAngleDelta": 45.00001041227523,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 131.4868373496542,
+          "semanticAngleDelta": 131.4868373496542,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00000269819438,
+          "semanticAngleDelta": 45.00000269819438,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 19,
+      "id": 7800019,
+      "nativeRoots": 33,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.21212121212121213,
+      "minimumMeaningfulRootCount": 7,
+      "legacyPreferredMaximumRootCountCeil25percent": 9,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 7.25051844589981e-15,
+          "p90CenterErrorWidths": 1.0048591735576161e-14,
+          "meanAngleErrorDegrees": 19.441567019739256,
+          "meanShapeError": 0.022727272727272728,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999996,
+          "nearCopy": false,
+          "sourceId": "10060"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -69.99491169819439,
+          "semanticAngleDelta": 69.99491169819439,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -174.999993616334,
+          "semanticAngleDelta": 174.999993616334,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -143.4365672883013,
+          "semanticAngleDelta": 143.4365672883013,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.60129798330868,
+          "semanticAngleDelta": 89.60129798330865,
+          "meaningful": true
+        },
+        {
+          "partId": 18,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -69.5389118672499,
+          "semanticAngleDelta": 69.5389118672499,
+          "meaningful": true
+        },
+        {
+          "partId": 19,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 49.00001426041938,
+          "semanticAngleDelta": 49.00001426041939,
+          "meaningful": true
+        },
+        {
+          "partId": 27,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.000014937587686,
+          "semanticAngleDelta": 45.00001493758768,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 23,
+      "id": 7800023,
+      "nativeRoots": 21,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.2857142857142857,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.248817277879867e-14,
+          "p90CenterErrorWidths": 2.009718237930861e-14,
+          "meanAngleErrorDegrees": 25.0642464825435,
+          "meanShapeError": 0.05952380952380952,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000004,
+          "nearCopy": false,
+          "sourceId": "10070"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99998865326222,
+          "semanticAngleDelta": 89.99998865326222,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.99998974176924,
+          "semanticAngleDelta": 179.99998974176924,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 71.54883548425053,
+          "semanticAngleDelta": 71.54883548425053,
+          "meaningful": true
+        },
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -49.999986449966684,
+          "semanticAngleDelta": 49.999986449966684,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 46.349196790055345,
+          "semanticAngleDelta": 46.349196790055345,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -88.45117901410933,
+          "semanticAngleDelta": 88.45117901410933,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 24,
+      "id": 7800024,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.7755574107718577e-16,
+          "p90CenterErrorWidths": 1.50990323145989e-15,
+          "meanAngleErrorDegrees": 24.996126237797938,
+          "meanShapeError": 0.041666666666666664,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10068"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -60.00304269819438,
+          "semanticAngleDelta": 60.00304269819438,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.00000000895614,
+          "semanticAngleDelta": 90.00000000895614,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.9999923018056,
+          "semanticAngleDelta": 179.9999923018056,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -89.99999969819439,
+          "semanticAngleDelta": 89.99999969819439,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.903995,
+          "semanticAngleDelta": 89.90399500000001,
+          "meaningful": true
+        },
+        {
+          "partId": 11,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -90.0,
+          "semanticAngleDelta": 90.0,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 25,
+      "id": 7800025,
+      "nativeRoots": 23,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.2608695652173913,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.019991998674707e-14,
+          "p90CenterErrorWidths": 1.4560741156198494e-14,
+          "meanAngleErrorDegrees": 24.273554161079367,
+          "meanShapeError": 0.021739130434782608,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999996,
+          "nearCopy": false,
+          "sourceId": "10069"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -53.734421617959725,
+          "semanticAngleDelta": 53.734421617959725,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 100.99998292629732,
+          "semanticAngleDelta": 100.99998292629732,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 121.48100679168103,
+          "semanticAngleDelta": 121.48100679168101,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -72.43430263992326,
+          "semanticAngleDelta": 72.43430263992326,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -156.800541,
+          "semanticAngleDelta": 156.800541,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -52.841490728964004,
+          "semanticAngleDelta": 52.841490728964004,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 26,
+      "id": 7800026,
+      "nativeRoots": 17,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 5,
+      "meaningfulRootFraction": 0.29411764705882354,
+      "minimumMeaningfulRootCount": 4,
+      "legacyPreferredMaximumRootCountCeil25percent": 5,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.008471523491159e-15,
+          "p90CenterErrorWidths": 8.265482308486207e-15,
+          "meanAngleErrorDegrees": 29.398472864347042,
+          "meanShapeError": 0.014705882352941176,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "60010"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 61.78197177525829,
+          "semanticAngleDelta": 61.781971775258285,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 129.093942012357,
+          "semanticAngleDelta": 129.093942012357,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 126.29727760406809,
+          "semanticAngleDelta": 126.29727760406809,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 57.29859948284985,
+          "semanticAngleDelta": 57.29859948284985,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 125.30224781936653,
+          "semanticAngleDelta": 125.30224781936653,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 27,
+      "id": 7800027,
+      "nativeRoots": 28,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.5417441437684945e-15,
+          "p90CenterErrorWidths": 5.329070228681967e-15,
+          "meanAngleErrorDegrees": 18.38130287417052,
+          "meanShapeError": 0.044642857142857144,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999999,
+          "nearCopy": false,
+          "sourceId": "10067"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -48.23446899104388,
+          "semanticAngleDelta": 48.23446899104388,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99998730180563,
+          "semanticAngleDelta": 89.99998730180562,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 155.24128013047329,
+          "semanticAngleDelta": 155.24128013047329,
+          "meaningful": true
+        },
+        {
+          "partId": 11,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.629638271036015,
+          "semanticAngleDelta": 45.629638271036015,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 63.00050230180561,
+          "semanticAngleDelta": 63.000502301805625,
+          "meaningful": true
+        },
+        {
+          "partId": 13,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 52.57062373909804,
+          "semanticAngleDelta": 52.57062373909804,
+          "meaningful": true
+        },
+        {
+          "partId": 16,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -59.999979741511936,
+          "semanticAngleDelta": 59.999979741511936,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 28,
+      "id": 7800028,
+      "nativeRoots": 26,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.2692307692307692,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.0623469529792296e-15,
+          "p90CenterErrorWidths": 3.621207359199947e-15,
+          "meanAngleErrorDegrees": 27.749896241542135,
+          "meanShapeError": 0.04807692307692308,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10065"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 46.96748057097648,
+          "semanticAngleDelta": 46.96748057097648,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -150.4531971939525,
+          "semanticAngleDelta": 150.4531971939525,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 119.99998218104272,
+          "semanticAngleDelta": 119.9999821810427,
+          "meaningful": true
+        },
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -69.07671210419302,
+          "semanticAngleDelta": 69.07671210419302,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.000009739098005,
+          "semanticAngleDelta": 45.000009739098005,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -124.99999295876263,
+          "semanticAngleDelta": 124.99999295876263,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -164.99992753207005,
+          "semanticAngleDelta": 164.99992753207005,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 32,
+      "id": 7800032,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 5,
+      "meaningfulRootFraction": 0.20833333333333334,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 3.677623198326499e-15,
+          "p90CenterErrorWidths": 6.705746704424807e-15,
+          "meanAngleErrorDegrees": 26.769330791293495,
+          "meanShapeError": 0.03125,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10048"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -170.0000106981944,
+          "semanticAngleDelta": 170.0000106981944,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -154.99490269819438,
+          "semanticAngleDelta": 154.99490269819438,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -55.21478399104387,
+          "semanticAngleDelta": 55.21478399104387,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -89.9999923018056,
+          "semanticAngleDelta": 89.9999923018056,
+          "meaningful": true
+        },
+        {
+          "partId": 19,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 172.2542493018056,
+          "semanticAngleDelta": 172.2542493018056,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 33,
+      "id": 7800033,
+      "nativeRoots": 38,
+      "claimedModifiedRootCount": 9,
+      "meaningfulModifiedRootCount": 9,
+      "meaningfulRootFraction": 0.23684210526315788,
+      "minimumMeaningfulRootCount": 8,
+      "legacyPreferredMaximumRootCountCeil25percent": 10,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.8838029910140442e-15,
+          "p90CenterErrorWidths": 4.112705881187136e-15,
+          "meanAngleErrorDegrees": 15.097215692528218,
+          "meanShapeError": 0.046052631578947366,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10054"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -54.999996301805595,
+          "semanticAngleDelta": 54.999996301805595,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 65.9999121017386,
+          "semanticAngleDelta": 65.9999121017386,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 48.93264357097644,
+          "semanticAngleDelta": 48.93264357097644,
+          "meaningful": true
+        },
+        {
+          "partId": 11,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -49.99999086952673,
+          "semanticAngleDelta": 49.99999086952673,
+          "meaningful": true
+        },
+        {
+          "partId": 14,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -62.172936532070054,
+          "semanticAngleDelta": 62.172936532070054,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -105.00000277121698,
+          "semanticAngleDelta": 105.00000277121698,
+          "meaningful": true
+        },
+        {
+          "partId": 21,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 70.0000109897158,
+          "semanticAngleDelta": 70.0000109897158,
+          "meaningful": true
+        },
+        {
+          "partId": 22,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 48.55967195023905,
+          "semanticAngleDelta": 48.55967195023905,
+          "meaningful": true
+        },
+        {
+          "partId": 26,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 68.02903122878303,
+          "semanticAngleDelta": 68.02903122878303,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 34,
+      "id": 7800034,
+      "nativeRoots": 20,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 5,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 4,
+      "legacyPreferredMaximumRootCountCeil25percent": 5,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.2434497200257922e-15,
+          "p90CenterErrorWidths": 3.552713485787978e-15,
+          "meanAngleErrorDegrees": 26.999998864642475,
+          "meanShapeError": 0.05,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "10050"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.99998699104387,
+          "semanticAngleDelta": 179.99998699104387,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99999030180562,
+          "semanticAngleDelta": 89.99999030180561,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.0000130089561,
+          "semanticAngleDelta": 90.0000130089561,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99999700895614,
+          "semanticAngleDelta": 89.99999700895614,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -89.99998998208775,
+          "semanticAngleDelta": 89.99998998208775,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 35,
+      "id": 7800035,
+      "nativeRoots": 36,
+      "claimedModifiedRootCount": 8,
+      "meaningfulModifiedRootCount": 8,
+      "meaningfulRootFraction": 0.2222222222222222,
+      "minimumMeaningfulRootCount": 8,
+      "legacyPreferredMaximumRootCountCeil25percent": 9,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.650681998740132e-15,
+          "p90CenterErrorWidths": 1.1016186686057852e-14,
+          "meanAngleErrorDegrees": 15.311987258042867,
+          "meanShapeError": 0.013888888888888888,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10061"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.01786600895613,
+          "semanticAngleDelta": 45.01786600895613,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -120.00001044996671,
+          "semanticAngleDelta": 120.00001044996671,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 140.00000838204028,
+          "semanticAngleDelta": 140.00000838204028,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 47.486412532070034,
+          "semanticAngleDelta": 47.486412532070034,
+          "meaningful": true
+        },
+        {
+          "partId": 17,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00008742738412,
+          "semanticAngleDelta": 45.00008742738413,
+          "meaningful": true
+        },
+        {
+          "partId": 18,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -49.1621886503458,
+          "semanticAngleDelta": 49.1621886503458,
+          "meaningful": true
+        },
+        {
+          "partId": 19,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 46.114637602034065,
+          "semanticAngleDelta": 46.114637602034065,
+          "meaningful": true
+        },
+        {
+          "partId": 21,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 58.45033023674591,
+          "semanticAngleDelta": 58.45033023674591,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 36,
+      "id": 7800036,
+      "nativeRoots": 25,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 4,
+      "meaningfulRootFraction": 0.16,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": false,
+      "cosmeticClaimedModifiedRootIds": [
+        21
+      ],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.931297226825971e-15,
+            "p90CenterErrorWidths": 1.4210853943151912e-14,
+            "meanAngleErrorDegrees": 13.611078899432972,
+            "meanShapeError": 0.03,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true,
+            "sourceId": "71001"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 5.931297226825971e-15,
+          "p90CenterErrorWidths": 1.4210853943151912e-14,
+          "meanAngleErrorDegrees": 13.611078899432972,
+          "meanShapeError": 0.03,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": true,
+          "sourceId": "71001"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 179.99998430180563,
+          "semanticAngleDelta": 179.99998430180563,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -54.999996,
+          "semanticAngleDelta": 54.99999600000001,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 59.87711318401851,
+          "semanticAngleDelta": 59.877113184018526,
+          "meaningful": true
+        },
+        {
+          "partId": 18,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.399863301805595,
+          "semanticAngleDelta": 45.399863301805595,
+          "meaningful": true
+        },
+        {
+          "partId": 21,
+          "kind": "slider",
+          "claimedModified": true,
+          "sourceOrientationOrder": 2,
+          "actualOrientationOrder": 2,
+          "rawAngleDelta": -179.99998430180563,
+          "semanticAngleDelta": 1.5698194374635932e-05,
+          "meaningful": false
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 37,
+      "id": 7800037,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.091858327136308e-14,
+          "p90CenterErrorWidths": 1.5018502952852447e-14,
+          "meanAngleErrorDegrees": 18.02090013442387,
+          "meanShapeError": 0.03125,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000004,
+          "nearCopy": false,
+          "sourceId": "10023"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -50.122347,
+          "semanticAngleDelta": 50.12234699999999,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00008469819438,
+          "semanticAngleDelta": 45.00008469819437,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.81741310419302,
+          "semanticAngleDelta": 45.81741310419301,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 62.154520290553535,
+          "semanticAngleDelta": 62.154520290553535,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 52.05204043503741,
+          "semanticAngleDelta": 52.05204043503741,
+          "meaningful": true
+        },
+        {
+          "partId": 19,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -177.3551976981944,
+          "semanticAngleDelta": 177.3551976981944,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 41,
+      "id": 7800041,
+      "nativeRoots": 35,
+      "claimedModifiedRootCount": 9,
+      "meaningfulModifiedRootCount": 9,
+      "meaningfulRootFraction": 0.2571428571428571,
+      "minimumMeaningfulRootCount": 7,
+      "legacyPreferredMaximumRootCountCeil25percent": 9,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.977469399660599e-15,
+          "p90CenterErrorWidths": 7.944108858802152e-15,
+          "meanAngleErrorDegrees": 21.099644574994564,
+          "meanShapeError": 0.03571428571428571,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10039"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.0000130089561,
+          "semanticAngleDelta": 90.0000130089561,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -57.947626,
+          "semanticAngleDelta": 57.947626,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.000010991043865,
+          "semanticAngleDelta": 45.000010991043865,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -89.67369269819439,
+          "semanticAngleDelta": 89.67369269819439,
+          "meaningful": true
+        },
+        {
+          "partId": 14,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00000969819438,
+          "semanticAngleDelta": 45.00000969819439,
+          "meaningful": true
+        },
+        {
+          "partId": 23,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.00003369819439,
+          "semanticAngleDelta": 90.00003369819439,
+          "meaningful": true
+        },
+        {
+          "partId": 29,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -89.99998699104388,
+          "semanticAngleDelta": 89.99998699104388,
+          "meaningful": true
+        },
+        {
+          "partId": 30,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -72.40234430180561,
+          "semanticAngleDelta": 72.40234430180561,
+          "meaningful": true
+        },
+        {
+          "partId": 31,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -158.46384273737692,
+          "semanticAngleDelta": 158.46384273737692,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 42,
+      "id": 7800042,
+      "nativeRoots": 26,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.2692307692307692,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.1873145354168755e-14,
+          "p90CenterErrorWidths": 1.6096502620354663e-14,
+          "meanAngleErrorDegrees": 22.30214043721491,
+          "meanShapeError": 0.028846153846153848,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999996,
+          "nearCopy": false,
+          "sourceId": "10035"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 101.81914940157577,
+          "semanticAngleDelta": 101.81914940157577,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -79.40564346792996,
+          "semanticAngleDelta": 79.40564346792996,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 46.12123527103603,
+          "semanticAngleDelta": 46.12123527103603,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 72.50000174176921,
+          "semanticAngleDelta": 72.50000174176921,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 54.99998930180563,
+          "semanticAngleDelta": 54.99998930180561,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -114.98908447660577,
+          "semanticAngleDelta": 114.98908447660577,
+          "meaningful": true
+        },
+        {
+          "partId": 13,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 110.02054770686524,
+          "semanticAngleDelta": 110.02054770686527,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 43,
+      "id": 7800043,
+      "nativeRoots": 27,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.25925925925925924,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 9.907766268924346e-15,
+          "p90CenterErrorWidths": 1.514421486271781e-14,
+          "meanAngleErrorDegrees": 15.342172530544687,
+          "meanShapeError": 0.037037037037037035,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999997,
+          "nearCopy": false,
+          "sourceId": "10058"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -47.05855669819438,
+          "semanticAngleDelta": 47.058556698194366,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -49.99997466156921,
+          "semanticAngleDelta": 49.99997466156921,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.0244807711435,
+          "semanticAngleDelta": 45.02448077114349,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 65.0000104269871,
+          "semanticAngleDelta": 65.0000104269871,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 75.00000261242513,
+          "semanticAngleDelta": 75.00000261242513,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 85.37475703857304,
+          "semanticAngleDelta": 85.37475703857302,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -46.78087611581398,
+          "semanticAngleDelta": 46.78087611581398,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 44,
+      "id": 7800044,
+      "nativeRoots": 30,
+      "claimedModifiedRootCount": 8,
+      "meaningfulModifiedRootCount": 8,
+      "meaningfulRootFraction": 0.26666666666666666,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 8,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.1212130583224936e-14,
+          "p90CenterErrorWidths": 1.5888217717604303e-14,
+          "meanAngleErrorDegrees": 25.84727030122796,
+          "meanShapeError": 0.016666666666666666,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10059"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -112.59882204976093,
+          "semanticAngleDelta": 112.59882204976093,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -46.99999488317028,
+          "semanticAngleDelta": 46.999994883170274,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -61.26808390590887,
+          "semanticAngleDelta": 61.26808390590887,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 125.15838788418603,
+          "semanticAngleDelta": 125.15838788418603,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 169.14979943582648,
+          "semanticAngleDelta": 169.14979943582648,
+          "meaningful": true
+        },
+        {
+          "partId": 16,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.21051099356582,
+          "semanticAngleDelta": 45.21051099356583,
+          "meaningful": true
+        },
+        {
+          "partId": 25,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 125.00000958261478,
+          "semanticAngleDelta": 125.00000958261478,
+          "meaningful": true
+        },
+        {
+          "partId": 26,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 90.03250030180563,
+          "semanticAngleDelta": 90.03250030180561,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 45,
+      "id": 7800045,
+      "nativeRoots": 25,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.28,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 7,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": true,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 5.4904996533679805e-15,
+          "p90CenterErrorWidths": 8.205078342399885e-15,
+          "meanAngleErrorDegrees": 21.761544355679938,
+          "meanShapeError": 0.03,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "10031"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -97.14324726984155,
+          "semanticAngleDelta": 97.14324726984155,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.999980728963976,
+          "semanticAngleDelta": 45.999980728963976,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -71.17504351574948,
+          "semanticAngleDelta": 71.17504351574948,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 68.83449018104272,
+          "semanticAngleDelta": 68.83449018104272,
+          "meaningful": true
+        },
+        {
+          "partId": 13,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 49.485985997999876,
+          "semanticAngleDelta": 49.485985997999876,
+          "meaningful": true
+        },
+        {
+          "partId": 14,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 165.99997675310857,
+          "semanticAngleDelta": 165.99997675310857,
+          "meaningful": true
+        },
+        {
+          "partId": 17,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.39988444529206,
+          "semanticAngleDelta": 45.39988444529206,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 51,
+      "id": 7800051,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.54226005805246e-15,
+          "p90CenterErrorWidths": 8.248573256332839e-15,
+          "meanAngleErrorDegrees": 28.75076444299846,
+          "meanShapeError": 0.010416666666666666,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "73005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -119.99998681598149,
+          "semanticAngleDelta": 119.99998681598149,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -90.06065181598149,
+          "semanticAngleDelta": 90.06065181598149,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 179.99490718401853,
+          "semanticAngleDelta": 179.99490718401853,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -59.99740481598148,
+          "semanticAngleDelta": 59.99740481598148,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 59.96540118401852,
+          "semanticAngleDelta": 59.9654011840185,
+          "meaningful": true
+        },
+        {
+          "partId": 8,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.9999948159815,
+          "semanticAngleDelta": 179.9999948159815,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 76,
+      "id": 7800076,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 5,
+      "meaningfulRootFraction": 0.20833333333333334,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.0976195759219385e-15,
+          "p90CenterErrorWidths": 7.90653785701729e-15,
+          "meanAngleErrorDegrees": 28.44329049773727,
+          "meanShapeError": 0.020833333333333332,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 159.52257327103598,
+          "semanticAngleDelta": 159.52257327103598,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -137.53125946792994,
+          "semanticAngleDelta": 137.53125946792994,
+          "meaningful": true
+        },
+        {
+          "partId": 11,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -177.2269634961114,
+          "semanticAngleDelta": 177.2269634961114,
+          "meaningful": true
+        },
+        {
+          "partId": 12,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 70.98050858814773,
+          "semanticAngleDelta": 70.98050858814773,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -137.37766712246915,
+          "semanticAngleDelta": 137.37766712246915,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 108,
+      "id": 7800108,
+      "nativeRoots": 24,
+      "claimedModifiedRootCount": 6,
+      "meaningfulModifiedRootCount": 6,
+      "meaningfulRootFraction": 0.25,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.6838381625349271e-15,
+          "p90CenterErrorWidths": 3.552713485787978e-15,
+          "meanAngleErrorDegrees": 86.24999758728029,
+          "meanShapeError": 0.22131470053370128,
+          "alignmentReflection": true,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "20005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.99999499104388,
+          "semanticAngleDelta": 179.99999499104388,
+          "meaningful": true
+        },
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -179.9999953018056,
+          "semanticAngleDelta": 179.9999953018056,
+          "meaningful": true
+        },
+        {
+          "partId": 4,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -90.000005,
+          "semanticAngleDelta": 90.000005,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99999700895614,
+          "semanticAngleDelta": 89.99999700895614,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -90.00000299104387,
+          "semanticAngleDelta": 90.00000299104387,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 89.99998430180561,
+          "semanticAngleDelta": 89.99998430180563,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 176,
+      "id": 7800176,
+      "nativeRoots": 23,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 5,
+      "meaningfulRootFraction": 0.21739130434782608,
+      "minimumMeaningfulRootCount": 5,
+      "legacyPreferredMaximumRootCountCeil25percent": 6,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.1903576575514295e-15,
+          "p90CenterErrorWidths": 7.827028865832304e-15,
+          "meanAngleErrorDegrees": 21.648266119393337,
+          "meanShapeError": 0.03260869565217391,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "70013"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 2,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 67.13050813047329,
+          "semanticAngleDelta": 67.13050813047329,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 171.51629979005534,
+          "semanticAngleDelta": 171.5162997900553,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 154.26260555470793,
+          "semanticAngleDelta": 154.26260555470793,
+          "meaningful": true
+        },
+        {
+          "partId": 7,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 60.00069357261588,
+          "semanticAngleDelta": 60.00069357261589,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.00001369819438,
+          "semanticAngleDelta": 45.00001369819438,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 251,
+      "id": 7800251,
+      "nativeRoots": 20,
+      "claimedModifiedRootCount": 5,
+      "meaningfulModifiedRootCount": 3,
+      "meaningfulRootFraction": 0.15,
+      "minimumMeaningfulRootCount": 4,
+      "legacyPreferredMaximumRootCountCeil25percent": 5,
+      "meaningfulRootGatePassed": false,
+      "cosmeticClaimedModifiedRootIds": [
+        16,
+        17
+      ],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.776356742893989e-16,
+          "p90CenterErrorWidths": 4.884981042958476e-16,
+          "meanAngleErrorDegrees": 16.549579950276506,
+          "meanShapeError": 0.0375,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "71117"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 1,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -164.991779,
+          "semanticAngleDelta": 164.991779,
+          "meaningful": true
+        },
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -45.000006307335696,
+          "semanticAngleDelta": 45.000006307335696,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -120.999804,
+          "semanticAngleDelta": 120.999804,
+          "meaningful": true
+        },
+        {
+          "partId": 16,
+          "kind": "slider",
+          "claimedModified": true,
+          "sourceOrientationOrder": 2,
+          "actualOrientationOrder": 2,
+          "rawAngleDelta": -179.9999953018056,
+          "semanticAngleDelta": 4.698194402408262e-06,
+          "meaningful": false
+        },
+        {
+          "partId": 17,
+          "kind": "slider",
+          "claimedModified": true,
+          "sourceOrientationOrder": 2,
+          "actualOrientationOrder": 2,
+          "rawAngleDelta": -179.999995,
+          "semanticAngleDelta": 4.9999999873762135e-06,
+          "meaningful": false
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "position": 285,
+      "id": 7800285,
+      "nativeRoots": 30,
+      "claimedModifiedRootCount": 7,
+      "meaningfulModifiedRootCount": 7,
+      "meaningfulRootFraction": 0.23333333333333334,
+      "minimumMeaningfulRootCount": 6,
+      "legacyPreferredMaximumRootCountCeil25percent": 8,
+      "meaningfulRootGatePassed": true,
+      "cosmeticClaimedModifiedRootIds": [],
+      "literal25percentExceededByLegacyQuantization": false,
+      "semanticNovelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.403665866690794e-15,
+          "p90CenterErrorWidths": 4.368691627599639e-15,
+          "meanAngleErrorDegrees": 22.816280255359647,
+          "meanShapeError": 0.03333333333333333,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999999,
+          "nearCopy": false,
+          "sourceId": "10187"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry with physical/input orientation equivalences; does not certify intellectual originality or gameplay quality."
+      },
+      "roots": [
+        {
+          "partId": 3,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -141.706338,
+          "semanticAngleDelta": 141.706338,
+          "meaningful": true
+        },
+        {
+          "partId": 5,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -46.67115641227524,
+          "semanticAngleDelta": 46.67115641227525,
+          "meaningful": true
+        },
+        {
+          "partId": 6,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -62.63332129313477,
+          "semanticAngleDelta": 62.63332129313477,
+          "meaningful": true
+        },
+        {
+          "partId": 9,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -171.18929460572514,
+          "semanticAngleDelta": 171.18929460572514,
+          "meaningful": true
+        },
+        {
+          "partId": 10,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 150.00005130180563,
+          "semanticAngleDelta": 150.00005130180563,
+          "meaningful": true
+        },
+        {
+          "partId": 11,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": -67.28824369819438,
+          "semanticAngleDelta": 67.28824369819438,
+          "meaningful": true
+        },
+        {
+          "partId": 15,
+          "kind": "ring",
+          "claimedModified": true,
+          "sourceOrientationOrder": 1,
+          "actualOrientationOrder": 1,
+          "rawAngleDelta": 45.00000234965421,
+          "semanticAngleDelta": 45.00000234965421,
+          "meaningful": true
+        }
+      ],
+      "accepted": false
+    }
+  ],
+  "hashes": {
+    "frozenPack": "35f43b958dfb28918a8100fea3965c52154f7225d44db95c4a7455e20c03d31a",
+    "semanticModule": "65c81cb4533bb0ba869c1d7e3f03acc815ce666a7e891ac3f251d53a964d6fc2",
+    "semanticNovelty": "0c7f590fecacdbd46918edaebe2ae6eb874fa95363487fe043517c8d4626699d",
+    "tool": "ba38077ae06ab72163e2018dea09c4797fd4066f0cf0f687b6ed02583892d03f"
+  },
+  "limits": [
+    "Physical/input geometry and heuristic507novelty only; no gameplay proof or difficulty.",
+    "Native Rigidbody/state identities remain independently audited; differing material pointers do not manufacture a spatial structural edit.",
+    "Historical root budget uses ceil(.20*n) minimum, ceil(.25*n) preferred maximum; exact fractions are reported honestly."
+  ]
+}

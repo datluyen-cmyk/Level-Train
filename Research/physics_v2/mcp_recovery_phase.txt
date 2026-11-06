@@ -1,0 +1,4 @@
+assembly initialized
+editor update observed
+connecting HTTP
+connected=True

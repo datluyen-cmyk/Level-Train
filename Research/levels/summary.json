@@ -1,0 +1,23 @@
+{
+  "count": 507,
+  "classes": {
+    "PullObject": 4099,
+    "ColliderRoleMarker": 54211,
+    "RingRelative": 7923,
+    "LayerMaskHelper": 50728,
+    "RingSegmentController": 7512,
+    "RingObject": 7512,
+    "ArrowRibbonController": 4099,
+    "StyleLineUnderlayProxy": 11611,
+    "GameLevelInfo": 507,
+    "FixedButterflyRelative": 3350,
+    "QuadPlaneController": 3847,
+    "UniversalAdditionalCameraData": 507,
+    "FixedObject": 3668,
+    "CameraBorderGizmos": 507,
+    "BombRelative": 179,
+    "FixedButterflyMeshPart": 198,
+    "FixedButterflyMeshController": 66,
+    "FixedButterflyObject": 66
+  }
+}

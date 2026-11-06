@@ -1,0 +1,230 @@
+#if UNITY_EDITOR
+using System;
+using System.IO;
+using System.Linq;
+using UnityEditor;
+using UnityEngine;
+
+// Temporary editor-only entry point for generated training packs. The manifest and
+// its referenced data stay outside Resources and never enter production exports.
+public sealed class TrainingPreviewWindow : EditorWindow
+{
+    [Serializable]
+    sealed class Manifest
+    {
+        public int schemaVersion = 1;
+        public string revision;
+        public string packPath;
+        public string templatesPath;
+    }
+
+    [Serializable]
+    sealed class FeedbackRecord
+    {
+        public string createdUtc;
+        public string revision;
+        public int levelId;
+        public string category;
+        public string note;
+    }
+
+    const string DefaultManifest = "LevelTraining_SourceLayoutV3/runs/ordinary_v4/preview/current_preview.json";
+    const string PendingManifestKey = "RotateRings.TrainingPreview.Manifest";
+    const string PendingLevelKey = "RotateRings.TrainingPreview.LevelId";
+    const string PendingUnlockAllKey = "RotateRings.TrainingPreview.UnlockAll";
+
+    string manifestPath;
+    string status;
+    string error;
+    string note = "";
+    string[] levelLabels = Array.Empty<string>();
+    int selected;
+    int feedbackCategory;
+    bool unlockAll = true;
+    Manifest manifest;
+    RotateRingsLevelPack pack;
+    RotateRingsTemplateCatalog templates;
+
+    [MenuItem("Rotate Rings/Training Preview")]
+    public static void Open()
+    {
+        var window = GetWindow<TrainingPreviewWindow>("Training Preview");
+        window.minSize = new Vector2(440, 420);
+        window.Show();
+    }
+
+    void OnEnable()
+    {
+        if (string.IsNullOrEmpty(manifestPath))
+            manifestPath = Path.GetFullPath(Path.Combine(Application.dataPath, "..", DefaultManifest));
+        ReloadManifest();
+    }
+
+    void OnGUI()
+    {
+        EditorGUILayout.HelpBox(
+            "TRAINING PREVIEW — provisional generated levels. Difficulty and playability are not yet verified. " +
+            "Use the original gameplay controls, then save a note for the training review.", MessageType.Info);
+
+        EditorGUILayout.BeginHorizontal();
+        manifestPath = EditorGUILayout.TextField("Preview manifest", manifestPath);
+        if (GUILayout.Button("Browse", GUILayout.Width(70)))
+        {
+            var chosen = EditorUtility.OpenFilePanel("Select training preview manifest", Path.GetDirectoryName(manifestPath), "json");
+            if (!string.IsNullOrEmpty(chosen)) manifestPath = chosen;
+        }
+        EditorGUILayout.EndHorizontal();
+
+        if (GUILayout.Button("Reload manifest")) ReloadManifest();
+        if (!string.IsNullOrEmpty(error)) EditorGUILayout.HelpBox(error, MessageType.Error);
+        if (pack == null || pack.levels == null || pack.levels.Count == 0) return;
+
+        EditorGUILayout.LabelField("Revision", string.IsNullOrEmpty(manifest.revision) ? "(unspecified)" : manifest.revision);
+        EditorGUILayout.LabelField("Levels", pack.levels.Count.ToString());
+        selected = EditorGUILayout.Popup("Sample level", Mathf.Clamp(selected, 0, levelLabels.Length - 1), levelLabels);
+        var level = pack.levels[selected];
+        EditorGUILayout.LabelField("Difficulty", level.difficulty.ToString("0.###"));
+        EditorGUILayout.LabelField("Parts", level.parts.Count.ToString());
+        unlockAll = EditorGUILayout.ToggleLeft("Unlock every preview level", unlockAll);
+
+        EditorGUILayout.BeginHorizontal();
+        if (GUILayout.Button("Start first / sample")) QueueLaunch(0);
+        if (GUILayout.Button("Start selected")) QueueLaunch(selected);
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.Space();
+        EditorGUILayout.LabelField("Feedback for this sample", EditorStyles.boldLabel);
+        feedbackCategory = EditorGUILayout.Popup("Category", feedbackCategory,
+            new[] { "Playable", "Too easy", "Too hard", "Visual issue", "Other" });
+        note = EditorGUILayout.TextArea(note, GUILayout.MinHeight(70));
+        using (new EditorGUI.DisabledScope(string.IsNullOrWhiteSpace(note)))
+        {
+            if (GUILayout.Button("Save feedback note")) SaveFeedback(level.id);
+        }
+        if (!string.IsNullOrEmpty(status)) EditorGUILayout.HelpBox(status, MessageType.None);
+        EditorGUILayout.HelpBox("After a clear, the existing NEXT LEVEL button advances through this preview pack.", MessageType.None);
+    }
+
+    void ReloadManifest()
+    {
+        try
+        {
+            var fullManifestPath = Path.GetFullPath(manifestPath);
+            manifest = JsonUtility.FromJson<Manifest>(File.ReadAllText(fullManifestPath));
+            if (manifest == null || manifest.schemaVersion != 1 || string.IsNullOrWhiteSpace(manifest.packPath) || string.IsNullOrWhiteSpace(manifest.templatesPath))
+                throw new InvalidDataException("Expected schemaVersion 1 with packPath and templatesPath.");
+
+            string root = Path.GetDirectoryName(fullManifestPath);
+            string packPath = Resolve(root, manifest.packPath);
+            string templatesPath = Resolve(root, manifest.templatesPath);
+            pack = JsonUtility.FromJson<RotateRingsLevelPack>(File.ReadAllText(packPath));
+            templates = JsonUtility.FromJson<RotateRingsTemplateCatalog>(File.ReadAllText(templatesPath));
+            ValidatePreviewData(pack, templates);
+
+            levelLabels = pack.levels.Select(l => string.Format("{0} — {1} (difficulty {2:0.###})", l.id, string.IsNullOrEmpty(l.title) ? "Untitled" : l.title, l.difficulty)).ToArray();
+            selected = Mathf.Clamp(selected, 0, levelLabels.Length - 1);
+            error = null;
+            status = "Loaded provisional pack. No completion or difficulty verification is implied.";
+        }
+        catch (Exception e)
+        {
+            pack = null;
+            templates = null;
+            levelLabels = Array.Empty<string>();
+            error = e.Message;
+            status = null;
+        }
+        Repaint();
+    }
+
+    static string Resolve(string root, string path) => Path.GetFullPath(Path.IsPathRooted(path) ? path : Path.Combine(root, path));
+
+    static void ValidatePreviewData(RotateRingsLevelPack candidate, RotateRingsTemplateCatalog catalog)
+    {
+        if (candidate == null || candidate.schemaVersion != 3 || candidate.sourceOriginalOnly || candidate.levels == null || candidate.levels.Count == 0)
+            throw new InvalidDataException("Preview pack must use schema 3, contain levels, and not be marked sourceOriginalOnly. complete may be false.");
+        if (catalog == null || catalog.schemaVersion != 3 || catalog.templates == null || catalog.templates.Length == 0)
+            throw new InvalidDataException("Physics templates must use schema 3 and contain templates.");
+
+        var knownTemplates = catalog.templates.Where(t => t != null).Select(t => t.id).ToArray();
+        var ids = new System.Collections.Generic.HashSet<int>();
+        foreach (var level in candidate.levels)
+        {
+            if (level == null || !ids.Add(level.id) || level.sourceOnlyParityFixture || level.parts == null || level.parts.Count == 0)
+                throw new InvalidDataException("Every preview level needs a unique id, playable parts, and sourceOnlyParityFixture=false.");
+            foreach (var part in level.parts)
+                if (part == null || string.IsNullOrEmpty(part.templateId) || !knownTemplates.Contains(part.templateId))
+                    throw new InvalidDataException("Level " + level.id + " references a missing physics template.");
+        }
+    }
+
+    void QueueLaunch(int index)
+    {
+        if (pack == null || index < 0 || index >= pack.levels.Count) return;
+        var levelId = pack.levels[index].id;
+        if (EditorApplication.isPlaying)
+        {
+            TrainingPreviewLauncher.Load(manifestPath, levelId, unlockAll);
+            return;
+        }
+
+        SessionState.SetString(PendingManifestKey, Path.GetFullPath(manifestPath));
+        SessionState.SetInt(PendingLevelKey, levelId);
+        SessionState.SetBool(PendingUnlockAllKey, unlockAll);
+        EditorApplication.isPlaying = true;
+        status = "Starting Play Mode and loading sample " + levelId + "…";
+    }
+
+    void SaveFeedback(int levelId)
+    {
+        try
+        {
+            string output = Path.Combine(Path.GetDirectoryName(Path.GetFullPath(manifestPath)), "feedback.jsonl");
+            var record = new FeedbackRecord {
+                createdUtc = DateTime.UtcNow.ToString("o"), revision = manifest.revision,
+                levelId = levelId, category = new[] { "Playable", "Too easy", "Too hard", "Visual issue", "Other" }[feedbackCategory],
+                note = note.Trim()
+            };
+            File.AppendAllText(output, JsonUtility.ToJson(record) + Environment.NewLine);
+            status = "Saved feedback to " + output;
+            note = "";
+        }
+        catch (Exception e) { error = "Could not save feedback: " + e.Message; }
+    }
+
+    [InitializeOnLoad]
+    static class TrainingPreviewLauncher
+    {
+        static TrainingPreviewLauncher() { EditorApplication.playModeStateChanged += OnPlayModeChanged; }
+
+        static void OnPlayModeChanged(PlayModeStateChange state)
+        {
+            if (state != PlayModeStateChange.EnteredPlayMode || string.IsNullOrEmpty(SessionState.GetString(PendingManifestKey, ""))) return;
+            EditorApplication.delayCall += () => {
+                string path = SessionState.GetString(PendingManifestKey, "");
+                int levelId = SessionState.GetInt(PendingLevelKey, -1);
+                bool unlock = SessionState.GetBool(PendingUnlockAllKey, true);
+                SessionState.EraseString(PendingManifestKey);
+                SessionState.EraseInt(PendingLevelKey);
+                SessionState.EraseBool(PendingUnlockAllKey);
+                Load(path, levelId, unlock);
+            };
+        }
+
+        public static void Load(string manifestPath, int levelId, bool unlockAll)
+        {
+            try
+            {
+                var runtime = UnityEngine.Object.FindFirstObjectByType<RotateRingsRuntime>();
+                if (runtime == null) throw new InvalidOperationException("RotateRingsRuntime was not created in Play Mode.");
+                string root = Path.GetDirectoryName(Path.GetFullPath(manifestPath));
+                var manifest = JsonUtility.FromJson<Manifest>(File.ReadAllText(manifestPath));
+                runtime.SetTrainingPreviewUnlockAllForQa(unlockAll);
+                runtime.LoadTrainingPreviewForQa(Resolve(root, manifest.packPath), Resolve(root, manifest.templatesPath), levelId);
+                Debug.Log("TRAINING PREVIEW loaded level " + levelId + " from revision " + manifest.revision + ".");
+            }
+            catch (Exception e) { Debug.LogError("TRAINING PREVIEW failed to load: " + e); }
+        }
+    }
+}
+#endif

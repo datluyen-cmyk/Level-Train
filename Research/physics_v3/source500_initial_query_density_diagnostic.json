@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "scope": "STATIC_INITIAL_POSE_DENSITY_ONLY",
+  "sourceCount": 500,
+  "queryInstanceCount": 19200,
+  "positiveAreaHitCountHistogram": {
+    "0": 2514,
+    "1": 11199,
+    "2": 5037,
+    "3": 353,
+    "4": 81,
+    "5": 14,
+    "6": 2
+  },
+  "flagThreshold": 31,
+  "flaggedQueryCount": 0,
+  "flags": [],
+  "limits": [
+    "Does not execute native Physics2D or determine its buffer ordering.",
+    "Excludes self and boundary-only contacts; edge radii and circle tessellation differ.",
+    "Initial-pose density does not bound later motion-query density.",
+    "Native explicit caller buffers differ from maxOverlapCollider serialization."
+  ],
+  "hashes": {
+    "Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "RotateRings Test\\Assets\\RotateRings\\Resources\\SourceOverlapQueries.json": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+    "D:\\RotateRings\\Tools\\audit_source_query_density_v3.py": "0bb7e7d50bf118a9735ecea1540e723656fdf25630536690c46db5fee96882b6"
+  }
+}

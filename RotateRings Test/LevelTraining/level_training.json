@@ -1,0 +1,34 @@
+{
+  "gameName": "Rotate Rings",
+  "workspaceName": "LevelTraining",
+  "adapter": "adapters/rotate_rings_adapter.py",
+  "references": "references.json",
+  "corpus": "corpus.json",
+  "seed": 20261105,
+  "proposalBudget": 600,
+  "oracleCheckBudget": 250,
+  "perReference": {},
+  "datasetKind": "user provided",
+  "policies": [
+    {
+      "strategy": "least_turn"
+    },
+    {
+      "strategy": "largest_turn"
+    }
+  ],
+  "acceptance": {
+    "nearCopyDistance": 0.1,
+    "sourceCountMinimum": 500,
+    "requestedCount": 300,
+    "maxAttemptsPerLevel": 240,
+    "countRelativeTolerance": 0.3,
+    "computerScoreRelativeTolerance": 0.35,
+    "tutorialPolicy": "positions1..3:3..5 parts, limited cosmetic-equivalence space",
+    "unsupportedMechanics": [
+      "native butterfly slots",
+      "explosive contact",
+      "arbitrary continuous native collision"
+    ]
+  }
+}

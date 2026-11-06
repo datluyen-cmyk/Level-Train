@@ -1,0 +1,14 @@
+{
+  "count": 300,
+  "piecesMin": 3,
+  "piecesMax": 76,
+  "stagesWithSliders": 232,
+  "stagesWithKeys": 98,
+  "firstSliderStage": 6,
+  "firstKeyStage": 26,
+  "meanComputerScoreRelativeDifference": 0.06399131409660025,
+  "maxComputerScoreRelativeDifference": 0.3452268518518518,
+  "measuredReducedReferenceTargets": 199,
+  "estimatedReferenceTargets": 101,
+  "humanDifficultyAndFun": "unmeasured"
+}

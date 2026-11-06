@@ -1,0 +1,26 @@
+{
+  "scope": "SOLID_COLLIDER_DIAGNOSTIC_NOT_UNITY_RENDERING_OR_ACCEPTANCE",
+  "acceptedCount": 0,
+  "proposalCount": 1,
+  "sheets": [
+    {
+      "file": "comparison_01.png",
+      "panels": [
+        {
+          "position": 30,
+          "sourceId": "10157",
+          "candidateId": 8010000,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\user_revised_soft_policy_v4\\proposals_pilot_18_30.json": "4d35b779c38f19b139e423a488f951155ce497d7e8e39dd1bdd17e7aa6ba65df",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\render_staged_comparison_v3.py": "7608175299b4a7efc82e6ed3691f539705ee291cad303ddd3f8be0420fbac5f2",
+    "D:\\RotateRings\\Tools\\render_layout_diagnostics_v3.py": "9dfc8ee1a4025f0e60fb7689b3399bc8cdbedb1b752a4239f34b07013e138d7e"
+  }
+}

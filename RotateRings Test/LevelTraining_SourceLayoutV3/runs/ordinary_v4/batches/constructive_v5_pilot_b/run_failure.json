@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_BEFORE_COMPLETED_ATTEMPT_CHECKPOINT",
+  "acceptedCount": 0,
+  "error": "composition_field_v3.posed_field checked unroundedpixelbounds, then rounded25 exceeded25columns",
+  "repair": "Constructor-local posed_field_safe checks roundedindices; historical/model extractor unchanged;6regressionsPASS; nextpilot separatebatch."
+}

@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 5,
+  "status": "NATIVE_VIRTUAL_PLAYER_EPISODE_SUMMARY",
+  "requestedVirtualUsers": 1000,
+  "definedProfiles": 32,
+  "actualProfilesWithSessions": 32,
+  "actualSessions": 64,
+  "profileCountReached": false,
+  "nativeRunComplete": true,
+  "allDefinedProfileTaskCoverageComplete": true,
+  "requestedPopulationRun": false,
+  "populationMeaning": "seeded algorithmic player profiles, not humans or independently trained LLMs",
+  "policyFamilyCounts": {
+    "exploratory": 7,
+    "heldout_balanced": 6,
+    "persistent_memory": 6,
+    "visual_alignment": 7,
+    "quick_trial": 6
+  },
+  "allSessions": {
+    "sessions": 64,
+    "engineErrorSessions": 0,
+    "actualProfileCount": 32,
+    "won": 8,
+    "winRateOfAllSessions": 0.125,
+    "winRateExcludingEngineErrors": 0.125,
+    "terminationCounts": {
+      "dropout": 40,
+      "step_limit": 16,
+      "won": 8
+    },
+    "actionCountAllSessionQuantiles": {
+      "p10": 17.6,
+      "p50": 44.0,
+      "p90": 60.0
+    },
+    "actionCountSuccessfulSessionQuantiles": {
+      "p10": 38.9,
+      "p50": 48.5,
+      "p90": 53.9
+    },
+    "wallMsAllSessions": 107880,
+    "physicalBlocks": 742,
+    "invalidActions": 1286,
+    "hints": 0,
+    "undoCount": 0,
+    "cacheHits": 226,
+    "cacheMisses": 2485,
+    "budgetCensoredSessions": 16
+  },
+  "byPolicyFamilyAndRole": [
+    {
+      "policyFamily": "exploratory",
+      "role": "candidate",
+      "sessions": 7,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 1,
+      "winRateOfAllSessions": 0.14285714285714285,
+      "winRateExcludingEngineErrors": 0.14285714285714285,
+      "terminationCounts": {
+        "step_limit": 6,
+        "won": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 53.6,
+        "p50": 60.0,
+        "p90": 60.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 44.0,
+        "p50": 44.0,
+        "p90": 44.0
+      },
+      "wallMsAllSessions": 7123,
+      "physicalBlocks": 90,
+      "invalidActions": 209,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 10,
+      "cacheMisses": 394,
+      "budgetCensoredSessions": 6
+    },
+    {
+      "policyFamily": "exploratory",
+      "role": "reference",
+      "sessions": 7,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 5,
+        "step_limit": 2
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 29.2,
+        "p50": 55.0,
+        "p90": 60.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 19968,
+      "physicalBlocks": 92,
+      "invalidActions": 162,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 16,
+      "cacheMisses": 313,
+      "budgetCensoredSessions": 2
+    },
+    {
+      "policyFamily": "heldout_balanced",
+      "role": "candidate",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 3,
+      "winRateOfAllSessions": 0.5,
+      "winRateExcludingEngineErrors": 0.5,
+      "terminationCounts": {
+        "dropout": 2,
+        "step_limit": 1,
+        "won": 3
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 34.0,
+        "p50": 45.0,
+        "p90": 56.5
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 37.4,
+        "p50": 51.0,
+        "p90": 52.6
+      },
+      "wallMsAllSessions": 5194,
+      "physicalBlocks": 57,
+      "invalidActions": 135,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 20,
+      "cacheMisses": 251,
+      "budgetCensoredSessions": 1
+    },
+    {
+      "policyFamily": "heldout_balanced",
+      "role": "reference",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 5,
+        "step_limit": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 27.5,
+        "p50": 44.5,
+        "p90": 59.5
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 19307,
+      "physicalBlocks": 88,
+      "invalidActions": 110,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 18,
+      "cacheMisses": 245,
+      "budgetCensoredSessions": 1
+    },
+    {
+      "policyFamily": "persistent_memory",
+      "role": "candidate",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 3,
+      "winRateOfAllSessions": 0.5,
+      "winRateExcludingEngineErrors": 0.5,
+      "terminationCounts": {
+        "dropout": 2,
+        "won": 3,
+        "step_limit": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 42.0,
+        "p50": 49.5,
+        "p90": 58.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 48.2,
+        "p50": 49.0,
+        "p90": 54.6
+      },
+      "wallMsAllSessions": 4833,
+      "physicalBlocks": 99,
+      "invalidActions": 128,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 41,
+      "cacheMisses": 258,
+      "budgetCensoredSessions": 1
+    },
+    {
+      "policyFamily": "persistent_memory",
+      "role": "reference",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 6
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 31.5,
+        "p50": 42.0,
+        "p90": 54.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 17106,
+      "physicalBlocks": 92,
+      "invalidActions": 95,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 29,
+      "cacheMisses": 226,
+      "budgetCensoredSessions": 0
+    },
+    {
+      "policyFamily": "quick_trial",
+      "role": "candidate",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 1,
+      "winRateOfAllSessions": 0.16666666666666666,
+      "winRateExcludingEngineErrors": 0.16666666666666666,
+      "terminationCounts": {
+        "dropout": 5,
+        "won": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 13.5,
+        "p50": 24.5,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 41.0,
+        "p50": 41.0,
+        "p90": 41.0
+      },
+      "wallMsAllSessions": 1844,
+      "physicalBlocks": 26,
+      "invalidActions": 83,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 22,
+      "cacheMisses": 126,
+      "budgetCensoredSessions": 0
+    },
+    {
+      "policyFamily": "quick_trial",
+      "role": "reference",
+      "sessions": 6,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 6
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 9.5,
+        "p50": 15.0,
+        "p90": 18.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 6669,
+      "physicalBlocks": 23,
+      "invalidActions": 41,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 6,
+      "cacheMisses": 79,
+      "budgetCensoredSessions": 0
+    },
+    {
+      "policyFamily": "visual_alignment",
+      "role": "candidate",
+      "sessions": 7,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 2,
+        "step_limit": 5
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 47.0,
+        "p50": 60.0,
+        "p90": 60.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 6376,
+      "physicalBlocks": 92,
+      "invalidActions": 208,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 34,
+      "cacheMisses": 356,
+      "budgetCensoredSessions": 5
+    },
+    {
+      "policyFamily": "visual_alignment",
+      "role": "reference",
+      "sessions": 7,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 7
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 24.6,
+        "p50": 38.0,
+        "p90": 52.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 19460,
+      "physicalBlocks": 83,
+      "invalidActions": 115,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 30,
+      "cacheMisses": 237,
+      "budgetCensoredSessions": 0
+    }
+  ],
+  "byLevel": [
+    {
+      "levelId": "70010",
+      "role": "reference",
+      "referencePairId": "position18-constructive9001800",
+      "sessions": 32,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 32,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "dropout": 29,
+        "step_limit": 3
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 16.1,
+        "p50": 37.0,
+        "p90": 59.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 82510,
+      "physicalBlocks": 378,
+      "invalidActions": 523,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 99,
+      "cacheMisses": 1100,
+      "budgetCensoredSessions": 3
+    },
+    {
+      "levelId": "9001800",
+      "role": "candidate",
+      "referencePairId": "position18-constructive9001800",
+      "sessions": 32,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 32,
+      "won": 8,
+      "winRateOfAllSessions": 0.25,
+      "winRateExcludingEngineErrors": 0.25,
+      "terminationCounts": {
+        "step_limit": 13,
+        "dropout": 11,
+        "won": 8
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 27.4,
+        "p50": 52.0,
+        "p90": 60.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 38.9,
+        "p50": 48.5,
+        "p90": 53.9
+      },
+      "wallMsAllSessions": 25370,
+      "physicalBlocks": 364,
+      "invalidActions": 763,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 127,
+      "cacheMisses": 1385,
+      "budgetCensoredSessions": 13
+    }
+  ],
+  "paired": {
+    "completePairs": 32,
+    "incompletePairs": 0,
+    "engineErrorPairs": 0,
+    "pairedUsers": 32,
+    "differenceDirection": "candidate minus reference",
+    "pairDetails": [
+      {
+        "profileId": "virtual-0000",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          1,
+          10
+        ]
+      },
+      {
+        "profileId": "virtual-0001",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          23,
+          0
+        ]
+      },
+      {
+        "profileId": "virtual-0002",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          6,
+          0
+        ]
+      },
+      {
+        "profileId": "virtual-0003",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          3,
+          -6
+        ]
+      },
+      {
+        "profileId": "virtual-0004",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          4,
+          -8
+        ]
+      },
+      {
+        "profileId": "virtual-0005",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          0,
+          -9
+        ]
+      },
+      {
+        "profileId": "virtual-0006",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          5,
+          9
+        ]
+      },
+      {
+        "profileId": "virtual-0007",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          20,
+          -5
+        ]
+      },
+      {
+        "profileId": "virtual-0008",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          17,
+          -1
+        ]
+      },
+      {
+        "profileId": "virtual-0009",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          7,
+          -10
+        ]
+      },
+      {
+        "profileId": "virtual-0010",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          35,
+          0
+        ]
+      },
+      {
+        "profileId": "virtual-0011",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          22,
+          -5
+        ]
+      },
+      {
+        "profileId": "virtual-0012",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          9,
+          10
+        ]
+      },
+      {
+        "profileId": "virtual-0013",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          4,
+          0
+        ]
+      },
+      {
+        "profileId": "virtual-0014",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          3,
+          4
+        ]
+      },
+      {
+        "profileId": "virtual-0015",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          0,
+          -1
+        ]
+      },
+      {
+        "profileId": "virtual-0016",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          39,
+          1
+        ]
+      },
+      {
+        "profileId": "virtual-0017",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          1,
+          11
+        ]
+      },
+      {
+        "profileId": "virtual-0018",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          11,
+          1
+        ]
+      },
+      {
+        "profileId": "virtual-0019",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          -6,
+          -3
+        ]
+      },
+      {
+        "profileId": "virtual-0020",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          12,
+          3
+        ]
+      },
+      {
+        "profileId": "virtual-0021",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          16,
+          -9
+        ]
+      },
+      {
+        "profileId": "virtual-0022",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          -1,
+          1
+        ]
+      },
+      {
+        "profileId": "virtual-0023",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          4,
+          1
+        ]
+      },
+      {
+        "profileId": "virtual-0024",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          -9,
+          -10
+        ]
+      },
+      {
+        "profileId": "virtual-0025",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          5,
+          -6
+        ]
+      },
+      {
+        "profileId": "virtual-0026",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          8,
+          -1
+        ]
+      },
+      {
+        "profileId": "virtual-0027",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          9,
+          -10
+        ]
+      },
+      {
+        "profileId": "virtual-0028",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          24,
+          8
+        ]
+      },
+      {
+        "profileId": "virtual-0029",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": true,
+        "candidateMinusReference": [
+          1.0,
+          9,
+          -4
+        ]
+      },
+      {
+        "profileId": "virtual-0030",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          22,
+          1
+        ]
+      },
+      {
+        "profileId": "virtual-0031",
+        "cohortId": "selection-constructive-diagnostic",
+        "referencePairId": "position18-constructive9001800",
+        "referenceWon": false,
+        "candidateWon": false,
+        "candidateMinusReference": [
+          0.0,
+          10,
+          14
+        ]
+      }
+    ],
+    "userWeightedPairedDifferences": {
+      "winRate": {
+        "mean": 0.25,
+        "ci95": [
+          0.09375,
+          0.40625
+        ]
+      },
+      "allSessionActionCount": {
+        "mean": 9.78125,
+        "ci95": [
+          6.40546875,
+          13.34375
+        ]
+      },
+      "physicalBlocks": {
+        "mean": -0.4375,
+        "ci95": [
+          -2.78125,
+          1.7507812499999993
+        ]
+      }
+    },
+    "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+  },
+  "byPartition": {
+    "selection": {
+      "allSessions": {
+        "sessions": 52,
+        "engineErrorSessions": 0,
+        "actualProfileCount": 26,
+        "won": 5,
+        "winRateOfAllSessions": 0.09615384615384616,
+        "winRateExcludingEngineErrors": 0.09615384615384616,
+        "terminationCounts": {
+          "dropout": 33,
+          "step_limit": 14,
+          "won": 5
+        },
+        "actionCountAllSessionQuantiles": {
+          "p10": 16.1,
+          "p50": 44.0,
+          "p90": 60.0
+        },
+        "actionCountSuccessfulSessionQuantiles": {
+          "p10": 42.2,
+          "p50": 48.0,
+          "p90": 53.2
+        },
+        "wallMsAllSessions": 83379,
+        "physicalBlocks": 597,
+        "invalidActions": 1041,
+        "hints": 0,
+        "undoCount": 0,
+        "cacheHits": 188,
+        "cacheMisses": 1989,
+        "budgetCensoredSessions": 14
+      },
+      "paired": {
+        "completePairs": 26,
+        "incompletePairs": 0,
+        "engineErrorPairs": 0,
+        "pairedUsers": 26,
+        "differenceDirection": "candidate minus reference",
+        "pairDetails": [
+          {
+            "profileId": "virtual-0000",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              1,
+              10
+            ]
+          },
+          {
+            "profileId": "virtual-0001",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              23,
+              0
+            ]
+          },
+          {
+            "profileId": "virtual-0002",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              6,
+              0
+            ]
+          },
+          {
+            "profileId": "virtual-0003",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              3,
+              -6
+            ]
+          },
+          {
+            "profileId": "virtual-0005",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              0,
+              -9
+            ]
+          },
+          {
+            "profileId": "virtual-0006",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              5,
+              9
+            ]
+          },
+          {
+            "profileId": "virtual-0007",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              20,
+              -5
+            ]
+          },
+          {
+            "profileId": "virtual-0008",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              17,
+              -1
+            ]
+          },
+          {
+            "profileId": "virtual-0010",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              35,
+              0
+            ]
+          },
+          {
+            "profileId": "virtual-0011",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              22,
+              -5
+            ]
+          },
+          {
+            "profileId": "virtual-0012",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              9,
+              10
+            ]
+          },
+          {
+            "profileId": "virtual-0013",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              4,
+              0
+            ]
+          },
+          {
+            "profileId": "virtual-0015",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              0,
+              -1
+            ]
+          },
+          {
+            "profileId": "virtual-0016",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              39,
+              1
+            ]
+          },
+          {
+            "profileId": "virtual-0017",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              1,
+              11
+            ]
+          },
+          {
+            "profileId": "virtual-0018",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              11,
+              1
+            ]
+          },
+          {
+            "profileId": "virtual-0020",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              12,
+              3
+            ]
+          },
+          {
+            "profileId": "virtual-0021",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              16,
+              -9
+            ]
+          },
+          {
+            "profileId": "virtual-0022",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              -1,
+              1
+            ]
+          },
+          {
+            "profileId": "virtual-0023",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              4,
+              1
+            ]
+          },
+          {
+            "profileId": "virtual-0025",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              5,
+              -6
+            ]
+          },
+          {
+            "profileId": "virtual-0026",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              8,
+              -1
+            ]
+          },
+          {
+            "profileId": "virtual-0027",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              9,
+              -10
+            ]
+          },
+          {
+            "profileId": "virtual-0028",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              24,
+              8
+            ]
+          },
+          {
+            "profileId": "virtual-0030",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              22,
+              1
+            ]
+          },
+          {
+            "profileId": "virtual-0031",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              10,
+              14
+            ]
+          }
+        ],
+        "userWeightedPairedDifferences": {
+          "winRate": {
+            "mean": 0.19230769230769232,
+            "ci95": [
+              0.038461538461538464,
+              0.38461538461538464
+            ]
+          },
+          "allSessionActionCount": {
+            "mean": 11.73076923076923,
+            "ci95": [
+              8.114423076923076,
+              15.770192307692307
+            ]
+          },
+          "physicalBlocks": {
+            "mean": 0.6538461538461539,
+            "ci95": [
+              -1.7307692307692308,
+              3.000961538461538
+            ]
+          }
+        },
+        "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+      }
+    },
+    "holdout": {
+      "allSessions": {
+        "sessions": 12,
+        "engineErrorSessions": 0,
+        "actualProfileCount": 6,
+        "won": 3,
+        "winRateOfAllSessions": 0.25,
+        "winRateExcludingEngineErrors": 0.25,
+        "terminationCounts": {
+          "dropout": 7,
+          "step_limit": 2,
+          "won": 3
+        },
+        "actionCountAllSessionQuantiles": {
+          "p10": 30.4,
+          "p50": 45.0,
+          "p90": 59.9
+        },
+        "actionCountSuccessfulSessionQuantiles": {
+          "p10": 37.4,
+          "p50": 51.0,
+          "p90": 52.6
+        },
+        "wallMsAllSessions": 24501,
+        "physicalBlocks": 145,
+        "invalidActions": 245,
+        "hints": 0,
+        "undoCount": 0,
+        "cacheHits": 38,
+        "cacheMisses": 496,
+        "budgetCensoredSessions": 2
+      },
+      "paired": {
+        "completePairs": 6,
+        "incompletePairs": 0,
+        "engineErrorPairs": 0,
+        "pairedUsers": 6,
+        "differenceDirection": "candidate minus reference",
+        "pairDetails": [
+          {
+            "profileId": "virtual-0004",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              4,
+              -8
+            ]
+          },
+          {
+            "profileId": "virtual-0009",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              7,
+              -10
+            ]
+          },
+          {
+            "profileId": "virtual-0014",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": false,
+            "candidateMinusReference": [
+              0.0,
+              3,
+              4
+            ]
+          },
+          {
+            "profileId": "virtual-0019",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              -6,
+              -3
+            ]
+          },
+          {
+            "profileId": "virtual-0024",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              -9,
+              -10
+            ]
+          },
+          {
+            "profileId": "virtual-0029",
+            "cohortId": "selection-constructive-diagnostic",
+            "referencePairId": "position18-constructive9001800",
+            "referenceWon": false,
+            "candidateWon": true,
+            "candidateMinusReference": [
+              1.0,
+              9,
+              -4
+            ]
+          }
+        ],
+        "userWeightedPairedDifferences": {
+          "winRate": {
+            "mean": 0.5,
+            "ci95": [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          },
+          "allSessionActionCount": {
+            "mean": 1.3333333333333333,
+            "ci95": [
+              -3.8333333333333335,
+              6.5
+            ]
+          },
+          "physicalBlocks": {
+            "mean": -5.166666666666667,
+            "ci95": [
+              -8.833333333333334,
+              -0.8333333333333334
+            ]
+          }
+        },
+        "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+      }
+    }
+  },
+  "pairedByPolicyFamily": {
+    "exploratory": {
+      "completePairs": 7,
+      "incompletePairs": 0,
+      "engineErrorPairs": 0,
+      "pairedUsers": 7,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": [
+        {
+          "profileId": "virtual-0000",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            1,
+            10
+          ]
+        },
+        {
+          "profileId": "virtual-0005",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            0,
+            -9
+          ]
+        },
+        {
+          "profileId": "virtual-0010",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            35,
+            0
+          ]
+        },
+        {
+          "profileId": "virtual-0015",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            0,
+            -1
+          ]
+        },
+        {
+          "profileId": "virtual-0020",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            12,
+            3
+          ]
+        },
+        {
+          "profileId": "virtual-0025",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            5,
+            -6
+          ]
+        },
+        {
+          "profileId": "virtual-0030",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            22,
+            1
+          ]
+        }
+      ],
+      "userWeightedPairedDifferences": {
+        "winRate": {
+          "mean": 0.14285714285714285,
+          "ci95": [
+            0.0,
+            0.42857142857142855
+          ]
+        },
+        "allSessionActionCount": {
+          "mean": 10.714285714285714,
+          "ci95": [
+            2.567857142857143,
+            21.142857142857142
+          ]
+        },
+        "physicalBlocks": {
+          "mean": -0.2857142857142857,
+          "ci95": [
+            -4.571428571428571,
+            3.7142857142857144
+          ]
+        }
+      },
+      "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+    },
+    "visual_alignment": {
+      "completePairs": 7,
+      "incompletePairs": 0,
+      "engineErrorPairs": 0,
+      "pairedUsers": 7,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": [
+        {
+          "profileId": "virtual-0001",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            23,
+            0
+          ]
+        },
+        {
+          "profileId": "virtual-0006",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            5,
+            9
+          ]
+        },
+        {
+          "profileId": "virtual-0011",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            22,
+            -5
+          ]
+        },
+        {
+          "profileId": "virtual-0016",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            39,
+            1
+          ]
+        },
+        {
+          "profileId": "virtual-0021",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            16,
+            -9
+          ]
+        },
+        {
+          "profileId": "virtual-0026",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            8,
+            -1
+          ]
+        },
+        {
+          "profileId": "virtual-0031",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            10,
+            14
+          ]
+        }
+      ],
+      "userWeightedPairedDifferences": {
+        "winRate": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "allSessionActionCount": {
+          "mean": 17.571428571428573,
+          "ci95": [
+            10.428571428571429,
+            25.860714285714284
+          ]
+        },
+        "physicalBlocks": {
+          "mean": 1.2857142857142858,
+          "ci95": [
+            -3.857142857142857,
+            6.71785714285714
+          ]
+        }
+      },
+      "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+    },
+    "persistent_memory": {
+      "completePairs": 6,
+      "incompletePairs": 0,
+      "engineErrorPairs": 0,
+      "pairedUsers": 6,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": [
+        {
+          "profileId": "virtual-0002",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            6,
+            0
+          ]
+        },
+        {
+          "profileId": "virtual-0007",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            20,
+            -5
+          ]
+        },
+        {
+          "profileId": "virtual-0012",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            9,
+            10
+          ]
+        },
+        {
+          "profileId": "virtual-0017",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            1,
+            11
+          ]
+        },
+        {
+          "profileId": "virtual-0022",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            -1,
+            1
+          ]
+        },
+        {
+          "profileId": "virtual-0027",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            9,
+            -10
+          ]
+        }
+      ],
+      "userWeightedPairedDifferences": {
+        "winRate": {
+          "mean": 0.5,
+          "ci95": [
+            0.16666666666666666,
+            0.8333333333333334
+          ]
+        },
+        "allSessionActionCount": {
+          "mean": 7.333333333333333,
+          "ci95": [
+            2.6666666666666665,
+            13.166666666666666
+          ]
+        },
+        "physicalBlocks": {
+          "mean": 1.1666666666666667,
+          "ci95": [
+            -4.833333333333333,
+            7.0
+          ]
+        }
+      },
+      "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+    },
+    "quick_trial": {
+      "completePairs": 6,
+      "incompletePairs": 0,
+      "engineErrorPairs": 0,
+      "pairedUsers": 6,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": [
+        {
+          "profileId": "virtual-0003",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            3,
+            -6
+          ]
+        },
+        {
+          "profileId": "virtual-0008",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            17,
+            -1
+          ]
+        },
+        {
+          "profileId": "virtual-0013",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            4,
+            0
+          ]
+        },
+        {
+          "profileId": "virtual-0018",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            11,
+            1
+          ]
+        },
+        {
+          "profileId": "virtual-0023",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            4,
+            1
+          ]
+        },
+        {
+          "profileId": "virtual-0028",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            24,
+            8
+          ]
+        }
+      ],
+      "userWeightedPairedDifferences": {
+        "winRate": {
+          "mean": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.5
+          ]
+        },
+        "allSessionActionCount": {
+          "mean": 10.5,
+          "ci95": [
+            4.833333333333333,
+            16.349999999999984
+          ]
+        },
+        "physicalBlocks": {
+          "mean": 0.5,
+          "ci95": [
+            -2.5041666666666664,
+            4.0
+          ]
+        }
+      },
+      "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+    },
+    "heldout_balanced": {
+      "completePairs": 6,
+      "incompletePairs": 0,
+      "engineErrorPairs": 0,
+      "pairedUsers": 6,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": [
+        {
+          "profileId": "virtual-0004",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            4,
+            -8
+          ]
+        },
+        {
+          "profileId": "virtual-0009",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            7,
+            -10
+          ]
+        },
+        {
+          "profileId": "virtual-0014",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": false,
+          "candidateMinusReference": [
+            0.0,
+            3,
+            4
+          ]
+        },
+        {
+          "profileId": "virtual-0019",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            -6,
+            -3
+          ]
+        },
+        {
+          "profileId": "virtual-0024",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            -9,
+            -10
+          ]
+        },
+        {
+          "profileId": "virtual-0029",
+          "cohortId": "selection-constructive-diagnostic",
+          "referencePairId": "position18-constructive9001800",
+          "referenceWon": false,
+          "candidateWon": true,
+          "candidateMinusReference": [
+            1.0,
+            9,
+            -4
+          ]
+        }
+      ],
+      "userWeightedPairedDifferences": {
+        "winRate": {
+          "mean": 0.5,
+          "ci95": [
+            0.16666666666666666,
+            0.8333333333333334
+          ]
+        },
+        "allSessionActionCount": {
+          "mean": 1.3333333333333333,
+          "ci95": [
+            -3.8333333333333335,
+            6.5
+          ]
+        },
+        "physicalBlocks": {
+          "mean": -5.166666666666667,
+          "ci95": [
+            -8.833333333333334,
+            -0.8333333333333334
+          ]
+        }
+      },
+      "intervalMeaning": "Monte Carlo uncertainty under these bot policies; shared policy biases and bot-to-human gap are not covered"
+    }
+  },
+  "bootstrap": {
+    "samples": 1000,
+    "seed": 20261106,
+    "resamplingUnit": "virtual user; all levels kept together"
+  },
+  "hashes": {
+    "rulesHash": "7bcb050c9f6ff12a7769334c117e36bb98093a7b146cb2fc8db345b404f29225",
+    "policySuiteHash": "99f1a78759bd28b7d762858555d647651d05df408afba59b20d9f8a174bb1fd1",
+    "inputPackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatesSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "nativeEpisodeReport": "ed494fb5a35f1e0737e7bdd0e0a5adad70c62218cfb6da7acdb584582936a2d9",
+    "summarizer": "1537b77dc274133450f396d530ca510a7d48b724ded0f72b6a4731bd894913b0"
+  },
+  "limits": [
+    "No bounded policy failure is classified as proof of unsolvability.",
+    "Observed simulation wall time is not measured or modeled human completion time.",
+    "All-session action counts are censored by budgets; successful-session distributions are reported separately.",
+    "No source/candidate equality, human difficulty or generation acceptance follows solely from these intervals."
+  ]
+}

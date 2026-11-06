@@ -1,0 +1,12 @@
+{
+  "sourceCount": 8,
+  "templateCount": 105,
+  "exporterSha256": "550cb02c9b3e989ab65e7d429ffcf72e0efb71880c164dd6df1557e7fdfce94e",
+  "inputCorpusSha256": "cf0e0c32315fc378874c33e2391c87d19d3b0ef1cecadf9f9dfc246ce1cdb0ea",
+  "nativeGeometryCorpusSha256": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+  "hashes": {
+    "source_parity_pack.json": "2014cc1ebac91cbac6b80a8e99464d16f765d13d78db72173658dea094312ad7",
+    "source_templates.json": "cf0c696b0952af8331bedb916c39c1d961054bebc93d207cd1c5222da94d4b11"
+  },
+  "meaning": "Untouched original layouts for representative shape and mechanics parity QA. Not generated content; no solved labels."
+}

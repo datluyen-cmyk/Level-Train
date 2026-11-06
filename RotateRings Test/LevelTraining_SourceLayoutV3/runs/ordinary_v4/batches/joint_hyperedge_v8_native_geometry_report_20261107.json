@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 1,
+  "status": "STATIC_NATIVE_GEOMETRY_DIAGNOSIS_ONLY",
+  "sourceCorpusCount": 460,
+  "proposalCount": 6,
+  "proposalResults": [
+    {
+      "id": 9910000,
+      "position": 19,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 30,
+      "unregisteredSensorPartnerCount": 16
+    },
+    {
+      "id": 9910001,
+      "position": 39,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 37,
+      "unregisteredSensorPartnerCount": 24
+    },
+    {
+      "id": 9910002,
+      "position": 49,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 34,
+      "unregisteredSensorPartnerCount": 61
+    },
+    {
+      "id": 9910003,
+      "position": 129,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 43,
+      "unregisteredSensorPartnerCount": 30
+    },
+    {
+      "id": 9910004,
+      "position": 175,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 22,
+      "unregisteredSensorPartnerCount": 12
+    },
+    {
+      "id": 9910005,
+      "position": 285,
+      "rawGeometrySeamPassed": false,
+      "unexpectedSolidOverlapCount": 44,
+      "unregisteredSensorPartnerCount": 28
+    }
+  ],
+  "unregisteredOverlapPairCount": 210,
+  "pairsWithSameDonorSourceReference": 36,
+  "pairsWithExactNativeContactCertificate": 8,
+  "pairPatterns": [
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e6e5e74a989b5c0e20b1",
+        "native3-0f769ce0c85264ba1e9c"
+      ],
+      "occurrences": 3
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-84615b1453976da08f85",
+        "native3-4e6962fc97a59cd1d862"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-2dc90f3689b9a6cd19d1",
+        "native3-4e6962fc97a59cd1d862"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-4d4a6306d3c8af08c0af",
+        "native3-0f769ce0c85264ba1e9c"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e6e5e74a989b5c0e20b1",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e6e5e74a989b5c0e20b1",
+        "native3-9b1d45836f22cbe54591"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-492266004e4e431f8c9f",
+        "native3-69033212b3e454a0d7f6"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-aa9338536d2694df2c37",
+        "native3-a9eba6b112afcba09c07"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-aa9338536d2694df2c37",
+        "native3-b19be41a9cde82f81bc1"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-69033212b3e454a0d7f6",
+        "native3-b19be41a9cde82f81bc1"
+      ],
+      "occurrences": 2
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-2dc90f3689b9a6cd19d1",
+        "native3-1b2058397a41de6726ea"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e133446f6b9346daaf09",
+        "native3-a1309c4aea5aa80cd67c"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-4e6962fc97a59cd1d862",
+        "native3-1b2058397a41de6726ea"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-9cb2c7480883bf667ef8",
+        "native3-a1309c4aea5aa80cd67c"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-ae9403701f0349642ecb",
+        "native3-84615b1453976da08f85"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-2dc90f3689b9a6cd19d1",
+        "native3-a1309c4aea5aa80cd67c"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-a1309c4aea5aa80cd67c",
+        "native3-4e6962fc97a59cd1d862"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-9cb2c7480883bf667ef8",
+        "native3-4e6962fc97a59cd1d862"
+      ],
+      "occurrences": 1
+    },
+    {
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-51c82c95e09204a392a5",
+        "native3-1b2058397a41de6726ea"
+      ],
+      "occurrences": 1
+    }
+  ],
+  "limits": [
+    "Exact native-pair overlap patches are the geometric allowance reference; this report does not label collision gameplay or solvability.",
+    "A missing source contact certificate means V8 cannot justify the new pair overlap from that imported source relation.",
+    "Native assembly integrity alone cannot certify non-native pair clearances.",
+    "The detailed pair list includes owner IDs, kind/template pattern, donor source owner IDs, donor pair overlap, and source-contact certificate evidence for every flagged solid intersection."
+  ],
+  "allUnregisteredOverlapPairs": [
+    {
+      "proposalId": 9910002,
+      "owners": [
+        10,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 5.787809491538196,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          17
+        ],
+        [
+          "60007",
+          16
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        3,
+        5
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 5.787809491538175,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          16
+        ],
+        [
+          "60007",
+          17
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        2,
+        20
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-550ba14181c76e69367f",
+        "native3-60874437f125312a0333"
+      ],
+      "currentOverlapArea": 4.268506412866358,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          1
+        ],
+        [
+          "70037",
+          10
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        1,
+        9
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0514e42a9df68c7cdaca",
+        "native3-88e20d9977d0ee9a2d13"
+      ],
+      "currentOverlapArea": 4.052340334655211,
+      "sourceOwnerOrigins": [
+        [
+          "10038",
+          10
+        ],
+        [
+          "10059",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        2,
+        4
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 3.496804389747455,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          13
+        ],
+        [
+          "60007",
+          14
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        2,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-7fe0491d9ecb9a994c5e"
+      ],
+      "currentOverlapArea": 3.4968043897474397,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          13
+        ],
+        [
+          "60007",
+          13
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 4.052340334655211,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        1,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e6e5e74a989b5c0e20b1",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 3.424751204277397,
+      "sourceOwnerOrigins": [
+        [
+          "10050",
+          7
+        ],
+        [
+          "60007",
+          14
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        6,
+        15
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-9acf740f18ec0cb4df78",
+        "native3-9c41a3efe5545cc83c3d"
+      ],
+      "currentOverlapArea": 3.3084994277645157,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          3
+        ],
+        [
+          "60007",
+          7
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        5,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-34024d4917a29a2552ad",
+        "native3-776d281fa3acfbf286a1"
+      ],
+      "currentOverlapArea": 3.1547387727822023,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          11
+        ],
+        [
+          "10019",
+          5
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        4,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 2.9647050145875062,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          14
+        ],
+        [
+          "60007",
+          13
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        11,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-60bbc3f14e4431971edf",
+        "native3-d3379780507717bc1d7e"
+      ],
+      "currentOverlapArea": 1.8393902902688801,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          2
+        ],
+        [
+          "70035",
+          8
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        8,
+        10
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-423250606ce7d13fd542",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 1.548035595429459,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          15
+        ],
+        [
+          "60007",
+          17
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        8,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-423250606ce7d13fd542"
+      ],
+      "currentOverlapArea": 1.3337392604234426,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          15
+        ],
+        [
+          "60007",
+          16
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        9,
+        17
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-3183addbc3d3de169178",
+        "native3-e6b76e0c44366646ff6b"
+      ],
+      "currentOverlapArea": 1.3187688903866548,
+      "sourceOwnerOrigins": [
+        [
+          "71129",
+          7
+        ],
+        [
+          "71118",
+          6
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910003,
+      "owners": [
+        5,
+        10
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-492266004e4e431f8c9f",
+        "native3-6d4b1355347e87fa118a"
+      ],
+      "currentOverlapArea": 1.2628537117606489,
+      "sourceOwnerOrigins": [
+        [
+          "10020",
+          25
+        ],
+        [
+          "70024",
+          5
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910000,
+      "owners": [
+        1,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1b2058397a41de6726ea",
+        "native3-2dc90f3689b9a6cd19d1"
+      ],
+      "currentOverlapArea": 1.189693972873577,
+      "sourceOwnerOrigins": [
+        [
+          "70007",
+          10
+        ],
+        [
+          "10012",
+          1
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        6,
+        22
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7728a5ab8103e0f57308",
+        "native3-84653dee909fab50e5ff"
+      ],
+      "currentOverlapArea": 1.1755306446892897,
+      "sourceOwnerOrigins": [
+        [
+          "71131",
+          3
+        ],
+        [
+          "71107",
+          10
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        15,
+        16
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1bfbbd562fd1b3fbeffa",
+        "native3-5799f137152bc539b1e5"
+      ],
+      "currentOverlapArea": 1.090747900058912,
+      "sourceOwnerOrigins": [
+        [
+          "70035",
+          11
+        ],
+        [
+          "60049",
+          19
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        8,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-491f93f1636820a83521",
+        "native3-ff42f15e7f0a702a6133"
+      ],
+      "currentOverlapArea": 1.0506967506048661,
+      "sourceOwnerOrigins": [
+        [
+          "10059",
+          2
+        ],
+        [
+          "70028",
+          8
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        5,
+        11
+      ],
+      "kinds": [
+        "ring",
+        "slider"
+      ],
+      "templateIds": [
+        "native3-10671b5019bbe63c0a9c",
+        "native3-d938258752c3b068363e"
+      ],
+      "currentOverlapArea": 1.0360817270349176,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          12
+        ],
+        [
+          "71103",
+          12
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        4,
+        9
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-c988e92f011d95c1c5f1",
+        "native3-e6b76e0c44366646ff6b"
+      ],
+      "currentOverlapArea": 1.0043471751747213,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          8
+        ],
+        [
+          "71129",
+          7
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        2,
+        3
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-2b470be74eab06024714",
+        "native3-f5765d294e9de77b102b"
+      ],
+      "currentOverlapArea": 0.9926018174729219,
+      "sourceOwnerOrigins": [
+        [
+          "71005",
+          1
+        ],
+        [
+          "10059",
+          4
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910000,
+      "owners": [
+        4,
+        12
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-a1309c4aea5aa80cd67c",
+        "native3-e133446f6b9346daaf09"
+      ],
+      "currentOverlapArea": 0.984996166551649,
+      "sourceOwnerOrigins": [
+        [
+          "70007",
+          12
+        ],
+        [
+          "70018",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        6,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "slider"
+      ],
+      "templateIds": [
+        "native3-ce6a4dc0257e4763a768",
+        "native3-e7a2c8dbb32f56ccba49"
+      ],
+      "currentOverlapArea": 0.9441377107410481,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          14
+        ],
+        [
+          "70035",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        11,
+        17
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1385b5cf376f9c6cef1e",
+        "native3-b31acc76859ac02d5a29"
+      ],
+      "currentOverlapArea": 0.9342297052627004,
+      "sourceOwnerOrigins": [
+        [
+          "71021",
+          6
+        ],
+        [
+          "10059",
+          26
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        12,
+        16
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-45286d5830f37b488d9c",
+        "native3-ae9403701f0349642ecb"
+      ],
+      "currentOverlapArea": 0.9333600004208517,
+      "sourceOwnerOrigins": [
+        [
+          "10036",
+          7
+        ],
+        [
+          "71118",
+          1
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        11,
+        15
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1385b5cf376f9c6cef1e",
+        "native3-5d8755297be0a5e13fc0"
+      ],
+      "currentOverlapArea": 0.8662280118142476,
+      "sourceOwnerOrigins": [
+        [
+          "71021",
+          6
+        ],
+        [
+          "70028",
+          9
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        3,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-423250606ce7d13fd542"
+      ],
+      "currentOverlapArea": 0.855239491436548,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          16
+        ],
+        [
+          "60007",
+          15
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910003,
+      "owners": [
+        5,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-492266004e4e431f8c9f",
+        "native3-69033212b3e454a0d7f6"
+      ],
+      "currentOverlapArea": 0.8436773773810314,
+      "sourceOwnerOrigins": [
+        [
+          "10020",
+          25
+        ],
+        [
+          "70024",
+          16
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        5,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-423250606ce7d13fd542",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 0.8436226312865837,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          17
+        ],
+        [
+          "60007",
+          15
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    }
+  ],
+  "unregisteredOverlapPairsSortedByArea": [
+    {
+      "proposalId": 9910002,
+      "owners": [
+        10,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 5.787809491538196,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          17
+        ],
+        [
+          "60007",
+          16
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        3,
+        5
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 5.787809491538175,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          16
+        ],
+        [
+          "60007",
+          17
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        2,
+        20
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-550ba14181c76e69367f",
+        "native3-60874437f125312a0333"
+      ],
+      "currentOverlapArea": 4.268506412866358,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          1
+        ],
+        [
+          "70037",
+          10
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        1,
+        9
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0514e42a9df68c7cdaca",
+        "native3-88e20d9977d0ee9a2d13"
+      ],
+      "currentOverlapArea": 4.052340334655211,
+      "sourceOwnerOrigins": [
+        [
+          "10038",
+          10
+        ],
+        [
+          "10059",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        2,
+        4
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 3.496804389747455,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          13
+        ],
+        [
+          "60007",
+          14
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        2,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-7fe0491d9ecb9a994c5e"
+      ],
+      "currentOverlapArea": 3.4968043897474397,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          13
+        ],
+        [
+          "60007",
+          13
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 4.052340334655211,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        1,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-e6e5e74a989b5c0e20b1",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 3.424751204277397,
+      "sourceOwnerOrigins": [
+        [
+          "10050",
+          7
+        ],
+        [
+          "60007",
+          14
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        6,
+        15
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-9acf740f18ec0cb4df78",
+        "native3-9c41a3efe5545cc83c3d"
+      ],
+      "currentOverlapArea": 3.3084994277645157,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          3
+        ],
+        [
+          "60007",
+          7
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        5,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-34024d4917a29a2552ad",
+        "native3-776d281fa3acfbf286a1"
+      ],
+      "currentOverlapArea": 3.1547387727822023,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          11
+        ],
+        [
+          "10019",
+          5
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        4,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7fe0491d9ecb9a994c5e",
+        "native3-e6e5e74a989b5c0e20b1"
+      ],
+      "currentOverlapArea": 2.9647050145875062,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          14
+        ],
+        [
+          "60007",
+          13
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        11,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-60bbc3f14e4431971edf",
+        "native3-d3379780507717bc1d7e"
+      ],
+      "currentOverlapArea": 1.8393902902688801,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          2
+        ],
+        [
+          "70035",
+          8
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        8,
+        10
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-423250606ce7d13fd542",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 1.548035595429459,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          15
+        ],
+        [
+          "60007",
+          17
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        8,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-423250606ce7d13fd542"
+      ],
+      "currentOverlapArea": 1.3337392604234426,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          15
+        ],
+        [
+          "60007",
+          16
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        9,
+        17
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-3183addbc3d3de169178",
+        "native3-e6b76e0c44366646ff6b"
+      ],
+      "currentOverlapArea": 1.3187688903866548,
+      "sourceOwnerOrigins": [
+        [
+          "71129",
+          7
+        ],
+        [
+          "71118",
+          6
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910003,
+      "owners": [
+        5,
+        10
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-492266004e4e431f8c9f",
+        "native3-6d4b1355347e87fa118a"
+      ],
+      "currentOverlapArea": 1.2628537117606489,
+      "sourceOwnerOrigins": [
+        [
+          "10020",
+          25
+        ],
+        [
+          "70024",
+          5
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910000,
+      "owners": [
+        1,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1b2058397a41de6726ea",
+        "native3-2dc90f3689b9a6cd19d1"
+      ],
+      "currentOverlapArea": 1.189693972873577,
+      "sourceOwnerOrigins": [
+        [
+          "70007",
+          10
+        ],
+        [
+          "10012",
+          1
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        6,
+        22
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-7728a5ab8103e0f57308",
+        "native3-84653dee909fab50e5ff"
+      ],
+      "currentOverlapArea": 1.1755306446892897,
+      "sourceOwnerOrigins": [
+        [
+          "71131",
+          3
+        ],
+        [
+          "71107",
+          10
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        15,
+        16
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1bfbbd562fd1b3fbeffa",
+        "native3-5799f137152bc539b1e5"
+      ],
+      "currentOverlapArea": 1.090747900058912,
+      "sourceOwnerOrigins": [
+        [
+          "70035",
+          11
+        ],
+        [
+          "60049",
+          19
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        8,
+        14
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-491f93f1636820a83521",
+        "native3-ff42f15e7f0a702a6133"
+      ],
+      "currentOverlapArea": 1.0506967506048661,
+      "sourceOwnerOrigins": [
+        [
+          "10059",
+          2
+        ],
+        [
+          "70028",
+          8
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        5,
+        11
+      ],
+      "kinds": [
+        "ring",
+        "slider"
+      ],
+      "templateIds": [
+        "native3-10671b5019bbe63c0a9c",
+        "native3-d938258752c3b068363e"
+      ],
+      "currentOverlapArea": 1.0360817270349176,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          12
+        ],
+        [
+          "71103",
+          12
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        4,
+        9
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-c988e92f011d95c1c5f1",
+        "native3-e6b76e0c44366646ff6b"
+      ],
+      "currentOverlapArea": 1.0043471751747213,
+      "sourceOwnerOrigins": [
+        [
+          "71128",
+          8
+        ],
+        [
+          "71129",
+          7
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        2,
+        3
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-2b470be74eab06024714",
+        "native3-f5765d294e9de77b102b"
+      ],
+      "currentOverlapArea": 0.9926018174729219,
+      "sourceOwnerOrigins": [
+        [
+          "71005",
+          1
+        ],
+        [
+          "10059",
+          4
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910000,
+      "owners": [
+        4,
+        12
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-a1309c4aea5aa80cd67c",
+        "native3-e133446f6b9346daaf09"
+      ],
+      "currentOverlapArea": 0.984996166551649,
+      "sourceOwnerOrigins": [
+        [
+          "70007",
+          12
+        ],
+        [
+          "70018",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910004,
+      "owners": [
+        6,
+        13
+      ],
+      "kinds": [
+        "ring",
+        "slider"
+      ],
+      "templateIds": [
+        "native3-ce6a4dc0257e4763a768",
+        "native3-e7a2c8dbb32f56ccba49"
+      ],
+      "currentOverlapArea": 0.9441377107410481,
+      "sourceOwnerOrigins": [
+        [
+          "10017",
+          14
+        ],
+        [
+          "70035",
+          3
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        11,
+        17
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1385b5cf376f9c6cef1e",
+        "native3-b31acc76859ac02d5a29"
+      ],
+      "currentOverlapArea": 0.9342297052627004,
+      "sourceOwnerOrigins": [
+        [
+          "71021",
+          6
+        ],
+        [
+          "10059",
+          26
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910005,
+      "owners": [
+        12,
+        16
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-45286d5830f37b488d9c",
+        "native3-ae9403701f0349642ecb"
+      ],
+      "currentOverlapArea": 0.9333600004208517,
+      "sourceOwnerOrigins": [
+        [
+          "10036",
+          7
+        ],
+        [
+          "71118",
+          1
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910001,
+      "owners": [
+        11,
+        15
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-1385b5cf376f9c6cef1e",
+        "native3-5d8755297be0a5e13fc0"
+      ],
+      "currentOverlapArea": 0.8662280118142476,
+      "sourceOwnerOrigins": [
+        [
+          "71021",
+          6
+        ],
+        [
+          "70028",
+          9
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        3,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-0f769ce0c85264ba1e9c",
+        "native3-423250606ce7d13fd542"
+      ],
+      "currentOverlapArea": 0.855239491436548,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          16
+        ],
+        [
+          "60007",
+          15
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910003,
+      "owners": [
+        5,
+        7
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-492266004e4e431f8c9f",
+        "native3-69033212b3e454a0d7f6"
+      ],
+      "currentOverlapArea": 0.8436773773810314,
+      "sourceOwnerOrigins": [
+        [
+          "10020",
+          25
+        ],
+        [
+          "70024",
+          16
+        ]
+      ],
+      "sameDonorSource": false,
+      "donorPairOverlapArea": null,
+      "sourceContactBindingEvidence": []
+    },
+    {
+      "proposalId": 9910002,
+      "owners": [
+        5,
+        8
+      ],
+      "kinds": [
+        "ring",
+        "ring"
+      ],
+      "templateIds": [
+        "native3-423250606ce7d13fd542",
+        "native3-4d4a6306d3c8af08c0af"
+      ],
+      "currentOverlapArea": 0.8436226312865837,
+      "sourceOwnerOrigins": [
+        [
+          "60007",
+          17
+        ],
+        [
+          "60007",
+          15
+        ]
+      ],
+      "sameDonorSource": true,
+      "donorPairOverlapArea": 0.0,
+      "sourceContactBindingEvidence": []
+    }
+  ]
+}

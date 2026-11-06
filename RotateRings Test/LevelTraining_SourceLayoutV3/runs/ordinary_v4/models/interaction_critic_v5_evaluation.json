@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 5,
+  "status": "STATIC_NATIVE_COMPOSITION_SYNTHETIC_PROXY_ONLY",
+  "acceptedCount": 0,
+  "sourceCount": 460,
+  "featureNames": [
+    "logAspect",
+    "minorExtentWidthUnits",
+    "majorExtentWidthUnits",
+    "bboxWhitespace",
+    "hullWhitespace",
+    "symmetryX",
+    "symmetryY",
+    "symmetryPCA",
+    "orientationParallel",
+    "orientationCardinal",
+    "orientationDiagonal",
+    "nearestCenterP10",
+    "nearestCenterP50",
+    "nearestCenterP90",
+    "nearestOutlineP10",
+    "nearestOutlineP50",
+    "nearestOutlineP90",
+    "radialP10",
+    "radialP50",
+    "radialP90",
+    "centerCovAnisotropy",
+    "clusterCenterSpreadMajor",
+    "clusterCenterSpreadMinor",
+    "clusterNearestCenterP50",
+    "clusterPairDistanceCV",
+    "guideAxisOffsetP50",
+    "guidePerpendicularOffsetP50",
+    "angleNeighborAlignment",
+    "envelopeNestingFraction",
+    "authored_componentsPerRoot",
+    "authored_largestComponentFraction",
+    "authored_isolatedRootFraction",
+    "authored_degreeMean",
+    "authored_degreeP90",
+    "authored_maxDegree",
+    "authored_cycleRankPerRoot",
+    "authored_bridgeFraction",
+    "authored_articulationFraction",
+    "authored_meanCoreNumber",
+    "authored_meanClustering",
+    "authored_reachablePairFraction",
+    "authored_meanConnectedPathLength",
+    "staticComposition_componentsPerRoot",
+    "staticComposition_largestComponentFraction",
+    "staticComposition_isolatedRootFraction",
+    "staticComposition_degreeMean",
+    "staticComposition_degreeP90",
+    "staticComposition_maxDegree",
+    "staticComposition_cycleRankPerRoot",
+    "staticComposition_bridgeFraction",
+    "staticComposition_articulationFraction",
+    "staticComposition_meanCoreNumber",
+    "staticComposition_meanClustering",
+    "staticComposition_reachablePairFraction",
+    "staticComposition_meanConnectedPathLength",
+    "proxy_pull_axis_crosses_ringPerRoot",
+    "proxy_pull_hull_contains_ring_centerPerRoot",
+    "proxy_pull_near_ringPerRoot",
+    "proxyStrongPerRoot",
+    "combinedAuthoredCrossComponentEdgesPerRoot"
+  ],
+  "familyHoldoutBeforeFinalRefit": true,
+  "folds": [
+    {
+      "fold": 0,
+      "sourceFamilyIntersection": [],
+      "trainingSources": 368,
+      "heldOutSources": 92,
+      "models": {
+        "nativeInteractionTrees": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.8219517958412099,
+            "pairedSourceRanksHigherFraction": 0.9456521739130435
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.825850661625709,
+            "pairedSourceRanksHigherFraction": 0.9239130434782609
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.7354087901701323,
+            "pairedSourceRanksHigherFraction": 0.8967391304347826
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9929111531190926,
+            "pairedSourceRanksHigherFraction": 0.9891304347826086
+          }
+        },
+        "linearNativeFeaturesBaseline": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7255434782608696,
+            "pairedSourceRanksHigherFraction": 0.8695652173913043
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.769258034026465,
+            "pairedSourceRanksHigherFraction": 0.9021739130434783
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.6208648393194707,
+            "pairedSourceRanksHigherFraction": 0.4891304347826087
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9868856332703214,
+            "pairedSourceRanksHigherFraction": 0.9782608695652174
+          }
+        }
+      },
+      "countMechanicsOnlyPairedBaseline": 0.5
+    },
+    {
+      "fold": 1,
+      "sourceFamilyIntersection": [],
+      "trainingSources": 368,
+      "heldOutSources": 92,
+      "models": {
+        "nativeInteractionTrees": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7960184310018904,
+            "pairedSourceRanksHigherFraction": 0.8532608695652174
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6094636105860114,
+            "pairedSourceRanksHigherFraction": 0.7663043478260869
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9673913043478259,
+            "pairedSourceRanksHigherFraction": 0.9891304347826086
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9885987712665406,
+            "pairedSourceRanksHigherFraction": 0.9945652173913043
+          }
+        },
+        "linearNativeFeaturesBaseline": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7143194706994329,
+            "pairedSourceRanksHigherFraction": 0.8478260869565217
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6089319470699434,
+            "pairedSourceRanksHigherFraction": 0.7717391304347826
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9758979206049149,
+            "pairedSourceRanksHigherFraction": 1.0
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9763705103969754,
+            "pairedSourceRanksHigherFraction": 0.9782608695652174
+          }
+        }
+      },
+      "countMechanicsOnlyPairedBaseline": 0.5
+    },
+    {
+      "fold": 2,
+      "sourceFamilyIntersection": [],
+      "trainingSources": 368,
+      "heldOutSources": 92,
+      "models": {
+        "nativeInteractionTrees": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.8113185255198488,
+            "pairedSourceRanksHigherFraction": 0.8695652173913043
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.635101606805293,
+            "pairedSourceRanksHigherFraction": 0.7989130434782609
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9798558601134215,
+            "pairedSourceRanksHigherFraction": 0.9510869565217391
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9956285444234404,
+            "pairedSourceRanksHigherFraction": 1.0
+          }
+        },
+        "linearNativeFeaturesBaseline": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7277882797731569,
+            "pairedSourceRanksHigherFraction": 0.8043478260869565
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6518194706994329,
+            "pairedSourceRanksHigherFraction": 0.7717391304347826
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9606568998109639,
+            "pairedSourceRanksHigherFraction": 0.967391304347826
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9732986767485823,
+            "pairedSourceRanksHigherFraction": 0.9782608695652174
+          }
+        }
+      },
+      "countMechanicsOnlyPairedBaseline": 0.5
+    },
+    {
+      "fold": 3,
+      "sourceFamilyIntersection": [],
+      "trainingSources": 368,
+      "heldOutSources": 92,
+      "models": {
+        "nativeInteractionTrees": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7842627599243857,
+            "pairedSourceRanksHigherFraction": 0.9130434782608695
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6361058601134215,
+            "pairedSourceRanksHigherFraction": 0.7608695652173914
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9681592627599244,
+            "pairedSourceRanksHigherFraction": 0.9728260869565217
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9939744801512288,
+            "pairedSourceRanksHigherFraction": 1.0
+          }
+        },
+        "linearNativeFeaturesBaseline": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7342863894139886,
+            "pairedSourceRanksHigherFraction": 0.8586956521739131
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.655836483931947,
+            "pairedSourceRanksHigherFraction": 0.7934782608695652
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9618974480151229,
+            "pairedSourceRanksHigherFraction": 0.9728260869565217
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9744801512287335,
+            "pairedSourceRanksHigherFraction": 0.967391304347826
+          }
+        }
+      },
+      "countMechanicsOnlyPairedBaseline": 0.5
+    },
+    {
+      "fold": 4,
+      "sourceFamilyIntersection": [],
+      "trainingSources": 368,
+      "heldOutSources": 92,
+      "models": {
+        "nativeInteractionTrees": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7809546313799622,
+            "pairedSourceRanksHigherFraction": 0.8369565217391305
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6003071833648393,
+            "pairedSourceRanksHigherFraction": 0.75
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9515004725897919,
+            "pairedSourceRanksHigherFraction": 0.9402173913043478
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9901937618147448,
+            "pairedSourceRanksHigherFraction": 1.0
+          }
+        },
+        "linearNativeFeaturesBaseline": {
+          "clusterSpacing": {
+            "sourceVsSyntheticAUC": 0.7686672967863895,
+            "pairedSourceRanksHigherFraction": 0.9130434782608695
+          },
+          "clusterOrientation": {
+            "sourceVsSyntheticAUC": 0.6618620037807184,
+            "pairedSourceRanksHigherFraction": 0.8260869565217391
+          },
+          "grossPoseShuffle": {
+            "sourceVsSyntheticAUC": 0.9181238185255198,
+            "pairedSourceRanksHigherFraction": 0.9565217391304348
+          },
+          "separateNativeComponents": {
+            "sourceVsSyntheticAUC": 0.9358459357277883,
+            "pairedSourceRanksHigherFraction": 0.967391304347826
+          }
+        }
+      },
+      "countMechanicsOnlyPairedBaseline": 0.5
+    }
+  ],
+  "summary": {
+    "nativeInteractionTrees": {
+      "clusterSpacing": {
+        "sourceVsSyntheticAUC": 0.7989012287334594,
+        "pairedSourceRanksHigherFraction": 0.8836956521739131
+      },
+      "clusterOrientation": {
+        "sourceVsSyntheticAUC": 0.6613657844990548,
+        "pairedSourceRanksHigherFraction": 0.8
+      },
+      "grossPoseShuffle": {
+        "sourceVsSyntheticAUC": 0.9204631379962193,
+        "pairedSourceRanksHigherFraction": 0.95
+      },
+      "separateNativeComponents": {
+        "sourceVsSyntheticAUC": 0.9922613421550095,
+        "pairedSourceRanksHigherFraction": 0.9967391304347826
+      }
+    },
+    "linearNativeFeaturesBaseline": {
+      "clusterSpacing": {
+        "sourceVsSyntheticAUC": 0.7341209829867675,
+        "pairedSourceRanksHigherFraction": 0.8586956521739131
+      },
+      "clusterOrientation": {
+        "sourceVsSyntheticAUC": 0.6695415879017013,
+        "pairedSourceRanksHigherFraction": 0.8130434782608695
+      },
+      "grossPoseShuffle": {
+        "sourceVsSyntheticAUC": 0.8874881852551983,
+        "pairedSourceRanksHigherFraction": 0.8771739130434781
+      },
+      "separateNativeComponents": {
+        "sourceVsSyntheticAUC": 0.9693761814744801,
+        "pairedSourceRanksHigherFraction": 0.9739130434782609
+      }
+    }
+  },
+  "countMechanicsOnlyPairedBaseline": 0.5,
+  "measuredMeanPairedImprovementOverLinearBaseline": true,
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "familySplits": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "trainer": "1df4617ce171753b9852f6730453f9bb0516f2a1de356d0bf1663e66fe199874",
+    "sourceFilter": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "ordinaryRefitManifest": "7da9af3ec0d866b4f0b89083ff25da1c4bba4ef02469e2986fe45a8d45e135f6",
+    "model": "529109dcb6067b2cd68de05c5be851520cd50817c6d74acb301c4688549e31f4",
+    "featureCache": "5effe31cba7c5b228e18383bb9a86ccad6b4370b3279478ed12375f18359cab7"
+  },
+  "localDependencySha256": {
+    "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+    "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+    "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+    "global_composition_v3.py": "8b2f7ed9c7c085dc72f318232ea4e8a4de89ae885b2df0f2d54f524433241cd9",
+    "guide_anchor_role_motifs_v3.py": "5a952628aa230ffb8e753e4a816a4a46faa14880d6a0161d835ad23a880ff4cc",
+    "guide_neighborhood_motifs_v3.py": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f",
+    "interaction_critic_v5.py": "1df4617ce171753b9852f6730453f9bb0516f2a1de356d0bf1663e66fe199874",
+    "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+    "macro_assembly_v3.py": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+    "macro_pattern_v3.py": "af83b2e243b641a60411e971e39795701a15bcab1162c26618925b612d150d60",
+    "ordinary_source_filter_guard_v4.py": "3978aacb2e419915f2f432504c7338e1cc1b171addbc800a823e04edd535ffb7",
+    "refit_ordinary_models_v4.py": "693929c43be6626bc52995bc467c265fdee7054b78539e73d7353767d96f2b77",
+    "source_physical_composition_v3.py": "7df71089897d1838fec7fae8a3e7e5065e0e106017e38e11ea58abc1d43e69a6"
+  },
+  "elapsedSeconds": 60.43188539997209,
+  "syntheticControls": {
+    "clusterSpacing": "intact authored clusters centroidradialscale.88or1.12; singlecomponent spatialhalves",
+    "clusterOrientation": "one intactcluster \u00b118degrees; singlecomponent spatialhalf",
+    "grossPoseShuffle": "movable native poses permuted",
+    "separateNativeComponents": "intactauthoredclusters centroidradialscale2;singlecomponent spatialhalves"
+  },
+  "limits": [
+    "Static pull/ring composition proxy thresholds describe geometry evidence only, not collision or release dependencies.",
+    "Synthetic controls can remain good playable levels; positive ranking is original-like arrangement evidence, not quality/fun.",
+    "No real newlevel negative labels or human difficulty labels; probability is not playability confidence.",
+    "Original rigid sourcepartial assemblies require separate exact-copy evidence; classifier cannot certify novelty."
+  ]
+}

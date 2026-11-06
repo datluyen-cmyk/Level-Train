@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 4,
+  "policyOrigin": "User revision: more components can be acceptable when difficulty is balanced; do not lock numerical content metrics",
+  "generationEnabled": false,
+  "acceptedGeneratedCount": 0,
+  "status": "CURATED_ORDINARY_REFIT_COMPLETE_PRELIMINARY_PROPOSALS_PENDING_NATIVE_DIFFICULTY_VISUAL_EVIDENCE",
+  "categoricalScope": "Exclude every reviewed identifiable pictorial whole-board source from training and generation; ordinary radial/grid geometry is not automatically pictorial",
+  "sourceFilter": "runs/ordinary_v4/data/ordinary_source_filter_v4.json",
+  "refitCertificate": "runs/ordinary_v4/models/ordinary_refit_manifest_v4.json",
+  "requestedTrainingSourceCount": 500,
+  "knownApkDistinctSourceCount": 507,
+  "trainingCountPolicy": "Record actual unique curated ordinary count and dataset exhaustion; requested500 remains unmet provenance when unavailable, never pad/duplicate or block curated available work solely for being below500",
+  "historicalMixedPictorialModelsEligible": false,
+  "diamond8010000Status": "HISTORICAL_EXCLUDED_BY_USER_SCOPE",
+  "historicalPacksRemainUnmodified": true,
+  "numericContentGates": [],
+  "softFeatures": [
+    "meaningfulRootChangeFraction",
+    "authoredPinDensityRatio",
+    "authoredComponentMovableSizeProfile",
+    "newAuthoredIsolatedMovableRoots",
+    "nativeNonHeadTriggerAttachmentCount",
+    "meaningfulAngleChangeMagnitude",
+    "wholeReferenceFieldDistance",
+    "semanticNearestLayoutDiagnostics",
+    "nativeLegalSolutionAndOrderingFeatures",
+    "sourceRelativeNativeGameplayDifficulty",
+    "wholeFigureSemanticDesignReview"
+  ],
+  "requiredCorrectnessEvidence": [
+    "reviewedOrdinarySourceEligibilityAndRefittedModelProvenance",
+    "exactCompleteNativeAssetsInputRigidbodyMaterialsState",
+    "nativeMechanicAndGuideClosureContracts",
+    "currentProductionLegalReplayAndCompleteSolve",
+    "actualNonCosmeticSemanticNovelty"
+  ],
+  "difficultyRankingModel": null,
+  "rankingModelStatus": "Await current native source/candidate gameplay labels; no invented fixed weights",
+  "initialReplayQueue": {
+    "frozenPack": "Research/physics_v3/visual_qa/staged_semantic_review_20261106_0524/proposals_snapshot.json",
+    "frozenPackSha256": "c638d752ab9bb64ff83d7db4be5720f2c757d65bfc82ef7f1bcc657832fe030a",
+    "referencePositions": [
+      2,
+      7,
+      26
+    ],
+    "selectionStatus": "Historical static comparison queue only; any new training/proposal reference must be in the curated ordinary corpus"
+  },
+  "historicalRootPendingFilter": "data/ordinary_source_filter_v4.json is preserved historical/pending and is not active ordinary run input",
+  "activeResearchRun": "runs/ordinary_v4",
+  "activeSourceFilterSha256": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+  "activeRefitCertificateSha256": "7da9af3ec0d866b4f0b89083ff25da1c4bba4ef02469e2986fe45a8d45e135f6",
+  "actualUniqueOrdinaryCount": 460,
+  "datasetExhausted": true,
+  "requestedMinimum500_unmet": true,
+  "pictorialExcludedUniqueCount": 47
+}

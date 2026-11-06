@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 6,
+  "status": "FINITE_BEAM_STATIC_DIAGNOSTIC_DONE_NO_MEDIUM_HARD_VALIDITY",
+  "acceptedCount": 0,
+  "packSha256": "f3f99a529ec7f9ed32019c89fbf9d2676e7549c6642ac5386b84bef42d077092",
+  "elapsedSeconds": 75.02871680003591,
+  "candidateRows": [
+    {
+      "candidateId": 9800000,
+      "referencePosition": 4,
+      "rootCount": 6,
+      "pinCount": 5,
+      "guideCount": 0
+    },
+    {
+      "candidateId": 9800001,
+      "referencePosition": 5,
+      "rootCount": 3,
+      "pinCount": 2,
+      "guideCount": 0
+    },
+    {
+      "candidateId": 9800002,
+      "referencePosition": 7,
+      "rootCount": 6,
+      "pinCount": 5,
+      "guideCount": 0
+    },
+    {
+      "candidateId": 9800003,
+      "referencePosition": 10,
+      "rootCount": 7,
+      "pinCount": 6,
+      "guideCount": 0
+    }
+  ],
+  "profileScaleSha256": "c9174cb31e23479fcfa9573806836003b1560a803dcdc4c9cb3c911862942c7d",
+  "userFeedback": "All6G/Hhuman-tested prototypes SUPER EASY; they do not meet desired medium/hard challenge. Do not infer human difficulty from ringcount or solver ApplyAction count.",
+  "findings": [
+    "Beam maintainedmultiplefrontiersandgrewto16rootprefixes,butsoftcritic/profilechose3-7rootoutputs.",
+    "Incomingpin-onlyownergrammardoesnotcreateunlinkedsliderblockersafterringseed; nativecompositiongraftneeded.",
+    "Source10004centerfourpinhyperedgecannotinstantiateuntilunlinkedheadlessreceivers1/2exist;incomingall-targets-existingproductionincompleteforthisgraph."
+  ],
+  "nextOwnership": "Mainassignedcomposition_graft_v7.py +construct_composition_v7.py to /root/composition_graft. Thischildstoppedgenerationandownsoriginaldifficultyextractiononly."
+}

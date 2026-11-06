@@ -1,0 +1,33 @@
+{
+    "status": "failed",
+    "passed": false,
+    "unityVersion": "6000.0.78f1",
+    "fixtureLevelId": "10001",
+    "obstacleTemplateId": "native-934b43fa02d07d875293",
+    "movingTemplateId": "native-c25fe0abe675208603be",
+    "qaHarnessSha256": "c4c35bf9b8ed879ce88ea7b184efb0a79ff0148268b800487725c7586ff49775",
+    "collisionWorldSha256": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+    "sourceCatalogSha256": "12bef8bac58a879b05a4815cd73186d5e408dd7380f4641d952d820e3f9f2095",
+    "sourceFixtureSha256": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213:afb388f635f344054de32516ab1a334f6ed00d437f80ec9446f157e2a380d1bd",
+    "blockingRoles": [],
+    "movingCenter": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "initialAngle": 0.0,
+    "attemptedDelta": 0.0,
+    "clampedAngle": 0.0,
+    "checks": [
+        {
+            "name": "Level 10001 original templates include solid stems, solid head walls, a trigger head and a solid C-ring body",
+            "passed": true,
+            "detail": "native-934b43fa02d07d875293 / native-c25fe0abe675208603be"
+        },
+        {
+            "name": "Collision QA completed without exception",
+            "passed": false,
+            "detail": "InvalidOperationException: Missing original overlap query contract for native-934b43fa02d07d875293"
+        }
+    ],
+    "error": "System.InvalidOperationException: Missing original overlap query contract for native-934b43fa02d07d875293\r\n  at RotateRingsCollisionWorld.Build (RotateRingsLevel level, RotateRingsTemplateCatalog catalog) [0x005d3] in D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsCollisionWorld.cs:303 \r\n  at RotateRingsCollisionQA+WorldHarness..ctor (RotateRingsPart originalObstacle, RotateRingsPart originalMoving, RotateRingsLink[] sourceLinks, RotateRingsTemplateCatalog catalog, System.Single obstacleAngle, UnityEngine.Vector2 center, System.Single angle) [0x0013a] in D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Editor\\RotateRingsCollisionQA.cs:196 \r\n  at RotateRingsCollisionQA.VerifyBlockedScenario (RotateRingsCollisionQA+Report report, RotateRingsPart obstacle, RotateRingsPart moving, RotateRingsLink[] links, RotateRingsTemplateCatalog catalog, RotateRingsCollisionQA+Scenario scenario) [0x00000] in D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Editor\\RotateRingsCollisionQA.cs:145 \r\n  at RotateRingsCollisionQA.Run () [0x00394] in D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Editor\\RotateRingsCollisionQA.cs:91 "
+}

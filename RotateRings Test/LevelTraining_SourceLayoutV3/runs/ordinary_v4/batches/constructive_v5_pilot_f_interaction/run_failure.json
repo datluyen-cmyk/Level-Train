@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_BEFORE_FIRST_COMPLETED_ATTEMPT",
+  "acceptedCount": 0,
+  "session": 63641,
+  "error": "existing arrangement covariance undefined for one movable root+guide seed",
+  "sourceCorporaAllHaveAtLeastTwoMovableRoots": true,
+  "repair": "Constructor omits unsupported critic feature prefixes; no trainingcorpus or game rule changed. New pilot uses user-prioritized coherent preview scoring without rigidcopy penalty."
+}

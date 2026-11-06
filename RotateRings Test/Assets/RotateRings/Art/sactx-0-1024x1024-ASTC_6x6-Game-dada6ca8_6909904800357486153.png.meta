@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 1878eed4e17e39e44992bd5ee352828f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9127135251107761173
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_0
+  - first:
+      213: -7128601887904365403
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_1
+  - first:
+      213: 1232481647218207263
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_2
+  - first:
+      213: 8100568651214499348
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_3
+  - first:
+      213: -1405308588142647776
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_4
+  - first:
+      213: -6609375288436854814
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_5
+  - first:
+      213: -3451308737741954778
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_6
+  - first:
+      213: 2018992330590153814
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_7
+  - first:
+      213: 814631880194100272
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_8
+  - first:
+      213: 2683531422824723061
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_9
+  - first:
+      213: -445045479118080476
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_10
+  - first:
+      213: 8300754408955858027
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_11
+  - first:
+      213: 6917796918989746580
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_12
+  - first:
+      213: -5913688510134047953
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_13
+  - first:
+      213: 3532428355892533744
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_14
+  - first:
+      213: 6973115417872609197
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_15
+  - first:
+      213: 1636736124265748698
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_16
+  - first:
+      213: -2960587653537244272
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_17
+  - first:
+      213: -5154430404800405522
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_18
+  - first:
+      213: -3634245297040582164
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_19
+  - first:
+      213: 4409313413633847199
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_20
+  - first:
+      213: -3499952432045242435
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_21
+  - first:
+      213: -6039912804057445057
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_22
+  - first:
+      213: 5951305758637960129
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_23
+  - first:
+      213: 5817696978651723450
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_24
+  - first:
+      213: 5915432800115008575
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_25
+  - first:
+      213: -5455553310483652233
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_26
+  - first:
+      213: 6689420660750139270
+    second: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 171
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c493b37291aae70800000000000000
+      internalID: 9127135251107761173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 905
+        width: 119
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a408461a5e121d90800000000000000
+      internalID: -7128601887904365403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 871
+        width: 127
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a21a63787aa1110800000000000000
+      internalID: 1232481647218207263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 566
+        width: 197
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e2e4605400b6070800000000000000
+      internalID: 8100568651214499348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 765
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026a3f3e8475f7ce0800000000000000
+      internalID: -1405308588142647776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 766
+        width: 116
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efe9717138c644a0800000000000000
+      internalID: -6609375288436854814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 563
+        width: 198
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62160b42dfc7a10d0800000000000000
+      internalID: -3451308737741954778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 663
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c601dd3d6e40c10800000000000000
+      internalID: 2018992330590153814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 342
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c8da101672e4b00800000000000000
+      internalID: 814631880194100272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 419
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572f0117c91dd3520800000000000000
+      internalID: 2683531422824723061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 539
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426f544ae71e2d9f0800000000000000
+      internalID: -445045479118080476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c4299d724323370800000000000000
+      internalID: 8300754408955858027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 379
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491fca055a3f00060800000000000000
+      internalID: 6917796918989746580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 329
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ba621d1ab5eeda0800000000000000
+      internalID: -5913688510134047953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 379
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9dd73cfd4b50130800000000000000
+      internalID: 3532428355892533744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_15
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 236
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafa814078b75c060800000000000000
+      internalID: 6973115417872609197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_16
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 213
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8d8ed45dad6b610800000000000000
+      internalID: 1636736124265748698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_17
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 212
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b51880731e9e6d0800000000000000
+      internalID: -2960587653537244272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 343
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef166e2bd8c778b0800000000000000
+      internalID: -5154430404800405522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_19
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 117
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9134b4821909dc0800000000000000
+      internalID: -3634245297040582164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_20
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 119
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fa20b2037013d30800000000000000
+      internalID: 4409313413633847199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 119
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7cd2d7ecbad6fc0800000000000000
+      internalID: -3499952432045242435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_22
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 115
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d82d73e4bed2ca0800000000000000
+      internalID: -6039912804057445057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_23
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb2a5d5e09479250800000000000000
+      internalID: 5951305758637960129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 107
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6366f149c9cb050800000000000000
+      internalID: 5817696978651723450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1
+        width: 91
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34ac875ac6d71250800000000000000
+      internalID: 5915432800115008575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_26
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1
+        width: 91
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7716a6b3b2bf944b0800000000000000
+      internalID: -5455553310483652233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_27
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fbb2d16a895dc50800000000000000
+      internalID: 6689420660750139270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_0: 9127135251107761173
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_1: -7128601887904365403
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_10: -445045479118080476
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_11: 8300754408955858027
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_12: 6917796918989746580
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_13: -5913688510134047953
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_14: 3532428355892533744
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_15: 6973115417872609197
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_16: 1636736124265748698
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_17: -2960587653537244272
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_18: -5154430404800405522
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_19: -3634245297040582164
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_2: 1232481647218207263
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_20: 4409313413633847199
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_21: -3499952432045242435
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_22: -6039912804057445057
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_23: 5951305758637960129
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_24: 5817696978651723450
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_25: 5915432800115008575
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_26: -5455553310483652233
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_27: 6689420660750139270
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_3: 8100568651214499348
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_4: -1405308588142647776
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_5: -6609375288436854814
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_6: -3451308737741954778
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_7: 2018992330590153814
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_8: 814631880194100272
+      sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153_9: 2683531422824723061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

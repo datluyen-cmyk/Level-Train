@@ -1,0 +1,20 @@
+{
+    "sourceId": 10010,
+    "sliderId": 7,
+    "targetSlide": -3.0,
+    "oneFrameReached": -0.35999998450279238,
+    "repeatedFramesReached": -3.349998712539673,
+    "actionReached": -3.010000228881836,
+    "oneFrameBlocked": false,
+    "repeatedFramesBlocked": false,
+    "actionBlocked": false,
+    "oneFrameBlockerOwner": -1,
+    "repeatedFramesBlockerOwner": -1,
+    "releasedAfterRepeatedFrames": true,
+    "actionRemovedSlider": true,
+    "activeBindingsAfterRepeatedFrames": 5,
+    "removedAfterAction": [
+        7,
+        8
+    ]
+}

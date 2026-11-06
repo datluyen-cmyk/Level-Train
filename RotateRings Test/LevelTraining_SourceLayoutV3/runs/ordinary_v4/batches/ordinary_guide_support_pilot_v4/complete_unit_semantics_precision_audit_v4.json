@@ -1,0 +1,1444 @@
+{
+  "status": "COMPLETE_GUIDE_UNIT_NATIVE_ROLE_PRECISION_AUDIT",
+  "acceptedCount": 0,
+  "numericContentGatesApplied": [],
+  "precisionPolicy": "Four float32 arithmetic ULPs propagated through serialized world coordinates and angular transform radius; not a level-design change minimum.",
+  "candidateCount": 8,
+  "wholeUnitInitialNoOpCandidateIds": [],
+  "levels": [
+    {
+      "candidateId": 8001000,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "unitRootIds": [
+        17,
+        18
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": true,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 17,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 0,
+              "axisLocal": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              -0.999999999999991,
+              -1.3435883843820489e-07
+            ],
+            "afterWorldAxis": [
+              0.9999999999999754,
+              2.2178161491209942e-07
+            ],
+            "directedAxisError": 1.999999999999998,
+            "unorientedAxisError": 8.742277647389594e-08,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.25000377441689314,
+              "hausdorffDistance": 0.2500001019935974,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 9.096633605159562e-06,
+              "precisionAreaBound": 0.00043120014710120575,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.7300042124606847,
+              "hausdorffDistance": 0.250000101993675,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 9.607960534454775e-06,
+              "precisionAreaBound": 0.0005018038014456674,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 18,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.7812499999999996,
+              "hausdorffDistance": 5.555434595294599,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 2.4399958136223056e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.2520000000000018,
+              "hausdorffDistance": 5.555434600559751,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 3.786865243279556e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8001001,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "unitRootIds": [
+        1,
+        2
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": true,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [
+        1
+      ],
+      "roots": [
+        {
+          "rootId": 1,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              1.3435883890517886e-07,
+              0.999999999999991
+            ],
+            "afterWorldAxis": [
+              1.343588386602495e-07,
+              -0.999999999999991
+            ],
+            "directedAxisError": 1.999999999999982,
+            "unorientedAxisError": 2.6871767756542835e-07,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": true,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 1.5015534763039089e-05,
+              "hausdorffDistance": 1.3547850372663937e-06,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 1.5088746590470067e-05,
+              "precisionAreaBound": 0.0006556796173430304,
+              "geometryEqualWithinNativePrecision": true
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 1.7646841346624724e-05,
+              "hausdorffDistance": 1.5631797342088481e-06,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 1.6111400449060493e-05,
+              "precisionAreaBound": 0.0007966774432670915,
+              "geometryEqualWithinNativePrecision": true
+            }
+          ]
+        },
+        {
+          "rootId": 2,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.10416750174947581,
+              "hausdorffDistance": 0.08333405309047301,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 4.03787750487589e-06,
+              "precisionAreaBound": 2.0189489968289942e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.023333692438141145,
+              "hausdorffDistance": 0.0833340880237666,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 4.03787750487589e-06,
+              "precisionAreaBound": 3.133403188174739e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8001002,
+      "sourcePosition": 21,
+      "referenceSourceId": "10111",
+      "unitRootIds": [
+        28,
+        31
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": true,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [
+        28
+      ],
+      "roots": [
+        {
+          "rootId": 28,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              1.3435883890517886e-07,
+              0.999999999999991
+            ],
+            "afterWorldAxis": [
+              -4.693606220923871e-08,
+              -0.9999999999999989
+            ],
+            "directedAxisError": 1.999999999999998,
+            "unorientedAxisError": 8.74227766959405e-08,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": true,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 7.786091007326202e-07,
+              "hausdorffDistance": 1.8986899106726483e-07,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 8.342071118759704e-06,
+              "precisionAreaBound": 0.00015117082046513884,
+              "geometryEqualWithinNativePrecision": true
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 1.16522095661117e-06,
+              "hausdorffDistance": 3.1084830790214997e-07,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 9.364724977350133e-06,
+              "precisionAreaBound": 0.00022582733274914993,
+              "geometryEqualWithinNativePrecision": true
+            }
+          ]
+        },
+        {
+          "rootId": 31,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.7812499999999996,
+              "hausdorffDistance": 1.5416660582034027,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 5.94522613768839e-06,
+              "precisionAreaBound": 2.9726352772111737e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.2519999999999991,
+              "hausdorffDistance": 1.5416660695683622,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 5.94522613768839e-06,
+              "precisionAreaBound": 4.61351769121317e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8015001,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "unitRootIds": [
+        7,
+        8
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": false,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 7,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              0.1736481565464385,
+              -0.9848077567363204
+            ],
+            "afterWorldAxis": [
+              1.343588388822941e-07,
+              -0.999999999999991
+            ],
+            "directedAxisError": 0.17431133028305312,
+            "unorientedAxisError": 0.17431133028305312,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": false,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 2.5725503619696597,
+              "hausdorffDistance": 0.4339397017016663,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 6.766367651340228e-06,
+              "precisionAreaBound": 0.0001575762225386045,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 3.448539371050382,
+              "hausdorffDistance": 0.43570839694117347,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 7.2776945806354425e-06,
+              "precisionAreaBound": 0.0002131006018309163,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 8,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.1029283197871328,
+              "hausdorffDistance": 0.11331068547538704,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 2.4399958136223063e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.18309042784001311,
+              "hausdorffDistance": 0.15657503107616041,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 3.786865243279551e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8015000,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "unitRootIds": [
+        28,
+        29
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": false,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 28,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              -1.0,
+              0.0
+            ],
+            "afterWorldAxis": [
+              0.1736481565464385,
+              -0.9848077567363204
+            ],
+            "directedAxisError": 1.532088872452534,
+            "unorientedAxisError": 1.2855752358019048,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": false,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 3.2083036525541573,
+              "hausdorffDistance": 1.6375482332382063,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 5.85645413686123e-06,
+              "precisionAreaBound": 9.636687556261326e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 8.667279114015301,
+              "hausdorffDistance": 1.6302560723172306,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 6.367781172682887e-06,
+              "precisionAreaBound": 0.00014294391260770702,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 29,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.07382319881440944,
+              "hausdorffDistance": 0.07826501170848214,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 2.4399958136223042e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.23209763848230158,
+              "hausdorffDistance": 0.10162484953918056,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 3.786865243279549e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8015002,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "unitRootIds": [
+        28,
+        29
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": false,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 28,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              -1.0,
+              0.0
+            ],
+            "afterWorldAxis": [
+              0.500000187989597,
+              0.8660252952485671
+            ],
+            "directedAxisError": 1.7320509161047184,
+            "unorientedAxisError": 0.9999998120103853,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": false,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 3.1386666150301954,
+              "hausdorffDistance": 1.44123685137715,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 5.85645413686123e-06,
+              "precisionAreaBound": 9.636687556261326e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 8.073525877271013,
+              "hausdorffDistance": 1.4371302819926337,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 6.367781172682887e-06,
+              "precisionAreaBound": 0.00014294391260770702,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 29,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 1.0652644360316953e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.1291731676083962,
+              "hausdorffDistance": 0.1511242248304434,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 2.4399958136223083e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.22936786661136155,
+              "hausdorffDistance": 0.2672710895502124,
+              "coordinateFloat32Ulp": 9.5367431640625e-07,
+              "angleFloat32UlpDegrees": 1.52587890625e-05,
+              "precisionHausdorffBound": 4.879961701656695e-06,
+              "precisionAreaBound": 3.786865243279549e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8022000,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "unitRootIds": [
+        19,
+        20
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": false,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 19,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              -1.0,
+              0.0
+            ],
+            "afterWorldAxis": [
+              -0.9563047353773723,
+              0.2923717720553988
+            ],
+            "directedAxisError": 0.29561889189504714,
+            "unorientedAxisError": 0.29561889189504714,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": false,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 4.357455532997991,
+              "hausdorffDistance": 0.9292413868194004,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 8.476479676762765e-06,
+              "precisionAreaBound": 0.00023108435582984104,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 6.240431287614435,
+              "hausdorffDistance": 0.9360491308709852,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 9.499133535353194e-06,
+              "precisionAreaBound": 0.0003103490488002725,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 20,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.14610986853465466,
+              "hausdorffDistance": 0.16907758734005318,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 4.03787750487589e-06,
+              "precisionAreaBound": 2.0189489968289942e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.20014780111844854,
+              "hausdorffDistance": 0.25086925283419326,
+              "coordinateFloat32Ulp": 4.76837158203125e-07,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 4.03787750487589e-06,
+              "precisionAreaBound": 3.13340318817474e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    },
+    {
+      "candidateId": 8022001,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "unitRootIds": [
+        5,
+        6
+      ],
+      "completeUnitPhysicalInputGeometryNoOp": false,
+      "nativeStateInputRigidbodyContractUnchanged": true,
+      "authoredGuideRelationContractUnchanged": true,
+      "authoredPinRelationContractUnchanged": true,
+      "unorientedMovementAxisEquivalent": true,
+      "completeUnitInitialPhysicalInputMovementContractNoOp": false,
+      "rootGeometryCosmeticWithinNativePrecision": [],
+      "roots": [
+        {
+          "rootId": 5,
+          "kind": "slider",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": {
+              "lockDirectionType": 1,
+              "axisLocal": {
+                "x": -1.0,
+                "y": 0.0
+              },
+              "lockLeft": false,
+              "lockRight": false,
+              "lockUp": true,
+              "lockDown": true
+            },
+            "beforeWorldAxis": [
+              1.3435883890517886e-07,
+              0.999999999999991
+            ],
+            "afterWorldAxis": [
+              1.343588386602495e-07,
+              -0.999999999999991
+            ],
+            "directedAxisError": 1.999999999999982,
+            "unorientedAxisError": 2.6871767756542835e-07,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": false
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "body",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "StickBody",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 2.075808402083313,
+              "hausdorffDistance": 1.7144206702353135,
+              "coordinateFloat32Ulp": 1.9073486328125e-06,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 1.4198525575200265e-05,
+              "precisionAreaBound": 0.0003989104212510378,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "input",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.10000000149011612,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "input_area",
+                "sourceColliderType": "PolygonCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 6,
+                "sourceRole": "InputArea",
+                "trigger": false
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 5.634418564301174,
+              "hausdorffDistance": 1.7144206624907126,
+              "coordinateFloat32Ulp": 1.9073486328125e-06,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 1.5221179433790694e-05,
+              "precisionAreaBound": 0.0005099805748050855,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        },
+        {
+          "rootId": 6,
+          "kind": "fixed",
+          "nativeTemplateUnchanged": true,
+          "nonposeNativeInputRigidbodyStateContractUnchanged": true,
+          "movement": {
+            "sourceTemplateMovement": null,
+            "beforeWorldAxis": null,
+            "afterWorldAxis": null,
+            "directedAxisError": 0.0,
+            "unorientedAxisError": 0.0,
+            "nativePrecisionAxisBound": 2.1305288720633906e-06,
+            "unorientedSlideAxisEquivalent": true,
+            "directedSlideAxisEquivalent": true
+          },
+          "physicalInputGeometryEqualWithinNativePrecision": false,
+          "perNativeRole": [
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_trigger",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideBody",
+                "trigger": true
+              },
+              "shapeCount": 1,
+              "symmetricDifferenceArea": 0.7812500000000024,
+              "hausdorffDistance": 1.2265702133687832,
+              "coordinateFloat32Ulp": 1.9073486328125e-06,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 9.75992340331339e-06,
+              "precisionAreaBound": 4.880021552832537e-05,
+              "geometryEqualWithinNativePrecision": false
+            },
+            {
+              "kind": "physical",
+              "shapeContract": {
+                "attachmentId": -1,
+                "edgeRadius": 0.0,
+                "localZ": 0.0,
+                "physicsMaterial": {
+                  "fileId": 0,
+                  "pathId": 0
+                },
+                "role": "guide_wall",
+                "sourceColliderType": "BoxCollider2D",
+                "sourceEnabled": true,
+                "sourceLayer": 7,
+                "sourceRole": "CatchGuideWall",
+                "trigger": false
+              },
+              "shapeCount": 2,
+              "symmetricDifferenceArea": 0.25199999999999717,
+              "hausdorffDistance": 1.226570248302075,
+              "coordinateFloat32Ulp": 1.9073486328125e-06,
+              "angleFloat32UlpDegrees": 3.0517578125e-05,
+              "precisionHausdorffBound": 9.75992340331339e-06,
+              "precisionAreaBound": 7.573760412147025e-05,
+              "geometryEqualWithinNativePrecision": false
+            }
+          ]
+        }
+      ],
+      "accepted": false,
+      "limits": "Initial native role/input geometry, unchanged native state/RB/relation contracts and bidirectional movement-axis reparameterization only; not stateful native release order, difficulty or player-label equivalence."
+    }
+  ],
+  "hashes": {
+    "pack": "52dcb690a9c99aebb80849ab8d9201a07872ab47361e311d71072131cd72ec5c",
+    "sources": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "tool": "84414c968678f1f77733ed24fd6b472a0c9d5c83ad83f3b84908107abbc57b19"
+  }
+}

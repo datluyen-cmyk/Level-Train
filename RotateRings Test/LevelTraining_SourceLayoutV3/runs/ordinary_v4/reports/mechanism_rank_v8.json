@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "status": "evaluated_default_UI_tag_proxy_not_human_difficulty",
+  "labelMeaning": "Original game default-config difficulty tag resolved from progression rules; not observed player difficulty.",
+  "sourceCount": 460,
+  "classCounts": {
+    "Normal": 365,
+    "Hard": 50,
+    "VeryHard": 45
+  },
+  "featureCount": 33,
+  "featureNames": [
+    "log_part_count",
+    "log_movable_root_count",
+    "part_fraction_ring",
+    "part_fraction_slider",
+    "part_fraction_fixed",
+    "part_fraction_butterfly",
+    "authored_link_rate",
+    "guide_link_rate",
+    "bomb_rate",
+    "chain_locked_root_fraction",
+    "mean_chain_locks_per_root",
+    "normalized_chain_lock_total",
+    "mean_ring_gap_fraction",
+    "ring_gap_std_fraction",
+    "closed_ring_fraction",
+    "mean_ring_orientation_sin",
+    "mean_ring_orientation_cos",
+    "mean_pair_relative_angle_sin",
+    "mean_pair_relative_angle_cos",
+    "normalized_pair_distance_mean",
+    "normalized_pair_distance_std",
+    "near_pair_fraction_lt2r",
+    "hardblock_pin_mean_per_ring",
+    "hardblock_pin_std",
+    "pin_bearing_circular_dispersion",
+    "guided_slider_component_fraction",
+    "largest_guided_slider_component_fraction",
+    "guided_slider_mean_degree",
+    "guided_slider_degree_std",
+    "slider_fraction",
+    "mobility_axis_dispersion",
+    "bomb_part_fraction",
+    "bomb_near_pair_fraction"
+  ],
+  "featureRestrictions": "source IDs and absolute coordinates are absent; only scale-normalized pairwise geometric neighborhood statistics use coordinates.",
+  "splits": 5,
+  "foldMetrics": {
+    "mechanismAware": [
+      {
+        "fold": 0,
+        "testN": 92,
+        "balancedAccuracy": 0.3403292181069959,
+        "macroF1": 0.24135608963195168,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            26,
+            37,
+            18
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "fold": 1,
+        "testN": 92,
+        "balancedAccuracy": 0.3907407407407408,
+        "macroF1": 0.3337757820516441,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            34,
+            26,
+            12
+          ],
+          [
+            2,
+            4,
+            4
+          ],
+          [
+            3,
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "fold": 2,
+        "testN": 92,
+        "balancedAccuracy": 0.3910765160765161,
+        "macroF1": 0.33194192377495463,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            37,
+            19,
+            16
+          ],
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            1,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "fold": 3,
+        "testN": 92,
+        "balancedAccuracy": 0.4234596249521623,
+        "macroF1": 0.36362841217210146,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            31,
+            20,
+            16
+          ],
+          [
+            2,
+            6,
+            4
+          ],
+          [
+            3,
+            6,
+            4
+          ]
+        ]
+      },
+      {
+        "fold": 4,
+        "testN": 92,
+        "balancedAccuracy": 0.5020294266869609,
+        "macroF1": 0.43232865583925156,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            41,
+            24,
+            8
+          ],
+          [
+            5,
+            5,
+            0
+          ],
+          [
+            3,
+            2,
+            4
+          ]
+        ]
+      }
+    ],
+    "countsOnly": [
+      {
+        "fold": 0,
+        "testN": 92,
+        "balancedAccuracy": 0.5016460905349794,
+        "macroF1": 0.4271144278606965,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            49,
+            2,
+            30
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "fold": 1,
+        "testN": 92,
+        "balancedAccuracy": 0.4527777777777778,
+        "macroF1": 0.37066603121648994,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            33,
+            27,
+            12
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            2,
+            2,
+            6
+          ]
+        ]
+      },
+      {
+        "fold": 2,
+        "testN": 92,
+        "balancedAccuracy": 0.43523606023606026,
+        "macroF1": 0.37487629329734595,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            41,
+            19,
+            12
+          ],
+          [
+            5,
+            4,
+            4
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "fold": 3,
+        "testN": 92,
+        "balancedAccuracy": 0.3942467151422375,
+        "macroF1": 0.3496913729471869,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            32,
+            20,
+            15
+          ],
+          [
+            2,
+            2,
+            8
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ]
+      },
+      {
+        "fold": 4,
+        "testN": 92,
+        "balancedAccuracy": 0.4074581430745814,
+        "macroF1": 0.37265043130980513,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            43,
+            21,
+            9
+          ],
+          [
+            5,
+            3,
+            2
+          ],
+          [
+            2,
+            4,
+            3
+          ]
+        ]
+      }
+    ],
+    "majority": [
+      {
+        "fold": 0,
+        "testN": 92,
+        "balancedAccuracy": 0.3333333333333333,
+        "macroF1": 0.31213872832369943,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            81,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "fold": 1,
+        "testN": 92,
+        "balancedAccuracy": 0.3333333333333333,
+        "macroF1": 0.2926829268292683,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            72,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "fold": 2,
+        "testN": 92,
+        "balancedAccuracy": 0.3333333333333333,
+        "macroF1": 0.2926829268292683,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            72,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "fold": 3,
+        "testN": 92,
+        "balancedAccuracy": 0.3333333333333333,
+        "macroF1": 0.2809224318658281,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            67,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "fold": 4,
+        "testN": 92,
+        "balancedAccuracy": 0.3333333333333333,
+        "macroF1": 0.29494949494949496,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            73,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "progressionRule": [
+      {
+        "fold": 0,
+        "testN": 92,
+        "balancedAccuracy": 1.0,
+        "macroF1": 1.0,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            81,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "fold": 1,
+        "testN": 92,
+        "balancedAccuracy": 1.0,
+        "macroF1": 1.0,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            72,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      },
+      {
+        "fold": 2,
+        "testN": 92,
+        "balancedAccuracy": 1.0,
+        "macroF1": 1.0,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            72,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "fold": 3,
+        "testN": 92,
+        "balancedAccuracy": 1.0,
+        "macroF1": 1.0,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            67,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            13
+          ]
+        ]
+      },
+      {
+        "fold": 4,
+        "testN": 92,
+        "balancedAccuracy": 1.0,
+        "macroF1": 1.0,
+        "confusionMatrixActualRowsPredictedColumns": [
+          [
+            73,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  "aggregateOutOfFoldMetrics": {
+    "mechanismAware": {
+      "balancedAccuracy": 0.40693049213597154,
+      "macroF1": 0.33784849429737296,
+      "confusionMatrixActualRowsPredictedColumns": [
+        [
+          169,
+          126,
+          70
+        ],
+        [
+          17,
+          19,
+          14
+        ],
+        [
+          11,
+          17,
+          17
+        ]
+      ]
+    },
+    "countsOnly": {
+      "balancedAccuracy": 0.4371182141045155,
+      "macroF1": 0.3691833590138675,
+      "confusionMatrixActualRowsPredictedColumns": [
+        [
+          198,
+          89,
+          78
+        ],
+        [
+          16,
+          14,
+          20
+        ],
+        [
+          11,
+          12,
+          22
+        ]
+      ]
+    },
+    "majority": {
+      "balancedAccuracy": 0.3333333333333333,
+      "macroF1": 0.29494949494949496,
+      "confusionMatrixActualRowsPredictedColumns": [
+        [
+          365,
+          0,
+          0
+        ],
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          45,
+          0,
+          0
+        ]
+      ]
+    },
+    "progressionRule": {
+      "balancedAccuracy": 1.0,
+      "macroF1": 1.0,
+      "confusionMatrixActualRowsPredictedColumns": [
+        [
+          365,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          45
+        ]
+      ]
+    }
+  },
+  "baselines": [
+    "countsOnly class-weighted logistic regression",
+    "training-fold majority",
+    "extracted progression-position rule (reported separately; expected to be near-exact because labels are position-derived)"
+  ],
+  "model": "StandardScaler + class-weighted LogisticRegression C=1; refit on full corpus only after family-fold OOF evaluation.",
+  "mechanismScope": [
+    "gap and closed-ring proxy",
+    "orientation and pairwise relative-angle summaries",
+    "pin counts and bearing dispersion when native authored bearings are present",
+    "guided slider component/degree summaries",
+    "normalized chain-lock intensity",
+    "static pairwise proximity and bomb-context potential"
+  ],
+  "limitations": [
+    "Static proxies do not simulate swept collision, sequential release, or actual bomb contact.",
+    "Source labels are cyclic UI tags and are not human difficulty measurements.",
+    "Held-out mechanism-aware tag prediction does not beat counts-only; do not present this as a learned difficulty predictor."
+  ],
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "defaultDifficultyRuleReport": "250e9da2477870aaee6a58b4707a2cb022f1856b64118452ad4ecf5dd42e730d",
+    "familySplits": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "mechanismLessons": "6323b5950a24bf1124dd57e130850c6099bb082499005a142c1d18d6b4c17dd5",
+    "featureCode": "b3c180b334c0c4e7fd7668eec06a2f6791d45387d3b42b54763732fe21327b9b",
+    "savedModel": "2d0fed5ddfe308f24a4688b1faa2323f00407fade5d1ba14774b120ff4ee87ee"
+  }
+}

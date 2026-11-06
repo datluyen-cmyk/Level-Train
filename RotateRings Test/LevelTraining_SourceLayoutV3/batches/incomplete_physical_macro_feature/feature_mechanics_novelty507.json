@@ -1,0 +1,4498 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "constructed": 235,
+  "allPreliminaryGatesPassed": 0,
+  "rejectionCounts": {
+    "nativeRawGeometrySeam": 226,
+    "localNativeExtent": 200,
+    "localMechanicMix": 63,
+    "localNativeStrokeCoverage": 122,
+    "localAuthoredRelationDensity": 103
+  },
+  "limits": [
+    "Every survivor still requires visual review, native source replay, source-relative difficulty calibration and independent candidate replay.",
+    "Local bounds preserve native coverage and source mechanic mix, not human fun."
+  ],
+  "levels": [
+    {
+      "id": 5000001,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.3577775231593625,
+        0.6677390966430574
+      ],
+      "nativeStrokeCoverageRatio": 0.9395753671325188,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000002,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.2231695518341303,
+        0.9891423486689586
+      ],
+      "nativeStrokeCoverageRatio": 0.9395753671325187,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000003,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.7090347909278052,
+        0.6673267145510878
+      ],
+      "nativeStrokeCoverageRatio": 0.564190269030948,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000004,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.7711463044036281,
+        0.49424069488188754
+      ],
+      "nativeStrokeCoverageRatio": 0.5641902690309482,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000005,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.126479701865949,
+        1.1569004096415505
+      ],
+      "nativeStrokeCoverageRatio": 1.266187335709067,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000006,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.1742638265980565,
+        1.1569004143818817
+      ],
+      "nativeStrokeCoverageRatio": 1.2661873357090676,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000007,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.7934269320347571,
+        0.7375396357514873
+      ],
+      "nativeStrokeCoverageRatio": 1.1672481943160211,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000008,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.923751622735956,
+        1.3497365116407103
+      ],
+      "nativeStrokeCoverageRatio": 1.3893596298826565,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000009,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.6824743769433876,
+        1.0870519362990128
+      ],
+      "nativeStrokeCoverageRatio": 1.3893596298826558,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000010,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.050035837933166,
+        0.30241775095933454
+      ],
+      "nativeStrokeCoverageRatio": 0.4509828654874125,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000011,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.54838363166854,
+        1.140961937257155
+      ],
+      "nativeStrokeCoverageRatio": 1.3456109530985934,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000012,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2878430200675082,
+        1.1409619372571544
+      ],
+      "nativeStrokeCoverageRatio": 1.3456109530985938,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000013,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.3952780511960872,
+        0.8990135175304009
+      ],
+      "nativeStrokeCoverageRatio": 1.3456109530985936,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000014,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.343782744533455,
+        1.1018780895729328
+      ],
+      "nativeStrokeCoverageRatio": 1.0863882888707344,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000015,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8492402060185543,
+        1.3153800409786907
+      ],
+      "nativeStrokeCoverageRatio": 1.0863882888707341,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000016,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.344784327686467,
+        1.3153800718784625
+      ],
+      "nativeStrokeCoverageRatio": 1.0863882888707337,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000017,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.0919654855096197,
+        1.0065088566395441
+      ],
+      "nativeStrokeCoverageRatio": 1.4148616349137417,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000018,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.8039828555703736,
+        0.991411774116009
+      ],
+      "nativeStrokeCoverageRatio": 1.1985716335896968,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000019,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.6642500601589707,
+        0.5167194545766679
+      ],
+      "nativeStrokeCoverageRatio": 0.3698935174946986,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000020,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2016103762285697,
+        0.9608692911478645
+      ],
+      "nativeStrokeCoverageRatio": 1.3468549440749364,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000021,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.5419527922415526,
+        1.050805658317144
+      ],
+      "nativeStrokeCoverageRatio": 1.3468549440749367,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000022,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.4626316575724643,
+        0.5893698480835965
+      ],
+      "nativeStrokeCoverageRatio": 0.965035540482485,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000023,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.0837399494008504,
+        0.5382929652702163
+      ],
+      "nativeStrokeCoverageRatio": 0.9650355404824842,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000024,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.8619549381791636,
+        0.7643049988229752
+      ],
+      "nativeStrokeCoverageRatio": 0.9861844953473821,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000025,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.1392153709009765,
+        1.079520634910872
+      ],
+      "nativeStrokeCoverageRatio": 1.1689032856501174,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000026,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.923960367036388,
+        0.824966268448922
+      ],
+      "nativeStrokeCoverageRatio": 1.1689032856501158,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000027,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.9739615988043935,
+        0.6512634901315169
+      ],
+      "nativeStrokeCoverageRatio": 0.8275111571384197,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000028,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.469359825304269,
+        0.9324222107606637
+      ],
+      "nativeStrokeCoverageRatio": 1.4936148508624967,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000029,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6361165459253026,
+        0.9324222146310466
+      ],
+      "nativeStrokeCoverageRatio": 1.493614850862496,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000030,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.046386136917536,
+        1.1750315836623109
+      ],
+      "nativeStrokeCoverageRatio": 1.1060652531955921,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000031,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.368417417732217,
+        1.5519387535334945
+      ],
+      "nativeStrokeCoverageRatio": 1.1060652531955917,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000032,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.129579223416939,
+        0.49185977271140835
+      ],
+      "nativeStrokeCoverageRatio": 0.5634687640803379,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000033,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.8089378958625549,
+        0.7108454200544284
+      ],
+      "nativeStrokeCoverageRatio": 0.5394612950897681,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000034,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0829783862037334,
+        0.9480107452710061
+      ],
+      "nativeStrokeCoverageRatio": 1.2601911192615476,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000035,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        2.239753427552552,
+        1.6667202490463204
+      ],
+      "nativeStrokeCoverageRatio": 2.401874248677827,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000036,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.0170491024492656,
+        1.2218490316194168
+      ],
+      "nativeStrokeCoverageRatio": 2.4018742486778266,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000037,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.0715785654272703,
+        0.4770312950438336
+      ],
+      "nativeStrokeCoverageRatio": 0.4566885019970015,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000038,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.1736892382660216,
+        0.8773599148977533
+      ],
+      "nativeStrokeCoverageRatio": 0.6575650880730777,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000039,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.1736892382660213,
+        0.6403167525022447
+      ],
+      "nativeStrokeCoverageRatio": 0.6575650880730779,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000040,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.3186759231136649,
+        1.3367346502228188
+      ],
+      "nativeStrokeCoverageRatio": 1.03259733025957,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000041,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.9611646452024616,
+        0.6799099138496091
+      ],
+      "nativeStrokeCoverageRatio": 1.2380830922388117,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000042,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.8134393029419063,
+        0.9312619038030813
+      ],
+      "nativeStrokeCoverageRatio": 0.5941597797073355,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000043,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.0390454675936884,
+        0.6082870068082992
+      ],
+      "nativeStrokeCoverageRatio": 0.5941597797073358,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000044,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.978808865219119,
+        0.6143231015622364
+      ],
+      "nativeStrokeCoverageRatio": 0.7625611384668863,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000045,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.1236889229422877,
+        1.0952499823890418
+      ],
+      "nativeStrokeCoverageRatio": 0.7625611384668861,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000046,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.964782305660277,
+        0.6339479544333504
+      ],
+      "nativeStrokeCoverageRatio": 0.8788118342412659,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 1,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000047,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.2997011440048119,
+        1.0600149927603868
+      ],
+      "nativeStrokeCoverageRatio": 0.5970617012136225,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000048,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.403729130806132,
+        0.9344004867635457
+      ],
+      "nativeStrokeCoverageRatio": 1.57744475091265,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000049,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.1738116880666827,
+        0.5331934296685416
+      ],
+      "nativeStrokeCoverageRatio": 0.6393609834813301,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000050,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.6972854288696548,
+        0.48883030046873793
+      ],
+      "nativeStrokeCoverageRatio": 0.32993279994361513,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000051,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.0499076558492118,
+        0.8333260115485424
+      ],
+      "nativeStrokeCoverageRatio": 0.9559546842437959,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000052,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.9788087708815185,
+        0.9727737058586653
+      ],
+      "nativeStrokeCoverageRatio": 0.9559546842437963,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000053,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.836357350544256,
+        0.6669319481631861
+      ],
+      "nativeStrokeCoverageRatio": 1.0171376135137609,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000054,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.6537516578011711,
+        0.7041139121812624
+      ],
+      "nativeStrokeCoverageRatio": 0.8068032236745065,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000055,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.2899855300682093,
+        1.0266069226945687
+      ],
+      "nativeStrokeCoverageRatio": 0.8068032236745067,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000056,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.20283623240111,
+        0.4969761303458491
+      ],
+      "nativeStrokeCoverageRatio": 0.6740812529366068,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000057,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        2.0469053750632877,
+        0.6225441671035434
+      ],
+      "nativeStrokeCoverageRatio": 0.7606959220734523,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000058,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.3626748803953923,
+        1.0040562567688527
+      ],
+      "nativeStrokeCoverageRatio": 1.266187335709067,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000059,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.4632883339010694,
+        1.6092027965190567
+      ],
+      "nativeStrokeCoverageRatio": 2.7255539518924503,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000060,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.203146886157023,
+        1.254982421372777
+      ],
+      "nativeStrokeCoverageRatio": 1.1741274124589525,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000061,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.1073574582982153,
+        1.1410948555856189
+      ],
+      "nativeStrokeCoverageRatio": 0.9416835118478789,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000062,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.26888083665444,
+        0.5972325506144662
+      ],
+      "nativeStrokeCoverageRatio": 0.9416835118478785,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000063,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.9893133820944915,
+        0.9283095150951712
+      ],
+      "nativeStrokeCoverageRatio": 1.4490562996764513,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000064,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.3641916456434395,
+        0.995894480151048
+      ],
+      "nativeStrokeCoverageRatio": 1.4490562996764513,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000065,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8191636610480871,
+        0.6204449388387154
+      ],
+      "nativeStrokeCoverageRatio": 0.5820184312857632,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000066,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.279458291045339,
+        1.2519733407706461
+      ],
+      "nativeStrokeCoverageRatio": 1.4412303872738972,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000067,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.9190693703668753,
+        1.1196404007565068
+      ],
+      "nativeStrokeCoverageRatio": 1.4412303872738974,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000068,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.0473790997363879,
+        0.4568323049150892
+      ],
+      "nativeStrokeCoverageRatio": 0.4566884807758033,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000069,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8980460780314257,
+        0.48964092063434855
+      ],
+      "nativeStrokeCoverageRatio": 0.5392063499738298,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000070,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.3082716662763896,
+        0.7394915120934819
+      ],
+      "nativeStrokeCoverageRatio": 0.8234876747186853,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000071,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.3231884535195588,
+        0.7550225447676687
+      ],
+      "nativeStrokeCoverageRatio": 0.8234876747186847,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 1,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000072,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2949188483357874,
+        0.7551523257388809
+      ],
+      "nativeStrokeCoverageRatio": 1.1569286861038128,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000073,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.7427036777883391,
+        1.157868642217132
+      ],
+      "nativeStrokeCoverageRatio": 1.4650493299990457,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000074,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.850101247528002,
+        0.9526284022083101
+      ],
+      "nativeStrokeCoverageRatio": 1.4650493299990455,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000075,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.150662672418051,
+        0.8804570351632839
+      ],
+      "nativeStrokeCoverageRatio": 1.4650493299990455,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000076,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.4146300210873224,
+        0.7381819512736224
+      ],
+      "nativeStrokeCoverageRatio": 1.2813906576990612,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000077,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.869386898408336,
+        0.8659449866720881
+      ],
+      "nativeStrokeCoverageRatio": 1.2813906576990597,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000078,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.773580415959557,
+        0.7589587814948703
+      ],
+      "nativeStrokeCoverageRatio": 1.6355790784072932,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000079,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6603105712308328,
+        1.3299212137366383
+      ],
+      "nativeStrokeCoverageRatio": 1.6355790784072932,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000080,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.9360610655395416,
+        0.9146657417240714
+      ],
+      "nativeStrokeCoverageRatio": 1.5283351377027314,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000081,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.078626301441719,
+        1.1033841135489004
+      ],
+      "nativeStrokeCoverageRatio": 1.528335137702731,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000082,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.1670583227936246,
+        0.44976699877356363
+      ],
+      "nativeStrokeCoverageRatio": 0.6355490851013567,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000083,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.597500928549005,
+        0.733706230922367
+      ],
+      "nativeStrokeCoverageRatio": 0.6123569165581476,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000084,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.5051553136001063,
+        0.8838304088060143
+      ],
+      "nativeStrokeCoverageRatio": 0.9148314139835042,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000085,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.5124918366102165,
+        0.6667249091124745
+      ],
+      "nativeStrokeCoverageRatio": 1.3358597226235136,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000086,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.4636410091110854,
+        1.0582839683406156
+      ],
+      "nativeStrokeCoverageRatio": 1.3358597226235123,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000087,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.830029108885268,
+        1.0689743568278394
+      ],
+      "nativeStrokeCoverageRatio": 1.2837590828972676,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000088,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.7847205554423684,
+        0.8843913401298941
+      ],
+      "nativeStrokeCoverageRatio": 0.6926337417224403,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000089,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.2673108240282382,
+        1.1789083453055464
+      ],
+      "nativeStrokeCoverageRatio": 1.3965014321544995,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000090,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.7391164639496983,
+        1.621088181883377
+      ],
+      "nativeStrokeCoverageRatio": 1.3965014321544988,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000091,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.1116335342325083,
+        1.2047142604745558
+      ],
+      "nativeStrokeCoverageRatio": 1.5145305901269575,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000092,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.8535482216711061,
+        1.1695394435900548
+      ],
+      "nativeStrokeCoverageRatio": 1.2249812046780808,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000093,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.9473196149419139,
+        0.7348695917505126
+      ],
+      "nativeStrokeCoverageRatio": 1.2249812046780808,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000094,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.647920400646248,
+        0.7348695917505126
+      ],
+      "nativeStrokeCoverageRatio": 1.2249812046780808,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000095,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.1919140025522004,
+        1.0803839896581737
+      ],
+      "nativeStrokeCoverageRatio": 1.5717127543500082,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000096,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6538578095234062,
+        1.3437478527074276
+      ],
+      "nativeStrokeCoverageRatio": 1.5717127543500078,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000097,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.4955825520797943,
+        0.7366523014332961
+      ],
+      "nativeStrokeCoverageRatio": 1.1246626347597088,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000098,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        2.1237559749834567,
+        0.7271148919803047
+      ],
+      "nativeStrokeCoverageRatio": 1.1246626347597093,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000099,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.0592179505051538,
+        0.8809914200196898
+      ],
+      "nativeStrokeCoverageRatio": 0.9027281729386905,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000100,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.9642894561588592,
+        1.100343425911793
+      ],
+      "nativeStrokeCoverageRatio": 0.9027281729386901,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000101,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.7485379253543866,
+        0.8176384956427649
+      ],
+      "nativeStrokeCoverageRatio": 0.6227049617675183,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000102,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.6949567214207896,
+        0.52005327651162
+      ],
+      "nativeStrokeCoverageRatio": 0.6227049617675187,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000103,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.9614842947209258,
+        1.1615819042319675
+      ],
+      "nativeStrokeCoverageRatio": 1.0090212289337077,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000104,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7864934389332836,
+        0.973044664188846
+      ],
+      "nativeStrokeCoverageRatio": 1.0090212289337077,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000105,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.5699927087144198,
+        0.446647535067941
+      ],
+      "nativeStrokeCoverageRatio": 0.3670392795883568,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000106,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.7085393909645974,
+        0.46624857670670244
+      ],
+      "nativeStrokeCoverageRatio": 1.2117981500776147,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000107,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.7091753949699962,
+        0.46554010179281397
+      ],
+      "nativeStrokeCoverageRatio": 1.2117981500776145,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000108,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.089427048042851,
+        0.9524456910345103
+      ],
+      "nativeStrokeCoverageRatio": 1.539660426302374,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000109,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.7489005225114793,
+        1.0658922049351611
+      ],
+      "nativeStrokeCoverageRatio": 1.5396604263023743,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000110,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.9067082371020134,
+        0.4002178700924852
+      ],
+      "nativeStrokeCoverageRatio": 0.4190325623419943,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000111,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6701616157162635,
+        1.2958225898077993
+      ],
+      "nativeStrokeCoverageRatio": 1.2894646737361495,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000112,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.5636440479668328,
+        1.9456496186445182
+      ],
+      "nativeStrokeCoverageRatio": 3.0164432447832583,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000113,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.564056065839986,
+        1.9454246944543387
+      ],
+      "nativeStrokeCoverageRatio": 3.0164432447832534,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000114,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.5640560842145477,
+        1.9454246834507385
+      ],
+      "nativeStrokeCoverageRatio": 3.0164432447832414,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000115,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        3.56364402869093,
+        1.9456496282371383
+      ],
+      "nativeStrokeCoverageRatio": 3.0164432447832557,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000116,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.4493869449258312,
+        0.6773490259828878
+      ],
+      "nativeStrokeCoverageRatio": 1.0087551601333125,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000117,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.6230874058686917,
+        0.567092383477003
+      ],
+      "nativeStrokeCoverageRatio": 0.42840537536408935,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000118,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.8716454852923226,
+        0.7940065607314049
+      ],
+      "nativeStrokeCoverageRatio": 0.682641064229825,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000119,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.101345609117842,
+        0.770604437880574
+      ],
+      "nativeStrokeCoverageRatio": 0.682641064229825,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000120,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.9230650839252994,
+        0.8764896502720164
+      ],
+      "nativeStrokeCoverageRatio": 0.9978606542567036,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000121,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.366985282184137,
+        0.7032375812252698
+      ],
+      "nativeStrokeCoverageRatio": 0.9978606542567034,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000122,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.9032209491775861,
+        0.8750452208225665
+      ],
+      "nativeStrokeCoverageRatio": 0.823925771248225,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000123,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.2834825445278755,
+        0.6000083841821808
+      ],
+      "nativeStrokeCoverageRatio": 0.823925771248225,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000124,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.9959870878499546,
+        0.7846018700938431
+      ],
+      "nativeStrokeCoverageRatio": 1.0578691005581256,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000125,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.9727877941184622,
+        1.1532200254934213
+      ],
+      "nativeStrokeCoverageRatio": 0.8634469928591062,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 1,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000126,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.1728294784064413,
+        0.9535498566098126
+      ],
+      "nativeStrokeCoverageRatio": 0.8634469928591065,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000127,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6382773726209503,
+        1.0100782714442498
+      ],
+      "nativeStrokeCoverageRatio": 1.4848828380036776,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000128,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        2.1262992179705575,
+        0.9089061275884499
+      ],
+      "nativeStrokeCoverageRatio": 1.43876872501826,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000129,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.222234388505221,
+        0.871367848432638
+      ],
+      "nativeStrokeCoverageRatio": 0.7770969404854466,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000130,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        0.9315290404582709,
+        0.5229249509950307
+      ],
+      "nativeStrokeCoverageRatio": 0.45669133474417,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000131,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.5023146505128067,
+        1.0367079565454027
+      ],
+      "nativeStrokeCoverageRatio": 1.3354379955434699,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000132,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localMechanicMix",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.659400835497481,
+        0.9121317695148704
+      ],
+      "nativeStrokeCoverageRatio": 1.3354379955434699,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000133,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 4,
+      "nativeExtentRatios": [
+        1.4928694722267897,
+        0.9075429226785302
+      ],
+      "nativeStrokeCoverageRatio": 0.8420417724490185,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000134,
+      "position": 126,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 5,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.6310375305816152,
+        0.9283313737002141
+      ],
+      "nativeStrokeCoverageRatio": 1.3374283361143227,
+      "oldLocalAuthoredEdges": 3,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000135,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9921302804189513,
+        1.664644792885523
+      ],
+      "nativeStrokeCoverageRatio": 1.5452407426110015,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000136,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1950712331264697,
+        1.2952110754046309
+      ],
+      "nativeStrokeCoverageRatio": 1.5090719685639886,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000137,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.3197765553078207,
+        1.766959198548789
+      ],
+      "nativeStrokeCoverageRatio": 0.971002702051467,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000138,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.820701112019514,
+        1.4382837905895367
+      ],
+      "nativeStrokeCoverageRatio": 1.0005817471415794,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000139,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.099045625985055,
+        1.669120550368991
+      ],
+      "nativeStrokeCoverageRatio": 1.1111823934940612,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000140,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9315819450866228,
+        1.9561034514098918
+      ],
+      "nativeStrokeCoverageRatio": 1.1111823934940623,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000141,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.0352674019907566,
+        1.3955815971459515
+      ],
+      "nativeStrokeCoverageRatio": 1.0246530217283698,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000142,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.1134362835682234,
+        1.6633029200171354
+      ],
+      "nativeStrokeCoverageRatio": 1.2254755499362329,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000143,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.3898367006356442,
+        1.3742830435454998
+      ],
+      "nativeStrokeCoverageRatio": 1.2254755499362333,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000144,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.487085103089662,
+        1.4782462289963902
+      ],
+      "nativeStrokeCoverageRatio": 1.258978970463458,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000145,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.5077458830518544,
+        1.924586425781298
+      ],
+      "nativeStrokeCoverageRatio": 1.3719190328355597,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000146,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.6522375478058132,
+        1.243795127239554
+      ],
+      "nativeStrokeCoverageRatio": 0.7984480070148354,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000147,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.3102096205508964,
+        2.5092103040536795
+      ],
+      "nativeStrokeCoverageRatio": 1.756909799576492,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000148,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.498279825925592,
+        1.3239632783034248
+      ],
+      "nativeStrokeCoverageRatio": 0.7312519165278223,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000149,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1916585448374373,
+        1.8513894541420934
+      ],
+      "nativeStrokeCoverageRatio": 1.352878409668694,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000150,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.9375391998327915,
+        1.3459307547980168
+      ],
+      "nativeStrokeCoverageRatio": 1.0944357043067157,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000151,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.8343269372383647,
+        1.7938947105782264
+      ],
+      "nativeStrokeCoverageRatio": 1.094435704306716,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000152,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.3742385783272237,
+        1.852283010335987
+      ],
+      "nativeStrokeCoverageRatio": 1.1408612177217232,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000153,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0556233406970548,
+        2.531611064324132
+      ],
+      "nativeStrokeCoverageRatio": 1.1408612177217228,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000154,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.5204760677586614,
+        1.8244944692930707
+      ],
+      "nativeStrokeCoverageRatio": 1.000739073141634,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000155,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.1894805202614478,
+        1.1464250155700881
+      ],
+      "nativeStrokeCoverageRatio": 1.0007390731416335,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000156,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0058856501987192,
+        1.1464250155700881
+      ],
+      "nativeStrokeCoverageRatio": 1.0007390731416332,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000157,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2136060738116632,
+        1.2116025242586088
+      ],
+      "nativeStrokeCoverageRatio": 1.169969875625131,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 6,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000158,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.292701388578863,
+        1.559955199396209
+      ],
+      "nativeStrokeCoverageRatio": 1.1699698756251318,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000159,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.019163361627338,
+        1.3073747159956763
+      ],
+      "nativeStrokeCoverageRatio": 1.0251660005475967,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000160,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.8769577376860774,
+        2.3437574015256217
+      ],
+      "nativeStrokeCoverageRatio": 1.3402254831243856,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000161,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.8823576639620475,
+        2.3437574015256213
+      ],
+      "nativeStrokeCoverageRatio": 1.3402254831243856,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000162,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.8673925795995352,
+        2.3857355814190986
+      ],
+      "nativeStrokeCoverageRatio": 1.355513988542716,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000163,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.3962268569720204,
+        1.8302047450743466
+      ],
+      "nativeStrokeCoverageRatio": 1.307288728799458,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000164,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.9312548284651636,
+        1.9484760805587682
+      ],
+      "nativeStrokeCoverageRatio": 1.3072887287994595,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000165,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.788950892309985,
+        3.7623370397503177
+      ],
+      "nativeStrokeCoverageRatio": 2.6895151976735683,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000166,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.6935434320572251,
+        1.1968318955333699
+      ],
+      "nativeStrokeCoverageRatio": 1.336173881464003,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000167,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0118564643010257,
+        2.0853858581538396
+      ],
+      "nativeStrokeCoverageRatio": 1.3361738814640036,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000168,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7370263465013137,
+        1.5525590714147954
+      ],
+      "nativeStrokeCoverageRatio": 0.9544710164100688,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000169,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7923284915946923,
+        2.312192556420434
+      ],
+      "nativeStrokeCoverageRatio": 1.34062792506463,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000170,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.3672581055113147,
+        2.135082982626784
+      ],
+      "nativeStrokeCoverageRatio": 2.090075240683623,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000171,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.3663218732279616,
+        2.320048500200854
+      ],
+      "nativeStrokeCoverageRatio": 2.090075240683622,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000172,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.0750462734111044,
+        1.5175789422427723
+      ],
+      "nativeStrokeCoverageRatio": 1.1408611450171549,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000173,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1703557058679952,
+        1.7011430067898254
+      ],
+      "nativeStrokeCoverageRatio": 1.2755339446056477,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000174,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.5652572824921434,
+        1.3671137860792246
+      ],
+      "nativeStrokeCoverageRatio": 0.8151946678461768,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000175,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8374014228882286,
+        1.0970123100291627
+      ],
+      "nativeStrokeCoverageRatio": 0.8151946678461769,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000176,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.262719245887469,
+        1.5650527261353762
+      ],
+      "nativeStrokeCoverageRatio": 1.4819137647905167,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000177,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.922978357204285,
+        1.6125284701759843
+      ],
+      "nativeStrokeCoverageRatio": 1.0909759078707655,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000178,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.019468009297786,
+        1.4132006901638514
+      ],
+      "nativeStrokeCoverageRatio": 1.0909759078707653,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000179,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.1759519841768034,
+        1.2765460596810767
+      ],
+      "nativeStrokeCoverageRatio": 0.9356608022384769,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000180,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9378655579142234,
+        1.6423465138073228
+      ],
+      "nativeStrokeCoverageRatio": 1.2987364204473049,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000181,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.045538381080525,
+        2.086466352139931
+      ],
+      "nativeStrokeCoverageRatio": 1.1709677617160827,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000182,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8110179507851973,
+        1.6509636816465256
+      ],
+      "nativeStrokeCoverageRatio": 0.8076253771633269,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000183,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2921768495652575,
+        1.889099396769334
+      ],
+      "nativeStrokeCoverageRatio": 1.2372842401337973,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000184,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9056058270538945,
+        1.9810413133661993
+      ],
+      "nativeStrokeCoverageRatio": 1.3379138632560987,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000185,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.276138233610267,
+        1.784238076213664
+      ],
+      "nativeStrokeCoverageRatio": 1.4681844271140554,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000186,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.4680540319892923,
+        1.1604629563094104
+      ],
+      "nativeStrokeCoverageRatio": 1.0468223465151847,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000187,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.137263601775181,
+        1.3659488104853386
+      ],
+      "nativeStrokeCoverageRatio": 1.0468223465151842,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000188,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.6130587793061957,
+        1.8264521831251754
+      ],
+      "nativeStrokeCoverageRatio": 1.696814238084721,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000189,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.52100723211407,
+        1.8264521831251748
+      ],
+      "nativeStrokeCoverageRatio": 1.6968142380847215,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000190,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.8283702009198086,
+        0.9800153984749517
+      ],
+      "nativeStrokeCoverageRatio": 1.6968142380847218,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000191,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.944891171148488,
+        2.5706803317376865
+      ],
+      "nativeStrokeCoverageRatio": 1.327206059175876,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000192,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.5157531891756169,
+        1.9651592495043644
+      ],
+      "nativeStrokeCoverageRatio": 1.3272060591758776,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000193,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        2.13342490747876,
+        1.2549186937986072
+      ],
+      "nativeStrokeCoverageRatio": 1.1099889431399705,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000194,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.5997331178714433,
+        3.02336599605127
+      ],
+      "nativeStrokeCoverageRatio": 1.1099889431399703,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000195,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9919648870412234,
+        2.02005906924957
+      ],
+      "nativeStrokeCoverageRatio": 1.563310636885424,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000196,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.2169587841316458,
+        1.236956755646715
+      ],
+      "nativeStrokeCoverageRatio": 0.8642181113921011,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000197,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.1991340272257767,
+        1.0596118224481055
+      ],
+      "nativeStrokeCoverageRatio": 1.0114425604799366,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000198,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.7030671853923047,
+        1.1500612102335444
+      ],
+      "nativeStrokeCoverageRatio": 1.3824497392583814,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000199,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.9650398950344207,
+        2.1281581497830984
+      ],
+      "nativeStrokeCoverageRatio": 1.3824497392583817,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000200,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.393967647171481,
+        1.1500612102335448
+      ],
+      "nativeStrokeCoverageRatio": 1.3824497392583803,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000201,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.182194749747426,
+        1.4387816407044625
+      ],
+      "nativeStrokeCoverageRatio": 1.2485617602241976,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000202,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.27024201752852,
+        1.7281632658298391
+      ],
+      "nativeStrokeCoverageRatio": 1.2485617602241978,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000203,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7860400487909677,
+        1.1890055203114647
+      ],
+      "nativeStrokeCoverageRatio": 0.9451440859672272,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000204,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0670100813278394,
+        1.814990852564655
+      ],
+      "nativeStrokeCoverageRatio": 1.1968609012211808,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000205,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.123003964339663,
+        1.4894291223826703
+      ],
+      "nativeStrokeCoverageRatio": 1.1968609012211817,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000206,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.31320500043851,
+        1.3806223687509749
+      ],
+      "nativeStrokeCoverageRatio": 1.1968609012211813,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000207,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.9375594117261998,
+        1.2836654000506975
+      ],
+      "nativeStrokeCoverageRatio": 1.2209473483150886,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000208,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.5539656396548271,
+        1.2836654000506973
+      ],
+      "nativeStrokeCoverageRatio": 1.2209473483150888,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000209,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.6776763952971957,
+        1.8062363221196138
+      ],
+      "nativeStrokeCoverageRatio": 1.034402108311662,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000210,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7160509333203353,
+        1.806236327572113
+      ],
+      "nativeStrokeCoverageRatio": 1.034402108311662,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000211,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.0976973443623264,
+        1.1593830790199076
+      ],
+      "nativeStrokeCoverageRatio": 0.9535745296704641,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000212,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.0640157081182255,
+        1.3594362863451543
+      ],
+      "nativeStrokeCoverageRatio": 1.2471883601479539,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000213,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1663807476563481,
+        1.240712412113247
+      ],
+      "nativeStrokeCoverageRatio": 1.2471883601479539,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000214,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.2595542667471769,
+        1.5468497161918526
+      ],
+      "nativeStrokeCoverageRatio": 1.2471883601479539,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000215,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7309141100303173,
+        1.4934470769727333
+      ],
+      "nativeStrokeCoverageRatio": 1.100302897091378,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000216,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.9414010588255658,
+        1.6386636683159903
+      ],
+      "nativeStrokeCoverageRatio": 1.1003028970913777,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000217,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.9158464217302859,
+        0.711096981234794
+      ],
+      "nativeStrokeCoverageRatio": 0.5172998058059244,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000218,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.6511040463064329,
+        1.0024890404120772
+      ],
+      "nativeStrokeCoverageRatio": 0.5172998058059244,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000219,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        1.2438202324916259,
+        1.5230686408591099
+      ],
+      "nativeStrokeCoverageRatio": 1.0538175706755502,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 1,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000220,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.4639643182726252,
+        1.4526340783998168
+      ],
+      "nativeStrokeCoverageRatio": 1.2886814850153652,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000221,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.6726139582035385,
+        2.0396028626628944
+      ],
+      "nativeStrokeCoverageRatio": 1.4911275915508426,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000222,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.9627056615290025,
+        0.885910417940316
+      ],
+      "nativeStrokeCoverageRatio": 1.3007354166783882,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000223,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.1851196323471025,
+        1.3586704605882796
+      ],
+      "nativeStrokeCoverageRatio": 1.0199759269487565,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 2,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000224,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        0.7645009146638547,
+        1.4918259364603836
+      ],
+      "nativeStrokeCoverageRatio": 1.0199759269487554,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000225,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.1413360301262736,
+        1.3393462036111934
+      ],
+      "nativeStrokeCoverageRatio": 1.238793384168434,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000226,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage",
+        "localAuthoredRelationDensity"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.8250757008098137,
+        1.7318558407129263
+      ],
+      "nativeStrokeCoverageRatio": 1.6694273981703251,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 6,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000227,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.4809483299569222,
+        2.5469474124121008
+      ],
+      "nativeStrokeCoverageRatio": 1.6694273981703247,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000228,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.8250757008098137,
+        2.0667075622122923
+      ],
+      "nativeStrokeCoverageRatio": 1.669427398170326,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 5,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000229,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.7435183132862997,
+        1.7526335477960047
+      ],
+      "nativeStrokeCoverageRatio": 0.9834684503092236,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000230,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        0.6261547804824162,
+        1.7558157268978865
+      ],
+      "nativeStrokeCoverageRatio": 0.9834684503092237,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000231,
+      "position": 251,
+      "rejections": [
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 5,
+      "nativeExtentRatios": [
+        0.8466928539826368,
+        1.5502227026306181
+      ],
+      "nativeStrokeCoverageRatio": 0.879617241063471,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000232,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.2132062401494568,
+        1.4466970853344225
+      ],
+      "nativeStrokeCoverageRatio": 1.1837955168049652,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000233,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent"
+      ],
+      "removedRoots": 6,
+      "newRoots": 6,
+      "nativeExtentRatios": [
+        1.4452455499489028,
+        1.5436026714205688
+      ],
+      "nativeStrokeCoverageRatio": 1.1837955168049654,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 3,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000234,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.153057588956171,
+        1.8963754380792126
+      ],
+      "nativeStrokeCoverageRatio": 1.2610269480817746,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    },
+    {
+      "id": 5000235,
+      "position": 251,
+      "rejections": [
+        "nativeRawGeometrySeam",
+        "localNativeExtent",
+        "localNativeStrokeCoverage"
+      ],
+      "removedRoots": 6,
+      "newRoots": 7,
+      "nativeExtentRatios": [
+        1.1530578476812627,
+        1.89637525433963
+      ],
+      "nativeStrokeCoverageRatio": 1.261026948081775,
+      "oldLocalAuthoredEdges": 4,
+      "newLocalAuthoredEdges": 4,
+      "allPreliminaryGatesPassed": false
+    }
+  ],
+  "hashes": {
+    "pack": "36975dc443cf9926a36bbc8a3fd6bf42d7be8b044f8e56470700418ca16ee826",
+    "geometryReport": "92f37dbe870a51fc3f8d847faf12b4254bc64cd73bbc039c8de6549094cb7ca6",
+    "tool": "93f748d9bc9e60c30e4f1cca0b31d132e79434e9fda50832f2a0c8aae0ee3f79"
+  }
+}

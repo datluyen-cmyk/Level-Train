@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "levels": [
+    {
+      "id": "new-001",
+      "group": "generated-6bed385dc3652104af81f2e0c21d97c4",
+      "position": 1,
+      "state": {
+        "parts": [
+          {
+            "id": 0,
+            "kind": "ring",
+            "x": -2.6086,
+            "y": 0.22561,
+            "radius": 1.0,
+            "width": 0.5714,
+            "gap": 90.0,
+            "angle": 81.64778,
+            "color": 3,
+            "collectible": true,
+            "key": 0,
+            "lockKey": 0,
+            "bomb": false,
+            "axis": 0.0,
+            "length": 2.0
+          },
+          {
+            "id": 1,
+            "kind": "ring",
+            "x": 0.0,
+            "y": -0.0,
+            "radius": 1.0,
+            "width": 0.5714,
+            "gap": 90.0,
+            "angle": 295.32016,
+            "color": 3,
+            "collectible": true,
+            "key": 0,
+            "lockKey": 0,
+            "bomb": false,
+            "axis": 0.0,
+            "length": 2.0
+          },
+          {
+            "id": 2,
+            "kind": "ring",
+            "x": 2.6086,
+            "y": -0.22561,
+            "radius": 1.0,
+            "width": 0.5714,
+            "gap": 90.0,
+            "angle": 182.4262,
+            "color": 2,
+            "collectible": true,
+            "key": 0,
+            "lockKey": 0,
+            "bomb": false,
+            "axis": 0.0,
+            "length": 2.0
+          }
+        ],
+        "links": []
+      },
+      "proposalDonor": "10006",
+      "referenceId": "10001",
+      "solution": [
+        {
+          "part": 0,
+          "kind": "rotate",
+          "angle": 96.64778
+        },
+        {
+          "part": 1,
+          "kind": "rotate",
+          "angle": 310.32016
+        },
+        {
+          "part": 2,
+          "kind": "rotate",
+          "angle": 197.4262
+        }
+      ],
+      "acceptance": {
+        "score": 3.25,
+        "targetScore": 2.65,
+        "targetMeaning": "reduced reconstruction",
+        "relativeDifference": 0.20000000000000004,
+        "nearestDistance": 0.8125,
+        "predictedScore": 3.623897369065499,
+        "portfolio": [
+          {
+            "policy": {
+              "strategy": "least_turn"
+            },
+            "solved": true,
+            "cost": 3,
+            "score": 3.25
+          },
+          {
+            "policy": {
+              "strategy": "largest_turn"
+            },
+            "solved": true,
+            "cost": 3,
+            "score": 3.25
+          }
+        ],
+        "sourcePosition": 1
+      }
+    }
+  ]
+}

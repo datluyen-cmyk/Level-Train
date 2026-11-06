@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 7,
+  "status": "HISTORICAL_ONLY_CURRENT_RULE_REPLAY_REQUIRED",
+  "difficultyReport": {
+    "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\original_default_difficulty_v7.json",
+    "sha256": "250e9da2477870aaee6a58b4707a2cb022f1856b64118452ad4ecf5dd42e730d"
+  },
+  "historicalCheckpoint": {
+    "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\source_solver_v3_ordinary460_15s_1aaa48490ae656c8_checkpoint.json",
+    "sha256": "ff379deeb6c2d8d7615b28360dd13f143354c3898e1e4e1d9a8e1b51a86f3db5",
+    "rulesHash": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+    "completedLevels": 71,
+    "complete": false
+  },
+  "currentRuleHashPendingReplay": "d5f8b5c29bb1fd5e00cb576ce91addc33a4370fc5cb9383aab3a80f6900531e9",
+  "rows": [
+    {
+      "sourceId": "10060",
+      "progressionPosition": 19,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "10069",
+      "progressionPosition": 25,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "71009",
+      "progressionPosition": 29,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "10061",
+      "progressionPosition": 35,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "70033",
+      "progressionPosition": 39,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "10031",
+      "progressionPosition": 45,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "60011",
+      "progressionPosition": 49,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "solved",
+      "historicalMoveCount": 32,
+      "historicalReplayGoal": true
+    },
+    {
+      "sourceId": "10015",
+      "progressionPosition": 55,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "60036",
+      "progressionPosition": 59,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "10043",
+      "progressionPosition": 65,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "70028",
+      "progressionPosition": 69,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "unknown",
+      "historicalMoveCount": -1,
+      "historicalReplayGoal": false
+    },
+    {
+      "sourceId": "71003",
+      "progressionPosition": 75,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70032",
+      "progressionPosition": 79,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10052",
+      "progressionPosition": 85,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60006",
+      "progressionPosition": 89,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70031",
+      "progressionPosition": 95,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70029",
+      "progressionPosition": 99,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71008",
+      "progressionPosition": 105,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71006",
+      "progressionPosition": 109,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71022",
+      "progressionPosition": 115,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70018",
+      "progressionPosition": 119,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60030",
+      "progressionPosition": 125,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10017",
+      "progressionPosition": 129,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71024",
+      "progressionPosition": 135,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71012",
+      "progressionPosition": 139,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10045",
+      "progressionPosition": 145,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70024",
+      "progressionPosition": 149,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70020",
+      "progressionPosition": 155,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60028",
+      "progressionPosition": 159,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60002",
+      "progressionPosition": 165,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70023",
+      "progressionPosition": 169,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71029",
+      "progressionPosition": 175,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10024",
+      "progressionPosition": 179,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10030",
+      "progressionPosition": 185,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70021",
+      "progressionPosition": 189,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10027",
+      "progressionPosition": 195,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71033",
+      "progressionPosition": 199,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60049",
+      "progressionPosition": 205,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60074",
+      "progressionPosition": 209,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71135",
+      "progressionPosition": 215,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71136",
+      "progressionPosition": 219,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71137",
+      "progressionPosition": 225,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70040",
+      "progressionPosition": 229,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71107",
+      "progressionPosition": 235,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71132",
+      "progressionPosition": 239,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71037",
+      "progressionPosition": 245,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "70036",
+      "progressionPosition": 249,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71138",
+      "progressionPosition": 255,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71035",
+      "progressionPosition": 259,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71139",
+      "progressionPosition": 265,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60055",
+      "progressionPosition": 269,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10185",
+      "progressionPosition": 275,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71036",
+      "progressionPosition": 279,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10187",
+      "progressionPosition": 285,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10186",
+      "progressionPosition": 295,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71134",
+      "progressionPosition": 299,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10189",
+      "progressionPosition": 305,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71131",
+      "progressionPosition": 309,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71039",
+      "progressionPosition": 315,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60081",
+      "progressionPosition": 319,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71133",
+      "progressionPosition": 325,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71127",
+      "progressionPosition": 329,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60056",
+      "progressionPosition": 335,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71108",
+      "progressionPosition": 339,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71038",
+      "progressionPosition": 345,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10202",
+      "progressionPosition": 349,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60076",
+      "progressionPosition": 355,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10201",
+      "progressionPosition": 359,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60075",
+      "progressionPosition": 365,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10203",
+      "progressionPosition": 369,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10188",
+      "progressionPosition": 375,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10200",
+      "progressionPosition": 379,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60077",
+      "progressionPosition": 385,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60062",
+      "progressionPosition": 389,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71101",
+      "progressionPosition": 395,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "10204",
+      "progressionPosition": 399,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "110002",
+      "progressionPosition": 405,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "880001",
+      "progressionPosition": 409,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "50011",
+      "progressionPosition": 415,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "880002",
+      "progressionPosition": 419,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "50013",
+      "progressionPosition": 425,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "50014",
+      "progressionPosition": 435,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "880004",
+      "progressionPosition": 439,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "880010",
+      "progressionPosition": 445,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "880007",
+      "progressionPosition": 449,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90026",
+      "progressionPosition": 455,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "60097",
+      "progressionPosition": 459,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90003",
+      "progressionPosition": 465,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71227",
+      "progressionPosition": 469,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90006",
+      "progressionPosition": 475,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71224",
+      "progressionPosition": 479,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90005",
+      "progressionPosition": 485,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "71223",
+      "progressionPosition": 489,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90008",
+      "progressionPosition": 495,
+      "defaultConfigDifficulty": "Hard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    },
+    {
+      "sourceId": "90025",
+      "progressionPosition": 499,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "notCompleted",
+      "historicalMoveCount": null,
+      "historicalReplayGoal": null
+    }
+  ],
+  "solvedHistoricalHardOrVeryHard": [
+    {
+      "sourceId": "60011",
+      "progressionPosition": 49,
+      "defaultConfigDifficulty": "VeryHard",
+      "historicalStatus": "solved",
+      "historicalMoveCount": 32,
+      "historicalReplayGoal": true
+    }
+  ],
+  "limits": [
+    "Historical witness is not a current-rules solved claim.",
+    "Solver action segment count is not human drag count or human difficulty.",
+    "No generation, training, Unity execution or Assets changes in this audit."
+  ]
+}

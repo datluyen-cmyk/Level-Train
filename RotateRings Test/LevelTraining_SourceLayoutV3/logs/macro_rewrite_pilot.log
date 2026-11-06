@@ -1,0 +1,4 @@
+REWRITE 26 succeeded False attempts 0 rejections {}
+REWRITE 51 succeeded False attempts 0 rejections {}
+REWRITE 126 succeeded False attempts 96 rejections {'newNativeGeometrySeamConflict': 33, 'referenceScaleExceeded': 63}
+REWRITE 251 succeeded True attempts 96 rejections {'newNativeGeometrySeamConflict': 58}

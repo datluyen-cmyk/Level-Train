@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: f9ee61ba880f831459124fd8333bbd08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -547799939900454708
+    second: spine_Incredible_combo_06_0
+  - first:
+      213: 3012731721723650520
+    second: spine_Incredible_combo_06_1
+  - first:
+      213: -6133822549130461463
+    second: spine_Incredible_combo_06_2
+  - first:
+      213: 1393572207151329796
+    second: spine_Incredible_combo_06_3
+  - first:
+      213: -3066370445232914935
+    second: spine_Incredible_combo_06_4
+  - first:
+      213: 7148123841757351615
+    second: spine_Incredible_combo_06_5
+  - first:
+      213: 3868570163122490324
+    second: spine_Incredible_combo_06_6
+  - first:
+      213: -7567448121812259829
+    second: spine_Incredible_combo_06_7
+  - first:
+      213: 9017397279954414067
+    second: spine_Incredible_combo_06_8
+  - first:
+      213: -3797630307765017625
+    second: spine_Incredible_combo_06_9
+  - first:
+      213: -1407352490944389160
+    second: spine_Incredible_combo_06_10
+  - first:
+      213: 4893939385253041115
+    second: spine_Incredible_combo_06_11
+  - first:
+      213: 3437634702188034348
+    second: spine_Incredible_combo_06_12
+  - first:
+      213: 2566422097531067943
+    second: spine_Incredible_combo_06_13
+  - first:
+      213: 8335894001810761091
+    second: spine_Incredible_combo_06_14
+  - first:
+      213: 6261735667481847101
+    second: spine_Incredible_combo_06_15
+  - first:
+      213: -7041457399660514879
+    second: spine_Incredible_combo_06_16
+  - first:
+      213: 8738617143116663215
+    second: spine_Incredible_combo_06_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 896
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c0466bd2d568f0800000000000000
+      internalID: -547799939900454708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 896
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1a3ece98f5fc920800000000000000
+      internalID: 3012731721723650520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 937
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee3cc3d3e840eaa0800000000000000
+      internalID: -6133822549130461463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 821
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402bc18f986f65310800000000000000
+      internalID: 1393572207151329796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 937
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb22e83501275d0800000000000000
+      internalID: -3066370445232914935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 751
+        width: 152
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe827ef2cc333360800000000000000
+      internalID: 7148123841757351615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 751
+        width: 114
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db4799111cefa530800000000000000
+      internalID: 3868570163122490324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 706
+        width: 107
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cee2bf6060bf690800000000000000
+      internalID: -7567448121812259829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 294
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a146cc0b342d70800000000000000
+      internalID: 9017397279954414067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 605
+        width: 106
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3a8651b5b1c4bc0800000000000000
+      internalID: -3797630307765017625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 704
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df9f7fad54187ce0800000000000000
+      internalID: -1407352490944389160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 702
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31d4211f3cae340800000000000000
+      internalID: 4893939385253041115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 521
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29397b5c8ee4bf20800000000000000
+      internalID: 3437634702188034348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 601
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e5d0bdc43cd9320800000000000000
+      internalID: 2566422097531067943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 444
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3856d3fdd6b0fa370800000000000000
+      internalID: 8335894001810761091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 201
+        width: 90
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3526a9d96726e650800000000000000
+      internalID: 6261735667481847101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 102
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c170306dc7b74e90800000000000000
+      internalID: -7041457399660514879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_Incredible_combo_06_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa98b931efdc54970800000000000000
+      internalID: 8738617143116663215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spine_Incredible_combo_06_0: -547799939900454708
+      spine_Incredible_combo_06_1: 3012731721723650520
+      spine_Incredible_combo_06_10: -1407352490944389160
+      spine_Incredible_combo_06_11: 4893939385253041115
+      spine_Incredible_combo_06_12: 3437634702188034348
+      spine_Incredible_combo_06_13: 2566422097531067943
+      spine_Incredible_combo_06_14: 8335894001810761091
+      spine_Incredible_combo_06_15: 6261735667481847101
+      spine_Incredible_combo_06_16: -7041457399660514879
+      spine_Incredible_combo_06_17: 8738617143116663215
+      spine_Incredible_combo_06_2: -6133822549130461463
+      spine_Incredible_combo_06_3: 1393572207151329796
+      spine_Incredible_combo_06_4: -3066370445232914935
+      spine_Incredible_combo_06_5: 7148123841757351615
+      spine_Incredible_combo_06_6: 3868570163122490324
+      spine_Incredible_combo_06_7: -7567448121812259829
+      spine_Incredible_combo_06_8: 9017397279954414067
+      spine_Incredible_combo_06_9: -3797630307765017625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

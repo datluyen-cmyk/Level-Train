@@ -1,0 +1,33 @@
+{
+  "gameName": "Rotate Rings Native Physics V2",
+  "workspaceName": "LevelTraining_PhysicsV2",
+  "adapter": "adapters/rotate_rings_physics_v2.py",
+  "references": "references.json",
+  "corpus": "corpus.json",
+  "seed": 20261105,
+  "proposalBudget": 600,
+  "oracleCheckBudget": 250,
+  "perReference": {},
+  "datasetKind": "user provided",
+  "policies": [
+    {
+      "strategy": "least_turn"
+    }
+  ],
+  "acceptance": {
+    "requestedCount": 300,
+    "sourceCountMinimum": 500,
+    "maxAttemptsPerLevel": 250,
+    "maximumParts": 84,
+    "maximumSweepStepDegrees": 0.5,
+    "initialHardOverlapAllowed": false,
+    "templateInventoryMustMatch": true,
+    "canonicalDuplicatesAllowed": false,
+    "nativeUnmodeledMechanics": "reject before labeling",
+    "nearCopyDistance": 0.1,
+    "computerScoreRelativeTolerance": 0.35,
+    "minimumParts": 2,
+    "blockNewUnboundContacts": true,
+    "blockCrossingPinSensors": true
+  }
+}

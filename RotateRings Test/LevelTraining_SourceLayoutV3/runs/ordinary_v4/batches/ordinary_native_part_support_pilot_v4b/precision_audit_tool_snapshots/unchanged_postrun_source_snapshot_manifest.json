@@ -1,0 +1,20 @@
+{
+  "primary": "audit_native_part_precision_v4.py",
+  "localDependencySha256": {
+    "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+    "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+    "audit_complete_guide_unit_semantics_v4.py": "84414c968678f1f77733ed24fd6b472a0c9d5c83ad83f3b84908107abbc57b19",
+    "audit_native_part_precision_v4.py": "6379f09b4b7a2fcba5dd88d92d2d44f7842a70fb84a1cc3a1296169aeca35c65",
+    "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+    "global_composition_v3.py": "8b2f7ed9c7c085dc72f318232ea4e8a4de89ae885b2df0f2d54f524433241cd9",
+    "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+    "macro_assembly_v3.py": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+    "macro_pattern_v3.py": "af83b2e243b641a60411e971e39795701a15bcab1162c26618925b612d150d60",
+    "native_asset_variant_v3.py": "d10fbdf9d1fb347e85b270d7e310ac97274dbf4d4d56c889a249d8c17cc8621a",
+    "native_feature_socket_v3.py": "7f0aee90b4bd5b7d5727e1dca20abd254b5bbebd167b550bc2144674c1e19ea3",
+    "ordinary_source_filter_guard_v4.py": "3978aacb2e419915f2f432504c7338e1cc1b171addbc800a823e04edd535ffb7",
+    "source_physical_composition_v3.py": "7df71089897d1838fec7fae8a3e7e5065e0e106017e38e11ea58abc1d43e69a6"
+  },
+  "capture": "Post-execution snapshot of unchanged audit sources; primary hash must match report",
+  "acceptedCount": 0
+}

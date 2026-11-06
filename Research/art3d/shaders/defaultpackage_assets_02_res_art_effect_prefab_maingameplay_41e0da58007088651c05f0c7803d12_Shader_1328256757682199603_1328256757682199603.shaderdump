@@ -1,0 +1,68 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Spine/ChainStyleLine" {
+Properties {
+
+_MainTex ("Chain Texture", 2D) = "black" { }
+
+[Toggle(_STRAIGHT_ALPHA_INPUT)] _StraightAlphaInput ("Straight Alpha Texture", Float) = 1.0
+
+[Header(Spine UV Remap)] _UVRangeX ("UV Range X (min, max)", Vector) = (0,0.58,0,0)
+
+_UVRangeY ("UV Range Y (min, max)", Vector) = (0,1,0,0)
+
+[Toggle] _RemapAtlas ("Remap Atlas (UV Range affects sampling)", Float) = 1.0
+
+[Toggle] _MirrorHead ("Mirror Head (reuse Tail rect flipped)", Float) = 1.0
+
+[Header(Runtime Window)] _WindowStart ("Window Start", Float) = 0.0
+
+_VisibleLength ("Visible Length", Float) = 1.0
+
+[Header(Auto Scale)] [Toggle] _AutoScale ("Auto Scale (read transform scale)", Float) = 1.0
+
+_BaseLength ("Chain Size (length at scale 1)", Float) = 0.699999988079071
+
+_ScaleAxis ("Scale Axis (0=X 1=Y 2=Z)", Float) = 0.0
+
+_LatScale ("Size Follow (Chain Size to transform scale)", Float) = 0.25
+
+_LatPadding ("Edge Inset (U shrink at ends)", Range(0, 0.5)) = 0.05000000074505806
+
+[Header(Segment Lengths in local path units)] _TailLength ("Tail Length", Float) = 0.25
+
+_HeadLength ("Head Length", Float) = 0.25
+
+_BodyTileLength ("Body Tile Length", Float) = 0.5
+
+_BodyPhase ("Body Phase", Float) = 0.0
+
+[Header(Atlas Layout normalized xywh)] _TailRect ("Tail Rect", Vector) = (0,0,0.25,1)
+
+_BodyRect ("Body Rect", Vector) = (0.25,0,0.5,1)
+
+_HeadRect ("Head Rect", Vector) = (0,0,0.25,1)
+
+_StyleRowCount ("Style Row Count", Float) = 1.0
+
+_StyleIndex ("Style Index (1-based)", Float) = 1.0
+
+_AtlasPaddingPixels ("Atlas Padding Pixels", Float) = 1.0
+
+_MipClamp ("Mip Gradient Clamp", Range(0.05, 1)) = 1.0
+
+}
+SubShader {
+ Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+ Name "ChainStyleLine"
+  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Cull Off
+  GpuProgramID 53930
+}
+}
+Fall back "Spine/Skeleton"
+}

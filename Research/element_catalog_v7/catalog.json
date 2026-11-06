@@ -1,0 +1,373 @@
+{
+  "title": "Rotate Rings original APK element and booster catalog",
+  "scope": {
+    "apk": "Rotate_Rings_1.2.0_APKPure.apk",
+    "apk_sha256": "266F2B8BA1F33E28FE208448ADE47408C44DA4F267B66F1488400A2FA1C6A9EA",
+    "source": "Original APK 1.2.0 decompiled C#; asset PNGs extracted from original Unity bundles."
+  },
+  "counting_rule": {
+    "gameplay_element_families": 8,
+    "definition": "Distinct source-backed mechanics/object families, counting bomb and lock behaviors once each and not multiplying geometry, colors, material styles, or per-instance counts. Palette lock and palette key count separately because they are distinct part flags/roles.",
+    "in_game_boosters": 2,
+    "booster_definition": "Consumable in-game prop types: EPropType numeric IDs 200â€“299, surfaced by GetInGamePropConfigs and registered with gameplay handlers.",
+    "corpus_presence_note": "In the 507 original-layout corpus subset (ordinary 460 + novelty 47), six families have source examples; palette lock and palette key are code-confirmed but each has zero source examples. This corpus check is separate from the APK mechanics inventory."
+  },
+  "elements": [
+    {
+      "name": "Ring",
+      "family": "movable core piece",
+      "source": "RingObject",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Pull / sliding stick",
+      "family": "movable core piece",
+      "source": "PullObject",
+      "note": "Geometry variants are not separately counted; source lacks a canonical enum establishing a count for straight/L/U silhouettes.",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Fixed catch",
+      "family": "fixed goal/catch piece",
+      "source": "FixedObject",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Butterfly catch",
+      "family": "fixed goal/catch piece",
+      "source": "FixedButterflyObject",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Bomb carrier",
+      "family": "part modifier / hazard",
+      "source": "GameplayPartData.HasBomb",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Chain lock",
+      "family": "lock mechanic",
+      "source": "GameplayPartData.LockCount; RingLockChainService",
+      "source_corpus_presence": "present in source500_native ordinary460 / novelty47 union"
+    },
+    {
+      "name": "Palette lock gap",
+      "family": "color lock mechanic",
+      "source": "RingPaletteLockGapObject; GameplayPartData.IsPaletteLock",
+      "source_corpus_presence": "code-confirmed; zero occurrences in source500_native ordinary460 and novelty47 source_parity_pack; no gameplay image provided"
+    },
+    {
+      "name": "Palette key",
+      "family": "color lock key piece",
+      "source": "GameplayPartData.IsPaletteLockKey",
+      "source_corpus_presence": "code-confirmed; zero occurrences in source500_native ordinary460 and novelty47 source_parity_pack; no gameplay image provided"
+    }
+  ],
+  "boosters": [
+    {
+      "name": "Hammer",
+      "enum": "EPropType.Hammer = 201",
+      "effect": "Player selects a removable piece; handler executes removal.",
+      "icon": "Research/element_catalog_v7/common_item_hammer256_Sprite_6528673457307745401.png"
+    },
+    {
+      "name": "Skyrocket",
+      "enum": "EPropType.Skyrocket = 202",
+      "effect": "Launches toward a selected eligible target and removes it.",
+      "icon": "Research/element_catalog_v7/common_item_skyrocket256_Sprite_-6594135688391327757.png"
+    }
+  ],
+  "related_but_not_counted_as_booster": [
+    {
+      "name": "Hint",
+      "evidence": "RingHintService.ShowHint() exists and original prop bundle includes a hint icon; EPropType contains no Hint and prop-use handler registry has no Hint handler. Treat as a separate hint helper, not a consumable booster."
+    },
+    {
+      "name": "Undo",
+      "evidence": "No Undo member exists in EPropType or the in-game prop handler registry inspected; do not count as an original booster."
+    },
+    {
+      "name": "Coin / RemoveAd",
+      "evidence": "EPropType values 101/301 are outside the in-game prop ID band and are excluded."
+    }
+  ],
+  "sources": [
+    {
+      "path": "Rotate_Rings_1.2.0_APKPure.apk",
+      "lines": "APK",
+      "sha256": "266F2B8BA1F33E28FE208448ADE47408C44DA4F267B66F1488400A2FA1C6A9EA"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.Prop/EPropType.cs",
+      "lines": "3-9",
+      "sha256": "E6E46F049000B0E389B4D5B17125F6F8699D8BD4CB56CFD8DA58D41368D0858F"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.Prop/PropModelProxy.cs",
+      "lines": "48-77",
+      "sha256": "2B5EC69721A4451A12C501F0E36CD2021EABC00F570A74DFCDB0D4AF291FC935"
+    },
+    {
+      "path": "Research/rules/decompiled/Example.Cfg/PropConfig.cs",
+      "lines": "9-54",
+      "sha256": "3035BA47E0466B0ED8900ED5A7412BB14AE5D5C27A809CA093719A50BD5041D7"
+    },
+    {
+      "path": "Research/rules/decompiled/Example.Cfg/TbPropConfig.cs",
+      "lines": "12-29",
+      "sha256": "37C5500D50DE21B11AF838EEDDCFC0F137FD1B7B1AB0A9CD785F13EB2278DE74"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop/RotateRingPropUseService.cs",
+      "lines": "44-54",
+      "sha256": "B7CB0C1A566B0283EAF9F8D3904701D16FDF46F4E014C12E10D5529B75355864"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop.Handlers/RotateRingHammerPropHandler.cs",
+      "lines": "21-21, 356-380",
+      "sha256": "6D63CC04A6D45DE269FA37401AC81574A14C8EF92093FC21033ECD6AB83F2219"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop.Handlers/RocketPropHandler.cs",
+      "lines": "27-27, 445-500",
+      "sha256": "76B6A2B41DF438054F91326A106F6C95D2DC04BB8339A02C264D5678439671AF"
+    },
+    {
+      "path": "Research/rules/decompiled/RingObject.cs",
+      "lines": "13",
+      "sha256": "E1F0243D86EDAA6944E8DB7E3E9F7B2C9A2378590E2A91064968550CC30C3E23"
+    },
+    {
+      "path": "Research/rules/decompiled/PullObject.cs",
+      "lines": "11",
+      "sha256": "9B585C9E15EB2A1FFD9E28525476450CC6F7750C043D0F717D5877048F46F661"
+    },
+    {
+      "path": "Research/rules/decompiled/FixedObject.cs",
+      "lines": "6",
+      "sha256": "212D9450CDE8B34F4CA3EFCBF9D13A256382359D005DA4B215A8F67114BB22C9"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Objects/FixedButterflyObject.cs",
+      "lines": "9",
+      "sha256": "6C7D713C16F63D9972CD906FDBC83E8ACFA742E6E9341B5041D4B7A958E17FAF"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Objects/RingPaletteLockGapObject.cs",
+      "lines": "10",
+      "sha256": "3470D91BC1DAF667DCC9B80E21EAD1AE240C0B4D3C6D4E4CEDA59A30D381A3A6"
+    },
+    {
+      "path": "Research/rules/decompiled/GameplayPartData.cs",
+      "lines": "18-48",
+      "sha256": "B0E0AF66D8913F4C98597EFE49072E1590FF34F59B9B3E1328248689E58CA900"
+    },
+    {
+      "path": "Research/rules/decompiled/RingLockChainService.cs",
+      "lines": "16",
+      "sha256": "96057149254EA005295657DC8044913A0EB9F49E83488B5D128E2831C37FD95B"
+    },
+    {
+      "path": "Research/rules/decompiled/RingHintService.cs",
+      "lines": "15, 182-199",
+      "sha256": "EBFE98D924B734C0C4BEB4CB51A84C4E6B0B5C1E7A62F7D15B067F585C2B1354"
+    }
+  ],
+  "image_assets": [
+    {
+      "name": "hammer",
+      "path": "Research/element_catalog_v7/common_item_hammer256_Sprite_6528673457307745401.png",
+      "sha256": "CAE3950C9F4EA9EE802D18C77DEB22506006E9BCF367BC4EDE208502888A7075"
+    },
+    {
+      "name": "skyrocket",
+      "path": "Research/element_catalog_v7/common_item_skyrocket256_Sprite_-6594135688391327757.png",
+      "sha256": "DE225AD1E3FDF7BA86B3320C6497594C6F33D4B9E30EFA6745AE78A3ED447FA2"
+    },
+    {
+      "name": "hint",
+      "path": "Research/element_catalog_v7/common_item_hint256_Sprite_-8778377642486676913.png",
+      "sha256": "6AD63EBC3714B627CFD5A34AFE255ADFAC93B3994782D1FFA79DA56578C4F458"
+    }
+  ],
+  "collage": {
+    "path": "Research/element_catalog_v7/booster_icons_original.png",
+    "sha256": "89C98C8841E38B87C8931D46E59ADEF61695BE9B75F66E32AED1F42FD70ADC61",
+    "note": "Original extracted sprites; third card shows the separate Hint icon for comparison."
+  },
+  "source_corpus_check": {
+    "ordinary_file": "RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/source500_native.json",
+    "ordinary_levels": 460,
+    "novelty_file": "RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/novelty_extras/source_parity_pack.json",
+    "novelty_levels": 47,
+    "palette_lock_flag_occurrences": 0,
+    "palette_key_flag_occurrences": 0,
+    "note": "Counted sourcePartData.IsPaletteLock and sourcePartData.IsPaletteLockKey across ordinary 460 + novelty 47 source layouts. The two code-backed families are shown as text only."
+  },
+  "element_collage": {
+    "path": "Research/element_catalog_v7/element_families_original.png",
+    "sha256": "CBC036901447A905E17977384F5F11806D3CF63606DD2B7F1D3256BE3B656DAF",
+    "status": "complete; six original-source-template renders; two text-only code-confirmed cards because those mechanics are absent from the checked corpus"
+  },
+  "native_render_provenance": {
+    "method": "RotateRingsWorldView.Build from source500 fixture parts + source_templates, rendered to isolated 512x512 offscreen camera at a temporary root; original material/geometry/catch visual and attachments retained; only part world position recentered. No live board/scene mutation.",
+    "executor_body": "Tools/render_element_catalog_native_v7.cs.txt",
+    "compositor": "Tools/compose_element_catalog_v7.py",
+    "source_pack": {
+      "path": "Research/physics_v3/full500/source_parity_pack.json",
+      "sha256": "EFFDA7077F6D709F4AFB977656DECD6476ADF5C8A2879792958BB040F29A218F"
+    },
+    "source_templates": {
+      "path": "Research/physics_v3/full500/source_templates.json",
+      "sha256": "C44ADCE33201C46D8DBF5E827DE719794589BF89B64943A569BB0265BE1B89EE"
+    },
+    "images": [
+      {
+        "family": "ring",
+        "source_level": 10001,
+        "source_part_id": 1,
+        "source_kind": "ring",
+        "path": "Research/element_catalog_v7/native_ring.png",
+        "sha256": "DC04EF6D89EA36722B881E1918808F3075D3659691F761D711AE7DCFB8576E1D"
+      },
+      {
+        "family": "pull",
+        "source_level": 10010,
+        "source_part_id": 2,
+        "source_kind": "slider",
+        "path": "Research/element_catalog_v7/native_pull.png",
+        "sha256": "12EE10D06956C608A1F53D140984FB571B0D25BAF20B2C94DACD832AC97A8B2A"
+      },
+      {
+        "family": "fixed_catch",
+        "source_level": 10010,
+        "source_part_id": 8,
+        "source_kind": "fixed",
+        "path": "Research/element_catalog_v7/native_fixed_catch.png",
+        "sha256": "A265964FF389524532172E6DB1AFAECBD1A552C2B13573B53DCEC49F53971C3E"
+      },
+      {
+        "family": "butterfly",
+        "source_level": 10190,
+        "source_part_id": 8,
+        "source_kind": "butterfly",
+        "path": "Research/element_catalog_v7/native_butterfly.png",
+        "sha256": "4E67BB9A3A0B51DEF8C7862A62F6DA3EE618BB9E578ADFE31AB58F132AC9C954"
+      },
+      {
+        "family": "bomb_carrier",
+        "source_level": 10023,
+        "source_part_id": 1,
+        "source_kind": "slider with HasBomb=1",
+        "path": "Research/element_catalog_v7/native_bomb_carrier.png",
+        "sha256": "912D1AD204C31488A97888C5E0EBE95B54FFBA4F69E233C282C7373195A4E1EF"
+      },
+      {
+        "family": "chain_lock",
+        "source_level": 10166,
+        "source_part_id": 1,
+        "source_kind": "ring with LockCount=8",
+        "path": "Research/element_catalog_v7/native_chain_lock.png",
+        "sha256": "F412FE2F2DC2309466A38768A92AB00CC5523618D92B708775BAF70DDFD6CF5F"
+      }
+    ]
+  },
+  "mechanic_notes_vi": {
+    "Ring": "Vòng có thể xoay; LockCount > 0 khiến nó bất động. Đây là một loại mảnh, không đếm số khe/màu/kích thước như loại riêng.",
+    "Pull / sliding stick": "Thanh trượt kéo theo trục giới hạn. Source xác nhận PullObject; các đường thẳng/gấp khúc là hình học/template của cùng loại, không có enum gốc đếm số biến thể.",
+    "Fixed catch": "Chốt cố định chỉ giải khi điều kiện catch-guide của phần được chốt thỏa mãn. Một FixedObject có guide liên kết, khác cơ chế bướm có hai slot.",
+    "Butterfly catch": "Bướm là vật cố định có hai slot-guide riêng và một bridge mesh. Nó chỉ giải khi có ít nhất một slot-guide đang giữ phần khác và mọi slot đang giữ đều có thể giải theo luật catch-guide. Không phải một vòng xoay.",
+    "Bomb carrier": "HasBomb là cờ trên Ring/Pull host. Khi collider của bom chạm/overlap, code gom các RingObject/PullObject/FixedObject chưa giải đang overlap; nếu không có mục tiêu ngoài host thì không phát nổ. Khi có mục tiêu, code giải tất cả mục tiêu đó, rồi giải host mang bom và bom. Không khẳng định bán kính số cố định: vùng lấy từ collider/shape nguồn.",
+    "Chain lock": "LockCount > 0 chặn xoay vòng. Sau RingAfterSolve của đối tượng không phải FixedObject, mỗi đối tượng đang có LockCount > 0 khác bị trừ 1; chính đối tượng vừa giải được đặt LockCount=0. Giải FixedObject không làm giảm bộ đếm xích.",
+    "Hammer": "Người chơi chọn/tap một Ring hoặc Pull chưa giải trong remove-mode; nó bị giải. FixedObject để trống EnableRemoveMode/CompleteHammerRemove nên chốt cố định và bướm không phải mục tiêu búa.",
+    "Skyrocket": "Rocket tự chọn mục tiêu, không chờ người chơi tap đích. Chỉ Ring/Pull chưa giải, chưa được đặt trước cho rocket khác và không bị cascade loại trừ mới đủ điều kiện. Cách chọn phụ thuộc PropFunction.SkyrocketTargetChoose: mode mặc định chọn ngẫu nhiên từ RandomBombCanSelect; mode ưu tiên chọn ngẫu nhiên trong nhóm ưu tiên cao nhất còn mục tiêu. Khi rocket tới nơi, nó gọi cùng thao tác hammer-remove.",
+    "Clone-vs-original": "Mô tả Skyrocket ở trên là từ APK gốc. Clone UI callback `Firework()` hiện xóa phần đầu tiên chưa bị xóa trong `level.parts` rồi chạy cascade; đây là shortcut của clone, không phải quy tắc nhắm mục tiêu Skyrocket gốc."
+  },
+  "mechanic_evidence": [
+    {
+      "path": "Research/rules/decompiled/BombRelative.cs",
+      "lines": "132-179, 264-365, 377-435",
+      "sha256": "E721A0F34E088A73BA68CE906EB511FB3FC7D33E0D45BF6B876FE54321F6845D"
+    },
+    {
+      "path": "Research/rules/decompiled/RingLockChainService.cs",
+      "lines": "702-708, 753-863",
+      "sha256": "96057149254EA005295657DC8044913A0EB9F49E83488B5D128E2831C37FD95B"
+    },
+    {
+      "path": "Research/rules/decompiled/RingObject.cs",
+      "lines": "190-200, 2571-2587, 2618-2658",
+      "sha256": "E1F0243D86EDAA6944E8DB7E3E9F7B2C9A2378590E2A91064968550CC30C3E23"
+    },
+    {
+      "path": "Research/rules/decompiled/PullObject.cs",
+      "lines": "233-252, 614-640",
+      "sha256": "9B585C9E15EB2A1FFD9E28525476450CC6F7750C043D0F717D5877048F46F661"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services/CatchButterflySolver.cs",
+      "lines": "17-73",
+      "sha256": "A9C2D8AD967D057C6630AB33D787CB82360D7806963A0BB2EA5991537D514CA1"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Objects/FixedButterflyObject.cs",
+      "lines": "30-60, 83-123",
+      "sha256": "6C7D713C16F63D9972CD906FDBC83E8ACFA742E6E9341B5041D4B7A958E17FAF"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Objects/FixedButterflyMeshPart.cs",
+      "lines": "9-12",
+      "sha256": "4F1ED85C049113A751BB714B280A8EEECBE203F45DD973930CCB543E7FEBABA4"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Objects/FixedButterflyMeshController.cs",
+      "lines": "40-48, 152-199",
+      "sha256": "8487160D726CBE4DCDC70F42A86D97C8384A5EA601D801FD2EC5EDF0820C507C"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services/CatchGuideSolveBase.cs",
+      "lines": "21-67",
+      "sha256": "D9BD037FD80721381B78E3850BD865865CB5FBAC9712CEEF94EA55140D57BA81"
+    },
+    {
+      "path": "Research/rules/decompiled/FixedObject.cs",
+      "lines": "116-126",
+      "sha256": "212D9450CDE8B34F4CA3EFCBF9D13A256382359D005DA4B215A8F67114BB22C9"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop/RotateRingPropUseService.cs",
+      "lines": "175-218, 240-249",
+      "sha256": "B7CB0C1A566B0283EAF9F8D3904701D16FDF46F4E014C12E10D5529B75355864"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop.Handlers/RotateRingHammerPropHandler.cs",
+      "lines": "354-380, 431-440",
+      "sha256": "6D63CC04A6D45DE269FA37401AC81574A14C8EF92093FC21033ECD6AB83F2219"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop/SkyrocketTargetSelector.cs",
+      "lines": "12-23, 45-60, 63-100, 103-179, 181-208",
+      "sha256": "85617E73C31DCB478DFFF3A93BDDB2DED97837CE9467BED4446E3FE65131242B"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services.Prop.Handlers/RocketPropHandler.cs",
+      "lines": "406-415, 432-502",
+      "sha256": "76B6A2B41DF438054F91326A106F6C95D2DC04BB8339A02C264D5678439671AF"
+    },
+    {
+      "path": "Research/rules/decompiled/GameplayPartData.cs",
+      "lines": "18-48",
+      "sha256": "B0E0AF66D8913F4C98597EFE49072E1590FF34F59B9B3E1328248689E58CA900"
+    },
+    {
+      "path": "Research/rules/decompiled/RotateRings.GamePlay.Services/RingPaletteLockService.cs",
+      "lines": "195-215",
+      "sha256": "4281A970172B27E746B1FAF931387659586207C406BF5A76172FEAE9CF6977DD"
+    },
+    {
+      "path": "RotateRings Test/Assets/RotateRings/Scripts/RotateRingsRuntime.cs",
+      "lines": "182-192",
+      "sha256": "EDE2DCC4B515EEC97ADD8941BA22B9FDD39A5202FC065B87C39E9E2A290BB506"
+    }
+  ]
+}

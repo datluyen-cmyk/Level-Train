@@ -1,0 +1,15 @@
+PATTERNFOLD 0 {'fold': 0, 'trainingTriples': 31338, 'heldOutTriples': 6042, 'nativeMacroContinuation': {'levelMeanNLL': 6.435438326996134, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.33449546007493514}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 5.285790315127675, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.34959117898976116}}
+PATTERNFOLD 1 {'fold': 1, 'trainingTriples': 29820, 'heldOutTriples': 7560, 'nativeMacroContinuation': {'levelMeanNLL': 59.93114792780538, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.5217533380111091}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 79.56316825830872, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.5752036779924362}}
+PATTERNFOLD 2 {'fold': 2, 'trainingTriples': 29667, 'heldOutTriples': 7713, 'nativeMacroContinuation': {'levelMeanNLL': 8.946088082697422, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.42916512951336844}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 11.256036590530794, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.4886262563413536}}
+PATTERNFOLD 3 {'fold': 3, 'trainingTriples': 29364, 'heldOutTriples': 8016, 'nativeMacroContinuation': {'levelMeanNLL': 6.316456822750993, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.3961786968715694}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 6.920823176715335, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.43663646506358644}}
+PATTERNFOLD 4 {'fold': 4, 'trainingTriples': 29331, 'heldOutTriples': 8049, 'nativeMacroContinuation': {'levelMeanNLL': 12.158750736076367, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.4556825196989187}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 14.866814133034932, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.49917937973072374}}
+{
+  "nativeMacroContinuation": {
+    "levelMeanNLL": 18.757576379265256,
+    "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4274550288339801
+  },
+  "countMechanicsProgressionBaseline": {
+    "levelMeanNLL": 23.578526494743492,
+    "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4698473916235722
+  }
+}

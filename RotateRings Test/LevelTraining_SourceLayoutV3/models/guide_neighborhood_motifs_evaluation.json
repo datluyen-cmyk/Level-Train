@@ -1,0 +1,175 @@
+{
+  "trainingSourceCount": 500,
+  "models": [
+    {
+      "size": 4,
+      "recordCount": 2515,
+      "sourceCountWithEligibleNativeUnits": 288,
+      "folds": [
+        {
+          "fold": 0,
+          "trainSourceCount": 231,
+          "heldSourceCount": 57,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 11.447541915197407,
+            "oracleBest32MeanUnitAngleErrorDegrees": 28.48736870969764
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 10.341181450966923,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.15889165392942
+          }
+        },
+        {
+          "fold": 1,
+          "trainSourceCount": 230,
+          "heldSourceCount": 58,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 11.773597488017748,
+            "oracleBest32MeanUnitAngleErrorDegrees": 30.265383515038064
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 10.806128426483815,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.45170874731177
+          }
+        },
+        {
+          "fold": 2,
+          "trainSourceCount": 230,
+          "heldSourceCount": 58,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 13.648828314077523,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.39551215059116
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 10.644064442458165,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.65400192460965
+          }
+        },
+        {
+          "fold": 3,
+          "trainSourceCount": 231,
+          "heldSourceCount": 57,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 12.236010069264797,
+            "oracleBest32MeanUnitAngleErrorDegrees": 29.60903301689762
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 9.521318599126472,
+            "oracleBest32MeanUnitAngleErrorDegrees": 30.670753280309565
+          }
+        },
+        {
+          "fold": 4,
+          "trainSourceCount": 230,
+          "heldSourceCount": 58,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 12.69747603143677,
+            "oracleBest32MeanUnitAngleErrorDegrees": 29.89303277189617
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 10.478300842282398,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.03958525589032
+          }
+        }
+      ]
+    },
+    {
+      "size": 5,
+      "recordCount": 2323,
+      "sourceCountWithEligibleNativeUnits": 240,
+      "folds": [
+        {
+          "fold": 0,
+          "trainSourceCount": 193,
+          "heldSourceCount": 47,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 16.370226193915673,
+            "oracleBest32MeanUnitAngleErrorDegrees": 33.30525689608638
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 14.627322803725905,
+            "oracleBest32MeanUnitAngleErrorDegrees": 37.861368680190836
+          }
+        },
+        {
+          "fold": 1,
+          "trainSourceCount": 192,
+          "heldSourceCount": 48,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 16.790323386348216,
+            "oracleBest32MeanUnitAngleErrorDegrees": 34.80916602205168
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 14.86096982833291,
+            "oracleBest32MeanUnitAngleErrorDegrees": 37.20632972580029
+          }
+        },
+        {
+          "fold": 2,
+          "trainSourceCount": 192,
+          "heldSourceCount": 48,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 19.907088748146364,
+            "oracleBest32MeanUnitAngleErrorDegrees": 38.546722615071424
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 16.57010344395255,
+            "oracleBest32MeanUnitAngleErrorDegrees": 41.70615923138046
+          }
+        },
+        {
+          "fold": 3,
+          "trainSourceCount": 191,
+          "heldSourceCount": 49,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 17.23449196354983,
+            "oracleBest32MeanUnitAngleErrorDegrees": 35.289894614816
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 14.725583226567394,
+            "oracleBest32MeanUnitAngleErrorDegrees": 37.52704922685799
+          }
+        },
+        {
+          "fold": 4,
+          "trainSourceCount": 192,
+          "heldSourceCount": 48,
+          "familyIntersection": [],
+          "nativeWholeNeighborhood": {
+            "meanHeldSourceNLL": 18.654040302115916,
+            "oracleBest32MeanUnitAngleErrorDegrees": 35.98805561532088
+          },
+          "countsMechanicsProgressionBaseline": {
+            "meanHeldSourceNLL": 15.36931613954807,
+            "oracleBest32MeanUnitAngleErrorDegrees": 38.96998952506505
+          }
+        }
+      ]
+    }
+  ],
+  "hyperparametersDeclaredBeforeEvaluation": {
+    "neighbors": 32,
+    "angularCosSinBandwidth": 0.35
+  },
+  "evaluation": "5fold source-family holdout, averaged per held source; refit all500 only afterward",
+  "limits": [
+    "Source snapshot joint-angle patterns, not physical lock or motion labels.",
+    "Oracle32angle metric is proposal coverage, not single-sample accuracy or difficulty.",
+    "No claim of improvement unless held-family metrics beat the baseline."
+  ],
+  "hashes": {
+    "source": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templates": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "model": "3f2d3160f5ce22cb85b28367af0f8190fb207b893b29611bf278f36abc35d347",
+    "tool": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f"
+  }
+}

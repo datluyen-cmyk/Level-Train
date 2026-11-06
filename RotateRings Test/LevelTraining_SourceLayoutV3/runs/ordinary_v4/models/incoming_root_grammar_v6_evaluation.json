@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 6,
+  "sourceCount": 460,
+  "acceptedCount": 0,
+  "unitCount": 10046,
+  "properSeedCount": 5327,
+  "jointGraftRecordCount": 7609,
+  "compatibleReceiverClasses": 1115,
+  "summary": {
+    "knownReceiverNativeGeometry": {
+      "expectedStandardizedDescriptorMAE": 42733611523.99128,
+      "expectedPoseXYError": 10.446226771295292,
+      "expectedPoseCosSinError": 1.2471157466682385,
+      "oracle32DescriptorPlusXYError": 42733611525.05472
+    },
+    "topologyMechanicsProgressionBaseline": {
+      "expectedStandardizedDescriptorMAE": 42733611523.99923,
+      "expectedPoseXYError": 10.65690305158203,
+      "expectedPoseCosSinError": 1.2506563082054183,
+      "oracle32DescriptorPlusXYError": 42733611525.07332
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "familyIntersection": [],
+      "trainingRecords": 5762,
+      "heldRecords": 1847,
+      "unsupportedNativeReceiverClassRecords": 181,
+      "models": {
+        "knownReceiverNativeGeometry": {
+          "expectedStandardizedDescriptorMAE": 2911250792.0146074,
+          "expectedPoseXYError": 10.267124442006317,
+          "expectedPoseCosSinError": 1.2400373334783963,
+          "oracle32DescriptorPlusXYError": 2911250792.5801477
+        },
+        "topologyMechanicsProgressionBaseline": {
+          "expectedStandardizedDescriptorMAE": 2911250792.0265584,
+          "expectedPoseXYError": 10.465146008657904,
+          "expectedPoseCosSinError": 1.236558355467791,
+          "oracle32DescriptorPlusXYError": 2911250792.632278
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "familyIntersection": [],
+      "trainingRecords": 6054,
+      "heldRecords": 1555,
+      "unsupportedNativeReceiverClassRecords": 314,
+      "models": {
+        "knownReceiverNativeGeometry": {
+          "expectedStandardizedDescriptorMAE": 177044049957.94803,
+          "expectedPoseXYError": 10.62252172944141,
+          "expectedPoseCosSinError": 1.2459142279029864,
+          "oracle32DescriptorPlusXYError": 177044049959.0971
+        },
+        "topologyMechanicsProgressionBaseline": {
+          "expectedStandardizedDescriptorMAE": 177044049957.9522,
+          "expectedPoseXYError": 10.882317047426127,
+          "expectedPoseCosSinError": 1.2520032082801436,
+          "oracle32DescriptorPlusXYError": 177044049959.09818
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "familyIntersection": [],
+      "trainingRecords": 6235,
+      "heldRecords": 1374,
+      "unsupportedNativeReceiverClassRecords": 304,
+      "models": {
+        "knownReceiverNativeGeometry": {
+          "expectedStandardizedDescriptorMAE": 10451010203.188599,
+          "expectedPoseXYError": 10.1520535740734,
+          "expectedPoseCosSinError": 1.2494355726991244,
+          "oracle32DescriptorPlusXYError": 10451010204.267939
+        },
+        "topologyMechanicsProgressionBaseline": {
+          "expectedStandardizedDescriptorMAE": 10451010203.201967,
+          "expectedPoseXYError": 10.428298972644425,
+          "expectedPoseCosSinError": 1.2578371892034508,
+          "oracle32DescriptorPlusXYError": 10451010204.267239
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "familyIntersection": [],
+      "trainingRecords": 6178,
+      "heldRecords": 1431,
+      "unsupportedNativeReceiverClassRecords": 348,
+      "models": {
+        "knownReceiverNativeGeometry": {
+          "expectedStandardizedDescriptorMAE": 12559883834.874846,
+          "expectedPoseXYError": 10.78851712960192,
+          "expectedPoseCosSinError": 1.2451078540679814,
+          "oracle32DescriptorPlusXYError": 12559883836.202467
+        },
+        "topologyMechanicsProgressionBaseline": {
+          "expectedStandardizedDescriptorMAE": 12559883834.857578,
+          "expectedPoseXYError": 10.8834493824788,
+          "expectedPoseCosSinError": 1.2430794537980783,
+          "oracle32DescriptorPlusXYError": 12559883836.225975
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "familyIntersection": [],
+      "trainingRecords": 6207,
+      "heldRecords": 1402,
+      "unsupportedNativeReceiverClassRecords": 302,
+      "models": {
+        "knownReceiverNativeGeometry": {
+          "expectedStandardizedDescriptorMAE": 10701862831.9303,
+          "expectedPoseXYError": 10.400916981353415,
+          "expectedPoseCosSinError": 1.2550837451927035,
+          "oracle32DescriptorPlusXYError": 10701862833.125956
+        },
+        "topologyMechanicsProgressionBaseline": {
+          "expectedStandardizedDescriptorMAE": 10701862831.95786,
+          "expectedPoseXYError": 10.6253038467029,
+          "expectedPoseCosSinError": 1.2638033342776287,
+          "oracle32DescriptorPlusXYError": 10701862833.142921
+        }
+      }
+    }
+  ],
+  "familyHoldoutBeforeFinalRefit": true,
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "familySplits": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "trainer": "15f9b240c88b466e78e7659715dfea80ace86fdc5e1657b18812bb29c2018da2",
+    "sourceFilter": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "ordinaryRefitManifest": "7da9af3ec0d866b4f0b89083ff25da1c4bba4ef02469e2986fe45a8d45e135f6",
+    "model": "9fad39e66dd8a76c9fbc1161d1fa5e2b061149aa41da779b2974f825d8ed615d"
+  },
+  "localDependencySha256": {
+    "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+    "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+    "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+    "global_composition_v3.py": "8b2f7ed9c7c085dc72f318232ea4e8a4de89ae885b2df0f2d54f524433241cd9",
+    "guide_anchor_role_motifs_v3.py": "5a952628aa230ffb8e753e4a816a4a46faa14880d6a0161d835ad23a880ff4cc",
+    "guide_neighborhood_motifs_v3.py": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f",
+    "incoming_root_grammar_v6.py": "15f9b240c88b466e78e7659715dfea80ace86fdc5e1657b18812bb29c2018da2",
+    "joint_native_motif_v5.py": "bc020b832d7eca61c0d610270d2882d679a2e61c8ad06540681c3a1e43da2f4a",
+    "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+    "macro_assembly_v3.py": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+    "macro_pattern_v3.py": "af83b2e243b641a60411e971e39795701a15bcab1162c26618925b612d150d60",
+    "native_asset_variant_v3.py": "d10fbdf9d1fb347e85b270d7e310ac97274dbf4d4d56c889a249d8c17cc8621a",
+    "native_feature_socket_v3.py": "7f0aee90b4bd5b7d5727e1dca20abd254b5bbebd167b550bc2144674c1e19ea3",
+    "ordinary_source_filter_guard_v4.py": "3978aacb2e419915f2f432504c7338e1cc1b171addbc800a823e04edd535ffb7",
+    "refit_ordinary_models_v4.py": "693929c43be6626bc52995bc467c265fdee7054b78539e73d7353767d96f2b77",
+    "source_physical_composition_v3.py": "7df71089897d1838fec7fae8a3e7e5065e0e106017e38e11ea58abc1d43e69a6"
+  },
+  "elapsedSeconds": 4.6251877000322565,
+  "gameplayWitnessContext": "NOT_USED_CURRENT_RULE_REPLAY_PENDING; known topology/mechanics counts used instead",
+  "limits": [
+    "Atomic native guides/directed cycles are conservative support units, not asserted original game rules.",
+    "All external outgoing native pin targets must map existing compatible receiver bodies; unsupported multipin poses are rejected.",
+    "Categorical body/state/movement matching is exact asset support, not a rootcount/density/donor quota.",
+    "No fresh physical block/release/difficulty labels; static relational reconstruction only.",
+    "Tiny tutorials may have very little whole-board novelty; actual generation capacity unmeasured."
+  ]
+}

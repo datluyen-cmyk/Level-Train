@@ -1,0 +1,12 @@
+{
+  "constructed": 494,
+  "allPreliminaryGatesPassed": 0,
+  "rejectionCounts": {
+    "nativeRawGeometrySeam": 476,
+    "localNativeExtent": 366,
+    "localNativeStrokeCoverage": 151,
+    "localAuthoredRelationDensity": 145,
+    "localMechanicMix": 64,
+    "wholeCompositionFieldDelta": 6
+  }
+}

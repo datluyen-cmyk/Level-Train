@@ -1,0 +1,15 @@
+PATTERNFOLD 0 {'fold': 0, 'trainingTriples': 31338, 'heldOutTriples': 6042, 'nativeMacroContinuation': {'levelMeanNLL': 5.895938238738467, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.3341394696300006}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 5.27880742567413, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.3483367171996864}}
+PATTERNFOLD 1 {'fold': 1, 'trainingTriples': 29820, 'heldOutTriples': 7560, 'nativeMacroContinuation': {'levelMeanNLL': 59.628596162569416, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.521413685726077}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 79.616342325973, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.5784560447008276}}
+PATTERNFOLD 2 {'fold': 2, 'trainingTriples': 29667, 'heldOutTriples': 7713, 'nativeMacroContinuation': {'levelMeanNLL': 8.533224963145539, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.42807356752184234}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 11.293186546264161, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.4895159058674632}}
+PATTERNFOLD 3 {'fold': 3, 'trainingTriples': 29364, 'heldOutTriples': 8016, 'nativeMacroContinuation': {'levelMeanNLL': 6.2279233857875855, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.3961085526169561}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 6.917360678014825, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.4348674159808831}}
+PATTERNFOLD 4 {'fold': 4, 'trainingTriples': 29331, 'heldOutTriples': 8049, 'nativeMacroContinuation': {'levelMeanNLL': 12.14092813656497, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.4552089218410463}, 'countMechanicsProgressionBaseline': {'levelMeanNLL': 14.877378102123657, 'levelMeanBest32XYErrorIncomingSpacingUnits': 0.501455229503648}}
+{
+  "nativeMacroContinuation": {
+    "levelMeanNLL": 18.485322177361198,
+    "levelMeanBest32XYErrorIncomingSpacingUnits": 0.42698883946718447
+  },
+  "countMechanicsProgressionBaseline": {
+    "levelMeanNLL": 23.596615015609956,
+    "levelMeanBest32XYErrorIncomingSpacingUnits": 0.4705262626505017
+  }
+}

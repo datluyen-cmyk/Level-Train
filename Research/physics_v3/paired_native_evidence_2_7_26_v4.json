@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 4,
+  "status": "HISTORICAL_SAME_REPORTED_RULES_PAIRED_OBSERVATIONS",
+  "inputAndReportedRulesBudgetPairingValid": true,
+  "currentRuleMatch": false,
+  "historicalRulesSnapshotByteVerified": false,
+  "validationErrors": [],
+  "warnings": [
+    "source:historical_rules_do_not_match_current_bundle",
+    "candidate:historical_rules_do_not_match_current_bundle"
+  ],
+  "levels": [
+    {
+      "position": 2,
+      "source": {
+        "status": "solved",
+        "sourceId": 10002,
+        "partCount": 3,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 3,
+        "solvedPath": {
+          "boundedSolverSegments": 3,
+          "distinctActedRootCount": 2,
+          "distinctActedRootIds": [
+            1,
+            2
+          ],
+          "partSwitches": 1,
+          "perRootRequestedRotationSignReversals": 0,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 299.93453216552734,
+          "rotationSegmentCount": 3,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "boundedSearch": {
+          "exploredStates": 3,
+          "generatedActions": 6,
+          "replayedActions": 3,
+          "searchElapsedMs": 85,
+          "maximumFrontier": 6,
+          "attemptedActions": 6,
+          "appliedActions": 6,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 2,
+          "maximumRemovedParts": 3,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 6,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": false
+        }
+      },
+      "candidate": {
+        "status": "solved",
+        "sourceId": 7800002,
+        "partCount": 3,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 3,
+        "solvedPath": {
+          "boundedSolverSegments": 3,
+          "distinctActedRootCount": 1,
+          "distinctActedRootIds": [
+            1
+          ],
+          "partSwitches": 0,
+          "perRootRequestedRotationSignReversals": 0,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 209.96721649169922,
+          "rotationSegmentCount": 3,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "boundedSearch": {
+          "exploredStates": 3,
+          "generatedActions": 6,
+          "replayedActions": 3,
+          "searchElapsedMs": 66,
+          "maximumFrontier": 6,
+          "attemptedActions": 6,
+          "appliedActions": 6,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 2,
+          "maximumRemovedParts": 3,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 6,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": false
+        }
+      },
+      "pairedCompleteSolveWitnesses": true,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": 1.0,
+        "distinctActedRootCount": 0.5,
+        "partSwitches": 0.0,
+        "requestedAngularDeltaMagnitudeDegrees": 0.7000434894099585,
+        "exploredStates": 1.0,
+        "generatedActions": 1.0,
+        "attemptedActions": 1.0,
+        "appliedActions": 1.0,
+        "searchElapsedMs": 0.7764705882352941
+      },
+      "ratioMissingReason": null,
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    },
+    {
+      "position": 7,
+      "source": {
+        "status": "solved",
+        "sourceId": 10012,
+        "partCount": 13,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 9,
+        "solvedPath": {
+          "boundedSolverSegments": 9,
+          "distinctActedRootCount": 6,
+          "distinctActedRootIds": [
+            2,
+            4,
+            6,
+            7,
+            10,
+            11
+          ],
+          "partSwitches": 7,
+          "perRootRequestedRotationSignReversals": 1,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 702.8546829223633,
+          "rotationSegmentCount": 7,
+          "slideSegmentCount": 2,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "boundedSearch": {
+          "exploredStates": 9,
+          "generatedActions": 562,
+          "replayedActions": 9,
+          "searchElapsedMs": 8120,
+          "maximumFrontier": 128,
+          "attemptedActions": 562,
+          "appliedActions": 562,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 8,
+          "maximumRemovedParts": 13,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 61,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "candidate": {
+        "status": "solved",
+        "sourceId": 7800007,
+        "partCount": 13,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 9,
+        "solvedPath": {
+          "boundedSolverSegments": 9,
+          "distinctActedRootCount": 7,
+          "distinctActedRootIds": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "partSwitches": 8,
+          "perRootRequestedRotationSignReversals": 1,
+          "consecutiveSameRootRequestedRotationReversals": 0,
+          "requestedAngularDeltaMagnitudeDegrees": 769.7874069213867,
+          "rotationSegmentCount": 7,
+          "slideSegmentCount": 2,
+          "reportedBlockedOrBombEventSegmentCount": 0,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 0,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "boundedSearch": {
+          "exploredStates": 9,
+          "generatedActions": 571,
+          "replayedActions": 9,
+          "searchElapsedMs": 7469,
+          "maximumFrontier": 128,
+          "attemptedActions": 571,
+          "appliedActions": 571,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 16,
+          "maximumRemovedParts": 13,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 60,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "pairedCompleteSolveWitnesses": true,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": 1.0,
+        "distinctActedRootCount": 1.1666666666666667,
+        "partSwitches": 1.1428571428571428,
+        "requestedAngularDeltaMagnitudeDegrees": 1.095229818659993,
+        "exploredStates": 1.0,
+        "generatedActions": 1.0160142348754448,
+        "attemptedActions": 1.0160142348754448,
+        "appliedActions": 1.0160142348754448,
+        "searchElapsedMs": 0.9198275862068965
+      },
+      "ratioMissingReason": null,
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    },
+    {
+      "position": 26,
+      "source": {
+        "status": "solved",
+        "sourceId": 60010,
+        "partCount": 17,
+        "censored": false,
+        "reason": null,
+        "reportedMoveCountRaw": 35,
+        "solvedPath": {
+          "boundedSolverSegments": 35,
+          "distinctActedRootCount": 12,
+          "distinctActedRootIds": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            13,
+            14,
+            16
+          ],
+          "partSwitches": 22,
+          "perRootRequestedRotationSignReversals": 6,
+          "consecutiveSameRootRequestedRotationReversals": 1,
+          "requestedAngularDeltaMagnitudeDegrees": 3092.8422927856445,
+          "rotationSegmentCount": 35,
+          "slideSegmentCount": 0,
+          "reportedBlockedOrBombEventSegmentCount": 2,
+          "reportedNonnegativeBlockerOwnerSegmentCount": 2,
+          "guidedSegmentCount": 0,
+          "quickReleaseSegmentCount": 0
+        },
+        "boundedSearch": {
+          "exploredStates": 35,
+          "generatedActions": 392,
+          "replayedActions": 35,
+          "searchElapsedMs": 14113,
+          "maximumFrontier": 128,
+          "attemptedActions": 392,
+          "appliedActions": 392,
+          "noOpActions": 0,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 160,
+          "maximumRemovedParts": 17,
+          "bestRemainingRootCount": 0,
+          "bestActiveBindings": 0,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 0,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "candidate": {
+        "status": "unknown",
+        "sourceId": 7800026,
+        "partCount": 17,
+        "censored": true,
+        "reason": "No complete replayed solve witness under this finite search budget; path metrics missing/censored",
+        "reportedMoveCountRaw": -1,
+        "solvedPath": null,
+        "boundedSearch": {
+          "exploredStates": 23,
+          "generatedActions": 877,
+          "replayedActions": 0,
+          "searchElapsedMs": 15033,
+          "maximumFrontier": 128,
+          "attemptedActions": 877,
+          "appliedActions": 326,
+          "noOpActions": 551,
+          "rejectedInputActions": 0,
+          "bindingChangingTransitions": 158,
+          "maximumRemovedParts": 7,
+          "bestRemainingRootCount": 10,
+          "bestActiveBindings": 11,
+          "actionTraceLoggedEntries": 96,
+          "actionTraceObservedBlockedTrueEntries": 1,
+          "actionTraceTruncatedOrIncomplete": true
+        }
+      },
+      "pairedCompleteSolveWitnesses": false,
+      "candidateOverSourceRatios": {
+        "boundedSolverSegments": null,
+        "distinctActedRootCount": null,
+        "partSwitches": null,
+        "requestedAngularDeltaMagnitudeDegrees": null,
+        "exploredStates": null,
+        "generatedActions": null,
+        "attemptedActions": null,
+        "appliedActions": null,
+        "searchElapsedMs": null
+      },
+      "ratioMissingReason": "At least one solved path is missing/censored",
+      "difficultyEquivalence": "UNESTABLISHED",
+      "accepted": false
+    }
+  ],
+  "budgets": {
+    "source": {
+      "maxStates": 128,
+      "wallTimeBudgetMs": 15000
+    },
+    "candidate": {
+      "maxStates": 128,
+      "wallTimeBudgetMs": 15000
+    }
+  },
+  "reportedRulesHash": {
+    "source": "237a0cccbec3486b2e43c948a6b637bfb7698cdcbc75588b6b0be46434414e82",
+    "candidate": "237a0cccbec3486b2e43c948a6b637bfb7698cdcbc75588b6b0be46434414e82"
+  },
+  "verifiedRulesHash": "816947913aed0b870bad7baa01138ab2d9d1524f93d789ca8d0f6daf4278037d",
+  "acceptedGeneratedCount": 0,
+  "numericContentGatesApplied": [],
+  "limits": [
+    "Segments are bounded computer-solver action witnesses, not human drags, minimal moves, human difficulty or acceptance.",
+    "Equal segment counts do not establish equal difficulty; acted roots, switches, reversals, blocking/order and mechanic constraints also matter.",
+    "Unknown/missing paths remain null and censored. Raw-1 moveCount is never treated as zero; bounded search failure is not unsolvability.",
+    "Requested angular delta magnitude is requested motion, not measured travel when contact or quick release truncates it.",
+    "Solver action.blocked includes physical blocking or spent-bomb events; trace observations are bounded search logs, not complete selected-path contact telemetry.",
+    "Effort ratios are descriptive under identical budgets and verified rules/inputs; timing depends on machine/editor state and does not measure player effort.",
+    "Historical same-rules comparison requires matching reported rules hashes and verified input bundles/budgets. If old rule bytes are unavailable, historicalRulesSnapshotByteVerified is false; it is not current-runtime certification.",
+    "Zero source denominators yield null ratios. No fixed design cutoff or difficulty-equivalence claim is applied."
+  ],
+  "hashes": {
+    "sourceReport": "4e020ffba5f0cd4bb4fde918db84a7b0bc4b0feb372229c98ba2e577537dff90",
+    "candidateReport": "aafbf3f6300a6b46630e6fa97ae766f9a1eca0d6c5aa8dfc5358f6ebd2ead10d",
+    "sourceInputBundle": "d7a06ec7ed8d61e652847a496589903e07b499a28b09eb7bd0cd99b7873967d6",
+    "candidateInputBundle": "39997f6cacf1aecf16053b95c312bf26d6272bd885e3d404fff2f372d854d8d8",
+    "rulesBundle": "816947913aed0b870bad7baa01138ab2d9d1524f93d789ca8d0f6daf4278037d",
+    "tool": "b60f244e4293c2a491b8ea7ef0339a22a1e7b0561a7c7fc1c5fa4041d738febc",
+    "boundFiles": {
+      "D:\\RotateRings\\Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+      "D:\\RotateRings\\Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+      "D:\\RotateRings\\Research\\physics_v3\\visual_qa\\staged_semantic_review_20261106_0524\\proposals_snapshot.json": "c638d752ab9bb64ff83d7db4be5720f2c757d65bfc82ef7f1bcc657832fe030a",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsCollisionWorld.cs": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsBombContacts.cs": "15b9fee6515ada057bf467eea23e5a6b544f9cf2c792829a8609e6b798034a34",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsLevelData.cs": "f4bb8fb59a27fc465e1024b786a529290e31b972c3be1e1bc9dd5d1778191107",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsRuntime.cs": "0aed236f63389d7dd789b493b794051cbd2f50d7a3dd609b1d6dc1637c56233b",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Scripts\\RotateRingsNativeInterlockPolicy.cs": "df8a744acd3d3f632edac0058a5a8aec768619181f8720c71d3d0895be215368",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Resources\\SourceOverlapQueries.json": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+      "D:\\RotateRings\\RotateRings Test\\Assets\\RotateRings\\Editor\\SourceSolverV3.cs": "e9cb9caf65e267eddc70c50035312f9841320a4f91ab362623f7219bca76e692"
+    }
+  },
+  "reportPaths": {
+    "source": "D:\\RotateRings\\Research\\physics_v3\\source_solver_v3_pairs_2_7_26_sources_237a0cccbec3486b_report.json",
+    "candidate": "D:\\RotateRings\\Research\\physics_v3\\source_solver_v3_pairs_2_7_26_candidates_237a0cccbec3486b_report.json"
+  }
+}

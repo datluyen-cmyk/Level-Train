@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "trainingCount": 500,
+  "requestedExtraCount": 7,
+  "exportedExtraCount": 7,
+  "totalNativeNoveltyExclusions": 507,
+  "exportedSourceIds": [
+    "10210",
+    "10211",
+    "10212",
+    "10213",
+    "10214",
+    "10215",
+    "10216"
+  ],
+  "failed": [],
+  "semantics": "Untouched native source layouts, novelty-only; no training, solve or difficulty labels.",
+  "hashes": {
+    "source_parity_pack.json": "e32ef6b5eac04db0f9da4960e68e3fcc201f512d45862c768d32cb3639687bdc",
+    "source_templates.json": "2a5f9d6046919464e0f9ed9f3dc0184fba1255df58e8be7ca2036a07429bd7ff"
+  },
+  "codeHashes": {
+    "Tools\\export_novelty_extras_v3.py": "b40f282e3b5db9b87d6b6daef42077352f863a9f85e72f2d1c2c3504b0b05dbd",
+    "Tools\\normalize_corpus.py": "49269f18f864c7e32155092e9fa1fd2a0e3bd7c8d29158536ad8a9f8e59c53b1",
+    "Tools\\export_native_physics_v2.py": "4f93fc1c015fe9829b3f7d1848df2bd702fa46567abe9cf3cb634d5422a560c8",
+    "Tools\\export_source_parity_v3.py": "550cb02c9b3e989ab65e7d429ffcf72e0efb71880c164dd6df1557e7fdfce94e"
+  },
+  "trainingCorpusSha256": "cf0e0c32315fc378874c33e2391c87d19d3b0ef1cecadf9f9dfc246ce1cdb0ea"
+}

@@ -1,0 +1,995 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "levels": [
+    {
+      "id": 6000001,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              1,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 1.0171684067805022
+          },
+          {
+            "owners": [
+              2,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 741,
+            "measuredPoseResidualL2": 1.2920311583848416
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 608,
+            "measuredPoseResidualL2": 0.9256065959200287
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 649,
+            "measuredPoseResidualL2": 2.2874367175821635
+          },
+          {
+            "owners": [
+              13,
+              4
+            ],
+            "sourcePatternId": "70025",
+            "learnedRecordIndex": 2104,
+            "measuredPoseResidualL2": 1.2024222833958333
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "70025",
+            "learnedRecordIndex": 1725,
+            "measuredPoseResidualL2": 0.07098359150284772
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "71028",
+            "learnedRecordIndex": 670,
+            "measuredPoseResidualL2": 1.2040913891962617
+          },
+          {
+            "owners": [
+              11,
+              8
+            ],
+            "sourcePatternId": "70006",
+            "learnedRecordIndex": 2133,
+            "measuredPoseResidualL2": 1.2200328367301874
+          },
+          {
+            "owners": [
+              7,
+              5
+            ],
+            "sourcePatternId": "70017",
+            "learnedRecordIndex": 546,
+            "measuredPoseResidualL2": 0.29755995780717537
+          },
+          {
+            "owners": [
+              4,
+              15
+            ],
+            "sourcePatternId": "73003",
+            "learnedRecordIndex": 1320,
+            "measuredPoseResidualL2": 1.2470217861810424
+          },
+          {
+            "owners": [
+              12,
+              4
+            ],
+            "sourcePatternId": "60046",
+            "learnedRecordIndex": 4333,
+            "measuredPoseResidualL2": 1.279411091978782
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 2,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              4,
+              13
+            ],
+            "rawOverlapArea": 0.571769471242078,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 2.28707763646269,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.13215993575500287,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.5286396855799268,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "disconnectedActualHeadContacts": [
+        [
+          2,
+          4,
+          0.171318066119939
+        ],
+        [
+          16,
+          12,
+          0.6133204550021223
+        ],
+        [
+          4,
+          15,
+          0.20640038452602805
+        ]
+      ],
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          13,
+          15,
+          11,
+          7,
+          4,
+          12
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 14,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 16,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 13,
+            "sourceId": "70025",
+            "donorPartId": 11,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              4,
+              15
+            ],
+            "angleDeltaDegrees": -76.24060295964046,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 15,
+            "sourceId": "71028",
+            "donorPartId": 3,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ],
+            "angleDeltaDegrees": -147.37779112246915,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 11,
+            "sourceId": "70006",
+            "donorPartId": 5,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": [
+              8
+            ],
+            "angleDeltaDegrees": -177.2269634961114,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 7,
+            "sourceId": "70017",
+            "donorPartId": 2,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": [
+              5
+            ],
+            "angleDeltaDegrees": -133.03871746792996,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 4,
+            "sourceId": "73003",
+            "donorPartId": 15,
+            "oldTargets": [],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": -169.167510728964,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 12,
+            "sourceId": "60046",
+            "donorPartId": 13,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": [
+              4
+            ],
+            "angleDeltaDegrees": -91.71448541185227,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000002,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              1,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.701410503643262
+          },
+          {
+            "owners": [
+              2,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 741,
+            "measuredPoseResidualL2": 0.8323295605550136
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 608,
+            "measuredPoseResidualL2": 0.9256065959200287
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 641,
+            "measuredPoseResidualL2": 1.5108714203946032
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "90005",
+            "learnedRecordIndex": 2759,
+            "measuredPoseResidualL2": 1.1667714044417963
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "71016",
+            "learnedRecordIndex": 2152,
+            "measuredPoseResidualL2": 0.2606143577947921
+          },
+          {
+            "owners": [
+              11,
+              8
+            ],
+            "sourcePatternId": "60068",
+            "learnedRecordIndex": 1344,
+            "measuredPoseResidualL2": 0.7028954229723632
+          },
+          {
+            "owners": [
+              7,
+              5
+            ],
+            "sourcePatternId": "70017",
+            "learnedRecordIndex": 546,
+            "measuredPoseResidualL2": 0.29755995780717537
+          },
+          {
+            "owners": [
+              4,
+              15
+            ],
+            "sourcePatternId": "60043",
+            "learnedRecordIndex": 1668,
+            "measuredPoseResidualL2": 1.9549664192129153
+          },
+          {
+            "owners": [
+              12,
+              4
+            ],
+            "sourcePatternId": "60042",
+            "learnedRecordIndex": 1319,
+            "measuredPoseResidualL2": 0.9143922524216752
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 2,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              4,
+              13
+            ],
+            "rawOverlapArea": 0.39212554258441096,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 1.568501999909864,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.1642226512876377,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.6568905337751902,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "disconnectedActualHeadContacts": [
+        [
+          4,
+          15,
+          0.20639384048397497
+        ]
+      ],
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          13,
+          15,
+          11,
+          7,
+          4,
+          12
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 13,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 15,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 13,
+            "sourceId": "90005",
+            "donorPartId": 14,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": 179.35375504035954,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 15,
+            "sourceId": "71016",
+            "donorPartId": 9,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ],
+            "angleDeltaDegrees": -147.37759312246914,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 11,
+            "sourceId": "60068",
+            "donorPartId": 24,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": [
+              8
+            ],
+            "angleDeltaDegrees": -159.5406284961114,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 7,
+            "sourceId": "70017",
+            "donorPartId": 2,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": [
+              5
+            ],
+            "angleDeltaDegrees": -133.03871746792996,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 4,
+            "sourceId": "60043",
+            "donorPartId": 15,
+            "oldTargets": [],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": 159.52257327103598,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 12,
+            "sourceId": "60042",
+            "donorPartId": 6,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": [
+              4
+            ],
+            "angleDeltaDegrees": 70.98050858814773,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000003,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              1,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.6852130517430237
+          },
+          {
+            "owners": [
+              2,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 741,
+            "measuredPoseResidualL2": 0.7870871487173776
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 608,
+            "measuredPoseResidualL2": 0.9765237898232297
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 649,
+            "measuredPoseResidualL2": 2.2874367175821635
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "71017",
+            "learnedRecordIndex": 2759,
+            "measuredPoseResidualL2": 1.1719960084070418
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "71028",
+            "learnedRecordIndex": 2152,
+            "measuredPoseResidualL2": 0.2617000195794304
+          },
+          {
+            "owners": [
+              11,
+              8
+            ],
+            "sourcePatternId": "60068",
+            "learnedRecordIndex": 1344,
+            "measuredPoseResidualL2": 0.6890913720063754
+          },
+          {
+            "owners": [
+              7,
+              5
+            ],
+            "sourcePatternId": "90012",
+            "learnedRecordIndex": 551,
+            "measuredPoseResidualL2": 0.520077048592765
+          },
+          {
+            "owners": [
+              4,
+              15
+            ],
+            "sourcePatternId": "73006",
+            "learnedRecordIndex": 1668,
+            "measuredPoseResidualL2": 1.9864857582754785
+          },
+          {
+            "owners": [
+              12,
+              4
+            ],
+            "sourcePatternId": "60046",
+            "learnedRecordIndex": 4333,
+            "measuredPoseResidualL2": 0.8609840774219844
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 2,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              4,
+              13
+            ],
+            "rawOverlapArea": 0.3920642605084525,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 1.5682568716326646,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.1330322900139847,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.5321291022367064,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "disconnectedActualHeadContacts": [
+        [
+          16,
+          12,
+          0.6133204550021223
+        ],
+        [
+          4,
+          15,
+          0.20639272365928765
+        ]
+      ],
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          13,
+          15,
+          11,
+          7,
+          4,
+          12
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 13,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 15,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 13,
+            "sourceId": "71017",
+            "donorPartId": 19,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": 179.28866804035954,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 15,
+            "sourceId": "71028",
+            "donorPartId": 7,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ],
+            "angleDeltaDegrees": -147.37752712246913,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 11,
+            "sourceId": "60068",
+            "donorPartId": 4,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": [
+              8
+            ],
+            "angleDeltaDegrees": -158.9241564961114,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 7,
+            "sourceId": "90012",
+            "donorPartId": 9,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": [
+              5
+            ],
+            "angleDeltaDegrees": -129.05177146792997,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 4,
+            "sourceId": "73006",
+            "donorPartId": 18,
+            "oldTargets": [],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": 156.685250271036,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 12,
+            "sourceId": "60046",
+            "donorPartId": 13,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": [
+              4
+            ],
+            "angleDeltaDegrees": -91.71448541185227,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000004,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              1,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.6627560919602815
+          },
+          {
+            "owners": [
+              2,
+              4
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 741,
+            "measuredPoseResidualL2": 0.696090610984296
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 608,
+            "measuredPoseResidualL2": 1.0612618679212809
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 641,
+            "measuredPoseResidualL2": 1.5108714203946032
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "71022",
+            "learnedRecordIndex": 1332,
+            "measuredPoseResidualL2": 1.2379280494028437
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "71026",
+            "learnedRecordIndex": 2821,
+            "measuredPoseResidualL2": 0.2702571844063533
+          },
+          {
+            "owners": [
+              11,
+              8
+            ],
+            "sourcePatternId": "90020",
+            "learnedRecordIndex": 1344,
+            "measuredPoseResidualL2": 1.120573123424136
+          },
+          {
+            "owners": [
+              7,
+              5
+            ],
+            "sourcePatternId": "70004",
+            "learnedRecordIndex": 1133,
+            "measuredPoseResidualL2": 0.22838387304535476
+          },
+          {
+            "owners": [
+              4,
+              12
+            ],
+            "sourcePatternId": "60046",
+            "learnedRecordIndex": 473,
+            "measuredPoseResidualL2": 1.6343757252629525
+          },
+          {
+            "owners": [
+              12,
+              4
+            ],
+            "sourcePatternId": "60042",
+            "learnedRecordIndex": 2064,
+            "measuredPoseResidualL2": 0.5861388733940968
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 3,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              4,
+              12
+            ],
+            "rawOverlapArea": 0.8061059744938451,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 3.2244235476211265,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              4,
+              13
+            ],
+            "rawOverlapArea": 0.3921503015666978,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 1.56860103582825,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.132171251899979,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.5286849501549128,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "disconnectedActualHeadContacts": [],
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          13,
+          15,
+          11,
+          7,
+          4,
+          12
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 13,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 15,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 13,
+            "sourceId": "71022",
+            "donorPartId": 8,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ],
+            "angleDeltaDegrees": 178.77584904035956,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 15,
+            "sourceId": "71026",
+            "donorPartId": 6,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ],
+            "angleDeltaDegrees": -147.37751912246915,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 11,
+            "sourceId": "90020",
+            "donorPartId": 12,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": [
+              8
+            ],
+            "angleDeltaDegrees": -147.0775854961114,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 7,
+            "sourceId": "70004",
+            "donorPartId": 8,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": [
+              5
+            ],
+            "angleDeltaDegrees": -122.52966046792996,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 4,
+            "sourceId": "60046",
+            "donorPartId": 13,
+            "oldTargets": [],
+            "newTargets": [
+              12
+            ],
+            "angleDeltaDegrees": 151.064851271036,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          },
+          {
+            "partId": 12,
+            "sourceId": "60042",
+            "donorPartId": 6,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": [
+              4
+            ],
+            "angleDeltaDegrees": 70.98050858814773,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector"
+          }
+        ]
+      }
+    }
+  ]
+}

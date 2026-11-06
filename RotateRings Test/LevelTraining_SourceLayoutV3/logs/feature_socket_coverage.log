@@ -1,0 +1,6 @@
+FEATURECOVERAGE {'sourcePosition': 26, 'attempts': 256, 'constructedFeatureCandidates': 0, 'rejections': {'bodyBoundaryPoseMismatch': 256}}
+FEATURECOVERAGE {'sourcePosition': 51, 'attempts': 256, 'constructedFeatureCandidates': 0, 'rejections': {'bodyBoundaryPoseMismatch': 256}}
+FEATURECOVERAGE {'sourcePosition': 76, 'attempts': 256, 'constructedFeatureCandidates': 118, 'rejections': {'nativeBoundaryFeatureGeometryMismatch': 138}}
+FEATURECOVERAGE {'sourcePosition': 126, 'attempts': 0, 'constructedFeatureCandidates': 0, 'rejections': {}}
+FEATURECOVERAGE {'sourcePosition': 176, 'attempts': 256, 'constructedFeatureCandidates': 118, 'rejections': {'nativeBoundaryFeatureGeometryMismatch': 138}}
+FEATURECOVERAGE {'sourcePosition': 251, 'attempts': 256, 'constructedFeatureCandidates': 118, 'rejections': {'nativeBoundaryFeatureGeometryMismatch': 138}}

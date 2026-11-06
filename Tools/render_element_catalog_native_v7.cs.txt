@@ -1,0 +1,87 @@
+// Method body for Unity's code executor. Generates isolated, static thumbnails from original
+// source-template visuals; it does not load/unload scenes, change the live board, or mutate assets.
+// Save each PNG to Research/element_catalog_v7/native_<family>.png.
+string researchRoot = System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath, "../../Research/physics_v3/full500"));
+string outDir = System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath, "../../Research/element_catalog_v7"));
+var pack = JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(System.IO.Path.Combine(researchRoot, "source_parity_pack.json")));
+var catalog = JsonUtility.FromJson<RotateRingsTemplateCatalog>(System.IO.File.ReadAllText(System.IO.Path.Combine(researchRoot, "source_templates.json")));
+if (pack == null || catalog == null || pack.levels == null || catalog.templates == null) throw new System.IO.InvalidDataException("Could not load source500 native fixture data.");
+System.IO.Directory.CreateDirectory(outDir);
+var requests = new (int sourceLevel, int partId, string family)[] {
+    (10001, 1, "ring"),
+    (10010, 2, "pull"),
+    (10010, 8, "fixed_catch"),
+    (10190, 8, "butterfly"),
+    (10023, 1, "bomb_carrier"),
+    (10166, 1, "chain_lock")
+};
+var written = new System.Collections.Generic.List<string>();
+foreach (var request in requests) {
+    GameObject root = null;
+    RenderTexture target = null;
+    Texture2D image = null;
+    var previousActive = RenderTexture.active;
+    try {
+        var sourceLevel = pack.levels.Find(x => x.id == request.sourceLevel);
+        if (sourceLevel == null) throw new System.InvalidOperationException("Missing source level " + request.sourceLevel);
+        var sourcePart = sourceLevel.parts.Find(x => x.id == request.partId);
+        if (sourcePart == null) throw new System.InvalidOperationException("Missing part " + request.partId + " in source " + request.sourceLevel);
+        var part = JsonUtility.FromJson<RotateRingsPart>(JsonUtility.ToJson(sourcePart));
+        float oldX = part.x, oldY = part.y;
+        part.x = 0f; part.y = 0f; part.z = 0f; // Recenter for the thumbnail while keeping authored angle/template/shape.
+        var isolated = new RotateRingsLevel {
+            id = sourceLevel.id, title = sourceLevel.title, referenceId = sourceLevel.referenceId,
+            parMoves = sourceLevel.parMoves, difficulty = sourceLevel.difficulty,
+            sourceReference = sourceLevel.sourceReference, sourceOnlyParityFixture = sourceLevel.sourceOnlyParityFixture,
+            position = sourceLevel.position, sourceId = sourceLevel.sourceId,
+            parts = new System.Collections.Generic.List<RotateRingsPart> { part },
+            links = new System.Collections.Generic.List<RotateRingsLink>(),
+            solution = new System.Collections.Generic.List<RotateRingsGesture>(),
+            guideLinks = System.Array.Empty<RotateRingsGuideLink>(), bombs = System.Array.Empty<RotateRingsBomb>()
+        };
+        if (request.family == "bomb_carrier") {
+            var owned = sourceLevel.bombs == null ? null : System.Array.Find(sourceLevel.bombs, b => b.ownerPartId == sourcePart.id);
+            if (owned == null) throw new System.InvalidOperationException("Bomb source fixture has no bomb on the selected part.");
+            var bomb = JsonUtility.FromJson<RotateRingsBomb>(JsonUtility.ToJson(owned));
+            bomb.worldPosition -= new Vector2(oldX, oldY);
+            isolated.bombs = new[] { bomb };
+        }
+        root = new GameObject("Element Catalog Thumbnail " + request.family) { hideFlags = HideFlags.HideAndDontSave };
+        root.transform.position = new Vector3(20000f, 20000f, 0f);
+        var board = new GameObject("Isolated Original Source Part"); board.transform.SetParent(root.transform, false);
+        board.layer = 31;
+        var view = board.AddComponent<RotateRingsWorldView>();
+        view.Build(isolated, catalog);
+        view.ApplyState(new System.Collections.Generic.Dictionary<int, float> { { part.id, part.angle } }, new System.Collections.Generic.HashSet<int>(), new System.Collections.Generic.HashSet<int>(), new System.Collections.Generic.List<bool>());
+        if (request.family == "chain_lock") view.ApplyChainState(new System.Collections.Generic.Dictionary<int, int> { { part.id, part.chainLockCount } });
+        if (request.family == "bomb_carrier") view.SetBombState(new System.Collections.Generic.HashSet<int>(), new System.Collections.Generic.HashSet<int>());
+        foreach (var mb in root.GetComponentsInChildren<MonoBehaviour>(true)) if (mb.GetType().Name == "PartView") mb.enabled = false; // Freeze entry/animation after the authored pose is applied.
+        foreach (var tr in root.GetComponentsInChildren<Transform>(true)) tr.gameObject.layer = 31;
+        foreach (var tr in root.GetComponentsInChildren<Transform>(true)) {
+            if (tr.name.StartsWith("Part ")) { tr.localScale = Vector3.one; tr.localRotation = Quaternion.Euler(0f, 0f, part.angle); }
+        }
+        foreach (var spine in root.GetComponentsInChildren<Spine.Unity.SkeletonAnimation>(true)) { spine.Update(0f); spine.LateUpdate(); }
+        var cameraObject = new GameObject("Isolated Source Thumbnail Camera") { hideFlags = HideFlags.HideAndDontSave };
+        cameraObject.transform.SetParent(root.transform, false);
+        var camera = cameraObject.AddComponent<Camera>(); camera.enabled = false; camera.orthographic = true;
+        camera.clearFlags = CameraClearFlags.SolidColor; camera.backgroundColor = new Color(1f, .9949f, .9575f);
+        camera.cullingMask = 1 << 31; camera.allowHDR = false; camera.aspect = 1f;
+        var renderers = root.GetComponentsInChildren<Renderer>(true);
+        var bounds = new Bounds(); bool hasBounds = false;
+        foreach (var renderer in renderers) if (renderer.enabled && renderer.gameObject.activeInHierarchy) { if (!hasBounds) { bounds = renderer.bounds; hasBounds = true; } else bounds.Encapsulate(renderer.bounds); }
+        if (!hasBounds) throw new System.InvalidOperationException("No visible original renderers for " + request.family);
+        camera.transform.position = new Vector3(bounds.center.x, bounds.center.y, bounds.center.z - 40f);
+        camera.orthographicSize = Mathf.Max(bounds.extents.x, bounds.extents.y) * 1.18f;
+        target = new RenderTexture(512, 512, 24, RenderTextureFormat.ARGB32); target.Create(); camera.targetTexture = target;
+        camera.Render(); RenderTexture.active = target;
+        image = new Texture2D(512, 512, TextureFormat.RGBA32, false); image.ReadPixels(new Rect(0, 0, 512, 512), 0, 0); image.Apply();
+        string file = System.IO.Path.Combine(outDir, "native_" + request.family + ".png"); System.IO.File.WriteAllBytes(file, image.EncodeToPNG());
+        written.Add(file);
+    } finally {
+        RenderTexture.active = previousActive;
+        if (image != null) UnityEngine.Object.DestroyImmediate(image);
+        if (target != null) { target.Release(); UnityEngine.Object.DestroyImmediate(target); }
+        if (root != null) UnityEngine.Object.DestroyImmediate(root);
+    }
+}
+string.Join("\n", written.ToArray());

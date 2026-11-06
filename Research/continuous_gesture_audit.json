@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rotationGesturesChecked": 3185,
+  "angularSamplesPerGesture": 36,
+  "issues": [],
+  "purpose": "Check saved shortest-angle rotations against runtime outgoing-pin clamping during held input; independent of final-state replay."
+}

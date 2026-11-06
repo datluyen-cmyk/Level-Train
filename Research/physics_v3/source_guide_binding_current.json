@@ -1,0 +1,32 @@
+{
+    "status": "PASS",
+    "generatedUtc": "2026-11-06T06:14:11.1764665Z",
+    "rulesHash": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+    "sourcePackSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templatesSha256": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "queryCatalogSha256": "2a53f933d75aab362b7aeff34501c298bd67629d207f0bc845831d9929023a22",
+    "collisionWorldSha256": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+    "scope": "Production Physics2D guide-query regression on source fixtures 10187 and 10186; no gameplay or level data is modified.",
+    "checks": [
+        {
+            "name": "native RingBody query contact keeps the exact ring-to-butterfly-slot binding",
+            "passed": true,
+            "observed": "source=10187; guide=guide_8[1]; locked=4[0:RingBody]; queryHit=True; active=True"
+        },
+        {
+            "name": "HardBlockPin overlaps are query-covered in the searched source pose neighborhood",
+            "passed": true,
+            "observed": "source=10187; extra=HardBlockPin[none]; selectedGuide=guide_8[1]; pose=no-query-excluded-contact-pose-found; guideExtraOverlapSamples=421; queryCoveredSamples=421; queryBodyOverlapAtRestoredPose=True; activeAtRestoredPose=True"
+        },
+        {
+            "name": "RingRelativeWall-only overlap does not keep the ring-to-guide binding",
+            "passed": true,
+            "observed": "source=10187; extra=RingRelativeWall[3]; selectedGuide=guide_8[1]; pose=dx=1.217,dy=5.078; guideExtraOverlapSamples=16; queryCoveredSamples=15; queryBodyOverlapAtRestoredPose=False; activeAtRestoredPose=False"
+        },
+        {
+            "name": "butterfly other CatchGuideBody slot cannot substitute for the linked slot",
+            "passed": true,
+            "observed": "source=10186; guide=guide_8 linkedSlot=1 otherSlot=2; pose=queryShape=0;dx=-2.538,dy=1.651; otherSlotQueryHit=True; linkedSlotQueryHit=False; active=False"
+        }
+    ]
+}

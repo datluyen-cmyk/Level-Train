@@ -1,0 +1,9 @@
+{
+  "acceptedCount": 0,
+  "status": "FROZEN_PRE_SEMANTIC_ORIENTATION_AUDIT_RESEARCH_ORIGINALS",
+  "reason": "Audit physically symmetric receiver rotations before any further staging acceptance",
+  "files": {
+    "coverage.json": "dc3df50013e3e7c6613c8499f19b56e631b7e89da44aedd842ebeaa590d96b98",
+    "proposals.json": "35f43b958dfb28918a8100fea3965c52154f7225d44db95c4a7455e20c03d31a"
+  }
+}

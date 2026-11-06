@@ -1,0 +1,29 @@
+{
+    "sourceId": 10010,
+    "sliders": [
+        {
+            "partId": 2,
+            "startSlide": 0.0,
+            "positiveLimit": 0.9034192562103272,
+            "negativeLimit": -1.76503586769104,
+            "positiveBlockerOwner": 3,
+            "negativeBlockerOwner": 3,
+            "positiveBlockerRole": "body",
+            "negativeBlockerRole": "body",
+            "positiveBlocked": true,
+            "negativeBlocked": true
+        },
+        {
+            "partId": 7,
+            "startSlide": 0.0,
+            "positiveLimit": 1.0847049951553345,
+            "negativeLimit": -46.08004379272461,
+            "positiveBlockerOwner": 6,
+            "negativeBlockerOwner": -1,
+            "positiveBlockerRole": "body",
+            "negativeBlockerRole": "",
+            "positiveBlocked": true,
+            "negativeBlocked": false
+        }
+    ]
+}

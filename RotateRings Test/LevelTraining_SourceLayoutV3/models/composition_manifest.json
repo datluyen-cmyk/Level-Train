@@ -1,0 +1,98 @@
+{
+  "phase": "Native source macro + full-board geometry field learning; no accepted generation; native replay/difficulty calibration pending",
+  "acceptedGeneratedCount": 0,
+  "sourceCount": 500,
+  "sourceFamilyCount": 446,
+  "victoryContract": "Every unsolved registered GameplayObjects root must solve, including non-CanCollect rings/Pulls/fixed/butterflies; standalone bombs are not independent roots. CanCollect only collectible accounting.",
+  "verification": {
+    "sourceAll500Retained": true,
+    "unresolvedNativeRingFeatureMappings": 0,
+    "unresolvedNativeGuideMappings": 0,
+    "sourceSignedPullContractTestsPassed": 9,
+    "freshProcessSavedModelLoad": true,
+    "packagedGuiGenerationGateVerified": true,
+    "runtimeParity": "pending",
+    "physicsDifficultyLabels": "pending",
+    "rawNativeGeometrySeamRegressionTestsPassed": 5
+  },
+  "versions": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "networkx": "3.7"
+  },
+  "hashes": {
+    "adapters/layout_v3_adapter.py": "fcc03bd7418307043eb9f71067cba9664af1ed525827c6910209b4e144be5625",
+    "corpus.json": "65a5cc73b3517c3506190db0ec5ad36fa55631e11c929a68c162d045bb50f688",
+    "data/physics_materials.json": "1286f6b700813a57b195a89cb7e1be03b4caafa18d7023745983740b9bd2c427",
+    "data/source500_diversity_audit.json": "79d19d2193f39d468a6662a5e938852478d4b900c24b07833196ad35d73a5a3e",
+    "data/source500_diversity_audit.md": "ffed0d6a7c6f60a3a4dbd9b4d435ef22667a18dd6d4c1a9443791cf39f88ef72",
+    "data/source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "data/source500_spatial_grammar.json": "89b0b1190315ed35282d37da0a4616775e813fe161b9af7bd8c36b708de0f42e",
+    "data/source_manifest.json": "f787c1b3e368f246412745283fa10fb9223558701537fc658d229219a0f5208b",
+    "data/source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "level_training.json": "4a3eadc68d011766f7b0bf6489798d8c19ccbadaba4fcbf62daeffb5a2b71fa1",
+    "models/composition_evaluation.json": "867f5d02b4726201caac2fa98c60009078f10c5fd942d81c4a288c3ac422de42",
+    "models/composition_pose.joblib": "6fdd7246b99ca0aa95e3cfb6aab1dce402c9be0910389fde01c19b9204108447",
+    "models/family_splits.json": "6184a49dda14dacefb2625b73c6f1975e0c06911ce6c964f9062b1c56dc5dd30",
+    "models/global_composition.joblib": "5d55bfddaf0af1bb4d14a9823958e8acb242d721f2c285f6a1ca01b3570dd183",
+    "models/global_composition_evaluation.json": "5be32f3c09cc68d44fe92f2370f84c200caa4e83f9166133637fb5e5403d2d1d",
+    "models/macro_assembly.joblib": "a45a9c1574e45cf953e3268069cf3533ff4b9e60c15110bf4ff2c6c0241f80d5",
+    "models/macro_assembly_evaluation.json": "415ce7245e3e03e28c731376db0a794cbfd28c6f1991889f917d1336016e2ed1",
+    "models/macro_pattern.joblib": "6550eca8831bed1fba43a97a178fc4abfbfbcaabe1f103620b5baa60ba69c76d",
+    "models/macro_pattern_evaluation.json": "b07996d077db2cfe7ccd9fe9264df5132560143557f45bde41349dc67f3a29dd",
+    "models/whole_board_field.joblib": "8834347260c73f317d68e6a51fc50143d5708b0d108253bf273c4bceed34df52",
+    "models/whole_board_field_evaluation.json": "da2f6182997c1ba2cc0ce0dd43609571a7ac0c418c248430d03da76be974b673",
+    "README_TRAINING.md": "815276a4c55a43168f06b6e4d4b433422c29780ee4f733d523d38815cc2627c5",
+    "references.json": "65a5cc73b3517c3506190db0ec5ad36fa55631e11c929a68c162d045bb50f688",
+    "tools/assembly_contact_audit_v3.py": "7123d60d510db8d8b717995a7774bb6c75b56ad802f5bf605f821e7ab3a720b7",
+    "tools/assembly_integrity_audit_v3.py": "223c6f8b0057f78e928086df7fc8247ca34001736456df1a9232393cf014e31e",
+    "tools/audit_source_diversity_v3.py": "4b2969ea0b1858ef7f276a0f31de42d8d9a6f41bac40f959cc44d13b1739dfee",
+    "tools/audit_spatial_grammar_v3.py": "c69bb9c63357188695993a32f1894196806eff4629da514a480868d2b9f7f590",
+    "tools/audit_structured_proposals_v3.py": "ee71e27c1ba68c3072ac4a7e4f575ec35bdaa3ec3f9cb7557bb67255a44a4597",
+    "tools/checkpoint_training_bundle_v3.py": "d6e141df721722e1960014c55d0fec96721a8d7c9048c2e2371ad84f34a54650",
+    "tools/composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+    "tools/generate_batch.py": "33f23934314cd727eeadf25b3385153e9a9fe4453f5c5a9e5ff316b27afd8b5d",
+    "tools/global_composition_v3.py": "8b2f7ed9c7c085dc72f318232ea4e8a4de89ae885b2df0f2d54f524433241cd9",
+    "tools/layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+    "tools/layout_novelty_v3.py": "7a28809b7b546cd92181cc79e6abd527d91bfdb1d4930be524ca3e5012a53dd1",
+    "tools/level_generator_gui.py": "b7174650b6f95a7d8a67a22cfcca6e065b16bb1fd68fd3a1513675899ea66360",
+    "tools/level_training.py": "68bd204368acadb0b09d4254a2b95452516acea579136e48ce586cf723f9eb23",
+    "tools/macro_assembly_v3.py": "dd2f1290115043d5f053aae88d8b178adccb85adad8cc0c5aa79250a7e3bea0f",
+    "tools/macro_pattern_v3.py": "a98c5f8d40f47868decd3ef33819a4d520039b2f0e733fe914dcb7a05900eede",
+    "tools/macro_rewrite_v3.py": "50b788a94caee23ab330360217b733d74ba23857d8329b9a38f2ccad1c24d9ca",
+    "tools/rotate_rings_physics_v3.py": "97209f12a13c656aa3cd2a3112f174861d30f0fd42352f07f05e7f77b8c6f4ec",
+    "tools/simulated_playtest.py": "2f0b371673ced554e500f6ed6bf1a1eb75c708d5a7d90606c879c08e923d8e06",
+    "tools/test_assembly_contact_v3.py": "f4a0bc748a2415ff29e54594a5bff9d6393b815d0ce479fe015afcfdea16426b",
+    "tools/test_assembly_integrity_v3.py": "13e127e5ea032236f60d6dfaa4d18ce8e4ce49e0a4d4ca315c48757a32ef2018",
+    "tools/test_native_socket_v3.py": "6e64d4ae8deac1d228d11abcd8d6ca230eda5b0478c2a345dc7b77a6b5a9f130",
+    "tools/test_physics_v3_contract.py": "00073067a8bfd247c4bc1317d2b4466ea9f029f469e9f7df1c2c87d6597a46b3",
+    "tools/train_playtest_model.py": "15d52ae2940c9dc0b6d588974cac24c29abf57dca0663a89cb78d500bf69cc4a"
+  },
+  "targetGeneratedProgression": {
+    "count": 300,
+    "referencePositions": [
+      1,
+      300
+    ],
+    "learnedReferencePositions": [
+      1,
+      500
+    ]
+  },
+  "learnedStages": {
+    "local": "models/composition_pose.joblib",
+    "globalStatistics": "models/global_composition.joblib",
+    "nativeMacro": "models/macro_assembly.joblib",
+    "actualMacroContinuation": "models/macro_pattern.joblib",
+    "wholeBoardGeometryField": "models/whole_board_field.joblib"
+  },
+  "importantLimits": [
+    "Synthetic style scores and learned field reconstruction do not measure human difficulty or fun.",
+    "Raw geometry seam checks do not replace Unity skin/casts/binding initialization or independent native replay.",
+    "All pilot batches remain incomplete and acceptedCount0.",
+    "Tutorials with tiny state spaces can fail novelty; never pad their scale to force a multi-family assembly."
+  ]
+}

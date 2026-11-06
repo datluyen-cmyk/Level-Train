@@ -1,0 +1,31 @@
+{
+  "inputHashes": {
+    "adapter": "3db01e6246233f484b2c21a1fc99cade4e0083083cbf5d79a09b399eeca2f420",
+    "references": "160b608566e4106add4ec76206295beb8bc9d94dd00dd6157b28079e5ccda344",
+    "corpus": "54f73f7a38863ec4835b6862d870b33d2406f1704c14e2170e4b17c4ef51afa2",
+    "config": "3fd42f80d1969afaf412346948de8f756c9738f4573dedbbded03a270693010f",
+    "pipeline": "a29d76206e20d635e61125acae7028826da54d64c03d4113f73fbdf2e1f3800c"
+  },
+  "seed": 20261105,
+  "ruleVersion": "pin-gap-reconstruction-1",
+  "originalCount": 500,
+  "proposal": {
+    "kind": "empirical conditional joint feature distribution + fresh constrained spatial graph construction",
+    "sourceCount": 500,
+    "neural": false,
+    "augmentation": "none",
+    "mutationOfSourceLayout": false
+  },
+  "modelHashes": {
+    "difficulty.joblib": "79037bf48cd5c401043542556629c8b97932c3c7fa8c708918129fe65dd4d874",
+    "proposal.joblib": "3702c7d5b291990f3b5456a5d1f4d17b81dcf699bf6eea52db7b617908baed2a"
+  },
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "networkx": "3.7"
+  }
+}

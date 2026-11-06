@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 4,
+  "curationStatus": "PENDING_ORDINARY_CURATED_CORPUS",
+  "policyOrigin": "User excludes every identifiable pictorial whole-board layout from learning and generation",
+  "sourcePackSha256": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+  "ordinarySourceIds": [],
+  "requestedTrainingSourceCount": 500,
+  "actualUniqueOrdinaryCount": 0,
+  "knownApkDistinctSourceCount": 507,
+  "datasetExhausted": false,
+  "excludedSourceIds": ["10157"],
+  "exclusionReasonBySourceId": {"10157": "User-confirmed intentional whole-board diamond, categorically excluded by revised scope"},
+  "excludedMotifCategories": ["reviewed_identifiable_pictorial_whole_board"],
+  "notAutomaticallyExcluded": ["ordinary_radial", "ordinary_grid", "ordinary_lattice", "unlabeled_geometric_cluster"],
+  "limits": [
+    "This is a pending curation stub, not the completed exclusion inventory; main/source audit must review other identifiable pictures.",
+    "Blank labels do not certify ordinary layouts; generic radial/grid structure does not automatically establish a pictorial figure.",
+    "Requested500 original training levels remains provenance intent; categorical exclusions take priority. Curated available ordinary originals can be used without padding/duplication when the APK inventory is exhausted; report actual count and unmet request honestly.",
+    "Historical mixed/pictorial-trained models and diamond8010000 remain historical only; no current generation permitted."
+  ]
+}

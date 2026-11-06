@@ -1,0 +1,49 @@
+{
+  "catalogInlineComparisons": [
+    {
+      "part": 0,
+      "template": "native-b9ed1205a1028b56a407",
+      "geometryEqual": true
+    },
+    {
+      "part": 1,
+      "template": "native-f973c12a6de96aca407f",
+      "geometryEqual": true
+    },
+    {
+      "part": 2,
+      "template": "native-4b93ed1e9ec9f51f7319",
+      "geometryEqual": true
+    },
+    {
+      "part": 3,
+      "template": "native-00e31d622b8ad1b7c73a",
+      "geometryEqual": true
+    },
+    {
+      "part": 4,
+      "template": "native-2b0ae1d3cceca4e1f803",
+      "geometryEqual": true
+    },
+    {
+      "part": 5,
+      "template": "native-c25fe0abe675208603be",
+      "geometryEqual": true
+    },
+    {
+      "part": 6,
+      "template": "native-c25fe0abe675208603be",
+      "geometryEqual": true
+    }
+  ],
+  "nearbyShapePairs": [
+    {
+      "owner": 1,
+      "other": 5,
+      "role": "body",
+      "otherRole": "body",
+      "distance": 0.005447619155374216,
+      "area": 0.0
+    }
+  ]
+}

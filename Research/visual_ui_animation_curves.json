@@ -1,0 +1,232 @@
+[
+  {
+    "name": "anim_uigame_in",
+    "pathId": -8010121893531095227,
+    "sampleRate": 60.0,
+    "curves": [
+      {
+        "attribute": "m_AnchoredPosition.y",
+        "path": "Panel/TopContent",
+        "classID": 224,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 118.0,
+            "inSlope": -4632.712890625,
+            "outSlope": -4632.712890625,
+            "weightedMode": 3,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3229384124279022
+          },
+          {
+            "time": 0.1666666716337204,
+            "value": -123.91136169433594,
+            "inSlope": -8.242399215698242,
+            "outSlope": -8.242399215698242,
+            "weightedMode": 3,
+            "inWeight": 0.45829683542251587,
+            "outWeight": 0.19450247287750244
+          },
+          {
+            "time": 0.4166666567325592,
+            "value": -116.0,
+            "inSlope": 1.8236737251281738,
+            "outSlope": 1.8236737251281738,
+            "weightedMode": 3,
+            "inWeight": 0.788135290145874,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      },
+      {
+        "attribute": "m_AnchoredPosition.y",
+        "path": "Panel/PropContent",
+        "classID": 224,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": -124.0,
+            "inSlope": 14884.7216796875,
+            "outSlope": 14884.7216796875,
+            "weightedMode": 3,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.1235048919916153
+          },
+          {
+            "time": 0.1666666716337204,
+            "value": 252.68714904785156,
+            "inSlope": 11.376480102539062,
+            "outSlope": 11.376480102539062,
+            "weightedMode": 3,
+            "inWeight": 0.5918968915939331,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.4166666567325592,
+            "value": 240.0,
+            "inSlope": -2.5075886249542236,
+            "outSlope": 0.0,
+            "weightedMode": 3,
+            "inWeight": 0.7394850850105286,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      },
+      {
+        "attribute": "m_Alpha",
+        "path": "Panel",
+        "classID": 225,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.1666666716337204,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.4166666567325592,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "anim_uigame_out",
+    "pathId": 2527956172104367058,
+    "sampleRate": 60.0,
+    "curves": [
+      {
+        "attribute": "m_AnchoredPosition.y",
+        "path": "Panel/TopContent",
+        "classID": 224,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": -116.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.25,
+            "value": 119.0,
+            "inSlope": 1954.3133544921875,
+            "outSlope": 1954.3133544921875,
+            "weightedMode": 0,
+            "inWeight": 0.06115731596946716,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      },
+      {
+        "attribute": "m_AnchoredPosition.y",
+        "path": "Panel/PropContent",
+        "classID": 224,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 240.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.25,
+            "value": -137.0,
+            "inSlope": -3139.598388671875,
+            "outSlope": -3139.598388671875,
+            "weightedMode": 0,
+            "inWeight": 0.06853526830673218,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      },
+      {
+        "attribute": "m_Alpha",
+        "path": "Panel",
+        "classID": 225,
+        "script": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "flags": 0,
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.0833333358168602,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 0.25,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ]
+      }
+    ]
+  }
+]

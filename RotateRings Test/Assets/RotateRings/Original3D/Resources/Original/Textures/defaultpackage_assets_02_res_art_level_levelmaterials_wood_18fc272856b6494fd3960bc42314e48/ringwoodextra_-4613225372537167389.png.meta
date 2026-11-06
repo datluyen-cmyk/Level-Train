@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 370b400dac8b8fc44a0e22f9abeade76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8316188128263132199
+    second: ringwoodextra_-4613225372537167389_0
+  - first:
+      213: 8111127547530177602
+    second: ringwoodextra_-4613225372537167389_1
+  - first:
+      213: 3618780015038520720
+    second: ringwoodextra_-4613225372537167389_2
+  - first:
+      213: 7793636991368913043
+    second: ringwoodextra_-4613225372537167389_3
+  - first:
+      213: 6520259682451556629
+    second: ringwoodextra_-4613225372537167389_4
+  - first:
+      213: -7213378447146149027
+    second: ringwoodextra_-4613225372537167389_5
+  - first:
+      213: 3051494401524223879
+    second: ringwoodextra_-4613225372537167389_6
+  - first:
+      213: 208740511377001280
+    second: ringwoodextra_-4613225372537167389_7
+  - first:
+      213: -6458841917073222513
+    second: ringwoodextra_-4613225372537167389_8
+  - first:
+      213: -9009931792134264523
+    second: ringwoodextra_-4613225372537167389_9
+  - first:
+      213: -4723484171027605558
+    second: ringwoodextra_-4613225372537167389_10
+  - first:
+      213: -673781591082806437
+    second: ringwoodextra_-4613225372537167389_11
+  - first:
+      213: 6632195219880831354
+    second: ringwoodextra_-4613225372537167389_12
+  - first:
+      213: 3073956238640036443
+    second: ringwoodextra_-4613225372537167389_13
+  - first:
+      213: 2159541974886184180
+    second: ringwoodextra_-4613225372537167389_14
+  - first:
+      213: -4278153569381290554
+    second: ringwoodextra_-4613225372537167389_15
+  - first:
+      213: -2915060700440059125
+    second: ringwoodextra_-4613225372537167389_16
+  - first:
+      213: 6964090900481273846
+    second: ringwoodextra_-4613225372537167389_17
+  - first:
+      213: -6239969172463556903
+    second: ringwoodextra_-4613225372537167389_18
+  - first:
+      213: 595576513755545595
+    second: ringwoodextra_-4613225372537167389_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 507
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724d176aa09096370800000000000000
+      internalID: 8316188128263132199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 192
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ceb66a783809070800000000000000
+      internalID: 8111127547530177602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d57a4204d783230800000000000000
+      internalID: 3618780015038520720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 99
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39063ea1d8f882c60800000000000000
+      internalID: 7793636991368913043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 78
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51983d7a2ad9c7a50800000000000000
+      internalID: 6520259682451556629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_5
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 73
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b156b358ee4eb90800000000000000
+      internalID: -7213378447146149027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fc1fc9df5195a20800000000000000
+      internalID: 3051494401524223879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 62
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b0cde936895e200800000000000000
+      internalID: 208740511377001280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 54
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8492703f759d56a0800000000000000
+      internalID: -6458841917073222513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539a65f85ca46f280800000000000000
+      internalID: -9009931792134264523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac718bb2c20d27eb0800000000000000
+      internalID: -4723484171027605558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53df47763f36a6f0800000000000000
+      internalID: -673781591082806437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a796a02e96a4a0c50800000000000000
+      internalID: 6632195219880831354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3c3b99e2e8aa20800000000000000
+      internalID: 3073956238640036443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4f2a20cfb38fd10800000000000000
+      internalID: 2159541974886184180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_15
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd657acef1f0a4c0800000000000000
+      internalID: -4278153569381290554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_16
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 25
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a193dcbf9b87d0800000000000000
+      internalID: -2915060700440059125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 68
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff67b2d6cb65a060800000000000000
+      internalID: 6964090900481273846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 128
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6ebe1391d2769a0800000000000000
+      internalID: -6239969172463556903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ringwoodextra_-4613225372537167389_19
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 0
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfff6fa0fa9e34800800000000000000
+      internalID: 595576513755545595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ringwoodextra_-4613225372537167389_0: 8316188128263132199
+      ringwoodextra_-4613225372537167389_1: 8111127547530177602
+      ringwoodextra_-4613225372537167389_10: -4723484171027605558
+      ringwoodextra_-4613225372537167389_11: -673781591082806437
+      ringwoodextra_-4613225372537167389_12: 6632195219880831354
+      ringwoodextra_-4613225372537167389_13: 3073956238640036443
+      ringwoodextra_-4613225372537167389_14: 2159541974886184180
+      ringwoodextra_-4613225372537167389_15: -4278153569381290554
+      ringwoodextra_-4613225372537167389_16: -2915060700440059125
+      ringwoodextra_-4613225372537167389_17: 6964090900481273846
+      ringwoodextra_-4613225372537167389_18: -6239969172463556903
+      ringwoodextra_-4613225372537167389_19: 595576513755545595
+      ringwoodextra_-4613225372537167389_2: 3618780015038520720
+      ringwoodextra_-4613225372537167389_3: 7793636991368913043
+      ringwoodextra_-4613225372537167389_4: 6520259682451556629
+      ringwoodextra_-4613225372537167389_5: -7213378447146149027
+      ringwoodextra_-4613225372537167389_6: 3051494401524223879
+      ringwoodextra_-4613225372537167389_7: 208740511377001280
+      ringwoodextra_-4613225372537167389_8: -6458841917073222513
+      ringwoodextra_-4613225372537167389_9: -9009931792134264523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

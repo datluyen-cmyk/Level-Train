@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_BEFORE_OUTPUT",
+  "acceptedCount": 0,
+  "error": "IndexError in incoming local-angle probe because replaced donor with zero outgoing pins inherited original outgoing shape indices",
+  "repair": "Remove original outgoing relations from temporary replacement probe, matching actual zero-outgoing donor pattern. Old executed snapshot preserved. New separate retry batch."
+}

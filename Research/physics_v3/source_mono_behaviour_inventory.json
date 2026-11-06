@@ -1,0 +1,117 @@
+{
+  "sourceCount": 500,
+  "classCounts": {
+    "ColliderRoleMarker": 53280,
+    "LayerMaskHelper": 49286,
+    "StyleLineUnderlayProxy": 11277,
+    "RingObject": 7295,
+    "GameLevelInfo": 500,
+    "RingSegmentController": 7295,
+    "CameraBorderGizmos": 500,
+    "UniversalAdditionalCameraData": 500,
+    "RingRelative": 7923,
+    "FixedObject": 3339,
+    "PullObject": 3982,
+    "QuadPlaneController": 3518,
+    "ArrowRibbonController": 3982,
+    "FixedButterflyRelative": 3226,
+    "BombRelative": 179,
+    "FixedButterflyMeshPart": 186,
+    "FixedButterflyMeshController": 62,
+    "FixedButterflyObject": 62
+  },
+  "levelsContaining": {
+    "GameLevelInfo": 500,
+    "RingRelative": 480,
+    "RingSegmentController": 495,
+    "LayerMaskHelper": 500,
+    "ColliderRoleMarker": 500,
+    "RingObject": 495,
+    "UniversalAdditionalCameraData": 500,
+    "StyleLineUnderlayProxy": 500,
+    "CameraBorderGizmos": 500,
+    "FixedButterflyRelative": 402,
+    "QuadPlaneController": 428,
+    "PullObject": 406,
+    "FixedObject": 395,
+    "ArrowRibbonController": 406,
+    "BombRelative": 125,
+    "FixedButterflyObject": 26,
+    "FixedButterflyMeshController": 26,
+    "FixedButterflyMeshPart": 26
+  },
+  "examples": {
+    "ColliderRoleMarker": [
+      "10001",
+      "Bottom"
+    ],
+    "LayerMaskHelper": [
+      "10001",
+      "PhysicRingRelative(Clone)"
+    ],
+    "StyleLineUnderlayProxy": [
+      "10001",
+      "Ring_ring_2"
+    ],
+    "RingObject": [
+      "10001",
+      "Ring_ring_2"
+    ],
+    "GameLevelInfo": [
+      "10001",
+      "Level10001"
+    ],
+    "RingSegmentController": [
+      "10001",
+      "Ring_ring_2"
+    ],
+    "CameraBorderGizmos": [
+      "10001",
+      "LevelCaptureCamera"
+    ],
+    "UniversalAdditionalCameraData": [
+      "10001",
+      "LevelCaptureCamera"
+    ],
+    "RingRelative": [
+      "10001",
+      "PhysicRingRelative(Clone)"
+    ],
+    "FixedObject": [
+      "10010",
+      "Catch_guide_2"
+    ],
+    "PullObject": [
+      "10010",
+      "Stick_slide_bar_1"
+    ],
+    "QuadPlaneController": [
+      "10010",
+      "Catch_guide_2"
+    ],
+    "ArrowRibbonController": [
+      "10010",
+      "Stick_slide_bar_1"
+    ],
+    "FixedButterflyRelative": [
+      "10010",
+      "Catch_guide_1"
+    ],
+    "BombRelative": [
+      "10109",
+      "Bomb_bomb_1"
+    ],
+    "FixedButterflyMeshPart": [
+      "10190",
+      "Butterfly_butterfly_bar_3"
+    ],
+    "FixedButterflyMeshController": [
+      "10190",
+      "Butterfly_butterfly_bar_1"
+    ],
+    "FixedButterflyObject": [
+      "10190",
+      "Butterfly_butterfly_bar_5"
+    ]
+  }
+}

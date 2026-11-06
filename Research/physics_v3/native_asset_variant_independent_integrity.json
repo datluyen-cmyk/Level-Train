@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "levelId": 6000001,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 6,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            3,
+            5
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1716,
+          "measuredPoseResidualL2": 0.7697890533812256
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1574,
+          "measuredPoseResidualL2": 1.0255221449402516
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 641,
+          "measuredPoseResidualL2": 1.9643063569700145
+        },
+        {
+          "owners": [
+            12,
+            4
+          ],
+          "sourcePatternId": "73012",
+          "learnedRecordIndex": 1345,
+          "measuredPoseResidualL2": 1.896379036339353
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "10008",
+          "learnedRecordIndex": 2637,
+          "measuredPoseResidualL2": 0.8953614920363901
+        },
+        {
+          "owners": [
+            13,
+            15
+          ],
+          "sourcePatternId": "10035",
+          "learnedRecordIndex": 1665,
+          "measuredPoseResidualL2": 0.8156121089000259
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 6000002,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 6,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            3,
+            5
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.0
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1574,
+          "measuredPoseResidualL2": 1.0255221449402516
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 2269,
+          "measuredPoseResidualL2": 1.2848263147731984
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "10054",
+          "learnedRecordIndex": 2637,
+          "measuredPoseResidualL2": 0.8953614920363901
+        },
+        {
+          "owners": [
+            13,
+            15
+          ],
+          "sourcePatternId": "10044",
+          "learnedRecordIndex": 1665,
+          "measuredPoseResidualL2": 0.8156121089000259
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 6000003,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 6,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            3,
+            5
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.0
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1574,
+          "measuredPoseResidualL2": 1.0255221449402516
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 641,
+          "measuredPoseResidualL2": 1.9643063569700145
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "60068",
+          "learnedRecordIndex": 2637,
+          "measuredPoseResidualL2": 0.8953614920363901
+        },
+        {
+          "owners": [
+            13,
+            15
+          ],
+          "sourcePatternId": "10047",
+          "learnedRecordIndex": 1665,
+          "measuredPoseResidualL2": 0.8156121089000259
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 6000004,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 6,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            3,
+            5
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.0
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1574,
+          "measuredPoseResidualL2": 1.0255221449402516
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 641,
+          "measuredPoseResidualL2": 1.9643063569700145
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "90020",
+          "learnedRecordIndex": 2637,
+          "measuredPoseResidualL2": 0.8953614920363901
+        },
+        {
+          "owners": [
+            13,
+            15
+          ],
+          "sourcePatternId": "10174",
+          "learnedRecordIndex": 1665,
+          "measuredPoseResidualL2": 0.8156121089000259
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\incomplete_native_asset_variant\\proposals.json": "d855b35c1859f857a48f12c196f011a09a9c5ba1bf4e9ee3b038bac056f97da3",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\models\\composition_pose.joblib": "6fdd7246b99ca0aa95e3cfb6aab1dce402c9be0910389fde01c19b9204108447",
+    "D:\\RotateRings\\Tools\\learned_placement_audit_v3.py": "d8d5f2817ceb6e71cae0c34c658a73c7a377029c559adcb986b78982305cb72c"
+  }
+}

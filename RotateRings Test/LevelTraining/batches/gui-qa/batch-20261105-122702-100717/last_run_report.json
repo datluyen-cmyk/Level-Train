@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "requestedCount": 1,
+  "generatedCount": 1,
+  "trainingOriginalCount": 500,
+  "seed": 117,
+  "inputHashes": {
+    "adapter": "3db01e6246233f484b2c21a1fc99cade4e0083083cbf5d79a09b399eeca2f420",
+    "references": "160b608566e4106add4ec76206295beb8bc9d94dd00dd6157b28079e5ccda344",
+    "corpus": "54f73f7a38863ec4835b6862d870b33d2406f1704c14e2170e4b17c4ef51afa2",
+    "config": "3fd42f80d1969afaf412346948de8f756c9738f4573dedbbded03a270693010f",
+    "pipeline": "a29d76206e20d635e61125acae7028826da54d64c03d4113f73fbdf2e1f3800c"
+  },
+  "modelHashes": {
+    "difficulty.joblib": "79037bf48cd5c401043542556629c8b97932c3c7fa8c708918129fe65dd4d874",
+    "proposal.joblib": "3702c7d5b291990f3b5456a5d1f4d17b81dcf699bf6eea52db7b617908baed2a"
+  },
+  "criteria": {
+    "nearCopyDistance": 0.1,
+    "sourceCountMinimum": 500,
+    "requestedCount": 300,
+    "maxAttemptsPerLevel": 240,
+    "countRelativeTolerance": 0.3,
+    "computerScoreRelativeTolerance": 0.35,
+    "tutorialPolicy": "positions1..3:3..5 parts, limited cosmetic-equivalence space",
+    "unsupportedMechanics": [
+      "native butterfly slots",
+      "explosive contact",
+      "arbitrary continuous native collision"
+    ]
+  },
+  "rejections": {
+    "cosmeticEquivalent": 15
+  },
+  "comparisons": [
+    {
+      "position": 1,
+      "referenceId": "10001",
+      "sourceParts": 2.0,
+      "newParts": 3.0,
+      "sourceLinks": 1.0,
+      "newLinks": 0.0,
+      "score": 3.25,
+      "targetScore": 2.65,
+      "referenceProxyAvailable": true,
+      "nearestDistance": 0.8125,
+      "keys": 0.0,
+      "sliders": 0.0
+    }
+  ],
+  "seconds": 0.3521261215209961,
+  "limits": "Reduced contact-sensitive pin/gap reconstruction. Original native continuous collision, butterfly slots and bomb contacts unavailable. Original/human win rate, time, retries and fun not measured. Canonical conservative WL hashes reject cosmetic equivalents; neighborhood edit distance is a heuristic, not a proof of minimum graph edit distance. Solvers are nonoptimal.",
+  "packSha256": "f3eac3cb00c8ae4c35a87b7d42c1be36fc92b2c163e44042d992a8c6c722795f"
+}

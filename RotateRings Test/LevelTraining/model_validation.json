@@ -1,0 +1,5470 @@
+{
+  "split": {
+    "method": "whole conservative WL graph families, color/IDs/rigid transforms ignored; split before augmentation",
+    "trainFamilies": 399,
+    "testFamilies": 100,
+    "trainIds": [
+      "71040",
+      "10194",
+      "71031",
+      "50018",
+      "20019",
+      "73014",
+      "10072",
+      "72009",
+      "70027",
+      "10152",
+      "10204",
+      "71117",
+      "140004",
+      "71018",
+      "10005",
+      "60023",
+      "10027",
+      "71128",
+      "71032",
+      "72014",
+      "90025",
+      "10057",
+      "10043",
+      "10162",
+      "71120",
+      "10030",
+      "71206",
+      "10042",
+      "70009",
+      "880010",
+      "71009",
+      "10161",
+      "60047",
+      "71115",
+      "71013",
+      "20095",
+      "70038",
+      "71026",
+      "20061",
+      "60096",
+      "71146",
+      "71205",
+      "150014",
+      "10048",
+      "10025",
+      "10044",
+      "10153",
+      "50012",
+      "71044",
+      "71118",
+      "71108",
+      "20083",
+      "60006",
+      "10160",
+      "150003",
+      "71106",
+      "71002",
+      "72012",
+      "72006",
+      "71005",
+      "60072",
+      "20090",
+      "60010",
+      "60079",
+      "10061",
+      "10208",
+      "60063",
+      "60071",
+      "73003",
+      "10029",
+      "71111",
+      "50017",
+      "20069",
+      "71135",
+      "60043",
+      "71145",
+      "60061",
+      "20084",
+      "10039",
+      "90030",
+      "71011",
+      "10177",
+      "71102",
+      "71147",
+      "60008",
+      "10038",
+      "10188",
+      "20033",
+      "10172",
+      "10033",
+      "60053",
+      "60007",
+      "20055",
+      "71020",
+      "10051",
+      "71023",
+      "60030",
+      "20021",
+      "10009",
+      "10049",
+      "73013",
+      "71024",
+      "73016",
+      "72005",
+      "20067",
+      "60058",
+      "70012",
+      "150002",
+      "10023",
+      "60032",
+      "20013",
+      "20003",
+      "20086",
+      "10071",
+      "60005",
+      "10195",
+      "60062",
+      "660005",
+      "20100",
+      "60051",
+      "71033",
+      "20051",
+      "71101",
+      "90009",
+      "71134",
+      "90013",
+      "70024",
+      "10109",
+      "71139",
+      "70004",
+      "60028",
+      "71039",
+      "71213",
+      "20088",
+      "71138",
+      "71129",
+      "20071",
+      "71019",
+      "110002",
+      "72002",
+      "20029",
+      "71030",
+      "73006",
+      "10018",
+      "90002",
+      "70031",
+      "71012",
+      "71049",
+      "10181",
+      "71216",
+      "70010",
+      "71143",
+      "60070",
+      "71149",
+      "71114",
+      "60091",
+      "880007",
+      "60052",
+      "60074",
+      "10170",
+      "660002",
+      "10036",
+      "10002",
+      "20096",
+      "10046",
+      "10111",
+      "71043",
+      "60055",
+      "10050",
+      "10055",
+      "20089",
+      "70034",
+      "10053",
+      "20094",
+      "20005",
+      "71035",
+      "72003",
+      "73001",
+      "60046",
+      "71015",
+      "10024",
+      "150013",
+      "10068",
+      "10209",
+      "70033",
+      "70025",
+      "71025",
+      "70030",
+      "71109",
+      "10157",
+      "71215",
+      "10164",
+      "10182",
+      "71227",
+      "90006",
+      "71016",
+      "10066",
+      "10041",
+      "60064",
+      "10003",
+      "71027",
+      "90003",
+      "70006",
+      "71201",
+      "10168",
+      "50010",
+      "10058",
+      "10156",
+      "880002",
+      "70007",
+      "20059",
+      "60092",
+      "20053",
+      "71137",
+      "50016",
+      "71042",
+      "10037",
+      "71107",
+      "90012",
+      "71133",
+      "60067",
+      "60048",
+      "10122",
+      "10192",
+      "71004",
+      "10008",
+      "70003",
+      "70022",
+      "70011",
+      "71046",
+      "71144",
+      "71047",
+      "71204",
+      "10179",
+      "71001",
+      "10040",
+      "20079",
+      "60034",
+      "90008",
+      "71121",
+      "73010",
+      "20039",
+      "20023",
+      "60069",
+      "60049",
+      "50008",
+      "73012",
+      "10207",
+      "71122",
+      "71126",
+      "10021",
+      "71010",
+      "50002",
+      "71230",
+      "10187",
+      "71202",
+      "10205",
+      "71132",
+      "71119",
+      "71140",
+      "71136",
+      "70002",
+      "110005",
+      "71131",
+      "60011",
+      "71208",
+      "10199",
+      "20085",
+      "10184",
+      "60042",
+      "71104",
+      "10047",
+      "70008",
+      "60094",
+      "20007",
+      "71218",
+      "71130",
+      "50011",
+      "20041",
+      "71045",
+      "10045",
+      "60003",
+      "10004",
+      "90020",
+      "10095",
+      "71014",
+      "60077",
+      "10067",
+      "20081",
+      "71141",
+      "71110",
+      "10134",
+      "150007",
+      "73007",
+      "71007",
+      "10190",
+      "10007",
+      "71008",
+      "20082",
+      "20091",
+      "72007",
+      "90005",
+      "10062",
+      "60001",
+      "60026",
+      "73009",
+      "10198",
+      "10056",
+      "70029",
+      "90022",
+      "71209",
+      "10010",
+      "20092",
+      "20045",
+      "20098",
+      "100005",
+      "20017",
+      "130004",
+      "71028",
+      "130008",
+      "71127",
+      "10191",
+      "73005",
+      "20015",
+      "60081",
+      "73004",
+      "71038",
+      "71050",
+      "10154",
+      "10006",
+      "20065",
+      "71021",
+      "60065",
+      "880004",
+      "70026",
+      "20077",
+      "70040",
+      "130006",
+      "71150",
+      "71103",
+      "71112",
+      "10159",
+      "10013",
+      "150006",
+      "71116",
+      "10197",
+      "10082",
+      "73008",
+      "10028",
+      "71037",
+      "60080",
+      "60045",
+      "10017",
+      "71022",
+      "70020",
+      "71148",
+      "150001",
+      "110003",
+      "150011",
+      "10034",
+      "71123",
+      "10166",
+      "60076",
+      "10178",
+      "71017",
+      "10158",
+      "60059",
+      "90015",
+      "10175",
+      "60075",
+      "60050",
+      "20057",
+      "72011",
+      "60097",
+      "71113",
+      "10035",
+      "50013",
+      "10015",
+      "20087",
+      "10026",
+      "71105",
+      "10155",
+      "680013",
+      "71217",
+      "10185",
+      "50020",
+      "71006",
+      "71034",
+      "90024",
+      "71029",
+      "72004",
+      "10183",
+      "72013",
+      "10171",
+      "20027",
+      "10063",
+      "70036",
+      "70018",
+      "71223",
+      "10176"
+    ],
+    "testIds": [
+      "70021",
+      "20047",
+      "10201",
+      "71036",
+      "71041",
+      "70005",
+      "71124",
+      "10031",
+      "10193",
+      "10069",
+      "60060",
+      "20035",
+      "60009",
+      "70013",
+      "60004",
+      "71003",
+      "10001",
+      "10064",
+      "10012",
+      "60056",
+      "60044",
+      "90026",
+      "10052",
+      "70039",
+      "10202",
+      "70017",
+      "73011",
+      "20073",
+      "10060",
+      "71207",
+      "60054",
+      "10206",
+      "110001",
+      "60073",
+      "10203",
+      "50014",
+      "10019",
+      "10020",
+      "71142",
+      "60057",
+      "50001",
+      "90055",
+      "60066",
+      "70014",
+      "10196",
+      "70037",
+      "880003",
+      "150015",
+      "71203",
+      "10180",
+      "60078",
+      "60036",
+      "20049",
+      "71222",
+      "10186",
+      "20043",
+      "20031",
+      "10174",
+      "60002",
+      "20063",
+      "50006",
+      "10032",
+      "70015",
+      "73002",
+      "70035",
+      "10125",
+      "20025",
+      "10011",
+      "60068",
+      "50005",
+      "150004",
+      "70032",
+      "10054",
+      "20001",
+      "20099",
+      "50004",
+      "71048",
+      "70023",
+      "20009",
+      "71125",
+      "20093",
+      "10189",
+      "71226",
+      "10173",
+      "70028",
+      "20075",
+      "10065",
+      "10200",
+      "20011",
+      "71229",
+      "20097",
+      "10014",
+      "71224",
+      "10070",
+      "880001",
+      "70019",
+      "150005",
+      "10059",
+      "20037",
+      "90014"
+    ]
+  },
+  "originalStageCount": 500,
+  "difficultyLabelMeaning": "reconstructed computer gesture/angle/branching proxy; native original and humans unmeasured",
+  "projectionSolvedSources": 339,
+  "heldOutSolvedSources": 58,
+  "syntheticTrainRows": 899,
+  "difficulty": {
+    "mae": 1.8852660252520317,
+    "meanBaselineMAE": 8.072178386972995,
+    "r2": 0.9464386214775702
+  },
+  "proposal": {
+    "metrics": {
+      "links": {
+        "conditionalMAE": 5.79,
+        "globalMeanMAE": 5.848800000000001
+      },
+      "branching": {
+        "conditionalMAE": 3.4825,
+        "globalMeanMAE": 3.7215999999999996
+      },
+      "depth": {
+        "conditionalMAE": 1.3133333333333337,
+        "globalMeanMAE": 1.2072
+      },
+      "components": {
+        "conditionalMAE": 5.035833333333334,
+        "globalMeanMAE": 5.116499999999999
+      },
+      "sliders": {
+        "conditionalMAE": 4.368333333333332,
+        "globalMeanMAE": 4.614
+      },
+      "anchors": {
+        "conditionalMAE": 0.0,
+        "globalMeanMAE": 0.0
+      }
+    },
+    "limits": "Features of held-out original families; evaluates statistical proposal calibration, not gameplay win rate."
+  },
+  "sourceStatus": [
+    {
+      "id": "10001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10004",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10010",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10012",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10154",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "60023",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70017",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70010",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10060",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10109",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10111",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10062",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10070",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10068",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10069",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60010",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10067",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10065",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10157",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10048",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10054",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10050",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10061",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10023",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70033",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10042",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10039",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10035",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10058",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10059",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10031",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70025",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10038",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60011",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10134",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60026",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10053",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "60007",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10015",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10026",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60036",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10063",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70027",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10025",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10029",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10043",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70028",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10152",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10066",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71014",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71026",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10057",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10051",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10056",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70032",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10072",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70026",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10021",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "73006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10052",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70012",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10014",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10153",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70030",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70014",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70031",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10055",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71016",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71018",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70029",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10160",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10166",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10168",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10018",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20031",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10125",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71015",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60034",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20001",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71020",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71022",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71028",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71025",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20029",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70018",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10159",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70019",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71017",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20005",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10046",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60030",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10064",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20023",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10017",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10164",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71032",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10019",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71024",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71023",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10040",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20033",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71012",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10158",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60032",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71019",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71010",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10045",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10122",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71027",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20037",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70024",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10156",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71021",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70020",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10071",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70035",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20027",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60028",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10082",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "60003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20015",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10037",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60002",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71030",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10034",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20039",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70023",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10155",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71031",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10044",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20017",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70022",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71029",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70013",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70015",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20025",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10024",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10028",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10049",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10162",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20019",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71034",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10030",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70034",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10041",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20021",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70021",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10095",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10032",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10020",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10036",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10027",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10033",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10047",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20035",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71033",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10161",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70038",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71113",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20043",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71112",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60049",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60060",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60045",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20088",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60074",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72012",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71119",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71114",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20067",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60048",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71135",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73003",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60042",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20087",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71136",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "72003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60058",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71111",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20071",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "60050",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71137",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60046",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71109",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20082",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70040",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60079",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60063",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10172",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20057",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "60051",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71107",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73007",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60054",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20090",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71132",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72009",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60070",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60069",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20041",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71125",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71037",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73011",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71128",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20084",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "70036",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "72013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71117",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60071",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20045",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71124",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71138",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10190",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71122",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20097",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71035",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72004",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71120",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71115",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20075",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "70037",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71139",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60057",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "70039",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20086",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60055",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60052",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71121",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60064",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20063",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71129",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10185",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60053",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71110",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20085",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71036",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72014",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60067",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60059",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20079",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71104",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10187",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73009",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71130",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20099",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60061",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60047",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10170",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71118",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20061",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71123",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10186",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60043",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60078",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20083",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71134",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "72005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71116",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10177",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20047",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10182",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10189",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60092",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71126",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20081",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71131",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "72007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10174",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10179",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20069",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10183",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71039",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10193",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10195",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20098",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60081",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71103",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71047",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20049",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10181",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71133",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10194",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10197",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20096",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71127",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10205",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60065",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10178",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20073",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71105",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60056",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "73010",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71106",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20100",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71108",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10208",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10175",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60073",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20077",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60072",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71038",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73008",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10198",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20094",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10202",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10207",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71102",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10171",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20059",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10180",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60076",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10191",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10199",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20095",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10201",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60044",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10176",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71041",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20065",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60068",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60075",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10192",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10196",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20092",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10203",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10209",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10173",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71046",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20055",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71040",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10188",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "73002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71043",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20093",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10200",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "72011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71042",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71045",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20051",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "10184",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60077",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60091",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71050",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20091",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60062",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "60080",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71048",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71044",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "20053",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71049",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71101",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60066",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "20089",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "butterflies",
+        "bombs",
+        "chainLockedParts"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "10204",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "10206",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50010",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "50008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "110002",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "130006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50016",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "130004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50012",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50017",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50020",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "110001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50011",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "130008",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50018",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "110003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "100005",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "110005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "660005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "660002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "680013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50013",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "73013",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71141",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71140",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "140004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": null
+    },
+    {
+      "id": "71146",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71143",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73016",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71142",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50014",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73014",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71145",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71144",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "chainLockedParts",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880004",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "50002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71150",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71201",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71147",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71202",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880010",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "73012",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71148",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71149",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "880007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "50005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71205",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60094",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150003",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71207",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90026",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "90030",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60096",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71209",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "60097",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "90022",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71213",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150001",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90012",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71230",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90003",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "150006",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71229",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71217",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71227",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "150015",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "butterflies",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150014",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150002",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90002",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71206",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90006",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "90055",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71203",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71208",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71224",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90024",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150004",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90014",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71216",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90009",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71204",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71218",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71223",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150005",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "150011",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "150007",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90020",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71222",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "90008",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "90015",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "71226",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "71215",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "complexSliderPaths"
+      ],
+      "reason": null
+    },
+    {
+      "id": "90025",
+      "projectionSolved": false,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "bombs",
+        "complexSliderPaths"
+      ],
+      "reason": "reduced action search stalled; not proof of original unsolvability"
+    },
+    {
+      "id": "150013",
+      "projectionSolved": true,
+      "originalSolvability": "unmeasured",
+      "unsupportedNativeMechanics": [
+        "catches",
+        "complexSliderPaths"
+      ],
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Large original and training artifacts stored with Git LFS
+*.apk filter=lfs diff=lfs merge=lfs -text
+"/Research/levels/all_levels.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/normalized_corpus.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/physics_v2/corpus500.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/physics_v2/templates.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/physics_v3/full500/source_parity_pack.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/physics_v3/full500/source_templates.json" filter=lfs diff=lfs merge=lfs -text
+"/Research/physics_v3/source500_native_geometry_audit.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/batches/final-300/generated_levels.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/batches/final-300/partial_levels.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/batches/interrupted-31-sharing-violation/generated_levels.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/batches/obsolete-before-mirror-canonicalization/generated_levels.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/corpus.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/references.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_PhysicsV2/templates.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/batches/incomplete_feature_socket_conditioned/proposals.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/data/source500_native.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/data/source_templates.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/source500_native.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/source_templates.json" filter=lfs diff=lfs merge=lfs -text

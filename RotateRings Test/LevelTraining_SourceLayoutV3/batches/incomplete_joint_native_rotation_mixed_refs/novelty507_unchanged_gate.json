@@ -1,0 +1,71 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "gateUnchanged": true,
+  "levels": [
+    {
+      "id": 7200001,
+      "position": 26,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.008471523491159e-15,
+          "p90CenterErrorWidths": 8.265482308486207e-15,
+          "meanAngleErrorDegrees": 29.398472864347042,
+          "meanShapeError": 0.014705882352941176,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "60010"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7200002,
+      "position": 26,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.008471523491159e-15,
+          "p90CenterErrorWidths": 8.265482308486207e-15,
+          "meanAngleErrorDegrees": 29.398686923170573,
+          "meanShapeError": 0.014705882352941176,
+          "alignmentReflection": false,
+          "spacingScale": 1.0000000000000002,
+          "nearCopy": false,
+          "sourceId": "60010"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    }
+  ]
+}

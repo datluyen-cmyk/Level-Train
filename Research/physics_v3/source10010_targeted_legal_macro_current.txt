@@ -1,0 +1,7 @@
+remove7-8;part=7;kind=slide;requestAngle=0.00;targetSlide=-4.800;changed=True;physicalBlocked=False;angle=195.000->195.000;slide=0.000->-4.780;bindings=6->5;removed=->7,8;blocker=-1/-1/
+try-remove6;part=6;kind=rotate;requestAngle=-150.00;targetSlide=0.000;changed=True;physicalBlocked=False;angle=200.000->50.000;slide=0.000->0.000;bindings=5->4;removed=7,8->7,8,6;blocker=-1/-1/
+slider2-positive-endpoint;part=2;kind=slide;requestAngle=0.00;targetSlide=4.800;changed=True;physicalBlocked=True;angle=35.000->35.000;slide=0.000->0.843;bindings=4->4;removed=7,8,6->7,8,6;blocker=3/0/body
+ring3-negative-endpoint;part=3;kind=rotate;requestAngle=-150.00;targetSlide=0.000;changed=True;physicalBlocked=True;angle=120.000->117.491;slide=0.000->0.000;bindings=4->4;removed=7,8,6->7,8,6;blocker=2/0/body
+slider2-negative-endpoint;part=2;kind=slide;requestAngle=0.00;targetSlide=-4.800;changed=True;physicalBlocked=True;angle=35.000->35.000;slide=0.843->-0.847;bindings=4->4;removed=7,8,6->7,8,6;blocker=3/0/body
+ring3-positive-endpoint;part=3;kind=rotate;requestAngle=150.00;targetSlide=0.000;changed=True;physicalBlocked=True;angle=117.491->120.531;slide=0.000->0.000;bindings=4->4;removed=7,8,6->7,8,6;blocker=2/0/body
+ring1-toward-pin9-bearing;part=1;kind=rotate;requestAngle=-104.03;targetSlide=0.000;changed=True;physicalBlocked=True;angle=0.000->342.256;slide=0.000->0.000;bindings=4->4;removed=7,8,6->7,8,6;blocker=2/0/body

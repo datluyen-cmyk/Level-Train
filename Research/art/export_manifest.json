@@ -1,0 +1,662 @@
+[
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_noise_03_n7692424552416066165.png",
+    "name": "tex_noise_03",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -7692424552416066165,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_sequence_007_n6429937639506716111.png",
+    "name": "tex_sequence_007",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -6429937639506716111,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_21_n6021106493315825481.png",
+    "name": "tex_glow_21",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -6021106493315825481,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_star_001_n5857978709598397854.png",
+    "name": "tex_glow_star_001",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -5857978709598397854,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 87,
+    "height": 86
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_05_n5053927779165255278.png",
+    "name": "spine_emoji_combo_05",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -5053927779165255278,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 440,
+    "height": 204
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_star_08_n4832266334886815443.png",
+    "name": "tex_star_08",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -4832266334886815443,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_noise_006_n3420076364385696610.png",
+    "name": "tex_noise_006",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -3420076364385696610,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_01_n3230784778975960688.png",
+    "name": "spine_emoji_combo_01",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -3230784778975960688,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 228,
+    "height": 204
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_sequence_005_n3101426571630855449.png",
+    "name": "tex_sequence_005",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -3101426571630855449,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_20_n3072910821213521117.png",
+    "name": "tex_glow_20",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -3072910821213521117,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_junei_suolian_n2412192365009993027.png",
+    "name": "spine_junei_suolian",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -2412192365009993027,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 512,
+    "height": 64
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_sequence_008_n2230855599697548930.png",
+    "name": "tex_sequence_008",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -2230855599697548930,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_line_006_n699152738195241360.png",
+    "name": "tex_glow_line_006",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -699152738195241360,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_boom_01_n38596745494174957.png",
+    "name": "tex_boom_01",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": -38596745494174957,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_02_998718525453689394.png",
+    "name": "spine_emoji_combo_02",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 998718525453689394,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 396,
+    "height": 164
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_sequence_001_1426893995839651732.png",
+    "name": "tex_sequence_001",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 1426893995839651732,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_06_2404900493376653768.png",
+    "name": "spine_emoji_combo_06",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 2404900493376653768,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 476,
+    "height": 188
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_03_2718512252320842753.png",
+    "name": "spine_emoji_combo_03",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 2718512252320842753,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 220,
+    "height": 192
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_dise_2719882380930389840.png",
+    "name": "tex_glow_dise",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 2719882380930389840,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_mask_02_2974812514784084707.png",
+    "name": "tex_mask_02",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 2974812514784084707,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\Tex_ring_256x256_005_3072380622487625301.png",
+    "name": "Tex_ring_256x256_005",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 3072380622487625301,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\Tex_mask_03_64x64_3316656649523773815.png",
+    "name": "Tex_mask_03_64x64",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 3316656649523773815,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\spine_emoji_combo_04_3805447797136899290.png",
+    "name": "spine_emoji_combo_04",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 3805447797136899290,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 268
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_boom_01_0_4385860682756000637.png",
+    "name": "tex_boom_01_0",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 4385860682756000637,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 208,
+    "height": 250
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_glow_11_5550369016360169489.png",
+    "name": "tex_glow_11",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 5550369016360169489,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\tex_noise_003_6770274932892057789.png",
+    "name": "tex_noise_003",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_effect_prefab_maingameplay_41e0da58007088651c05f0c7803d1206.bundle",
+    "path_id": 6770274932892057789,
+    "bundle_sha256": "8532d343aa91e038f825d34b607525648e194264111051b0a8e687b56fb17d78",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\UIMask_n2320101112833093935.png",
+    "name": "UIMask",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_prefab_home_uihome_03a0e69f0ef723d6b477d5a52c54b665.bundle",
+    "path_id": -2320101112833093935,
+    "bundle_sha256": "6104e4c9d75936103eb121e43ea79ca78a0afc3efd84a40b736dfad0d85b2299",
+    "width": 28,
+    "height": 28
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\UIMask_1987674333211959751.png",
+    "name": "UIMask",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_ui_prefab_home_uihome_03a0e69f0ef723d6b477d5a52c54b665.bundle",
+    "path_id": 1987674333211959751,
+    "bundle_sha256": "6104e4c9d75936103eb121e43ea79ca78a0afc3efd84a40b736dfad0d85b2299",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_img_key_yellow_n8762420837296768296.png",
+    "name": "game_img_key_yellow",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -8762420837296768296,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 92,
+    "height": 114
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\score_bg_progres_2_n8670629123498711197.png",
+    "name": "score_bg_progres_2",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -8670629123498711197,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 98,
+    "height": 90
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\leaderboard_icon_pinecone_n8515638224139801993.png",
+    "name": "leaderboard_icon_pinecone",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -8515638224139801993,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 81,
+    "height": 98
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\score_bg_progres_3_n8091849563530495295.png",
+    "name": "score_bg_progres_3",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -8091849563530495295,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 98,
+    "height": 90
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_img_key_blue_n7050848815730401082.png",
+    "name": "game_img_key_blue",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -7050848815730401082,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 92,
+    "height": 115
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_score_bg_moves_dark_n6688595547066731047.png",
+    "name": "game_score_bg_moves_dark",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -6688595547066731047,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 343,
+    "height": 146
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\leaderboard_game_collect_bg01_n5209732872383799609.png",
+    "name": "leaderboard_game_collect_bg01",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -5209732872383799609,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 134,
+    "height": 136
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_item_bg_dark_n4861441309017731139.png",
+    "name": "game_item_bg_dark",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -4861441309017731139,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 194,
+    "height": 196
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_moves_bg_n3241392858275690314.png",
+    "name": "game_moves_bg",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -3241392858275690314,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 339,
+    "height": 142
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_badge_number_n2841408437987772247.png",
+    "name": "game_badge_number",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -2841408437987772247,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 72,
+    "height": 74
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_img_key_red_n2581748169269113646.png",
+    "name": "game_img_key_red",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -2581748169269113646,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 92,
+    "height": 114
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\common_btn_sub_settings2_n2399138152885646764.png",
+    "name": "common_btn_sub_settings2",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -2399138152885646764,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 112,
+    "height": 112
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_badge_free_n1921637927366246263.png",
+    "name": "game_badge_free",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -1921637927366246263,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 81,
+    "height": 69
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\common_btn_sub_settings_n1759085942183641926.png",
+    "name": "common_btn_sub_settings",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -1759085942183641926,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 112,
+    "height": 111
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_img_key_green_n1366762478641235756.png",
+    "name": "game_img_key_green",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -1366762478641235756,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 92,
+    "height": 114
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\IncredibleX_n1113076946754619287.png",
+    "name": "IncredibleX",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -1113076946754619287,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 71,
+    "height": 73
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\IncredibleX2_n1105944386305104703.png",
+    "name": "IncredibleX2",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -1105944386305104703,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 172,
+    "height": 180
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_score_dark_bg_n704550981147684180.png",
+    "name": "game_score_dark_bg",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": -704550981147684180,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 378,
+    "height": 130
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_badge_lock_443829528276187492.png",
+    "name": "game_badge_lock",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 443829528276187492,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 72,
+    "height": 74
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_score_bg_599763804125234944.png",
+    "name": "game_score_bg",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 599763804125234944,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 378,
+    "height": 130
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\score_bg_progres_4_1086720091658891130.png",
+    "name": "score_bg_progres_4",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 1086720091658891130,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 118,
+    "height": 106
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_badge_free_red_1571150921595657678.png",
+    "name": "game_badge_free_red",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 1571150921595657678,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_badge_ad_1776537869953806179.png",
+    "name": "game_badge_ad",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 1776537869953806179,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 72,
+    "height": 74
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\leaderboard_game_collect_bg02_1997843202847136620.png",
+    "name": "leaderboard_game_collect_bg02",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 1997843202847136620,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 90,
+    "height": 122
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\score_bg_progres_1_5184320316862085327.png",
+    "name": "score_bg_progres_1",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 5184320316862085327,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 118,
+    "height": 106
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\sactx-0-1024x1024-ASTC_6x6-Game-dada6ca8_6909904800357486153.png",
+    "name": "sactx-0-1024x1024-ASTC 6x6-Game-dada6ca8",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 6909904800357486153,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\game_item_bg_8837613545479038531.png",
+    "name": "game_item_bg",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "path_id": 8837613545479038531,
+    "bundle_sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "width": 198,
+    "height": 200
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\home_bg_deco01_n8704707810416914622.png",
+    "name": "home_bg_deco01",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": -8704707810416914622,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 174,
+    "height": 174
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\sactx-0-1024x512-ASTC_6x6-Home-7ec32b5f_n5814636284385917808.png",
+    "name": "sactx-0-1024x512-ASTC 6x6-Home-7ec32b5f",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": -5814636284385917808,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 1024,
+    "height": 512
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\btn_level_yellow_n4436933555933682220.png",
+    "name": "btn_level_yellow",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": -4436933555933682220,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 180,
+    "height": 192
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\home_entry_bg01_n3190861388501086063.png",
+    "name": "home_entry_bg01",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": -3190861388501086063,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\icon_home_firstwin_plz_n2474721407036128201.png",
+    "name": "icon_home_firstwin_plz",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": -2474721407036128201,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 200,
+    "height": 200
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\icon_home_leaderboard_1703961115894866200.png",
+    "name": "icon_home_leaderboard",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": 1703961115894866200,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 169,
+    "height": 142
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\icon_home_firstwin_1717658698892379731.png",
+    "name": "icon_home_firstwin",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": 1717658698892379731,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 197,
+    "height": 174
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\home_entry_bg02_7184819445565556525.png",
+    "name": "home_entry_bg02",
+    "type": "Sprite",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_home_e7e517a00e94895fa48c63632ceea952.bundle",
+    "path_id": 7184819445565556525,
+    "bundle_sha256": "ffacd5712f9e084ff8fc40fd8d83de2f31bf9cc82e6c1fe539b891e02d7cf120",
+    "width": 224,
+    "height": 76
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\ringextra_n_n5665834671891340632.png",
+    "name": "ringextra_n",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_share_assets_02_res_art_level_texture_ring_19f779822c64c971b9b5ff13787dc0e7.bundle",
+    "path_id": -5665834671891340632,
+    "bundle_sha256": "f620287e4d85fcf803aad6a0221ceefc6b9a6b181b6a8244d887b7969b83b777",
+    "width": 1024,
+    "height": 128
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\ringextra_SDF_n2874657492195310327.png",
+    "name": "ringextra SDF",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_share_assets_02_res_art_level_texture_ring_19f779822c64c971b9b5ff13787dc0e7.bundle",
+    "path_id": -2874657492195310327,
+    "bundle_sha256": "f620287e4d85fcf803aad6a0221ceefc6b9a6b181b6a8244d887b7969b83b777",
+    "width": 1024,
+    "height": 128
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Art\\ringextra_n1429220129537321677.png",
+    "name": "ringextra",
+    "type": "Texture2D",
+    "bundle": "defaultpackage_share_assets_02_res_art_level_texture_ring_19f779822c64c971b9b5ff13787dc0e7.bundle",
+    "path_id": -1429220129537321677,
+    "bundle_sha256": "f620287e4d85fcf803aad6a0221ceefc6b9a6b181b6a8244d887b7969b83b777",
+    "width": 1024,
+    "height": 128
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "sourceLevels": 500,
+  "pieceKinds": {
+    "ring": 7295,
+    "slider": 3982
+  },
+  "actualAttachmentKinds": {
+    "TBar": 7923,
+    "HeadedBar": 334
+  },
+  "actualMounts": {
+    "outer": 8087,
+    "inner": 170
+  },
+  "unsupportedLevelMechanicOccurrences": {
+    "catches": 395,
+    "complexSliderPaths": 386,
+    "bombs": 125,
+    "chainLockedParts": 49,
+    "butterflies": 26
+  },
+  "eligibleOriginalLevels": 62,
+  "first300ReferencePartCounts": {
+    "min": 2,
+    "max": 84,
+    "mean": 20.563333333333333,
+    "above32": [
+      {
+        "id": "10063",
+        "position": 60,
+        "rawParts": 33
+      },
+      {
+        "id": "10158",
+        "position": 140,
+        "rawParts": 35
+      },
+      {
+        "id": "10156",
+        "position": 150,
+        "rawParts": 84
+      },
+      {
+        "id": "10155",
+        "position": 170,
+        "rawParts": 41
+      }
+    ]
+  },
+  "nativeGeometryStatus": "500 exported, Unity clearance parity pending; not physically certified",
+  "v1PackStatus": "retained for provenance, physical validation invalidated by real pin collision requirement"
+}

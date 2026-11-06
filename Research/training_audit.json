@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "sourceCount": 500,
+  "uniqueSources": 500,
+  "allMovablePartsAreGoals": true,
+  "sourceSplitBeforeAugmentation": true,
+  "heldoutSyntheticEquivalenceAudit": {
+    "proposalsChecked": 900,
+    "equivalentToHeldout": 0,
+    "equivalentLabels": 0,
+    "seed": 20261105,
+    "method": "Replayed proposal sampling in original training order; compare conservative fingerprints before labels"
+  },
+  "trainTestIdOverlap": 0,
+  "proposalFinalFitCount": 500,
+  "colorAndRigidTransformNoveltyInvariant": true,
+  "sourceUnsupportedNativeStages": 437,
+  "first300UnsupportedNativeStages": 250,
+  "metrics": {
+    "mae": 1.8852660252520317,
+    "meanBaselineMAE": 8.072178386972995,
+    "r2": 0.9464386214775702
+  },
+  "nativeOriginalSolvability": "unmeasured",
+  "humanDifficultyAndFun": "unmeasured",
+  "limitations": [
+    "437/500 source stages contain native fixtures/mechanics not certified by reduced runtime",
+    "250/300 target stages contain native fixtures/mechanics not certified by reduced runtime",
+    "Predictor scores reconstructed proxy formula; high R2 does not establish human or original parity",
+    "Neighborhood proposal depth conditional MAE is worse than global mean baseline",
+    "WL graph fingerprint is conservative; near-copy distance heuristic",
+    "GUI QA report is separate generator_gui_qa.json",
+    "101/first300 source reference reduced solves unavailable: candidate acceptance uses learned structural estimate for these targets"
+  ],
+  "first300SourceReducedProxyUnavailable": 101,
+  "fingerprintMetamorphicTest": {
+    "passed": true,
+    "sampleSourcePosition": 18,
+    "transform": "IDs+5000; color99; x,y -> -y+15,x-27; angle,bearing+90"
+  },
+  "sourceProvenance": {
+    "passed": true,
+    "originalsChecked": 500,
+    "missingOrHashMismatchedIds": [],
+    "method": "SHA256 every normalized source rawPath against immutable source scene JSON"
+  },
+  "finalPackAudit": {
+    "passed": true,
+    "generatedCount": 300,
+    "originalCount": 507,
+    "trainingOriginalCount": 500,
+    "extraNoveltyOnlyOriginalCount": 7,
+    "uniqueOriginalIds": 507,
+    "packSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+    "adapterSha256": "3db01e6246233f484b2c21a1fc99cade4e0083083cbf5d79a09b399eeca2f420",
+    "canonicalOriginalCollisions": [],
+    "canonicalGeneratedDuplicates": [],
+    "nearCopyThreshold": 0.1,
+    "nearCopyCollisions": [],
+    "minimumOriginalDistance": 0.2857142857142857,
+    "minimumGeneratedPairDistance": 0.4,
+    "replayCount": 300,
+    "replayFailed": [],
+    "limits": "Replays reconstructed contact-sensitive pin/gap rules only. Graph equivalence is conservative WL; neighborhood distance is heuristic. Native mechanics and human difficulty/fun unmeasured."
+  },
+  "extraOriginalsAudit": {
+    "passed": true,
+    "completePack": true,
+    "trainingOriginalCount": 500,
+    "extraOriginalCount": 7,
+    "allOriginalSceneCount": 507,
+    "generatedCount": 300,
+    "packSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+    "extrasSha256": "1d1f3e629bce62fc7d7d2379a8b348bac1780634877cdc0663e546187476264d",
+    "canonicalEquivalentExtraCollisions": [],
+    "nearCopyThreshold": 0.1,
+    "nearCopyExtraCollisions": [],
+    "minimumExtraDistance": 0.9727891156462585,
+    "extraIds": [
+      "10210",
+      "10211",
+      "10212",
+      "10213",
+      "10214",
+      "10215",
+      "10216"
+    ],
+    "limits": "Conservative reconstructed graph-equivalence and heuristic neighborhood distance. Extra native fixture/collision semantics not certified. Does not refit models or change 500-stage training corpus."
+  },
+  "generatorGuiQA": {
+    "passed": true,
+    "testKind": "actual Tkinter app methods with real saved-model subprocess; window withdrawn",
+    "finalPackUnchanged": true,
+    "generationCount": 1,
+    "cancellationCheckpointRetained": true,
+    "cancellationSubprocessStopped": true
+  }
+}

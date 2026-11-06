@@ -1,0 +1,65 @@
+--- a/RotateRings Test/Assets/RotateRings/Scripts/RotateRingsRuntime.cs
++++ b/RotateRings Test/Assets/RotateRings/Scripts/RotateRingsRuntime.cs
+@@ -28,7 +28,7 @@
+ 
+     RotateRingsTemplateCatalog templates; RotateRingsCollisionWorld collision; RotateRingsBombContacts bombContacts; RotateRingsInputWorld inputWorld; RotateRingsLevelPack pack; RotateRingsLevel level; State state; RotateRingsWorldView world; Camera gameCamera;
+ 
+-    Canvas canvas; RectTransform uiRoot; ScreenMode mode; Stack<State> undo=new Stack<State>(); Drag drag; int levelIndex; int maxUnlocked; bool referenceQa; bool soundOn=true; float winAt=-1f; bool hammerMode;
++    Canvas canvas; RectTransform uiRoot; ScreenMode mode; Stack<State> undo=new Stack<State>(); Drag drag; int levelIndex; int maxUnlocked; bool referenceQa; bool trainingPreview; bool trainingPreviewUnlockAll; bool soundOn=true; float winAt=-1f; bool hammerMode;
+ 
+     Text titleText,movesText,toastText; RotateRingsOriginalHud originalHud; GameObject panel; AudioSource music, sfx; readonly Dictionary<string,Sprite> artCache=new Dictionary<string,Sprite>();
+ 
+@@ -81,6 +81,26 @@
+         pack=JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(System.IO.Path.Combine(folder,"source_parity_pack.json")));
+         referenceQa=true;StartLevel(sourceId);
+     }
++
++    public void SetTrainingPreviewUnlockAllForQa(bool unlocked){trainingPreviewUnlockAll=unlocked;}
++
++    public void LoadTrainingPreviewForQa(string packPath,string templatesPath,int levelId){
++        if(string.IsNullOrWhiteSpace(packPath)||string.IsNullOrWhiteSpace(templatesPath))throw new ArgumentException("Training preview paths are required.");
++        var nextTemplates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(templatesPath)));
++        var nextPack=JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(packPath)));
++        if(nextPack==null||nextPack.schemaVersion!=3||nextPack.sourceOriginalOnly||nextPack.levels==null||nextPack.levels.Count==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 pack with levels and sourceOriginalOnly=false.");
++        if(nextTemplates==null||nextTemplates.schemaVersion!=3||nextTemplates.templates==null||nextTemplates.templates.Length==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 physics template catalog.");
++        var templateIds=new HashSet<string>();foreach(var t in nextTemplates.templates)if(t!=null&&!string.IsNullOrEmpty(t.id))templateIds.Add(t.id);
++        var levelIds=new HashSet<int>();
++        foreach(var item in nextPack.levels){
++            if(item==null||!levelIds.Add(item.id)||item.sourceOnlyParityFixture||item.parts==null||item.parts.Count==0)throw new System.IO.InvalidDataException("Every preview level needs a unique id, playable parts, and sourceOnlyParityFixture=false.");
++            var partIds=new HashSet<int>();foreach(var part in item.parts)if(part==null||!partIds.Add(part.id)||string.IsNullOrEmpty(part.templateId)||!templateIds.Contains(part.templateId))throw new System.IO.InvalidDataException("Preview level "+item.id+" has a missing template or duplicate part id.");
++        }
++        if(!levelIds.Contains(levelId))throw new ArgumentException("Training preview level id not found: "+levelId);
++        templates=nextTemplates;pack=nextPack;referenceQa=false;trainingPreview=true;
++        int selectedIndex=pack.levels.FindIndex(l=>l.id==levelId);maxUnlocked=trainingPreviewUnlockAll?pack.levels.Count-1:selectedIndex;
++        StartLevel(levelId);
++    }
+ #endif
+ 
+     void LoadAudio(){music=gameObject.AddComponent<AudioSource>();music.loop=true;music.volume=.24f;var clip=Resources.Load<AudioClip>("Audio/rr_bgm_level2");if(clip!=null){music.clip=clip;music.Play();}sfx=gameObject.AddComponent<AudioSource>();sfx.volume=.52f;}
+@@ -140,7 +160,7 @@
+ 
+         var content=new GameObject("Content",typeof(RectTransform),typeof(GridLayoutGroup),typeof(ContentSizeFitter));content.transform.SetParent(scrollGo.transform,false);var cr=Rect(content);cr.anchorMin=new Vector2(0,1);cr.anchorMax=new Vector2(1,1);cr.pivot=new Vector2(.5f,1);cr.anchoredPosition=Vector2.zero;var grid=content.GetComponent<GridLayoutGroup>();grid.cellSize=new Vector2(145,125);grid.spacing=new Vector2(20,22);grid.padding=new RectOffset(8,8,10,16);grid.constraint=GridLayoutGroup.Constraint.FixedColumnCount;grid.constraintCount=5;content.GetComponent<ContentSizeFitter>().verticalFit=ContentSizeFitter.FitMode.PreferredSize;sr.content=cr;sr.horizontal=false;sr.vertical=true;
+ 
+-        for(int i=0;i<pack.levels.Count;i++){int ix=i;int no=i+1;var b=Btn(""+no,content.transform,new Vector2(.5f,.5f),grid.cellSize,()=>StartLevel(pack.levels[ix].id),new Color(.99f,.88f,.54f),Art("btn_level_yellow"));var br=Rect(b.gameObject);br.anchorMin=br.anchorMax=new Vector2(.5f,.5f);br.sizeDelta=grid.cellSize;}
++        for(int i=0;i<pack.levels.Count;i++){int ix=i;int no=i+1;var b=Btn(""+no,content.transform,new Vector2(.5f,.5f),grid.cellSize,()=>StartLevel(pack.levels[ix].id),new Color(.99f,.88f,.54f),Art("btn_level_yellow"));b.interactable=!trainingPreview||trainingPreviewUnlockAll||ix<=maxUnlocked;var br=Rect(b.gameObject);br.anchorMin=br.anchorMax=new Vector2(.5f,.5f);br.sizeDelta=grid.cellSize;}
+ 
+         gameCamera.backgroundColor=Cream;}
+ 
+@@ -152,7 +172,7 @@
+ 
+         originalHud=RotateRingsOriginalHud.Build(Rect(panel),levelIndex+1,null,Firework,Hammer,Undo,Hint,ShowHome,Restart,ToggleSound);
+ 
+-        originalHud.SetScore(0);originalHud.SetMusicState(soundOn);if(referenceQa)Label("ORIGINAL REFERENCE QA / SOURCE "+level.id,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);
++        originalHud.SetScore(0);originalHud.SetMusicState(soundOn);if(trainingPreview)Label("TRAINING PREVIEW / LEVEL "+level.id,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);else if(referenceQa)Label("ORIGINAL REFERENCE QA / SOURCE "+level.id,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);
+ 
+     }
+ 
+@@ -338,7 +358,7 @@
+ 
+     void PlayBreak(int color){if(!soundOn||sfx==null)return;string n=color%3==0?"rr_sfx_wood_break_1":color%3==1?"rr_sfx_rock_break_1":"rr_sfx_jelly_break_1";var clip=Resources.Load<AudioClip>("Audio/"+n);if(clip!=null)sfx.PlayOneShot(clip);}
+ 
+-    void CheckWin(){foreach(var p in level.parts)if(!state.removed.Contains(p.id))return;if(!referenceQa)PlayerPrefs.SetInt("rr_max_level",Mathf.Max(maxUnlocked,Mathf.Min(levelIndex+1,pack.levels.Count-1)));maxUnlocked=Mathf.Max(maxUnlocked,Mathf.Min(levelIndex+1,pack.levels.Count-1));if(!referenceQa)PlayerPrefs.Save();if(winAt<0f)winAt=Time.unscaledTime+RotateRingsOriginalMotion.VictoryDelay;}
++    void CheckWin(){foreach(var p in level.parts)if(!state.removed.Contains(p.id))return;if(!referenceQa&&!trainingPreview){PlayerPrefs.SetInt("rr_max_level",Mathf.Max(maxUnlocked,Mathf.Min(levelIndex+1,pack.levels.Count-1)));maxUnlocked=Mathf.Max(maxUnlocked,Mathf.Min(levelIndex+1,pack.levels.Count-1));PlayerPrefs.Save();}else if(trainingPreview&&!trainingPreviewUnlockAll)maxUnlocked=Mathf.Max(maxUnlocked,Mathf.Min(levelIndex+1,pack.levels.Count-1));if(winAt<0f)winAt=Time.unscaledTime+RotateRingsOriginalMotion.VictoryDelay;}
+ 
+     void ShowWin(){mode=ScreenMode.Win;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Level Clear",new Color(.99f,.95f,.87f));Full(panel);Label("PUZZLE COMPLETE!",panel.transform,new Vector2(.5f,.67f),new Vector2(900,160),62,Ink);Label("Cleared in "+state.moves+" moves",panel.transform,new Vector2(.5f,.57f),new Vector2(800,90),34,Brown,TextAnchor.MiddleCenter,FontStyle.Normal);Btn("NEXT LEVEL  ›",panel.transform,new Vector2(.5f,.43f),new Vector2(490,130),()=>{if(levelIndex+1<pack.levels.Count)StartLevel(pack.levels[levelIndex+1].id);else ShowHome();},new Color(.99f,.75f,.16f));Btn("LEVELS",panel.transform,new Vector2(.5f,.32f),new Vector2(390,100),ShowLevels,new Color(1,.88f,.67f));}
+ 

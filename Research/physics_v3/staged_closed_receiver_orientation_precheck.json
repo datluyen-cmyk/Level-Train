@@ -1,0 +1,509 @@
+[
+  {
+    "position": 2,
+    "id": 7800002,
+    "modifiedRoots": [
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3333333333333333
+  },
+  {
+    "position": 3,
+    "id": 7800003,
+    "modifiedRoots": [
+      4
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 4,
+    "id": 7800004,
+    "modifiedRoots": [
+      2,
+      1
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2857142857142857
+  },
+  {
+    "position": 5,
+    "id": 7800005,
+    "modifiedRoots": [
+      1,
+      4
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2857142857142857
+  },
+  {
+    "position": 6,
+    "id": 7800006,
+    "modifiedRoots": [
+      9,
+      1,
+      4
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3
+  },
+  {
+    "position": 7,
+    "id": 7800007,
+    "modifiedRoots": [
+      10,
+      5,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.23076923076923078
+  },
+  {
+    "position": 8,
+    "id": 7800008,
+    "modifiedRoots": [
+      2,
+      6,
+      1
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3333333333333333
+  },
+  {
+    "position": 9,
+    "id": 7800009,
+    "modifiedRoots": [
+      1,
+      3,
+      2
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3333333333333333
+  },
+  {
+    "position": 11,
+    "id": 7800011,
+    "modifiedRoots": [
+      1,
+      2,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3333333333333333
+  },
+  {
+    "position": 12,
+    "id": 7800012,
+    "modifiedRoots": [
+      7,
+      15,
+      8
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2
+  },
+  {
+    "position": 13,
+    "id": 7800013,
+    "modifiedRoots": [
+      3,
+      1,
+      2
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 14,
+    "id": 7800014,
+    "modifiedRoots": [
+      3,
+      1,
+      2
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 15,
+    "id": 7800015,
+    "modifiedRoots": [
+      6,
+      8,
+      7
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 16,
+    "id": 7800016,
+    "modifiedRoots": [
+      1,
+      2,
+      5,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3076923076923077
+  },
+  {
+    "position": 17,
+    "id": 7800017,
+    "modifiedRoots": [
+      5,
+      3,
+      1,
+      4
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.3076923076923077
+  },
+  {
+    "position": 19,
+    "id": 7800019,
+    "modifiedRoots": [
+      1,
+      19,
+      27,
+      2,
+      3,
+      4,
+      18
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.21212121212121213
+  },
+  {
+    "position": 23,
+    "id": 7800023,
+    "modifiedRoots": [
+      3,
+      1,
+      5,
+      8,
+      12,
+      10
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2857142857142857
+  },
+  {
+    "position": 24,
+    "id": 7800024,
+    "modifiedRoots": [
+      11,
+      7,
+      9,
+      6,
+      2,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 25,
+    "id": 7800025,
+    "modifiedRoots": [
+      1,
+      6,
+      5,
+      4,
+      2,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2608695652173913
+  },
+  {
+    "position": 26,
+    "id": 7800026,
+    "modifiedRoots": [
+      6,
+      5,
+      4,
+      2,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.29411764705882354
+  },
+  {
+    "position": 27,
+    "id": 7800027,
+    "modifiedRoots": [
+      9,
+      12,
+      16,
+      6,
+      13,
+      11,
+      10
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 28,
+    "id": 7800028,
+    "modifiedRoots": [
+      8,
+      5,
+      10,
+      1,
+      4,
+      12,
+      9
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2692307692307692
+  },
+  {
+    "position": 32,
+    "id": 7800032,
+    "modifiedRoots": [
+      3,
+      1,
+      6,
+      9,
+      19
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.20833333333333334
+  },
+  {
+    "position": 33,
+    "id": 7800033,
+    "modifiedRoots": [
+      8,
+      21,
+      10,
+      14,
+      26,
+      22,
+      11,
+      9,
+      15
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.23684210526315788
+  },
+  {
+    "position": 34,
+    "id": 7800034,
+    "modifiedRoots": [
+      3,
+      1,
+      4,
+      2,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 35,
+    "id": 7800035,
+    "modifiedRoots": [
+      18,
+      21,
+      19,
+      17,
+      3,
+      4,
+      6,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2222222222222222
+  },
+  {
+    "position": 36,
+    "id": 7800036,
+    "modifiedRoots": [
+      21,
+      4,
+      18,
+      3,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2
+  },
+  {
+    "position": 37,
+    "id": 7800037,
+    "modifiedRoots": [
+      19,
+      6,
+      4,
+      3,
+      9,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 41,
+    "id": 7800041,
+    "modifiedRoots": [
+      23,
+      31,
+      30,
+      9,
+      14,
+      10,
+      8,
+      12,
+      29
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2571428571428571
+  },
+  {
+    "position": 42,
+    "id": 7800042,
+    "modifiedRoots": [
+      3,
+      4,
+      1,
+      13,
+      10,
+      2,
+      9
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.2692307692307692
+  },
+  {
+    "position": 43,
+    "id": 7800043,
+    "modifiedRoots": [
+      2,
+      5,
+      3,
+      1,
+      6,
+      7,
+      4
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25925925925925924
+  },
+  {
+    "position": 44,
+    "id": 7800044,
+    "modifiedRoots": [
+      12,
+      3,
+      25,
+      1,
+      5,
+      16,
+      26,
+      15
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.26666666666666666
+  },
+  {
+    "position": 45,
+    "id": 7800045,
+    "modifiedRoots": [
+      17,
+      14,
+      13,
+      3,
+      4,
+      1,
+      2
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.28
+  },
+  {
+    "position": 51,
+    "id": 7800051,
+    "modifiedRoots": [
+      4,
+      5,
+      8,
+      6,
+      7,
+      3
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 76,
+    "id": 7800076,
+    "modifiedRoots": [
+      12,
+      4,
+      7,
+      11,
+      15
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.20833333333333334
+  },
+  {
+    "position": 108,
+    "id": 7800108,
+    "modifiedRoots": [
+      1,
+      2,
+      7,
+      4,
+      6,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 176,
+    "id": 7800176,
+    "modifiedRoots": [
+      15,
+      7,
+      2,
+      5,
+      6
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.21739130434782608
+  },
+  {
+    "position": 251,
+    "id": 7800251,
+    "modifiedRoots": [
+      1,
+      16,
+      17,
+      3,
+      5
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.25
+  },
+  {
+    "position": 285,
+    "id": 7800285,
+    "modifiedRoots": [
+      10,
+      5,
+      15,
+      11,
+      3,
+      6,
+      9
+    ],
+    "likelyRotationallySymmetricReceiverRoots": [],
+    "meaningfulRootFractionUpperBound": 0.23333333333333334
+  }
+]

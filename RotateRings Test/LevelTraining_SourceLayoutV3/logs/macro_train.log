@@ -1,0 +1,15 @@
+{
+  "sourceCount": 500,
+  "tileCount": 4232,
+  "macroRelationCount": 8452,
+  "summary": {
+    "nativeMacroGeometry": {
+      "levelMeanNLL": 49.432292444874065,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.0479699992589806
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 48.601390434400045,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.0605807328438646
+    }
+  }
+}

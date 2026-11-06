@@ -1,0 +1,159 @@
+{
+  "status": "INFORMATIONAL_NOT_AN_ACCEPTANCE_GATE",
+  "levels": [
+    {
+      "levelId": 7000001,
+      "referenceSourceId": "10057",
+      "sourcePosition": 76,
+      "typedRootCoverage": 1.0,
+      "maximumRootCenterDistanceWorldUnits": 0.0,
+      "referencePinEdges": 16,
+      "candidatePinEdges": 16,
+      "sharedDirectedPinEdges": 11,
+      "directedPinEdgeSymmetricDifference": 10,
+      "directedPinEdgeJaccard": 0.5238095238095238,
+      "changedOutgoingBranchRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedNativeAssetRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedRootOrientationIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "sourceStrongCompositionRelations": 1,
+      "candidateStrongCompositionRelations": 1,
+      "sharedStrongCompositionRelations": 1,
+      "scope": "Informational native geometry and directed graph divergence at the intended reference scaffold. No novelty exemption, active lock/release order, solve, quality or difficulty claim."
+    },
+    {
+      "levelId": 7000002,
+      "referenceSourceId": "10057",
+      "sourcePosition": 76,
+      "typedRootCoverage": 1.0,
+      "maximumRootCenterDistanceWorldUnits": 0.0,
+      "referencePinEdges": 16,
+      "candidatePinEdges": 16,
+      "sharedDirectedPinEdges": 11,
+      "directedPinEdgeSymmetricDifference": 10,
+      "directedPinEdgeJaccard": 0.5238095238095238,
+      "changedOutgoingBranchRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedNativeAssetRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedRootOrientationIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "sourceStrongCompositionRelations": 1,
+      "candidateStrongCompositionRelations": 1,
+      "sharedStrongCompositionRelations": 1,
+      "scope": "Informational native geometry and directed graph divergence at the intended reference scaffold. No novelty exemption, active lock/release order, solve, quality or difficulty claim."
+    },
+    {
+      "levelId": 7000003,
+      "referenceSourceId": "10057",
+      "sourcePosition": 76,
+      "typedRootCoverage": 1.0,
+      "maximumRootCenterDistanceWorldUnits": 0.0,
+      "referencePinEdges": 16,
+      "candidatePinEdges": 16,
+      "sharedDirectedPinEdges": 11,
+      "directedPinEdgeSymmetricDifference": 10,
+      "directedPinEdgeJaccard": 0.5238095238095238,
+      "changedOutgoingBranchRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedNativeAssetRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedRootOrientationIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "sourceStrongCompositionRelations": 1,
+      "candidateStrongCompositionRelations": 1,
+      "sharedStrongCompositionRelations": 1,
+      "scope": "Informational native geometry and directed graph divergence at the intended reference scaffold. No novelty exemption, active lock/release order, solve, quality or difficulty claim."
+    },
+    {
+      "levelId": 7000004,
+      "referenceSourceId": "10057",
+      "sourcePosition": 76,
+      "typedRootCoverage": 1.0,
+      "maximumRootCenterDistanceWorldUnits": 0.0,
+      "referencePinEdges": 16,
+      "candidatePinEdges": 16,
+      "sharedDirectedPinEdges": 11,
+      "directedPinEdgeSymmetricDifference": 10,
+      "directedPinEdgeJaccard": 0.5238095238095238,
+      "changedOutgoingBranchRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedNativeAssetRootIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "changedRootOrientationIds": [
+        4,
+        7,
+        11,
+        12,
+        15
+      ],
+      "sourceStrongCompositionRelations": 1,
+      "candidateStrongCompositionRelations": 1,
+      "sharedStrongCompositionRelations": 1,
+      "scope": "Informational native geometry and directed graph divergence at the intended reference scaffold. No novelty exemption, active lock/release order, solve, quality or difficulty claim."
+    }
+  ],
+  "hashes": {
+    "Research\\physics_v3\\joint_native_asset_rotation_initial_input.json": "b171261f6d907f678b0ba1995f5893a1447ff6ead06389d5c7b54b9653a37d71",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\puzzle_structure_diagnostics_v3.py": "2b10cb558f3cb627f2d30df07c048744aa028177f51dcbcf13c055bf41a7dfe8"
+  }
+}

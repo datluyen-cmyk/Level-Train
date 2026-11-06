@@ -1,0 +1,394 @@
+{
+  "status": "POST_RUN_SOFT_SCORE_DIAGNOSTIC_NOT_ACCEPTANCE",
+  "acceptedCount": 0,
+  "packSha256": "40624d5a26a34e5809468b24cb21930cc351157b16de96f98e3424296219baf0",
+  "diagnosticToolSha256": "66277cffd2e25f5375bd71c38faf80781b5a79532da10ca398950bde1a607199",
+  "scoreAlgorithmChanged": false,
+  "rows": [
+    {
+      "candidateId": 9200000,
+      "intendedPosition": 7,
+      "sharpFieldSourceId": "10043",
+      "sharpFieldSourcePosition": 65,
+      "softTargetRootCount": 33.00000000000001,
+      "actualRootCount": 40,
+      "softTargetSpan": 24.169870567798238,
+      "actualSpan": 35.09483285022647,
+      "score": 0.6253692400945066,
+      "scoreContributions": {
+        "latentField": 0.540285848517977,
+        "logPartCount": 0.01271468997849681,
+        "logSpan": 0.04289448311630847,
+        "levelContext": 0.029474218481724265
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "10058",
+          "prototypeCount": 8,
+          "closureCount": 10
+        },
+        {
+          "sourceId": "71009",
+          "prototypeCount": 5,
+          "closureCount": 9
+        },
+        {
+          "sourceId": "10023",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10038",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10031",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71001",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71021",
+          "prototypeCount": 4,
+          "closureCount": 4
+        },
+        {
+          "sourceId": "10152",
+          "prototypeCount": 4,
+          "closureCount": 4
+        },
+        {
+          "sourceId": "10161",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10061",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10063",
+          "prototypeCount": 2,
+          "closureCount": 2
+        }
+      ]
+    },
+    {
+      "candidateId": 9200001,
+      "intendedPosition": 7,
+      "sharpFieldSourceId": "10009",
+      "sharpFieldSourcePosition": 13,
+      "softTargetRootCount": 12.0,
+      "actualRootCount": 16,
+      "softTargetSpan": 20.056535225694027,
+      "actualSpan": 28.1738712437208,
+      "score": 0.7579032585705818,
+      "scoreContributions": {
+        "latentField": 0.6775481920415967,
+        "logPartCount": 0.018219461171581998,
+        "logSpan": 0.0390866700550658,
+        "levelContext": 0.023048935302337384
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "10008",
+          "prototypeCount": 5,
+          "closureCount": 5
+        },
+        {
+          "sourceId": "70003",
+          "prototypeCount": 3,
+          "closureCount": 3
+        },
+        {
+          "sourceId": "70003",
+          "prototypeCount": 3,
+          "closureCount": 3
+        },
+        {
+          "sourceId": "10009",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "70003",
+          "prototypeCount": 3,
+          "closureCount": 3
+        }
+      ]
+    },
+    {
+      "candidateId": 9200002,
+      "intendedPosition": 18,
+      "sharpFieldSourceId": "10058",
+      "sharpFieldSourcePosition": 43,
+      "softTargetRootCount": 26.999999999999996,
+      "actualRootCount": 26,
+      "softTargetSpan": 21.24169349948174,
+      "actualSpan": 28.56435393512473,
+      "score": 0.5087188859833878,
+      "scoreContributions": {
+        "latentField": 0.4454677008286201,
+        "logPartCount": 0.002469950921419369,
+        "logSpan": 0.03406669365850707,
+        "levelContext": 0.02671454057484118
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "70032",
+          "prototypeCount": 6,
+          "closureCount": 8
+        },
+        {
+          "sourceId": "10062",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71005",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10039",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71024",
+          "prototypeCount": 5,
+          "closureCount": 6
+        },
+        {
+          "sourceId": "71027",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71020",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "70004",
+          "prototypeCount": 2,
+          "closureCount": 2
+        }
+      ]
+    },
+    {
+      "candidateId": 9200003,
+      "intendedPosition": 18,
+      "sharpFieldSourceId": "10048",
+      "sharpFieldSourcePosition": 32,
+      "softTargetRootCount": 23.999999999999996,
+      "actualRootCount": 24,
+      "softTargetSpan": 24.476713473914955,
+      "actualSpan": 30.557217337474757,
+      "score": 0.6206023929296495,
+      "scoreContributions": {
+        "latentField": 0.549552266540254,
+        "logPartCount": 0.0,
+        "logSpan": 0.025519365544524695,
+        "levelContext": 0.04553076084487063
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "71013",
+          "prototypeCount": 7,
+          "closureCount": 7
+        },
+        {
+          "sourceId": "10023",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71003",
+          "prototypeCount": 4,
+          "closureCount": 4
+        },
+        {
+          "sourceId": "71115",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "70025",
+          "prototypeCount": 4,
+          "closureCount": 4
+        },
+        {
+          "sourceId": "71016",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71005",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10038",
+          "prototypeCount": 2,
+          "closureCount": 2
+        }
+      ]
+    },
+    {
+      "candidateId": 9200004,
+      "intendedPosition": 35,
+      "sharpFieldSourceId": "10011",
+      "sharpFieldSourcePosition": 12,
+      "softTargetRootCount": 14.999999999999998,
+      "actualRootCount": 15,
+      "softTargetSpan": 15.94253755920528,
+      "actualSpan": 21.425619645201312,
+      "score": 0.8552751786315589,
+      "scoreContributions": {
+        "latentField": 0.753792946179379,
+        "logPartCount": 0.0,
+        "logSpan": 0.033998016030666905,
+        "levelContext": 0.06748421642151309
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "60071",
+          "prototypeCount": 6,
+          "closureCount": 7
+        },
+        {
+          "sourceId": "10021",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10052",
+          "prototypeCount": 4,
+          "closureCount": 4
+        },
+        {
+          "sourceId": "10013",
+          "prototypeCount": 2,
+          "closureCount": 2
+        }
+      ]
+    },
+    {
+      "candidateId": 9200005,
+      "intendedPosition": 35,
+      "sharpFieldSourceId": "10035",
+      "sharpFieldSourcePosition": 42,
+      "softTargetRootCount": 26.0,
+      "actualRootCount": 24,
+      "softTargetSpan": 22.516769173795513,
+      "actualSpan": 23.946735041507445,
+      "score": 0.47352139112437314,
+      "scoreContributions": {
+        "latentField": 0.41004436559363183,
+        "logPartCount": 0.00522689876678374,
+        "logSpan": 0.007081660806926407,
+        "levelContext": 0.05116846595703124
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "71141",
+          "prototypeCount": 5,
+          "closureCount": 9
+        },
+        {
+          "sourceId": "10026",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71003",
+          "prototypeCount": 5,
+          "closureCount": 7
+        },
+        {
+          "sourceId": "71013",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71017",
+          "prototypeCount": 3,
+          "closureCount": 3
+        },
+        {
+          "sourceId": "70009",
+          "prototypeCount": 2,
+          "closureCount": 2
+        }
+      ]
+    },
+    {
+      "candidateId": 9200006,
+      "intendedPosition": 42,
+      "sharpFieldSourceId": "70013",
+      "sharpFieldSourcePosition": 176,
+      "softTargetRootCount": 23.000000000000004,
+      "actualRootCount": 24,
+      "softTargetSpan": 23.38779472557804,
+      "actualSpan": 31.19833898128777,
+      "score": 0.748738828887586,
+      "scoreContributions": {
+        "latentField": 0.6986887090584846,
+        "logPartCount": 0.0027724733146236896,
+        "logSpan": 0.03314161846528074,
+        "levelContext": 0.014136028049197086
+      },
+      "motifNativeClosureSizes": [
+        {
+          "sourceId": "10023",
+          "prototypeCount": 4,
+          "closureCount": 7
+        },
+        {
+          "sourceId": "10049",
+          "prototypeCount": 5,
+          "closureCount": 5
+        },
+        {
+          "sourceId": "10026",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "10033",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "71004",
+          "prototypeCount": 3,
+          "closureCount": 3
+        },
+        {
+          "sourceId": "10023",
+          "prototypeCount": 2,
+          "closureCount": 2
+        },
+        {
+          "sourceId": "70023",
+          "prototypeCount": 3,
+          "closureCount": 3
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "Uniform broad-leaf field contributor selection weakens progression conditioning; intended7 sampled donor65 with33root target.",
+    "Most score contribution comes from PCAfieldlatent dimensions; profile counts/span are soft and smaller dimensional shares.",
+    "Own-target descriptor cancels in old motifcontextcost, selecting contextsimilar sources rather than the required next native shape.",
+    "Source prototype can expand under conservative outgoing/guide native closure; descriptors preserve native source prototype for frame correspondence.",
+    "All7 candidate sheets reviewed; scattered clusters and satellites remain, no designquality acceptance."
+  ]
+}

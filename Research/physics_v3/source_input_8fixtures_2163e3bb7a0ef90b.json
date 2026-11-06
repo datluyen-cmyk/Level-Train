@@ -1,0 +1,20 @@
+{
+    "status": "",
+    "generatedUtc": "",
+    "sourcePack": "",
+    "fixturesChecked": 8,
+    "movableShapesChecked": 84,
+    "nativeRayMask": 192,
+    "chainFixtureId": 0,
+    "chainSourcePartId": 0,
+    "chainSourcePart": "",
+    "chainSourceActualCount": 0,
+    "chainSegmentInstanceIds": [],
+    "chainLifecycleSnapshots": [],
+    "passed": [
+        "8 exact source fixtures preserve one polygon DragArea per ring/slider, source layer 6, source Z 0.1, and all serialized paths.",
+        "Input ray mask is exactly 192 (layers 6 and 7)."
+    ],
+    "failed": [],
+    "engineExecution": "Not run by this harness; invoke menu item in Unity Editor."
+}

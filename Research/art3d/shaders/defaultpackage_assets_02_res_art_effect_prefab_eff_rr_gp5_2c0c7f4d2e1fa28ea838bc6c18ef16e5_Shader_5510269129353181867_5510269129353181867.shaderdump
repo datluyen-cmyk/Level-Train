@@ -1,0 +1,23 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "HsApp/Particles/Additive" {
+Properties {
+
+_TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
+
+_MainTex ("Particle Texture", 2D) = "white" { }
+
+}
+SubShader {
+ Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ Pass {
+  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+ ZWrite Off
+ Cull Off
+  GpuProgramID 23817
+}
+}
+}

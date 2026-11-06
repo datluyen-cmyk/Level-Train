@@ -1,0 +1,176 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "HsApp/Effect/XYStyleLine" {
+Properties {
+
+[Header(Main)] _MainTex ("Arrow Atlas", 2D) = "white" { }
+
+_Color ("Tint", Color) = (1,1,1,1)
+
+_ColorIntensity ("Tint Intensity", Range(0, 10)) = 1.0
+
+_Blend ("Blend", Range(0, 1)) = 0.5
+
+_RecolorStrength ("Recolor Strength", Range(0, 1)) = 0.0
+
+_Contrast ("Contrast", Range(0, 2)) = 1.0
+
+_Saturation ("Saturation", Range(0, 2)) = 1.0
+
+[Toggle] _UseVertexColor ("Use Vertex Color", Float) = 1.0
+
+[Toggle] _ColorfulBlend ("Colorful Blend", Float) = 0.0
+
+[Toggle(_ALPHACLIP_ON)] _AlphaClipEnable ("Alpha Clip Enable", Float) = 0.0
+
+_AlphaClip ("Alpha Clip Threshold", Range(0, 1)) = 0.009999999776482582
+
+[Header(Runtime Window)] [ToggleUI] _DrivenByController ("Driven By Controller", Float) = 1.0
+
+_WindowStart ("Window Start", Float) = 0.0
+
+_VisibleLength ("Visible Length", Float) = 1.0
+
+[Header(Segment Lengths in local path units)] _TailLength ("Tail Length", Float) = 0.25
+
+_HeadLength ("Head Length", Float) = 0.25
+
+_BodyTileLength ("Body Tile Length", Float) = 0.5
+
+_BodyPhase ("Body Phase", Float) = 0.0
+
+[Header(Atlas Layout normalized xywh of top style row)] _TailRect ("Tail Rect", Vector) = (0,0,0.3333,1)
+
+_BodyRect ("Body Rect", Vector) = (0.3333,0,0.3334,1)
+
+_HeadRect ("Head Rect", Vector) = (0.6667,0,0.3333,1)
+
+_StyleRowCount ("Style Row Count", Float) = 1.0
+
+[Toggle] _StyleIndexFromMesh ("Style Index From Mesh", Float) = 1.0
+
+_StyleIndex ("Style Index (1-based)", Float) = 1.0
+
+_AtlasPaddingPixels ("Atlas Padding Pixels", Float) = 0.0
+
+_MipClamp ("Mip Gradient Clamp", Range(0.05, 1)) = 0.5
+
+[Header(Normal and Lighting)] [Toggle(_NORMALMAP_ON)] _NormalMapEnable ("Normal Map Enable", Float) = 0.0
+
+_NormalMap ("Normal Map", 2D) = "bump" { }
+
+_NormalScale ("Normal Scale", Range(0, 2)) = 1.0
+
+[Toggle(_MATCAP_ON)] _MatCapEnable ("MatCap Enable", Float) = 0.0
+
+_MatCapTex ("MatCap", 2D) = "white" { }
+
+_MatCapColor ("MatCap Color", Color) = (1,1,1,1)
+
+_MatCapStrength ("MatCap Strength", Range(0, 10)) = 1.0
+
+_MatCapLOD ("MatCap LOD", Range(0, 8)) = 0.0
+
+_MatCapRotation ("MatCap Rotation", Range(0, 360)) = 0.0
+
+_MatCapBlendMode ("MatCap Blend Mode", Float) = 2.0
+
+[Header(Simple Lighting fixed direction half Lambert)] [Toggle(_SIMPLELIGHT_ON)] _SimpleLightEnable ("Simple Lighting Enable", Float) = 0.0
+
+_LightDir ("Light Direction (world)", Vector) = (0.3,0.6,-0.75,0)
+
+_LightColor ("Light Color", Color) = (1,1,1,1)
+
+_LightIntensity ("Light Intensity", Range(0, 10)) = 1.0
+
+_ShadowColor ("Shadow Color", Color) = (0.25,0.28,0.35,1)
+
+_LightStrength ("Light Strength", Range(0, 2)) = 1.0
+
+_LightWrap ("Light Wrap (0 Lambert to 1 Half)", Range(0, 1)) = 1.0
+
+[Header(Outline)] [Toggle(_OUTLINE_ON)] _OutlineEnable ("Outline Enable", Float) = 0.0
+
+_OutlineColor ("Outline Color", Color) = (0,0,0,1)
+
+_OutlineWidth ("Outline Width", Range(0, 1)) = 0.10000000149011612
+
+_OutlineSoftness ("Outline Softness", Range(0, 1)) = 0.0
+
+_OutlineMode ("Outline Mode", Range(0, 2)) = 1.0
+
+[Toggle] _OutlineUseVertColor ("Outline Use Vertex Color", Float) = 0.0
+
+[Header(Underlay SDF)] [KeywordEnum(None, Normal, Inner)] _Underlay ("Underlay Type", Float) = 0.0
+
+_SDFTex ("SDF Texture", 2D) = "white" { }
+
+_UnderlayColor ("Underlay Color", Color) = (0,0,0,0.5)
+
+_UnderlayOffsetX ("Underlay OffsetX", Range(-1, 1)) = 0.0
+
+_UnderlayOffsetY ("Underlay OffsetY", Range(-1, 1)) = 0.0
+
+_UnderlayDilate ("Underlay Dilate", Range(-1, 1)) = 0.0
+
+_UnderlaySoftness ("Underlay Softness", Range(0, 1)) = 0.05000000074505806
+
+[Header(Shadow)] [Toggle(_SHADOW_ON)] _ShadowEnable ("Shadow Enable", Float) = 0.0
+
+_ShadowTintColor ("Shadow Color", Color) = (0,0,0,0.5)
+
+_ShadowOffsetX ("Shadow OffsetX", Range(-2, 2)) = 0.0
+
+_ShadowOffsetY ("Shadow OffsetY", Range(-2, 2)) = 0.0
+
+_ShadowDilate ("Shadow Dilate", Range(-1, 1)) = 0.0
+
+_ShadowSoftness ("Shadow Softness", Range(0, 1)) = 0.05000000074505806
+
+_ShadowZOffset ("Shadow Z Offset", Float) = 0.009999999776482582
+
+[Enum(Off,0,On,1)] _ShadowZWrite ("Shadow ZWrite", Float) = 0.0
+
+[Header(Extra)] [Toggle(_EXTRA_ON)] _ExtraEnable ("Extra Enable", Float) = 0.0
+
+_ExtraRectA ("Extra Rect A", Vector) = (0.5,0,0.167,1)
+
+_ExtraRectB ("Extra Rect B", Vector) = (0.667,0,0.167,1)
+
+_ExtraRectC ("Extra Rect C", Vector) = (0.833,0,0.167,1)
+
+_BlockedShakeAngle ("Blocked Shake Angle", Float) = 0.0
+
+_StyleLineRectMaskRect ("RectMask Rect (xyxy px)", Vector) = (-100000,-100000,100000,100000)
+
+_StyleLineRectMaskSoftness ("RectMask Softness (px)", Vector) = (0,0,0,0)
+
+[Header(Output)] [Header(Blending)] [Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend ("Src Blend", Float) = 5.0
+
+[Enum(UnityEngine.Rendering.BlendMode)] _DstBlend ("Dst Blend", Float) = 10.0
+
+[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 2.0
+
+[Enum(Off,0,On,1)] _ZWrite ("ZWrite", Float) = 0.0
+
+[Enum(UnityEngine.Rendering.CompareFunction)] _ZTest ("ZTest", Float) = 4.0
+
+}
+SubShader {
+ LOD 100
+ Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent-9" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ Pass {
+ Name "STYLELINE"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "UniversalForward" "PreviewType" = "Plane" "QUEUE" = "Transparent-9" "RenderPipeline" = "UniversalPipeline" "RenderType" = "Transparent" }
+ ZTest Off
+ ZWrite Off
+ Cull Off
+  GpuProgramID 24649
+}
+}
+CustomEditor "XingYun.Rendering.Editor.HsStyleLineShaderGUI"
+}

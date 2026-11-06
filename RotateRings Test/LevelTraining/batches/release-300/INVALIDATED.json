@@ -1,0 +1,3 @@
+{
+  "reason": "parser1.0 misinterpreted CanCollect as removal eligibility. No runtime export was made. Replaced by parser1.1 corpus and retrained models."
+}

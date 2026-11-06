@@ -1,0 +1,113 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public sealed class RotateRingsWorldView : MonoBehaviour {
+    readonly Dictionary<int, PartView> parts = new Dictionary<int, PartView>();
+    readonly List<LinkView> links = new List<LinkView>();
+    int hintId=int.MinValue;
+    static readonly Color PinInk=new Color(.48f,.31f,.18f);
+    static readonly Color[] Palette = { new Color(.98f,.62f,.19f), new Color(.20f,.63f,.94f), new Color(.40f,.79f,.34f), new Color(.96f,.31f,.39f), new Color(.77f,.47f,.96f), new Color(.13f,.77f,.72f), new Color(.99f,.81f,.24f) };
+    public static Color PartColor(int n) => Palette[Mathf.Abs(n) % Palette.Length];
+
+    public void Build(RotateRingsLevel level) {
+        foreach (Transform c in transform) Destroy(c.gameObject);
+        parts.Clear(); links.Clear();hintId=int.MinValue;
+        foreach (var p in level.parts) {
+            var go = new GameObject("Part " + p.id + " (" + p.kind + ")"); go.transform.SetParent(transform, false);
+            go.transform.localPosition = new Vector3(p.x, p.y, 0);
+            var v=go.AddComponent<PartView>(); v.Initialize(p); parts[p.id]=v;
+            if(RotateRingsRules.IsSlider(p))BuildGuideFixture(p);
+        }
+        foreach (var l in level.links) {
+            var go=new GameObject("Pin " + l.source + " → " + l.target); go.transform.SetParent(transform,false);
+            var v=go.AddComponent<LinkView>(); v.Initialize(l, parts); links.Add(v);
+        }
+    }
+    public bool TryHit(Vector2 point, out int id) {
+        float best=float.MaxValue;id=0;
+        foreach (var pair in parts) {var v=pair.Value;if(!v.Active||!v.HitScore(point,out float score)||score>=best)continue;best=score;id=pair.Key;}
+        return best<float.MaxValue;
+    }
+    public bool RingHit(Vector2 point, out int id, out Vector2 center) {
+        foreach(var pair in parts) { var v=pair.Value; if (!v.Active||v.IsSlider) continue;
+            float d=Vector2.Distance(point,v.transform.position);
+            if(Mathf.Abs(d-v.Part.radius)<Mathf.Max(v.Part.width*.7f,.28f)){id=pair.Key;center=v.transform.position;return true;}
+        } id=0;center=default;return false;
+    }
+    public void ApplyState(Dictionary<int,float> angles, HashSet<int> removed, HashSet<int> keys, List<bool> activeLinks, bool wobble=false, int wobbleId=0) {
+        foreach(var kv in parts) {var p=kv.Value.Part;kv.Value.Apply(angles.TryGetValue(kv.Key,out float a)?a:p.angle,removed.Contains(kv.Key),p.lockKey==0||keys.Contains(p.lockKey),wobble&&wobbleId==kv.Key);}
+        for(int i=0;i<links.Count;i++) links[i].SetActiveLink(i<activeLinks.Count&&activeLinks[i]);
+    }
+    public float Radius(int id) => parts.TryGetValue(id,out var v)?Mathf.Max(v.Part.radius,.25f):.5f;
+    public void SetHint(int id){hintId=id;foreach(var kv in parts)if(kv.Value.Active)kv.Value.SetHint(kv.Key==hintId);}
+    public void SetSliderOffset(int id,float offset){if(parts.TryGetValue(id,out var v)&&v.IsSlider)v.SetSlideOffset(offset);}
+    public void BeginRelease(int id){if(parts.TryGetValue(id,out var v))v.BeginRelease();}
+    void BuildGuideFixture(RotateRingsPart p){
+        var root=new GameObject("Fixed guide fixture " + p.id);root.transform.SetParent(transform,false);root.transform.localPosition=new Vector3(p.x,p.y,-.04f);root.transform.localRotation=Quaternion.Euler(0,0,p.axis);
+        float side=Mathf.Max(.12f,p.width*.78f);float length=Mathf.Max(.5f,p.length*1.2f);
+        for(int i=-1;i<=1;i+=2){var rail=GameObject.CreatePrimitive(PrimitiveType.Capsule);rail.name="Guide rail";rail.transform.SetParent(root.transform,false);rail.transform.localRotation=Quaternion.Euler(0,0,90);rail.transform.localPosition=new Vector3(0,i*side,0);rail.transform.localScale=new Vector3(.10f,length*.5f,.10f);var r=rail.GetComponent<MeshRenderer>();r.material=new Material(Shader.Find("Sprites/Default")){color=new Color(.78f,.67f,.52f)};Destroy(rail.GetComponent<Collider>());}
+        var arrowGo=new GameObject("Positive slide direction");arrowGo.transform.SetParent(root.transform,false);var arrow=arrowGo.AddComponent<LineRenderer>();arrow.useWorldSpace=false;arrow.positionCount=5;arrow.startWidth=arrow.endWidth=.065f;arrow.numCapVertices=4;arrow.material=new Material(Shader.Find("Sprites/Default")){color=PinInk};float y=side*2.05f;float tip=length*.60f;float wing=length*.11f;arrow.SetPositions(new[]{new Vector3(length*.06f,y,0),new Vector3(tip,y,0),new Vector3(tip-wing,y+wing*.55f,0),new Vector3(tip,y,0),new Vector3(tip-wing,y-wing*.55f,0)});
+    }
+
+    sealed class PartView : MonoBehaviour {
+        public RotateRingsPart Part {get;private set;} public bool Active {get;private set;} public bool IsSlider=>RotateRingsRules.IsSlider(Part); public float CurrentAngle {get;private set;}
+        public float HitRadius=>IsSlider?Mathf.Max(.45f,Part.length*.55f):Part.radius+Mathf.Max(.5f,Part.width);
+        Mesh mesh; MeshFilter filter; MeshRenderer meshRenderer,sliderBody; Material mat; float wobbleUntil,releaseUntil; bool highlighted; Vector3 homePosition; SpriteRenderer keyMarker,lockMarker;
+        public void Initialize(RotateRingsPart p) { Part=p;if(p.width<=0)p.width=Mathf.Max(.08f,p.radius*.28f);if(IsSlider&&p.length<=0)p.length=Mathf.Max(1f,p.radius*3f);homePosition=transform.localPosition; filter=gameObject.AddComponent<MeshFilter>(); meshRenderer=gameObject.AddComponent<MeshRenderer>(); mat=new Material(Shader.Find("Sprites/Default")); meshRenderer.material=mat;
+            if(IsSlider) BuildSlider(); else BuildRing();BuildMarkers(); }
+        public void SetSlideOffset(float offset){Vector2 axis=new Vector2(Mathf.Cos(Part.axis*Mathf.Deg2Rad),Mathf.Sin(Part.axis*Mathf.Deg2Rad));transform.localPosition=homePosition+(Vector3)(axis*offset);}
+        public void Apply(float angle,bool removed,bool hasKey,bool wobble) {
+            if(!removed)releaseUntil=0f;
+            Active=!removed;bool visible=Active||Time.unscaledTime<releaseUntil;foreach(var childRenderer in GetComponentsInChildren<Renderer>(true))childRenderer.enabled=visible;
+            if(keyMarker!=null)keyMarker.enabled=visible&&Part.key!=0;if(lockMarker!=null)lockMarker.enabled=visible&&Part.lockKey!=0&&!hasKey;
+            CurrentAngle=angle;if(IsSlider) transform.localRotation=Quaternion.Euler(0,0,Part.axis);
+            else transform.localRotation=Quaternion.Euler(0,0,angle);
+            var c=PartColor(Part.color); mat.color=IsSlider?(!hasKey?Color.Lerp(c,Color.black,.38f):(highlighted?Color.Lerp(c,Color.white,.62f):c)):Color.white;if(sliderBody!=null)sliderBody.material.color=!hasKey?Color.Lerp(c,Color.black,.38f):(highlighted?Color.Lerp(c,Color.white,.62f):c);
+            if(wobble) wobbleUntil=Time.unscaledTime+.24f;
+        }
+        public void BeginRelease(){releaseUntil=Time.unscaledTime+.22f;foreach(var r in GetComponentsInChildren<Renderer>(true))r.enabled=true;}
+        void Update(){if(Time.unscaledTime<releaseUntil){float t=1f-(releaseUntil-Time.unscaledTime)/.22f;transform.localScale=Vector3.one*Mathf.Max(.05f,1f-t);}else if(!Active){transform.localScale=Vector3.one;foreach(var r in GetComponentsInChildren<Renderer>(true))r.enabled=false;}else if(Time.unscaledTime<wobbleUntil)transform.localScale=Vector3.one*(1f+.055f*Mathf.Sin((wobbleUntil-Time.unscaledTime)*38f));else transform.localScale=Vector3.one;}
+        public bool HitScore(Vector2 point,out float score){score=float.MaxValue;Vector2 d=point-(Vector2)transform.position;
+            if(IsSlider){Vector2 axis=new Vector2(Mathf.Cos(Part.axis*Mathf.Deg2Rad),Mathf.Sin(Part.axis*Mathf.Deg2Rad));float along=Mathf.Abs(Vector2.Dot(d,axis)),across=Mathf.Abs(d.x*axis.y-d.y*axis.x);float tolerance=Mathf.Max(.2f,Part.width*.8f);if(along<=Part.length*.5f+tolerance&&across<=tolerance){score=across;return true;}return false;}
+            float radius=d.magnitude;float error=Mathf.Abs(radius-Part.radius);float band=Mathf.Max(.22f,Part.width*.8f);if(error>band)return false;
+            float pointerAngle=Mathf.Atan2(d.y,d.x)*Mathf.Rad2Deg;if(Part.gap>0&&Mathf.Abs(Mathf.DeltaAngle(CurrentAngle,pointerAngle))<=Part.gap*.5f+3f)return false;score=error;return true;
+        }
+        public void SetHint(bool value){highlighted=value;if(IsSlider){var c=PartColor(Part.color);foreach(var r in GetComponentsInChildren<Renderer>(true))if(r.material!=null)r.material.color=value?Color.Lerp(c,Color.white,.62f):c;}}
+        void BuildMarkers(){string[] keyFiles={"key_yellow","key_blue","key_green","key_red"};
+            if(Part.key!=0){string icon=keyFiles[Mathf.Abs(Part.color)%keyFiles.Length];keyMarker=MakeMarker(icon,"Key marker");keyMarker.transform.localPosition=IsSlider?new Vector3(Part.length*.18f,0,-.08f):new Vector3(Part.radius*.56f,Part.radius*.56f,-.08f);}
+            if(Part.lockKey!=0){lockMarker=MakeMarker("lock_badge","Lock marker");lockMarker.transform.localPosition=IsSlider?new Vector3(-Part.length*.18f,0,-.09f):new Vector3(-Part.radius*.56f,-Part.radius*.56f,-.09f);}
+        }
+        SpriteRenderer MakeMarker(string asset,string objectName){var tex=Resources.Load<Texture2D>("Art/"+asset);if(tex==null)return null;var go=new GameObject(objectName);go.transform.SetParent(transform,false);go.transform.localScale=Vector3.one*(Mathf.Max(Part.width,.18f)*1.25f);var r=go.AddComponent<SpriteRenderer>();r.sprite=Sprite.Create(tex,new Rect(0,0,tex.width,tex.height),new Vector2(.5f,.5f),100);r.sortingOrder=10;return r;}
+        void BuildRing() {
+            mesh=new Mesh{name="Beveled open ring"}; filter.sharedMesh=mesh;
+            int n=84; float inner=Mathf.Max(.12f,Part.radius-Part.width*.5f), outer=Part.radius+Part.width*.5f;
+            float gap=Mathf.Clamp(Part.gap,0,360); float span=360-gap;
+            var vs=new List<Vector3>();var cs=new List<Color>();var tris=new List<int>();
+            Color baseC=PartColor(Part.color), light=Color.Lerp(baseC,Color.white,.44f), shade=Color.Lerp(baseC,Color.black,.14f);
+            // Front bevel, soft shoulder, and darker outer lip give a smooth raised plastic ring.
+            float[] radii={inner,inner+Part.width*.18f,outer-Part.width*.18f,outer}; Color[] colors={shade,light,baseC,shade};
+            for(int band=0;band<radii.Length;band++) for(int i=0;i<=n;i++) {
+                float a=(gap*.5f)+span*i/n; float r=radii[band]; float rad=a*Mathf.Deg2Rad;
+                vs.Add(new Vector3(Mathf.Cos(rad)*r,Mathf.Sin(rad)*r,band*.001f)); cs.Add(colors[band]);
+            }
+            for(int b=0;b<radii.Length-1;b++) for(int i=0;i<n;i++){int q=b*(n+1)+i;tris.Add(q);tris.Add(q+n+1);tris.Add(q+1);tris.Add(q+1);tris.Add(q+n+1);tris.Add(q+n+2);}
+            mesh.SetVertices(vs);mesh.SetColors(cs);mesh.SetTriangles(tris,0);mesh.RecalculateNormals();
+            // Gap caps: softly rounded plugs highlight the open ends.
+            if(gap>0.1f)for(int end=0;end<2;end++) {float a=(end==0?-gap*.5f:gap*.5f)*Mathf.Deg2Rad; var cap=GameObject.CreatePrimitive(PrimitiveType.Sphere);cap.name="Rounded ring end";cap.transform.SetParent(transform,false);cap.transform.localPosition=new Vector3(Mathf.Cos(a)*Part.radius,Mathf.Sin(a)*Part.radius,-.02f);cap.transform.localScale=Vector3.one*(Part.width*.82f);var mr=cap.GetComponent<MeshRenderer>();mr.material=new Material(Shader.Find("Sprites/Default")){color=light};Destroy(cap.GetComponent<Collider>());}
+        }
+        void BuildSlider() {
+            // A smooth rounded slider bar; its guide fixture is a separate fixed world object.
+            var body=GameObject.CreatePrimitive(PrimitiveType.Capsule);body.name="Sliding bar";body.transform.SetParent(transform,false);body.transform.localRotation=Quaternion.Euler(0,0,90);body.transform.localScale=new Vector3(Part.width,Part.length*.5f,Part.width);body.transform.localPosition=Vector3.zero;sliderBody=body.GetComponent<MeshRenderer>();sliderBody.material=new Material(Shader.Find("Sprites/Default")){color=PartColor(Part.color)};Destroy(body.GetComponent<Collider>());
+        }
+    }
+
+    sealed class LinkView : MonoBehaviour {
+        RotateRingsLink link; Dictionary<int,PartView> parts; LineRenderer line; GameObject crossbar; Material mat;
+        public void Initialize(RotateRingsLink l,Dictionary<int,PartView> p){link=l;parts=p;line=gameObject.AddComponent<LineRenderer>();line.useWorldSpace=true;line.positionCount=2;line.numCapVertices=8;line.numCornerVertices=4;line.startWidth=Mathf.Max(.10f,l.pinWidth);line.endWidth=line.startWidth;mat=new Material(Shader.Find("Sprites/Default")){color=new Color(.74f,.48f,.28f)};line.material=mat;crossbar=GameObject.CreatePrimitive(PrimitiveType.Capsule);crossbar.name="T pin head";crossbar.transform.SetParent(transform,false);crossbar.transform.localScale=new Vector3(Mathf.Max(.08f,l.pinWidth*1.7f),.1f,Mathf.Max(.08f,l.pinWidth*1.7f));crossbar.GetComponent<MeshRenderer>().material=mat;Destroy(crossbar.GetComponent<Collider>());}
+        public void SetActiveLink(bool active){if(!parts.TryGetValue(link.source,out var s)||!parts.TryGetValue(link.target,out var t)){line.enabled=false;return;}line.enabled=active;crossbar.SetActive(active);if(!active)return;
+            Vector3 source=s.transform.position,target=t.transform.position;
+            Vector2 direction=(target-source).normalized;if(direction.sqrMagnitude<.01f)direction=Vector2.right;Vector3 a=source+(Vector3)(direction*(s.Part.radius+s.Part.width*.5f));Vector3 b=target-(Vector3)(direction*Mathf.Max(.1f,t.Part.radius-t.Part.width*.5f));line.SetPosition(0,a);line.SetPosition(1,b);
+            crossbar.transform.position=b;crossbar.transform.rotation=Quaternion.Euler(0,0,Mathf.Atan2(direction.y,direction.x)*Mathf.Rad2Deg+90);mat.color=RotateRingsWorldView.PartColor(s.Part.color);
+        }
+    }
+}

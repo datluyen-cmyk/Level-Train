@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "status": "STATIC_NATIVE_GEOMETRY_CHECKPOINT_NO_PLAYABILITY_CLAIM",
+  "previousSixPilot": {
+    "path": "batches/joint_hyperedge_v8_softscale_six_20261106.json",
+    "geometryDiagnosticPath": "batches/joint_hyperedge_v8_native_geometry_report_20261107.json",
+    "proposalResults": [
+      {
+        "id": 9910000,
+        "position": 19,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 30,
+        "unregisteredSensorPartnerCount": 16
+      },
+      {
+        "id": 9910001,
+        "position": 39,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 37,
+        "unregisteredSensorPartnerCount": 24
+      },
+      {
+        "id": 9910002,
+        "position": 49,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 34,
+        "unregisteredSensorPartnerCount": 61
+      },
+      {
+        "id": 9910003,
+        "position": 129,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 43,
+        "unregisteredSensorPartnerCount": 30
+      },
+      {
+        "id": 9910004,
+        "position": 175,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 22,
+        "unregisteredSensorPartnerCount": 12
+      },
+      {
+        "id": 9910005,
+        "position": 285,
+        "rawGeometrySeamPassed": false,
+        "unexpectedSolidOverlapCount": 44,
+        "unregisteredSensorPartnerCount": 28
+      }
+    ],
+    "unregisteredSolidOverlapPairs": 210,
+    "exactSourceContactCertificates": 8,
+    "sameDonorSourcePairsWithReferenceOverlapGeometry": 36,
+    "failedPairExamples": [
+      {
+        "proposalId": 9910002,
+        "owners": [
+          10,
+          14
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-0f769ce0c85264ba1e9c",
+          "native3-4d4a6306d3c8af08c0af"
+        ],
+        "currentOverlapArea": 5.787809491538196,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            17
+          ],
+          [
+            "60007",
+            16
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          3,
+          5
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-0f769ce0c85264ba1e9c",
+          "native3-4d4a6306d3c8af08c0af"
+        ],
+        "currentOverlapArea": 5.787809491538175,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            16
+          ],
+          [
+            "60007",
+            17
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910005,
+        "owners": [
+          2,
+          20
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-550ba14181c76e69367f",
+          "native3-60874437f125312a0333"
+        ],
+        "currentOverlapArea": 4.268506412866358,
+        "sourceOwnerOrigins": [
+          [
+            "71128",
+            1
+          ],
+          [
+            "70037",
+            10
+          ]
+        ],
+        "sameDonorSource": false,
+        "donorPairOverlapArea": null,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910001,
+        "owners": [
+          1,
+          9
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-0514e42a9df68c7cdaca",
+          "native3-88e20d9977d0ee9a2d13"
+        ],
+        "currentOverlapArea": 4.052340334655211,
+        "sourceOwnerOrigins": [
+          [
+            "10038",
+            10
+          ],
+          [
+            "10059",
+            3
+          ]
+        ],
+        "sameDonorSource": false,
+        "donorPairOverlapArea": null,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          2,
+          4
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-7fe0491d9ecb9a994c5e",
+          "native3-e6e5e74a989b5c0e20b1"
+        ],
+        "currentOverlapArea": 3.496804389747455,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            13
+          ],
+          [
+            "60007",
+            14
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          2,
+          13
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-7fe0491d9ecb9a994c5e",
+          "native3-7fe0491d9ecb9a994c5e"
+        ],
+        "currentOverlapArea": 3.4968043897474397,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            13
+          ],
+          [
+            "60007",
+            13
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 4.052340334655211,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          1,
+          7
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-e6e5e74a989b5c0e20b1",
+          "native3-e6e5e74a989b5c0e20b1"
+        ],
+        "currentOverlapArea": 3.424751204277397,
+        "sourceOwnerOrigins": [
+          [
+            "10050",
+            7
+          ],
+          [
+            "60007",
+            14
+          ]
+        ],
+        "sameDonorSource": false,
+        "donorPairOverlapArea": null,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          6,
+          15
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-9acf740f18ec0cb4df78",
+          "native3-9c41a3efe5545cc83c3d"
+        ],
+        "currentOverlapArea": 3.3084994277645157,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            3
+          ],
+          [
+            "60007",
+            7
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910004,
+        "owners": [
+          5,
+          7
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-34024d4917a29a2552ad",
+          "native3-776d281fa3acfbf286a1"
+        ],
+        "currentOverlapArea": 3.1547387727822023,
+        "sourceOwnerOrigins": [
+          [
+            "10017",
+            11
+          ],
+          [
+            "10019",
+            5
+          ]
+        ],
+        "sameDonorSource": false,
+        "donorPairOverlapArea": null,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          4,
+          13
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-7fe0491d9ecb9a994c5e",
+          "native3-e6e5e74a989b5c0e20b1"
+        ],
+        "currentOverlapArea": 2.9647050145875062,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            14
+          ],
+          [
+            "60007",
+            13
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910004,
+        "owners": [
+          11,
+          14
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-60bbc3f14e4431971edf",
+          "native3-d3379780507717bc1d7e"
+        ],
+        "currentOverlapArea": 1.8393902902688801,
+        "sourceOwnerOrigins": [
+          [
+            "10017",
+            2
+          ],
+          [
+            "70035",
+            8
+          ]
+        ],
+        "sameDonorSource": false,
+        "donorPairOverlapArea": null,
+        "sourceContactBindingEvidence": []
+      },
+      {
+        "proposalId": 9910002,
+        "owners": [
+          8,
+          10
+        ],
+        "kinds": [
+          "ring",
+          "ring"
+        ],
+        "templateIds": [
+          "native3-423250606ce7d13fd542",
+          "native3-4d4a6306d3c8af08c0af"
+        ],
+        "currentOverlapArea": 1.548035595429459,
+        "sourceOwnerOrigins": [
+          [
+            "60007",
+            15
+          ],
+          [
+            "60007",
+            17
+          ]
+        ],
+        "sameDonorSource": true,
+        "donorPairOverlapArea": 0.0,
+        "sourceContactBindingEvidence": []
+      }
+    ],
+    "fullFailedPairListPath": "batches/joint_hyperedge_v8_native_geometry_report_20261107.json"
+  },
+  "boundedPreflightPilot": {
+    "path": "batches\\joint_hyperedge_v8_native_preflight_p39_bounded_donor_unique_20261108.json",
+    "seed": 20261108,
+    "requestedCount": 1,
+    "proposalCount": 1,
+    "attemptReports": [
+      {
+        "status": "INTEGRITY_GATED_STRUCTURAL_RESEARCH_PROPOSAL",
+        "rejections": {
+          "noLearnedNativeAnchorBank": 6,
+          "requiredNativeBoundaryOwnerUnavailable": 15,
+          "nativeGeometry:unexpectedSolidOverlapCount": 3,
+          "nativeGeometry:unregisteredSensorPartnerCount": 4
+        },
+        "actualPartCount": 5,
+        "partsByKind": {
+          "slider": 1,
+          "fixed": 1,
+          "ring": 3
+        },
+        "nativeLinkCount": 3,
+        "guideLinkCount": 1,
+        "productionCount": 2,
+        "softLearnedTargetParts": 35.0,
+        "referencePartCountDiagnostic": 22,
+        "nativeAssemblyIntegrityPassed": true,
+        "nativeGeometryPreflight": {
+          "unexpectedSolidOverlapCount": 0,
+          "unregisteredSensorPartnerCount": 0,
+          "duplicateWholeRootPairCount": 0,
+          "missingFeatureBindingCount": 0,
+          "newBombInitialOverlapCount": 0
+        },
+        "structuralScaffoldUsed": false,
+        "position": 39,
+        "ordinal": 0,
+        "proposalId": 9921100
+      }
+    ],
+    "independentChecks": [
+      {
+        "proposalId": 9921100,
+        "nativeIntegrity": {
+          "nativeAssemblyIntegrityPassed": true,
+          "nativeImportedRoots": 5,
+          "nativeImports": 1,
+          "errors": [],
+          "scope": "Source atomic asset, rigid macro pose, exact relation/guide closure and optional static composition-body certificate; no collision, active lock, solution, novelty or difficulty claim."
+        },
+        "nativeGeometry": {
+          "rawGeometrySeamPassed": true,
+          "partPairCount": 10,
+          "unexpectedSolidOverlapCount": 0,
+          "unexpectedSolidOverlaps": [],
+          "unregisteredSensorPartnerCount": 0,
+          "unregisteredSensorPartners": [],
+          "duplicateWholeRootPairs": [],
+          "missingFeatureBindings": [],
+          "newBombInitialOverlapCount": 0,
+          "newBombInitialOverlaps": [],
+          "unmappedBombs": [],
+          "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+        },
+        "sourceScaffoldUsed": false,
+        "structuralScaffoldUsed": false,
+        "productionIds": [
+          "71004:12:11:18",
+          "70030:0::4"
+        ],
+        "partCount": 5,
+        "distinctDonorOrigins": 5,
+        "partProvenanceCount": 5
+      }
+    ]
+  },
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "grammarModel": "db8e538da440ed8ffa8fedba8432d91ca994350f4011ccd88454c5292459e1bc",
+    "grammar": "0d4f4fad0b4e5a68d98bb4795a96e0b8cd3a9dc355992117358bb91f31bbfb75",
+    "constructor": "e92e755fc84744bb0cfc3b4cdbe18a035233eef7e9f5ab63e40e5b293da2ef4f",
+    "tests": "420227f518e1533cfdd8b7e38fa06d665e07a62e7cf837bf19819fdd3b0262de",
+    "previousSix": "e4852337ce24c240a53dfc1f87885213feac21e245c0931f618cd7fb586f9157",
+    "boundedPilot": "96664b542a8d0d9e14dad97258e50a2cca72a01aeacd7e78b8c897107cbb2ed3"
+  },
+  "limitations": [
+    "This is static collider-outline/source-pair screening only; Unity collision simulation and solvability are not measured.",
+    "The six earlier proposals are geometrically inadmissible under this source-grounded seam audit and remain unchanged in their original batch.",
+    "The bounded p39 proposal passes the preflight with 5 parts versus a learned soft scale target of 35; construction stopped at the declared search budget and is not a full-scale or accepted level.",
+    "Source-pair geometry allowances are exact provenance patches from imported native source pairs; they do not establish runtime safety."
+  ]
+}

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 31e3a53c33e7cec409d637213e5d8169
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6435393270218488935
+    second: RingJadeExtra_-8347752324076941968_0
+  - first:
+      213: 8436052058821432237
+    second: RingJadeExtra_-8347752324076941968_1
+  - first:
+      213: 119612517285780792
+    second: RingJadeExtra_-8347752324076941968_2
+  - first:
+      213: 2978925805051016473
+    second: RingJadeExtra_-8347752324076941968_3
+  - first:
+      213: 5934142198553613300
+    second: RingJadeExtra_-8347752324076941968_4
+  - first:
+      213: 7642880477266546700
+    second: RingJadeExtra_-8347752324076941968_5
+  - first:
+      213: 4741412210091118473
+    second: RingJadeExtra_-8347752324076941968_6
+  - first:
+      213: -2173706361385409529
+    second: RingJadeExtra_-8347752324076941968_7
+  - first:
+      213: 2973369926961982122
+    second: RingJadeExtra_-8347752324076941968_8
+  - first:
+      213: 3216350666355189339
+    second: RingJadeExtra_-8347752324076941968_9
+  - first:
+      213: -1346308311046853125
+    second: RingJadeExtra_-8347752324076941968_10
+  - first:
+      213: -4477633439193030605
+    second: RingJadeExtra_-8347752324076941968_11
+  - first:
+      213: -7313539473211538901
+    second: RingJadeExtra_-8347752324076941968_12
+  - first:
+      213: -5892496570953252616
+    second: RingJadeExtra_-8347752324076941968_13
+  - first:
+      213: -6637453740242009646
+    second: RingJadeExtra_-8347752324076941968_14
+  - first:
+      213: -1821405398831401640
+    second: RingJadeExtra_-8347752324076941968_15
+  - first:
+      213: 808684163037905146
+    second: RingJadeExtra_-8347752324076941968_16
+  - first:
+      213: -7334409243528610637
+    second: RingJadeExtra_-8347752324076941968_17
+  - first:
+      213: -8182670022756032391
+    second: RingJadeExtra_-8347752324076941968_18
+  - first:
+      213: 8969119838585562567
+    second: RingJadeExtra_-8347752324076941968_19
+  - first:
+      213: -3958983140242204509
+    second: RingJadeExtra_-8347752324076941968_20
+  - first:
+      213: 2595249038811347599
+    second: RingJadeExtra_-8347752324076941968_21
+  - first:
+      213: 2100831582625371324
+    second: RingJadeExtra_-8347752324076941968_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 513
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99300babae3e0b6a0800000000000000
+      internalID: -6435393270218488935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 189
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da311c0c6a0e21570800000000000000
+      internalID: 8436052058821432237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d528363f2f8a100800000000000000
+      internalID: 119612517285780792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 78
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9157f469c35475920800000000000000
+      internalID: 2978925805051016473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_4
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 73
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3917f93ee4a5250800000000000000
+      internalID: 5934142198553613300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_5
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c009d34ec47f01a60800000000000000
+      internalID: 7642880477266546700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 62
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f4e24b841ecc140800000000000000
+      internalID: 4741412210091118473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 54
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704ad93c49175d1e0800000000000000
+      internalID: -2173706361385409529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaae56ae138834920800000000000000
+      internalID: 2973369926961982122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56213dd3e5c2ac20800000000000000
+      internalID: 3216350666355189339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd65e169b3f05de0800000000000000
+      internalID: -1346308311046853125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3302d7e4c104cd1c0800000000000000
+      internalID: -4477633439193030605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22cd601996118a90800000000000000
+      internalID: -7313539473211538901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0cf18a695a93ea0800000000000000
+      internalID: -5892496570953252616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d189cf6df603e3a0800000000000000
+      internalID: -6637453740242009646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_15
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855fca2a07119b6e0800000000000000
+      internalID: -1821405398831401640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_16
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 12
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0cb5136f5093b00800000000000000
+      internalID: 808684163037905146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcb22207a1f63a90800000000000000
+      internalID: -7334409243528610637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970a36bc7f0517e80800000000000000
+      internalID: -8182670022756032391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c52dc609f6b87c70800000000000000
+      internalID: 8969119838585562567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a85a1e3fcdde09c0800000000000000
+      internalID: -3958983140242204509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_21
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a3606204d240420800000000000000
+      internalID: 2595249038811347599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RingJadeExtra_-8347752324076941968_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb49e479137a72d10800000000000000
+      internalID: 2100831582625371324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RingJadeExtra_-8347752324076941968_0: -6435393270218488935
+      RingJadeExtra_-8347752324076941968_1: 8436052058821432237
+      RingJadeExtra_-8347752324076941968_10: -1346308311046853125
+      RingJadeExtra_-8347752324076941968_11: -4477633439193030605
+      RingJadeExtra_-8347752324076941968_12: -7313539473211538901
+      RingJadeExtra_-8347752324076941968_13: -5892496570953252616
+      RingJadeExtra_-8347752324076941968_14: -6637453740242009646
+      RingJadeExtra_-8347752324076941968_15: -1821405398831401640
+      RingJadeExtra_-8347752324076941968_16: 808684163037905146
+      RingJadeExtra_-8347752324076941968_17: -7334409243528610637
+      RingJadeExtra_-8347752324076941968_18: -8182670022756032391
+      RingJadeExtra_-8347752324076941968_19: 8969119838585562567
+      RingJadeExtra_-8347752324076941968_2: 119612517285780792
+      RingJadeExtra_-8347752324076941968_20: -3958983140242204509
+      RingJadeExtra_-8347752324076941968_21: 2595249038811347599
+      RingJadeExtra_-8347752324076941968_22: 2100831582625371324
+      RingJadeExtra_-8347752324076941968_3: 2978925805051016473
+      RingJadeExtra_-8347752324076941968_4: 5934142198553613300
+      RingJadeExtra_-8347752324076941968_5: 7642880477266546700
+      RingJadeExtra_-8347752324076941968_6: 4741412210091118473
+      RingJadeExtra_-8347752324076941968_7: -2173706361385409529
+      RingJadeExtra_-8347752324076941968_8: 2973369926961982122
+      RingJadeExtra_-8347752324076941968_9: 3216350666355189339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

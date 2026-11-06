@@ -1,0 +1,1526 @@
+{
+  "passed": true,
+  "completePack": true,
+  "trainingOriginalCount": 500,
+  "extraOriginalCount": 7,
+  "allOriginalSceneCount": 507,
+  "generatedCount": 300,
+  "packSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+  "extrasSha256": "1d1f3e629bce62fc7d7d2379a8b348bac1780634877cdc0663e546187476264d",
+  "canonicalEquivalentExtraCollisions": [],
+  "nearCopyThreshold": 0.1,
+  "nearCopyExtraCollisions": [],
+  "minimumExtraDistance": 0.9727891156462585,
+  "extraIds": [
+    "10210",
+    "10211",
+    "10212",
+    "10213",
+    "10214",
+    "10215",
+    "10216"
+  ],
+  "comparisons": [
+    {
+      "generated": "new-001",
+      "nearestExtraSource": "10210",
+      "distance": 0.978021978021978
+    },
+    {
+      "generated": "new-002",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-003",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-004",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-005",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-006",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-007",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-008",
+      "nearestExtraSource": "10210",
+      "distance": 0.9818181818181818
+    },
+    {
+      "generated": "new-009",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-010",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-011",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-012",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-013",
+      "nearestExtraSource": "10210",
+      "distance": 0.9829059829059829
+    },
+    {
+      "generated": "new-014",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-015",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-016",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-017",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-018",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-019",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-020",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-021",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-022",
+      "nearestExtraSource": "10212",
+      "distance": 0.9797979797979798
+    },
+    {
+      "generated": "new-023",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-024",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-025",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-026",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-027",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-028",
+      "nearestExtraSource": "10210",
+      "distance": 0.9727891156462585
+    },
+    {
+      "generated": "new-029",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-030",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-031",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-032",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-033",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-034",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-035",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-036",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-037",
+      "nearestExtraSource": "10210",
+      "distance": 0.9859154929577465
+    },
+    {
+      "generated": "new-038",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-039",
+      "nearestExtraSource": "10210",
+      "distance": 0.984251968503937
+    },
+    {
+      "generated": "new-040",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-041",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-042",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-043",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-044",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-045",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-046",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-047",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-048",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-049",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-050",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-051",
+      "nearestExtraSource": "10210",
+      "distance": 0.9858156028368794
+    },
+    {
+      "generated": "new-052",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-053",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-054",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-055",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-056",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-057",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-058",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-059",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-060",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-061",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-062",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-063",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-064",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-065",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-066",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-067",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-068",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-069",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-070",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-071",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-072",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-073",
+      "nearestExtraSource": "10210",
+      "distance": 0.9854014598540146
+    },
+    {
+      "generated": "new-074",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-075",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-076",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-077",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-078",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-079",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-080",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-081",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-082",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-083",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-084",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-085",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-086",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-087",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-088",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-089",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-090",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-091",
+      "nearestExtraSource": "10210",
+      "distance": 0.986013986013986
+    },
+    {
+      "generated": "new-092",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-093",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-094",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-095",
+      "nearestExtraSource": "10212",
+      "distance": 0.9807692307692307
+    },
+    {
+      "generated": "new-096",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-097",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-098",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-099",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-100",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-101",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-102",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-103",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-104",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-105",
+      "nearestExtraSource": "10210",
+      "distance": 0.9864864864864865
+    },
+    {
+      "generated": "new-106",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-107",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-108",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-109",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-110",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-111",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-112",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-113",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-114",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-115",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-116",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-117",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-118",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-119",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-120",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-121",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-122",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-123",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-124",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-125",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-126",
+      "nearestExtraSource": "10210",
+      "distance": 0.9848484848484849
+    },
+    {
+      "generated": "new-127",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-128",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-129",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-130",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-131",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-132",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-133",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-134",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-135",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-136",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-137",
+      "nearestExtraSource": "10210",
+      "distance": 0.9867549668874173
+    },
+    {
+      "generated": "new-138",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-139",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-140",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-141",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-142",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-143",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-144",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-145",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-146",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-147",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-148",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-149",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-150",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-151",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-152",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-153",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-154",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-155",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-156",
+      "nearestExtraSource": "10210",
+      "distance": 0.986013986013986
+    },
+    {
+      "generated": "new-157",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-158",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-159",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-160",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-161",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-162",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-163",
+      "nearestExtraSource": "10215",
+      "distance": 0.9767441860465116
+    },
+    {
+      "generated": "new-164",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-165",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-166",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-167",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-168",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-169",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-170",
+      "nearestExtraSource": "10212",
+      "distance": 0.9864864864864865
+    },
+    {
+      "generated": "new-171",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-172",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-173",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-174",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-175",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-176",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-177",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-178",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-179",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-180",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-181",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-182",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-183",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-184",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-185",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-186",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-187",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-188",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-189",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-190",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-191",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-192",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-193",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-194",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-195",
+      "nearestExtraSource": "10212",
+      "distance": 0.9821428571428571
+    },
+    {
+      "generated": "new-196",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-197",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-198",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-199",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-200",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-201",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-202",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-203",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-204",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-205",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-206",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-207",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-208",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-209",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-210",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-211",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-212",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-213",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-214",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-215",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-216",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-217",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-218",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-219",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-220",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-221",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-222",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-223",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-224",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-225",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-226",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-227",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-228",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-229",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-230",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-231",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-232",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-233",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-234",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-235",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-236",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-237",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-238",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-239",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-240",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-241",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-242",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-243",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-244",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-245",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-246",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-247",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-248",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-249",
+      "nearestExtraSource": "10212",
+      "distance": 0.9795918367346939
+    },
+    {
+      "generated": "new-250",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-251",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-252",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-253",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-254",
+      "nearestExtraSource": "10212",
+      "distance": 0.9831932773109243
+    },
+    {
+      "generated": "new-255",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-256",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-257",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-258",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-259",
+      "nearestExtraSource": "10212",
+      "distance": 0.9830508474576272
+    },
+    {
+      "generated": "new-260",
+      "nearestExtraSource": "10212",
+      "distance": 0.9827586206896551
+    },
+    {
+      "generated": "new-261",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-262",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-263",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-264",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-265",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-266",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-267",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-268",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-269",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-270",
+      "nearestExtraSource": "10212",
+      "distance": 0.9807692307692307
+    },
+    {
+      "generated": "new-271",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-272",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-273",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-274",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-275",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-276",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-277",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-278",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-279",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-280",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-281",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-282",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-283",
+      "nearestExtraSource": "10210",
+      "distance": 0.9877300613496932
+    },
+    {
+      "generated": "new-284",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-285",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-286",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-287",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-288",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-289",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-290",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-291",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-292",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-293",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-294",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-295",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-296",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-297",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-298",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-299",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    },
+    {
+      "generated": "new-300",
+      "nearestExtraSource": "10210",
+      "distance": 1.0
+    }
+  ],
+  "limits": "Conservative reconstructed graph-equivalence and heuristic neighborhood distance. Extra native fixture/collision semantics not certified. Does not refit models or change 500-stage training corpus."
+}

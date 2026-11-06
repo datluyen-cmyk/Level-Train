@@ -1,0 +1,649 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "levels": [
+    {
+      "id": 6000001,
+      "position": 76,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              3,
+              5
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1716,
+            "measuredPoseResidualL2": 0.7697890533812256
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1574,
+            "measuredPoseResidualL2": 1.0255221449402516
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 641,
+            "measuredPoseResidualL2": 1.9643063569700145
+          },
+          {
+            "owners": [
+              12,
+              4
+            ],
+            "sourcePatternId": "73012",
+            "learnedRecordIndex": 1345,
+            "measuredPoseResidualL2": 1.896379036339353
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "10008",
+            "learnedRecordIndex": 2637,
+            "measuredPoseResidualL2": 0.8953614920363901
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "10035",
+            "learnedRecordIndex": 1665,
+            "measuredPoseResidualL2": 0.8156121089000259
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 1,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.16002220939246642,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.6400887680201245,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          11,
+          5,
+          7,
+          12,
+          15,
+          13
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 11,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 11,
+        "unchangedSourceBodyPoses": true,
+        "spatialNearCopyExpected": true,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 11,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 5,
+            "sourceId": "10010",
+            "donorPartId": 1,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 7,
+            "sourceId": "10006",
+            "donorPartId": 8,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 12,
+            "sourceId": "73012",
+            "donorPartId": 5,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": [
+              4
+            ]
+          },
+          {
+            "partId": 15,
+            "sourceId": "10008",
+            "donorPartId": 7,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ]
+          },
+          {
+            "partId": 13,
+            "sourceId": "10035",
+            "donorPartId": 24,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000002,
+      "position": 76,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              3,
+              5
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.0
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1574,
+            "measuredPoseResidualL2": 1.0255221449402516
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 2269,
+            "measuredPoseResidualL2": 1.2848263147731984
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "10054",
+            "learnedRecordIndex": 2637,
+            "measuredPoseResidualL2": 0.8953614920363901
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "10044",
+            "learnedRecordIndex": 1665,
+            "measuredPoseResidualL2": 0.8156121089000259
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 2,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              5,
+              7
+            ],
+            "rawOverlapArea": 0.23428701064139035,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.9371479407384402,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "rawOverlapArea": 0.17396518937041802,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.6958606818719556,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          11,
+          5,
+          7,
+          12,
+          15,
+          13
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 10,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 10,
+        "unchangedSourceBodyPoses": true,
+        "spatialNearCopyExpected": true,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 11,
+            "sourceId": "10006",
+            "donorPartId": 7,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 5,
+            "sourceId": "10018",
+            "donorPartId": 6,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 7,
+            "sourceId": "10009",
+            "donorPartId": 9,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 12,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 15,
+            "sourceId": "10054",
+            "donorPartId": 15,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ]
+          },
+          {
+            "partId": 13,
+            "sourceId": "10044",
+            "donorPartId": 11,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000003,
+      "position": 76,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              3,
+              5
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.0
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1574,
+            "measuredPoseResidualL2": 1.0255221449402516
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 641,
+            "measuredPoseResidualL2": 1.9643063569700145
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "60068",
+            "learnedRecordIndex": 2637,
+            "measuredPoseResidualL2": 0.8953614920363901
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "10047",
+            "learnedRecordIndex": 1665,
+            "measuredPoseResidualL2": 0.8156121089000259
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": true,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 0,
+        "unexpectedSolidOverlaps": [],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          11,
+          5,
+          7,
+          12,
+          15,
+          13
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 10,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 10,
+        "unchangedSourceBodyPoses": true,
+        "spatialNearCopyExpected": true,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 11,
+            "sourceId": "10006",
+            "donorPartId": 8,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 5,
+            "sourceId": "10021",
+            "donorPartId": 9,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 7,
+            "sourceId": "10009",
+            "donorPartId": 9,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 12,
+            "sourceId": "10014",
+            "donorPartId": 6,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 15,
+            "sourceId": "60068",
+            "donorPartId": 4,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ]
+          },
+          {
+            "partId": 13,
+            "sourceId": "10047",
+            "donorPartId": 10,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6000004,
+      "position": 76,
+      "integrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 6,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              3,
+              5
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1309,
+            "measuredPoseResidualL2": 0.0
+          },
+          {
+            "owners": [
+              6,
+              7
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 1574,
+            "measuredPoseResidualL2": 1.0255221449402516
+          },
+          {
+            "owners": [
+              16,
+              12
+            ],
+            "sourcePatternId": "10057",
+            "learnedRecordIndex": 641,
+            "measuredPoseResidualL2": 1.9643063569700145
+          },
+          {
+            "owners": [
+              15,
+              13
+            ],
+            "sourcePatternId": "90020",
+            "learnedRecordIndex": 2637,
+            "measuredPoseResidualL2": 0.8953614920363901
+          },
+          {
+            "owners": [
+              13,
+              15
+            ],
+            "sourcePatternId": "10174",
+            "learnedRecordIndex": 1665,
+            "measuredPoseResidualL2": 0.8156121089000259
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      },
+      "rawSeam": {
+        "rawGeometrySeamPassed": true,
+        "partPairCount": 276,
+        "unexpectedSolidOverlapCount": 0,
+        "unexpectedSolidOverlaps": [],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          11,
+          5,
+          7,
+          12,
+          15,
+          13
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 10,
+        "oldAuthoredEdgeCount": 16,
+        "newAuthoredEdgeCount": 10,
+        "unchangedSourceBodyPoses": true,
+        "spatialNearCopyExpected": true,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 11,
+            "sourceId": "10007",
+            "donorPartId": 1,
+            "oldTargets": [
+              9
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 5,
+            "sourceId": "10025",
+            "donorPartId": 5,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 7,
+            "sourceId": "10031",
+            "donorPartId": 25,
+            "oldTargets": [
+              8
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 12,
+            "sourceId": "10014",
+            "donorPartId": 6,
+            "oldTargets": [
+              10
+            ],
+            "newTargets": []
+          },
+          {
+            "partId": 15,
+            "sourceId": "90020",
+            "donorPartId": 10,
+            "oldTargets": [
+              14,
+              16
+            ],
+            "newTargets": [
+              13
+            ]
+          },
+          {
+            "partId": 13,
+            "sourceId": "10174",
+            "donorPartId": 6,
+            "oldTargets": [
+              12,
+              16
+            ],
+            "newTargets": [
+              15
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

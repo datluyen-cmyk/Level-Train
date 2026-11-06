@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "originalCount": 500,
+  "distinctOriginalCount": 500,
+  "newLevels": 300,
+  "wholeOriginalPieceInstances": 6211,
+  "originalAttachmentInstances": 4720,
+  "usedTemplateCount": 369,
+  "minimumOriginalDistance": 0.5,
+  "templateMutationErrors": [],
+  "packSha256": "4a7d2a98b16e8a82d02c290247dd27012b24aef9f5b07545771775641274979a",
+  "catalogSha256": "12bef8bac58a879b05a4815cd73186d5e408dd7380f4641d952d820e3f9f2095",
+  "adapterSha256": "fc4b7c096334efa50e24e5d922fa195ebf10767ae0baa0c3cc6d35aa4d41cc85",
+  "scope": "Whole immutable source pieces, conservative ring subset. Human difficulty and fun unmeasured."
+}

@@ -1,0 +1,18 @@
+{
+  "historicalReportSha256": "ff379deeb6c2d8d7615b28360dd13f143354c3898e1e4e1d9a8e1b51a86f3db5",
+  "currentReplayReportSha256": "e68ef2c8edcd720f4bbd93507604c5cb7fd4857889fe83df41855cb02859357e",
+  "toolSha256": "5a99f0b12a3d10b44c5867c9e9babfaaee9b7524fbc972648794a9438ef2fba4",
+  "sourceIds": [
+    10001,
+    10002,
+    10003,
+    10005,
+    10004,
+    10010,
+    10012,
+    10007,
+    10008,
+    10154
+  ],
+  "meaning": "Unknown originals remain unknown; no new search or difficulty labels."
+}

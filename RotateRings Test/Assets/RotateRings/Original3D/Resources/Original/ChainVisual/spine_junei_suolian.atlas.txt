@@ -1,0 +1,6 @@
+spine_junei_suolian.png
+size:512,64
+filter:Linear,Linear
+pma:true
+rr_suolian
+bounds:2,2,292,56

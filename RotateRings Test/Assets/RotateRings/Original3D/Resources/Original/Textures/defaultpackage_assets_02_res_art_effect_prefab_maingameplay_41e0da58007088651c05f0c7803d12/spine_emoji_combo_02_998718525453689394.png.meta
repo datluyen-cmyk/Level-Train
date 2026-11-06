@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 8b88493a529b0e74483451a4624434ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -606767956034548002
+    second: spine_emoji_combo_02_998718525453689394_0
+  - first:
+      213: 932927793870886437
+    second: spine_emoji_combo_02_998718525453689394_1
+  - first:
+      213: 6527140234516462185
+    second: spine_emoji_combo_02_998718525453689394_2
+  - first:
+      213: -3202524753555264453
+    second: spine_emoji_combo_02_998718525453689394_3
+  - first:
+      213: -6796278373779071776
+    second: spine_emoji_combo_02_998718525453689394_4
+  - first:
+      213: -4704678221436227522
+    second: spine_emoji_combo_02_998718525453689394_5
+  - first:
+      213: -5750263502746640736
+    second: spine_emoji_combo_02_998718525453689394_6
+  - first:
+      213: 6202027428087238080
+    second: spine_emoji_combo_02_998718525453689394_7
+  - first:
+      213: 3571417468512821882
+    second: spine_emoji_combo_02_998718525453689394_8
+  - first:
+      213: 2557999849153450891
+    second: spine_emoji_combo_02_998718525453689394_9
+  - first:
+      213: -5850940560200650079
+    second: spine_emoji_combo_02_998718525453689394_10
+  - first:
+      213: -756420731127207485
+    second: spine_emoji_combo_02_998718525453689394_11
+  - first:
+      213: -3008196103226409037
+    second: spine_emoji_combo_02_998718525453689394_12
+  - first:
+      213: 6436676941607576040
+    second: spine_emoji_combo_02_998718525453689394_13
+  - first:
+      213: 90742163930089670
+    second: spine_emoji_combo_02_998718525453689394_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 157
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede887f32c35497f0800000000000000
+      internalID: -606767956034548002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 97
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52653cab2ec62fc00800000000000000
+      internalID: 932927793870886437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 97
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a7385067f059a50800000000000000
+      internalID: 6527140234516462185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 97
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c61ff44b85e83d0800000000000000
+      internalID: -3202524753555264453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 140
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec9a38c3d4cea1a0800000000000000
+      internalID: -6796278373779071776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 113
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30f6c48510a5beb0800000000000000
+      internalID: -4704678221436227522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 140
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae94e97fc5f230b0800000000000000
+      internalID: -5750263502746640736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 86
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd8e5a0617021650800000000000000
+      internalID: 6202027428087238080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 113
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72e453f349309130800000000000000
+      internalID: 3571417468512821882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b835b485f47df7320800000000000000
+      internalID: 2557999849153450891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2b0536f884dcea0800000000000000
+      internalID: -5850940560200650079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9eb6c4a57a085f0800000000000000
+      internalID: -756420731127207485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 68
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb97c059db046d0800000000000000
+      internalID: -3008196103226409037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_13
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 65
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a77e439ba35950800000000000000
+      internalID: 6436676941607576040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_emoji_combo_02_998718525453689394_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8043f6481624100800000000000000
+      internalID: 90742163930089670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spine_emoji_combo_02_998718525453689394_0: -606767956034548002
+      spine_emoji_combo_02_998718525453689394_1: 932927793870886437
+      spine_emoji_combo_02_998718525453689394_10: -5850940560200650079
+      spine_emoji_combo_02_998718525453689394_11: -756420731127207485
+      spine_emoji_combo_02_998718525453689394_12: -3008196103226409037
+      spine_emoji_combo_02_998718525453689394_13: 6436676941607576040
+      spine_emoji_combo_02_998718525453689394_14: 90742163930089670
+      spine_emoji_combo_02_998718525453689394_2: 6527140234516462185
+      spine_emoji_combo_02_998718525453689394_3: -3202524753555264453
+      spine_emoji_combo_02_998718525453689394_4: -6796278373779071776
+      spine_emoji_combo_02_998718525453689394_5: -4704678221436227522
+      spine_emoji_combo_02_998718525453689394_6: -5750263502746640736
+      spine_emoji_combo_02_998718525453689394_7: 6202027428087238080
+      spine_emoji_combo_02_998718525453689394_8: 3571417468512821882
+      spine_emoji_combo_02_998718525453689394_9: 2557999849153450891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

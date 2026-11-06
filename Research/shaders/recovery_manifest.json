@@ -1,0 +1,68 @@
+{
+  "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_default_5bf426f1148420bd30e6bfefc6b7a9de.bundle",
+  "bundleSha256": "57a29d53efccd629c8fdce3b4f76e3efa7417aace597d9852f2526116d9a832d",
+  "shaderPathId": 8851482806470351106,
+  "shaderName": "HsApp/Effect/XYStyleLine",
+  "method": "UnityPy lz4 decompress platform9; little-endian ShaderSubProgram table entries4..7; no invented shader code",
+  "programs": [
+    {
+      "index": 4,
+      "keywords": [
+        "_UNDERLAY_NONE"
+      ],
+      "entryOffset": 2820,
+      "entrySize": 19432,
+      "entrySegment": 0,
+      "bytes": 19371,
+      "file": "XYStyleLine_GLES3_program4.glsl",
+      "sha256": "ead1c8f1483793158881ff16bf22f1a3def915912fb851f7eecc11c8769a2e8d"
+    },
+    {
+      "index": 5,
+      "keywords": [
+        "_ALPHACLIP_ON",
+        "_EXTRA_ON",
+        "_NORMALMAP_ON",
+        "_SIMPLELIGHT_ON",
+        "_UNDERLAY_NONE"
+      ],
+      "entryOffset": 22252,
+      "entrySize": 25180,
+      "entrySegment": 0,
+      "bytes": 25044,
+      "file": "XYStyleLine_GLES3_program5.glsl",
+      "sha256": "c7f47b86d8d95cdedfc55ee7756b59cb2fb7b1abf37339084df0f24baf93c3e9"
+    },
+    {
+      "index": 6,
+      "keywords": [
+        "_OUTLINE_ON",
+        "_UNDERLAY_NONE"
+      ],
+      "entryOffset": 47432,
+      "entrySize": 21832,
+      "entrySegment": 0,
+      "bytes": 21753,
+      "file": "XYStyleLine_GLES3_program6.glsl",
+      "sha256": "bdab760501457bdfde0021a4ee0d7723c500f4f7eb491f635c007135005d3304"
+    },
+    {
+      "index": 7,
+      "keywords": [
+        "_ALPHACLIP_ON",
+        "_EXTRA_ON",
+        "_NORMALMAP_ON",
+        "_OUTLINE_ON",
+        "_SIMPLELIGHT_ON",
+        "_UNDERLAY_NONE"
+      ],
+      "entryOffset": 69264,
+      "entrySize": 27612,
+      "entrySegment": 0,
+      "bytes": 27459,
+      "file": "XYStyleLine_GLES3_program7.glsl",
+      "sha256": "f401fde7dc0aaca8d62c1b14d295da898d0cf4afba9b194ef8795a4f229fdd18"
+    }
+  ],
+  "limits": "GLSL is original compiler output, not authored HLSL source. Direct ShaderLab cross-platform loading needs a semantic port. Platform18 decompressed data retained but SPIRV not decompiled here."
+}

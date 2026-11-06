@@ -1,0 +1,1542 @@
+[
+  {
+    "id": -8895888756610466098,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 3129202430199372678
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -10.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2867659206293287434
+      }
+    }
+  },
+  {
+    "id": -8849612494424862071,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 617112267169087489
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 4,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": 5043244670802688236
+      }
+    }
+  },
+  {
+    "id": -8275142688720648364,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -3650485651295270224
+          }
+        }
+      ],
+      "m_Layer": 0,
+      "m_Name": "LevelContent",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": -8215360520921408723,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 2867659206293287434
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -3498058290706334750
+          }
+        }
+      ],
+      "m_Layer": 0,
+      "m_Name": "Level10001",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": -8095980101400858246,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2162682643962511676
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 730960357873781898
+      },
+      "m_Name": "",
+      "originalLayer": -1
+    }
+  },
+  {
+    "id": -7853643787278252526,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1686064702866800387
+      },
+      "m_Name": ""
+    }
+  },
+  {
+    "id": -5286406727790595798,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1477090976599191899
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -3664231822201320581
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -672369030648992786
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 9124529005515152593
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -5082181199872823024
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -8835196021004353387
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 7463204708111841494
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1931732764598372774
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -7853643787278252526
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 8819957491489725928
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "Ring_ring_2",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": -5082181199872823024,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 730960357873781898
+      },
+      "m_Name": "",
+      "originalLayer": -1
+    }
+  },
+  {
+    "id": -4328745434186865184,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 1,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": 5043244670802688236
+      }
+    }
+  },
+  {
+    "id": -4194962818932015708,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1297784337694856985
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 730960357873781898
+      },
+      "m_Name": "",
+      "originalLayer": -1
+    }
+  },
+  {
+    "id": -3664231822201320581,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -2144283418184441437
+      },
+      "m_Name": "",
+      "rb2D": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "partData": {
+        "<PhysicPartId>k__BackingField": "ring_2",
+        "<Id>k__BackingField": 2,
+        "<CanCollect>k__BackingField": 1,
+        "<LockCount>k__BackingField": 0,
+        "<RandomBombCanSelect>k__BackingField": 1,
+        "<HasBomb>k__BackingField": 0,
+        "<GapAngleDeg>k__BackingField": 90.0,
+        "<InnerRadius>k__BackingField": 36.0,
+        "<OuterRadius>k__BackingField": 48.0,
+        "<PaletteColor>k__BackingField": 2,
+        "<UseLevelSpecifiedColor>k__BackingField": 0,
+        "<LevelSpecifiedColor>k__BackingField": 0,
+        "<IsPaletteLock>k__BackingField": 0,
+        "<IsPaletteLockKey>k__BackingField": 0,
+        "<LockedBy>k__BackingField": [],
+        "<Locks>k__BackingField": []
+      },
+      "overlap2DHandler": {
+        "maxOverlapCollider": 10,
+        "collider2D": {
+          "m_FileID": 0,
+          "m_PathID": -672369030648992786
+        },
+        "contactFilter": {
+          "useTriggers": 1,
+          "useLayerMask": 1,
+          "useDepth": 0,
+          "useOutsideDepth": 0,
+          "useNormalAngle": 0,
+          "useOutsideNormalAngle": 0,
+          "layerMask": {
+            "m_Bits": 128
+          },
+          "minDepth": 0.0,
+          "maxDepth": 0.0,
+          "minNormalAngle": 0.0,
+          "maxNormalAngle": 0.0
+        }
+      },
+      "ringRelatives": [],
+      "activeCollider": {
+        "m_FileID": 0,
+        "m_PathID": -672369030648992786
+      },
+      "hardBlockColliders": [],
+      "moveOutDirection": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "moveOutDuration": 0.5,
+      "dragArea": {
+        "m_FileID": 0,
+        "m_PathID": 5113101391958124527
+      }
+    }
+  },
+  {
+    "id": -3650485651295270224,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8275142688720648364
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 5328082944998853937
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2867659206293287434
+      }
+    }
+  },
+  {
+    "id": -3498058290706334750,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8215360520921408723
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 5906973141659905491
+      },
+      "m_Name": "",
+      "levelCaptureCamera": {
+        "m_FileID": 0,
+        "m_PathID": -5400499251946091998
+      },
+      "weakGuideManager": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "isUseCoreLevel": 1,
+      "isModelLevel": 0,
+      "specifyColor": 0,
+      "coreLevelJsonHash": "fe0c804e7292c565cc64c7404245b51c",
+      "boundsMinX": -2.625840167524985e-07,
+      "boundsMinY": 0.0,
+      "boundsMaxX": 171.66894726258406,
+      "boundsMaxY": 96.0,
+      "ringLinks": [
+        {
+          "sourceRingId": "ring_1",
+          "pinFeatureId": "attachment.pin_1",
+          "targetPartId": "ring_2",
+          "targetFeatureId": "body",
+          "relationKind": 0,
+          "activityKind": 0
+        }
+      ],
+      "guideLinks": [],
+      "paletteLockKeyBindings": []
+    }
+  },
+  {
+    "id": -687960608095168333,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2162682643962511676
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 3,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": 5043244670802688236
+      }
+    }
+  },
+  {
+    "id": 62847156980064198,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1079582426606112267
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 5219157338425506014
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 2099253601630895100
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "HardBlock_pin_1",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 275674053817914532,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 617112267169087489
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 4270645704202159665
+      }
+    }
+  },
+  {
+    "id": 617112267169087489,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 275674053817914532
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 2688320737662367454
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1946966502811457684
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -8849612494424862071
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "Bottom",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 1079582426606112267,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 62847156980064198
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2712709705406487876
+      }
+    }
+  },
+  {
+    "id": 1297784337694856985,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 8237210675610187749
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 7777740395735433705
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -4194962818932015708
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 3183994397081126567
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "Top",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 1477090976599191899,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 5.854388236999512,
+        "y": -2.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 5113101391958124527
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 5328082944998853937
+      }
+    }
+  },
+  {
+    "id": 1910525955648279956,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 5328082944998853937
+          }
+        }
+      ],
+      "m_Layer": 0,
+      "m_Name": "Board",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 1931543950696824201,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 4020509576213720298
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.10000000149011612
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2712709705406487876
+      }
+    }
+  },
+  {
+    "id": 1931732764598372774,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 7516638465795763657
+      },
+      "m_Name": "",
+      "_sharedMaterial": {
+        "m_FileID": 1,
+        "m_PathID": 4024835306928696828
+      },
+      "_radius": 1.75,
+      "_width": 1.0,
+      "_gapAngleDeg": 73.62977600097656,
+      "_gapDirectionDeg": 0.0,
+      "_capRatio": 0.5,
+      "_styleIndex": 1,
+      "_arcSubdivisions": 64,
+      "_vertexColor": {
+        "r": 0.9254902005195618,
+        "g": 0.5607843399047852,
+        "b": 0.18039216101169586,
+        "a": 1.0
+      },
+      "_attachments": [],
+      "_extraEnabled": 1,
+      "_meshBaked": 1,
+      "_rebuildMeshOnSharedMaterialChange": 0,
+      "_ringZ": 0.0,
+      "_stemZ": 0.0,
+      "_crossBarZ": -0.20000000298023224
+    }
+  },
+  {
+    "id": 1946966502811457684,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 617112267169087489
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 730960357873781898
+      },
+      "m_Name": "",
+      "originalLayer": -1
+    }
+  },
+  {
+    "id": 2099253601630895100,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 62847156980064198
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 2,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": 5043244670802688236
+      }
+    }
+  },
+  {
+    "id": 2162682643962511676,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 4270645704202159665
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 6024898326565124671
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -7478483913241104205
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -8095980101400858246
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -687960608095168333
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "PhysicRingRelative(Clone)",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 2591444896040045286,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 730960357873781898
+      },
+      "m_Name": "",
+      "originalLayer": -1
+    }
+  },
+  {
+    "id": 2712709705406487876,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0,
+        "w": -4.371138828673793e-08
+      },
+      "m_LocalPosition": {
+        "x": 1.2984848022460938,
+        "y": -2.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1931543950696824201
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1079582426606112267
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4270645704202159665
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 5328082944998853937
+      }
+    }
+  },
+  {
+    "id": 2867659206293287434,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8215360520921408723
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8895888756610466098
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3650485651295270224
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  },
+  {
+    "id": 3129202430199372678,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -8895888756610466098
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -5400499251946091998
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 3442866666716382214
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 4996291041748762278
+          }
+        }
+      ],
+      "m_Layer": 0,
+      "m_Name": "LevelCaptureCamera",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 3183994397081126567,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1297784337694856985
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 4,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": 5043244670802688236
+      }
+    }
+  },
+  {
+    "id": 3442866666716382214,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 3129202430199372678
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -7704795052314949888
+      },
+      "m_Name": ""
+    }
+  },
+  {
+    "id": 4020509576213720298,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1931543950696824201
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -198182910927445916
+          }
+        }
+      ],
+      "m_Layer": 6,
+      "m_Name": "DragArea",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 4256449225476709941,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 7516638465795763657
+      },
+      "m_Name": "",
+      "_sharedMaterial": {
+        "m_FileID": 1,
+        "m_PathID": 4024835306928696828
+      },
+      "_radius": 1.75,
+      "_width": 1.0,
+      "_gapAngleDeg": 73.62977600097656,
+      "_gapDirectionDeg": 0.0,
+      "_capRatio": 0.5,
+      "_styleIndex": 1,
+      "_arcSubdivisions": 64,
+      "_vertexColor": {
+        "r": 0.19607843458652496,
+        "g": 0.686274528503418,
+        "b": 0.8666666746139526,
+        "a": 1.0
+      },
+      "_attachments": [
+        {
+          "type": 1,
+          "angleDeg": 180.0,
+          "stemWidth": 0.8333333730697632,
+          "stemLength": 0.5854191780090332,
+          "stemInsertOffset": 0.5,
+          "isInnerMount": 0,
+          "crossWidth": 1.3416767120361328,
+          "crossLength": 0.8333333730697632,
+          "styleIndex": 1,
+          "crossCapLength": 0.0
+        }
+      ],
+      "_extraEnabled": 1,
+      "_meshBaked": 1,
+      "_rebuildMeshOnSharedMaterialChange": 0,
+      "_ringZ": 0.0,
+      "_stemZ": 0.0,
+      "_crossBarZ": -0.20000000298023224
+    }
+  },
+  {
+    "id": 4270645704202159665,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2162682643962511676
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0,
+        "w": -4.371138828673793e-08
+      },
+      "m_LocalPosition": {
+        "x": -2.835419178009033,
+        "y": 2.4788022301436285e-07,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 8237210675610187749
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 275674053817914532
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2712709705406487876
+      }
+    }
+  },
+  {
+    "id": 4996291041748762278,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 3129202430199372678
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1206983720893999492
+      },
+      "m_Name": "",
+      "m_RenderShadows": 1,
+      "m_RequiresDepthTextureOption": 2,
+      "m_RequiresOpaqueTextureOption": 2,
+      "m_CameraType": 0,
+      "m_Cameras": [],
+      "m_RendererIndex": -1,
+      "m_VolumeLayerMask": {
+        "m_Bits": 1
+      },
+      "m_VolumeTrigger": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_VolumeFrameworkUpdateModeOption": 2,
+      "m_RenderPostProcessing": 0,
+      "m_Antialiasing": 0,
+      "m_AntialiasingQuality": 2,
+      "m_StopNaN": 0,
+      "m_Dithering": 0,
+      "m_ClearDepth": 1,
+      "m_AllowXRRendering": 1,
+      "m_AllowHDROutput": 1,
+      "m_UseScreenCoordOverride": 0,
+      "m_ScreenSizeOverride": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_ScreenCoordScaleBias": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_RequiresDepthTexture": 0,
+      "m_RequiresColorTexture": 0,
+      "m_TaaSettings": {
+        "m_Quality": 3,
+        "m_FrameInfluence": 0.10000000149011612,
+        "m_JitterScale": 1.0,
+        "m_MipBias": 0.0,
+        "m_VarianceClampScale": 0.8999999761581421,
+        "m_ContrastAdaptiveSharpening": 0.0
+      },
+      "m_Version": 2
+    }
+  },
+  {
+    "id": 5043244670802688236,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -2144283418184441437
+      },
+      "m_Name": "",
+      "rb2D": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "partData": {
+        "<PhysicPartId>k__BackingField": "ring_1",
+        "<Id>k__BackingField": 1,
+        "<CanCollect>k__BackingField": 1,
+        "<LockCount>k__BackingField": 0,
+        "<RandomBombCanSelect>k__BackingField": 1,
+        "<HasBomb>k__BackingField": 0,
+        "<GapAngleDeg>k__BackingField": 90.0,
+        "<InnerRadius>k__BackingField": 36.0,
+        "<OuterRadius>k__BackingField": 48.0,
+        "<PaletteColor>k__BackingField": 1,
+        "<UseLevelSpecifiedColor>k__BackingField": 0,
+        "<LevelSpecifiedColor>k__BackingField": 0,
+        "<IsPaletteLock>k__BackingField": 0,
+        "<IsPaletteLockKey>k__BackingField": 0,
+        "<LockedBy>k__BackingField": [],
+        "<Locks>k__BackingField": []
+      },
+      "overlap2DHandler": {
+        "maxOverlapCollider": 10,
+        "collider2D": {
+          "m_FileID": 0,
+          "m_PathID": 1483080417016458004
+        },
+        "contactFilter": {
+          "useTriggers": 1,
+          "useLayerMask": 1,
+          "useDepth": 0,
+          "useOutsideDepth": 0,
+          "useNormalAngle": 0,
+          "useOutsideNormalAngle": 0,
+          "layerMask": {
+            "m_Bits": 128
+          },
+          "minDepth": 0.0,
+          "maxDepth": 0.0,
+          "minNormalAngle": 0.0,
+          "maxNormalAngle": 0.0
+        }
+      },
+      "ringRelatives": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 6024898326565124671
+        }
+      ],
+      "activeCollider": {
+        "m_FileID": 0,
+        "m_PathID": 1483080417016458004
+      },
+      "hardBlockColliders": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 5219157338425506014
+        }
+      ],
+      "moveOutDirection": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "moveOutDuration": 0.5,
+      "dragArea": {
+        "m_FileID": 0,
+        "m_PathID": 1931543950696824201
+      }
+    }
+  },
+  {
+    "id": 5113101391958124527,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 5736492971781871358
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.10000000149011612
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 1477090976599191899
+      }
+    }
+  },
+  {
+    "id": 5328082944998853937,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1910525955648279956
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 2712709705406487876
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1477090976599191899
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -3650485651295270224
+      }
+    }
+  },
+  {
+    "id": 5736492971781871358,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 5113101391958124527
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -9209568424945205316
+          }
+        }
+      ],
+      "m_Layer": 6,
+      "m_Name": "DragArea",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 5769193249128899039,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7666969695566756407
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1686064702866800387
+      },
+      "m_Name": ""
+    }
+  },
+  {
+    "id": 6024898326565124671,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2162682643962511676
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 6809254191986875661
+      },
+      "m_Name": "",
+      "shapeId": "",
+      "featureId": "attachment.pin_1",
+      "overlap2DHandler": {
+        "maxOverlapCollider": 10,
+        "collider2D": {
+          "m_FileID": 0,
+          "m_PathID": -7478483913241104205
+        },
+        "contactFilter": {
+          "useTriggers": 1,
+          "useLayerMask": 1,
+          "useDepth": 0,
+          "useOutsideDepth": 0,
+          "useNormalAngle": 0,
+          "useOutsideNormalAngle": 0,
+          "layerMask": {
+            "m_Bits": 128
+          },
+          "minDepth": 0.0,
+          "maxDepth": 0.0,
+          "minNormalAngle": 0.0,
+          "maxNormalAngle": 0.0
+        }
+      },
+      "selfCollider": {
+        "m_FileID": 0,
+        "m_PathID": -7478483913241104205
+      },
+      "blockColliders": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 7777740395735433705
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7478483913241104205
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2688320737662367454
+        }
+      ],
+      "extendLayerMaskHelpers": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -4194962818932015708
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1946966502811457684
+        }
+      ]
+    }
+  },
+  {
+    "id": 7666969695566756407,
+    "type": "GameObject",
+    "data": {
+      "m_Component": [
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 2712709705406487876
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 5043244670802688236
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 1483080417016458004
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -1190105405066235057
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 2591444896040045286
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 766534271005166340
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -2228628881429846640
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 4256449225476709941
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 5769193249128899039
+          }
+        },
+        {
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": -4328745434186865184
+          }
+        }
+      ],
+      "m_Layer": 7,
+      "m_Name": "Ring_ring_1",
+      "m_Tag": 0,
+      "m_IsActive": true
+    }
+  },
+  {
+    "id": 8237210675610187749,
+    "type": "Transform",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1297784337694856985
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 4270645704202159665
+      }
+    }
+  },
+  {
+    "id": 8819957491489725928,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5286406727790595798
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4533490160469835719
+      },
+      "m_Name": "",
+      "role": 1,
+      "owner": {
+        "m_FileID": 0,
+        "m_PathID": -3664231822201320581
+      }
+    }
+  }
+]

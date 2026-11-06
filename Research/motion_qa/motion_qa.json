@@ -1,0 +1,98 @@
+{
+  "passed": false,
+  "complete": false,
+  "status": "NOT_RUN_AFTER_DURATION_CORRECTION",
+  "sourceConfigSha256": "b05dafe264baf143a8fe2a3a5adaf21da4199f171014f175505f57001a0f0ff0",
+  "atlasSha256": "913792249ff37bf66b3e34022bef6c80431036b0686b85d2e338fb02acdcb530",
+  "finalPackSha256": "100718d8528124b868955d4071a64ea609f609780faa7e5ddc4ef19495e07e26",
+  "passedChecks": [],
+  "failedChecks": [],
+  "samples": [],
+  "cleanupElapsedGameSeconds": null,
+  "scope": "No Play Mode run after the source-duration correction. historicalRun retains the prior helper run; it does not verify the current cleanup timer.",
+  "integrationLimit": "Main Runtime/WorldView callbacks, removal visibility and booster buttons require the main runtime smoke test. This isolated helper test does not certify those interactions.",
+  "historicalRun": {
+    "passed": true,
+    "complete": true,
+    "status": "PASS",
+    "passedChecks": [
+      "Entry duration equals serialized config",
+      "Waiting scale equals serialized zero, invisible before own stagger",
+      "Stagger matches serialized config for count1",
+      "Stagger matches serialized config for count3",
+      "Stagger matches serialized config for count30",
+      "Stagger matches serialized config for count100",
+      "Stagger matches serialized config for count300",
+      "Source weighted entry curve at0",
+      "Source wobble curve at0",
+      "Source weighted entry curve at0.04",
+      "Source wobble curve at0.04",
+      "Source weighted entry curve at0.12",
+      "Source wobble curve at0.12",
+      "Source weighted entry curve at0.2",
+      "Source wobble curve at0.2",
+      "Source weighted entry curve at0.4111487",
+      "Source wobble curve at0.4111487",
+      "Source weighted entry curve at0.52",
+      "Source wobble curve at0.52",
+      "Source weighted entry curve at0.715144",
+      "Source wobble curve at0.715144",
+      "Source weighted entry curve at0.9",
+      "Source wobble curve at0.9",
+      "Source weighted entry curve at1",
+      "Source wobble curve at1",
+      "Wobble duration equals serialized .5s",
+      "Denied angular wobble reaches8 degrees",
+      "Victory delay equals serialized GameplayManager1 second",
+      "Actual PlayShatter spawns original named hierarchy",
+      "World effect position sourceZ minus5",
+      "Effect preserves sourceZ angle",
+      "Shatter helper does not shrink original source transform",
+      "Shape emits from actual sourceMesh with its vertex colors",
+      "Source service world simulation override",
+      "Original lifetime .6 to .75",
+      "Original speed is constant .87, not inactive minScalar5",
+      "Original fixed50-particle burst",
+      "Original billboard renderer and local alignment",
+      "Original service sorting10 and GPU instancing disabled",
+      "Renderer uses verbatim extracted tex_sequence_005 atlas",
+      "Original atlas2x2 texture-sheet module",
+      "Original active noise/velocity/size/spin modules",
+      "Live Unity simulation emits50 particles",
+      "All visible fragments expire by.8 seconds",
+      "Actual effect auto-destroyed after source duration5 plus root lifetime5"
+    ],
+    "failedChecks": [],
+    "cleanupElapsedGameSeconds": 10.256790161132812,
+    "legacyCleanupAssertion": "Actual effect auto-destroyed after source duration5 plus root lifetime5",
+    "scope": "Actual Unity Play Mode helper/module checks; deterministic original particle screenshots. Does not advance any gameplay level or invoke UI boosters.",
+    "samples": [
+      {
+        "seconds": 0.019999999552965164,
+        "liveParticles": 50,
+        "image": "D:\\RotateRings\\Research\\motion_qa\\shatter-020ms.png"
+      },
+      {
+        "seconds": 0.11999999731779099,
+        "liveParticles": 50,
+        "image": "D:\\RotateRings\\Research\\motion_qa\\shatter-120ms.png"
+      },
+      {
+        "seconds": 0.30000001192092896,
+        "liveParticles": 50,
+        "image": "D:\\RotateRings\\Research\\motion_qa\\shatter-300ms.png"
+      },
+      {
+        "seconds": 0.6000000238418579,
+        "liveParticles": 50,
+        "image": "D:\\RotateRings\\Research\\motion_qa\\shatter-600ms.png"
+      },
+      {
+        "seconds": 0.800000011920929,
+        "liveParticles": 0,
+        "image": "D:\\RotateRings\\Research\\motion_qa\\shatter-800ms.png"
+      }
+    ]
+  },
+  "supersedingSourceEvidence": "RingSolveSuccessEffectService.TryCreateFragmentPlayback computes max(startDelay.constantMax + startLifetime.constantMax), not main.duration + startLifetime. The source eff_cycle_boom root system lifetime is 5s and visible fragments are <=0.75s. The old 10s timer summed duration and lifetime and was not source behavior."
+}

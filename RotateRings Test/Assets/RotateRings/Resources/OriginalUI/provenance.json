@@ -1,0 +1,120 @@
+[
+  {
+    "file": "game_bg_mask.png",
+    "bundle": "defaultpackage_share_assets_02_res_art_level_texture_bg_c5ac0412af548e23f8280d4f470b00ce.bundle",
+    "sha256": "a36019eb61d0ad1235d0b5c9bf01128883fdf803a95a2962a2aa75f51d24aeec",
+    "type": "Texture2D",
+    "pathId": 4442528651459157165,
+    "name": "game_bg_mask",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  {
+    "file": "settings.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "type": "Sprite",
+    "pathId": -1759085942183641926,
+    "name": "common_btn_sub_settings",
+    "dimensions": [
+      112,
+      111
+    ]
+  },
+  {
+    "file": "score_badge.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "type": "Sprite",
+    "pathId": 599763804125234944,
+    "name": "game_score_bg",
+    "dimensions": [
+      378,
+      130
+    ]
+  },
+  {
+    "file": "hint.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_prop_839689b1efb1806f14baf18104254326.bundle",
+    "sha256": "2588c93d626dc9fabe697e1bc074220b5dd5250d8d06847b465c380e854a1b22",
+    "type": "Sprite",
+    "pathId": -8778377642486676913,
+    "name": "common_item_hint256",
+    "dimensions": [
+      177,
+      242
+    ]
+  },
+  {
+    "file": "hammer.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_prop_839689b1efb1806f14baf18104254326.bundle",
+    "sha256": "2588c93d626dc9fabe697e1bc074220b5dd5250d8d06847b465c380e854a1b22",
+    "type": "Sprite",
+    "pathId": 6528673457307745401,
+    "name": "common_item_hammer256",
+    "dimensions": [
+      215,
+      233
+    ]
+  },
+  {
+    "file": "rocket.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_prop_839689b1efb1806f14baf18104254326.bundle",
+    "sha256": "2588c93d626dc9fabe697e1bc074220b5dd5250d8d06847b465c380e854a1b22",
+    "type": "Sprite",
+    "pathId": -6594135688391327757,
+    "name": "common_item_skyrocket256",
+    "dimensions": [
+      256,
+      256
+    ]
+  },
+  {
+    "file": "Roboto-ExtraBold.ttf",
+    "bundle": "defaultpackage_assets_02_res_art_font_ttf_c8fb12b669722b07cf08a6102808840b.bundle",
+    "sha256": "a6b6cc6b59c526a5ba9bdd5bb871e677b580c5e8b82214372624cfa651619946",
+    "type": "Font",
+    "pathId": 6663088816622376808,
+    "name": "Roboto-ExtraBold",
+    "fontSha256": "43d5ce98c58336045220fa1dac2bd22281b1aab3eca66785cb34eb3ad1dfe1a5",
+    "bytes": 160012
+  },
+  {
+    "file": "booster_button.png",
+    "bundle": "defaultpackage_assets_02_res_art_ui_sprite_game_36172e188eaf64bf1a266aeecaffc027.bundle",
+    "sha256": "e961fbf6870bbda311c9e270e78f55372bdf7584ef32d287bee44fdc5cc3c5c7",
+    "type": "Sprite",
+    "pathId": 8837613545479038531,
+    "name": "game_item_bg",
+    "dimensions": [
+      198,
+      200
+    ]
+  },
+  {
+    "file": "cream_background.png",
+    "bundle": "defaultpackage_assets_02_res_art_level_scene_f88c7a9d8eb75b463217db21ad20e957.bundle",
+    "sha256": "d5762214117d180e16b99d014ab71ac2f7429f4e74351bdcda0897a7c97b5ec4",
+    "type": "Camera.backgroundColor",
+    "pathId": 9119548058752006078,
+    "name": "Main Camera",
+    "rgbaFloat": [
+      1.0,
+      0.9949000477790833,
+      0.9575471878051758,
+      1.0
+    ],
+    "rgba8": [
+      255,
+      254,
+      244,
+      255
+    ],
+    "dimensions": [
+      1,
+      1
+    ]
+  }
+]

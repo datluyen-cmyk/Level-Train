@@ -1,0 +1,12 @@
+# Unity generated caches and editor-local state
+/RotateRings Test/Library/
+/RotateRings Test/Temp/
+/RotateRings Test/Logs/
+/RotateRings Test/UserSettings/
+/RotateRings Test/.vscode/
+/RotateRings Test/*.csproj
+/RotateRings Test/*.sln
+/RotateRings Test/*.slnx
+**/__pycache__/
+*.pyc
+.DS_Store

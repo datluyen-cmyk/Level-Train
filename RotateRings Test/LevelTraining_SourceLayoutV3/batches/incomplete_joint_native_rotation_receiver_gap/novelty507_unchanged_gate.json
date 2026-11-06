@@ -1,0 +1,199 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "gateUnchanged": true,
+  "levels": [
+    {
+      "id": 7400001,
+      "position": 51,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.54226005805246e-15,
+          "p90CenterErrorWidths": 8.248573256332839e-15,
+          "meanAngleErrorDegrees": 28.75076444299846,
+          "meanShapeError": 0.010416666666666666,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "73005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7400002,
+      "position": 51,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.54226005805246e-15,
+          "p90CenterErrorWidths": 8.248573256332839e-15,
+          "meanAngleErrorDegrees": 30.000757125000003,
+          "meanShapeError": 0.010416666666666666,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "73005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7400003,
+      "position": 176,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.1903576575514295e-15,
+          "p90CenterErrorWidths": 7.827028865832304e-15,
+          "meanAngleErrorDegrees": 21.648266119393337,
+          "meanShapeError": 0.03260869565217391,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "70013"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7400004,
+      "position": 176,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 4.1903576575514295e-15,
+          "p90CenterErrorWidths": 7.827028865832304e-15,
+          "meanAngleErrorDegrees": 20.93016690200204,
+          "meanShapeError": 0.021739130434782608,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": false,
+          "sourceId": "70013"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7400005,
+      "position": 251,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.776356742893989e-16,
+          "p90CenterErrorWidths": 4.884981042958476e-16,
+          "meanAngleErrorDegrees": 34.54957898045707,
+          "meanShapeError": 0.0375,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "71117"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 7400006,
+      "position": 251,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.776356742893989e-16,
+          "p90CenterErrorWidths": 4.884981042958476e-16,
+          "meanAngleErrorDegrees": 31.499446580457068,
+          "meanShapeError": 0.0375,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "71117"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    }
+  ]
+}

@@ -1,0 +1,5072 @@
+[
+  {
+    "id": "100005",
+    "rings": 8,
+    "collect": 3,
+    "pull": 7,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10001",
+    "rings": 2,
+    "collect": 2,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 1
+  },
+  {
+    "id": "10002",
+    "rings": 3,
+    "collect": 3,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 2
+  },
+  {
+    "id": "10003",
+    "rings": 4,
+    "collect": 4,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 3
+  },
+  {
+    "id": "10004",
+    "rings": 7,
+    "collect": 7,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10005",
+    "rings": 7,
+    "collect": 7,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10006",
+    "rings": 9,
+    "collect": 9,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10007",
+    "rings": 9,
+    "collect": 8,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10008",
+    "rings": 9,
+    "collect": 8,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10009",
+    "rings": 12,
+    "collect": 12,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10010",
+    "rings": 6,
+    "collect": 3,
+    "pull": 2,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 4
+  },
+  {
+    "id": "10011",
+    "rings": 7,
+    "collect": 3,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 5
+  },
+  {
+    "id": "10012",
+    "rings": 7,
+    "collect": 3,
+    "pull": 2,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10013",
+    "rings": 9,
+    "collect": 4,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10014",
+    "rings": 14,
+    "collect": 12,
+    "pull": 5,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10015",
+    "rings": 13,
+    "collect": 9,
+    "pull": 4,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10017",
+    "rings": 10,
+    "collect": 9,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10018",
+    "rings": 10,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10019",
+    "rings": 9,
+    "collect": 5,
+    "pull": 6,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10020",
+    "rings": 14,
+    "collect": 9,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10021",
+    "rings": 10,
+    "collect": 5,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10023",
+    "rings": 12,
+    "collect": 8,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10024",
+    "rings": 12,
+    "collect": 9,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10025",
+    "rings": 8,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10026",
+    "rings": 11,
+    "collect": 7,
+    "pull": 6,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10027",
+    "rings": 13,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10028",
+    "rings": 10,
+    "collect": 10,
+    "pull": 16,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10029",
+    "rings": 7,
+    "collect": 4,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 2,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10030",
+    "rings": 20,
+    "collect": 20,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "10031",
+    "rings": 14,
+    "collect": 10,
+    "pull": 6,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10032",
+    "rings": 16,
+    "collect": 13,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 2,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10033",
+    "rings": 14,
+    "collect": 12,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 1,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10034",
+    "rings": 14,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10035",
+    "rings": 16,
+    "collect": 11,
+    "pull": 5,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10036",
+    "rings": 14,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10037",
+    "rings": 16,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "10038",
+    "rings": 21,
+    "collect": 13,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "10039",
+    "rings": 13,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10040",
+    "rings": 14,
+    "collect": 10,
+    "pull": 11,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10041",
+    "rings": 16,
+    "collect": 5,
+    "pull": 14,
+    "fixed": 16,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10042",
+    "rings": 6,
+    "collect": 2,
+    "pull": 14,
+    "fixed": 14,
+    "bomb": 0,
+    "locks": 0,
+    "links": 4
+  },
+  {
+    "id": "10043",
+    "rings": 14,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "10044",
+    "rings": 15,
+    "collect": 10,
+    "pull": 4,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10045",
+    "rings": 13,
+    "collect": 6,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10046",
+    "rings": 17,
+    "collect": 11,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "10047",
+    "rings": 19,
+    "collect": 14,
+    "pull": 5,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "10048",
+    "rings": 11,
+    "collect": 6,
+    "pull": 9,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10049",
+    "rings": 12,
+    "collect": 6,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10050",
+    "rings": 20,
+    "collect": 19,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "10051",
+    "rings": 19,
+    "collect": 13,
+    "pull": 5,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "10052",
+    "rings": 11,
+    "collect": 6,
+    "pull": 16,
+    "fixed": 14,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "10053",
+    "rings": 21,
+    "collect": 20,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "10054",
+    "rings": 11,
+    "collect": 9,
+    "pull": 13,
+    "fixed": 14,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10055",
+    "rings": 19,
+    "collect": 12,
+    "pull": 9,
+    "fixed": 8,
+    "bomb": 2,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "10056",
+    "rings": 12,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10057",
+    "rings": 16,
+    "collect": 12,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10058",
+    "rings": 12,
+    "collect": 7,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10059",
+    "rings": 15,
+    "collect": 11,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10060",
+    "rings": 9,
+    "collect": 6,
+    "pull": 11,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10061",
+    "rings": 15,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "10062",
+    "rings": 9,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10063",
+    "rings": 16,
+    "collect": 2,
+    "pull": 17,
+    "fixed": 17,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10064",
+    "rings": 12,
+    "collect": 7,
+    "pull": 13,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10065",
+    "rings": 17,
+    "collect": 10,
+    "pull": 5,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "10066",
+    "rings": 15,
+    "collect": 10,
+    "pull": 9,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "10067",
+    "rings": 12,
+    "collect": 10,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10068",
+    "rings": 15,
+    "collect": 13,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "10069",
+    "rings": 15,
+    "collect": 11,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10070",
+    "rings": 21,
+    "collect": 13,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "10071",
+    "rings": 12,
+    "collect": 7,
+    "pull": 8,
+    "fixed": 10,
+    "bomb": 1,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10072",
+    "rings": 16,
+    "collect": 1,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10082",
+    "rings": 6,
+    "collect": 4,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10095",
+    "rings": 3,
+    "collect": 0,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 2
+  },
+  {
+    "id": "10109",
+    "rings": 6,
+    "collect": 2,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 5
+  },
+  {
+    "id": "10111",
+    "rings": 0,
+    "collect": 0,
+    "pull": 23,
+    "fixed": 23,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10122",
+    "rings": 0,
+    "collect": 0,
+    "pull": 25,
+    "fixed": 26,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10125",
+    "rings": 9,
+    "collect": 1,
+    "pull": 20,
+    "fixed": 18,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10134",
+    "rings": 17,
+    "collect": 1,
+    "pull": 13,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10152",
+    "rings": 6,
+    "collect": 0,
+    "pull": 11,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 3
+  },
+  {
+    "id": "10153",
+    "rings": 8,
+    "collect": 0,
+    "pull": 13,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10154",
+    "rings": 4,
+    "collect": 0,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 3
+  },
+  {
+    "id": "10155",
+    "rings": 1,
+    "collect": 0,
+    "pull": 40,
+    "fixed": 39,
+    "bomb": 0,
+    "locks": 0,
+    "links": 1
+  },
+  {
+    "id": "10156",
+    "rings": 24,
+    "collect": 0,
+    "pull": 60,
+    "fixed": 60,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10157",
+    "rings": 0,
+    "collect": 0,
+    "pull": 17,
+    "fixed": 17,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10158",
+    "rings": 12,
+    "collect": 1,
+    "pull": 23,
+    "fixed": 21,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10159",
+    "rings": 3,
+    "collect": 1,
+    "pull": 18,
+    "fixed": 17,
+    "bomb": 0,
+    "locks": 0,
+    "links": 3
+  },
+  {
+    "id": "10160",
+    "rings": 12,
+    "collect": 5,
+    "pull": 13,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10161",
+    "rings": 12,
+    "collect": 4,
+    "pull": 13,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10162",
+    "rings": 16,
+    "collect": 11,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 1,
+    "locks": 33,
+    "links": 16
+  },
+  {
+    "id": "10164",
+    "rings": 14,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 12,
+    "bomb": 1,
+    "locks": 38,
+    "links": 10
+  },
+  {
+    "id": "10166",
+    "rings": 9,
+    "collect": 6,
+    "pull": 4,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 12,
+    "links": 8
+  },
+  {
+    "id": "10168",
+    "rings": 11,
+    "collect": 8,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 20,
+    "links": 13
+  },
+  {
+    "id": "10170",
+    "rings": 10,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10171",
+    "rings": 9,
+    "collect": 5,
+    "pull": 10,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 4
+  },
+  {
+    "id": "10172",
+    "rings": 8,
+    "collect": 6,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10173",
+    "rings": 9,
+    "collect": 4,
+    "pull": 12,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10174",
+    "rings": 9,
+    "collect": 6,
+    "pull": 9,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10175",
+    "rings": 9,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10176",
+    "rings": 10,
+    "collect": 9,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10177",
+    "rings": 9,
+    "collect": 3,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10178",
+    "rings": 10,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10179",
+    "rings": 12,
+    "collect": 7,
+    "pull": 8,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10180",
+    "rings": 11,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 15,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10181",
+    "rings": 10,
+    "collect": 5,
+    "pull": 11,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10182",
+    "rings": 10,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10183",
+    "rings": 14,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10184",
+    "rings": 13,
+    "collect": 9,
+    "pull": 12,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10185",
+    "rings": 13,
+    "collect": 12,
+    "pull": 9,
+    "fixed": 8,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10186",
+    "rings": 15,
+    "collect": 14,
+    "pull": 7,
+    "fixed": 9,
+    "bomb": 1,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10187",
+    "rings": 13,
+    "collect": 11,
+    "pull": 8,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10188",
+    "rings": 12,
+    "collect": 9,
+    "pull": 9,
+    "fixed": 15,
+    "bomb": 1,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "10189",
+    "rings": 9,
+    "collect": 7,
+    "pull": 12,
+    "fixed": 11,
+    "bomb": 1,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10190",
+    "rings": 13,
+    "collect": 13,
+    "pull": 0,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10191",
+    "rings": 9,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "10192",
+    "rings": 5,
+    "collect": 4,
+    "pull": 15,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "10193",
+    "rings": 12,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "10194",
+    "rings": 14,
+    "collect": 9,
+    "pull": 6,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10195",
+    "rings": 11,
+    "collect": 6,
+    "pull": 11,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "10196",
+    "rings": 13,
+    "collect": 8,
+    "pull": 13,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "10197",
+    "rings": 19,
+    "collect": 16,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "10198",
+    "rings": 11,
+    "collect": 9,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "10199",
+    "rings": 14,
+    "collect": 10,
+    "pull": 12,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "10200",
+    "rings": 19,
+    "collect": 13,
+    "pull": 12,
+    "fixed": 11,
+    "bomb": 2,
+    "locks": 23,
+    "links": 17
+  },
+  {
+    "id": "10201",
+    "rings": 13,
+    "collect": 9,
+    "pull": 13,
+    "fixed": 15,
+    "bomb": 1,
+    "locks": 46,
+    "links": 13
+  },
+  {
+    "id": "10202",
+    "rings": 17,
+    "collect": 13,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 2,
+    "locks": 16,
+    "links": 17
+  },
+  {
+    "id": "10203",
+    "rings": 13,
+    "collect": 9,
+    "pull": 15,
+    "fixed": 14,
+    "bomb": 2,
+    "locks": 38,
+    "links": 14
+  },
+  {
+    "id": "10204",
+    "rings": 13,
+    "collect": 9,
+    "pull": 17,
+    "fixed": 19,
+    "bomb": 0,
+    "locks": 30,
+    "links": 9
+  },
+  {
+    "id": "10205",
+    "rings": 8,
+    "collect": 2,
+    "pull": 22,
+    "fixed": 28,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10206",
+    "rings": 10,
+    "collect": 1,
+    "pull": 35,
+    "fixed": 45,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10207",
+    "rings": 28,
+    "collect": 2,
+    "pull": 9,
+    "fixed": 37,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10208",
+    "rings": 9,
+    "collect": 2,
+    "pull": 25,
+    "fixed": 35,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10209",
+    "rings": 9,
+    "collect": 1,
+    "pull": 30,
+    "fixed": 39,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10210",
+    "rings": 24,
+    "collect": 3,
+    "pull": 19,
+    "fixed": 43,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10211",
+    "rings": 27,
+    "collect": 0,
+    "pull": 12,
+    "fixed": 39,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10212",
+    "rings": 14,
+    "collect": 1,
+    "pull": 10,
+    "fixed": 23,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10213",
+    "rings": 24,
+    "collect": 0,
+    "pull": 12,
+    "fixed": 36,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10214",
+    "rings": 43,
+    "collect": 1,
+    "pull": 19,
+    "fixed": 62,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10215",
+    "rings": 45,
+    "collect": 1,
+    "pull": 6,
+    "fixed": 50,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "10216",
+    "rings": 40,
+    "collect": 3,
+    "pull": 39,
+    "fixed": 80,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "110001",
+    "rings": 12,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "110002",
+    "rings": 13,
+    "collect": 8,
+    "pull": 1,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "110003",
+    "rings": 22,
+    "collect": 19,
+    "pull": 3,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "110005",
+    "rings": 15,
+    "collect": 7,
+    "pull": 11,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "130004",
+    "rings": 7,
+    "collect": 3,
+    "pull": 4,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "130006",
+    "rings": 10,
+    "collect": 8,
+    "pull": 6,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "130008",
+    "rings": 11,
+    "collect": 4,
+    "pull": 3,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "140004",
+    "rings": 11,
+    "collect": 1,
+    "pull": 2,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "150001",
+    "rings": 16,
+    "collect": 16,
+    "pull": 5,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "150002",
+    "rings": 14,
+    "collect": 14,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "150003",
+    "rings": 15,
+    "collect": 10,
+    "pull": 8,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "150004",
+    "rings": 18,
+    "collect": 15,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "150005",
+    "rings": 28,
+    "collect": 1,
+    "pull": 21,
+    "fixed": 47,
+    "bomb": 0,
+    "locks": 0,
+    "links": 1
+  },
+  {
+    "id": "150006",
+    "rings": 17,
+    "collect": 17,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "150007",
+    "rings": 18,
+    "collect": 18,
+    "pull": 6,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "150011",
+    "rings": 24,
+    "collect": 22,
+    "pull": 2,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "150013",
+    "rings": 11,
+    "collect": 3,
+    "pull": 38,
+    "fixed": 37,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "150014",
+    "rings": 25,
+    "collect": 15,
+    "pull": 5,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "150015",
+    "rings": 18,
+    "collect": 16,
+    "pull": 9,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "20001",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20003",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20005",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20007",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "20009",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20011",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20013",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "20015",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "20017",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20019",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20021",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 38,
+    "links": 22
+  },
+  {
+    "id": "20023",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 13,
+    "links": 23
+  },
+  {
+    "id": "20025",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 20,
+    "links": 23
+  },
+  {
+    "id": "20027",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 1,
+    "locks": 22,
+    "links": 21
+  },
+  {
+    "id": "20029",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 22,
+    "links": 22
+  },
+  {
+    "id": "20031",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 1,
+    "locks": 18,
+    "links": 20
+  },
+  {
+    "id": "20033",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 19,
+    "links": 21
+  },
+  {
+    "id": "20035",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 14,
+    "links": 22
+  },
+  {
+    "id": "20037",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 1,
+    "locks": 27,
+    "links": 24
+  },
+  {
+    "id": "20039",
+    "rings": 24,
+    "collect": 22,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 1,
+    "locks": 21,
+    "links": 23
+  },
+  {
+    "id": "20041",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20043",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20045",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20047",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20049",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20051",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "20053",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20055",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "20057",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20059",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20061",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20063",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20065",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20067",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "20069",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20071",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "20073",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20075",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20077",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "20079",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "20081",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 28,
+    "links": 25
+  },
+  {
+    "id": "20082",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 1,
+    "locks": 38,
+    "links": 23
+  },
+  {
+    "id": "20083",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 46,
+    "links": 24
+  },
+  {
+    "id": "20084",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 38,
+    "links": 27
+  },
+  {
+    "id": "20085",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 41,
+    "links": 20
+  },
+  {
+    "id": "20086",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 30,
+    "links": 24
+  },
+  {
+    "id": "20087",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 28,
+    "links": 27
+  },
+  {
+    "id": "20088",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 26,
+    "links": 26
+  },
+  {
+    "id": "20089",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 1,
+    "bomb": 2,
+    "locks": 18,
+    "links": 22
+  },
+  {
+    "id": "20090",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 21,
+    "links": 26
+  },
+  {
+    "id": "20091",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 2,
+    "bomb": 1,
+    "locks": 28,
+    "links": 26
+  },
+  {
+    "id": "20092",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 3,
+    "bomb": 2,
+    "locks": 30,
+    "links": 22
+  },
+  {
+    "id": "20093",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 3,
+    "bomb": 2,
+    "locks": 26,
+    "links": 23
+  },
+  {
+    "id": "20094",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 1,
+    "bomb": 2,
+    "locks": 21,
+    "links": 24
+  },
+  {
+    "id": "20095",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 3,
+    "bomb": 2,
+    "locks": 24,
+    "links": 23
+  },
+  {
+    "id": "20096",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 30,
+    "links": 23
+  },
+  {
+    "id": "20097",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 14,
+    "links": 25
+  },
+  {
+    "id": "20098",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 23,
+    "links": 29
+  },
+  {
+    "id": "20099",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 29,
+    "links": 23
+  },
+  {
+    "id": "20100",
+    "rings": 24,
+    "collect": 24,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 14,
+    "links": 23
+  },
+  {
+    "id": "50001",
+    "rings": 9,
+    "collect": 7,
+    "pull": 11,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "50002",
+    "rings": 34,
+    "collect": 0,
+    "pull": 2,
+    "fixed": 36,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "50004",
+    "rings": 7,
+    "collect": 3,
+    "pull": 13,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "50005",
+    "rings": 13,
+    "collect": 7,
+    "pull": 15,
+    "fixed": 26,
+    "bomb": 0,
+    "locks": 0,
+    "links": 1
+  },
+  {
+    "id": "50006",
+    "rings": 9,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "50008",
+    "rings": 12,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "50010",
+    "rings": 28,
+    "collect": 28,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 29
+  },
+  {
+    "id": "50011",
+    "rings": 10,
+    "collect": 4,
+    "pull": 13,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "50012",
+    "rings": 14,
+    "collect": 14,
+    "pull": 12,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "50013",
+    "rings": 14,
+    "collect": 14,
+    "pull": 13,
+    "fixed": 6,
+    "bomb": 1,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "50014",
+    "rings": 11,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "50016",
+    "rings": 7,
+    "collect": 3,
+    "pull": 16,
+    "fixed": 15,
+    "bomb": 1,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "50017",
+    "rings": 9,
+    "collect": 4,
+    "pull": 13,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "50018",
+    "rings": 15,
+    "collect": 12,
+    "pull": 13,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "50020",
+    "rings": 13,
+    "collect": 6,
+    "pull": 13,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60001",
+    "rings": 15,
+    "collect": 15,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "60002",
+    "rings": 19,
+    "collect": 19,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "60003",
+    "rings": 15,
+    "collect": 13,
+    "pull": 1,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "60004",
+    "rings": 16,
+    "collect": 16,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "60005",
+    "rings": 22,
+    "collect": 18,
+    "pull": 2,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "60006",
+    "rings": 17,
+    "collect": 9,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "60007",
+    "rings": 14,
+    "collect": 12,
+    "pull": 2,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "60008",
+    "rings": 12,
+    "collect": 10,
+    "pull": 19,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "60009",
+    "rings": 24,
+    "collect": 20,
+    "pull": 2,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 30
+  },
+  {
+    "id": "60010",
+    "rings": 17,
+    "collect": 17,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "60011",
+    "rings": 22,
+    "collect": 16,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "60023",
+    "rings": 12,
+    "collect": 12,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60026",
+    "rings": 17,
+    "collect": 17,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "60028",
+    "rings": 14,
+    "collect": 14,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "60030",
+    "rings": 14,
+    "collect": 14,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "60032",
+    "rings": 17,
+    "collect": 17,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "60034",
+    "rings": 23,
+    "collect": 23,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "60036",
+    "rings": 21,
+    "collect": 12,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "60042",
+    "rings": 11,
+    "collect": 6,
+    "pull": 5,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60043",
+    "rings": 15,
+    "collect": 12,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 1,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "60044",
+    "rings": 30,
+    "collect": 1,
+    "pull": 6,
+    "fixed": 36,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "60045",
+    "rings": 12,
+    "collect": 8,
+    "pull": 5,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "60046",
+    "rings": 13,
+    "collect": 13,
+    "pull": 2,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "60047",
+    "rings": 17,
+    "collect": 3,
+    "pull": 5,
+    "fixed": 21,
+    "bomb": 0,
+    "locks": 0,
+    "links": 2
+  },
+  {
+    "id": "60048",
+    "rings": 13,
+    "collect": 11,
+    "pull": 3,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60049",
+    "rings": 14,
+    "collect": 14,
+    "pull": 5,
+    "fixed": 2,
+    "bomb": 1,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "60050",
+    "rings": 7,
+    "collect": 5,
+    "pull": 10,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "60051",
+    "rings": 11,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "60052",
+    "rings": 2,
+    "collect": 2,
+    "pull": 22,
+    "fixed": 18,
+    "bomb": 0,
+    "locks": 0,
+    "links": 5
+  },
+  {
+    "id": "60053",
+    "rings": 8,
+    "collect": 8,
+    "pull": 7,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "60054",
+    "rings": 7,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "60055",
+    "rings": 17,
+    "collect": 13,
+    "pull": 6,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60056",
+    "rings": 15,
+    "collect": 11,
+    "pull": 7,
+    "fixed": 12,
+    "bomb": 1,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60057",
+    "rings": 12,
+    "collect": 12,
+    "pull": 4,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "60058",
+    "rings": 13,
+    "collect": 13,
+    "pull": 3,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "60059",
+    "rings": 11,
+    "collect": 9,
+    "pull": 5,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60060",
+    "rings": 13,
+    "collect": 13,
+    "pull": 4,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60061",
+    "rings": 16,
+    "collect": 10,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 1,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "60062",
+    "rings": 13,
+    "collect": 12,
+    "pull": 14,
+    "fixed": 14,
+    "bomb": 2,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60063",
+    "rings": 11,
+    "collect": 6,
+    "pull": 6,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60064",
+    "rings": 12,
+    "collect": 5,
+    "pull": 6,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "60065",
+    "rings": 7,
+    "collect": 6,
+    "pull": 10,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "60066",
+    "rings": 6,
+    "collect": 3,
+    "pull": 18,
+    "fixed": 21,
+    "bomb": 0,
+    "locks": 0,
+    "links": 7
+  },
+  {
+    "id": "60067",
+    "rings": 8,
+    "collect": 5,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "60068",
+    "rings": 12,
+    "collect": 12,
+    "pull": 11,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "60069",
+    "rings": 5,
+    "collect": 4,
+    "pull": 8,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 8
+  },
+  {
+    "id": "60070",
+    "rings": 10,
+    "collect": 6,
+    "pull": 6,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60071",
+    "rings": 9,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "60072",
+    "rings": 9,
+    "collect": 4,
+    "pull": 11,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "60073",
+    "rings": 11,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "60074",
+    "rings": 8,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 11,
+    "bomb": 2,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "60075",
+    "rings": 13,
+    "collect": 13,
+    "pull": 11,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "60076",
+    "rings": 13,
+    "collect": 10,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 1,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "60077",
+    "rings": 10,
+    "collect": 9,
+    "pull": 12,
+    "fixed": 17,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "60078",
+    "rings": 12,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "60079",
+    "rings": 11,
+    "collect": 1,
+    "pull": 8,
+    "fixed": 17,
+    "bomb": 0,
+    "locks": 0,
+    "links": 2
+  },
+  {
+    "id": "60080",
+    "rings": 3,
+    "collect": 3,
+    "pull": 40,
+    "fixed": 40,
+    "bomb": 0,
+    "locks": 0,
+    "links": 4
+  },
+  {
+    "id": "60081",
+    "rings": 12,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 12,
+    "bomb": 1,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "60091",
+    "rings": 11,
+    "collect": 7,
+    "pull": 12,
+    "fixed": 16,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "60092",
+    "rings": 13,
+    "collect": 10,
+    "pull": 6,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "60094",
+    "rings": 8,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "60096",
+    "rings": 11,
+    "collect": 7,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "60097",
+    "rings": 14,
+    "collect": 10,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 2,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "660002",
+    "rings": 10,
+    "collect": 8,
+    "pull": 9,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "660005",
+    "rings": 15,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "680013",
+    "rings": 13,
+    "collect": 8,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70002",
+    "rings": 10,
+    "collect": 7,
+    "pull": 2,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "70003",
+    "rings": 13,
+    "collect": 9,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "70004",
+    "rings": 10,
+    "collect": 6,
+    "pull": 5,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70005",
+    "rings": 13,
+    "collect": 11,
+    "pull": 3,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "70006",
+    "rings": 17,
+    "collect": 17,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "70007",
+    "rings": 15,
+    "collect": 8,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "70008",
+    "rings": 9,
+    "collect": 5,
+    "pull": 6,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "70009",
+    "rings": 11,
+    "collect": 3,
+    "pull": 6,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "70010",
+    "rings": 10,
+    "collect": 4,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "70011",
+    "rings": 8,
+    "collect": 3,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "70012",
+    "rings": 10,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "70013",
+    "rings": 13,
+    "collect": 7,
+    "pull": 5,
+    "fixed": 5,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "70014",
+    "rings": 15,
+    "collect": 11,
+    "pull": 3,
+    "fixed": 1,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "70015",
+    "rings": 11,
+    "collect": 9,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70017",
+    "rings": 13,
+    "collect": 13,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "70018",
+    "rings": 10,
+    "collect": 4,
+    "pull": 4,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "70019",
+    "rings": 16,
+    "collect": 11,
+    "pull": 2,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "70020",
+    "rings": 11,
+    "collect": 9,
+    "pull": 4,
+    "fixed": 1,
+    "bomb": 1,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "70021",
+    "rings": 13,
+    "collect": 6,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 1,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70022",
+    "rings": 10,
+    "collect": 4,
+    "pull": 10,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "70023",
+    "rings": 12,
+    "collect": 11,
+    "pull": 4,
+    "fixed": 3,
+    "bomb": 2,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70024",
+    "rings": 10,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70025",
+    "rings": 14,
+    "collect": 11,
+    "pull": 5,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "70026",
+    "rings": 10,
+    "collect": 6,
+    "pull": 6,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70027",
+    "rings": 12,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "70028",
+    "rings": 15,
+    "collect": 8,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "70029",
+    "rings": 11,
+    "collect": 8,
+    "pull": 6,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "70030",
+    "rings": 20,
+    "collect": 13,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "70031",
+    "rings": 13,
+    "collect": 9,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "70032",
+    "rings": 11,
+    "collect": 10,
+    "pull": 7,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "70033",
+    "rings": 9,
+    "collect": 2,
+    "pull": 8,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 9
+  },
+  {
+    "id": "70034",
+    "rings": 9,
+    "collect": 5,
+    "pull": 6,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "70035",
+    "rings": 11,
+    "collect": 7,
+    "pull": 4,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "70036",
+    "rings": 9,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "70037",
+    "rings": 12,
+    "collect": 10,
+    "pull": 10,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "70038",
+    "rings": 10,
+    "collect": 8,
+    "pull": 6,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "70039",
+    "rings": 8,
+    "collect": 8,
+    "pull": 15,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "70040",
+    "rings": 8,
+    "collect": 5,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 1,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71001",
+    "rings": 11,
+    "collect": 4,
+    "pull": 9,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71002",
+    "rings": 15,
+    "collect": 7,
+    "pull": 12,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71003",
+    "rings": 11,
+    "collect": 5,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "71004",
+    "rings": 14,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71005",
+    "rings": 16,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "71006",
+    "rings": 13,
+    "collect": 2,
+    "pull": 11,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71007",
+    "rings": 14,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71008",
+    "rings": 16,
+    "collect": 12,
+    "pull": 5,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71009",
+    "rings": 13,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "71010",
+    "rings": 19,
+    "collect": 15,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71011",
+    "rings": 18,
+    "collect": 12,
+    "pull": 6,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71012",
+    "rings": 22,
+    "collect": 16,
+    "pull": 8,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "71013",
+    "rings": 12,
+    "collect": 5,
+    "pull": 8,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71014",
+    "rings": 12,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71015",
+    "rings": 14,
+    "collect": 10,
+    "pull": 7,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71016",
+    "rings": 14,
+    "collect": 13,
+    "pull": 7,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71017",
+    "rings": 11,
+    "collect": 8,
+    "pull": 6,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71018",
+    "rings": 17,
+    "collect": 12,
+    "pull": 3,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71019",
+    "rings": 15,
+    "collect": 11,
+    "pull": 7,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71020",
+    "rings": 15,
+    "collect": 13,
+    "pull": 6,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71021",
+    "rings": 17,
+    "collect": 12,
+    "pull": 8,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71022",
+    "rings": 13,
+    "collect": 7,
+    "pull": 7,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71023",
+    "rings": 19,
+    "collect": 18,
+    "pull": 3,
+    "fixed": 2,
+    "bomb": 1,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71024",
+    "rings": 13,
+    "collect": 9,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71025",
+    "rings": 16,
+    "collect": 12,
+    "pull": 5,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71026",
+    "rings": 16,
+    "collect": 13,
+    "pull": 8,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71027",
+    "rings": 18,
+    "collect": 16,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71028",
+    "rings": 18,
+    "collect": 17,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71029",
+    "rings": 18,
+    "collect": 9,
+    "pull": 8,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 37,
+    "links": 22
+  },
+  {
+    "id": "71030",
+    "rings": 17,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 27,
+    "links": 18
+  },
+  {
+    "id": "71031",
+    "rings": 18,
+    "collect": 13,
+    "pull": 12,
+    "fixed": 6,
+    "bomb": 1,
+    "locks": 31,
+    "links": 22
+  },
+  {
+    "id": "71032",
+    "rings": 15,
+    "collect": 14,
+    "pull": 3,
+    "fixed": 0,
+    "bomb": 2,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71033",
+    "rings": 0,
+    "collect": 0,
+    "pull": 13,
+    "fixed": 16,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "71034",
+    "rings": 18,
+    "collect": 13,
+    "pull": 6,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71035",
+    "rings": 17,
+    "collect": 13,
+    "pull": 6,
+    "fixed": 2,
+    "bomb": 1,
+    "locks": 36,
+    "links": 21
+  },
+  {
+    "id": "71036",
+    "rings": 17,
+    "collect": 15,
+    "pull": 7,
+    "fixed": 4,
+    "bomb": 2,
+    "locks": 46,
+    "links": 24
+  },
+  {
+    "id": "71037",
+    "rings": 4,
+    "collect": 1,
+    "pull": 12,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 4
+  },
+  {
+    "id": "71038",
+    "rings": 18,
+    "collect": 17,
+    "pull": 9,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71039",
+    "rings": 19,
+    "collect": 17,
+    "pull": 10,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71040",
+    "rings": 21,
+    "collect": 18,
+    "pull": 12,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "71041",
+    "rings": 18,
+    "collect": 13,
+    "pull": 13,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "71042",
+    "rings": 18,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "71043",
+    "rings": 20,
+    "collect": 17,
+    "pull": 14,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 30
+  },
+  {
+    "id": "71044",
+    "rings": 24,
+    "collect": 20,
+    "pull": 15,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 33
+  },
+  {
+    "id": "71045",
+    "rings": 17,
+    "collect": 7,
+    "pull": 15,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "71046",
+    "rings": 15,
+    "collect": 7,
+    "pull": 14,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71047",
+    "rings": 16,
+    "collect": 9,
+    "pull": 10,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "71048",
+    "rings": 16,
+    "collect": 7,
+    "pull": 12,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71049",
+    "rings": 24,
+    "collect": 18,
+    "pull": 14,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 35
+  },
+  {
+    "id": "71050",
+    "rings": 20,
+    "collect": 13,
+    "pull": 15,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "71101",
+    "rings": 21,
+    "collect": 8,
+    "pull": 20,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71102",
+    "rings": 14,
+    "collect": 11,
+    "pull": 10,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71103",
+    "rings": 13,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71104",
+    "rings": 12,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71105",
+    "rings": 14,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71106",
+    "rings": 16,
+    "collect": 8,
+    "pull": 12,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71107",
+    "rings": 14,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71108",
+    "rings": 18,
+    "collect": 12,
+    "pull": 12,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71109",
+    "rings": 13,
+    "collect": 6,
+    "pull": 9,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71110",
+    "rings": 17,
+    "collect": 10,
+    "pull": 11,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "71111",
+    "rings": 9,
+    "collect": 8,
+    "pull": 8,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71112",
+    "rings": 9,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71113",
+    "rings": 9,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "71114",
+    "rings": 10,
+    "collect": 8,
+    "pull": 7,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71115",
+    "rings": 10,
+    "collect": 5,
+    "pull": 7,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71116",
+    "rings": 10,
+    "collect": 5,
+    "pull": 8,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71117",
+    "rings": 9,
+    "collect": 4,
+    "pull": 8,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71118",
+    "rings": 10,
+    "collect": 5,
+    "pull": 9,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71119",
+    "rings": 9,
+    "collect": 6,
+    "pull": 6,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "71120",
+    "rings": 10,
+    "collect": 4,
+    "pull": 9,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71121",
+    "rings": 9,
+    "collect": 3,
+    "pull": 9,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 13
+  },
+  {
+    "id": "71122",
+    "rings": 14,
+    "collect": 7,
+    "pull": 14,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "71123",
+    "rings": 11,
+    "collect": 7,
+    "pull": 11,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71124",
+    "rings": 15,
+    "collect": 9,
+    "pull": 9,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71125",
+    "rings": 13,
+    "collect": 6,
+    "pull": 9,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71126",
+    "rings": 14,
+    "collect": 11,
+    "pull": 11,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71127",
+    "rings": 15,
+    "collect": 7,
+    "pull": 17,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "71128",
+    "rings": 11,
+    "collect": 2,
+    "pull": 12,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "71129",
+    "rings": 12,
+    "collect": 4,
+    "pull": 10,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "71130",
+    "rings": 15,
+    "collect": 11,
+    "pull": 11,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71131",
+    "rings": 12,
+    "collect": 3,
+    "pull": 13,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "71132",
+    "rings": 14,
+    "collect": 9,
+    "pull": 12,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 37,
+    "links": 22
+  },
+  {
+    "id": "71133",
+    "rings": 14,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 18,
+    "links": 23
+  },
+  {
+    "id": "71134",
+    "rings": 14,
+    "collect": 8,
+    "pull": 11,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71135",
+    "rings": 15,
+    "collect": 9,
+    "pull": 11,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "71136",
+    "rings": 14,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71137",
+    "rings": 16,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 2,
+    "bomb": 1,
+    "locks": 22,
+    "links": 23
+  },
+  {
+    "id": "71138",
+    "rings": 15,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 20,
+    "links": 20
+  },
+  {
+    "id": "71139",
+    "rings": 14,
+    "collect": 9,
+    "pull": 12,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71140",
+    "rings": 10,
+    "collect": 5,
+    "pull": 10,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71141",
+    "rings": 15,
+    "collect": 10,
+    "pull": 11,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71142",
+    "rings": 13,
+    "collect": 9,
+    "pull": 8,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71143",
+    "rings": 8,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "71144",
+    "rings": 17,
+    "collect": 11,
+    "pull": 8,
+    "fixed": 3,
+    "bomb": 1,
+    "locks": 33,
+    "links": 23
+  },
+  {
+    "id": "71145",
+    "rings": 17,
+    "collect": 5,
+    "pull": 12,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "71146",
+    "rings": 10,
+    "collect": 5,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71147",
+    "rings": 13,
+    "collect": 5,
+    "pull": 6,
+    "fixed": 4,
+    "bomb": 1,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71148",
+    "rings": 10,
+    "collect": 10,
+    "pull": 10,
+    "fixed": 5,
+    "bomb": 1,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71149",
+    "rings": 12,
+    "collect": 8,
+    "pull": 8,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 17
+  },
+  {
+    "id": "71150",
+    "rings": 7,
+    "collect": 4,
+    "pull": 8,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71201",
+    "rings": 8,
+    "collect": 4,
+    "pull": 7,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 14
+  },
+  {
+    "id": "71202",
+    "rings": 13,
+    "collect": 6,
+    "pull": 11,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "71203",
+    "rings": 16,
+    "collect": 10,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "71204",
+    "rings": 13,
+    "collect": 8,
+    "pull": 10,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71205",
+    "rings": 10,
+    "collect": 5,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "71206",
+    "rings": 13,
+    "collect": 7,
+    "pull": 9,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71207",
+    "rings": 14,
+    "collect": 6,
+    "pull": 7,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71208",
+    "rings": 14,
+    "collect": 12,
+    "pull": 12,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "71209",
+    "rings": 17,
+    "collect": 15,
+    "pull": 8,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71213",
+    "rings": 16,
+    "collect": 7,
+    "pull": 12,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "71215",
+    "rings": 19,
+    "collect": 14,
+    "pull": 10,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 30
+  },
+  {
+    "id": "71216",
+    "rings": 15,
+    "collect": 11,
+    "pull": 7,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "71217",
+    "rings": 15,
+    "collect": 7,
+    "pull": 10,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "71218",
+    "rings": 18,
+    "collect": 12,
+    "pull": 9,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "71222",
+    "rings": 14,
+    "collect": 9,
+    "pull": 8,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 19
+  },
+  {
+    "id": "71223",
+    "rings": 17,
+    "collect": 13,
+    "pull": 11,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "71224",
+    "rings": 17,
+    "collect": 10,
+    "pull": 9,
+    "fixed": 1,
+    "bomb": 0,
+    "locks": 0,
+    "links": 27
+  },
+  {
+    "id": "71226",
+    "rings": 15,
+    "collect": 4,
+    "pull": 9,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71227",
+    "rings": 16,
+    "collect": 10,
+    "pull": 9,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "71229",
+    "rings": 11,
+    "collect": 5,
+    "pull": 11,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "71230",
+    "rings": 14,
+    "collect": 11,
+    "pull": 8,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "72002",
+    "rings": 0,
+    "collect": 0,
+    "pull": 16,
+    "fixed": 21,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72003",
+    "rings": 10,
+    "collect": 0,
+    "pull": 12,
+    "fixed": 10,
+    "bomb": 0,
+    "locks": 0,
+    "links": 6
+  },
+  {
+    "id": "72004",
+    "rings": 14,
+    "collect": 4,
+    "pull": 14,
+    "fixed": 12,
+    "bomb": 1,
+    "locks": 0,
+    "links": 12
+  },
+  {
+    "id": "72005",
+    "rings": 10,
+    "collect": 0,
+    "pull": 14,
+    "fixed": 24,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72006",
+    "rings": 1,
+    "collect": 1,
+    "pull": 21,
+    "fixed": 23,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72007",
+    "rings": 14,
+    "collect": 0,
+    "pull": 9,
+    "fixed": 23,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72009",
+    "rings": 1,
+    "collect": 0,
+    "pull": 17,
+    "fixed": 18,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72011",
+    "rings": 6,
+    "collect": 0,
+    "pull": 34,
+    "fixed": 40,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72012",
+    "rings": 3,
+    "collect": 0,
+    "pull": 10,
+    "fixed": 15,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72013",
+    "rings": 6,
+    "collect": 1,
+    "pull": 13,
+    "fixed": 19,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "72014",
+    "rings": 1,
+    "collect": 0,
+    "pull": 20,
+    "fixed": 21,
+    "bomb": 0,
+    "locks": 0,
+    "links": 0
+  },
+  {
+    "id": "73001",
+    "rings": 16,
+    "collect": 16,
+    "pull": 12,
+    "fixed": 12,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "73002",
+    "rings": 16,
+    "collect": 8,
+    "pull": 13,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 22
+  },
+  {
+    "id": "73003",
+    "rings": 19,
+    "collect": 19,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "73004",
+    "rings": 21,
+    "collect": 18,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "73005",
+    "rings": 13,
+    "collect": 9,
+    "pull": 5,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "73006",
+    "rings": 19,
+    "collect": 19,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "73007",
+    "rings": 15,
+    "collect": 15,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "73008",
+    "rings": 13,
+    "collect": 10,
+    "pull": 6,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "73009",
+    "rings": 21,
+    "collect": 21,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 36
+  },
+  {
+    "id": "73010",
+    "rings": 16,
+    "collect": 9,
+    "pull": 9,
+    "fixed": 11,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "73011",
+    "rings": 11,
+    "collect": 9,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "73012",
+    "rings": 21,
+    "collect": 20,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "73013",
+    "rings": 24,
+    "collect": 24,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 34
+  },
+  {
+    "id": "73014",
+    "rings": 21,
+    "collect": 21,
+    "pull": 4,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 28
+  },
+  {
+    "id": "73016",
+    "rings": 17,
+    "collect": 17,
+    "pull": 7,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "880001",
+    "rings": 17,
+    "collect": 5,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 16
+  },
+  {
+    "id": "880002",
+    "rings": 13,
+    "collect": 6,
+    "pull": 12,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "880003",
+    "rings": 12,
+    "collect": 4,
+    "pull": 10,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 10
+  },
+  {
+    "id": "880004",
+    "rings": 15,
+    "collect": 5,
+    "pull": 20,
+    "fixed": 20,
+    "bomb": 0,
+    "locks": 0,
+    "links": 15
+  },
+  {
+    "id": "880007",
+    "rings": 24,
+    "collect": 5,
+    "pull": 11,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 25
+  },
+  {
+    "id": "880010",
+    "rings": 18,
+    "collect": 4,
+    "pull": 16,
+    "fixed": 16,
+    "bomb": 0,
+    "locks": 0,
+    "links": 18
+  },
+  {
+    "id": "90002",
+    "rings": 23,
+    "collect": 18,
+    "pull": 9,
+    "fixed": 5,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "90003",
+    "rings": 20,
+    "collect": 15,
+    "pull": 18,
+    "fixed": 13,
+    "bomb": 0,
+    "locks": 0,
+    "links": 27
+  },
+  {
+    "id": "90005",
+    "rings": 24,
+    "collect": 17,
+    "pull": 10,
+    "fixed": 9,
+    "bomb": 0,
+    "locks": 0,
+    "links": 23
+  },
+  {
+    "id": "90006",
+    "rings": 29,
+    "collect": 27,
+    "pull": 0,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 33
+  },
+  {
+    "id": "90008",
+    "rings": 25,
+    "collect": 22,
+    "pull": 9,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 32
+  },
+  {
+    "id": "90009",
+    "rings": 20,
+    "collect": 16,
+    "pull": 4,
+    "fixed": 2,
+    "bomb": 0,
+    "locks": 0,
+    "links": 29
+  },
+  {
+    "id": "90012",
+    "rings": 18,
+    "collect": 15,
+    "pull": 10,
+    "fixed": 6,
+    "bomb": 0,
+    "locks": 0,
+    "links": 21
+  },
+  {
+    "id": "90013",
+    "rings": 20,
+    "collect": 17,
+    "pull": 12,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "90014",
+    "rings": 23,
+    "collect": 21,
+    "pull": 10,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "90015",
+    "rings": 17,
+    "collect": 17,
+    "pull": 8,
+    "fixed": 8,
+    "bomb": 0,
+    "locks": 0,
+    "links": 24
+  },
+  {
+    "id": "90020",
+    "rings": 26,
+    "collect": 26,
+    "pull": 9,
+    "fixed": 4,
+    "bomb": 0,
+    "locks": 0,
+    "links": 35
+  },
+  {
+    "id": "90022",
+    "rings": 13,
+    "collect": 2,
+    "pull": 33,
+    "fixed": 27,
+    "bomb": 0,
+    "locks": 0,
+    "links": 11
+  },
+  {
+    "id": "90024",
+    "rings": 6,
+    "collect": 0,
+    "pull": 40,
+    "fixed": 36,
+    "bomb": 0,
+    "locks": 0,
+    "links": 5
+  },
+  {
+    "id": "90025",
+    "rings": 17,
+    "collect": 13,
+    "pull": 14,
+    "fixed": 3,
+    "bomb": 0,
+    "locks": 0,
+    "links": 26
+  },
+  {
+    "id": "90026",
+    "rings": 22,
+    "collect": 18,
+    "pull": 14,
+    "fixed": 7,
+    "bomb": 0,
+    "locks": 0,
+    "links": 29
+  },
+  {
+    "id": "90030",
+    "rings": 18,
+    "collect": 16,
+    "pull": 2,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 20
+  },
+  {
+    "id": "90055",
+    "rings": 28,
+    "collect": 0,
+    "pull": 14,
+    "fixed": 0,
+    "bomb": 0,
+    "locks": 0,
+    "links": 34
+  }
+]

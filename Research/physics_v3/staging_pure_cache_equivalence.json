@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "sourcePosition": 1,
+  "uncachedSeconds": 6.811448900029063,
+  "cachedSeconds": 5.218620700063184,
+  "speedRatio": 1.305220151360415,
+  "exactOptionsEqual": true,
+  "exactRejectionCountsEqual": true,
+  "cacheSizes": {
+    "shapeVectorByTemplate": 379,
+    "pinKeyByTemplate": 2336,
+    "featureMapByTemplatePairAndIndices": 538
+  },
+  "toolSha256": "9d87659a986167087880bc2e40b39a50f26b7024e67ccd61c7bdc01b64f863fb",
+  "limits": "One small complete source-reference equality experiment; caches memoize unchanged pure functions, no acceptance/difficulty proof."
+}

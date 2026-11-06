@@ -1,0 +1,778 @@
+{
+  "schemaVersion": 1,
+  "status": "READ_ONLY_NATIVE_SOURCE_VARIANT_COVERAGE; no runtime candidate created",
+  "baseline": {
+    "sourceId": "10190",
+    "position": 256,
+    "parentPartId": 1,
+    "parentBodyKey": "4b04a1f57e45ef9c288a6271b15beef88afd633f1b7fa27eb36ec3bbb1194633",
+    "parentFullStateKey": [
+      "\"ring\"",
+      "0.0",
+      "0",
+      "true",
+      "true",
+      "null",
+      "null"
+    ],
+    "parentOutgoingRelationIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "parentOutgoingTargets": [
+      2,
+      3,
+      5,
+      7,
+      4,
+      6
+    ],
+    "recipientPartIds": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "recipientBodyKeys": {
+      "2": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+      "3": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+      "4": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+      "5": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+      "6": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+      "7": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58"
+    }
+  },
+  "filterSummary": {
+    "sameBodyAndFullStateEligibleRoots": 319,
+    "sixNativePinsAllActiveExactlyOnce": 4,
+    "donorsWithBothStaticBackboneContacts": 0,
+    "donorsWithAnyContactToFourUnitTargets": 2,
+    "fullSixRecipientCoverageAtParentReferencePose": 0,
+    "injectiveSixRecipientMappings": 0
+  },
+  "donors": [
+    {
+      "sourceId": "70017",
+      "sourcePosition": 16,
+      "partId": 4,
+      "sourceTemplateId": "native3-31fc23af713b4d4b76d1",
+      "parentBodyKey": "4b04a1f57e45ef9c288a6271b15beef88afd633f1b7fa27eb36ec3bbb1194633",
+      "fullStateKey": [
+        "\"ring\"",
+        "0.0",
+        "0",
+        "true",
+        "true",
+        "null",
+        "null"
+      ],
+      "stateAndBodyExactMatch": true,
+      "guideOrOwnedBombExcluded": true,
+      "nativePinCount": 6,
+      "allHeadTriggeredPinAttachmentsActiveExactlyOnce": true,
+      "sourceRelationIndices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sourceRelations": [
+        {
+          "sourceRelationIndex": 3,
+          "sourceAttachmentId": 0,
+          "sourceFeatureId": "attachment.pin_4",
+          "donorOriginalTargetPartId": 8,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            7
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 4,
+          "sourceAttachmentId": 1,
+          "sourceFeatureId": "attachment.pin_5",
+          "donorOriginalTargetPartId": 3,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            10
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 5,
+          "sourceAttachmentId": 2,
+          "sourceFeatureId": "attachment.pin_6",
+          "donorOriginalTargetPartId": 7,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            19
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 6,
+          "sourceAttachmentId": 3,
+          "sourceFeatureId": "attachment.pin_7",
+          "donorOriginalTargetPartId": 11,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            13
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 7,
+          "sourceAttachmentId": 4,
+          "sourceFeatureId": "attachment.pin_8",
+          "donorOriginalTargetPartId": 12,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            16
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 8,
+          "sourceAttachmentId": 5,
+          "sourceFeatureId": "attachment.pin_9",
+          "donorOriginalTargetPartId": 2,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            22
+          ],
+          "recipientContactsAtParentReferencePose": []
+        }
+      ],
+      "recipientBodyKeys": {
+        "2": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "3": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "4": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "5": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "6": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "7": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58"
+      },
+      "backboneTargets2and3BothContacted": false,
+      "allRecipientTargets2through7ContactedAtReferencePose": false,
+      "injectiveFullRecipientMappings": [],
+      "sourceNativeGeometryRetained": true
+    },
+    {
+      "sourceId": "60030",
+      "sourcePosition": 125,
+      "partId": 9,
+      "sourceTemplateId": "native3-7bbe47501faab386338e",
+      "parentBodyKey": "4b04a1f57e45ef9c288a6271b15beef88afd633f1b7fa27eb36ec3bbb1194633",
+      "fullStateKey": [
+        "\"ring\"",
+        "0.0",
+        "0",
+        "true",
+        "true",
+        "null",
+        "null"
+      ],
+      "stateAndBodyExactMatch": true,
+      "guideOrOwnedBombExcluded": true,
+      "nativePinCount": 6,
+      "allHeadTriggeredPinAttachmentsActiveExactlyOnce": true,
+      "sourceRelationIndices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceRelations": [
+        {
+          "sourceRelationIndex": 10,
+          "sourceAttachmentId": 0,
+          "sourceFeatureId": "attachment.pin_11",
+          "donorOriginalTargetPartId": 12,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            13
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 11,
+          "sourceAttachmentId": 1,
+          "sourceFeatureId": "attachment.pin_12",
+          "donorOriginalTargetPartId": 13,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            10
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 12,
+          "sourceAttachmentId": 2,
+          "sourceFeatureId": "attachment.pin_13",
+          "donorOriginalTargetPartId": 10,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            19
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 13,
+          "sourceAttachmentId": 3,
+          "sourceFeatureId": "attachment.pin_14",
+          "donorOriginalTargetPartId": 8,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            16
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 14,
+          "sourceAttachmentId": 4,
+          "sourceFeatureId": "attachment.pin_15",
+          "donorOriginalTargetPartId": 6,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            7
+          ],
+          "recipientContactsAtParentReferencePose": [
+            4
+          ]
+        },
+        {
+          "sourceRelationIndex": 15,
+          "sourceAttachmentId": 5,
+          "sourceFeatureId": "attachment.pin_16",
+          "donorOriginalTargetPartId": 1,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            22
+          ],
+          "recipientContactsAtParentReferencePose": [
+            7
+          ]
+        }
+      ],
+      "recipientBodyKeys": {
+        "2": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "3": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "4": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "5": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "6": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "7": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58"
+      },
+      "backboneTargets2and3BothContacted": false,
+      "allRecipientTargets2through7ContactedAtReferencePose": false,
+      "injectiveFullRecipientMappings": [],
+      "sourceNativeGeometryRetained": true
+    },
+    {
+      "sourceId": "73012",
+      "sourcePosition": 446,
+      "partId": 7,
+      "sourceTemplateId": "native3-9985509cf9d45dfad459",
+      "parentBodyKey": "4b04a1f57e45ef9c288a6271b15beef88afd633f1b7fa27eb36ec3bbb1194633",
+      "fullStateKey": [
+        "\"ring\"",
+        "0.0",
+        "0",
+        "true",
+        "true",
+        "null",
+        "null"
+      ],
+      "stateAndBodyExactMatch": true,
+      "guideOrOwnedBombExcluded": true,
+      "nativePinCount": 6,
+      "allHeadTriggeredPinAttachmentsActiveExactlyOnce": true,
+      "sourceRelationIndices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceRelations": [
+        {
+          "sourceRelationIndex": 7,
+          "sourceAttachmentId": 0,
+          "sourceFeatureId": "attachment.pin_8",
+          "donorOriginalTargetPartId": 9,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            19
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 8,
+          "sourceAttachmentId": 1,
+          "sourceFeatureId": "attachment.pin_9",
+          "donorOriginalTargetPartId": 8,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            10
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 9,
+          "sourceAttachmentId": 2,
+          "sourceFeatureId": "attachment.pin_10",
+          "donorOriginalTargetPartId": 6,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            22
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 10,
+          "sourceAttachmentId": 3,
+          "sourceFeatureId": "attachment.pin_11",
+          "donorOriginalTargetPartId": 14,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            7
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 11,
+          "sourceAttachmentId": 4,
+          "sourceFeatureId": "attachment.pin_12",
+          "donorOriginalTargetPartId": 21,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            13
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 12,
+          "sourceAttachmentId": 5,
+          "sourceFeatureId": "attachment.pin_13",
+          "donorOriginalTargetPartId": 3,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            16
+          ],
+          "recipientContactsAtParentReferencePose": []
+        }
+      ],
+      "recipientBodyKeys": {
+        "2": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "3": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "4": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "5": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "6": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "7": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58"
+      },
+      "backboneTargets2and3BothContacted": false,
+      "allRecipientTargets2through7ContactedAtReferencePose": false,
+      "injectiveFullRecipientMappings": [],
+      "sourceNativeGeometryRetained": true
+    },
+    {
+      "sourceId": "90015",
+      "sourcePosition": 496,
+      "partId": 17,
+      "sourceTemplateId": "native3-b1d56fc15e2f726d3418",
+      "parentBodyKey": "4b04a1f57e45ef9c288a6271b15beef88afd633f1b7fa27eb36ec3bbb1194633",
+      "fullStateKey": [
+        "\"ring\"",
+        "0.0",
+        "0",
+        "true",
+        "true",
+        "null",
+        "null"
+      ],
+      "stateAndBodyExactMatch": true,
+      "guideOrOwnedBombExcluded": true,
+      "nativePinCount": 6,
+      "allHeadTriggeredPinAttachmentsActiveExactlyOnce": true,
+      "sourceRelationIndices": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "sourceRelations": [
+        {
+          "sourceRelationIndex": 18,
+          "sourceAttachmentId": 0,
+          "sourceFeatureId": "attachment.pin_19",
+          "donorOriginalTargetPartId": 10,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            22
+          ],
+          "recipientContactsAtParentReferencePose": [
+            4
+          ]
+        },
+        {
+          "sourceRelationIndex": 19,
+          "sourceAttachmentId": 1,
+          "sourceFeatureId": "attachment.pin_20",
+          "donorOriginalTargetPartId": 5,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            13
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 20,
+          "sourceAttachmentId": 2,
+          "sourceFeatureId": "attachment.pin_21",
+          "donorOriginalTargetPartId": 8,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            19
+          ],
+          "recipientContactsAtParentReferencePose": []
+        },
+        {
+          "sourceRelationIndex": 21,
+          "sourceAttachmentId": 3,
+          "sourceFeatureId": "attachment.pin_22",
+          "donorOriginalTargetPartId": 2,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            10
+          ],
+          "recipientContactsAtParentReferencePose": [
+            3
+          ]
+        },
+        {
+          "sourceRelationIndex": 22,
+          "sourceAttachmentId": 4,
+          "sourceFeatureId": "attachment.pin_23",
+          "donorOriginalTargetPartId": 16,
+          "donorTargetBodyKey": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "nativeHeadShapeIndices": [
+            7
+          ],
+          "recipientContactsAtParentReferencePose": [
+            5
+          ]
+        },
+        {
+          "sourceRelationIndex": 23,
+          "sourceAttachmentId": 5,
+          "sourceFeatureId": "attachment.pin_24",
+          "donorOriginalTargetPartId": 15,
+          "donorTargetBodyKey": "3f52f0645f8fe90130a133432f40cb9107b6f4a50dd084bcd07f5ae595ced465",
+          "donorTargetShapeIndices": [
+            0
+          ],
+          "exactTargetShapeFeatureMapsByRecipient": {
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false
+          },
+          "nativeHeadShapeIndices": [
+            16
+          ],
+          "recipientContactsAtParentReferencePose": [
+            7
+          ]
+        }
+      ],
+      "recipientBodyKeys": {
+        "2": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "3": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "4": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "5": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "6": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58",
+        "7": "438b956bd938e964b74e80e7c4696ae95eab4350ee39ad57e5c0dba0700eee58"
+      },
+      "backboneTargets2and3BothContacted": false,
+      "allRecipientTargets2through7ContactedAtReferencePose": false,
+      "injectiveFullRecipientMappings": [],
+      "sourceNativeGeometryRetained": true
+    }
+  ],
+  "limits": [
+    "Candidates are existing source-native assets with exact body key and complete part state; no geometry is synthesized.",
+    "Recipient matching requires exact target body and native feature-shape compatibility.",
+    "Pose contact is tested at the unchanged source10190 parent pose against source roots2\u20137 body colliders; contact match is not solver reachability or native runtime proof."
+  ],
+  "hashes": {
+    "sourcePack": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "templates": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee"
+  }
+}

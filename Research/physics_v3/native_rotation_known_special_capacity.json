@@ -1,0 +1,242 @@
+{
+  "trainingCount": 500,
+  "targetCount": 300,
+  "structurallyUnsupportedForNonSpecialOnlyGrammarCount": 19,
+  "levels": [
+    {
+      "position": 21,
+      "sourceId": "10111",
+      "roots": 46,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 10,
+      "guideComponentRootCount": 46,
+      "bombs": 0
+    },
+    {
+      "position": 30,
+      "sourceId": "10157",
+      "roots": 34,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 7,
+      "guideComponentRootCount": 34,
+      "bombs": 0
+    },
+    {
+      "position": 40,
+      "sourceId": "10042",
+      "roots": 34,
+      "eligibleNonSpecialRoots": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        18
+      ],
+      "minimumChangedRoots": 7,
+      "guideComponentRootCount": 28,
+      "bombs": 0
+    },
+    {
+      "position": 120,
+      "sourceId": "10159",
+      "roots": 38,
+      "eligibleNonSpecialRoots": [
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "minimumChangedRoots": 8,
+      "guideComponentRootCount": 33,
+      "bombs": 0
+    },
+    {
+      "position": 130,
+      "sourceId": "72002",
+      "roots": 37,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 8,
+      "guideComponentRootCount": 37,
+      "bombs": 0
+    },
+    {
+      "position": 146,
+      "sourceId": "10122",
+      "roots": 51,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 11,
+      "guideComponentRootCount": 51,
+      "bombs": 0
+    },
+    {
+      "position": 150,
+      "sourceId": "10156",
+      "roots": 144,
+      "eligibleNonSpecialRoots": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        17,
+        18,
+        19,
+        24,
+        25,
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "minimumChangedRoots": 29,
+      "guideComponentRootCount": 120,
+      "bombs": 0
+    },
+    {
+      "position": 170,
+      "sourceId": "10155",
+      "roots": 80,
+      "eligibleNonSpecialRoots": [
+        1,
+        2
+      ],
+      "minimumChangedRoots": 16,
+      "guideComponentRootCount": 78,
+      "bombs": 0
+    },
+    {
+      "position": 190,
+      "sourceId": "10095",
+      "roots": 27,
+      "eligibleNonSpecialRoots": [
+        1,
+        3,
+        9
+      ],
+      "minimumChangedRoots": 6,
+      "guideComponentRootCount": 24,
+      "bombs": 2
+    },
+    {
+      "position": 199,
+      "sourceId": "71033",
+      "roots": 29,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 6,
+      "guideComponentRootCount": 29,
+      "bombs": 1
+    },
+    {
+      "position": 210,
+      "sourceId": "72012",
+      "roots": 28,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 6,
+      "guideComponentRootCount": 28,
+      "bombs": 0
+    },
+    {
+      "position": 230,
+      "sourceId": "60079",
+      "roots": 36,
+      "eligibleNonSpecialRoots": [
+        3,
+        4,
+        7
+      ],
+      "minimumChangedRoots": 8,
+      "guideComponentRootCount": 33,
+      "bombs": 0
+    },
+    {
+      "position": 240,
+      "sourceId": "72009",
+      "roots": 36,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 8,
+      "guideComponentRootCount": 36,
+      "bombs": 0
+    },
+    {
+      "position": 250,
+      "sourceId": "72013",
+      "roots": 38,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 8,
+      "guideComponentRootCount": 38,
+      "bombs": 1
+    },
+    {
+      "position": 256,
+      "sourceId": "10190",
+      "roots": 23,
+      "eligibleNonSpecialRoots": [
+        1
+      ],
+      "minimumChangedRoots": 5,
+      "guideComponentRootCount": 22,
+      "bombs": 0
+    },
+    {
+      "position": 270,
+      "sourceId": "60052",
+      "roots": 42,
+      "eligibleNonSpecialRoots": [
+        10,
+        11,
+        16,
+        21,
+        22,
+        23,
+        24
+      ],
+      "minimumChangedRoots": 9,
+      "guideComponentRootCount": 35,
+      "bombs": 0
+    },
+    {
+      "position": 280,
+      "sourceId": "72014",
+      "roots": 42,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 9,
+      "guideComponentRootCount": 42,
+      "bombs": 0
+    },
+    {
+      "position": 290,
+      "sourceId": "60047",
+      "roots": 43,
+      "eligibleNonSpecialRoots": [
+        24,
+        25,
+        26
+      ],
+      "minimumChangedRoots": 9,
+      "guideComponentRootCount": 40,
+      "bombs": 0
+    },
+    {
+      "position": 300,
+      "sourceId": "72005",
+      "roots": 48,
+      "eligibleNonSpecialRoots": [],
+      "minimumChangedRoots": 10,
+      "guideComponentRootCount": 48,
+      "bombs": 0
+    }
+  ],
+  "limits": "Read-only eligibility capacity precheck, not geometry or physical solvability. Actual donor/body support may exclude additional positions."
+}

@@ -1,0 +1,29 @@
+{
+  "artifact": "source_input_smoke_current.json",
+  "status": "passed",
+  "fixtureSourceId": 10001,
+  "fixtureLoader": "RotateRingsRuntime.LoadOriginalReferenceForQa(10001)",
+  "fixtureDataPaths": {
+    "pack": "D:\\\\RotateRings\\\\Research\\\\physics_v3\\\\source_parity_pack.json",
+    "templates": "D:\\\\RotateRings\\\\Research\\\\physics_v3\\\\source_templates.json"
+  },
+  "fixtureDataSha256": {
+    "pack": "2014cc1ebac91cbac6b80a8e99464d16f765d13d78db72173658dea094312ad7",
+    "templates": "cf0c696b0952af8331bedb916c39c1d961054bebc93d207cd1c5222da94d4b11"
+  },
+  "activeCodeSha256": {
+    "runtime": "0aed236f63389d7dd789b493b794051cbd2f50d7a3dd609b1d6dc1637c56233b",
+    "collisionWorld": "0239dbf5d33f5912847dfb6f63c5a9e947d84d05652251bf8031bfc4147ee3c4",
+    "worldView": "0f9c2e980681071da28d31f2df840b5c54ce407c070686338cb729b06d7a64cc",
+    "inputSmoke": "80dcffcc5ed264ff702aea3ec3219d443910fd0fad102be9eb966040f8230a5a"
+  },
+  "rulesHash": "1aaa48490ae656c86f1627f1f372589605ce972bdff9c0dc2502d052eac56571",
+  "legacyFieldsNote": "The original levelPackSha256/templateCatalogSha256 fields in the smoke payload identify Resource pack artifacts and are not the fixture data loaded by LoadOriginalReferenceForQa; use fixtureDataSha256 above.",
+  "verifiedBehaviors": [
+    "real Input System MouseState press/move/release path",
+    "drag action",
+    "undo snapshot restoration",
+    "restart restoration",
+    "hint state unchanged"
+  ]
+}

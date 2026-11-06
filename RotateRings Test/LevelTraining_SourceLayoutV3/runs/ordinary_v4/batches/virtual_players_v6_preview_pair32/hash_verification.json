@@ -1,0 +1,8 @@
+{
+  "status": "HASH_BINDINGS_VERIFIED",
+  "nativeReportSha256": "14c00a1d9377478007c97b59203de04cbb9edb1a187328fb5720e7d94f827893",
+  "rulesHash": "d5f8b5c29bb1fd5e00cb576ce91addc33a4370fc5cb9383aab3a80f6900531e9",
+  "policySuiteHash": "2c0981d8dccba05bbe77d870993006c72f36f957cc55d2dd3610828e53415144",
+  "checkedLiveInputs": true,
+  "semantics": "Checks provenance bytes and request identity, not physics parity or human realism."
+}

@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "levelId": 10157,
+    "referenceSourceId": "10157",
+    "pullCount": 17,
+    "directions": [
+      {
+        "sourceId": 1,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 4.729167014360428,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.4368164016090432,
+            "entryFractionOfOwnGuideExit": 0.09236645698547363
+          },
+          {
+            "targetId": 33,
+            "firstEntryDistance": 3.6778004948691727,
+            "entryFractionOfOwnGuideExit": 0.7776846289634705
+          }
+        ]
+      },
+      {
+        "sourceId": 1,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 4.729167014360428,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.4354645035944458,
+            "entryFractionOfOwnGuideExit": 0.09208059310913086
+          },
+          {
+            "targetId": 31,
+            "firstEntryDistance": 3.136133634399874,
+            "entryFractionOfOwnGuideExit": 0.6631471514701843
+          }
+        ]
+      },
+      {
+        "sourceId": 2,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.2052813917398453,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.3159939450635898,
+            "entryFractionOfOwnGuideExit": 0.14328962564468384
+          },
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.8555180231085462,
+            "entryFractionOfOwnGuideExit": 0.38794052600860596
+          }
+        ]
+      },
+      {
+        "sourceId": 2,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.2530520260334015,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 1,
+            "firstEntryDistance": 0.4799125696607831,
+            "entryFractionOfOwnGuideExit": 0.21300554275512695
+          }
+        ]
+      },
+      {
+        "sourceId": 3,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 7.115340769290924,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 3,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 7.467993259429932,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 27,
+            "firstEntryDistance": 3.2478737848621506,
+            "entryFractionOfOwnGuideExit": 0.4349058270454407
+          }
+        ]
+      },
+      {
+        "sourceId": 4,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 6.876646310091019,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 4,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 7.706687718629837,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 28,
+            "firstEntryDistance": 4.105585916645358,
+            "entryFractionOfOwnGuideExit": 0.5327302813529968
+          }
+        ]
+      },
+      {
+        "sourceId": 5,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 3.437500014901161,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.1714105539003743,
+            "entryFractionOfOwnGuideExit": 0.049864888191223145
+          },
+          {
+            "targetId": 8,
+            "firstEntryDistance": 0.9833155987569011,
+            "entryFractionOfOwnGuideExit": 0.28605544567108154
+          }
+        ]
+      },
+      {
+        "sourceId": 5,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 3.437500014901161,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.17005909308003986,
+            "entryFractionOfOwnGuideExit": 0.04947173595428467
+          },
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.9793661204711572,
+            "entryFractionOfOwnGuideExit": 0.2849065065383911
+          }
+        ]
+      },
+      {
+        "sourceId": 6,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.428122505545616,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.3159942867558101,
+            "entryFractionOfOwnGuideExit": 0.13013935089111328
+          },
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.8540521859347994,
+            "entryFractionOfOwnGuideExit": 0.35173356533050537
+          }
+        ]
+      },
+      {
+        "sourceId": 6,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.0302109122276306,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 1,
+            "firstEntryDistance": 0.4799128339015297,
+            "entryFractionOfOwnGuideExit": 0.23638570308685303
+          }
+        ]
+      },
+      {
+        "sourceId": 7,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 8,
+            "firstEntryDistance": 0.4214685177976385,
+            "entryFractionOfOwnGuideExit": 0.1890699863433838
+          }
+        ]
+      },
+      {
+        "sourceId": 7,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.28932130539677026,
+            "entryFractionOfOwnGuideExit": 0.12978899478912354
+          }
+        ]
+      },
+      {
+        "sourceId": 8,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.489583507180214,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 8,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.302083507180214,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.2519601183916409,
+            "entryFractionOfOwnGuideExit": 0.10944873094558716
+          },
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.9833155110476124,
+            "entryFractionOfOwnGuideExit": 0.42714154720306396
+          }
+        ]
+      },
+      {
+        "sourceId": 9,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.3041672855615616,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.24572871669138507,
+            "entryFractionOfOwnGuideExit": 0.10664534568786621
+          },
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.9793660251306164,
+            "entryFractionOfOwnGuideExit": 0.42504119873046875
+          }
+        ]
+      },
+      {
+        "sourceId": 9,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.4874997287988663,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 10,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.509355291724205,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.39427197079358045,
+            "entryFractionOfOwnGuideExit": 0.15712082386016846
+          }
+        ]
+      },
+      {
+        "sourceId": 10,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 1.9489781185984612,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.29078630075274337,
+            "entryFractionOfOwnGuideExit": 0.14919936656951904
+          }
+        ]
+      },
+      {
+        "sourceId": 11,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 5.635443896055222,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 11,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 6.156223118305206,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.42349624298529065,
+            "entryFractionOfOwnGuideExit": 0.06879156827926636
+          }
+        ]
+      },
+      {
+        "sourceId": 12,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 6.223923057317734,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 12,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 5.567743957042694,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 8,
+            "firstEntryDistance": 0.3874959856730378,
+            "entryFractionOfOwnGuideExit": 0.06959658861160278
+          },
+          {
+            "targetId": 33,
+            "firstEntryDistance": 5.3654861569521906,
+            "entryFractionOfOwnGuideExit": 0.9636732935905457
+          }
+        ]
+      },
+      {
+        "sourceId": 25,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.5312502533197403,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 25,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.7604167610406876,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 1,
+            "firstEntryDistance": 2.234947583989232,
+            "entryFractionOfOwnGuideExit": 0.8096413612365723
+          }
+        ]
+      },
+      {
+        "sourceId": 27,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.165254130959511,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 27,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.293079286813736,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 28,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.1015802770853043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 28,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.3567531406879425,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 31,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 31,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 10,
+            "firstEntryDistance": 1.9146949475631114,
+            "entryFractionOfOwnGuideExit": 0.8589285612106323
+          },
+          {
+            "targetId": 4,
+            "firstEntryDistance": 2.200496029903336,
+            "entryFractionOfOwnGuideExit": 0.9871383905410767
+          }
+        ]
+      },
+      {
+        "sourceId": 33,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 33,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      }
+    ],
+    "edgeCount": 30
+  },
+  "scope": "STATIC_INITIAL_GEOMETRY_ONLY_NOT_NATIVE_REPLAY",
+  "limits": [
+    "All other Pulls remain fixed at their initial poses.",
+    "Geometric guide separation is a bound, not an observed native release event.",
+    "No native skins, cast filters, initial-overlap rollback or frame integration.",
+    "Edges are potential geometric obstructions, not immutable locks or removal-order labels."
+  ],
+  "hashes": {
+    "Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\straight_pull_obstruction_diagnostic_v3.py": "8fa99ba5d9bbef1e1f2ea13db04e619eb7eea69736f31fa88359b3ff14724d2e",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\incomplete_joint_guide_neighborhood_30\\proposals.json": "b57e1e40e3f9e9848ca19c42e284772cb24fb9dbff9ee37a5cab8001b2881982"
+  },
+  "candidate": {
+    "levelId": 7953000,
+    "referenceSourceId": "native-variant-7953000",
+    "pullCount": 17,
+    "directions": [
+      {
+        "sourceId": 1,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 4.729167014360428,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.4368164016090432,
+            "entryFractionOfOwnGuideExit": 0.09236645698547363
+          }
+        ]
+      },
+      {
+        "sourceId": 1,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 4.729167014360428,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.4354645035944458,
+            "entryFractionOfOwnGuideExit": 0.09208059310913086
+          },
+          {
+            "targetId": 31,
+            "firstEntryDistance": 3.136133634399874,
+            "entryFractionOfOwnGuideExit": 0.6631471514701843
+          }
+        ]
+      },
+      {
+        "sourceId": 2,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.2052813917398453,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.3159939450635898,
+            "entryFractionOfOwnGuideExit": 0.14328962564468384
+          },
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.8555180231085462,
+            "entryFractionOfOwnGuideExit": 0.38794052600860596
+          }
+        ]
+      },
+      {
+        "sourceId": 2,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.2530520260334015,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 1,
+            "firstEntryDistance": 0.4799125696607831,
+            "entryFractionOfOwnGuideExit": 0.21300554275512695
+          }
+        ]
+      },
+      {
+        "sourceId": 3,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 7.115340769290924,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 3,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 7.467993259429932,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 27,
+            "firstEntryDistance": 3.756832094323755,
+            "entryFractionOfOwnGuideExit": 0.5030577778816223
+          }
+        ]
+      },
+      {
+        "sourceId": 4,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 6.876646310091019,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 4,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 7.706687718629837,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 28,
+            "firstEntryDistance": 4.105585916645358,
+            "entryFractionOfOwnGuideExit": 0.5327302813529968
+          }
+        ]
+      },
+      {
+        "sourceId": 5,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 3.437500014901161,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.1714105539003743,
+            "entryFractionOfOwnGuideExit": 0.049864888191223145
+          },
+          {
+            "targetId": 8,
+            "firstEntryDistance": 0.9833155987569011,
+            "entryFractionOfOwnGuideExit": 0.28605544567108154
+          }
+        ]
+      },
+      {
+        "sourceId": 5,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 3.437500014901161,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.17005909308003986,
+            "entryFractionOfOwnGuideExit": 0.04947173595428467
+          },
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.9793661204711572,
+            "entryFractionOfOwnGuideExit": 0.2849065065383911
+          }
+        ]
+      },
+      {
+        "sourceId": 6,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.428122505545616,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.3159942867558101,
+            "entryFractionOfOwnGuideExit": 0.13013935089111328
+          },
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.8540521859347994,
+            "entryFractionOfOwnGuideExit": 0.35173356533050537
+          }
+        ]
+      },
+      {
+        "sourceId": 6,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.0302109122276306,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 1,
+            "firstEntryDistance": 0.4799128339015297,
+            "entryFractionOfOwnGuideExit": 0.23638570308685303
+          }
+        ]
+      },
+      {
+        "sourceId": 7,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 33,
+            "firstEntryDistance": 1.157938802670162,
+            "entryFractionOfOwnGuideExit": 0.5194491744041443
+          }
+        ]
+      },
+      {
+        "sourceId": 7,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.41783442627429057,
+            "entryFractionOfOwnGuideExit": 0.18743973970413208
+          },
+          {
+            "targetId": 2,
+            "firstEntryDistance": 2.2134136567539597,
+            "entryFractionOfOwnGuideExit": 0.9929332137107849
+          }
+        ]
+      },
+      {
+        "sourceId": 8,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.489583507180214,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 8,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.302083507180214,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 3,
+            "firstEntryDistance": 0.2519601183916409,
+            "entryFractionOfOwnGuideExit": 0.10944873094558716
+          },
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.9833155110476124,
+            "entryFractionOfOwnGuideExit": 0.42714154720306396
+          }
+        ]
+      },
+      {
+        "sourceId": 9,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.3041672855615616,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.24572871669138507,
+            "entryFractionOfOwnGuideExit": 0.10664534568786621
+          },
+          {
+            "targetId": 5,
+            "firstEntryDistance": 0.9793660251306164,
+            "entryFractionOfOwnGuideExit": 0.42504119873046875
+          }
+        ]
+      },
+      {
+        "sourceId": 9,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.4874997287988663,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 10,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.509355291724205,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.39427197079358045,
+            "entryFractionOfOwnGuideExit": 0.15712082386016846
+          }
+        ]
+      },
+      {
+        "sourceId": 10,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 1.9489781185984612,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 4,
+            "firstEntryDistance": 0.29078630075274337,
+            "entryFractionOfOwnGuideExit": 0.14919936656951904
+          }
+        ]
+      },
+      {
+        "sourceId": 11,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 5.635443896055222,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 11,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 6.156223118305206,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 9,
+            "firstEntryDistance": 0.42349624298529065,
+            "entryFractionOfOwnGuideExit": 0.06879156827926636
+          }
+        ]
+      },
+      {
+        "sourceId": 12,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 6.223923057317734,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 12,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 5.567743957042694,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 8,
+            "firstEntryDistance": 0.3874959856730378,
+            "entryFractionOfOwnGuideExit": 0.06959658861160278
+          },
+          {
+            "targetId": 33,
+            "firstEntryDistance": 3.2105573813267156,
+            "entryFractionOfOwnGuideExit": 0.5766352415084839
+          }
+        ]
+      },
+      {
+        "sourceId": 25,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.5312502533197403,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 25,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.7604167610406876,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 27,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.165254130959511,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 27,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.293079286813736,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 25,
+            "firstEntryDistance": 2.2048878302134707,
+            "entryFractionOfOwnGuideExit": 0.961540162563324
+          }
+        ]
+      },
+      {
+        "sourceId": 28,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.1015802770853043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 28,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.3567531406879425,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 31,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 31,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": [
+          {
+            "targetId": 10,
+            "firstEntryDistance": 1.9146949475631114,
+            "entryFractionOfOwnGuideExit": 0.8589285612106323
+          },
+          {
+            "targetId": 4,
+            "firstEntryDistance": 2.200496029903336,
+            "entryFractionOfOwnGuideExit": 0.9871383905410767
+          }
+        ]
+      },
+      {
+        "sourceId": 33,
+        "direction": -1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      },
+      {
+        "sourceId": 33,
+        "direction": 1,
+        "geometricOwnGuideExitDistance": 2.229166701436043,
+        "potentialPullObstaclesBeforeGuideExit": []
+      }
+    ],
+    "edgeCount": 30
+  },
+  "comparison": {
+    "addedEdges": [
+      {
+        "sourceId": 7,
+        "targetId": 2,
+        "direction": 1,
+        "interiorInvolved": true
+      },
+      {
+        "sourceId": 7,
+        "targetId": 33,
+        "direction": -1,
+        "interiorInvolved": false
+      },
+      {
+        "sourceId": 27,
+        "targetId": 25,
+        "direction": 1,
+        "interiorInvolved": false
+      }
+    ],
+    "removedEdges": [
+      {
+        "sourceId": 1,
+        "targetId": 33,
+        "direction": -1,
+        "interiorInvolved": false
+      },
+      {
+        "sourceId": 7,
+        "targetId": 8,
+        "direction": -1,
+        "interiorInvolved": false
+      },
+      {
+        "sourceId": 25,
+        "targetId": 1,
+        "direction": 1,
+        "interiorInvolved": false
+      }
+    ],
+    "interiorRootIdsFromVisualAudit": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "interiorRoleStatus": "MANUAL_VISUAL_ANNOTATION_NOT_GAME_METADATA"
+  }
+}

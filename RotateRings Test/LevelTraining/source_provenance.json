@@ -1,0 +1,26 @@
+{
+  "apk": {
+    "path": "D:\\RotateRings\\Rotate_Rings_1.2.0_APKPure.apk",
+    "sha256": "266f2b8ba1f33e28fe208448ade47408c44da4f267b66f1488400a2fa1c6a9ea"
+  },
+  "sourceNormalizer": {
+    "path": "D:\\RotateRings\\Tools\\normalize_corpus.py",
+    "sha256": "49269f18f864c7e32155092e9fa1fd2a0e3bd7c8d29158536ad8a9f8e59c53b1"
+  },
+  "sourceCorpusFull": {
+    "path": "D:\\RotateRings\\Research\\normalized_corpus.json",
+    "sha256": "cf0e0c32315fc378874c33e2391c87d19d3b0ef1cecadf9f9dfc246ce1cdb0ea"
+  },
+  "progressionTables": {
+    "path": "D:\\RotateRings\\Research\\rules\\main_progressions.json",
+    "sha256": "8d66a0738531c92e4e451176e4371b26009208722c675df989e52c6bc4df2548"
+  },
+  "reaPackageEvidence": {
+    "path": "D:\\RotateRings\\Research\\rea-apk-evidence.json",
+    "sha256": "efd51bcbaffd2493028355355559f7ed166bf7ae68249a11805fa0fb6620723b"
+  },
+  "reaManagedEvidence": {
+    "path": "D:\\RotateRings\\Research\\rules\\rea_managed_evidence.json",
+    "sha256": "5e414e35e19e983266495c53415187852e0ae010bc83cb3821c5e6fe599ca522"
+  }
+}

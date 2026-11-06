@@ -1,0 +1,6894 @@
+[
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_default_5bf426f1148420bd30e6bfefc6b7a9de.bundle",
+    "bundle_sha256": "57a29d53efccd629c8fdce3b4f76e3efa7417aace597d9852f2526116d9a832d",
+    "type": "Material",
+    "name": "RingExtra_Palette",
+    "path_id": 2802928582426645683,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -1429220129537321677,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -2570511448094955208,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -5665834671891340632,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": -2874657492195310327,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 4.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_ff845cb3250a7524bdfe7b6b28663063.bundle",
+    "bundle_sha256": "e54a310528a83f97b763402f3b1bef489ca6d47358cdad1661852dffd83ebaf3",
+    "type": "Material",
+    "name": "RingExtraGlow",
+    "path_id": 1477621844443812865,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -1429220129537321677,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": 7351548939614280089,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -5665834671891340632,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": -2874657492195310327,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.2999999523162842
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 2.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_Outline8Tap",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineMethod",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlinePixelWidth",
+          "value": 4.019999980926514
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.22499999403953552
+        },
+        {
+          "name": "_OutlineZOffset",
+          "value": 0.0010000000474974513
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.49000000953674316
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.6610000133514404
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": 0.03999999910593033
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.23999999463558197
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=0.6980392336845398)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=1.0, g=0.8296583890914917, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=0.9372549057006836, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_gold_195da2f2be4244ce818691faa3d3a777.bundle",
+    "bundle_sha256": "85bf388e1b8f5bbda64362cd69355d2402fa90a7fe3eac8740ad470f67a27bf3",
+    "type": "Material",
+    "name": "mat_ring_gold_Palette",
+    "path_id": 881162366571858353,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": 2398944923346326725,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -968805618524716855,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -2215783965774987837,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.4699999988079071
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0499999523162842
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.5
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_LightWrap",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.2400000095367432
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 0.5839999914169312
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.2000000476837158
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.02499997615814209, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.5249999761581421, g=0.0, b=0.10000002384185791, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.625, g=0.0, b=0.375, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.6294217705726624, g=0.7770639061927795, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_gold_195da2f2be4244ce818691faa3d3a777.bundle",
+    "bundle_sha256": "85bf388e1b8f5bbda64362cd69355d2402fa90a7fe3eac8740ad470f67a27bf3",
+    "type": "Material",
+    "name": "mat_ring_gold",
+    "path_id": 2853661421754373909,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": 2398944923346326725,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -968805618524716855,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -2215783965774987837,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.4699999988079071
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.5
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_LightWrap",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.2400000095367432
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 0.5839999914169312
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.3300000429153442
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.6294217705726624, g=0.7770639061927795, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_jade_7ae2bcae273abbc28c0c2061818b3d2a.bundle",
+    "bundle_sha256": "fdb40ac4542f6028dd41806d436c0edabaf7168188a10abf8e799fceed079c64",
+    "type": "Material",
+    "name": "RingJadeExtra",
+    "path_id": -7603641266342117878,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8347752324076941968,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -3736282661364141044,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.0
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 6.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.699999988079071
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 1.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 2.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.3300000429153442
+        },
+        {
+          "name": "_LightWrap",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 40.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.5631735324859619, g=0.8263387084007263, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.20000000298023224)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_jade_7ae2bcae273abbc28c0c2061818b3d2a.bundle",
+    "bundle_sha256": "fdb40ac4542f6028dd41806d436c0edabaf7168188a10abf8e799fceed079c64",
+    "type": "Material",
+    "name": "RingJadeExtra_Palette",
+    "path_id": -2203476571150972268,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8347752324076941968,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -3736282661364141044,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.0
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 6.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.699999988079071
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 1.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 2.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.3300000429153442
+        },
+        {
+          "name": "_LightWrap",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 40.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.100000023841858
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.5631735324859619, g=0.8263387084007263, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.20000000298023224)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_jelly_299467f785499c1d616250cf3cba11ee.bundle",
+    "bundle_sha256": "a23b2d4c1d56fbe462157090b6e8df5cd9b37e10f39064b08c75aafadbc09bee",
+    "type": "Material",
+    "name": "mat_ring_jelly_Palette",
+    "path_id": -2422193851283781435,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -6218993260895087700,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.4690000116825104
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 320.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 5.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.20000000298023224)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_jelly_299467f785499c1d616250cf3cba11ee.bundle",
+    "bundle_sha256": "a23b2d4c1d56fbe462157090b6e8df5cd9b37e10f39064b08c75aafadbc09bee",
+    "type": "Material",
+    "name": "mat_ring_jelly",
+    "path_id": -1709330231768285023,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -6218993260895087700,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.4690000116825104
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 320.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 5.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.20000000298023224)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_marble_4121f048df1d0fd7f1e9c5d92577c2fd.bundle",
+    "bundle_sha256": "9a733e50c7d60315363680d9356e6bc8ba29022cb78e7a68a8cf873de2504af5",
+    "type": "Material",
+    "name": "RingMarbleExtra_Palette",
+    "path_id": 7372954227407799522,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -5093241648858764404,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -5822799565491831016,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 1.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.0
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 1.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.5
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 2.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.004999999888241291
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.2000000476837158
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_marble_4121f048df1d0fd7f1e9c5d92577c2fd.bundle",
+    "bundle_sha256": "9a733e50c7d60315363680d9356e6bc8ba29022cb78e7a68a8cf873de2504af5",
+    "type": "Material",
+    "name": "RingMarbleExtra",
+    "path_id": 7877007315092490677,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -5093241648858764404,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -5822799565491831016,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 1.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.0
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 1.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.5
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 2.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.004999999888241291
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.2000000476837158
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_mattesmooth_c6e378da5678137e58c0cd59bdfb0279.bundle",
+    "bundle_sha256": "45fe256ca4e3558e6b27dd838ee8684d472c9d69dc4c1410397036b17574a154",
+    "type": "Material",
+    "name": "mat_ring_matte_smooth_Palette",
+    "path_id": -7982033714432777985,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": 0,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 4.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_mattesmooth_c6e378da5678137e58c0cd59bdfb0279.bundle",
+    "bundle_sha256": "45fe256ca4e3558e6b27dd838ee8684d472c9d69dc4c1410397036b17574a154",
+    "type": "Material",
+    "name": "mat_ring_matte_smooth",
+    "path_id": 5774805088783686138,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": 0,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 4.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_metal_a6ae56d9dd5583898ae83ef9bf0e507d.bundle",
+    "bundle_sha256": "d3e1a87181a33acfe90593047c8729c452a4f58db5102c502ffe4bdff587390f",
+    "type": "Material",
+    "name": "mat_ring_glossy_metal",
+    "path_id": 3279020544961920925,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": 8140617926409627062,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5199999809265137
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 4.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_metal_a6ae56d9dd5583898ae83ef9bf0e507d.bundle",
+    "bundle_sha256": "d3e1a87181a33acfe90593047c8729c452a4f58db5102c502ffe4bdff587390f",
+    "type": "Material",
+    "name": "mat_ring_glossy_metal_Palette",
+    "path_id": 7829987473569252374,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -8330456283770251164,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": 8140617926409627062,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 6169292910657883946,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 7255576603886467663,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 0.5199999809265137
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 4.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 3.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.7509999871253967
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 1.0
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.6000000238418579, g=0.6000000238418579, b=0.6000000238418579, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.34117648005485535, g=0.13725490868091583, b=0.007843137718737125, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.960784375667572, g=0.8980392813682556, b=0.7686275243759155, a=0.6000000238418579)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_wood_18fc272856b6494fd3960bc42314e48a.bundle",
+    "bundle_sha256": "ae04b8f5431b52ecaca0b702dc44c23234fec7dd7d6bdf070f8c6e11b30bf2ad",
+    "type": "Material",
+    "name": "mat_ring_wood_Palette",
+    "path_id": 5043834666061156676,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -4613225372537167389,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -2570511448094955208,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -5665834671891340632,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": -2874657492195310327,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 1.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.28999999165534973
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.1200000047683716
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelmaterials_wood_18fc272856b6494fd3960bc42314e48a.bundle",
+    "bundle_sha256": "ae04b8f5431b52ecaca0b702dc44c23234fec7dd7d6bdf070f8c6e11b30bf2ad",
+    "type": "Material",
+    "name": "mat_ring_wood",
+    "path_id": 7554527093132444013,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -4613225372537167389,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -2570511448094955208,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -5665834671891340632,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": -2874657492195310327,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 1.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.28999999165534973
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.1200000047683716
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_assets_02_res_art_level_levelprefab_a711fc8daff8b1a6c6650a4b9eeeb841.bundle",
+    "bundle_sha256": "000c8e9eddd8e256d61ba43984a8cf146057835c5e6d284b1f435ae92501aeec",
+    "type": "Material",
+    "name": "Ring_Lock",
+    "path_id": 3201098905087455678,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -3082179424821143612,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -5822799565491831016,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": 9212602522281038784,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": 0,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 0.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 2.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 0.3799999952316284
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6349999904632568
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.4230000078678131
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.625, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=0.03333333507180214, g=0.6666666865348816, b=0.7446102499961853, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.5613207817077637, g=0.7069875001907349, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.3686274588108063)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  },
+  {
+    "bundle": "defaultpackage_share_assets_02_res_art_level_texture_ring_19f779822c64c971b9b5ff13787dc0e7.bundle",
+    "bundle_sha256": "f620287e4d85fcf803aad6a0221ceefc6b9a6b181b6a8244d887b7969b83b777",
+    "type": "Material",
+    "name": "RingExtra",
+    "path_id": 4024835306928696828,
+    "shader_path_id": 8851482806470351106,
+    "shader_name": "HsApp/Effect/XYStyleLine",
+    "saved_properties": {
+      "m_TexEnvs": [
+        {
+          "name": "_MainTex",
+          "texture_path_id": -1429220129537321677,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_MatCapTex",
+          "texture_path_id": -2570511448094955208,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_NormalMap",
+          "texture_path_id": -5665834671891340632,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        },
+        {
+          "name": "_SDFTex",
+          "texture_path_id": -2874657492195310327,
+          "scale": "Vector2f(1.0, 1.0)",
+          "offset": "Vector2f(0.0, 0.0)"
+        }
+      ],
+      "m_Floats": [
+        {
+          "name": "_AlphaClip",
+          "value": 0.25
+        },
+        {
+          "name": "_AlphaClipEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_AtlasPaddingPixels",
+          "value": 1.0
+        },
+        {
+          "name": "_Blend",
+          "value": 0.5
+        },
+        {
+          "name": "_BlockedShakeAngle",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyPhase",
+          "value": 0.0
+        },
+        {
+          "name": "_BodyTileLength",
+          "value": 6.0
+        },
+        {
+          "name": "_ColorIntensity",
+          "value": 1.0
+        },
+        {
+          "name": "_ColorfulBlend",
+          "value": 0.0
+        },
+        {
+          "name": "_Contrast",
+          "value": 1.0
+        },
+        {
+          "name": "_Cull",
+          "value": 2.0
+        },
+        {
+          "name": "_DepthNormalEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_DepthNormalStrength",
+          "value": 20.0
+        },
+        {
+          "name": "_DrivenByController",
+          "value": 0.0
+        },
+        {
+          "name": "_DstBlend",
+          "value": 10.0
+        },
+        {
+          "name": "_ExtraEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_GammaCorrect",
+          "value": 1.0
+        },
+        {
+          "name": "_HeadLength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightIntensity",
+          "value": 1.399999976158142
+        },
+        {
+          "name": "_LightStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_LightWrap",
+          "value": 1.0
+        },
+        {
+          "name": "_MatCapBlendMode",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapIntensity",
+          "value": 2.0
+        },
+        {
+          "name": "_MatCapLOD",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapRotation",
+          "value": 0.0
+        },
+        {
+          "name": "_MatCapStrength",
+          "value": 1.0
+        },
+        {
+          "name": "_MipClamp",
+          "value": 0.5
+        },
+        {
+          "name": "_NormalMapEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_NormalScale",
+          "value": 1.5
+        },
+        {
+          "name": "_NormalWorldAlign",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineEnable",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineMode",
+          "value": 2.0
+        },
+        {
+          "name": "_OutlineSoftness",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineUseVertColor",
+          "value": 0.0
+        },
+        {
+          "name": "_OutlineWidth",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_RecolorStrength",
+          "value": 0.0
+        },
+        {
+          "name": "_RenderQueue",
+          "value": 3000.0
+        },
+        {
+          "name": "_Saturation",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowDilate",
+          "value": -0.27399998903274536
+        },
+        {
+          "name": "_ShadowEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_ShadowOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_ShadowOffsetY",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_ShadowSoftness",
+          "value": 0.25999999046325684
+        },
+        {
+          "name": "_ShadowZOffset",
+          "value": 0.009999999776482582
+        },
+        {
+          "name": "_ShadowZWrite",
+          "value": 0.0
+        },
+        {
+          "name": "_SimpleLightEnable",
+          "value": 1.0
+        },
+        {
+          "name": "_SrcBlend",
+          "value": 5.0
+        },
+        {
+          "name": "_StyleIndex",
+          "value": 0.0
+        },
+        {
+          "name": "_StyleIndexFromMesh",
+          "value": 1.0
+        },
+        {
+          "name": "_StyleRowCount",
+          "value": 1.0
+        },
+        {
+          "name": "_TailLength",
+          "value": 1.0
+        },
+        {
+          "name": "_Underlay",
+          "value": 0.0
+        },
+        {
+          "name": "_Underlay2",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayDilate",
+          "value": -0.6489999890327454
+        },
+        {
+          "name": "_UnderlayDilate2",
+          "value": -0.6919999718666077
+        },
+        {
+          "name": "_UnderlayOffsetX",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetX2",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "_UnderlayOffsetY",
+          "value": 0.0
+        },
+        {
+          "name": "_UnderlayOffsetY2",
+          "value": -0.10000000149011612
+        },
+        {
+          "name": "_UnderlaySoftness",
+          "value": 0.6539999842643738
+        },
+        {
+          "name": "_UnderlaySoftness2",
+          "value": 0.5189999938011169
+        },
+        {
+          "name": "_UseVertexColor",
+          "value": 1.0
+        },
+        {
+          "name": "_VisibleLength",
+          "value": 75.0
+        },
+        {
+          "name": "_WindowStart",
+          "value": 0.0
+        },
+        {
+          "name": "_ZTest",
+          "value": 4.0
+        },
+        {
+          "name": "_ZWrite",
+          "value": 1.0
+        }
+      ],
+      "m_Colors": [
+        {
+          "name": "_BodyRect",
+          "value": "ColorRGBA(r=0.25, g=0.0, b=0.5, a=1.0)"
+        },
+        {
+          "name": "_Color",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_ExtraCrossRect",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectA",
+          "value": "ColorRGBA(r=0.5, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectB",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_ExtraRectC",
+          "value": "ColorRGBA(r=0.875, g=0.0, b=0.125, a=1.0)"
+        },
+        {
+          "name": "_HeadRect",
+          "value": "ColorRGBA(r=0.75, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_LightColor",
+          "value": "ColorRGBA(r=0.949999988079071, g=0.949999988079071, b=0.949999988079071, a=1.0)"
+        },
+        {
+          "name": "_LightDir",
+          "value": "ColorRGBA(r=-0.30000001192092896, g=0.5666666626930237, b=0.7673909664154053, a=0.0)"
+        },
+        {
+          "name": "_MatCapColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_OutlineColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowColor",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        },
+        {
+          "name": "_ShadowTintColor",
+          "value": "ColorRGBA(r=0.3396226167678833, g=0.13908645510673523, b=0.00800996646285057, a=0.27450981736183167)"
+        },
+        {
+          "name": "_StyleLineRectMaskRect",
+          "value": "ColorRGBA(r=-100000.0, g=-100000.0, b=100000.0, a=100000.0)"
+        },
+        {
+          "name": "_StyleLineRectMaskSoftness",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=0.0)"
+        },
+        {
+          "name": "_TailRect",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.25, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor",
+          "value": "ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)"
+        },
+        {
+          "name": "_UnderlayColor2",
+          "value": "ColorRGBA(r=0.0, g=0.0, b=0.0, a=1.0)"
+        }
+      ],
+      "m_Ints": []
+    }
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "scope": "SOLID_COLLIDER_DIAGNOSTIC_NOT_UNITY_RENDERING_OR_ACCEPTANCE",
+  "acceptedCount": 0,
+  "proposalCount": 57,
+  "sheets": [
+    {
+      "file": "comparison_01.png",
+      "panels": [
+        {
+          "position": 2,
+          "sourceId": "10002",
+          "candidateId": 7800002,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 3,
+          "sourceId": "10003",
+          "candidateId": 7800003,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 4,
+          "sourceId": "10005",
+          "candidateId": 7800004,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 5,
+          "sourceId": "10004",
+          "candidateId": 7800005,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 6,
+          "sourceId": "10010",
+          "candidateId": 7800006,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 7,
+          "sourceId": "10012",
+          "candidateId": 7800007,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_02.png",
+      "panels": [
+        {
+          "position": 8,
+          "sourceId": "10007",
+          "candidateId": 7800008,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 9,
+          "sourceId": "10008",
+          "candidateId": 7800009,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 11,
+          "sourceId": "10006",
+          "candidateId": 7800011,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 12,
+          "sourceId": "10011",
+          "candidateId": 7800012,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 13,
+          "sourceId": "10009",
+          "candidateId": 7800013,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 14,
+          "sourceId": "60023",
+          "candidateId": 7800014,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_03.png",
+      "panels": [
+        {
+          "position": 15,
+          "sourceId": "70002",
+          "candidateId": 7800015,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 16,
+          "sourceId": "70017",
+          "candidateId": 7800016,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 17,
+          "sourceId": "70003",
+          "candidateId": 7800017,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 19,
+          "sourceId": "10060",
+          "candidateId": 7800019,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 23,
+          "sourceId": "10070",
+          "candidateId": 7800023,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 24,
+          "sourceId": "10068",
+          "candidateId": 7800024,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_04.png",
+      "panels": [
+        {
+          "position": 25,
+          "sourceId": "10069",
+          "candidateId": 7800025,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 26,
+          "sourceId": "60010",
+          "candidateId": 7800026,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 27,
+          "sourceId": "10067",
+          "candidateId": 7800027,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 28,
+          "sourceId": "10065",
+          "candidateId": 7800028,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 32,
+          "sourceId": "10048",
+          "candidateId": 7800032,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 33,
+          "sourceId": "10054",
+          "candidateId": 7800033,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_05.png",
+      "panels": [
+        {
+          "position": 34,
+          "sourceId": "10050",
+          "candidateId": 7800034,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 35,
+          "sourceId": "10061",
+          "candidateId": 7800035,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 36,
+          "sourceId": "71001",
+          "candidateId": 7800036,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 37,
+          "sourceId": "10023",
+          "candidateId": 7800037,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 41,
+          "sourceId": "10039",
+          "candidateId": 7800041,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 42,
+          "sourceId": "10035",
+          "candidateId": 7800042,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_06.png",
+      "panels": [
+        {
+          "position": 43,
+          "sourceId": "10058",
+          "candidateId": 7800043,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 44,
+          "sourceId": "10059",
+          "candidateId": 7800044,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 45,
+          "sourceId": "10031",
+          "candidateId": 7800045,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 46,
+          "sourceId": "60009",
+          "candidateId": 7800046,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 47,
+          "sourceId": "70025",
+          "candidateId": 7800047,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 48,
+          "sourceId": "10038",
+          "candidateId": 7800048,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_07.png",
+      "panels": [
+        {
+          "position": 49,
+          "sourceId": "60011",
+          "candidateId": 7800049,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 51,
+          "sourceId": "73005",
+          "candidateId": 7800051,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 52,
+          "sourceId": "60026",
+          "candidateId": 7800052,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 53,
+          "sourceId": "10053",
+          "candidateId": 7800053,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 54,
+          "sourceId": "60007",
+          "candidateId": 7800054,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 55,
+          "sourceId": "10015",
+          "candidateId": 7800055,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_08.png",
+      "panels": [
+        {
+          "position": 56,
+          "sourceId": "10026",
+          "candidateId": 7800056,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 61,
+          "sourceId": "70006",
+          "candidateId": 7800061,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 62,
+          "sourceId": "70027",
+          "candidateId": 7800062,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 65,
+          "sourceId": "10043",
+          "candidateId": 7800065,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 67,
+          "sourceId": "70004",
+          "candidateId": 7800067,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 69,
+          "sourceId": "70028",
+          "candidateId": 7800069,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_09.png",
+      "panels": [
+        {
+          "position": 71,
+          "sourceId": "10066",
+          "candidateId": 7800071,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 72,
+          "sourceId": "60001",
+          "candidateId": 7800072,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 73,
+          "sourceId": "71014",
+          "candidateId": 7800073,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 74,
+          "sourceId": "71026",
+          "candidateId": 7800074,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 75,
+          "sourceId": "71003",
+          "candidateId": 7800075,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        },
+        {
+          "position": 76,
+          "sourceId": "10057",
+          "candidateId": 7800076,
+          "sourcePanel": 10,
+          "candidatePanel": 11
+        }
+      ]
+    },
+    {
+      "file": "comparison_10.png",
+      "panels": [
+        {
+          "position": 108,
+          "sourceId": "20031",
+          "candidateId": 7800108,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 176,
+          "sourceId": "70013",
+          "candidateId": 7800176,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 285,
+          "sourceId": "10187",
+          "candidateId": 7800285,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\staged_native_first300_semantic\\proposals.json": "c638d752ab9bb64ff83d7db4be5720f2c757d65bfc82ef7f1bcc657832fe030a",
+    "Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\render_staged_comparison_v3.py": "7608175299b4a7efc82e6ed3691f539705ee291cad303ddd3f8be0420fbac5f2",
+    "D:\\RotateRings\\Tools\\render_layout_diagnostics_v3.py": "9dfc8ee1a4025f0e60fb7689b3399bc8cdbedb1b752a4239f34b07013e138d7e"
+  }
+}

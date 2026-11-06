@@ -1,0 +1,19 @@
+AUDIT 1 sourceNovel False earlierNovel True
+AUDIT 26 sourceNovel True earlierNovel True
+AUDIT 51 sourceNovel True earlierNovel True
+AUDIT 76 sourceNovel True earlierNovel True
+AUDIT 101 sourceNovel True earlierNovel True
+AUDIT 126 sourceNovel True earlierNovel True
+AUDIT 151 sourceNovel True earlierNovel True
+AUDIT 176 sourceNovel True earlierNovel True
+AUDIT 201 sourceNovel True earlierNovel True
+AUDIT 226 sourceNovel True earlierNovel True
+AUDIT 251 sourceNovel True earlierNovel True
+AUDIT 276 sourceNovel True earlierNovel True
+{
+  "proposals": 12,
+  "rawGeometrySeamPassed": 12,
+  "sourceNoveltyPassed": 11,
+  "earlierPilotNoveltyPassed": 12,
+  "referenceScaleSatisfied": 11
+}

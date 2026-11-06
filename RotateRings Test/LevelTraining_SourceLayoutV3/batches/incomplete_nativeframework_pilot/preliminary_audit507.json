@@ -1,0 +1,1001 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "status": "STRUCTURED_PROPOSAL_ONLY_NATIVE_REPLAY_AND_DIFFICULTY_PENDING",
+  "trainingSourceCount": 500,
+  "nativeNoveltyExclusionSourceCount": 507,
+  "extrasUsedForTraining": false,
+  "sourceReferenceProgression": "pilot positions as recorded; finalnew300musttargetsource1\u2013300",
+  "summary": {
+    "proposals": 12,
+    "rawGeometrySeamPassed": 12,
+    "sourceNoveltyPassed": 11,
+    "earlierPilotNoveltyPassed": 12,
+    "referenceScaleSatisfied": 11
+  },
+  "results": [
+    {
+      "id": 3000001,
+      "position": 1,
+      "canonicalFingerprint": "d7ad36c2059fda237058b518d600447ac64f811f9ec143c0b433835a57b6e95d",
+      "sourceNovelty": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.0,
+            "p90CenterErrorWidths": 0.0,
+            "meanAngleErrorDegrees": 0.0,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true,
+            "sourceId": "10001"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 0.0,
+          "p90CenterErrorWidths": 0.0,
+          "meanAngleErrorDegrees": 0.0,
+          "meanShapeError": 0.0,
+          "alignmentReflection": false,
+          "spacingScale": 1.0,
+          "nearCopy": true,
+          "sourceId": "10001"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 0,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 1,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.5653573163195179,
+        "globalStyleTargetMAE": 2.8329828904228135e-16,
+        "inventoryDeviation": 0.0,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 4.2299577365828025,
+        "wholeBoardOrientationL1": 1.9885835237003584,
+        "authoredTopologyMAE": 0.0,
+        "authoredTopologyVector": [
+          0.5,
+          0.5,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sourceReferenceTopologyVector": [
+          0.5,
+          0.5,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000002,
+      "position": 26,
+      "canonicalFingerprint": "2d40a21842c83e5f6353caff59c234653fff23dce9adc7a1be8e7d05ea25d0bf",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.9285714285714286,
+          "meanCenterErrorWidths": 4.386754278990822,
+          "p90CenterErrorWidths": 7.7651566774391405,
+          "meanAngleErrorDegrees": 55.47148395951428,
+          "meanShapeError": 0.45006008148909327,
+          "alignmentReflection": false,
+          "spacingScale": 1.1323021016487858,
+          "nearCopy": false,
+          "sourceId": "70003"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 1,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": false,
+      "sourceFamilies": 2,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.29960362562825377,
+        "globalStyleTargetMAE": 1.270128255900364,
+        "inventoryDeviation": 0.17647058823529413,
+        "countDeviation": 0.17647058823529413,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.5648046488747123,
+        "wholeBoardOrientationL1": 0.7908364231199998,
+        "authoredTopologyMAE": 0.16526610644257703,
+        "authoredTopologyVector": [
+          1.1428571428571428,
+          0.14285714285714285,
+          0.5,
+          0.0,
+          0.42857142857142855,
+          0.35714285714285715
+        ],
+        "sourceReferenceTopologyVector": [
+          1.2941176470588236,
+          0.058823529411764705,
+          1.0,
+          0.0,
+          0.23529411764705882,
+          0.29411764705882354
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000003,
+      "position": 51,
+      "canonicalFingerprint": "c0e6cda981059d74661c798ec52ee4a1f728a8db7baddd20ebff33a7399e24c5",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 2,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 7,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.3646604196371721,
+        "globalStyleTargetMAE": 1.0628884415699549,
+        "inventoryDeviation": 0.5833333333333334,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.708900002257061,
+        "wholeBoardOrientationL1": 1.263494536594105,
+        "authoredTopologyMAE": 0.09027777777777779,
+        "authoredTopologyVector": [
+          0.7916666666666666,
+          0.2916666666666667,
+          0.3333333333333333,
+          0.0,
+          0.25,
+          0.08333333333333333
+        ],
+        "sourceReferenceTopologyVector": [
+          0.875,
+          0.25,
+          0.5416666666666666,
+          0.0,
+          0.2916666666666667,
+          0.25
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000004,
+      "position": 76,
+      "canonicalFingerprint": "c8faede3e88cdff87f512bc7a8dde9c929019399dd07078add06cc13ce29f71b",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.92,
+          "meanCenterErrorWidths": 14.440832150695183,
+          "p90CenterErrorWidths": 39.79383507261934,
+          "meanAngleErrorDegrees": 90.09032935975165,
+          "meanShapeError": 0.5558583958521272,
+          "alignmentReflection": false,
+          "spacingScale": 1.15,
+          "nearCopy": false,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 3,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 5,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.42795672753251174,
+        "globalStyleTargetMAE": 2.1049977396525126,
+        "inventoryDeviation": 0.125,
+        "countDeviation": 0.041666666666666664,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.5585235240192414,
+        "wholeBoardOrientationL1": 1.2816624475227671,
+        "authoredTopologyMAE": 0.05527777777777779,
+        "authoredTopologyVector": [
+          0.76,
+          0.32,
+          0.32,
+          0.0,
+          0.12,
+          0.08
+        ],
+        "sourceReferenceTopologyVector": [
+          0.8333333333333334,
+          0.25,
+          0.4166666666666667,
+          0.0,
+          0.16666666666666666,
+          0.125
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000005,
+      "position": 101,
+      "canonicalFingerprint": "6890f91d0e1105d61a2ae7ee7666a2b684ca1f233be38f051aae20d05bddedaa",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 4,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 1,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.3969992286103236,
+        "globalStyleTargetMAE": 2.13831888315614,
+        "inventoryDeviation": 0.3125,
+        "countDeviation": 0.0625,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.7122879073541606,
+        "wholeBoardOrientationL1": 1.1568791916882222,
+        "authoredTopologyMAE": 0.024305555555555563,
+        "authoredTopologyVector": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0,
+          0.13333333333333333,
+          0.13333333333333333
+        ],
+        "sourceReferenceTopologyVector": [
+          0.6875,
+          0.3125,
+          0.375,
+          0.0,
+          0.1875,
+          0.125
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000006,
+      "position": 126,
+      "canonicalFingerprint": "150e6a91c0fc31ac1972e8bd0f215a50fe1f7188cdbc49624fe888b5fe82f831",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.92,
+          "meanCenterErrorWidths": 7.5207835798829175,
+          "p90CenterErrorWidths": 14.029273408383396,
+          "meanAngleErrorDegrees": 89.36117441809762,
+          "meanShapeError": 1.1939977559341233,
+          "alignmentReflection": false,
+          "spacingScale": 1.15,
+          "nearCopy": false,
+          "sourceId": "10029"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 5,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 9,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.39431380306724567,
+        "globalStyleTargetMAE": 0.8523741096036269,
+        "inventoryDeviation": 0.08,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.443942185155695,
+        "wholeBoardOrientationL1": 1.0452358562795234,
+        "authoredTopologyMAE": 0.02,
+        "authoredTopologyVector": [
+          0.64,
+          0.36,
+          0.32,
+          0.0,
+          0.12,
+          0.08
+        ],
+        "sourceReferenceTopologyVector": [
+          0.68,
+          0.36,
+          0.28,
+          0.0,
+          0.08,
+          0.08
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000007,
+      "position": 151,
+      "canonicalFingerprint": "59134fa877dfbed403ec774d2a8cdd39d9a8c29e33ae1cbf4999aa1d95746002",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.9285714285714286,
+          "meanCenterErrorWidths": 15.207334721287005,
+          "p90CenterErrorWidths": 28.140057359031072,
+          "meanAngleErrorDegrees": 93.87196415485097,
+          "meanShapeError": 0.5525349023058573,
+          "alignmentReflection": false,
+          "spacingScale": 1.15,
+          "nearCopy": false,
+          "sourceId": "110003"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 6,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 6,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.419703361494126,
+        "globalStyleTargetMAE": 1.6554011063880274,
+        "inventoryDeviation": 0.07692307692307693,
+        "countDeviation": 0.07692307692307693,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.413612740267533,
+        "wholeBoardOrientationL1": 1.326232206448477,
+        "authoredTopologyMAE": 0.13507326007326007,
+        "authoredTopologyVector": [
+          0.7857142857142857,
+          0.25,
+          0.25,
+          0.0,
+          0.07142857142857142,
+          0.17857142857142858
+        ],
+        "sourceReferenceTopologyVector": [
+          0.8461538461538461,
+          0.15384615384615385,
+          0.7692307692307693,
+          0.0,
+          0.19230769230769232,
+          0.19230769230769232
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000008,
+      "position": 176,
+      "canonicalFingerprint": "fd4c1636363baa8aec39d28d5244829d1f5a4d4d6ce4684551ee5277ca6ac515",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.9130434782608695,
+          "meanCenterErrorWidths": 8.001391117227753,
+          "p90CenterErrorWidths": 14.484904239637121,
+          "meanAngleErrorDegrees": 91.83115763950039,
+          "meanShapeError": 0.6150730006845131,
+          "alignmentReflection": false,
+          "spacingScale": 1.15,
+          "nearCopy": false,
+          "sourceId": "70007"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 7,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 4,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.44390552919552123,
+        "globalStyleTargetMAE": 0.8955171144497527,
+        "inventoryDeviation": 0.2608695652173913,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.767235319970281,
+        "wholeBoardOrientationL1": 1.2779632616983077,
+        "authoredTopologyMAE": 0.036231884057971016,
+        "authoredTopologyVector": [
+          0.7391304347826086,
+          0.2608695652173913,
+          0.391304347826087,
+          0.0,
+          0.13043478260869565,
+          0.17391304347826086
+        ],
+        "sourceReferenceTopologyVector": [
+          0.8260869565217391,
+          0.2608695652173913,
+          0.43478260869565216,
+          0.0,
+          0.17391304347826086,
+          0.13043478260869565
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000009,
+      "position": 201,
+      "canonicalFingerprint": "a09dc73c4295c2ed188e96f7c029de4e5beef64ca5220726dafa81cd3b4e2f3c",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 8,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 3,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.412938736646529,
+        "globalStyleTargetMAE": 2.444566677036406,
+        "inventoryDeviation": 0.2222222222222222,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.5306416873177193,
+        "wholeBoardOrientationL1": 1.1569738955701925,
+        "authoredTopologyMAE": 0.05555555555555556,
+        "authoredTopologyVector": [
+          0.9444444444444444,
+          0.16666666666666666,
+          0.5555555555555556,
+          0.0,
+          0.2222222222222222,
+          0.2777777777777778
+        ],
+        "sourceReferenceTopologyVector": [
+          0.8888888888888888,
+          0.16666666666666666,
+          0.7777777777777778,
+          0.0,
+          0.2222222222222222,
+          0.2222222222222222
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000010,
+      "position": 226,
+      "canonicalFingerprint": "46707d9c392f4d5743a2b003066c2b6ce079f7a5f6da58e519433d717f2f3e6e",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.9411764705882353,
+          "meanCenterErrorWidths": 13.157429753618214,
+          "p90CenterErrorWidths": 28.73217653590075,
+          "meanAngleErrorDegrees": 83.73524798008417,
+          "meanShapeError": 0.27300212429686843,
+          "alignmentReflection": true,
+          "spacingScale": 1.15,
+          "nearCopy": false,
+          "sourceId": "60003"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 9,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 4,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.3433483541732404,
+        "globalStyleTargetMAE": 2.6202401594288043,
+        "inventoryDeviation": 0.23529411764705882,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.784366207854329,
+        "wholeBoardOrientationL1": 1.403734139950494,
+        "authoredTopologyMAE": 0.07843137254901962,
+        "authoredTopologyVector": [
+          0.9411764705882353,
+          0.17647058823529413,
+          0.5882352941176471,
+          0.0,
+          0.23529411764705882,
+          0.4117647058823529
+        ],
+        "sourceReferenceTopologyVector": [
+          1.0,
+          0.11764705882352941,
+          0.7058823529411765,
+          0.0,
+          0.35294117647058826,
+          0.29411764705882354
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000011,
+      "position": 251,
+      "canonicalFingerprint": "6cc3ef62bdfa84f17c53ee5fa026b1672a47b3c49a24ac117ea05ab6577d53ca",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 0.9090909090909091,
+          "meanCenterErrorWidths": 9.16436432481905,
+          "p90CenterErrorWidths": 14.244495221371064,
+          "meanAngleErrorDegrees": 93.77179814064905,
+          "meanShapeError": 0.5803663492202759,
+          "alignmentReflection": true,
+          "spacingScale": 1.112876070656453,
+          "nearCopy": false,
+          "sourceId": "71121"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 10,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 5,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.38215976434716387,
+        "globalStyleTargetMAE": 0.6047196163093422,
+        "inventoryDeviation": 0.1,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.8598381067614476,
+        "wholeBoardOrientationL1": 0.9039407349120351,
+        "authoredTopologyMAE": 0.049999999999999996,
+        "authoredTopologyVector": [
+          0.75,
+          0.25,
+          0.4,
+          0.0,
+          0.25,
+          0.1
+        ],
+        "sourceReferenceTopologyVector": [
+          0.75,
+          0.25,
+          0.45,
+          0.0,
+          0.1,
+          0.2
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    },
+    {
+      "id": 3000012,
+      "position": 276,
+      "canonicalFingerprint": "a47cd1861e5f48b5c5bd87f03e5b8a7e3f124c9be911f1f1e8a5a28a57590ea0",
+      "sourceNovelty": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "earlierPilotNovelty": {
+        "passed": true,
+        "sourcesCompared": 11,
+        "nearCopies": [],
+        "nearestCompatible": null,
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "rawNativeGeometrySeamPassed": true,
+      "referenceScaleSatisfied": true,
+      "sourceFamilies": 8,
+      "proposalRanking": {
+        "syntheticSourceStyleScore": 0.35561785838603927,
+        "globalStyleTargetMAE": 1.2380138164845862,
+        "inventoryDeviation": 0.2608695652173913,
+        "countDeviation": 0.0,
+        "humanQualityStatus": "unmeasured",
+        "difficultyStatus": "unmeasured",
+        "nativeSeams": "rawPolygonScreenOnly",
+        "wholeBoardFieldL1": 2.548850407838753,
+        "wholeBoardOrientationL1": 1.1164740909644197,
+        "authoredTopologyMAE": 0.06521739130434781,
+        "authoredTopologyVector": [
+          0.6086956521739131,
+          0.391304347826087,
+          0.21739130434782608,
+          0.0,
+          0.13043478260869565,
+          0.043478260869565216
+        ],
+        "sourceReferenceTopologyVector": [
+          0.6956521739130435,
+          0.34782608695652173,
+          0.34782608695652173,
+          0.0,
+          0.17391304347826086,
+          0.13043478260869565
+        ],
+        "topologyMeaning": "authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts"
+      }
+    }
+  ],
+  "limits": [
+    "Raw geometry audit is a conservative imported-source-pair screen, not Unity contact/cast/release parity.",
+    "Canonical and whole-layout alignment novelty are heuristic, not a proof of originality.",
+    "No verified source solutions or human difficulty labels.",
+    "No pilot is exported to playable accepted content."
+  ],
+  "hashes": {
+    "proposalPack": "cebe40b4e5ca9c852c9ca83c4a6024646cc14aa922433527adc1976c6a930892",
+    "auditor": "ee71e27c1ba68c3072ac4a7e4f575ec35bdaa3ec3f9cb7557bb67255a44a4597",
+    "noveltyTool": "7a28809b7b546cd92181cc79e6abd527d91bfdb1d4930be524ca3e5012a53dd1",
+    "data/source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "data/source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "data/novelty_extras/source_parity_pack.json": "e32ef6b5eac04db0f9da4960e68e3fcc201f512d45862c768d32cb3639687bdc",
+    "data/novelty_extras/source_templates.json": "2a5f9d6046919464e0f9ed9f3dc0184fba1255df58e8be7ca2036a07429bd7ff"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "levels": [
+    {
+      "id": 5000064,
+      "rawSeam": {
+        "rawGeometrySeamPassed": false,
+        "partPairCount": 300,
+        "unexpectedSolidOverlapCount": 2,
+        "unexpectedSolidOverlaps": [
+          {
+            "owners": [
+              18,
+              30
+            ],
+            "rawOverlapArea": 0.25282242920466214,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.25282242920466214,
+            "sourcePairEvidence": []
+          },
+          {
+            "owners": [
+              19,
+              28
+            ],
+            "rawOverlapArea": 0.25089796105659756,
+            "allowedImportedSourceArea": 0.0,
+            "excessWidthSquared": 0.2508979610565976,
+            "sourcePairEvidence": []
+          }
+        ],
+        "unregisteredSensorPartnerCount": 0,
+        "unregisteredSensorPartners": [],
+        "duplicateWholeRootPairs": [],
+        "missingFeatureBindings": [],
+        "newBombInitialOverlapCount": 0,
+        "newBombInitialOverlaps": [],
+        "unmappedBombs": [],
+        "meaning": "Raw polygon/trigger seam screening only, source penetrations calibrated pairwise. Bomb circles approximated with256segments solely for seam screening (maximum radial error radius*(1-cos(pi/256))); actual exported native bomb stays CircleCollider2D. Unity collider skin, casts, bindings and playability remain unverified."
+      },
+      "learnedIntegrity": {
+        "nativeLearnedPlacementIntegrityPassed": true,
+        "errors": [],
+        "retargetedNativeRoots": 8,
+        "learnedRelationMeasurements": [
+          {
+            "owners": [
+              25,
+              28
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2620,
+            "measuredPoseResidualL2": 0.05730800696649764
+          },
+          {
+            "owners": [
+              26,
+              27
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2622,
+            "measuredPoseResidualL2": 0.1335617288428194
+          },
+          {
+            "owners": [
+              27,
+              29
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2623,
+            "measuredPoseResidualL2": 0.22283283816819724
+          },
+          {
+            "owners": [
+              28,
+              27
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2624,
+            "measuredPoseResidualL2": 0.1895114521052027
+          },
+          {
+            "owners": [
+              28,
+              8
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2173,
+            "measuredPoseResidualL2": 0.5220240999704868
+          },
+          {
+            "owners": [
+              29,
+              30
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 1630,
+            "measuredPoseResidualL2": 0.770205448593698
+          },
+          {
+            "owners": [
+              31,
+              32
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2634,
+            "measuredPoseResidualL2": 0.12332193310861965
+          },
+          {
+            "owners": [
+              31,
+              29
+            ],
+            "sourcePatternId": "71012",
+            "learnedRecordIndex": 2635,
+            "measuredPoseResidualL2": 0.22110393448492618
+          }
+        ],
+        "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+--- a/RotateRings Test/Assets/RotateRings/Original3D/OriginalRingVisualAssets.cs
++++ b/RotateRings Test/Assets/RotateRings/Original3D/OriginalRingVisualAssets.cs
+@@ -29,10 +29,8 @@
+         {
+             float innerCore = visualRadius * 24f - visualWidth * 12f;
+             fullCircleDivisions = Mathf.Clamp(Mathf.RoundToInt(64f * Mathf.Pow(Mathf.Max(1f, innerCore / 36f), .7f)), 64, 384);
+         }
+-        data.AppendSourceArc(visualRadius, visualWidth, visualGap, gapDirectionDeg, capRatio,
+-            tailLength, headLength, bodyTileLength, styleIndex, fullCircleDivisions, color, ringZ);
+         if (attachments != null)
+         {
+             for (int i = 0; i < attachments.Length; i++)
+             {
+@@ -45,8 +43,26 @@
+                 Vector3 origin = radial * (visualRadius + (a.isInnerMount ? -visualWidth * .5f + insert : visualWidth * .5f - insert));
+                 bool headed = a.type == 0;
+                 data.AppendStraightRibbon(origin, extend, a.stemWidth, totalLength,
+                     headed ? a.crossWidth : 0f, headed, a.styleIndex, visualWidth, color, stemZ);
++            }
++        }
++
++        data.AppendSourceArc(visualRadius, visualWidth, visualGap, gapDirectionDeg, capRatio,
++            tailLength, headLength, bodyTileLength, styleIndex, fullCircleDivisions, color, ringZ);
++
++        if (attachments != null)
++        {
++            for (int i = 0; i < attachments.Length; i++)
++            {
++                RotateRingsVisualAttachment a = attachments[i];
++                float angle = a.angleDeg * Mathf.Deg2Rad;
++                Vector3 radial = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0f);
++                Vector3 extend = a.isInnerMount ? -radial : radial;
++                float insert = Mathf.Max(0f, a.stemInsertOffset);
++                float totalLength = Mathf.Max(0f, a.stemLength) + insert;
++                Vector3 origin = radial * (visualRadius + (a.isInnerMount ? -visualWidth * .5f + insert : visualWidth * .5f - insert));
++                bool headed = a.type == 0;
+ 
+                 if (!headed)
+                 {
+                     Vector3 endpoint = origin + extend * totalLength;

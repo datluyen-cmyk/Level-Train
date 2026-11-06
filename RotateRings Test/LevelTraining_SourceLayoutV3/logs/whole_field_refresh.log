@@ -1,0 +1,19 @@
+FIELDFOLD {'fold': 0, 'trainingLevels': 400, 'heldOutLevels': 100, 'trainingPCAExplainedVariance': 0.6098753318353629, 'conditionalWholeField': {'fullFieldMeanAbsoluteError': 0.00031416184044635994, 'kindMapL1PerLevel': 0.9615366947712508}, 'sameContextLinearBaseline': {'fullFieldMeanAbsoluteError': 0.00032319417759532723, 'kindMapL1PerLevel': 0.9829511080041642}, 'trainingMeanFieldBaseline': {'fullFieldMeanAbsoluteError': 0.0004240425340468773, 'kindMapL1PerLevel': 1.312019206675125}}
+FIELDFOLD {'fold': 1, 'trainingLevels': 400, 'heldOutLevels': 100, 'trainingPCAExplainedVariance': 0.6937927976552266, 'conditionalWholeField': {'fullFieldMeanAbsoluteError': 0.00039614149346185013, 'kindMapL1PerLevel': 1.2608596919347699}, 'sameContextLinearBaseline': {'fullFieldMeanAbsoluteError': 0.00040167027400735123, 'kindMapL1PerLevel': 1.2792331364701808}, 'trainingMeanFieldBaseline': {'fullFieldMeanAbsoluteError': 0.00042555413441363156, 'kindMapL1PerLevel': 1.3542197818867647}}
+FIELDFOLD {'fold': 2, 'trainingLevels': 400, 'heldOutLevels': 100, 'trainingPCAExplainedVariance': 0.6966973338052211, 'conditionalWholeField': {'fullFieldMeanAbsoluteError': 0.0004020682354147926, 'kindMapL1PerLevel': 1.283934704195626}, 'sameContextLinearBaseline': {'fullFieldMeanAbsoluteError': 0.00040380032836493843, 'kindMapL1PerLevel': 1.2899307820976567}, 'trainingMeanFieldBaseline': {'fullFieldMeanAbsoluteError': 0.00042105231171951386, 'kindMapL1PerLevel': 1.3418821743294171}}
+FIELDFOLD {'fold': 3, 'trainingLevels': 400, 'heldOutLevels': 100, 'trainingPCAExplainedVariance': 0.695012854409881, 'conditionalWholeField': {'fullFieldMeanAbsoluteError': 0.0003987262582947359, 'kindMapL1PerLevel': 1.270529525700531}, 'sameContextLinearBaseline': {'fullFieldMeanAbsoluteError': 0.0004031469386757055, 'kindMapL1PerLevel': 1.2835645632590404}, 'trainingMeanFieldBaseline': {'fullFieldMeanAbsoluteError': 0.00042113457686672646, 'kindMapL1PerLevel': 1.3417055326927385}}
+FIELDFOLD {'fold': 4, 'trainingLevels': 400, 'heldOutLevels': 100, 'trainingPCAExplainedVariance': 0.6914041398150044, 'conditionalWholeField': {'fullFieldMeanAbsoluteError': 0.00040635923236083914, 'kindMapL1PerLevel': 1.2974990484615778}, 'sameContextLinearBaseline': {'fullFieldMeanAbsoluteError': 0.00040963500973674455, 'kindMapL1PerLevel': 1.305692222512525}, 'trainingMeanFieldBaseline': {'fullFieldMeanAbsoluteError': 0.00042400046092185576, 'kindMapL1PerLevel': 1.3464273745265964}}
+{
+  "conditionalWholeField": {
+    "fullFieldMeanAbsoluteError": 0.00038349141199571556,
+    "kindMapL1PerLevel": 1.214871933012751
+  },
+  "sameContextLinearBaseline": {
+    "fullFieldMeanAbsoluteError": 0.0003882893456760134,
+    "kindMapL1PerLevel": 1.2282743624687136
+  },
+  "trainingMeanFieldBaseline": {
+    "fullFieldMeanAbsoluteError": 0.00042315680359372097,
+    "kindMapL1PerLevel": 1.3392508140221284
+  }
+}

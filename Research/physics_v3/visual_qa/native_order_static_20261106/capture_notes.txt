@@ -1,0 +1,9 @@
+Static native source view QA
+Date: 2026-11-06 UTC
+Capture method: temporary hidden GameObjects, RotateRingsWorldView.Build, source-authored transforms/materials, entry animation disabled by disabling private PartView components and setting local scale to one, dedicated orthographic camera, RenderTexture 1080x2160 PNG. No scene/runtime assets changed; no physics or batch work performed.
+Scope: exact ordinary source500_native pack from ordinary_v4/data, not the 8-fixture source_parity_pack or novelty extras.
+source10005: position 4; expected 7 parts; actual 7; enabled renderers 7. Initial and undo images are byte-identical. Drag view is a static +45 degree rotation of first ring (part id 1), not an input replay.
+source10012: position 7; expected 13 parts (7 rings, 2 sliders, 4 fixed); actual 13; enabled renderers 13. Initial and undo images are byte-identical. Drag view is a static +45 degree rotation of first ring (part id 1), not an input replay.
+pilotC_9001800: diagnostic-only from constructive_v5_pilot_c_final snapshot, 15 parts expected/actual, 15 enabled renderers. This is not accepted content or evidence of gameplay quality.
+All images are camera-only board captures; they do not include Game View, HUD, or runtime input. Captures were inspected visually; boards are fully framed and distinct drag images show the rotation.
+Source pack/model and visual implementation hashes are in source_hashes.txt. PNG hashes are in image_hashes.txt.

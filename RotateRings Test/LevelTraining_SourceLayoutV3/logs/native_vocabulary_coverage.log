@@ -1,0 +1,24 @@
+{
+  "atomicVocabulary": {
+    "rootInstances": 14678,
+    "fullCatalogTemplateCount": 11823,
+    "strictNativeInputBodyStateSocketIdentities": 7757,
+    "socketIdentitiesPresentInMultipleSources": 507,
+    "maximumSourceBoardsSharingOneStrictSocket": 139,
+    "sameNativeBodyWithDifferentCompleteTemplates": 134,
+    "bodyFamilies": 3792
+  },
+  "first300RewriteCoverage": {
+    "levelsWithDeclared20to35PercentNeighborhood": 251,
+    "levelsWithExactBoundaryDonor": 53,
+    "levelsWithDisconnectedNeighborhood": 107,
+    "totals": {
+      "noBoundaryDisconnectedNeighborhoods": 149,
+      "boundaryNeighborhoods": 500,
+      "anchorDonorMacroCount": 14368,
+      "fullyCompatibleBoundaryDonorMacros": 6628,
+      "neighborhoodsWithCompatibleBoundary": 66,
+      "anchorHasNoExactCrossSourceDonor": 402
+    }
+  }
+}

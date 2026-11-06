@@ -1,0 +1,20 @@
+{
+  "obstacleTemplateId": "native-f8ca7e163e2729f44c73",
+  "movingTemplateId": "native-c25fe0abe675208603be",
+  "obstacleAngle": -225.0,
+  "center": {
+    "x": 3.6705181398984594,
+    "y": 0.9835123713895788
+  },
+  "angle": 195,
+  "delta": -15.0,
+  "firstContactAt": 183.0,
+  "stemLength": 1.5801618099212646,
+  "sourceRefs": [
+    {
+      "levelId": "70011",
+      "partId": 16,
+      "sourceId": "ring_5"
+    }
+  ]
+}

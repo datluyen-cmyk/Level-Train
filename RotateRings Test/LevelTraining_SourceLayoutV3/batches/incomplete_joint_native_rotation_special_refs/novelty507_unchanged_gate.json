@@ -1,0 +1,579 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "gateUnchanged": true,
+  "levels": [
+    {
+      "id": 7300001,
+      "position": 108,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.6838381625349271e-15,
+          "p90CenterErrorWidths": 3.552713485787978e-15,
+          "meanAngleErrorDegrees": 86.24999758728029,
+          "meanShapeError": 0.22131470053370128,
+          "alignmentReflection": true,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "20005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          1,
+          2,
+          7,
+          4,
+          6,
+          5
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 4,
+        "oldAuthoredEdgeCount": 20,
+        "newAuthoredEdgeCount": 18,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 1,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              3
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -179.99999499104388,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 2,
+            "sourceId": "10006",
+            "donorPartId": 7,
+            "oldTargets": [
+              5
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -179.9999953018056,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 7,
+            "sourceId": "150011",
+            "donorPartId": 1,
+            "oldTargets": [
+              18
+            ],
+            "newTargets": [
+              18
+            ],
+            "angleDeltaDegrees": 89.99998430180563,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 1.1073346704785998
+          },
+          {
+            "partId": 4,
+            "sourceId": "150011",
+            "donorPartId": 2,
+            "oldTargets": [
+              3,
+              17
+            ],
+            "newTargets": [
+              3
+            ],
+            "angleDeltaDegrees": -90.000005,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 0.6202312069077223
+          },
+          {
+            "partId": 6,
+            "sourceId": "150011",
+            "donorPartId": 17,
+            "oldTargets": [
+              12
+            ],
+            "newTargets": [
+              12
+            ],
+            "angleDeltaDegrees": -90.00000299104387,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 0.767065696420314
+          },
+          {
+            "partId": 5,
+            "sourceId": "20005",
+            "donorPartId": 21,
+            "oldTargets": [],
+            "newTargets": [
+              10
+            ],
+            "angleDeltaDegrees": 89.99999700895614,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 1.2453809069508175
+          }
+        ]
+      }
+    },
+    {
+      "id": 7300002,
+      "position": 108,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 1.6838381625349271e-15,
+          "p90CenterErrorWidths": 3.552713485787978e-15,
+          "meanAngleErrorDegrees": 89.99999789546315,
+          "meanShapeError": 0.22131470053370128,
+          "alignmentReflection": true,
+          "spacingScale": 1.0,
+          "nearCopy": false,
+          "sourceId": "20005"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          1,
+          2,
+          7,
+          4,
+          6,
+          5
+        ],
+        "changedRootFraction": 0.25,
+        "authoredDependencySymmetricDifference": 4,
+        "oldAuthoredEdgeCount": 20,
+        "newAuthoredEdgeCount": 18,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 1,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              3
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -179.99999499104388,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 2,
+            "sourceId": "10006",
+            "donorPartId": 7,
+            "oldTargets": [
+              5
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -179.9999953018056,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 7,
+            "sourceId": "150011",
+            "donorPartId": 1,
+            "oldTargets": [
+              18
+            ],
+            "newTargets": [
+              18
+            ],
+            "angleDeltaDegrees": 89.99998430180563,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 1.1073346704785998
+          },
+          {
+            "partId": 4,
+            "sourceId": "150011",
+            "donorPartId": 2,
+            "oldTargets": [
+              3,
+              17
+            ],
+            "newTargets": [
+              3
+            ],
+            "angleDeltaDegrees": -90.000005,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 0.6202312069077223
+          },
+          {
+            "partId": 6,
+            "sourceId": "150011",
+            "donorPartId": 17,
+            "oldTargets": [
+              12
+            ],
+            "newTargets": [
+              12
+            ],
+            "angleDeltaDegrees": -90.00000299104387,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 0.767065696420314
+          },
+          {
+            "partId": 5,
+            "sourceId": "150014",
+            "donorPartId": 11,
+            "oldTargets": [],
+            "newTargets": [
+              10
+            ],
+            "angleDeltaDegrees": -179.99999499104388,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.2653880716114783
+          }
+        ]
+      }
+    },
+    {
+      "id": 7300003,
+      "position": 285,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.403665866690794e-15,
+          "p90CenterErrorWidths": 4.368691627599639e-15,
+          "meanAngleErrorDegrees": 22.816280255359647,
+          "meanShapeError": 0.03333333333333333,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999999,
+          "nearCopy": false,
+          "sourceId": "10187"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          10,
+          5,
+          15,
+          11,
+          3,
+          6,
+          9
+        ],
+        "changedRootFraction": 0.23333333333333334,
+        "authoredDependencySymmetricDifference": 3,
+        "oldAuthoredEdgeCount": 13,
+        "newAuthoredEdgeCount": 12,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 10,
+            "sourceId": "71039",
+            "donorPartId": 9,
+            "oldTargets": [
+              3,
+              11,
+              12,
+              13
+            ],
+            "newTargets": [
+              3,
+              11,
+              12
+            ],
+            "angleDeltaDegrees": 150.00005130180563,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 5.6265512876409
+          },
+          {
+            "partId": 5,
+            "sourceId": "10071",
+            "donorPartId": 11,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": [
+              6
+            ],
+            "angleDeltaDegrees": -46.67115641227525,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 4.433554089828276
+          },
+          {
+            "partId": 15,
+            "sourceId": "71141",
+            "donorPartId": 2,
+            "oldTargets": [
+              16
+            ],
+            "newTargets": [
+              16
+            ],
+            "angleDeltaDegrees": 45.00000234965421,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.6485674379144277
+          },
+          {
+            "partId": 11,
+            "sourceId": "60028",
+            "donorPartId": 5,
+            "oldTargets": [
+              3
+            ],
+            "newTargets": [
+              3,
+              13
+            ],
+            "angleDeltaDegrees": -67.28824369819438,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 4.972031377350081
+          },
+          {
+            "partId": 3,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              1
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -141.706338,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 6,
+            "sourceId": "10201",
+            "donorPartId": 4,
+            "oldTargets": [
+              4,
+              7
+            ],
+            "newTargets": [
+              4,
+              7
+            ],
+            "angleDeltaDegrees": -62.63332129313477,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.976713251663963
+          },
+          {
+            "partId": 9,
+            "sourceId": "90005",
+            "donorPartId": 14,
+            "oldTargets": [
+              7
+            ],
+            "newTargets": [
+              7
+            ],
+            "angleDeltaDegrees": -171.18929460572514,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.1627123539727937
+          }
+        ]
+      }
+    },
+    {
+      "id": 7300004,
+      "position": 285,
+      "novelty507": {
+        "passed": true,
+        "sourcesCompared": 507,
+        "nearCopies": [],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 2.403665866690794e-15,
+          "p90CenterErrorWidths": 4.368691627599639e-15,
+          "meanAngleErrorDegrees": 22.597738822026315,
+          "meanShapeError": 0.03333333333333333,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999999,
+          "nearCopy": false,
+          "sourceId": "10187"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      },
+      "decision": {
+        "kind": "nativeBodyScaffoldAssetVariant",
+        "modifiedRootIds": [
+          10,
+          5,
+          15,
+          11,
+          3,
+          6,
+          9
+        ],
+        "changedRootFraction": 0.23333333333333334,
+        "authoredDependencySymmetricDifference": 3,
+        "oldAuthoredEdgeCount": 13,
+        "newAuthoredEdgeCount": 12,
+        "unchangedSourceBodyPoses": false,
+        "spatialNearCopyExpected": false,
+        "changedAttachmentAndDependencyEvidence": [
+          {
+            "partId": 10,
+            "sourceId": "71039",
+            "donorPartId": 9,
+            "oldTargets": [
+              3,
+              11,
+              12,
+              13
+            ],
+            "newTargets": [
+              3,
+              11,
+              12
+            ],
+            "angleDeltaDegrees": 150.00005130180563,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 5.6265512876409
+          },
+          {
+            "partId": 5,
+            "sourceId": "10071",
+            "donorPartId": 11,
+            "oldTargets": [
+              6
+            ],
+            "newTargets": [
+              6
+            ],
+            "angleDeltaDegrees": -46.67115641227525,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 4.433554089828276
+          },
+          {
+            "partId": 15,
+            "sourceId": "71141",
+            "donorPartId": 2,
+            "oldTargets": [
+              16
+            ],
+            "newTargets": [
+              16
+            ],
+            "angleDeltaDegrees": 45.00000234965421,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.6485674379144277
+          },
+          {
+            "partId": 11,
+            "sourceId": "60028",
+            "donorPartId": 5,
+            "oldTargets": [
+              3
+            ],
+            "newTargets": [
+              3,
+              13
+            ],
+            "angleDeltaDegrees": -67.28824369819438,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 4.972031377350081
+          },
+          {
+            "partId": 3,
+            "sourceId": "10001",
+            "donorPartId": 2,
+            "oldTargets": [
+              1
+            ],
+            "newTargets": [],
+            "angleDeltaDegrees": -141.706338,
+            "angleSource": "saved conditional native pin-to-receiver relative angle component",
+            "conditionalPoseNLL": null
+          },
+          {
+            "partId": 6,
+            "sourceId": "10201",
+            "donorPartId": 4,
+            "oldTargets": [
+              4,
+              7
+            ],
+            "newTargets": [
+              4,
+              7
+            ],
+            "angleDeltaDegrees": -62.63332129313477,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.976713251663963
+          },
+          {
+            "partId": 9,
+            "sourceId": "10055",
+            "donorPartId": 11,
+            "oldTargets": [
+              7
+            ],
+            "newTargets": [
+              7
+            ],
+            "angleDeltaDegrees": -164.63305160572514,
+            "angleSource": "source authored relative center vector aligned to actual native recipient vector",
+            "conditionalPoseNLL": 2.7943122101202356
+          }
+        ]
+      }
+    }
+  ]
+}

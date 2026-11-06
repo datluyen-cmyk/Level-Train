@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "sourceCorpus": "Research/normalized_corpus.json",
+  "sourceCorpusSha256": "cf0e0c32315fc378874c33e2391c87d19d3b0ef1cecadf9f9dfc246ce1cdb0ea",
+  "sourceLevels": 500,
+  "sourceRingPieces": 7295,
+  "attachmentTypeEnum": {
+    "0": "HeadedBar",
+    "1": "TBar"
+  },
+  "serializedAttachmentCounts": {
+    "HeadedBar_type0": 334,
+    "TBar_type1": 7923,
+    "all": 8257
+  },
+  "tBarSourceFacts": {
+    "levelsWithAtLeastOne": 480,
+    "ringPiecesWithAtLeastOne": 4917,
+    "mountCounts": {
+      "inner": 155,
+      "outer": 7768
+    },
+    "mountAngleVsPhysicalGap": {
+      "onSolidArc": 7922,
+      "insidePhysicalGap": 1
+    },
+    "tBarsPerSourceRing": {
+      "1": 2714,
+      "2": 1577,
+      "3": 482,
+      "4": 127,
+      "5": 6,
+      "6": 8,
+      "7": 1,
+      "8": 2
+    },
+    "dimensionQuantiles": {
+      "stemLength": {
+        "min": 0.10146978497505188,
+        "p10": 0.46701598167419434,
+        "median": 0.5625,
+        "p90": 1.503779649734497,
+        "max": 10.48027515411377
+      },
+      "stemWidth": {
+        "min": 0.5,
+        "p10": 0.8333333730697632,
+        "median": 0.8333333730697632,
+        "p90": 0.8333333730697632,
+        "max": 1.3888890743255615
+      },
+      "crossWidth": {
+        "min": 0.8252272605895996,
+        "p10": 1.3416767120361328,
+        "median": 1.3416767120361328,
+        "p90": 1.3416767120361328,
+        "max": 2.367004156112671
+      },
+      "crossLength": {
+        "min": 0.4958333373069763,
+        "p10": 0.8333333730697632,
+        "median": 0.8333333730697632,
+        "p90": 0.8333333730697632,
+        "max": 1.3888888359069824
+      },
+      "stemInsertOffset": {
+        "min": 0.2916666865348816,
+        "p10": 0.5,
+        "median": 0.5,
+        "p90": 0.5,
+        "max": 0.9166669845581055
+      },
+      "crossCapLength": {
+        "min": 0.0,
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      }
+    },
+    "dimensionPerVisualRadiusQuantiles": {
+      "stemLengthPerVisualRadius": {
+        "min": 0.020577024037167567,
+        "p10": 0.26686627524239676,
+        "median": 0.32142857142857145,
+        "p90": 0.8571428571428571,
+        "max": 5.445437840053013
+      },
+      "stemWidthPerVisualRadius": {
+        "min": 0.03891050538175083,
+        "p10": 0.47619049889700754,
+        "median": 0.47619049889700754,
+        "p90": 0.47619049889700754,
+        "max": 0.9523809977940151
+      },
+      "crossWidthPerVisualRadius": {
+        "min": 0.05836575528953016,
+        "p10": 0.7666724068777901,
+        "median": 0.7666724068777901,
+        "p90": 0.7666724068777901,
+        "max": 1.8079610552106584
+      },
+      "crossLengthPerVisualRadius": {
+        "min": 0.03891050538175083,
+        "p10": 0.47619049889700754,
+        "median": 0.47619049889700754,
+        "p90": 0.47619049889700754,
+        "max": 0.9523809977940151
+      }
+    },
+    "uniqueJointPhysicalVisualPieceSignatures": 4917,
+    "jointPieceSignatureFrequencyHistogram": {
+      "1": 4917
+    }
+  },
+  "method": "Read only exact normalized source records. TBar fields come from each ring's serialized sourceRenderData._attachments (enum type 1); physical radii/gap come from the same part's sourcePartData. Joint signatures hash that ring's complete sourceNativeData plus complete attachment array and visual radius/width/gap/direction/cap/extra/style. No fields are synthesized or independently mixed.",
+  "limitations": [
+    "This is a source catalog audit, not a solvability audit.",
+    "Quantiles describe serialized render fields; they are not generation ranges.",
+    "Physical collider geometry is separately exported by the physics catalog."
+  ]
+}

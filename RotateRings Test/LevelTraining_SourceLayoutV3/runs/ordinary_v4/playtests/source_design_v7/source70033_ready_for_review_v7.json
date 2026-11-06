@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 7,
+    "generatedUtc": "2026-11-06T09:58:18.0313950Z",
+    "label": "Original39 ready for user review with corrected source numbering",
+    "unityVersion": "6000.0.78f1",
+    "sourcePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source500_native.json",
+    "templatesPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source_templates.json",
+    "outputReportPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\playtests\\source_design_v7\\source70033_ready_for_review_v7.json",
+    "sourcePackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatesSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130",
+    "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+    "scriptSha256": "8db3a9a79411d5a4a568982a5ad5ff9fbe87f4340bc926cf0b5f14bd8ef73de3",
+    "gameplayMethodology": "Programmatic native gestures: call the live runtime's native collision clamps, motion samples, release, cascade, and goal logic. This does not exercise OS pointer/raycast input and is not an optimal-move proof.",
+    "levelId": 70033,
+    "position": 39,
+    "title": "",
+    "difficulty": 0.0,
+    "steps": []
+}

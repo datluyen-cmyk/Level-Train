@@ -1,0 +1,2032 @@
+{
+  "passed": true,
+  "sourceSampleCount": 19,
+  "criteria": {
+    "minimumCoverage": 0.9,
+    "maximumMeanCenterErrorWidths": 0.35,
+    "maximumP90CenterErrorWidths": 0.7,
+    "maximumMeanAngleErrorDegrees": 15.0,
+    "maximumMeanShapeError": 0.15,
+    "spacingScaleRange": [
+      0.85,
+      1.15
+    ]
+  },
+  "tests": [
+    {
+      "sourceId": "60010",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.57479426037387e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 7.797194638404547e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.746981460264931e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 1.0749827666967923e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.912610875887234e-15,
+            "p90CenterErrorWidths": 7.440899726466435e-15,
+            "meanAngleErrorDegrees": 1.0017232458759213e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.762006151760288e-15,
+            "p90CenterErrorWidths": 8.413900363699766e-15,
+            "meanAngleErrorDegrees": 7.152169094391564e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384616,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.021710318642771426,
+            "p90CenterErrorWidths": 0.03404293207033024,
+            "meanAngleErrorDegrees": 0.0206816289653535,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9997289446250168,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.986342325483232e-15,
+            "p90CenterErrorWidths": 9.684315833580971e-15,
+            "meanAngleErrorDegrees": 7.42604443712204e-15,
+            "meanShapeError": 0.28402512498507,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "73005",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.6466985332695795e-15,
+            "p90CenterErrorWidths": 1.4210853943151912e-14,
+            "meanAngleErrorDegrees": 2.4369310359667208e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.5502135697781626e-15,
+            "p90CenterErrorWidths": 1.204954766900321e-14,
+            "meanAngleErrorDegrees": 9.524246023633218e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.739048424949159e-15,
+            "p90CenterErrorWidths": 7.692504292634292e-15,
+            "meanAngleErrorDegrees": 7.597162721673406e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.421562013689654e-14,
+            "p90CenterErrorWidths": 2.8421707886303824e-14,
+            "meanAngleErrorDegrees": 3.097900576317358e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384611,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02274128823464282,
+            "p90CenterErrorWidths": 0.03302842064090517,
+            "meanAngleErrorDegrees": 0.0022567176711618606,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0002539238457273,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 9.213656306093828,
+            "p90CenterErrorWidths": 21.649781323707504,
+            "meanAngleErrorDegrees": 78.26732573852583,
+            "meanShapeError": 0.2436551855832603,
+            "alignmentReflection": true,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "10057",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.874529653346977e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 7.25675028938478e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.96137205023928e-15,
+            "p90CenterErrorWidths": 1.3984098231699474e-14,
+            "meanAngleErrorDegrees": 1.867857996196103e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000004,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.0311752827269882e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 9.492656486923654e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.0639355061704492e-14,
+            "p90CenterErrorWidths": 1.451700525456767e-14,
+            "meanAngleErrorDegrees": 5.9087090167791644e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384617,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02274344008447902,
+            "p90CenterErrorWidths": 0.036223723758943956,
+            "meanAngleErrorDegrees": 0.02566172749346383,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999855838180227,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 8.026628415705888,
+            "p90CenterErrorWidths": 16.845487010462204,
+            "meanAngleErrorDegrees": 56.12907662036307,
+            "meanShapeError": 0.2730832014001215,
+            "alignmentReflection": false,
+            "spacingScale": 0.8630203866064335,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "10166",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.886579707202732e-15,
+            "p90CenterErrorWidths": 5.329070228681967e-15,
+            "meanAngleErrorDegrees": 8.840655990547613e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2309685155832602e-14,
+            "p90CenterErrorWidths": 1.5532708190955296e-14,
+            "meanAngleErrorDegrees": 1.1588756653138681e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000007,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.2924195433657005e-15,
+            "p90CenterErrorWidths": 7.634107669266112e-15,
+            "meanAngleErrorDegrees": 1.1688148986934416e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.193947373092754e-15,
+            "p90CenterErrorWidths": 1.1546318828810928e-14,
+            "meanAngleErrorDegrees": 9.536402327117757e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384616,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.022883241210228618,
+            "p90CenterErrorWidths": 0.03389018732652485,
+            "meanAngleErrorDegrees": 0.00999130086343334,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9996033804488296,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.526504854832083,
+            "p90CenterErrorWidths": 16.63602153979114,
+            "meanAngleErrorDegrees": 55.90463986245014,
+            "meanShapeError": 0.08854685723781586,
+            "alignmentReflection": false,
+            "spacingScale": 0.8623357490685889,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "10013",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.661192471018969e-15,
+            "p90CenterErrorWidths": 1.3650308621907532e-14,
+            "meanAngleErrorDegrees": 7.399921738640659e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.206291320680306e-14,
+            "p90CenterErrorWidths": 1.823230187568996e-14,
+            "meanAngleErrorDegrees": 7.776394847637333e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.136030195018272e-15,
+            "p90CenterErrorWidths": 7.32410647973007e-15,
+            "meanAngleErrorDegrees": 8.607654709106591e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.1653944328512055e-15,
+            "p90CenterErrorWidths": 3.972054429401076e-15,
+            "meanAngleErrorDegrees": 8.196649687090293e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384615,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.0219054317930565,
+            "p90CenterErrorWidths": 0.03580043733918723,
+            "meanAngleErrorDegrees": 0.05231652285262692,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999688719843067,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.752248031076639,
+            "p90CenterErrorWidths": 11.659861446873188,
+            "meanAngleErrorDegrees": 102.87827529744494,
+            "meanShapeError": 0.2855167736065385,
+            "alignmentReflection": true,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "60005",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.1427850066585955e-15,
+            "p90CenterErrorWidths": 3.552713485787978e-15,
+            "meanAngleErrorDegrees": 5.402408666557786e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.790341753839862e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 8.503935706351233e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.610484682069946e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 8.729433123532968e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2676129670955627e-14,
+            "p90CenterErrorWidths": 1.776356742893989e-14,
+            "meanAngleErrorDegrees": 5.551922402024998e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384613,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.024309943450106262,
+            "p90CenterErrorWidths": 0.03764979266000254,
+            "meanAngleErrorDegrees": 0.008009025963574957,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999745515382744,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.131297034771592,
+            "p90CenterErrorWidths": 7.567507065364886,
+            "meanAngleErrorDegrees": 66.73508491704551,
+            "meanShapeError": 0.2618516525756163,
+            "alignmentReflection": false,
+            "spacingScale": 0.9708532208844103,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "70013",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.934850270868329e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 8.137870559073209e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.176160638563759e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 1.2096433221873237e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2211203778671595e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 1.4539585039225385e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999997,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.0074021073841366e-14,
+            "p90CenterErrorWidths": 1.464821295946014e-14,
+            "meanAngleErrorDegrees": 8.794545874966476e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384616,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02057945941835133,
+            "p90CenterErrorWidths": 0.03380067269018428,
+            "meanAngleErrorDegrees": 0.03429932989708075,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0002810683623116,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 9.619829411468693,
+            "p90CenterErrorWidths": 17.679975144375103,
+            "meanAngleErrorDegrees": 89.96894276034273,
+            "meanShapeError": 0.21812366886540022,
+            "alignmentReflection": true,
+            "spacingScale": 0.8604480214362948,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "70038",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.300996884232909e-15,
+            "p90CenterErrorWidths": 1.1234666489086254e-14,
+            "meanAngleErrorDegrees": 1.458422092548496e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.8393197550509044e-14,
+            "p90CenterErrorWidths": 2.891699273224326e-14,
+            "meanAngleErrorDegrees": 2.0179847798192945e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000007,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.72371311547187e-15,
+            "p90CenterErrorWidths": 1.4244031534448168e-14,
+            "meanAngleErrorDegrees": 1.5454292105153565e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.1364279216897231e-14,
+            "p90CenterErrorWidths": 1.4210853943151912e-14,
+            "meanAngleErrorDegrees": 8.285678693132627e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384615,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.021335883149001148,
+            "p90CenterErrorWidths": 0.03385952843391116,
+            "meanAngleErrorDegrees": 0.015940465378436554,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9998819912557929,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.115308896796795,
+            "p90CenterErrorWidths": 11.777255452233886,
+            "meanAngleErrorDegrees": 76.1592064494986,
+            "meanShapeError": 0.45100188826388304,
+            "alignmentReflection": false,
+            "spacingScale": 0.9100766463794874,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "60046",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.3141320283085065e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 8.661967663097453e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.976036339033283e-15,
+            "p90CenterErrorWidths": 1.2384441800834307e-14,
+            "meanAngleErrorDegrees": 1.4087619766770512e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999997,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.08028094010097e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 1.2029613796411764e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.027344590677537e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 1.0378623373227089e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384617,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.0221971885613195,
+            "p90CenterErrorWidths": 0.03705937840353581,
+            "meanAngleErrorDegrees": 0.018762666376008777,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999744649545507,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.085993012229105,
+            "p90CenterErrorWidths": 15.057546132726241,
+            "meanAngleErrorDegrees": 33.69895406098158,
+            "meanShapeError": 0.21813726425170898,
+            "alignmentReflection": false,
+            "spacingScale": 0.91573129174823,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "71117",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.3197614266447502e-14,
+            "p90CenterErrorWidths": 2.009718237930861e-14,
+            "meanAngleErrorDegrees": 7.0766713686381985e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999996,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.426552382019044e-15,
+            "p90CenterErrorWidths": 3.563647461195684e-15,
+            "meanAngleErrorDegrees": 8.641711207668988e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 8.303819587268287e-15,
+            "p90CenterErrorWidths": 1.4254589844782737e-14,
+            "meanAngleErrorDegrees": 1.850318701560056e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.459596853531575e-15,
+            "p90CenterErrorWidths": 1.0048591189654305e-14,
+            "meanAngleErrorDegrees": 6.571636673105751e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384616,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.022137515470839773,
+            "p90CenterErrorWidths": 0.029187479981231768,
+            "meanAngleErrorDegrees": 0.0029778807572321585,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0001366793067108,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 8.638192575251097,
+            "p90CenterErrorWidths": 20.872040577844704,
+            "meanAngleErrorDegrees": 82.85485309315251,
+            "meanShapeError": 0.2934016994374947,
+            "alignmentReflection": true,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "60053",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.840942076504724e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 1.246325074672319e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999996,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.2300307562648894e-15,
+            "p90CenterErrorWidths": 1.0048591189654305e-14,
+            "meanAngleErrorDegrees": 1.1861001869755e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000004,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.3835992912782705e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 1.2880622316873053e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.721603396753842e-15,
+            "p90CenterErrorWidths": 6.6892006962261965e-15,
+            "meanAngleErrorDegrees": 7.252694695234595e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384617,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02200835301443646,
+            "p90CenterErrorWidths": 0.03641884237060605,
+            "meanAngleErrorDegrees": 0.0035277410382612176,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9991899594492376,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.5824664308117535,
+            "p90CenterErrorWidths": 12.283916882044766,
+            "meanAngleErrorDegrees": 56.893998486651746,
+            "meanShapeError": 0.14583334715470023,
+            "alignmentReflection": false,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "71116",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.4307933015354705e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 7.745523132058613e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.1149800417138476e-15,
+            "p90CenterErrorWidths": 7.258502627283835e-15,
+            "meanAngleErrorDegrees": 1.328857975163769e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.7032500279924904e-15,
+            "p90CenterErrorWidths": 1.0291680270381408e-14,
+            "meanAngleErrorDegrees": 8.549435758435663e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.7854174571633593e-15,
+            "p90CenterErrorWidths": 3.846252146317146e-15,
+            "meanAngleErrorDegrees": 4.7537976704673296e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384615,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02306032872717949,
+            "p90CenterErrorWidths": 0.03637081639571919,
+            "meanAngleErrorDegrees": 0.01820227181782814,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999744376552582,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 10.342874430743736,
+            "p90CenterErrorWidths": 20.337944320437707,
+            "meanAngleErrorDegrees": 76.52585978459312,
+            "meanShapeError": 0.22395837306976318,
+            "alignmentReflection": true,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "10194",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.8376104236834369e-16,
+            "p90CenterErrorWidths": 3.5527134857879653e-16,
+            "meanAngleErrorDegrees": 6.89084334149296e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.92459979907215e-15,
+            "p90CenterErrorWidths": 1.0048591189654305e-14,
+            "meanAngleErrorDegrees": 1.0549599530790495e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.113090891411688e-15,
+            "p90CenterErrorWidths": 8.104795583644179e-15,
+            "meanAngleErrorDegrees": 1.033782233371792e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.174277446836291e-14,
+            "p90CenterErrorWidths": 1.776356742893989e-14,
+            "meanAngleErrorDegrees": 9.121939457811101e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384618,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02256973515455603,
+            "p90CenterErrorWidths": 0.038660095097108695,
+            "meanAngleErrorDegrees": 0.02280442516546383,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999545143610797,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 10.591902318813254,
+            "p90CenterErrorWidths": 20.405887463949973,
+            "meanAngleErrorDegrees": 88.50751984161232,
+            "meanShapeError": 0.08744056198887155,
+            "alignmentReflection": false,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "71102",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.4535353278732237e-15,
+            "p90CenterErrorWidths": 7.32410647973007e-15,
+            "meanAngleErrorDegrees": 6.805432660891517e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2475663978589254e-14,
+            "p90CenterErrorWidths": 1.645082263100498e-14,
+            "meanAngleErrorDegrees": 7.909159922732681e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.5413104721911495e-14,
+            "p90CenterErrorWidths": 2.1919038056315088e-14,
+            "meanAngleErrorDegrees": 7.294018683733057e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000004,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 9.523820319173329e-15,
+            "p90CenterErrorWidths": 1.7869103817329066e-14,
+            "meanAngleErrorDegrees": 8.659767010358809e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384618,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.023388114619347873,
+            "p90CenterErrorWidths": 0.040170337613150635,
+            "meanAngleErrorDegrees": 0.007058492465756636,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9997181317006437,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 10.092646532691706,
+            "p90CenterErrorWidths": 19.019996784321606,
+            "meanAngleErrorDegrees": 71.88838512208446,
+            "meanShapeError": 0.30357142857142855,
+            "alignmentReflection": true,
+            "spacingScale": 0.8555595580594357,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "73002",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.0783325479357877e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 7.009236966024737e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.901715147051896e-15,
+            "p90CenterErrorWidths": 1.1916163288203228e-14,
+            "meanAngleErrorDegrees": 7.519722159933401e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 9.738091220516468e-15,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 8.649422223199214e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2668420690996937e-14,
+            "p90CenterErrorWidths": 2.044254760223575e-14,
+            "meanAngleErrorDegrees": 6.4584989529090135e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384613,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.022791596918638923,
+            "p90CenterErrorWidths": 0.04002583979638042,
+            "meanAngleErrorDegrees": 0.004749427337289433,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0004510225390484,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 10.788466041331914,
+            "p90CenterErrorWidths": 22.331410681424735,
+            "meanAngleErrorDegrees": 66.61868855728657,
+            "meanShapeError": 0.17619045802525113,
+            "alignmentReflection": false,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "50004",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.7763568394002505e-15,
+            "p90CenterErrorWidths": 3.552713678800501e-15,
+            "meanAngleErrorDegrees": 5.7409510492463934e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.516235352712995e-15,
+            "p90CenterErrorWidths": 9.127798657040153e-15,
+            "meanAngleErrorDegrees": 1.1575133143312186e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.83414522050906e-15,
+            "p90CenterErrorWidths": 1.239252247822835e-14,
+            "meanAngleErrorDegrees": 1.2004025632802408e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000004,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.949804225881778e-15,
+            "p90CenterErrorWidths": 1.2080532582046505e-14,
+            "meanAngleErrorDegrees": 4.7570415136724735e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384611,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.022952599728629196,
+            "p90CenterErrorWidths": 0.034221454389898674,
+            "meanAngleErrorDegrees": 0.03614724966834407,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9997870086502885,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 4.633506589847926,
+            "p90CenterErrorWidths": 11.028445891748857,
+            "meanAngleErrorDegrees": 46.587266233839784,
+            "meanShapeError": 0.18489579111337662,
+            "alignmentReflection": false,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "73013",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.2036386156606482e-14,
+            "p90CenterErrorWidths": 2.009718237930861e-14,
+            "meanAngleErrorDegrees": 7.975758530509145e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.6765863020695497e-14,
+            "p90CenterErrorWidths": 3.524986136471643e-14,
+            "meanAngleErrorDegrees": 9.474820216214209e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.164232766646651e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 1.1332774642374503e-14,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.501036920107094e-14,
+            "p90CenterErrorWidths": 1.9863820884271745e-14,
+            "meanAngleErrorDegrees": 7.669458059342737e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384613,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.022108125946768503,
+            "p90CenterErrorWidths": 0.035087012542047775,
+            "meanAngleErrorDegrees": 0.006927187161270296,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9998611556654208,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 9.432224374062976,
+            "p90CenterErrorWidths": 17.712040256234726,
+            "meanAngleErrorDegrees": 46.74999775542661,
+            "meanShapeError": 0.25609343652429717,
+            "alignmentReflection": false,
+            "spacingScale": 0.8778842470345658,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "71205",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 3.697605901260704e-15,
+            "p90CenterErrorWidths": 5.440521870176912e-15,
+            "meanAngleErrorDegrees": 8.547404359348444e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.424692178966191e-15,
+            "p90CenterErrorWidths": 1.0199904198947073e-14,
+            "meanAngleErrorDegrees": 7.155379698902863e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999999,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 5.328457050082091e-15,
+            "p90CenterErrorWidths": 7.944108858802152e-15,
+            "meanAngleErrorDegrees": 7.395721988309043e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.674403362756326e-15,
+            "p90CenterErrorWidths": 7.105426971575956e-15,
+            "meanAngleErrorDegrees": 4.810136133474976e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384616,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.021112045753596008,
+            "p90CenterErrorWidths": 0.03089370388383961,
+            "meanAngleErrorDegrees": 0.009032717694989159,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.000292754877017,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 8.74378711348114,
+            "p90CenterErrorWidths": 19.95567924793846,
+            "meanAngleErrorDegrees": 101.36394294704229,
+            "meanShapeError": 0.35526315789473684,
+            "alignmentReflection": true,
+            "spacingScale": 0.85,
+            "nearCopy": false
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "90055",
+      "passed": true,
+      "cases": [
+        {
+          "case": "identity",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.1020207289878734e-14,
+            "p90CenterErrorWidths": 3.1776435435208607e-14,
+            "meanAngleErrorDegrees": 4.057700858593538e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.0000000000000004,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "rotateTranslate",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.785913938186509e-14,
+            "p90CenterErrorWidths": 3.014577356896291e-14,
+            "meanAngleErrorDegrees": 9.019166132158389e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999997,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "reflected",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": true,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 1.0529251261100612e-14,
+            "p90CenterErrorWidths": 1.5888217717604303e-14,
+            "meanAngleErrorDegrees": 7.124121573675271e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": true,
+            "spacingScale": 1.0000000000000002,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "smallSpacingChange",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 2.0258473307116624e-14,
+            "p90CenterErrorWidths": 2.7747579350964752e-14,
+            "meanAngleErrorDegrees": 3.80205662533432e-15,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 0.9615384615384618,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "tinyJitter",
+          "expectedNearCopy": true,
+          "passed": true,
+          "canonicalInvariantRequired": false,
+          "canonicalInvariantPassed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 0.02387025996274333,
+            "p90CenterErrorWidths": 0.037602272327325395,
+            "meanAngleErrorDegrees": 0.024246085559452162,
+            "meanShapeError": 0.0,
+            "alignmentReflection": false,
+            "spacingScale": 1.000173578843365,
+            "nearCopy": true
+          }
+        },
+        {
+          "case": "grossPoseShuffle",
+          "expectedNearCopy": false,
+          "passed": true,
+          "result": {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 7.048569861540135,
+            "p90CenterErrorWidths": 18.026877747164672,
+            "meanAngleErrorDegrees": 52.07197081172927,
+            "meanShapeError": 0.19095383371625627,
+            "alignmentReflection": true,
+            "spacingScale": 0.9583530339334325,
+            "nearCopy": false
+          }
+        }
+      ]
+    }
+  ],
+  "meaning": "Synthetic cosmetic-equivalence checks sampled across all500 progression; no new level acceptance."
+}

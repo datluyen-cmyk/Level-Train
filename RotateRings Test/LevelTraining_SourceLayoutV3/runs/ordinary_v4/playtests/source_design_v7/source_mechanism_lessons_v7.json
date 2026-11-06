@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 7,
+  "status": "SOURCE_MECHANISM_RESEARCH_NOT_DIFFICULTY_ACCEPTANCE",
+  "sourceReplayMethod": "Programmatic gestures through live Unity native rules; no OS pointer/raycast input. Original APK code supports mechanics but this is not direct APK runtime parity certification.",
+  "reports": [
+    {
+      "file": "source60011_veryhard49_counterfactual.json",
+      "sha256": "f0f5740f8f7f32ab0cdf22965c79a6d92518453d4d554c08046b3897e8d53f14",
+      "sourceId": 60011,
+      "originalPosition": 49,
+      "gestureTrials": 33,
+      "finalAttemptMoves": 32,
+      "reachedGoal": true,
+      "runtimeSha256": "0ea6ade29facbffb5d6b49daaaf4b23a05dde6e37e2a060e8a44139020a6d777",
+      "rulesSha256": "7b554ce601f0ec035ef3d610a2de2999ef1fc0663f6e6498e0fb3113b37f0bff"
+    },
+    {
+      "file": "source70033_veryhard39_after_restart_v7.json",
+      "sha256": "3959270a5130cb251b9d326880da72637f96d7b65c7d9e44da48d27a8893d4d8",
+      "sourceId": 70033,
+      "originalPosition": 39,
+      "gestureTrials": 27,
+      "finalAttemptMoves": 25,
+      "reachedGoal": true,
+      "runtimeSha256": "0d658b6aa5c436bce4033c9feb4932a687d0b8b37df6e7c060ccea4431dc53ed",
+      "rulesSha256": "4f8daa23549bfcc7e4636228dc2c09478676a11073623e4ac8544744d1892dbc"
+    },
+    {
+      "file": "source70033_veryhard39_counterfactual_v7.json",
+      "sha256": "40ed833d772bdd7e2943873e0f04c502010dccd295b02d12c574921c6068c79d",
+      "sourceId": 70033,
+      "originalPosition": 39,
+      "gestureTrials": 23,
+      "finalAttemptMoves": 21,
+      "reachedGoal": true,
+      "runtimeSha256": "0d658b6aa5c436bce4033c9feb4932a687d0b8b37df6e7c060ccea4431dc53ed",
+      "rulesSha256": "4f8daa23549bfcc7e4636228dc2c09478676a11073623e4ac8544744d1892dbc"
+    },
+    {
+      "file": "source70033_veryhard39_clean17_v7.json",
+      "sha256": "73e50f58d6db0d0bb99eff60b8c2cc2b293365055019b313992ba957072dfb6e",
+      "sourceId": 70033,
+      "originalPosition": 39,
+      "gestureTrials": 17,
+      "finalAttemptMoves": 17,
+      "reachedGoal": true,
+      "runtimeSha256": "0d658b6aa5c436bce4033c9feb4932a687d0b8b37df6e7c060ccea4431dc53ed",
+      "rulesSha256": "4f8daa23549bfcc7e4636228dc2c09478676a11073623e4ac8544744d1892dbc"
+    },
+    {
+      "file": "source10017_veryhard129_bomb_exploration_v7.json",
+      "sha256": "decc57ddbddafcbc369afd7adbd58334d88b673ad4bfda6bc0dbecccd538f445",
+      "sourceId": 10017,
+      "originalPosition": 129,
+      "gestureTrials": 28,
+      "finalAttemptMoves": 24,
+      "reachedGoal": true,
+      "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+      "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130"
+    },
+    {
+      "file": "source10017_veryhard129_counterfactual_clean10_v7.json",
+      "sha256": "1620d04885f215458de361661c6287dc3f2410497a679b946c24589617729124",
+      "sourceId": 10017,
+      "originalPosition": 129,
+      "gestureTrials": 12,
+      "finalAttemptMoves": 12,
+      "reachedGoal": true,
+      "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+      "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130"
+    },
+    {
+      "file": "source71029_hard175_bomb_chain_exploration_v7.json",
+      "sha256": "28e8a4e9194ef4c76bddcad84c2733edf6f0ee9ffb43fd56e74157e682142637",
+      "sourceId": 71029,
+      "originalPosition": 175,
+      "gestureTrials": 55,
+      "finalAttemptMoves": 51,
+      "reachedGoal": true,
+      "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+      "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130"
+    },
+    {
+      "file": "source71029_hard175_counterfactual_v7.json",
+      "sha256": "d5d9e1c4accc1b01a43ae1228ed45c56ea8d245ef925855407507e0411a2bd74",
+      "sourceId": 71029,
+      "originalPosition": 175,
+      "gestureTrials": 32,
+      "finalAttemptMoves": 31,
+      "reachedGoal": true,
+      "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+      "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130"
+    },
+    {
+      "file": "source10187_hard285_butterfly_exploration_v7.json",
+      "sha256": "801c7358cf347e71aa886f7028b1cb09d739d736626d5f3d566a63459502ebd8",
+      "sourceId": 10187,
+      "originalPosition": 285,
+      "gestureTrials": 74,
+      "finalAttemptMoves": 46,
+      "reachedGoal": true,
+      "runtimeSha256": "ede2dcc4b515eec97add8941ba22b9fdd39a5202fc065b87c39e9e2a290bb506",
+      "rulesSha256": "5e318fab7fe5da14c692044c163f008fe656a7b71691a861dea0b474ee8f8130"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "shared_slider_corridor",
+      "status": "observed_for_tested_exits",
+      "finding": "Source39: slider12 initially hits10; moving10 hits11. Parking11 opens travel for10, then12 can leave before11. No authored pin needs to disappear during parking.",
+      "evidence": [
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 1,
+          "partId": 12,
+          "action": "slide",
+          "requested": 5.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": 0.5083342790603638,
+          "blockerOwner": 10,
+          "blockerRole": "body",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 3,
+          "partId": 10,
+          "action": "slide",
+          "requested": 6.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": 1.3877276182174683,
+          "blockerOwner": 11,
+          "blockerRole": "body",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 5,
+          "partId": 11,
+          "action": "slide",
+          "requested": 2.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": 1.299988031387329,
+          "blockerOwner": 5,
+          "blockerRole": "body",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 6,
+          "partId": 10,
+          "action": "slide",
+          "requested": 6.0,
+          "reachedBefore": 1.3877276182174683,
+          "reachedAfter": 5.407726764678955,
+          "blockerOwner": 1,
+          "blockerRole": "head_wall",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 7,
+          "partId": 12,
+          "action": "slide",
+          "requested": 5.0,
+          "reachedBefore": 0.7179673910140991,
+          "reachedAfter": 3.1909353733062744,
+          "blockerOwner": 11,
+          "blockerRole": "body",
+          "removed": [
+            12,
+            17
+          ]
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 8,
+          "partId": 11,
+          "action": "slide",
+          "requested": -6.0,
+          "reachedBefore": 1.299988031387329,
+          "reachedAfter": -4.690011024475098,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            11,
+            16
+          ]
+        }
+      ],
+      "generationImplication": "Learn transverse slider parking and shared travel corridors with actual native collision outcomes; a pin DAG misses this."
+    },
+    {
+      "id": "physical_bridge_across_binding_components",
+      "status": "observed_for_tested_directions",
+      "finding": "Source39: bottom sliders21/20 block rotations7/8 despite no authored pin or guide binding between those components. Removing the bottom sliders permits the tested continued rotations.",
+      "evidence": [
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 11,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 150.0,
+          "reachedBefore": 270.0,
+          "reachedAfter": 308.0874938964844,
+          "blockerOwner": 21,
+          "blockerRole": "body",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 12,
+          "partId": 8,
+          "action": "rotate",
+          "requested": -150.0,
+          "reachedBefore": 270.0,
+          "reachedAfter": 234.17813110351562,
+          "blockerOwner": 20,
+          "blockerRole": "body",
+          "removed": []
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 20,
+          "partId": 21,
+          "action": "slide",
+          "requested": -4.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": -3.990000009536743,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            21,
+            22
+          ]
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 21,
+          "partId": 20,
+          "action": "slide",
+          "requested": -5.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": -4.989999771118164,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            19,
+            20
+          ]
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 22,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 120.0,
+          "reachedBefore": 308.0874938964844,
+          "reachedAfter": 428.0874938964844,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            3,
+            7
+          ]
+        },
+        {
+          "file": "source70033_veryhard39_counterfactual_v7.json",
+          "step": 23,
+          "partId": 8,
+          "action": "rotate",
+          "requested": -120.0,
+          "reachedBefore": 234.17813110351562,
+          "reachedAfter": 114.17813110351562,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            8
+          ]
+        }
+      ],
+      "generationImplication": "Model collision/swept-space dependencies as well as authored bindings. Do not classify pin-disconnected groups as automatically irrelevant or independent."
+    },
+    {
+      "id": "bomb_contact_clears_closed_body",
+      "status": "observed_native_clone_and_original_code_backed",
+      "finding": "Source129: rotating bomb host1 from90 to101 degrees removes host1 and neighboring closed ring2. Requested45 degrees is truncated by native mid-gesture explosion.",
+      "evidence": [
+        {
+          "file": "source10017_veryhard129_bomb_exploration_v7.json",
+          "step": 1,
+          "partId": 1,
+          "action": "rotate",
+          "requested": 45.0,
+          "reachedBefore": 90.00000762939453,
+          "reachedAfter": 101.00000762939453,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "generationImplication": "Preserve bomb geometry and reachable contact, not just bomb count; closed rings cannot be treated as generic gapped ring variants."
+    },
+    {
+      "id": "chain_progression_gate",
+      "status": "observed_native_clone_and_original_code_backed",
+      "finding": "Source175 begins with chain counts22 and15. Ring11 rotation is rejected while locked. Bomb host28 removes5/16/28 and both chain counts fall by3; later nonfixed removals unlock11 before10.",
+      "evidence": [
+        {
+          "file": "source71029_hard175_bomb_chain_exploration_v7.json",
+          "step": 1,
+          "partId": 11,
+          "action": "rotate",
+          "requested": 90.0,
+          "reachedBefore": 150.0,
+          "reachedAfter": 150.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": []
+        },
+        {
+          "file": "source71029_hard175_bomb_chain_exploration_v7.json",
+          "step": 2,
+          "partId": 28,
+          "action": "rotate",
+          "requested": 45.0,
+          "reachedBefore": 90.00000762939453,
+          "reachedAfter": 114.00000762939453,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            5,
+            16,
+            28
+          ]
+        }
+      ],
+      "generationImplication": "Learn order constraints coupling distant branches and nonfixed solve counts; validate reachability of unlock thresholds rather than inventing a fixed quota."
+    },
+    {
+      "id": "sequential_opposed_pin_release",
+      "status": "observed_successful_sequence_not_unique_or_optimal",
+      "finding": "Source175: ring11 releases12 at210deg then8/11 at30deg. Later ring10 releases13 near120deg then itself near300deg. One gap serves different occupied directions in sequence.",
+      "evidence": [
+        {
+          "file": "source71029_hard175_counterfactual_v7.json",
+          "step": 28,
+          "partId": 11,
+          "action": "rotate",
+          "requested": 60.0,
+          "reachedBefore": 150.0,
+          "reachedAfter": 210.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            12
+          ]
+        },
+        {
+          "file": "source71029_hard175_counterfactual_v7.json",
+          "step": 29,
+          "partId": 11,
+          "action": "rotate",
+          "requested": -180.0,
+          "reachedBefore": 210.0,
+          "reachedAfter": 30.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            8,
+            11
+          ]
+        },
+        {
+          "file": "source71029_hard175_counterfactual_v7.json",
+          "step": 30,
+          "partId": 10,
+          "action": "rotate",
+          "requested": -90.0,
+          "reachedBefore": 210.0,
+          "reachedAfter": 120.3343734741211,
+          "blockerOwner": 7,
+          "blockerRole": "body",
+          "removed": [
+            13
+          ]
+        },
+        {
+          "file": "source71029_hard175_counterfactual_v7.json",
+          "step": 31,
+          "partId": 10,
+          "action": "rotate",
+          "requested": 180.0,
+          "reachedBefore": 120.3343734741211,
+          "reachedAfter": 300.3343811035156,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            10
+          ]
+        }
+      ],
+      "generationImplication": "Learn multireceiver fanout and release order, not only single-edge pin chains."
+    },
+    {
+      "id": "butterfly_two_slot_staging",
+      "status": "observed_native_clone_and_original_code_backed",
+      "finding": "Source285: ring13 at240deg opens one butterfly14 slot without removing it; ring12 at60deg opens the other and removes butterfly14. Rings13/12 then need different angles300/0 to release closed center10.",
+      "evidence": [
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 5,
+          "partId": 13,
+          "action": "rotate",
+          "requested": 150.0,
+          "reachedBefore": 90.00000762939453,
+          "reachedAfter": 240.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": []
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 6,
+          "partId": 12,
+          "action": "rotate",
+          "requested": -155.0,
+          "reachedBefore": 215.0,
+          "reachedAfter": 60.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            14
+          ]
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 12,
+          "partId": 13,
+          "action": "rotate",
+          "requested": 60.0,
+          "reachedBefore": 240.0,
+          "reachedAfter": 300.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            13
+          ]
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 13,
+          "partId": 12,
+          "action": "rotate",
+          "requested": -60.0,
+          "reachedBefore": 60.0,
+          "reachedAfter": 0.0,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            12
+          ]
+        }
+      ],
+      "generationImplication": "Keep complete two-slot catch geometry; learn staged goal alignment and subsequent reorientation, not a generic fixed catch substitution."
+    },
+    {
+      "id": "alternating_two_ring_clearance",
+      "status": "observed_successful_continuation_not_necessity_proof",
+      "finding": "Source285: ring7 attempting to continue toward180deg is blocked by ring6 head wall. Returning7 near86deg permits6 to rotate from211 to241deg; then7 can rotate through126 to181deg and remove7/9. Ring6 then rotates back near68deg to remove5/6.",
+      "evidence": [
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 59,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 55.0,
+          "reachedBefore": 125.71249389648438,
+          "reachedAfter": 125.73749542236328,
+          "blockerOwner": 6,
+          "blockerRole": "head_wall",
+          "removed": []
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 63,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 40.0,
+          "reachedBefore": 45.868743896484375,
+          "reachedAfter": 85.86874389648438,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": []
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 64,
+          "partId": 6,
+          "action": "rotate",
+          "requested": 30.0,
+          "reachedBefore": 211.34375,
+          "reachedAfter": 241.34375,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": []
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 65,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 40.0,
+          "reachedBefore": 85.86874389648438,
+          "reachedAfter": 125.86874389648438,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": []
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 67,
+          "partId": 7,
+          "action": "rotate",
+          "requested": 55.0,
+          "reachedBefore": 125.86874389648438,
+          "reachedAfter": 180.86874389648438,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            7,
+            9
+          ]
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 68,
+          "partId": 6,
+          "action": "rotate",
+          "requested": -174.0,
+          "reachedBefore": 242.05624389648438,
+          "reachedAfter": 68.05624389648438,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            5,
+            6
+          ]
+        }
+      ],
+      "generationImplication": "Learn intermediate clearance poses and alternating actions between rings. Scalar pin depth and count miss these state-dependent paths."
+    },
+    {
+      "id": "bomb_direction_selects_different_target",
+      "status": "observed_two_branches_only_one_completed",
+      "finding": "Source285: initial slider1 positive direction removes1/3; after restart negative direction removes1/2. Negative branch reaches goal. Positive branch was abandoned after26 moves; not proved impossible.",
+      "evidence": [
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 2,
+          "partId": 1,
+          "action": "slide",
+          "requested": 5.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": 1.1999999284744263,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            1,
+            3
+          ]
+        },
+        {
+          "file": "source10187_hard285_butterfly_exploration_v7.json",
+          "step": 30,
+          "partId": 1,
+          "action": "slide",
+          "requested": -5.0,
+          "reachedBefore": 0.0,
+          "reachedAfter": -1.0799999237060547,
+          "blockerOwner": -1,
+          "blockerRole": "",
+          "removed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "generationImplication": "Preserve reachable bomb contacts and branch-specific consequences; do not model bombs as unconditional identical clearing actions."
+    }
+  ],
+  "cautions": [
+    "Original39 solved17 moves versus25 on exploration; neither proves optimality.",
+    "Original129 solved12 versus24 exploration moves. Filename clean10 was a proposed target, not the actual result.",
+    "Original175 solved31 versus51 exploration moves; final31 still contains avoidable failed directions.",
+    "Original285 negative bomb branch solved46 moves after restart; positive branch abandoned unresolved after26. Neither branch result proves optimality or unsolvability.",
+    "Original49 historical32-segment witness contains unnecessary early preparation for the first observed removal.",
+    "No-removal actions and search path length do not establish intrinsic difficulty or human skill.",
+    "Actual shipped default tags:39/49/129 VeryHard,175/285 Hard. Tags are not human outcome measurements.",
+    "No new final accepted levels; 15% human difficulty matching remains unmeasured."
+  ]
+}

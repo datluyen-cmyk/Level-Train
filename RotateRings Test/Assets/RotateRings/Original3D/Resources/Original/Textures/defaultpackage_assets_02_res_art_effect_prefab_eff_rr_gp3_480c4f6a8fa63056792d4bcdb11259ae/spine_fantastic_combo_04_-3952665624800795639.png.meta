@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 6cac5f79f27c7754f8e37f81974fbc9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6130257722458923375
+    second: spine_fantastic_combo_04_-3952665624800795639_0
+  - first:
+      213: -4190189119779258239
+    second: spine_fantastic_combo_04_-3952665624800795639_1
+  - first:
+      213: 2350047372652416737
+    second: spine_fantastic_combo_04_-3952665624800795639_2
+  - first:
+      213: -1387040825664727099
+    second: spine_fantastic_combo_04_-3952665624800795639_3
+  - first:
+      213: 7003841154518031677
+    second: spine_fantastic_combo_04_-3952665624800795639_4
+  - first:
+      213: -2135129232462264219
+    second: spine_fantastic_combo_04_-3952665624800795639_5
+  - first:
+      213: -5694422447014275016
+    second: spine_fantastic_combo_04_-3952665624800795639_6
+  - first:
+      213: 4636741802599240388
+    second: spine_fantastic_combo_04_-3952665624800795639_7
+  - first:
+      213: -596426013218499017
+    second: spine_fantastic_combo_04_-3952665624800795639_8
+  - first:
+      213: 3091921345896979984
+    second: spine_fantastic_combo_04_-3952665624800795639_9
+  - first:
+      213: 4969848647811506508
+    second: spine_fantastic_combo_04_-3952665624800795639_10
+  - first:
+      213: 1880457920283025516
+    second: spine_fantastic_combo_04_-3952665624800795639_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 181
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6162c84bec031550800000000000000
+      internalID: 6130257722458923375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 786
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180c9d5323579d5c0800000000000000
+      internalID: -4190189119779258239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 804
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee894462ab0d9020800000000000000
+      internalID: 2350047372652416737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c71a49c7bd30cce0800000000000000
+      internalID: -1387040825664727099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 437
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d1f4e0c64a23160800000000000000
+      internalID: 7003841154518031677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 334
+        width: 69
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568c885864f7e52e0800000000000000
+      internalID: -2135129232462264219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83814bc64f859f0b0800000000000000
+      internalID: -5694422447014275016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 252
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2d12b5a14095040800000000000000
+      internalID: 4636741802599240388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 161
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7361f4373b119b7f0800000000000000
+      internalID: -596426013218499017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e13a71516b8ea20800000000000000
+      internalID: 3091921345896979984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 145
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41a248830378f440800000000000000
+      internalID: 4969848647811506508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spine_fantastic_combo_04_-3952665624800795639_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c602a81f38ab81a10800000000000000
+      internalID: 1880457920283025516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spine_fantastic_combo_04_-3952665624800795639_0: 6130257722458923375
+      spine_fantastic_combo_04_-3952665624800795639_1: -4190189119779258239
+      spine_fantastic_combo_04_-3952665624800795639_10: 4969848647811506508
+      spine_fantastic_combo_04_-3952665624800795639_11: 1880457920283025516
+      spine_fantastic_combo_04_-3952665624800795639_2: 2350047372652416737
+      spine_fantastic_combo_04_-3952665624800795639_3: -1387040825664727099
+      spine_fantastic_combo_04_-3952665624800795639_4: 7003841154518031677
+      spine_fantastic_combo_04_-3952665624800795639_5: -2135129232462264219
+      spine_fantastic_combo_04_-3952665624800795639_6: -5694422447014275016
+      spine_fantastic_combo_04_-3952665624800795639_7: 4636741802599240388
+      spine_fantastic_combo_04_-3952665624800795639_8: -596426013218499017
+      spine_fantastic_combo_04_-3952665624800795639_9: 3091921345896979984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

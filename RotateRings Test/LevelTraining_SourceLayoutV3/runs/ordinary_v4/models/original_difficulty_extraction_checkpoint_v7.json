@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "status": "FROZEN_DIFFICULTY_EXTRACTION_AND_HISTORICAL_JOIN",
+  "files": [
+    {
+      "path": "D:\\RotateRings\\Tools\\extract_original_difficulty_v7.py",
+      "sha256": "f1261e1de8a87d308b90bdcffc9c5d2e86b3926b248c8a93606b3d1469f8e18f"
+    },
+    {
+      "path": "D:\\RotateRings\\Tools\\test_extract_original_difficulty_v7.py",
+      "sha256": "4d4e58d33cb0b59057b1d9025dfe2a5bd0d485f8b8db2c80ed8e66a51e4d4908"
+    },
+    {
+      "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\tools\\extract_original_difficulty_v7.py",
+      "sha256": "f1261e1de8a87d308b90bdcffc9c5d2e86b3926b248c8a93606b3d1469f8e18f"
+    },
+    {
+      "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\tools\\test_extract_original_difficulty_v7.py",
+      "sha256": "4d4e58d33cb0b59057b1d9025dfe2a5bd0d485f8b8db2c80ed8e66a51e4d4908"
+    },
+    {
+      "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\original_default_difficulty_v7.json",
+      "sha256": "250e9da2477870aaee6a58b4707a2cb022f1856b64118452ad4ecf5dd42e730d"
+    },
+    {
+      "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\original_difficulty_historical_witness_join_v7.json",
+      "sha256": "3fac09abe81051e0a95d46ede11f0d3ccb3192a999e51ba55a9182692bdfc9d9"
+    },
+    {
+      "path": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\original_difficulty_extraction_v7_README.md",
+      "sha256": "e8e6e29a22326564517d41fc4894ec42e154c893203620e55c0e29130b1d7999"
+    },
+    {
+      "path": "D:\\RotateRings\\Research\\physics_v3\\apk_rules_current_checkpoint.md",
+      "sha256": "13ed9d47f18ccd4f3f7d6d7327f896154f72a380cb81f1f845acdd8503ba0c0b"
+    }
+  ],
+  "testCommand": "python -m unittest discover -s Tools -p test_extract_original_difficulty_v7.py -v",
+  "testsPassed": 2,
+  "generationFrozen": true,
+  "acceptedGeneratedCount": 0
+}

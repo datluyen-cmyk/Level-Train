@@ -1,0 +1,34 @@
+[
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Audio\\rr_bgm_level2.wav",
+    "name": "rr_bgm_level2",
+    "bundle": "defaultpackage_assets_02_res_art_audio_modules_rotate_rings_audio_task_1743b67c_variant_3bd53e32_assets_5374873c5a285899db34b3551de49162.bundle",
+    "path_id": 5978566804553752656,
+    "bundle_sha256": "f0495c19b7ba1b98ac4cf36409caae6aa8f994c11c7bf77a531e46518cad4de7",
+    "source_member": "rr_bgm_level2.wav"
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Audio\\rr_sfx_wood_break_1.wav",
+    "name": "rr_sfx_wood_break_1",
+    "bundle": "defaultpackage_assets_02_res_art_audio_modules_rotate_rings_audio_task_1743b67c_variant_72ecdd0b_assets_0c35629c9f05fdaa4ef194f397dd2d09.bundle",
+    "path_id": -6969605648396443093,
+    "bundle_sha256": "0afaeec76095e2bd4afdb2e378abaf6eb20f7d57b4140959805dcbbf77fa372b",
+    "source_member": "rr_sfx_wood_break_1.wav"
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Audio\\rr_sfx_rock_break_1.wav",
+    "name": "rr_sfx_rock_break_1",
+    "bundle": "defaultpackage_assets_02_res_art_audio_modules_rotate_rings_audio_task_1743b67c_variant_72ecdd0b_assets_0c35629c9f05fdaa4ef194f397dd2d09.bundle",
+    "path_id": -4269593619829102436,
+    "bundle_sha256": "0afaeec76095e2bd4afdb2e378abaf6eb20f7d57b4140959805dcbbf77fa372b",
+    "source_member": "rr_sfx_rock_break_1.wav"
+  },
+  {
+    "file": "RotateRings Test\\Assets\\RotateRings\\Audio\\rr_sfx_jelly_break_1.wav",
+    "name": "rr_sfx_jelly_break_1",
+    "bundle": "defaultpackage_assets_02_res_art_audio_modules_rotate_rings_audio_task_1743b67c_variant_7fba5b48_assets_36729741da2feaf49f869db425829d11.bundle",
+    "path_id": -8198348434833350968,
+    "bundle_sha256": "38be60c4a911afea4f427fe81e31747279292286eba701a2c49300d06b45efb3",
+    "source_member": "rr_sfx_jelly_break_1.wav"
+  }
+]

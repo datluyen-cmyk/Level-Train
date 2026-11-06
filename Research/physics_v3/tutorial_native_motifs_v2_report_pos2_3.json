@@ -1,0 +1,1026 @@
+{
+    "schemaVersion": 3,
+    "status": "complete",
+    "semantics": "production Physics2D collision/bomb components; bounded action search; solved rows are action witnesses, not optimality or human-difficulty claims; failed search is unknown",
+    "packPath": "D:\\RotateRings\\Research\\physics_v3\\tutorial_native_motifs_v2_input.json",
+    "templatesPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json",
+    "maxStates": 256,
+    "wallTimeBudgetMs": 3000,
+    "complete": true,
+    "completedLevels": 0,
+    "totalLevels": 0,
+    "inputHash": "f4fa925cb9c74ed4a760397354b0d709da8ff0e25768d1261ba8fba84477466d",
+    "rulesHash": "f6d0a19080603c16b88893f018f1eb5295999c55c61703c39b2b348047716de8",
+    "unityVersion": "6000.0.78f1",
+    "fixedDeltaTime": 0.01666666753590107,
+    "levels": [
+        {
+            "sourceId": 4010351,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 30,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": -170.0000457763672,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 144.5697021484375,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:3:-170.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:2:144.57:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=3 kind=rotate d=-170.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=2 kind=rotate d=144.57 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010310,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 26,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:3:180.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:2:180.00:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=3 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=2 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010359,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 13,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:-90.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:1:-90.00:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-90.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=1 kind=rotate d=-90.00 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010356,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 26,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -149.99188232421876,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": -120.00814819335938,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:-149.99:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:2:-120.01:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-149.99 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=2 kind=rotate d=-120.01 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010349,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 20,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:180.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:1:-90.00:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=1 kind=rotate d=-90.00 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010299,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 16,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -59.99981689453125,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": -119.99993896484375,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:-60.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:2:-120.00:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-60.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=2 kind=rotate d=-120.00 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010350,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 25,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -155.77748107910157,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": -123.34083557128906,
+                    "targetSlide": 0.0,
+                    "blocked": true,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:-155.78:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:2:-123.34:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-155.78 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=2 kind=rotate d=-123.34 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010363,
+            "sourcePosition": 2,
+            "partCount": 3,
+            "exploredStates": 2,
+            "generatedActions": 2,
+            "replayedActions": 2,
+            "moveCount": 2,
+            "maximumRemovedParts": 3,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 2,
+            "searchElapsedMs": 18,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -112.00006103515625,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -134.99993896484376,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3
+            ],
+            "bindingChangingTransitions": 2,
+            "attemptedActions": 2,
+            "appliedActions": 2,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/2 action=rotate:1:-112.00:0.000 blocked=False to=1/1",
+                "from=1/1 action=rotate:1:-135.00:0.000 blocked=False to=3/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-112.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=1",
+                "applied part=1 kind=rotate d=-135.00 slide=0.000 blocked=False blocker=-1: removed=3 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010369,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 32,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:2:90.00:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:4:180.00:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:3:180.00:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=2 kind=rotate d=90.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=4 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=3 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010368,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 32,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -156.83900451660157,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 156.8389892578125,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": 99.99999237060547,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:1:-156.84:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:2:156.84:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:4:100.00:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-156.84 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=2 kind=rotate d=156.84 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=4 kind=rotate d=100.00 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010373,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 38,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 2,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": -179.99998474121095,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": 89.99999237060547,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:2:180.00:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:3:-180.00:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:4:90.00:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=2 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=3 kind=rotate d=-180.00 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=4 kind=rotate d=90.00 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010371,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 36,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": -157.6426239013672,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": -165.36769104003907,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": -113.19842529296875,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:1:-157.64:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:4:-165.37:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:4:-113.20:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=-157.64 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=4 kind=rotate d=-165.37 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=4 kind=rotate d=-113.20 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010372,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 37,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": -90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:3:180.00:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:4:180.00:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:4:-90.00:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=3 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=4 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=4 kind=rotate d=-90.00 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        },
+        {
+            "sourceId": 4010370,
+            "sourcePosition": 3,
+            "partCount": 4,
+            "exploredStates": 3,
+            "generatedActions": 3,
+            "replayedActions": 3,
+            "moveCount": 3,
+            "maximumRemovedParts": 4,
+            "bestRemainingRootCount": 0,
+            "bestActiveBindings": 0,
+            "maximumFrontier": 3,
+            "searchElapsedMs": 32,
+            "status": "solved",
+            "proof": "goal reached and replayed using production collision/bomb mechanics",
+            "error": "",
+            "validationError": "",
+            "bestStateSummary": "travel=0.0; 1=removed; 2=removed; 3=removed; 4=removed",
+            "goal": true,
+            "replayGoal": true,
+            "actions": [
+                {
+                    "kind": "rotate",
+                    "part": 1,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 3,
+                    "delta": 180.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                },
+                {
+                    "kind": "rotate",
+                    "part": 4,
+                    "delta": -90.0,
+                    "targetSlide": 0.0,
+                    "blocked": false,
+                    "guided": false,
+                    "blockerOwner": -1,
+                    "quickRelease": false
+                }
+            ],
+            "finalRemoved": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bestRemovedParts": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "bindingChangingTransitions": 3,
+            "attemptedActions": 3,
+            "appliedActions": 3,
+            "noOpActions": 0,
+            "rejectedInputActions": 0,
+            "transitionTrace": [
+                "from=0/3 action=rotate:1:180.00:0.000 blocked=False to=1/2",
+                "from=1/2 action=rotate:3:180.00:0.000 blocked=False to=2/1",
+                "from=2/1 action=rotate:4:-90.00:0.000 blocked=False to=4/0"
+            ],
+            "actionTrace": [
+                "applied part=1 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=1 bindings=2",
+                "applied part=3 kind=rotate d=180.00 slide=0.000 blocked=False blocker=-1: removed=2 bindings=1",
+                "applied part=4 kind=rotate d=-90.00 slide=0.000 blocked=False blocker=-1: removed=4 bindings=0"
+            ]
+        }
+    ]
+}

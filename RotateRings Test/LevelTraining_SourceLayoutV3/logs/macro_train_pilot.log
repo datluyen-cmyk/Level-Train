@@ -1,0 +1,27 @@
+{
+  "sourceCount": 500,
+  "tileCount": 4232,
+  "macroRelationCount": 8452,
+  "summary": {
+    "nativeMacroGeometry": {
+      "levelMeanNLL": 49.432292444874065,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.0479699992589806
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 48.601390434400045,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.0605807328438646
+    }
+  }
+}
+PROPOSAL 1 parts 6 families 2
+PROPOSAL 2 parts 28 families 6
+PROPOSAL 3 parts 25 families 3
+PROPOSAL 4 parts 26 families 8
+PROPOSAL 5 parts 39 families 8
+PROPOSAL 6 parts 30 families 5
+PROPOSAL 7 parts 24 families 6
+PROPOSAL 8 parts 27 families 11
+PROPOSAL 9 parts 31 families 7
+PROPOSAL 10 parts 36 families 4
+PROPOSAL 11 parts 44 families 6
+PROPOSAL 12 parts 36 families 7

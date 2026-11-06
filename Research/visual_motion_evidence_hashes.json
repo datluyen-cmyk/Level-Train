@@ -1,0 +1,24 @@
+{
+  "reportSha256": "194544ae1b8afc43a49f3653a68a9280c5f15520c03e880028ccc5e3827523f7",
+  "sources": {
+    "RingObject.cs": "e1f0243d86edaa6944e8db7e3e9f7b2c9a2378590e2a91064968550cc30c3e23",
+    "DragRotateObject.cs": "34e11269ed16cb7954428d692fd5ee515f52a8ba83853fa8d219aaab54eea9c9",
+    "RingLevelConfig.cs": "92446a3a58991c3357754609eaa8559cbb693c77000d1b10ffffc290298842b8",
+    "RingSolveSuccessService.cs": "65766aae18c37e4f7bffc9b01a19a40b7eaf5e3dd17cee974a39c0b0ba5419b0",
+    "RingRotationFeelApplicator.cs": "6af168bb2d58e1052f2d179101da0513f8993f610c67e58204e0cf7c5862df70",
+    "RingRotationFeelResolver.cs": "96b6a2278342ed5b0aa89db9acecbfd8ab2ae0e13aadf527556d1be1d064c4a7",
+    "RingLockShakeService.cs": "1b1d99eb670329e1fd25c1d88c0ec6c1961aec7a7c9903edd40c0acc2e6581c3",
+    "RotateRings.GamePlay.Services/RotateRingLevelEnterService.cs": "783c1d16e06befc44bc8de5c77fc1c6ae2d318510dce34ef2dd9fad1a2508f4e",
+    "RotateRings.GamePlay.Services/DragDefaultLimitStyleHandler.cs": "be5e014911454b0d157c9257e745d1fa3cc39e9e944087a0f6f54b43119c9afa",
+    "RotateRings.GamePlay.Services/SolvableSolverBase.cs": "751c97ff44b7726b591ccea5db43837b99dab57230d87bae878dd084982f69dc",
+    "RotateRings.GamePlay.Services/RotateCameraAdaptation.cs": "7197bdb6352bc49bde35883baf58b996f23c02e785fb65bc446600ac33ab7a31",
+    "RotateRings.GamePlay.Services/LevelVictorySettlementService.cs": "2908b0bc78eb166c0ed91e3fa507a90aec1b1bf84f0b4ec5b1bbcfe6ec05250f",
+    "RotateRings.GamePlay.Services/RotateRingOperateHighlight.cs": "c618f2d688d2eaff0ec0b5f8643a7fd16faea86aa53d2d6aa2a038f1a4fe1253",
+    "RotateRings.GamePlay.Services/RotateRingBackgroundAdaptation.cs": "f110aca33f814dc9f06b3b5eee2d0799abc071cb341f7c08a9ae7df99a9a757d"
+  },
+  "serializedEvidence": {
+    "visual_scene_evidence.json": "cde5d4f92c9199be0cf76abd0693abe324fedbabe057473a210ab935b1e808b3",
+    "visual_ui_animation_curves.json": "0c265b9579912af242317705b336bd2852567cfd58d5c482c7e26175cf71a3d7",
+    "shaders/serialized_motion_config_overrides.json": "b05dafe264baf143a8fe2a3a5adaf21da4199f171014f175505f57001a0f0ff0"
+  }
+}

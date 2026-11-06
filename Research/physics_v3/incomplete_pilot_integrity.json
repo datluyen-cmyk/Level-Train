@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "levelId": 3000001,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 2,
+      "nativeImports": 1,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000002,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 29,
+      "nativeImports": 9,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000003,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 20,
+      "nativeImports": 5,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000004,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 25,
+      "nativeImports": 10,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000005,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 11,
+      "nativeImports": 3,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000006,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 28,
+      "nativeImports": 9,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000007,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 21,
+      "nativeImports": 7,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000008,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 26,
+      "nativeImports": 9,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000009,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 31,
+      "nativeImports": 9,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000010,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 36,
+      "nativeImports": 11,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000011,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 40,
+      "nativeImports": 13,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    },
+    {
+      "levelId": 3000012,
+      "nativeAssemblyIntegrityPassed": true,
+      "nativeImportedRoots": 32,
+      "nativeImports": 12,
+      "errors": [],
+      "scope": "Source atomic asset, rigid macro pose, exact relation and guide-closure certificate; no collision, solution, novelty or difficulty claim."
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\batches\\incomplete_wholefield_pilot\\proposals.json": "b55082b405fa1abe3ba83226c68c274a3f81b615829d5a414db09a67c92a6347",
+    "Research\\physics_v3\\full500\\source_parity_pack.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "Research\\physics_v3\\full500\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "D:\\RotateRings\\Tools\\assembly_integrity_audit_v3.py": "327e743935985805f3c2801c75cfde797300f1400f34ffabee680adcb65d8c9e"
+  }
+}

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 0201cec859eda7a46926961f8947d0ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1614332823890635444
+    second: CycleFragmentAtlas_0
+  - first:
+      213: -7841197826979353796
+    second: CycleFragmentAtlas_1
+  - first:
+      213: 7698526187829242887
+    second: CycleFragmentAtlas_2
+  - first:
+      213: 1192780303611814226
+    second: CycleFragmentAtlas_3
+  - first:
+      213: -9048606209273888731
+    second: CycleFragmentAtlas_4
+  - first:
+      213: 4900982391262796768
+    second: CycleFragmentAtlas_5
+  - first:
+      213: 7211611204548223873
+    second: CycleFragmentAtlas_6
+  - first:
+      213: -2593518592409022035
+    second: CycleFragmentAtlas_7
+  - first:
+      213: -387799165512259960
+    second: CycleFragmentAtlas_8
+  - first:
+      213: 3363826826679461784
+    second: CycleFragmentAtlas_9
+  - first:
+      213: 4180169925971313497
+    second: CycleFragmentAtlas_10
+  - first:
+      213: -1790224008690359188
+    second: CycleFragmentAtlas_11
+  - first:
+      213: 6667689115293173100
+    second: CycleFragmentAtlas_12
+  - first:
+      213: 3142701192510509818
+    second: CycleFragmentAtlas_13
+  - first:
+      213: 6352223127842471382
+    second: CycleFragmentAtlas_14
+  - first:
+      213: 2576247248257642837
+    second: CycleFragmentAtlas_15
+  - first:
+      213: 9065669590118139197
+    second: CycleFragmentAtlas_16
+  - first:
+      213: -7080028025748654328
+    second: CycleFragmentAtlas_17
+  - first:
+      213: 4046376011488634324
+    second: CycleFragmentAtlas_18
+  - first:
+      213: 4683159763427704989
+    second: CycleFragmentAtlas_19
+  - first:
+      213: -2682220165857450124
+    second: CycleFragmentAtlas_20
+  - first:
+      213: 8021959197206685702
+    second: CycleFragmentAtlas_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba21457623476610800000000000000
+      internalID: 1614332823890635444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 123
+        width: 161
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ba45dee187e2390800000000000000
+      internalID: -7841197826979353796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 247
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70caa9f77c8a6da60800000000000000
+      internalID: 7698526187829242887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 251
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2516dd3dd5b9d8010800000000000000
+      internalID: 1192780303611814226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 235
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52006df1894ec6280800000000000000
+      internalID: -9048606209273888731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 240
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebd9a1b489c30440800000000000000
+      internalID: 4900982391262796768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 231
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183e2598e2ac41460800000000000000
+      internalID: 7211611204548223873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 228
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1d61dc498f10cd0800000000000000
+      internalID: -2593518592409022035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886e27fa6b24e9af0800000000000000
+      internalID: -387799165512259960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897a8223da6beae20800000000000000
+      internalID: 3363826826679461784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 101
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9538a427662f20a30800000000000000
+      internalID: 4180169925971313497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 150
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a2a5cfb8d727e0800000000000000
+      internalID: -1790224008690359188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 120
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c9c56ce3688c50800000000000000
+      internalID: 6667689115293173100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af219c6751e1d9b20800000000000000
+      internalID: 3142701192510509818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 96
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd321d7741a72850800000000000000
+      internalID: 6352223127842471382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55179f5093ba0c320800000000000000
+      internalID: 2576247248257642837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d358d02d57abfcd70800000000000000
+      internalID: 9065669590118139197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 17
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807f07da500bebd90800000000000000
+      internalID: -7080028025748654328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 29
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d521783b8d972830800000000000000
+      internalID: 4046376011488634324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 19
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90c28d0efcedf040800000000000000
+      internalID: 4683159763427704989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4776dac58f6d6cad0800000000000000
+      internalID: -2682220165857450124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CycleFragmentAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608ae204369b35f60800000000000000
+      internalID: 8021959197206685702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CycleFragmentAtlas_0: 1614332823890635444
+      CycleFragmentAtlas_1: -7841197826979353796
+      CycleFragmentAtlas_10: 4180169925971313497
+      CycleFragmentAtlas_11: -1790224008690359188
+      CycleFragmentAtlas_12: 6667689115293173100
+      CycleFragmentAtlas_13: 3142701192510509818
+      CycleFragmentAtlas_14: 6352223127842471382
+      CycleFragmentAtlas_15: 2576247248257642837
+      CycleFragmentAtlas_16: 9065669590118139197
+      CycleFragmentAtlas_17: -7080028025748654328
+      CycleFragmentAtlas_18: 4046376011488634324
+      CycleFragmentAtlas_19: 4683159763427704989
+      CycleFragmentAtlas_2: 7698526187829242887
+      CycleFragmentAtlas_20: -2682220165857450124
+      CycleFragmentAtlas_21: 8021959197206685702
+      CycleFragmentAtlas_3: 1192780303611814226
+      CycleFragmentAtlas_4: -9048606209273888731
+      CycleFragmentAtlas_5: 4900982391262796768
+      CycleFragmentAtlas_6: 7211611204548223873
+      CycleFragmentAtlas_7: -2593518592409022035
+      CycleFragmentAtlas_8: -387799165512259960
+      CycleFragmentAtlas_9: 3363826826679461784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+{
+  "constructed": 354,
+  "allPreliminaryGatesPassed": 0,
+  "rejectionCounts": {
+    "localRootScale": 229,
+    "localMechanicMix": 147,
+    "localNativeExtent": 320,
+    "localNativeStrokeCoverage": 265,
+    "localAuthoredRelationDensity": 261,
+    "nativeRawGeometrySeam": 333,
+    "removedNativeMechanicFamily": 104
+  }
+}

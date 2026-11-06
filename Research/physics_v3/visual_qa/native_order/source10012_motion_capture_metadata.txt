@@ -1,0 +1,1 @@
+source=10012 position=7 movedPart=1 actualDelta=5.000 physicalBlocked=False snapshots=camera-only WorldView RenderTexture; not full Game View/HUD

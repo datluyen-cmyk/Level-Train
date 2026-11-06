@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "revision": "preview-v3-six-native-replayed",
+  "packPath": "preview_v3.json",
+  "templatesPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source_templates.json",
+  "difficultyComparisonStatus": "UNMEASURED",
+  "requestedRelativeDifficultyTolerance": 0.15,
+  "acceptedToward300": 0,
+  "samples": [
+    {
+      "id": 9600003,
+      "title": "Thu 1 - Vong va thanh",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    },
+    {
+      "id": 9700005,
+      "title": "Thu 2 - Chuoi vong",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    },
+    {
+      "id": 9600002,
+      "title": "Thu 3 - Nhanh vong",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    },
+    {
+      "id": 9700002,
+      "title": "Thu 4 - Chot va thanh",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    },
+    {
+      "id": 9700003,
+      "title": "Thu 5 - Nhanh va thanh L",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    },
+    {
+      "id": 9700004,
+      "title": "Thu 6 - Vong va thanh L",
+      "nativeReplayVerified": true,
+      "difficultyComparison": "UNMEASURED"
+    }
+  ]
+}

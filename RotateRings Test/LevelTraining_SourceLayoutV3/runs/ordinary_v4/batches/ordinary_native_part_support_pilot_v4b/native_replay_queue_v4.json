@@ -1,0 +1,1037 @@
+{
+  "status": "PRECISION_SCREENED_STRUCTURAL_PRECHECK_ONLY_PENDING_VISUAL_CURRENT_REPLAY_DIFFICULTY",
+  "acceptedCount": 0,
+  "doNotInterruptActiveBaseline": true,
+  "candidatePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\ordinary_native_part_support_pilot_v4b\\proposals_precision_screened.json",
+  "candidatePackSha256": "ea5039c38413e43ffe27c2a71c9cf85a6661407d997e6b7f58f772b7fa7563f9",
+  "templatePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source_templates.json",
+  "templatePackSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+  "sourcePackPath": "D:\\RotateRings\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source500_native.json",
+  "sourcePackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+  "candidateCount": 101,
+  "referenceCounts": {
+    "18": 9,
+    "23": 7,
+    "24": 6,
+    "25": 15,
+    "32": 4,
+    "33": 11,
+    "35": 13,
+    "36": 7,
+    "41": 14,
+    "42": 15
+  },
+  "levels": [
+    {
+      "candidateId": 8218006,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": -363.69005954388774,
+      "localProposalNLL": 1.8462984412712524
+    },
+    {
+      "candidateId": 8218001,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        2
+      ],
+      "angleDeltaDegrees": 9.956586119481265,
+      "localProposalNLL": 2.1364734177864797
+    },
+    {
+      "candidateId": 8218005,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": -9.999994040545843,
+      "localProposalNLL": 2.1922681080156954
+    },
+    {
+      "candidateId": 8218007,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.3027044514273283
+    },
+    {
+      "candidateId": 8218003,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.919253481525507
+    },
+    {
+      "candidateId": 8218008,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": -183.06996430869316,
+      "localProposalNLL": 4.651876675159866
+    },
+    {
+      "candidateId": 8218000,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8218002,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8218004,
+      "sourcePosition": 18,
+      "referenceSourceId": "70010",
+      "changedRootIds": [
+        13
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8223005,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        7
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 0.4973681488595602
+    },
+    {
+      "candidateId": 8223001,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.5490055229556294
+    },
+    {
+      "candidateId": 8223003,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        5
+      ],
+      "angleDeltaDegrees": 251.54883047386758,
+      "localProposalNLL": 2.2030054801642827
+    },
+    {
+      "candidateId": 8223006,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        15
+      ],
+      "angleDeltaDegrees": -78.31371326271343,
+      "localProposalNLL": 4.502807598338483
+    },
+    {
+      "candidateId": 8223002,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 8.6501548171686
+    },
+    {
+      "candidateId": 8223004,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        21
+      ],
+      "angleDeltaDegrees": 194.9999857810364,
+      "localProposalNLL": 16.34966883523648
+    },
+    {
+      "candidateId": 8223000,
+      "sourcePosition": 23,
+      "referenceSourceId": "10070",
+      "changedRootIds": [
+        17
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8224001,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -329.9999848734693,
+      "localProposalNLL": 1.9997309695053584
+    },
+    {
+      "candidateId": 8224004,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": 60.0000615194174,
+      "localProposalNLL": 2.109563744463643
+    },
+    {
+      "candidateId": 8224005,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        13
+      ],
+      "angleDeltaDegrees": 134.99998883003025,
+      "localProposalNLL": 3.895322134345912
+    },
+    {
+      "candidateId": 8224003,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": 180.0000153963888,
+      "localProposalNLL": 13.365025533340672
+    },
+    {
+      "candidateId": 8224000,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8224002,
+      "sourcePosition": 24,
+      "referenceSourceId": "10068",
+      "changedRootIds": [
+        7
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8225006,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        22
+      ],
+      "angleDeltaDegrees": -337.6135503139188,
+      "localProposalNLL": 2.1271693497342286
+    },
+    {
+      "candidateId": 8225005,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        23
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.580761598157217
+    },
+    {
+      "candidateId": 8225001,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        7
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.659489999196223
+    },
+    {
+      "candidateId": 8225003,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": -66.99998408782477,
+      "localProposalNLL": 2.676990491418422
+    },
+    {
+      "candidateId": 8225008,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": -84.9999993046574,
+      "localProposalNLL": 2.831064007380761
+    },
+    {
+      "candidateId": 8225012,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -179.9999991216705,
+      "localProposalNLL": 2.9331069996145978
+    },
+    {
+      "candidateId": 8225010,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        6
+      ],
+      "angleDeltaDegrees": -394.2932614340479,
+      "localProposalNLL": 2.9898128771051584
+    },
+    {
+      "candidateId": 8225011,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        3
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.0887099230526376
+    },
+    {
+      "candidateId": 8225000,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 4.133535750104379
+    },
+    {
+      "candidateId": 8225002,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        5
+      ],
+      "angleDeltaDegrees": 64.41790925429129,
+      "localProposalNLL": 5.679934600392399
+    },
+    {
+      "candidateId": 8225013,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 5.802241044878166
+    },
+    {
+      "candidateId": 8225004,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        15
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8225007,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        5
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8225009,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        15
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8225014,
+      "sourcePosition": 25,
+      "referenceSourceId": "10069",
+      "changedRootIds": [
+        22
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8232002,
+      "sourcePosition": 32,
+      "referenceSourceId": "10048",
+      "changedRootIds": [
+        22
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.4304332362700563
+    },
+    {
+      "candidateId": 8232001,
+      "sourcePosition": 32,
+      "referenceSourceId": "10048",
+      "changedRootIds": [
+        13
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.1710084529167983
+    },
+    {
+      "candidateId": 8232003,
+      "sourcePosition": 32,
+      "referenceSourceId": "10048",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 4.362112700667199
+    },
+    {
+      "candidateId": 8232000,
+      "sourcePosition": 32,
+      "referenceSourceId": "10048",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8233003,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        26
+      ],
+      "angleDeltaDegrees": -4.999988664593474,
+      "localProposalNLL": 1.1821584604032829
+    },
+    {
+      "candidateId": 8233010,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.4180428540218215
+    },
+    {
+      "candidateId": 8233007,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 383.59453468928507,
+      "localProposalNLL": 2.084634237068512
+    },
+    {
+      "candidateId": 8233006,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.1033047294610543
+    },
+    {
+      "candidateId": 8233008,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 384.99999852912276,
+      "localProposalNLL": 2.1126026705756824
+    },
+    {
+      "candidateId": 8233005,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -389.99999617693044,
+      "localProposalNLL": 2.1349135385546614
+    },
+    {
+      "candidateId": 8233009,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        22
+      ],
+      "angleDeltaDegrees": 68.55967827128498,
+      "localProposalNLL": 4.137670390092764
+    },
+    {
+      "candidateId": 8233004,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        25
+      ],
+      "angleDeltaDegrees": -114.99999212825281,
+      "localProposalNLL": 6.71559895573175
+    },
+    {
+      "candidateId": 8233000,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8233001,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8233002,
+      "sourcePosition": 33,
+      "referenceSourceId": "10054",
+      "changedRootIds": [
+        25
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8235010,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        3
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.9138664170807855
+    },
+    {
+      "candidateId": 8235003,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        19
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.0168536298616515
+    },
+    {
+      "candidateId": 8235002,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        6
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.7317954197268506
+    },
+    {
+      "candidateId": 8235007,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        2
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.9805560022480266
+    },
+    {
+      "candidateId": 8235009,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.3853728976210005
+    },
+    {
+      "candidateId": 8235005,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        6
+      ],
+      "angleDeltaDegrees": -60.00000135745367,
+      "localProposalNLL": 3.5922322973141965
+    },
+    {
+      "candidateId": 8235012,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -181.76135877877462,
+      "localProposalNLL": 3.7320854430048747
+    },
+    {
+      "candidateId": 8235008,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -155.54765750117122,
+      "localProposalNLL": 3.985021026246375
+    },
+    {
+      "candidateId": 8235004,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": -79.99998421200539,
+      "localProposalNLL": 4.110088846959917
+    },
+    {
+      "candidateId": 8235000,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        25
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8235001,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8235006,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        5
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8235011,
+      "sourcePosition": 35,
+      "referenceSourceId": "10061",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8236004,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        18
+      ],
+      "angleDeltaDegrees": -359.9999692072224,
+      "localProposalNLL": 1.5778319909873
+    },
+    {
+      "candidateId": 8236003,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.8740587346133901
+    },
+    {
+      "candidateId": 8236006,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -179.99998670483393,
+      "localProposalNLL": 2.5441286763337656
+    },
+    {
+      "candidateId": 8236002,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        5
+      ],
+      "angleDeltaDegrees": 320.00000733744935,
+      "localProposalNLL": 2.5720617454305357
+    },
+    {
+      "candidateId": 8236000,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        7
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.384367393169107
+    },
+    {
+      "candidateId": 8236001,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8236005,
+      "sourcePosition": 36,
+      "referenceSourceId": "71001",
+      "changedRootIds": [
+        2
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8241003,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        14
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.2174044989196102
+    },
+    {
+      "candidateId": 8241011,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        8
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 1.6788811793055887
+    },
+    {
+      "candidateId": 8241002,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        13
+      ],
+      "angleDeltaDegrees": -340.00000146431785,
+      "localProposalNLL": 1.7215900734365452
+    },
+    {
+      "candidateId": 8241007,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        23
+      ],
+      "angleDeltaDegrees": -89.99998460361121,
+      "localProposalNLL": 1.7973171560248127
+    },
+    {
+      "candidateId": 8241005,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        14
+      ],
+      "angleDeltaDegrees": 75.00000652076925,
+      "localProposalNLL": 2.0623747936143353
+    },
+    {
+      "candidateId": 8241008,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        14
+      ],
+      "angleDeltaDegrees": 54.99999741233269,
+      "localProposalNLL": 2.540709285351376
+    },
+    {
+      "candidateId": 8241013,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        12
+      ],
+      "angleDeltaDegrees": -63.66868471356737,
+      "localProposalNLL": 2.7470385368580876
+    },
+    {
+      "candidateId": 8241000,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 420.00000842738416,
+      "localProposalNLL": 2.9342096949720373
+    },
+    {
+      "candidateId": 8241001,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        31
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.605344844401184
+    },
+    {
+      "candidateId": 8241004,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        23
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 3.659095678968268
+    },
+    {
+      "candidateId": 8241006,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        29
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8241009,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        23
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8241010,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        12
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8241012,
+      "sourcePosition": 41,
+      "referenceSourceId": "10039",
+      "changedRootIds": [
+        11
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8242013,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -344.999988002179,
+      "localProposalNLL": 1.2915940834472939
+    },
+    {
+      "candidateId": 8242009,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        14
+      ],
+      "angleDeltaDegrees": -348.5806435370554,
+      "localProposalNLL": 1.4941588557179055
+    },
+    {
+      "candidateId": 8242001,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -114.9890843082874,
+      "localProposalNLL": 1.9160800107823635
+    },
+    {
+      "candidateId": 8242003,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        12
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.2376887782207397
+    },
+    {
+      "candidateId": 8242007,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 369.999993283672,
+      "localProposalNLL": 2.3321605800741816
+    },
+    {
+      "candidateId": 8242012,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": -54.98916525320041,
+      "localProposalNLL": 2.3828370610348637
+    },
+    {
+      "candidateId": 8242002,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 2.454203135571949
+    },
+    {
+      "candidateId": 8242006,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -29.999979920296596,
+      "localProposalNLL": 3.1552537749229352
+    },
+    {
+      "candidateId": 8242004,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -260.00000084901785,
+      "localProposalNLL": 3.373201443463357
+    },
+    {
+      "candidateId": 8242014,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        3
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 4.144340259062299
+    },
+    {
+      "candidateId": 8242000,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        2
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": 4.173483226370713
+    },
+    {
+      "candidateId": 8242010,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        4
+      ],
+      "angleDeltaDegrees": -55.00000139204337,
+      "localProposalNLL": 4.2308986437873735
+    },
+    {
+      "candidateId": 8242008,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        9
+      ],
+      "angleDeltaDegrees": 219.9999860307696,
+      "localProposalNLL": 7.849965650679662
+    },
+    {
+      "candidateId": 8242005,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        10
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    },
+    {
+      "candidateId": 8242011,
+      "sourcePosition": 42,
+      "referenceSourceId": "10035",
+      "changedRootIds": [
+        17
+      ],
+      "angleDeltaDegrees": 0.0,
+      "localProposalNLL": null
+    }
+  ],
+  "limits": "All101 differ in initial native physical/input/state/relation semantics beyond precision. This is not a native solve, difficulty, player action or acceptance label. One complete native part per proposal; framework centers unchanged."
+}

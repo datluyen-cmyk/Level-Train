@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "originalsChecked": 500,
+  "missingOrHashMismatchedIds": [],
+  "method": "SHA256 every normalized source rawPath against immutable source scene JSON"
+}

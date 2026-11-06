@@ -1,0 +1,4 @@
+REWRITE 26 succeeded False attempts 0 rejections {}
+REWRITE 51 succeeded False attempts 0 rejections {}
+REWRITE 126 succeeded False attempts 128 rejections {'localNeighborhoodScaleMismatch': 112, 'newNativeGeometrySeamConflict': 15, 'localMechanicMixMismatch': 1}
+REWRITE 251 succeeded False attempts 128 rejections {'localNeighborhoodScaleMismatch': 85, 'localMechanicMixMismatch': 9, 'newNativeGeometrySeamConflict': 32, 'removedNativeMechanicFamily': 2}

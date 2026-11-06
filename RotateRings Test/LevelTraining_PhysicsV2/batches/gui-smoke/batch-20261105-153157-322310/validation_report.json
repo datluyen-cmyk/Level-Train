@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "generatedCount": 1,
+  "requestedCount": 1,
+  "accepted": 1,
+  "requested": 1,
+  "attempts": 2,
+  "rejections": {
+    "canonical duplicate": 1
+  },
+  "seconds": 1.8082237243652344,
+  "sourceCount": 500,
+  "templatePool": 369,
+  "criteria": {
+    "requestedCount": 300,
+    "sourceCountMinimum": 500,
+    "maxAttemptsPerLevel": 250,
+    "maximumParts": 84,
+    "maximumSweepStepDegrees": 0.5,
+    "initialHardOverlapAllowed": false,
+    "templateInventoryMustMatch": true,
+    "canonicalDuplicatesAllowed": false,
+    "nativeUnmodeledMechanics": "reject before labeling",
+    "nearCopyDistance": 0.1,
+    "computerScoreRelativeTolerance": 0.35,
+    "minimumParts": 2,
+    "blockNewUnboundContacts": true,
+    "blockCrossingPinSensors": true
+  },
+  "inputHashes": {
+    "adapters\\rotate_rings_physics_v2.py": "fc4b7c096334efa50e24e5d922fa195ebf10767ae0baa0c3cc6d35aa4d41cc85",
+    "corpus.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "references.json": "ef3499a775302889589c147763833099feedd684074f69bcfaa0d5513cabb213",
+    "templates.json": "12bef8bac58a879b05a4815cd73186d5e408dd7380f4641d952d820e3f9f2095",
+    "models\\proposal.joblib": "65af5914457a93de26a434e8a387fad49d364e04ac2243bf053e79e284a7e9c7",
+    "models\\difficulty.joblib": "29a3447e4b9eaee4294b3053937cccacd607341fbc48b672814d986486e06742",
+    "level_training.json": "449a7facd9ef8c77e0a69153196904fcb968d85e8440f6ad54f7efa67c372072",
+    "tools\\train_native_physics.py": "fb28bfe0869f94c41f20bdde603d3107732c76d14fbc938f0694bb5440049fdd",
+    "tools/refit_saved_labels.py": "ec1b4a0f624f89c0c95c9e9227ae82e0c41a7d641628ac9bdb1383257846b400",
+    "model_validation.json": "ba168b21fcac9cb77fae10f2e1fe512b45474cc4fbfec118fdbcc62d5959421f",
+    "tools/generate_batch.py": "b1a09e34a6ac21b8881bce5fcdf9483a4a863825e3a20e5e321083e67ada70d8",
+    "models/difficulty_extra_trees.joblib": "cd9d2a15dedc89f055c3bda7cfd0a332ecac9fd596d15b9a4138f09b2f42c6d8"
+  },
+  "exclusionPacks": [
+    "D:\\RotateRings\\RotateRings Test\\LevelTraining_PhysicsV2\\batches\\final-300\\generated_levels.json"
+  ],
+  "packSha256": "52fbbe6a8f2bde06853972796b28392944680e701107365cb44b74a8710c8f9c",
+  "limits": "ring-only,90-degree physical gap, radius1.75, width.5, 0..3 outer TBar pins, source shortstem<=1.6. Straight pulls and all unimplemented mechanics explicitly excluded. Difficulty/fun equivalence remains unmeasured."
+}

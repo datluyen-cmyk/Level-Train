@@ -1,0 +1,408 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "levelId": 7000001,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 5,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            1,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.701410503643262
+        },
+        {
+          "owners": [
+            2,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 741,
+          "measuredPoseResidualL2": 0.8323295605550136
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 608,
+          "measuredPoseResidualL2": 0.8696211732332133
+        },
+        {
+          "owners": [
+            13,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 984,
+          "measuredPoseResidualL2": 0.3894094092639509
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1320,
+          "measuredPoseResidualL2": 1.1611289412235697
+        },
+        {
+          "owners": [
+            12,
+            4
+          ],
+          "sourcePatternId": "60042",
+          "learnedRecordIndex": 2064,
+          "measuredPoseResidualL2": 0.46897330570738754
+        },
+        {
+          "owners": [
+            4,
+            15
+          ],
+          "sourcePatternId": "60043",
+          "learnedRecordIndex": 1668,
+          "measuredPoseResidualL2": 1.867938934856393
+        },
+        {
+          "owners": [
+            7,
+            5
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 546,
+          "measuredPoseResidualL2": 0.45038983384893316
+        },
+        {
+          "owners": [
+            11,
+            8
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 2133,
+          "measuredPoseResidualL2": 1.2200328367301874
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "71136",
+          "learnedRecordIndex": 2036,
+          "measuredPoseResidualL2": 0.5436693940345259
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 7000002,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 5,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            1,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.701410503643262
+        },
+        {
+          "owners": [
+            2,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 741,
+          "measuredPoseResidualL2": 0.8323295605550136
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 608,
+          "measuredPoseResidualL2": 0.8696211732332133
+        },
+        {
+          "owners": [
+            13,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 984,
+          "measuredPoseResidualL2": 0.3894094092639509
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1320,
+          "measuredPoseResidualL2": 1.1611289412235697
+        },
+        {
+          "owners": [
+            12,
+            4
+          ],
+          "sourcePatternId": "60042",
+          "learnedRecordIndex": 2064,
+          "measuredPoseResidualL2": 0.46897330570738754
+        },
+        {
+          "owners": [
+            4,
+            15
+          ],
+          "sourcePatternId": "60043",
+          "learnedRecordIndex": 1668,
+          "measuredPoseResidualL2": 1.839016703371873
+        },
+        {
+          "owners": [
+            7,
+            5
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 546,
+          "measuredPoseResidualL2": 0.45038983384893316
+        },
+        {
+          "owners": [
+            11,
+            8
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 2133,
+          "measuredPoseResidualL2": 1.2200328367301874
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "60003",
+          "learnedRecordIndex": 2036,
+          "measuredPoseResidualL2": 0.34312628056943023
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 7000003,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 5,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            1,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.701410503643262
+        },
+        {
+          "owners": [
+            2,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 741,
+          "measuredPoseResidualL2": 0.8323295605550136
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 608,
+          "measuredPoseResidualL2": 0.8696211732332133
+        },
+        {
+          "owners": [
+            13,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 984,
+          "measuredPoseResidualL2": 0.3894094092639509
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1320,
+          "measuredPoseResidualL2": 1.1611289412235697
+        },
+        {
+          "owners": [
+            12,
+            4
+          ],
+          "sourcePatternId": "60042",
+          "learnedRecordIndex": 2064,
+          "measuredPoseResidualL2": 0.46897330570738754
+        },
+        {
+          "owners": [
+            4,
+            15
+          ],
+          "sourcePatternId": "60043",
+          "learnedRecordIndex": 1668,
+          "measuredPoseResidualL2": 1.832657529114058
+        },
+        {
+          "owners": [
+            7,
+            5
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 546,
+          "measuredPoseResidualL2": 0.45038983384893316
+        },
+        {
+          "owners": [
+            11,
+            8
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 2133,
+          "measuredPoseResidualL2": 1.2200328367301874
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "10056",
+          "learnedRecordIndex": 2036,
+          "measuredPoseResidualL2": 0.3137207109466029
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    },
+    {
+      "levelId": 7000004,
+      "nativeLearnedPlacementIntegrityPassed": true,
+      "errors": [],
+      "retargetedNativeRoots": 5,
+      "learnedRelationMeasurements": [
+        {
+          "owners": [
+            1,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1309,
+          "measuredPoseResidualL2": 0.701410503643262
+        },
+        {
+          "owners": [
+            2,
+            4
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 741,
+          "measuredPoseResidualL2": 0.8323295605550136
+        },
+        {
+          "owners": [
+            6,
+            7
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 608,
+          "measuredPoseResidualL2": 0.8696211732332133
+        },
+        {
+          "owners": [
+            13,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 984,
+          "measuredPoseResidualL2": 0.3894094092639509
+        },
+        {
+          "owners": [
+            16,
+            12
+          ],
+          "sourcePatternId": "10057",
+          "learnedRecordIndex": 1320,
+          "measuredPoseResidualL2": 1.1611289412235697
+        },
+        {
+          "owners": [
+            12,
+            4
+          ],
+          "sourcePatternId": "60042",
+          "learnedRecordIndex": 2064,
+          "measuredPoseResidualL2": 0.46897330570738754
+        },
+        {
+          "owners": [
+            4,
+            15
+          ],
+          "sourcePatternId": "60043",
+          "learnedRecordIndex": 1668,
+          "measuredPoseResidualL2": 1.8253918709558652
+        },
+        {
+          "owners": [
+            7,
+            5
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 546,
+          "measuredPoseResidualL2": 0.45038983384893316
+        },
+        {
+          "owners": [
+            11,
+            8
+          ],
+          "sourcePatternId": "70006",
+          "learnedRecordIndex": 2133,
+          "measuredPoseResidualL2": 1.2200328367301874
+        },
+        {
+          "owners": [
+            15,
+            13
+          ],
+          "sourcePatternId": "71015",
+          "learnedRecordIndex": 2036,
+          "measuredPoseResidualL2": 0.29196213821642525
+        }
+      ],
+      "scope": "Original whole assets, rigid native guide assemblies, source-pattern topology and recomputed saved-model pose witnesses; residual is measured, with no quality, physics, solvability or difficulty acceptance."
+    }
+  ],
+  "hashes": {
+    "Research\\physics_v3\\joint_native_asset_rotation_initial_input.json": "b171261f6d907f678b0ba1995f5893a1447ff6ead06389d5c7b54b9653a37d71",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source500_native.json": "effda7077f6d709f4afb977656decd6476adf5c8a2879792958bb040f29a218f",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\data\\source_templates.json": "c44adce33201c46d8dbf5e827de719794589bf89b64943a569bb0265be1b89ee",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\models\\composition_pose.joblib": "6fdd7246b99ca0aa95e3cfb6aab1dce402c9be0910389fde01c19b9204108447",
+    "D:\\RotateRings\\Tools\\learned_placement_audit_v3.py": "d8d5f2817ceb6e71cae0c34c658a73c7a377029c559adcb986b78982305cb72c"
+  }
+}

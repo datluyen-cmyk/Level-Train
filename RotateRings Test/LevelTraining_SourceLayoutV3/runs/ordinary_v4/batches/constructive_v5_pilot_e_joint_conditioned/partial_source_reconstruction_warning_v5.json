@@ -1,0 +1,29 @@
+{
+  "status": "WITHHOLD_FROM_PROMOTION_PARTIAL_SOURCE_RECONSTRUCTION",
+  "acceptedCount": 0,
+  "packSha256": "c79a05db540a8d1a0f41ab34594fba8f32d8e5b7f4bbfd34f5591fc80c3454ca",
+  "candidateId": 9300002,
+  "sourceId": "10043",
+  "reusedSourceRootCount": 16,
+  "candidateRootCount": 18,
+  "sameTransformImports": [
+    {
+      "tileIndex": 423,
+      "kind": "properNativeMotifSeed"
+    },
+    {
+      "tileIndex": 427,
+      "kind": "jointNativePairTargetAndPose"
+    },
+    {
+      "tileIndex": 428,
+      "kind": "jointNativeTripleTargetAndPose"
+    }
+  ],
+  "rotationDegrees": -24.29682458467469,
+  "translation": [
+    -5.434231327862998,
+    8.491378749946781
+  ],
+  "explanation": "Exact source pose preservation across three imports makes a16-root rigid partial source assembly. Start-empty proof alone does not establish fresh whole-board design. No numerical source quota or new content gate added."
+}

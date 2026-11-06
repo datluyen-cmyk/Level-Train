@@ -1,0 +1,14 @@
+{
+  "guide_joint_xy_pilot_v3.py": "35e277b34d9adfefdf2f0ccdde31862344d1366cf57431b654dad33dbc94670c",
+  "guide_joint_patch_contract_v3.py": "a2bde6d6a12d4f263a20f74577cd5e271bd02b32b6fcded567c7a5cad83461cf",
+  "guide_joint_pose_motifs_v3.py": "25427722817e416d179654efb8829103e6ba90733893289e9211a60ebffb793b",
+  "guide_neighborhood_motifs_v3.py": "c635dd70381b50c486f8f66defadeb22c698eb18a3522cb5ae535827f4a6e37f",
+  "native_asset_variant_v3.py": "d10fbdf9d1fb347e85b270d7e310ac97274dbf4d4d56c889a249d8c17cc8621a",
+  "orientation_semantics_v3.py": "65c81cb4533bb0ba869c1d7e3f03acc815ce666a7e891ac3f251d53a964d6fc2",
+  "layout_novelty_semantic_v3.py": "0c7f590fecacdbd46918edaebe2ae6eb874fa95363487fe043517c8d4626699d",
+  "assembly_contact_audit_v3.py": "12e3cae6fb88ec253c980545a2be148f9b4fb36ba564dfb6f11480d3ed5b8963",
+  "assembly_integrity_audit_v3.py": "270fc8d4d19dc8474cfeb9a6a5d7c95a063bdee50bbaae73b835fb547fe78b95",
+  "learned_placement_audit_v3.py": "d8d5f2817ceb6e71cae0c34c658a73c7a377029c559adcb986b78982305cb72c",
+  "layout_learning_v3.py": "5e3dda36e6ed1a55d5bd58b7f80b123b4dda57cbae9abf59da7448c9c5156139",
+  "composition_field_v3.py": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60"
+}

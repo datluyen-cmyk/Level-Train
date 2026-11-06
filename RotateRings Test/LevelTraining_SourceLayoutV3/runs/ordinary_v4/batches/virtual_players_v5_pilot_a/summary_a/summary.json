@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 5,
+  "status": "NATIVE_VIRTUAL_PLAYER_EPISODE_SUMMARY",
+  "requestedVirtualUsers": 1000,
+  "definedProfiles": 32,
+  "actualProfilesWithSessions": 32,
+  "actualSessions": 75,
+  "requestedPopulationRun": false,
+  "populationMeaning": "seeded algorithmic player profiles, not humans or independently trained LLMs",
+  "policyFamilyCounts": {
+    "visual_alignment": 7,
+    "persistent_memory": 6,
+    "heldout_balanced": 6,
+    "exploratory": 7,
+    "quick_trial": 6
+  },
+  "allSessions": {
+    "sessions": 75,
+    "engineErrorSessions": 0,
+    "actualProfileCount": 32,
+    "won": 60,
+    "winRateOfAllSessions": 0.8,
+    "winRateExcludingEngineErrors": 0.8,
+    "terminationCounts": {
+      "won": 60,
+      "step_limit": 11,
+      "dropout": 4
+    },
+    "actionCountAllSessionQuantiles": {
+      "p10": 2.4000000000000004,
+      "p50": 12.0,
+      "p90": 36.0
+    },
+    "actionCountSuccessfulSessionQuantiles": {
+      "p10": 2.0,
+      "p50": 10.0,
+      "p90": 19.1
+    },
+    "wallMsAllSessions": 30075,
+    "physicalBlocks": 338,
+    "invalidActions": 420,
+    "hints": 0,
+    "undoCount": 0,
+    "cacheHits": 288,
+    "cacheMisses": 815,
+    "budgetCensoredSessions": 11
+  },
+  "byPolicyFamilyAndRole": [
+    {
+      "policyFamily": "exploratory",
+      "role": "reference",
+      "sessions": 17,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 11,
+      "winRateOfAllSessions": 0.6470588235294118,
+      "winRateExcludingEngineErrors": 0.6470588235294118,
+      "terminationCounts": {
+        "won": 11,
+        "step_limit": 5,
+        "dropout": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 3.6,
+        "p50": 17.0,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 10.0,
+        "p90": 21.0
+      },
+      "wallMsAllSessions": 8934,
+      "physicalBlocks": 85,
+      "invalidActions": 163,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 44,
+      "cacheMisses": 306,
+      "budgetCensoredSessions": 5
+    },
+    {
+      "policyFamily": "heldout_balanced",
+      "role": "reference",
+      "sessions": 14,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 12,
+      "winRateOfAllSessions": 0.8571428571428571,
+      "winRateExcludingEngineErrors": 0.8571428571428571,
+      "terminationCounts": {
+        "won": 12,
+        "step_limit": 2
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.3,
+        "p50": 15.0,
+        "p90": 31.800000000000015
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.1,
+        "p50": 8.5,
+        "p90": 17.9
+      },
+      "wallMsAllSessions": 5402,
+      "physicalBlocks": 69,
+      "invalidActions": 62,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 47,
+      "cacheMisses": 148,
+      "budgetCensoredSessions": 2
+    },
+    {
+      "policyFamily": "persistent_memory",
+      "role": "reference",
+      "sessions": 14,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 12,
+      "winRateOfAllSessions": 0.8571428571428571,
+      "winRateExcludingEngineErrors": 0.8571428571428571,
+      "terminationCounts": {
+        "won": 12,
+        "dropout": 1,
+        "step_limit": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 10.0,
+        "p90": 33.900000000000006
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 7.0,
+        "p90": 19.9
+      },
+      "wallMsAllSessions": 5361,
+      "physicalBlocks": 64,
+      "invalidActions": 68,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 68,
+      "cacheMisses": 125,
+      "budgetCensoredSessions": 1
+    },
+    {
+      "policyFamily": "quick_trial",
+      "role": "reference",
+      "sessions": 14,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 6,
+      "won": 12,
+      "winRateOfAllSessions": 0.8571428571428571,
+      "winRateExcludingEngineErrors": 0.8571428571428571,
+      "terminationCounts": {
+        "won": 12,
+        "dropout": 2
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 11.5,
+        "p90": 17.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 9.5,
+        "p90": 17.0
+      },
+      "wallMsAllSessions": 4010,
+      "physicalBlocks": 35,
+      "invalidActions": 55,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 58,
+      "cacheMisses": 81,
+      "budgetCensoredSessions": 0
+    },
+    {
+      "policyFamily": "visual_alignment",
+      "role": "reference",
+      "sessions": 16,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 7,
+      "won": 13,
+      "winRateOfAllSessions": 0.8125,
+      "winRateExcludingEngineErrors": 0.8125,
+      "terminationCounts": {
+        "won": 13,
+        "step_limit": 3
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 13.0,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 11.0,
+        "p90": 15.600000000000001
+      },
+      "wallMsAllSessions": 6368,
+      "physicalBlocks": 85,
+      "invalidActions": 72,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 71,
+      "cacheMisses": 155,
+      "budgetCensoredSessions": 3
+    }
+  ],
+  "byLevel": [
+    {
+      "levelId": "10002",
+      "role": "reference",
+      "referencePairId": "source-pos2",
+      "sessions": 32,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 32,
+      "won": 32,
+      "winRateOfAllSessions": 1.0,
+      "winRateExcludingEngineErrors": 1.0,
+      "terminationCounts": {
+        "won": 32
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 3.5,
+        "p90": 7.900000000000002
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 3.5,
+        "p90": 7.900000000000002
+      },
+      "wallMsAllSessions": 1414,
+      "physicalBlocks": 8,
+      "invalidActions": 54,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 83,
+      "cacheMisses": 53,
+      "budgetCensoredSessions": 0
+    },
+    {
+      "levelId": "10005",
+      "role": "reference",
+      "referencePairId": "source-pos4",
+      "sessions": 32,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 32,
+      "won": 28,
+      "winRateOfAllSessions": 0.875,
+      "winRateExcludingEngineErrors": 0.875,
+      "terminationCounts": {
+        "step_limit": 4,
+        "won": 28
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 11.1,
+        "p50": 17.0,
+        "p90": 35.800000000000004
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 11.0,
+        "p50": 17.0,
+        "p90": 22.0
+      },
+      "wallMsAllSessions": 9903,
+      "physicalBlocks": 95,
+      "invalidActions": 307,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 162,
+      "cacheMisses": 453,
+      "budgetCensoredSessions": 4
+    },
+    {
+      "levelId": "10012",
+      "role": "reference",
+      "referencePairId": "source-pos7",
+      "sessions": 11,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 11,
+      "won": 0,
+      "winRateOfAllSessions": 0.0,
+      "winRateExcludingEngineErrors": 0.0,
+      "terminationCounts": {
+        "step_limit": 7,
+        "dropout": 4
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 16.0,
+        "p50": 36.0,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": null,
+      "wallMsAllSessions": 18758,
+      "physicalBlocks": 235,
+      "invalidActions": 59,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 43,
+      "cacheMisses": 309,
+      "budgetCensoredSessions": 7
+    }
+  ],
+  "paired": {
+    "completePairs": 0,
+    "incompletePairs": 75,
+    "engineErrorPairs": 0,
+    "pairedUsers": 0,
+    "differenceDirection": "candidate minus reference",
+    "pairDetails": []
+  },
+  "bootstrap": {
+    "samples": 1000,
+    "seed": 20261106,
+    "resamplingUnit": "virtual user; all levels kept together"
+  },
+  "hashes": {
+    "rulesHash": "7bcb050c9f6ff12a7769334c117e36bb98093a7b146cb2fc8db345b404f29225",
+    "policySuiteHash": "99f1a78759bd28b7d762858555d647651d05df408afba59b20d9f8a174bb1fd1",
+    "inputPackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatesSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "nativeEpisodeReport": "6881420bb8e93fd69b8acaf881a6b5813ea0be6b0178b2347c160bd4e93ca226",
+    "summarizer": "002f09771e34f8b9c9932161f1536d67cb77854e477e38ccd46878c897c68da3"
+  },
+  "limits": [
+    "No bounded policy failure is classified as proof of unsolvability.",
+    "Observed simulation wall time is not measured or modeled human completion time.",
+    "All-session action counts are censored by budgets; successful-session distributions are reported separately.",
+    "No source/candidate equality, human difficulty or generation acceptance follows solely from these intervals."
+  ]
+}

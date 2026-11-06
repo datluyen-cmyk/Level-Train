@@ -1,0 +1,14 @@
+{
+  "passed": false,
+  "status": "pilot stopped: original CanCollect is score eligibility, not removal goal; correcting adapter projection before training",
+  "generatedCount": 52,
+  "requestedCount": 300,
+  "rejections": {
+    "cosmeticEquivalent": 1,
+    "partScale": 270,
+    "computerDifficulty": 1257,
+    "solverReplay": 105,
+    "portfolio": 2,
+    "bodyOverlap": 1
+  }
+}

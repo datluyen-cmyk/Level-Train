@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 5,
+  "status": "NATIVE_VIRTUAL_PLAYER_EPISODE_SUMMARY",
+  "requestedVirtualUsers": 1000,
+  "definedProfiles": 1000,
+  "actualProfilesWithSessions": 1000,
+  "actualSessions": 2000,
+  "profileCountReached": true,
+  "nativeRunComplete": true,
+  "allDefinedProfileTaskCoverageComplete": true,
+  "requestedPopulationRun": true,
+  "populationMeaning": "seeded algorithmic player profiles, not humans or independently trained LLMs",
+  "policyFamilyCounts": {
+    "persistent_memory": 200,
+    "quick_trial": 200,
+    "exploratory": 200,
+    "visual_alignment": 200,
+    "heldout_balanced": 200
+  },
+  "allSessions": {
+    "sessions": 2000,
+    "engineErrorSessions": 0,
+    "actualProfileCount": 1000,
+    "won": 1854,
+    "winRateOfAllSessions": 0.927,
+    "winRateExcludingEngineErrors": 0.927,
+    "terminationCounts": {
+      "won": 1854,
+      "dropout": 36,
+      "step_limit": 110
+    },
+    "actionCountAllSessionQuantiles": {
+      "p10": 2.0,
+      "p50": 10.0,
+      "p90": 27.0
+    },
+    "actionCountSuccessfulSessionQuantiles": {
+      "p10": 2.0,
+      "p50": 9.0,
+      "p90": 21.0
+    },
+    "wallMsAllSessions": 189296,
+    "physicalBlocks": 2490,
+    "invalidActions": 11770,
+    "hints": 0,
+    "undoCount": 0,
+    "cacheHits": 15693,
+    "cacheMisses": 7902,
+    "budgetCensoredSessions": 110
+  },
+  "byPolicyFamilyAndRole": [
+    {
+      "policyFamily": "exploratory",
+      "role": "reference",
+      "sessions": 400,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 200,
+      "won": 315,
+      "winRateOfAllSessions": 0.7875,
+      "winRateExcludingEngineErrors": 0.7875,
+      "terminationCounts": {
+        "won": 315,
+        "step_limit": 78,
+        "dropout": 7
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 17.0,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 3.0,
+        "p50": 12.0,
+        "p90": 29.0
+      },
+      "wallMsAllSessions": 77382,
+      "physicalBlocks": 726,
+      "invalidActions": 4290,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 3446,
+      "cacheMisses": 3985,
+      "budgetCensoredSessions": 78
+    },
+    {
+      "policyFamily": "heldout_balanced",
+      "role": "reference",
+      "sessions": 400,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 200,
+      "won": 394,
+      "winRateOfAllSessions": 0.985,
+      "winRateExcludingEngineErrors": 0.985,
+      "terminationCounts": {
+        "won": 394,
+        "step_limit": 6
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.5,
+        "p90": 19.100000000000023
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.0,
+        "p90": 18.69999999999999
+      },
+      "wallMsAllSessions": 22842,
+      "physicalBlocks": 376,
+      "invalidActions": 1727,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 3025,
+      "cacheMisses": 817,
+      "budgetCensoredSessions": 6
+    },
+    {
+      "policyFamily": "persistent_memory",
+      "role": "reference",
+      "sessions": 400,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 200,
+      "won": 389,
+      "winRateOfAllSessions": 0.9725,
+      "winRateExcludingEngineErrors": 0.9725,
+      "terminationCounts": {
+        "won": 389,
+        "step_limit": 10,
+        "dropout": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 9.0,
+        "p90": 19.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.0,
+        "p90": 18.0
+      },
+      "wallMsAllSessions": 23413,
+      "physicalBlocks": 450,
+      "invalidActions": 1804,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 3139,
+      "cacheMisses": 807,
+      "budgetCensoredSessions": 10
+    },
+    {
+      "policyFamily": "quick_trial",
+      "role": "reference",
+      "sessions": 400,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 200,
+      "won": 366,
+      "winRateOfAllSessions": 0.915,
+      "winRateExcludingEngineErrors": 0.915,
+      "terminationCounts": {
+        "won": 366,
+        "dropout": 27,
+        "step_limit": 7
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.9000000000000057,
+        "p50": 10.0,
+        "p90": 23.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.0,
+        "p90": 20.0
+      },
+      "wallMsAllSessions": 38116,
+      "physicalBlocks": 515,
+      "invalidActions": 2212,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 3136,
+      "cacheMisses": 1358,
+      "budgetCensoredSessions": 7
+    },
+    {
+      "policyFamily": "visual_alignment",
+      "role": "reference",
+      "sessions": 400,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 200,
+      "won": 390,
+      "winRateOfAllSessions": 0.975,
+      "winRateExcludingEngineErrors": 0.975,
+      "terminationCounts": {
+        "won": 390,
+        "dropout": 1,
+        "step_limit": 9
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.0,
+        "p90": 20.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 8.0,
+        "p90": 19.0
+      },
+      "wallMsAllSessions": 27543,
+      "physicalBlocks": 423,
+      "invalidActions": 1737,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 2947,
+      "cacheMisses": 935,
+      "budgetCensoredSessions": 9
+    }
+  ],
+  "byLevel": [
+    {
+      "levelId": "10002",
+      "role": "reference",
+      "referencePairId": "source-pos2",
+      "sessions": 1000,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 1000,
+      "won": 994,
+      "winRateOfAllSessions": 0.994,
+      "winRateExcludingEngineErrors": 0.994,
+      "terminationCounts": {
+        "won": 994,
+        "dropout": 5,
+        "step_limit": 1
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 3.0,
+        "p90": 9.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 2.0,
+        "p50": 3.0,
+        "p90": 9.0
+      },
+      "wallMsAllSessions": 16713,
+      "physicalBlocks": 320,
+      "invalidActions": 1896,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 4204,
+      "cacheMisses": 576,
+      "budgetCensoredSessions": 1
+    },
+    {
+      "levelId": "10005",
+      "role": "reference",
+      "referencePairId": "source-pos4",
+      "sessions": 1000,
+      "engineErrorSessions": 0,
+      "actualProfileCount": 1000,
+      "won": 860,
+      "winRateOfAllSessions": 0.86,
+      "winRateExcludingEngineErrors": 0.86,
+      "terminationCounts": {
+        "won": 860,
+        "step_limit": 109,
+        "dropout": 31
+      },
+      "actionCountAllSessionQuantiles": {
+        "p10": 10.0,
+        "p50": 16.0,
+        "p90": 36.0
+      },
+      "actionCountSuccessfulSessionQuantiles": {
+        "p10": 10.0,
+        "p50": 15.0,
+        "p90": 26.0
+      },
+      "wallMsAllSessions": 172583,
+      "physicalBlocks": 2170,
+      "invalidActions": 9874,
+      "hints": 0,
+      "undoCount": 0,
+      "cacheHits": 11489,
+      "cacheMisses": 7326,
+      "budgetCensoredSessions": 109
+    }
+  ],
+  "paired": {
+    "completePairs": 0,
+    "incompletePairs": 2000,
+    "engineErrorPairs": 0,
+    "pairedUsers": 0,
+    "differenceDirection": "candidate minus reference",
+    "pairDetails": []
+  },
+  "byPartition": {
+    "selection": {
+      "allSessions": {
+        "sessions": 1600,
+        "engineErrorSessions": 0,
+        "actualProfileCount": 800,
+        "won": 1460,
+        "winRateOfAllSessions": 0.9125,
+        "winRateExcludingEngineErrors": 0.9125,
+        "terminationCounts": {
+          "won": 1460,
+          "dropout": 36,
+          "step_limit": 104
+        },
+        "actionCountAllSessionQuantiles": {
+          "p10": 2.0,
+          "p50": 10.0,
+          "p90": 29.0
+        },
+        "actionCountSuccessfulSessionQuantiles": {
+          "p10": 2.0,
+          "p50": 9.0,
+          "p90": 21.0
+        },
+        "wallMsAllSessions": 166454,
+        "physicalBlocks": 2114,
+        "invalidActions": 10043,
+        "hints": 0,
+        "undoCount": 0,
+        "cacheHits": 12668,
+        "cacheMisses": 7085,
+        "budgetCensoredSessions": 104
+      },
+      "paired": {
+        "completePairs": 0,
+        "incompletePairs": 1600,
+        "engineErrorPairs": 0,
+        "pairedUsers": 0,
+        "differenceDirection": "candidate minus reference",
+        "pairDetails": []
+      }
+    },
+    "holdout": {
+      "allSessions": {
+        "sessions": 400,
+        "engineErrorSessions": 0,
+        "actualProfileCount": 200,
+        "won": 394,
+        "winRateOfAllSessions": 0.985,
+        "winRateExcludingEngineErrors": 0.985,
+        "terminationCounts": {
+          "won": 394,
+          "step_limit": 6
+        },
+        "actionCountAllSessionQuantiles": {
+          "p10": 2.0,
+          "p50": 8.5,
+          "p90": 19.100000000000023
+        },
+        "actionCountSuccessfulSessionQuantiles": {
+          "p10": 2.0,
+          "p50": 8.0,
+          "p90": 18.69999999999999
+        },
+        "wallMsAllSessions": 22842,
+        "physicalBlocks": 376,
+        "invalidActions": 1727,
+        "hints": 0,
+        "undoCount": 0,
+        "cacheHits": 3025,
+        "cacheMisses": 817,
+        "budgetCensoredSessions": 6
+      },
+      "paired": {
+        "completePairs": 0,
+        "incompletePairs": 400,
+        "engineErrorPairs": 0,
+        "pairedUsers": 0,
+        "differenceDirection": "candidate minus reference",
+        "pairDetails": []
+      }
+    }
+  },
+  "pairedByPolicyFamily": {
+    "exploratory": {
+      "completePairs": 0,
+      "incompletePairs": 400,
+      "engineErrorPairs": 0,
+      "pairedUsers": 0,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": []
+    },
+    "visual_alignment": {
+      "completePairs": 0,
+      "incompletePairs": 400,
+      "engineErrorPairs": 0,
+      "pairedUsers": 0,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": []
+    },
+    "persistent_memory": {
+      "completePairs": 0,
+      "incompletePairs": 400,
+      "engineErrorPairs": 0,
+      "pairedUsers": 0,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": []
+    },
+    "quick_trial": {
+      "completePairs": 0,
+      "incompletePairs": 400,
+      "engineErrorPairs": 0,
+      "pairedUsers": 0,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": []
+    },
+    "heldout_balanced": {
+      "completePairs": 0,
+      "incompletePairs": 400,
+      "engineErrorPairs": 0,
+      "pairedUsers": 0,
+      "differenceDirection": "candidate minus reference",
+      "pairDetails": []
+    }
+  },
+  "bootstrap": {
+    "samples": 1000,
+    "seed": 20261106,
+    "resamplingUnit": "virtual user; all levels kept together"
+  },
+  "hashes": {
+    "rulesHash": "7bcb050c9f6ff12a7769334c117e36bb98093a7b146cb2fc8db345b404f29225",
+    "policySuiteHash": "99f1a78759bd28b7d762858555d647651d05df408afba59b20d9f8a174bb1fd1",
+    "inputPackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templatesSha256": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "nativeEpisodeReport": "b4b0427d6f13cd9aee8043deb518df25d7bafe47d12952152f1a211ee3cf607e",
+    "summarizer": "1537b77dc274133450f396d530ca510a7d48b724ded0f72b6a4731bd894913b0"
+  },
+  "limits": [
+    "No bounded policy failure is classified as proof of unsolvability.",
+    "Observed simulation wall time is not measured or modeled human completion time.",
+    "All-session action counts are censored by budgets; successful-session distributions are reported separately.",
+    "No source/candidate equality, human difficulty or generation acceptance follows solely from these intervals."
+  ]
+}

@@ -1,0 +1,4694 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "firstPosition": 1,
+    "lastPosition": 500
+  },
+  "method": "Exact solids renderer contact sheets; observed silhouettes and inferred clusters are stored separately. Blank observedLabel means no confidently named special silhouette in this visual review.",
+  "evidence": {
+    "renderer": "D:\\RotateRings\\Tools\\render_layout_diagnostics_v3.py",
+    "rendererSha256": "9dfc8ee1a4025f0e60fb7689b3399bc8cdbedb1b752a4239f34b07013e138d7e",
+    "sheetGenerator": "D:\\RotateRings\\Tools\\render_source500_motif_sheets.py",
+    "manifests": [
+      {
+        "path": "D:\\RotateRings\\Research\\physics_v3\\visual_qa\\source500_motif_sheets_first300\\source500_positions_001-300_manifest.json",
+        "sha256": "6072b9236e1dbe8e750a8e85dae6e639deef6292e10a4d01ad2a8e0be51ce17d"
+      },
+      {
+        "path": "D:\\RotateRings\\Research\\physics_v3\\visual_qa\\source500_motif_sheets_301_500\\source500_positions_301-500_manifest.json",
+        "sha256": "584a810c48c08c5638e4d5dda3163bf3dde5f2215fdb7bd7aca00e0d9a1a7b0e"
+      }
+    ],
+    "sheets": [
+      "Research/physics_v3/visual_qa/source500_motif_sheets_first300/",
+      "Research/physics_v3/visual_qa/source500_motif_sheets_301_500/"
+    ]
+  },
+  "levels": [
+    {
+      "sourceId": "10001",
+      "position": 1,
+      "parts": 2,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10002",
+      "position": 2,
+      "parts": 3,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10003",
+      "position": 3,
+      "parts": 4,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10005",
+      "position": 4,
+      "parts": 7,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10004",
+      "position": 5,
+      "parts": 7,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10010",
+      "position": 6,
+      "parts": 10,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10012",
+      "position": 7,
+      "parts": 13,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10007",
+      "position": 8,
+      "parts": 9,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10008",
+      "position": 9,
+      "parts": 9,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10154",
+      "position": 10,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10006",
+      "position": 11,
+      "parts": 9,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10011",
+      "position": 12,
+      "parts": 15,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10009",
+      "position": 13,
+      "parts": 12,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60023",
+      "position": 14,
+      "parts": 12,
+      "observedLabel": "regular 3x4 grid",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70002",
+      "position": 15,
+      "parts": 12,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70017",
+      "position": 16,
+      "parts": 13,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70003",
+      "position": 17,
+      "parts": 13,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70010",
+      "position": 18,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10060",
+      "position": 19,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10109",
+      "position": 20,
+      "parts": 22,
+      "observedLabel": "face-like head with paired eyes and central nose/mouth details",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10111",
+      "position": 21,
+      "parts": 46,
+      "observedLabel": "tall maze-like layout with repeated parallel corridors",
+      "observedConfidence": "medium",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10062",
+      "position": 22,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10070",
+      "position": 23,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10068",
+      "position": 24,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10069",
+      "position": 25,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60010",
+      "position": 26,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10067",
+      "position": 27,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10065",
+      "position": 28,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71009",
+      "position": 29,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10157",
+      "position": 30,
+      "parts": 34,
+      "observedLabel": "diamond/triangle whole-board outline with central arrangement",
+      "observedConfidence": "high",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70011",
+      "position": 31,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10048",
+      "position": 32,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10054",
+      "position": 33,
+      "parts": 38,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10050",
+      "position": 34,
+      "parts": 20,
+      "observedLabel": "regular row-and-column lattice",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10061",
+      "position": 35,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71001",
+      "position": 36,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10023",
+      "position": 37,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60008",
+      "position": 38,
+      "parts": 38,
+      "observedLabel": "square grid/maze-like arrangement",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70033",
+      "position": 39,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10042",
+      "position": 40,
+      "parts": 34,
+      "observedLabel": "vehicle-like outline with two wheel-like circles and a frame",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "vehicle_or_vessel"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10039",
+      "position": 41,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10035",
+      "position": 42,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10058",
+      "position": 43,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10059",
+      "position": 44,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10031",
+      "position": 45,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60009",
+      "position": 46,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70025",
+      "position": 47,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10038",
+      "position": 48,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60011",
+      "position": 49,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10134",
+      "position": 50,
+      "parts": 40,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73005",
+      "position": 51,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60026",
+      "position": 52,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10053",
+      "position": 53,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60007",
+      "position": 54,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10015",
+      "position": 55,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10026",
+      "position": 56,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70009",
+      "position": 57,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71002",
+      "position": 58,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60036",
+      "position": 59,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10063",
+      "position": 60,
+      "parts": 50,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70006",
+      "position": 61,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70027",
+      "position": 62,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10025",
+      "position": 63,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10029",
+      "position": 64,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10043",
+      "position": 65,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70008",
+      "position": 66,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70004",
+      "position": 67,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71013",
+      "position": 68,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70028",
+      "position": 69,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10152",
+      "position": 70,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10066",
+      "position": 71,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60001",
+      "position": 72,
+      "parts": 15,
+      "observedLabel": "regular repeated row-and-column arrangement",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71014",
+      "position": 73,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71026",
+      "position": 74,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71003",
+      "position": 75,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10057",
+      "position": 76,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10051",
+      "position": 77,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10056",
+      "position": 78,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70032",
+      "position": 79,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10072",
+      "position": 80,
+      "parts": 40,
+      "observedLabel": "rocket with pointed nose, body, side fins, and exhaust detail",
+      "observedConfidence": "high",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71011",
+      "position": 81,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70026",
+      "position": 82,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10021",
+      "position": 83,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73006",
+      "position": 84,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10052",
+      "position": 85,
+      "parts": 41,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73004",
+      "position": 86,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70012",
+      "position": 87,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10014",
+      "position": 88,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60006",
+      "position": 89,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10153",
+      "position": 90,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71007",
+      "position": 91,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70030",
+      "position": 92,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70014",
+      "position": 93,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71005",
+      "position": 94,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70031",
+      "position": 95,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10055",
+      "position": 96,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71016",
+      "position": 97,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71018",
+      "position": 98,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70029",
+      "position": 99,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10160",
+      "position": 100,
+      "parts": 38,
+      "observedLabel": "face/sun with circular head, facial features, and crown rays",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10166",
+      "position": 101,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10168",
+      "position": 102,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20003",
+      "position": 103,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70007",
+      "position": 104,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71008",
+      "position": 105,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71004",
+      "position": 106,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10018",
+      "position": 107,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20031",
+      "position": 108,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71006",
+      "position": 109,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10125",
+      "position": 110,
+      "parts": 47,
+      "observedLabel": "butterfly with paired wings and central body",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "butterfly"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71015",
+      "position": 111,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60034",
+      "position": 112,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20001",
+      "position": 113,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71020",
+      "position": 114,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71022",
+      "position": 115,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71028",
+      "position": 116,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71025",
+      "position": 117,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20029",
+      "position": 118,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70018",
+      "position": 119,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10159",
+      "position": 120,
+      "parts": 38,
+      "observedLabel": "rectangular device/camera-like outline with circular center",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70019",
+      "position": 121,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71017",
+      "position": 122,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20005",
+      "position": 123,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10046",
+      "position": 124,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60030",
+      "position": 125,
+      "parts": 14,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10013",
+      "position": 126,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10064",
+      "position": 127,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20023",
+      "position": 128,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10017",
+      "position": 129,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72002",
+      "position": 130,
+      "parts": 37,
+      "observedLabel": "gift box with bow",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10164",
+      "position": 131,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71032",
+      "position": 132,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20007",
+      "position": 133,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10019",
+      "position": 134,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71024",
+      "position": 135,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71023",
+      "position": 136,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10040",
+      "position": 137,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20033",
+      "position": 138,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71012",
+      "position": 139,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10158",
+      "position": 140,
+      "parts": 56,
+      "observedLabel": "sailboat with mast, sails, and hull/water bands",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene",
+        "vehicle_or_vessel"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60032",
+      "position": 141,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71019",
+      "position": 142,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20009",
+      "position": 143,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71010",
+      "position": 144,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10045",
+      "position": 145,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10122",
+      "position": 146,
+      "parts": 51,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71027",
+      "position": 147,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20037",
+      "position": 148,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70024",
+      "position": 149,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10156",
+      "position": 150,
+      "parts": 144,
+      "observedLabel": "six-fold snowflake/starburst",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60005",
+      "position": 151,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71021",
+      "position": 152,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20013",
+      "position": 153,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70005",
+      "position": 154,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70020",
+      "position": 155,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10071",
+      "position": 156,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70035",
+      "position": 157,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20027",
+      "position": 158,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60028",
+      "position": 159,
+      "parts": 14,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10082",
+      "position": 160,
+      "parts": 14,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60004",
+      "position": 161,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60003",
+      "position": 162,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20015",
+      "position": 163,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10037",
+      "position": 164,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60002",
+      "position": 165,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71030",
+      "position": 166,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10034",
+      "position": 167,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20039",
+      "position": 168,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70023",
+      "position": 169,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10155",
+      "position": 170,
+      "parts": 80,
+      "observedLabel": "row of houses/buildings with pitched roofs and openings",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71031",
+      "position": 171,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10044",
+      "position": 172,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20017",
+      "position": 173,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70022",
+      "position": 174,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71029",
+      "position": 175,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70013",
+      "position": 176,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70015",
+      "position": 177,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20025",
+      "position": 178,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10024",
+      "position": 179,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10028",
+      "position": 180,
+      "parts": 39,
+      "observedLabel": "boxy robot/device face with antenna-like stalks and eye circles",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10049",
+      "position": 181,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10162",
+      "position": 182,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20019",
+      "position": 183,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71034",
+      "position": 184,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10030",
+      "position": 185,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70034",
+      "position": 186,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10041",
+      "position": 187,
+      "parts": 46,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20021",
+      "position": 188,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70021",
+      "position": 189,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10095",
+      "position": 190,
+      "parts": 27,
+      "observedLabel": "round face with eyes, mouth, and short surrounding rays",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10032",
+      "position": 191,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10020",
+      "position": 192,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20011",
+      "position": 193,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10036",
+      "position": 194,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10027",
+      "position": 195,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10033",
+      "position": 196,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10047",
+      "position": 197,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20035",
+      "position": 198,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71033",
+      "position": 199,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10161",
+      "position": 200,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70038",
+      "position": 201,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71113",
+      "position": 202,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20043",
+      "position": 203,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71112",
+      "position": 204,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60049",
+      "position": 205,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60060",
+      "position": 206,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60045",
+      "position": 207,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20088",
+      "position": 208,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60074",
+      "position": 209,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72012",
+      "position": 210,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71119",
+      "position": 211,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71114",
+      "position": 212,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20067",
+      "position": 213,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60048",
+      "position": 214,
+      "parts": 18,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71135",
+      "position": 215,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73003",
+      "position": 216,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60042",
+      "position": 217,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20087",
+      "position": 218,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71136",
+      "position": 219,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72003",
+      "position": 220,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60058",
+      "position": 221,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71111",
+      "position": 222,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20071",
+      "position": 223,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60050",
+      "position": 224,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71137",
+      "position": 225,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60046",
+      "position": 226,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71109",
+      "position": 227,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20082",
+      "position": 228,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70040",
+      "position": 229,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60079",
+      "position": 230,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60063",
+      "position": 231,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10172",
+      "position": 232,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20057",
+      "position": 233,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60051",
+      "position": 234,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71107",
+      "position": 235,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73007",
+      "position": 236,
+      "parts": 15,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60054",
+      "position": 237,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20090",
+      "position": 238,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71132",
+      "position": 239,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72009",
+      "position": 240,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60070",
+      "position": 241,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60069",
+      "position": 242,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20041",
+      "position": 243,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71125",
+      "position": 244,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71037",
+      "position": 245,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73011",
+      "position": 246,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71128",
+      "position": 247,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20084",
+      "position": 248,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70036",
+      "position": 249,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72013",
+      "position": 250,
+      "parts": 38,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71117",
+      "position": 251,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60071",
+      "position": 252,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20045",
+      "position": 253,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71124",
+      "position": 254,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71138",
+      "position": 255,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10190",
+      "position": 256,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71122",
+      "position": 257,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20097",
+      "position": 258,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71035",
+      "position": 259,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72004",
+      "position": 260,
+      "parts": 40,
+      "observedLabel": "radial flower/sunburst around a center with structured base",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71120",
+      "position": 261,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71115",
+      "position": 262,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20075",
+      "position": 263,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70037",
+      "position": 264,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71139",
+      "position": 265,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60057",
+      "position": 266,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "70039",
+      "position": 267,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20086",
+      "position": 268,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60055",
+      "position": 269,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60052",
+      "position": 270,
+      "parts": 42,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71121",
+      "position": 271,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60064",
+      "position": 272,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20063",
+      "position": 273,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71129",
+      "position": 274,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10185",
+      "position": 275,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60053",
+      "position": 276,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71110",
+      "position": 277,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20085",
+      "position": 278,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71036",
+      "position": 279,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72014",
+      "position": 280,
+      "parts": 42,
+      "observedLabel": "circular six-fold geometric/star motif",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60067",
+      "position": 281,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60059",
+      "position": 282,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20079",
+      "position": 283,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71104",
+      "position": 284,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10187",
+      "position": 285,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73009",
+      "position": 286,
+      "parts": 21,
+      "observedLabel": "molecule/atom-like linked nodes around central hubs",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "molecular_network"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71130",
+      "position": 287,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20099",
+      "position": 288,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60061",
+      "position": 289,
+      "parts": 32,
+      "observedLabel": "tall monument/church-like outline with peaked top and base",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60047",
+      "position": 290,
+      "parts": 43,
+      "observedLabel": "symmetric winged/person-like outline with a central body",
+      "observedConfidence": "medium",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10170",
+      "position": 291,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71118",
+      "position": 292,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20061",
+      "position": 293,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71123",
+      "position": 294,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10186",
+      "position": 295,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60043",
+      "position": 296,
+      "parts": 27,
+      "observedLabel": "radial polygon/flower outline with connected interior nodes",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60078",
+      "position": 297,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20083",
+      "position": 298,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71134",
+      "position": 299,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72005",
+      "position": 300,
+      "parts": 48,
+      "observedLabel": "umbrella-like canopy with a central shaft/handle",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71116",
+      "position": 301,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10177",
+      "position": 302,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20047",
+      "position": 303,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10182",
+      "position": 304,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10189",
+      "position": 305,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60092",
+      "position": 306,
+      "parts": 29,
+      "observedLabel": "diamond-shaped emblem enclosed by a circular outline",
+      "observedConfidence": "medium",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71126",
+      "position": 307,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20081",
+      "position": 308,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71131",
+      "position": 309,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72007",
+      "position": 310,
+      "parts": 46,
+      "observedLabel": "four-fold star/flower with radial arms",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10174",
+      "position": 311,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10179",
+      "position": 312,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20069",
+      "position": 313,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10183",
+      "position": 314,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71039",
+      "position": 315,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10193",
+      "position": 316,
+      "parts": 28,
+      "observedLabel": "symmetric radial emblem with nested triangular and circular structure",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10195",
+      "position": 317,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20098",
+      "position": 318,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60081",
+      "position": 319,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72006",
+      "position": 320,
+      "parts": 45,
+      "observedLabel": "sunburst with a central circular hub and separated rays",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71103",
+      "position": 321,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71047",
+      "position": 322,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20049",
+      "position": 323,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10181",
+      "position": 324,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71133",
+      "position": 325,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10194",
+      "position": 326,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10197",
+      "position": 327,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20096",
+      "position": 328,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71127",
+      "position": 329,
+      "parts": 39,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10205",
+      "position": 330,
+      "parts": 58,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60065",
+      "position": 331,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10178",
+      "position": 332,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20073",
+      "position": 333,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71105",
+      "position": 334,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60056",
+      "position": 335,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73010",
+      "position": 336,
+      "parts": 36,
+      "observedLabel": "circular geometric emblem with polygonal interior network",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71106",
+      "position": 337,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20100",
+      "position": 338,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71108",
+      "position": 339,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10208",
+      "position": 340,
+      "parts": 69,
+      "observedLabel": "wide rectangular panel/dashboard-like layout with repeated horizontal bands",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10175",
+      "position": 341,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60073",
+      "position": 342,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20077",
+      "position": 343,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60072",
+      "position": 344,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71038",
+      "position": 345,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73008",
+      "position": 346,
+      "parts": 25,
+      "observedLabel": "molecule/network diagram with connected nodes and spokes",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "molecular_network"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10198",
+      "position": 347,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20094",
+      "position": 348,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10202",
+      "position": 349,
+      "parts": 41,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10207",
+      "position": 350,
+      "parts": 74,
+      "observedLabel": "stylized standing person with head, torso, and limbs",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71102",
+      "position": 351,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10171",
+      "position": 352,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20059",
+      "position": 353,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10180",
+      "position": 354,
+      "parts": 38,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60076",
+      "position": 355,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10191",
+      "position": 356,
+      "parts": 33,
+      "observedLabel": "triangular/pyramidal network with central interior structure",
+      "observedConfidence": "medium",
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10199",
+      "position": 357,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20095",
+      "position": 358,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10201",
+      "position": 359,
+      "parts": 41,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60044",
+      "position": 360,
+      "parts": 72,
+      "observedLabel": "person-like figure with a large face/head and body",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10176",
+      "position": 361,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71041",
+      "position": 362,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20065",
+      "position": 363,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60068",
+      "position": 364,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60075",
+      "position": 365,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10192",
+      "position": 366,
+      "parts": 31,
+      "observedLabel": "diamond/circular emblem with centered crossed geometry",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10196",
+      "position": 367,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20092",
+      "position": 368,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10203",
+      "position": 369,
+      "parts": 42,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10209",
+      "position": 370,
+      "parts": 78,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10173",
+      "position": 371,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71046",
+      "position": 372,
+      "parts": 39,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20055",
+      "position": 373,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71040",
+      "position": 374,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10188",
+      "position": 375,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73002",
+      "position": 376,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71043",
+      "position": 377,
+      "parts": 40,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20093",
+      "position": 378,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10200",
+      "position": 379,
+      "parts": 42,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "72011",
+      "position": 380,
+      "parts": 80,
+      "observedLabel": "crown with pointed top and broad base",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71042",
+      "position": 381,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71045",
+      "position": 382,
+      "parts": 43,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20051",
+      "position": 383,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10184",
+      "position": 384,
+      "parts": 38,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60077",
+      "position": 385,
+      "parts": 39,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60091",
+      "position": 386,
+      "parts": 39,
+      "observedLabel": "framed circular medallion with central radial figure",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71050",
+      "position": 387,
+      "parts": 44,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20091",
+      "position": 388,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60062",
+      "position": 389,
+      "parts": 41,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60080",
+      "position": 390,
+      "parts": 83,
+      "observedLabel": "symmetric face/mask-like arrangement",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71048",
+      "position": 391,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71044",
+      "position": 392,
+      "parts": 46,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20053",
+      "position": 393,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71049",
+      "position": 394,
+      "parts": 45,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71101",
+      "position": 395,
+      "parts": 54,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73001",
+      "position": 396,
+      "parts": 40,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60066",
+      "position": 397,
+      "parts": 45,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "20089",
+      "position": 398,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10204",
+      "position": 399,
+      "parts": 49,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "10206",
+      "position": 400,
+      "parts": 90,
+      "observedLabel": "large stylized smiling face with surrounding rays",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "face_head"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50004",
+      "position": 401,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50001",
+      "position": 402,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50010",
+      "position": 403,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50008",
+      "position": 404,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "110002",
+      "position": 405,
+      "parts": 14,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "130006",
+      "position": 406,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50016",
+      "position": 407,
+      "parts": 38,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50006",
+      "position": 408,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880001",
+      "position": 409,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "130004",
+      "position": 410,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50012",
+      "position": 411,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50017",
+      "position": 412,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50020",
+      "position": 413,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "110001",
+      "position": 414,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50011",
+      "position": 415,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "130008",
+      "position": 416,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50018",
+      "position": 417,
+      "parts": 40,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "110003",
+      "position": 418,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880002",
+      "position": 419,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "100005",
+      "position": 420,
+      "parts": 23,
+      "observedLabel": "circular robot/astronaut-like figure with central body",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "110005",
+      "position": 421,
+      "parts": 36,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "660005",
+      "position": 422,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "660002",
+      "position": 423,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "680013",
+      "position": 424,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50013",
+      "position": 425,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73013",
+      "position": 426,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71141",
+      "position": 427,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71140",
+      "position": 428,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880003",
+      "position": 429,
+      "parts": 30,
+      "observedLabel": "lightbulb outline with filament-like internal pieces and base",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "140004",
+      "position": 430,
+      "parts": 13,
+      "observedLabel": "radial flower/atom-like motif with center and surrounding nodes",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71146",
+      "position": 431,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71143",
+      "position": 432,
+      "parts": 17,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73016",
+      "position": 433,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71142",
+      "position": 434,
+      "parts": 21,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50014",
+      "position": 435,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73014",
+      "position": 436,
+      "parts": 29,
+      "observedLabel": "molecular network arranged around a central node",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "molecular_network"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71145",
+      "position": 437,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71144",
+      "position": 438,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880004",
+      "position": 439,
+      "parts": 55,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50002",
+      "position": 440,
+      "parts": 72,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71150",
+      "position": 441,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71201",
+      "position": 442,
+      "parts": 16,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71147",
+      "position": 443,
+      "parts": 23,
+      "observedLabel": "radial molecule/atom-like diagram with linked nodes",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "molecular_network"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71202",
+      "position": 444,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880010",
+      "position": 445,
+      "parts": 50,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "73012",
+      "position": 446,
+      "parts": 39,
+      "observedLabel": "molecular/network diagram with two central hubs and spokes",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "molecular_network"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71148",
+      "position": 447,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71149",
+      "position": 448,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "880007",
+      "position": 449,
+      "parts": 44,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "50005",
+      "position": 450,
+      "parts": 54,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71205",
+      "position": 451,
+      "parts": 19,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60094",
+      "position": 452,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150003",
+      "position": 453,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71207",
+      "position": 454,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90026",
+      "position": 455,
+      "parts": 43,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90030",
+      "position": 456,
+      "parts": 20,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60096",
+      "position": 457,
+      "parts": 23,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71209",
+      "position": 458,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "60097",
+      "position": 459,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90022",
+      "position": 460,
+      "parts": 73,
+      "observedLabel": "sailing ship with sails, mast, and water-like bands",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene",
+        "vehicle_or_vessel"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71213",
+      "position": 461,
+      "parts": 33,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150001",
+      "position": 462,
+      "parts": 22,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90012",
+      "position": 463,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71230",
+      "position": 464,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90003",
+      "position": 465,
+      "parts": 51,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150006",
+      "position": 466,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71229",
+      "position": 467,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71217",
+      "position": 468,
+      "parts": 31,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71227",
+      "position": 469,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150015",
+      "position": 470,
+      "parts": 35,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150014",
+      "position": 471,
+      "parts": 32,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150002",
+      "position": 472,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90002",
+      "position": 473,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71206",
+      "position": 474,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90006",
+      "position": 475,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90055",
+      "position": 476,
+      "parts": 42,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [
+        "grid_or_lattice"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71203",
+      "position": 477,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71208",
+      "position": 478,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71224",
+      "position": 479,
+      "parts": 27,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90024",
+      "position": 480,
+      "parts": 82,
+      "observedLabel": "train/locomotive with cab, circular wheel, and track-like base",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "built_object_or_scene",
+        "vehicle_or_vessel"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90013",
+      "position": 481,
+      "parts": 39,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150004",
+      "position": 482,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90014",
+      "position": 483,
+      "parts": 40,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71216",
+      "position": 484,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90005",
+      "position": 485,
+      "parts": 43,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90009",
+      "position": 486,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71204",
+      "position": 487,
+      "parts": 24,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71218",
+      "position": 488,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71223",
+      "position": 489,
+      "parts": 30,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150005",
+      "position": 490,
+      "parts": 96,
+      "observedLabel": "butterfly with paired wings and central body",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "butterfly"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150011",
+      "position": 491,
+      "parts": 26,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150007",
+      "position": 492,
+      "parts": 25,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90020",
+      "position": 493,
+      "parts": 39,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71222",
+      "position": 494,
+      "parts": 28,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90008",
+      "position": 495,
+      "parts": 37,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90015",
+      "position": 496,
+      "parts": 33,
+      "observedLabel": "diamond/hexagon outline with central radial spokes",
+      "observedConfidence": "high",
+      "inferredClusters": [
+        "radial_symmetry"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71226",
+      "position": 497,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "71215",
+      "position": 498,
+      "parts": 29,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "90025",
+      "position": 499,
+      "parts": 34,
+      "observedLabel": null,
+      "observedConfidence": null,
+      "inferredClusters": [],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    },
+    {
+      "sourceId": "150013",
+      "position": 500,
+      "parts": 86,
+      "observedLabel": "split scene with two small face-like forms above a house/building scene",
+      "observedConfidence": "medium",
+      "inferredClusters": [
+        "built_object_or_scene"
+      ],
+      "reviewStatus": "reviewed_visual_contact_sheet"
+    }
+  ]
+}

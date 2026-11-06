@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "status": "INDEPENDENT_CONSTRUCTIVE_V5_AUDIT",
+  "passed": false,
+  "generationAvailability": "CANDIDATES_AUDITED",
+  "candidateCount": 4,
+  "passedCandidateCount": 2,
+  "ordinaryTrainingSourceCount": 460,
+  "explicitlyExcludedSourceCount": 47,
+  "excludedSourceIds": [
+    "100005",
+    "10028",
+    "10042",
+    "10072",
+    "10095",
+    "10109",
+    "10125",
+    "10155",
+    "10156",
+    "10157",
+    "10158",
+    "10159",
+    "10160",
+    "10192",
+    "10193",
+    "10206",
+    "10207",
+    "10208",
+    "10210",
+    "10211",
+    "10212",
+    "10213",
+    "10214",
+    "10215",
+    "10216",
+    "140004",
+    "150005",
+    "150013",
+    "60043",
+    "60044",
+    "60047",
+    "60061",
+    "60080",
+    "60091",
+    "60092",
+    "72002",
+    "72004",
+    "72005",
+    "72006",
+    "72007",
+    "72011",
+    "72014",
+    "73010",
+    "880003",
+    "90015",
+    "90022",
+    "90024"
+  ],
+  "pilotStatus": "FROM_EMPTY_NATIVE_MOTIF_RESEARCH_PENDING_INDEPENDENT_NATIVE_REPLAY_DIFFICULTY_VISUAL",
+  "closureInterpretation": "Conservative outgoing authored-link and touched-guide closure used by this pilot; not asserted as original game law.",
+  "originalityInterpretation": "Reject whole-board canonical source equivalence. Native source motifs inside a meaningfully larger composition are allowed.",
+  "limits": [
+    "Raw seam and native provenance checks do not establish runtime replay or solvability.",
+    "Canonical fingerprint rejects exact rigid/cosmetic whole-board equivalence; near-copy review remains heuristic.",
+    "Failure to find motifs within finite search support means unknown, not impossible."
+  ],
+  "hashes": {
+    "ordinarySourceCount": 460,
+    "sourcePackSha256": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "sourceFilterSha256": "c6adffad659ad4da06478a103696821becc3c03dbd69d92f9c7a3a85985429dd",
+    "organizationModelName": "organization_conditioned_v5.joblib",
+    "organizationModelSha256": "f55c6dc30966ca7ace05e6e4a25a4ff9f3365e0fd9ab0c201e3166f5f36a2915",
+    "organizationEvaluationSha256": "b1460732eda43083c1b976dd0743ff56a007d07c440f4bd5e1b2f22c7da4eaf9",
+    "continuationModelSha256": "7dd958f4e5c95cc5bdcdb5cb6d5a747395672bae20860272259ca504244ff246",
+    "jointNativeModelSha256": "4eb933aee5d157cf76975d626d98aa0b869f672700f8d9e6a534ed0fd91b2bd3",
+    "sharpBaseModelSha256": "a5d7225d5cd62ba0d0ac3d107a356a3a2c394904314c41b3685f3160a16f56e1",
+    "sharpNativeFieldCacheSha256": "9bcf38adc251cea3ecae8bae8600a1b90f7528e4b27c94abd613bd07b9c4624a",
+    "conditionedSharpModelSha256": "dcfa30ad1dd1cb58987f07f1e8eddf8cdc483456347ac979205b0e9210337dba",
+    "conditionedFamilySplitsSha256": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "supportingModelHashes": {
+      "macro_assembly.joblib": "9b1bb8d6c3b423c18f97b7b546392a33b7ab2d02699f9cb23715802e6dc7d360",
+      "guide_anchor_role_motifs.joblib": "d6b656f2ea68d5bbbea3b39279ee120073347c39279731ee59f61959a73fcef9",
+      "composition_pose.joblib": "ac70d43980f784f7bf09e2a8a848fc64a6b5f1fb873e791b1af8d9acd02f4b24"
+    },
+    "pilotSha256": "c79a05db540a8d1a0f41ab34594fba8f32d8e5b7f4bbfd34f5591fc80c3454ca",
+    "auditSha256": "45dbc3e00c5bc80d65b22a059389359e4620c8d02bea6097ac430911153507a0"
+  },
+  "candidates": [
+    {
+      "id": 9300000,
+      "position": 7,
+      "passed": true,
+      "structuralPassed": true,
+      "partialSourceCopyReviewPassed": true,
+      "partialSourceCopyReviewRequired": false,
+      "partialSourceCopyMatches": [
+        {
+          "sourceId": "10082",
+          "sourceRootCount": 14,
+          "distinctImportedSourceRootCount": 4,
+          "consistentRootCount": 4,
+          "sourceRootCoverage": 0.2857142857142857,
+          "candidateRootCoverage": 0.4,
+          "sourcePartIds": [
+            1,
+            4,
+            7,
+            8
+          ],
+          "candidatePartIds": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "inducedNativeLinkCount": 3,
+          "retainedNativeLinkCount": 3,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 0,
+          "retainedNativeGuideCount": 0,
+          "retainedNativeGuideFraction": 0.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "10010",
+          "sourceRootCount": 10,
+          "distinctImportedSourceRootCount": 4,
+          "consistentRootCount": 2,
+          "sourceRootCoverage": 0.2,
+          "candidateRootCoverage": 0.2,
+          "sourcePartIds": [
+            2,
+            10
+          ],
+          "candidatePartIds": [
+            5,
+            6
+          ],
+          "inducedNativeLinkCount": 0,
+          "retainedNativeLinkCount": 0,
+          "retainedNativeLinkFraction": 0.0,
+          "inducedNativeGuideCount": 1,
+          "retainedNativeGuideCount": 1,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "10011",
+          "sourceRootCount": 15,
+          "distinctImportedSourceRootCount": 2,
+          "consistentRootCount": 2,
+          "sourceRootCoverage": 0.13333333333333333,
+          "candidateRootCoverage": 0.2,
+          "sourcePartIds": [
+            13,
+            14
+          ],
+          "candidatePartIds": [
+            7,
+            8
+          ],
+          "inducedNativeLinkCount": 0,
+          "retainedNativeLinkCount": 0,
+          "retainedNativeLinkFraction": 0.0,
+          "inducedNativeGuideCount": 1,
+          "retainedNativeGuideCount": 1,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        }
+      ],
+      "errors": [],
+      "nativeAssemblyIntegrityPassed": true,
+      "rawGeometrySeamPassed": true,
+      "canonicalSourceEquivalent": false,
+      "partCount": 10,
+      "tileImportCount": 4,
+      "guideLinkCount": 2,
+      "bombCount": 0
+    },
+    {
+      "id": 9300001,
+      "position": 7,
+      "passed": false,
+      "structuralPassed": true,
+      "partialSourceCopyReviewPassed": false,
+      "partialSourceCopyReviewRequired": true,
+      "partialSourceCopyMatches": [
+        {
+          "sourceId": "71019",
+          "sourceRootCount": 28,
+          "distinctImportedSourceRootCount": 15,
+          "consistentRootCount": 15,
+          "sourceRootCoverage": 0.5357142857142857,
+          "candidateRootCoverage": 0.5357142857142857,
+          "sourcePartIds": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            11,
+            12,
+            14,
+            18,
+            24,
+            25,
+            27,
+            28
+          ],
+          "candidatePartIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            17,
+            18,
+            19,
+            20
+          ],
+          "inducedNativeLinkCount": 11,
+          "retainedNativeLinkCount": 11,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 2,
+          "retainedNativeGuideCount": 2,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": true,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "70032",
+          "sourceRootCount": 22,
+          "distinctImportedSourceRootCount": 6,
+          "consistentRootCount": 6,
+          "sourceRootCoverage": 0.2727272727272727,
+          "candidateRootCoverage": 0.21428571428571427,
+          "sourcePartIds": [
+            8,
+            10,
+            13,
+            18,
+            19,
+            20
+          ],
+          "candidatePartIds": [
+            9,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "inducedNativeLinkCount": 4,
+          "retainedNativeLinkCount": 4,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 1,
+          "retainedNativeGuideCount": 1,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "70031",
+          "sourceRootCount": 25,
+          "distinctImportedSourceRootCount": 6,
+          "consistentRootCount": 6,
+          "sourceRootCoverage": 0.24,
+          "candidateRootCoverage": 0.21428571428571427,
+          "sourcePartIds": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "candidatePartIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "inducedNativeLinkCount": 5,
+          "retainedNativeLinkCount": 5,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 0,
+          "retainedNativeGuideCount": 0,
+          "retainedNativeGuideFraction": 0.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "70028",
+          "sourceRootCount": 31,
+          "distinctImportedSourceRootCount": 2,
+          "consistentRootCount": 2,
+          "sourceRootCoverage": 0.06451612903225806,
+          "candidateRootCoverage": 0.07142857142857142,
+          "sourcePartIds": [
+            23,
+            24
+          ],
+          "candidatePartIds": [
+            27,
+            28
+          ],
+          "inducedNativeLinkCount": 0,
+          "retainedNativeLinkCount": 0,
+          "retainedNativeLinkFraction": 0.0,
+          "inducedNativeGuideCount": 1,
+          "retainedNativeGuideCount": 1,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        }
+      ],
+      "errors": [
+        {
+          "kind": "substantialExactRigidPartialSourceEmbeddingReviewRequired",
+          "sourceIds": [
+            "71019"
+          ]
+        }
+      ],
+      "nativeAssemblyIntegrityPassed": true,
+      "rawGeometrySeamPassed": true,
+      "canonicalSourceEquivalent": false,
+      "partCount": 28,
+      "tileImportCount": 6,
+      "guideLinkCount": 4,
+      "bombCount": 0
+    },
+    {
+      "id": 9300002,
+      "position": 18,
+      "passed": false,
+      "structuralPassed": true,
+      "partialSourceCopyReviewPassed": false,
+      "partialSourceCopyReviewRequired": true,
+      "partialSourceCopyMatches": [
+        {
+          "sourceId": "10043",
+          "sourceRootCount": 33,
+          "distinctImportedSourceRootCount": 16,
+          "consistentRootCount": 16,
+          "sourceRootCoverage": 0.48484848484848486,
+          "candidateRootCoverage": 0.8888888888888888,
+          "sourcePartIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            17,
+            20
+          ],
+          "candidatePartIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "inducedNativeLinkCount": 11,
+          "retainedNativeLinkCount": 11,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 2,
+          "retainedNativeGuideCount": 2,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": true,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "10035",
+          "sourceRootCount": 26,
+          "distinctImportedSourceRootCount": 2,
+          "consistentRootCount": 2,
+          "sourceRootCoverage": 0.07692307692307693,
+          "candidateRootCoverage": 0.1111111111111111,
+          "sourcePartIds": [
+            21,
+            22
+          ],
+          "candidatePartIds": [
+            17,
+            18
+          ],
+          "inducedNativeLinkCount": 0,
+          "retainedNativeLinkCount": 0,
+          "retainedNativeLinkFraction": 0.0,
+          "inducedNativeGuideCount": 1,
+          "retainedNativeGuideCount": 1,
+          "retainedNativeGuideFraction": 1.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        }
+      ],
+      "errors": [
+        {
+          "kind": "substantialExactRigidPartialSourceEmbeddingReviewRequired",
+          "sourceIds": [
+            "10043"
+          ]
+        }
+      ],
+      "nativeAssemblyIntegrityPassed": true,
+      "rawGeometrySeamPassed": true,
+      "canonicalSourceEquivalent": false,
+      "partCount": 18,
+      "tileImportCount": 4,
+      "guideLinkCount": 3,
+      "bombCount": 0
+    },
+    {
+      "id": 9300003,
+      "position": 18,
+      "passed": true,
+      "structuralPassed": true,
+      "partialSourceCopyReviewPassed": true,
+      "partialSourceCopyReviewRequired": false,
+      "partialSourceCopyMatches": [
+        {
+          "sourceId": "20049",
+          "sourceRootCount": 24,
+          "distinctImportedSourceRootCount": 8,
+          "consistentRootCount": 8,
+          "sourceRootCoverage": 0.3333333333333333,
+          "candidateRootCoverage": 0.6153846153846154,
+          "sourcePartIds": [
+            1,
+            3,
+            7,
+            15,
+            18,
+            21,
+            23,
+            24
+          ],
+          "candidatePartIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "inducedNativeLinkCount": 7,
+          "retainedNativeLinkCount": 7,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 0,
+          "retainedNativeGuideCount": 0,
+          "retainedNativeGuideFraction": 0.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        },
+        {
+          "sourceId": "10050",
+          "sourceRootCount": 20,
+          "distinctImportedSourceRootCount": 5,
+          "consistentRootCount": 5,
+          "sourceRootCoverage": 0.25,
+          "candidateRootCoverage": 0.38461538461538464,
+          "sourcePartIds": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "candidatePartIds": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "inducedNativeLinkCount": 4,
+          "retainedNativeLinkCount": 4,
+          "retainedNativeLinkFraction": 1.0,
+          "inducedNativeGuideCount": 0,
+          "retainedNativeGuideCount": 0,
+          "retainedNativeGuideFraction": 0.0,
+          "partialSourceCopyReviewRequired": false,
+          "reviewMeaning": "Exact rigid source-board subset diagnostic only; not an automatic rejection or content quota."
+        }
+      ],
+      "errors": [],
+      "nativeAssemblyIntegrityPassed": true,
+      "rawGeometrySeamPassed": true,
+      "canonicalSourceEquivalent": false,
+      "partCount": 13,
+      "tileImportCount": 2,
+      "guideLinkCount": 0,
+      "bombCount": 0
+    }
+  ]
+}

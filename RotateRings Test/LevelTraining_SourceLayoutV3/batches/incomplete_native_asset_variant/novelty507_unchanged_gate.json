@@ -1,0 +1,183 @@
+{
+  "complete": false,
+  "acceptedCount": 0,
+  "gateUnchanged": true,
+  "levels": [
+    {
+      "id": 6000001,
+      "position": 76,
+      "novelty507": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.0976195759219385e-15,
+            "p90CenterErrorWidths": 7.90653785701729e-15,
+            "meanAngleErrorDegrees": 1.4509034720123933e-14,
+            "meanShapeError": 0.041666666666666664,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true,
+            "sourceId": "10057"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.0976195759219385e-15,
+          "p90CenterErrorWidths": 7.90653785701729e-15,
+          "meanAngleErrorDegrees": 1.4509034720123933e-14,
+          "meanShapeError": 0.041666666666666664,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": true,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 6000002,
+      "position": 76,
+      "novelty507": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.0976195759219385e-15,
+            "p90CenterErrorWidths": 7.90653785701729e-15,
+            "meanAngleErrorDegrees": 1.4509034720123933e-14,
+            "meanShapeError": 0.03125,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true,
+            "sourceId": "10057"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.0976195759219385e-15,
+          "p90CenterErrorWidths": 7.90653785701729e-15,
+          "meanAngleErrorDegrees": 1.4509034720123933e-14,
+          "meanShapeError": 0.03125,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": true,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 6000003,
+      "position": 76,
+      "novelty507": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.0976195759219385e-15,
+            "p90CenterErrorWidths": 7.90653785701729e-15,
+            "meanAngleErrorDegrees": 1.4509034720123933e-14,
+            "meanShapeError": 0.020833333333333332,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true,
+            "sourceId": "10057"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.0976195759219385e-15,
+          "p90CenterErrorWidths": 7.90653785701729e-15,
+          "meanAngleErrorDegrees": 1.4509034720123933e-14,
+          "meanShapeError": 0.020833333333333332,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": true,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    },
+    {
+      "id": 6000004,
+      "position": 76,
+      "novelty507": {
+        "passed": false,
+        "sourcesCompared": 507,
+        "nearCopies": [
+          {
+            "coverage": 1.0,
+            "meanCenterErrorWidths": 6.0976195759219385e-15,
+            "p90CenterErrorWidths": 7.90653785701729e-15,
+            "meanAngleErrorDegrees": 1.4509034720123933e-14,
+            "meanShapeError": 0.020833333333333332,
+            "alignmentReflection": false,
+            "spacingScale": 0.9999999999999998,
+            "nearCopy": true,
+            "sourceId": "10057"
+          }
+        ],
+        "nearestCompatible": {
+          "coverage": 1.0,
+          "meanCenterErrorWidths": 6.0976195759219385e-15,
+          "p90CenterErrorWidths": 7.90653785701729e-15,
+          "meanAngleErrorDegrees": 1.4509034720123933e-14,
+          "meanShapeError": 0.020833333333333332,
+          "alignmentReflection": false,
+          "spacingScale": 0.9999999999999998,
+          "nearCopy": true,
+          "sourceId": "10057"
+        },
+        "criteria": {
+          "minimumCoverage": 0.9,
+          "maximumMeanCenterErrorWidths": 0.35,
+          "maximumP90CenterErrorWidths": 0.7,
+          "maximumMeanAngleErrorDegrees": 15.0,
+          "maximumMeanShapeError": 0.15,
+          "spacingScaleRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "limits": "Heuristic whole-layout geometry; does not certify intellectual originality or gameplay quality."
+      }
+    }
+  ]
+}
