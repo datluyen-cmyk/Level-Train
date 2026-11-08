@@ -1,0 +1,54 @@
+{
+  "scope": "SOLID_COLLIDER_DIAGNOSTIC_NOT_UNITY_RENDERING_OR_ACCEPTANCE",
+  "acceptedCount": 0,
+  "proposalCount": 5,
+  "sheets": [
+    {
+      "file": "comparison_01.png",
+      "panels": [
+        {
+          "position": 31,
+          "sourceId": "70011",
+          "candidateId": 9979700,
+          "sourcePanel": 0,
+          "candidatePanel": 1
+        },
+        {
+          "position": 32,
+          "sourceId": "10048",
+          "candidateId": 9979500,
+          "sourcePanel": 2,
+          "candidatePanel": 3
+        },
+        {
+          "position": 33,
+          "sourceId": "10054",
+          "candidateId": 9978701,
+          "sourcePanel": 4,
+          "candidatePanel": 5
+        },
+        {
+          "position": 34,
+          "sourceId": "10050",
+          "candidateId": 9979000,
+          "sourcePanel": 6,
+          "candidatePanel": 7
+        },
+        {
+          "position": 35,
+          "sourceId": "10061",
+          "candidateId": 9978900,
+          "sourcePanel": 8,
+          "candidatePanel": 9
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json": "6bfbfd18741321629dd00a7aa0c7e6eaac765ccf41d71d3e0ab718de6b3a32ce",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source500_native.json": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\data\\source_templates.json": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "C:\\WorkProj\\Level-Train\\Tools\\render_staged_comparison_v3.py": "3018f36b45c33811e01e212af120899678d7d8b7fbedee13ff090e0d87d45be9",
+    "C:\\WorkProj\\Level-Train\\Tools\\render_layout_diagnostics_v3.py": "9c7fdf4a42bd8557fc4d3ca59feecc55dedb9027b99ccde907d96a3b1f7508a1"
+  }
+}

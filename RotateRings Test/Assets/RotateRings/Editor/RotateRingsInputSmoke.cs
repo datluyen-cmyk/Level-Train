@@ -373,7 +373,15 @@ public static class RotateRingsInputSmoke {
                 if (Camera.main == null) continue;
                 Vector3 downScreenPoint = Camera.main.WorldToScreenPoint(pointerWorld);
                 float candidateTravel = Mathf.Max(part.radius * 1.25f, .3f) + .2f;
-                Vector2 axis = new Vector2(Mathf.Cos(part.axis * Mathf.Deg2Rad), Mathf.Sin(part.axis * Mathf.Deg2Rad));
+                var catalog = GetField<RotateRingsTemplateCatalog>(runtime, "templates");
+                var template = catalog == null || catalog.templates == null ? null :
+                    Array.Find(catalog.templates, item => item != null && item.id == part.templateId);
+                if (template == null) continue;
+                // The serialized part.axis is not the authoritative Pull movement
+                // direction. Use the same template axis as Runtime/CollisionWorld;
+                // otherwise the QA mouse can drag perpendicular to a horizontal
+                // or vertical slider and report a false stuck-slider failure.
+                Vector2 axis = RotateRingsRules.SlideAxis(part, template);
                 Vector3 upScreenPoint = Camera.main.WorldToScreenPoint(pointerWorld + axis * candidateTravel);
                 if (downScreenPoint.z < 0f || upScreenPoint.z < 0f) continue;
                 selectedSlider = part;
@@ -416,7 +424,11 @@ public static class RotateRingsInputSmoke {
 
     static bool TryFindSliderPointer(RotateRingsPart slider, out Vector2 pointerWorld) {
         var liveWorld = GetField<RotateRingsWorldView>(runtime, "world");
-        Vector2 axis = new Vector2(Mathf.Cos(slider.axis * Mathf.Deg2Rad), Mathf.Sin(slider.axis * Mathf.Deg2Rad));
+        var catalog = GetField<RotateRingsTemplateCatalog>(runtime, "templates");
+        var template = catalog == null || catalog.templates == null ? null :
+            Array.Find(catalog.templates, item => item != null && item.id == slider.templateId);
+        if (template == null) { pointerWorld = default; return false; }
+        Vector2 axis = RotateRingsRules.SlideAxis(slider, template);
         float[] offsets = { -slider.length * .45f, -slider.length * .35f, -slider.length * .2f, 0f, slider.length * .2f, slider.length * .35f, slider.length * .45f };
         foreach (float offset in offsets) {
             Vector2 point = new Vector2(slider.x, slider.y) + axis * offset;

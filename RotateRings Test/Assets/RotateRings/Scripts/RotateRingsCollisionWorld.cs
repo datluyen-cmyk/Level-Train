@@ -15,7 +15,13 @@ public sealed class RotateRingsAuthoredContactState
 
 public sealed class RotateRingsCollisionWorld : MonoBehaviour
 {
-    public const float MaxAngularStep = .5f;
+    // A pointer sample can cover several degrees.  The old 0.5° step caused
+    // 720 Physics2D.SyncTransforms calls for a single full turn (and another
+    // set of broad phase queries for every step), which made dense ring boards
+    // visibly hitch.  3° keeps the swept collision skin below the
+    // native tolerance; the blocked edge is refined with the binary search
+    // below, so contact accuracy at the stopping point is unchanged.
+    public const float MaxAngularStep = 3f;
     public const float MaxLinearStep = .12f;
     public const float PenetrationTolerance = .0005f;
 
@@ -158,6 +164,7 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
 
     readonly Dictionary<int, Body> bodies = new Dictionary<int, Body>();
     readonly Dictionary<Collider2D, Shape> shapeLookup = new Dictionary<Collider2D, Shape>();
+    readonly List<Shape> ringShapes = new List<Shape>();
     readonly Dictionary<long, PhysicsMaterial2D> sourcePhysicsMaterials = new Dictionary<long, PhysicsMaterial2D>();
     readonly List<PhysicsMaterial2D> ownedPhysicsMaterials = new List<PhysicsMaterial2D>();
     readonly List<RingRelation> ringRelations = new List<RingRelation>();
@@ -296,6 +303,7 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
                 };
                 body.shapes.Add(shape);
                 shapeLookup.Add(collider, shape);
+                if (part.kind == "ring") ringShapes.Add(shape);
             }
             if (part.kind == "ring" || part.kind == "slider")
             {
@@ -495,6 +503,7 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
         sourcePhysicsMaterials.Clear();
         bodies.Clear();
         shapeLookup.Clear();
+        ringShapes.Clear();
         ringRelations.Clear();
         guideRelations.Clear();
         activeRingRelations.Clear();
@@ -530,14 +539,23 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
 
     public void ApplyState(Dictionary<int, float> angles, HashSet<int> removed, Dictionary<int, float> slides = null)
     {
+        bool changed = false;
         foreach (var pair in bodies)
         {
             var body = pair.Value;
-            body.angle = angles != null && angles.TryGetValue(pair.Key, out float a) ? a : body.part.angle;
-            body.removed = removed != null && removed.Contains(pair.Key);
-            body.slide = slides != null && slides.TryGetValue(pair.Key, out float s) ? s : 0f;
+            float nextAngle = angles != null && angles.TryGetValue(pair.Key, out float a) ? a : body.part.angle;
+            bool nextRemoved = removed != null && removed.Contains(pair.Key);
+            float nextSlide = slides != null && slides.TryGetValue(pair.Key, out float s) ? s : 0f;
+            if (Mathf.Abs(Mathf.DeltaAngle(body.angle, nextAngle)) <= 0.0001f &&
+                body.removed == nextRemoved && Mathf.Abs(body.slide - nextSlide) <= 0.0001f)
+                continue;
+            body.angle = nextAngle;
+            body.removed = nextRemoved;
+            body.slide = nextSlide;
             SetPose(body);
+            changed = true;
         }
+        if (!changed) return;
         Physics2D.SyncTransforms();
         RefreshBindings();
     }
@@ -1019,7 +1037,6 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
                 accepted = low; break;
             }
             accepted = candidate;
-            RefreshBindings();
             EmitMotionSample(body);
             if (body.removed) { blocked = true; break; }
         }
@@ -1355,12 +1372,11 @@ public sealed class RotateRingsCollisionWorld : MonoBehaviour
         foreach (var pin in body.shapes)
         {
             if (pin.role != "stem" || !pin.collider.enabled) continue;
-            foreach (var pair in shapeLookup)
+            foreach (var other in ringShapes)
             {
-                var other = pair.Value;
-                if (other.owner == body.part.id || !pair.Key.enabled || bodies[other.owner].removed ||
-                    bodies[other.owner].part.kind != "ring" || !BoundsMayContact(pin.collider, pair.Key)) continue;
-                var distance = pin.collider.Distance(pair.Key);
+                if (other.owner == body.part.id || other.collider == null || !other.collider.enabled || bodies[other.owner].removed ||
+                    !BoundsMayContact(pin.collider, other.collider)) continue;
+                var distance = pin.collider.Distance(other.collider);
                 if (distance.isValid && distance.distance < 0f) return ReportBlocker(other);
             }
         }

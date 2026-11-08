@@ -33,14 +33,18 @@ public sealed class RotateRingsInputWorld : MonoBehaviour {
     }
 
     public void ApplyState(Dictionary<int,float> angles,Dictionary<int,float> slides,HashSet<int> removed,Dictionary<int,int> chainLocks,HashSet<int> keys){
+        bool changed=false;
         foreach(var pair in areas){var a=pair.Value;var p=a.part;bool ring=p.kind=="ring";
             bool locked=ring&&((chainLocks.TryGetValue(p.id,out int count)&&count>0)||(p.lockKey!=0&&keys!=null&&!keys.Contains(p.lockKey))||collision.HasOutgoingBinding(p.id));
             float slide=slides.TryGetValue(p.id,out float offset)?offset:0f;
-            a.root.localPosition=new Vector3(p.x+a.axis.x*slide,p.y+a.axis.y*slide,p.z+(ring?(locked?.2f:.1f):a.sourceZ));
-            a.root.localRotation=Quaternion.Euler(0,0,angles.TryGetValue(p.id,out float angle)?angle:p.angle);
-            a.collider.enabled=!removed.Contains(p.id)&&p.inputShapes[0].sourceEnabled;
+            Vector3 position=new Vector3(p.x+a.axis.x*slide,p.y+a.axis.y*slide,p.z+(ring?(locked?.2f:.1f):a.sourceZ));
+            float angle=angles.TryGetValue(p.id,out float resolvedAngle)?resolvedAngle:p.angle;
+            bool enabled=!removed.Contains(p.id)&&p.inputShapes[0].sourceEnabled;
+            if((a.root.localPosition-position).sqrMagnitude>1e-8f||Mathf.Abs(Mathf.DeltaAngle(a.root.localEulerAngles.z,angle))>.0001f||a.collider.enabled!=enabled){
+                a.root.localPosition=position;a.root.localRotation=Quaternion.Euler(0,0,angle);a.collider.enabled=enabled;changed=true;
+            }
         }
-        Physics2D.SyncTransforms();
+        if(changed)Physics2D.SyncTransforms();
     }
 
     public bool TryHit(Camera camera,Vector2 screen,HashSet<int> removed,out int owner){

@@ -29,6 +29,14 @@ public sealed class RotateRingsWorldView : MonoBehaviour {
             var visual=go.AddComponent<BombVisual>();visual.Initialize(definition);bombs.Add(visual);
         }
     }
+
+    // Training review should be interactive as soon as the level is built.
+    // The source game keeps the staggered entry animation, but waiting for it
+    // on a generated board makes a level switch look like a loading hitch.
+    public void CompleteEntryAnimation(){
+        enteringUntil=Time.unscaledTime;
+        foreach(var view in parts.Values)view.CompleteEntry();
+    }
     public Bounds GeometryBounds(){
         Bounds bounds=new Bounds();bool first=true;
         foreach(var view in parts.Values){var local=view.MeshBounds;var p=view.Part;var pose=Matrix4x4.TRS(new Vector3(p.x,p.y,0),Quaternion.Euler(0,0,p.angle),Vector3.one);
@@ -167,6 +175,7 @@ public sealed class RotateRingsWorldView : MonoBehaviour {
         }
         bool NoPendingChainBreaks(){for(int i=0;i<chainBreakRoutines.Length;i++)if(chainBreakRoutines[i]!=null)return false;return true;}
         public void SetSlideOffset(float offset){transform.localPosition=home+(Vector3)slideAxis*offset;}
+        public void CompleteEntry(){entryStart=Time.unscaledTime-RotateRingsOriginalMotion.EntryDuration;ApplyPose();}
         public void Apply(float angle,bool removed,bool wobble){
             if(!removed&&released){released=false;if(shatter!=null)Destroy(shatter);}Active=!removed;CurrentAngle=angle;body.enabled=Active;foreach(var renderer in extraRenderers)renderer.enabled=Active;if(chainRoot!=null)chainRoot.SetActive(Active||(chainCount<=0&&!NoPendingChainBreaks()));
             OriginalRingVisualAssets.ApplySelectionOutline(material,Active&&selected);
@@ -175,7 +184,15 @@ public sealed class RotateRingsWorldView : MonoBehaviour {
         }
         public void BeginRelease(){if(released)return;released=true;body.enabled=false;foreach(var renderer in extraRenderers)renderer.enabled=false;OriginalRingVisualAssets.ApplySelectionOutline(material,false);shatter=RotateRingsOriginalMotion.PlayShatter(mesh,transform,PartColor(Part.color));}
         public void SetSelected(bool value){selected=value;OriginalRingVisualAssets.ApplySelectionOutline(material,Active&&value);}
-        void Update(){ApplyPose();}
+        void Update(){
+            // Entry animation is the only continuous idle motion for a settled part.
+            // Avoid rebuilding the transform every frame after it has finished; this
+            // matters on large generated boards where every part otherwise wakes the
+            // main thread once per frame. Apply() still refreshes the pose immediately
+            // when gameplay changes an angle, visibility, or wobble state.
+            if(Application.isPlaying&&Time.unscaledTime>=entryStart+RotateRingsOriginalMotion.EntryDuration&&wobbleStart<0f)return;
+            ApplyPose();
+        }
         void ApplyPose(){float entry=Mathf.Clamp01((Time.unscaledTime-entryStart)/RotateRingsOriginalMotion.EntryDuration);transform.localScale=!Application.isPlaying?Vector3.one:Vector3.one*(Time.unscaledTime<entryStart?RotateRingsOriginalMotion.InitialWaitingScale:RotateRingsOriginalMotion.EntryScale(entry));float wobble=(Time.unscaledTime-wobbleStart)/RotateRingsOriginalMotion.WobbleDuration;transform.localRotation=Quaternion.Euler(0,0,CurrentAngle+(wobble>=0&&wobble<1?RotateRingsOriginalMotion.WobbleAngle(wobble):0));}
         public bool HitScore(Vector2 point,out float score){
             score=float.MaxValue;Vector2 d=point-(Vector2)transform.position;

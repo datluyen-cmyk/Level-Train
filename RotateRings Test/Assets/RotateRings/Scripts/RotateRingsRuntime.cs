@@ -26,9 +26,9 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
 
     static readonly Color Cream=new Color(1f,.99490005f,.95754719f), Ink=new Color(.30f,.20f,.14f), Brown=new Color(.56f,.34f,.21f);
 
-    RotateRingsTemplateCatalog templates; RotateRingsCollisionWorld collision; RotateRingsBombContacts bombContacts; RotateRingsInputWorld inputWorld; RotateRingsLevelPack pack; RotateRingsLevel level; State state; RotateRingsWorldView world; Camera gameCamera;
+    RotateRingsTemplateCatalog templates,trainingTemplates,originalTemplates; RotateRingsCollisionWorld collision; RotateRingsBombContacts bombContacts; RotateRingsInputWorld inputWorld; RotateRingsLevelPack pack; RotateRingsLevelPack trainingPack; RotateRingsLevelPack originalPack; string lazyOriginalPackPath,lazyOriginalTemplatePath; string originalLevelDirectory; string originalTemplateDirectory; bool originalLevelsLazy; RotateRingsLevel level; State state; RotateRingsWorldView world; Camera gameCamera; string currentTemplatePackPath;
 
-    Canvas canvas; RectTransform uiRoot; ScreenMode mode; Stack<State> undo=new Stack<State>(); Drag drag; int levelIndex; int maxUnlocked; bool referenceQa; bool trainingPreview; bool trainingPreviewUnlockAll; bool soundOn=true; float winAt=-1f; bool hammerMode;
+    Canvas canvas; RectTransform uiRoot; ScreenMode mode; Stack<State> undo=new Stack<State>(); Drag drag; int levelIndex; int maxUnlocked; bool referenceQa; bool trainingPreview; bool trainingPreviewOriginal; bool trainingPreviewUnlockAll; bool trainingPair; bool soundOn=true; float winAt=-1f; bool hammerMode;
 
     Text titleText,movesText,toastText; RotateRingsOriginalHud originalHud; GameObject panel; AudioSource music, sfx; readonly Dictionary<string,Sprite> artCache=new Dictionary<string,Sprite>();
 
@@ -63,12 +63,18 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
         }}
 
     void LoadPack(){
-
-        var file=Resources.Load<TextAsset>("Levels/generated_levels");var catalog=Resources.Load<TextAsset>("Levels/physics_templates");
+        var timer=System.Diagnostics.Stopwatch.StartNew();
+        var indexFile=Resources.Load<TextAsset>("Levels/original_levels_index");
+        if(indexFile!=null){
+            try{var index=JsonUtility.FromJson<RotateRingsLevelPack>(indexFile.text);if(index!=null&&index.schemaVersion==3&&index.complete&&!index.sourceOriginalOnly&&index.levels!=null&&index.levels.Count>0){pack=index;templates=null;originalLevelsLazy=true;originalLevelDirectory="Levels/original_level_data";originalTemplateDirectory="Levels/original_level_templates";Debug.Log($"TRAINING PACK PERF lazy-index levels={pack.levels.Count} total={timer.ElapsedMilliseconds}ms");return;}}
+            catch(Exception e){Debug.LogWarning("Could not load lazy original level index: "+e.Message);}
+        }
+        var file=Resources.Load<TextAsset>("Levels/original_levels");var catalog=Resources.Load<TextAsset>("Levels/original_templates");
+        if(file==null||catalog==null){file=Resources.Load<TextAsset>("Levels/generated_levels");catalog=Resources.Load<TextAsset>("Levels/physics_templates");}
 
         if(file==null||catalog==null)return;
 
-        try{templates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(catalog.text);pack=JsonUtility.FromJson<RotateRingsLevelPack>(file.text);if(pack==null||pack.schemaVersion!=3||!pack.complete||pack.sourceOriginalOnly||pack.levels==null||templates==null)pack=null;else pack.levels.Sort((a,b)=>a.id.CompareTo(b.id));}
+        try{templates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(catalog.text);long templatesMs=timer.ElapsedMilliseconds;pack=JsonUtility.FromJson<RotateRingsLevelPack>(file.text);long packMs=timer.ElapsedMilliseconds-templatesMs;if(pack==null||pack.schemaVersion!=3||!pack.complete||pack.sourceOriginalOnly||pack.levels==null||templates==null||templates.schemaVersion!=3)pack=null;else pack.levels.Sort((a,b)=>a.id.CompareTo(b.id));Debug.Log($"TRAINING PACK PERF templates={templatesMs}ms levels={packMs}ms total={timer.ElapsedMilliseconds}ms");}
 
         catch(Exception e){Debug.LogError("Could not load verified original-template pack: "+e);pack=null;}
 
@@ -85,24 +91,62 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
     public void SetTrainingPreviewUnlockAllForQa(bool unlocked){trainingPreviewUnlockAll=unlocked;}
     public int TrainingPreviewLevelIdForQa => trainingPreview&&level!=null?level.id:-1;
 
-    public void LoadTrainingPreviewForQa(string packPath,string templatesPath,int levelId){
+    public void LoadTrainingPreviewPairForQa(string candidatePackPath,string sourcePackPath,string candidateTemplatesPath,string sourceTemplatesPath,int selectedTrainingId){
+        if(string.IsNullOrWhiteSpace(candidatePackPath)||string.IsNullOrWhiteSpace(sourcePackPath)||string.IsNullOrWhiteSpace(candidateTemplatesPath))throw new ArgumentException("Training preview pair paths are required.");
+        var nextTemplates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(candidateTemplatesPath)));
+        var nextTraining=JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(candidatePackPath)));
+        if(nextTraining==null||nextTraining.schemaVersion!=3||nextTraining.sourceOriginalOnly||nextTraining.levels==null||nextTraining.levels.Count==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 training pack.");
+        if(nextTemplates==null||nextTemplates.schemaVersion!=3||nextTemplates.templates==null||nextTemplates.templates.Length==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 physics template catalog.");
+        ValidatePreviewPack(nextTraining,nextTemplates,false);
+        templates=nextTemplates;trainingPack=nextTraining;pack=trainingPack;originalPack=null;lazyOriginalPackPath=System.IO.Path.GetFullPath(sourcePackPath);lazyOriginalTemplatePath=string.IsNullOrWhiteSpace(sourceTemplatesPath)?null:System.IO.Path.GetFullPath(sourceTemplatesPath);trainingTemplates=nextTemplates;originalLevelsLazy=false;originalLevelDirectory=null;originalTemplateDirectory=null;referenceQa=false;trainingPreview=true;trainingPreviewOriginal=false;trainingPreviewUnlockAll=true;trainingPair=true;maxUnlocked=pack.levels.Count-1;
+        ShowHome();
+    }
+
+    public void LoadTrainingPreviewForQa(string packPath,string templatesPath,int levelId,bool originalReference=false){
         if(string.IsNullOrWhiteSpace(packPath)||string.IsNullOrWhiteSpace(templatesPath))throw new ArgumentException("Training preview paths are required.");
         var nextTemplates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(templatesPath)));
         var nextPack=JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(packPath)));
-        if(nextPack==null||nextPack.schemaVersion!=3||nextPack.sourceOriginalOnly||nextPack.levels==null||nextPack.levels.Count==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 pack with levels and sourceOriginalOnly=false.");
+        if(nextPack==null||nextPack.schemaVersion!=3||(!originalReference&&nextPack.sourceOriginalOnly)||nextPack.levels==null||nextPack.levels.Count==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 pack with levels.");
         if(nextTemplates==null||nextTemplates.schemaVersion!=3||nextTemplates.templates==null||nextTemplates.templates.Length==0)throw new System.IO.InvalidDataException("Training preview requires a schema-3 physics template catalog.");
         var templateIds=new HashSet<string>();foreach(var t in nextTemplates.templates)if(t!=null&&!string.IsNullOrEmpty(t.id))templateIds.Add(t.id);
         var levelIds=new HashSet<int>();
         foreach(var item in nextPack.levels){
-            if(item==null||!levelIds.Add(item.id)||item.sourceOnlyParityFixture||item.parts==null||item.parts.Count==0)throw new System.IO.InvalidDataException("Every preview level needs a unique id, playable parts, and sourceOnlyParityFixture=false.");
+            if(item==null||!levelIds.Add(item.id)||(!originalReference&&item.sourceOnlyParityFixture)||item.parts==null||item.parts.Count==0)throw new System.IO.InvalidDataException("Every preview level needs a unique id, playable parts, and valid source metadata.");
             var partIds=new HashSet<int>();foreach(var part in item.parts)if(part==null||!partIds.Add(part.id)||string.IsNullOrEmpty(part.templateId)||!templateIds.Contains(part.templateId))throw new System.IO.InvalidDataException("Preview level "+item.id+" has a missing template or duplicate part id.");
         }
         if(!levelIds.Contains(levelId))throw new ArgumentException("Training preview level id not found: "+levelId);
-        templates=nextTemplates;pack=nextPack;referenceQa=false;trainingPreview=true;
+        templates=nextTemplates;trainingTemplates=originalReference?null:nextTemplates;originalTemplates=originalReference?nextTemplates:null;pack=nextPack;trainingPack=originalReference?null:nextPack;originalPack=originalReference?nextPack:null;lazyOriginalPackPath=null;lazyOriginalTemplatePath=null;originalLevelsLazy=false;originalLevelDirectory=null;originalTemplateDirectory=null;referenceQa=false;trainingPreview=true;trainingPreviewOriginal=originalReference;trainingPair=false;
         int selectedIndex=pack.levels.FindIndex(l=>l.id==levelId);maxUnlocked=trainingPreviewUnlockAll?pack.levels.Count-1:selectedIndex;
         StartLevel(levelId);
     }
 #endif
+
+    void ValidatePreviewPack(RotateRingsLevelPack value,RotateRingsTemplateCatalog catalog,bool originalReference){
+        var known=new HashSet<string>();foreach(var t in catalog.templates)if(t!=null&&!string.IsNullOrEmpty(t.id))known.Add(t.id);
+        var ids=new HashSet<int>();foreach(var item in value.levels){if(item==null||!ids.Add(item.id)||(!originalReference&&item.sourceOnlyParityFixture)||item.parts==null||item.parts.Count==0)throw new System.IO.InvalidDataException("Invalid training preview level metadata.");foreach(var part in item.parts)if(part==null||string.IsNullOrEmpty(part.templateId)||!known.Contains(part.templateId))throw new System.IO.InvalidDataException("Training preview level has a missing template.");}
+    }
+
+    void EnsureOriginalPairLoaded(){
+        if(originalPack!=null)return;
+        if(string.IsNullOrWhiteSpace(lazyOriginalPackPath))throw new System.IO.InvalidDataException("Original source pack is not configured.");
+        var loaded=JsonUtility.FromJson<RotateRingsLevelPack>(System.IO.File.ReadAllText(lazyOriginalPackPath));
+        if(loaded==null||loaded.schemaVersion!=3||loaded.levels==null||loaded.levels.Count==0)throw new System.IO.InvalidDataException("Original source pack is invalid.");
+        var sourceCatalog=string.IsNullOrWhiteSpace(lazyOriginalTemplatePath)?templates:JsonUtility.FromJson<RotateRingsTemplateCatalog>(System.IO.File.ReadAllText(lazyOriginalTemplatePath));
+        if(sourceCatalog==null||sourceCatalog.schemaVersion!=3)throw new System.IO.InvalidDataException("Original source template catalog is invalid.");
+        ValidatePreviewPack(loaded,sourceCatalog,true);originalTemplates=sourceCatalog;originalPack=loaded;originalPack.levels.Sort((a,b)=>a.position.CompareTo(b.position));
+    }
+
+    void EnsureOriginalLevelLoaded(int levelId){
+        if(!originalLevelsLazy)return;
+        var file=Resources.Load<TextAsset>(originalLevelDirectory+"/level_"+levelId);
+        var catalog=Resources.Load<TextAsset>((string.IsNullOrEmpty(originalTemplateDirectory)?"Levels/original_templates":originalTemplateDirectory)+"/level_"+levelId);
+        if(catalog==null)catalog=Resources.Load<TextAsset>("Levels/original_templates");
+        if(file==null||catalog==null)throw new InvalidOperationException("Original level cache is missing level "+levelId+" or its template catalog.");
+        var loaded=JsonUtility.FromJson<RotateRingsLevelPack>(file.text);
+        var parsedTemplates=JsonUtility.FromJson<RotateRingsTemplateCatalog>(catalog.text);
+        if(loaded==null||loaded.levels==null||loaded.levels.Count==0||parsedTemplates==null||parsedTemplates.schemaVersion!=3)throw new System.IO.InvalidDataException("Original level cache is invalid for "+levelId+".");
+        templates=parsedTemplates;currentTemplatePackPath=originalTemplateDirectory+"/level_"+levelId;level=loaded.levels[0];
+    }
 
     void LoadAudio(){music=gameObject.AddComponent<AudioSource>();music.loop=true;music.volume=.24f;var clip=Resources.Load<AudioClip>("Audio/rr_bgm_level2");if(clip!=null){music.clip=clip;music.Play();}sfx=gameObject.AddComponent<AudioSource>();sfx.volume=.52f;}
 
@@ -147,15 +191,31 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
 
 
 
-    void ShowHome(){mode=ScreenMode.Home;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Home Screen",Cream);Full(panel);Label("ROTATE RINGS",panel.transform,new Vector2(.5f,.83f),new Vector2(900,150),72,Ink);Label("Untangle the colorful rings",panel.transform,new Vector2(.5f,.76f),new Vector2(850,80),33,Brown,TextAnchor.MiddleCenter,FontStyle.Normal);
+    void ShowHome(){
+        if(trainingPair){ShowTrainingModeHome();return;}
+        mode=ScreenMode.Home;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Home Screen",Cream);Full(panel);Label("ROTATE RINGS",panel.transform,new Vector2(.5f,.83f),new Vector2(900,150),72,Ink);Label("Untangle the colorful rings",panel.transform,new Vector2(.5f,.76f),new Vector2(850,80),33,Brown,TextAnchor.MiddleCenter,FontStyle.Normal);
 
         Btn("PLAY",panel.transform,new Vector2(.5f,.59f),new Vector2(460,145),()=>StartLevel(pack.levels[Mathf.Clamp(maxUnlocked,0,pack.levels.Count-1)].id),new Color(.99f,.78f,.26f),Art("home_entry_bg02"));
 
         Btn("CHOOSE LEVEL",panel.transform,new Vector2(.5f,.47f),new Vector2(470,118),ShowLevels,new Color(1f,.89f,.69f),Art("home_entry_bg02"));
 
-        Label("300 puzzles  •  progress saved",panel.transform,new Vector2(.5f,.20f),new Vector2(880,70),25,new Color(.53f,.43f,.34f),TextAnchor.MiddleCenter,FontStyle.Normal);gameCamera.backgroundColor=Cream;}
+        Label("Original puzzles  •  progress saved",panel.transform,new Vector2(.5f,.20f),new Vector2(880,70),25,new Color(.53f,.43f,.34f),TextAnchor.MiddleCenter,FontStyle.Normal);gameCamera.backgroundColor=Cream;}
 
-    void ShowLevels(){mode=ScreenMode.Levels;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Level Select",Cream);Full(panel);Label("CHOOSE A LEVEL",panel.transform,new Vector2(.5f,.91f),new Vector2(820,100),52,Ink);Btn("‹  HOME",panel.transform,new Vector2(.15f,.91f),new Vector2(180,82),ShowHome,new Color(1f,.89f,.69f));
+    void ShowTrainingModeHome(){
+        mode=ScreenMode.Home;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Training Mode Select",Cream);Full(panel);Label("TRAINING REVIEW",panel.transform,new Vector2(.5f,.80f),new Vector2(900,130),64,Ink);Label("Choose the level catalog to play",panel.transform,new Vector2(.5f,.71f),new Vector2(850,70),30,Brown,TextAnchor.MiddleCenter,FontStyle.Normal);
+        Btn("ORIGINAL",panel.transform,new Vector2(.5f,.55f),new Vector2(500,130),()=>ActivateTrainingCatalog(true),new Color(.99f,.84f,.42f),Art("home_entry_bg02"));
+        Btn("TRAINING",panel.transform,new Vector2(.5f,.39f),new Vector2(500,130),()=>ActivateTrainingCatalog(false),new Color(1f,.89f,.69f),Art("home_entry_bg02"));
+        Label("Original: toàn bộ progression gốc  •  Training: pack sinh hiện tại",panel.transform,new Vector2(.5f,.20f),new Vector2(950,70),24,new Color(.53f,.43f,.34f),TextAnchor.MiddleCenter,FontStyle.Normal);gameCamera.backgroundColor=Cream;
+    }
+
+    void ActivateTrainingCatalog(bool original){
+        if(original){EnsureOriginalPairLoaded();pack=originalPack;templates=originalTemplates;trainingPreviewOriginal=true;}
+        else {pack=trainingPack;templates=trainingTemplates;trainingPreviewOriginal=false;}
+        if(pack==null||pack.levels==null||pack.levels.Count==0){ShowError("TRAINING PACK EMPTY","The selected catalog has no playable levels.");return;}
+        maxUnlocked=pack.levels.Count-1;ShowLevels();
+    }
+
+    void ShowLevels(){mode=ScreenMode.Levels;world.gameObject.SetActive(false);ClearUI();panel=MakePanel("Level Select",Cream);Full(panel);Label(trainingPair?(trainingPreviewOriginal?"CHOOSE ORIGINAL LEVEL":"CHOOSE TRAINING LEVEL"):"CHOOSE A LEVEL",panel.transform,new Vector2(.5f,.91f),new Vector2(820,100),52,Ink);Btn("‹  HOME",panel.transform,new Vector2(.15f,.91f),new Vector2(180,82),ShowHome,new Color(1f,.89f,.69f));
 
         var scrollGo=new GameObject("Level Grid",typeof(RectTransform),typeof(ScrollRect),typeof(Image),typeof(RectMask2D));scrollGo.transform.SetParent(panel.transform,false);var sr=scrollGo.GetComponent<ScrollRect>();var ir=scrollGo.GetComponent<Image>();ir.color=new Color(1,1,1,.01f);var srt=Rect(scrollGo);srt.anchorMin=new Vector2(.07f,.08f);srt.anchorMax=new Vector2(.93f,.83f);srt.offsetMin=srt.offsetMax=Vector2.zero;
 
@@ -165,9 +225,11 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
 
         gameCamera.backgroundColor=Cream;}
 
-    void StartLevel(int requested){int index=pack.levels.FindIndex(l=>l.id==requested);if(index<0)index=Mathf.Clamp(requested,0,pack.levels.Count-1);levelIndex=index;level=pack.levels[levelIndex];winAt=-1f;hammerMode=false;drag=null;state=new State();undo.Clear();foreach(var p in level.parts){state.angles[p.id]=p.angle;state.chainLocks[p.id]=p.chainLockCount;var t=Array.Find(templates.templates,v=>v.id==p.templateId);if(t==null)throw new InvalidOperationException("Unknown source template "+p.templateId);p.radius=t.radius;p.width=t.width;p.gap=t.gap;p.length=t.length;}world.gameObject.SetActive(true);world.Build(level,templates);collision.Build(level,templates);bombContacts.Build(level,collision);inputWorld.Build(level,templates,collision,bombContacts);collision.ApplyState(state.angles,state.removed,state.slides);world.SetHint(-1);SetSafeBoard();mode=ScreenMode.Game;RenderGameUI();UpdateWorld();}
+    void StartLevel(int requested){
+        var timer=System.Diagnostics.Stopwatch.StartNew();int index=pack.levels.FindIndex(l=>l.id==requested);if(index<0)index=Mathf.Clamp(requested,0,pack.levels.Count-1);levelIndex=index;if(originalLevelsLazy)EnsureOriginalLevelLoaded(pack.levels[levelIndex].id);else level=pack.levels[levelIndex];winAt=-1f;hammerMode=false;drag=null;state=new State();undo.Clear();foreach(var p in level.parts){state.angles[p.id]=p.angle;state.chainLocks[p.id]=p.chainLockCount;var t=Array.Find(templates.templates,v=>v.id==p.templateId);if(t==null)throw new InvalidOperationException("Unknown source template "+p.templateId);p.radius=t.radius;p.width=t.width;p.gap=t.gap;p.length=t.length;}
+        long metadataMs=timer.ElapsedMilliseconds;world.gameObject.SetActive(true);world.Build(level,templates);if(trainingPreview&&!trainingPreviewOriginal)world.CompleteEntryAnimation();long visualMs=timer.ElapsedMilliseconds-metadataMs;collision.Build(level,templates);long collisionMs=timer.ElapsedMilliseconds-metadataMs-visualMs;bombContacts.Build(level,collision);inputWorld.Build(level,templates,collision,bombContacts);long inputMs=timer.ElapsedMilliseconds-metadataMs-visualMs-collisionMs;collision.ApplyState(state.angles,state.removed,state.slides);world.SetHint(-1);SetSafeBoard();mode=ScreenMode.Game;RenderGameUI();UpdateWorld();Debug.Log($"TRAINING LOAD PERF level={level.id} parts={level.parts.Count} metadata={metadataMs}ms visual={visualMs}ms collision={collisionMs}ms input={inputMs}ms total={timer.ElapsedMilliseconds}ms");}
 
-    int DisplayLevelNumber(RotateRingsLevel entry,int index){return referenceQa&&entry!=null&&entry.position>0?entry.position:index+1;}
+    int DisplayLevelNumber(RotateRingsLevel entry,int index){return (referenceQa||trainingPreviewOriginal)&&entry!=null&&entry.position>0?entry.position:index+1;}
 
     void RenderGameUI(){
 
@@ -175,7 +237,7 @@ public sealed class RotateRingsRuntime : MonoBehaviour {
 
         originalHud=RotateRingsOriginalHud.Build(Rect(panel),DisplayLevelNumber(level,levelIndex),null,Firework,Hammer,Undo,Hint,ShowHome,Restart,ToggleSound);
 
-        originalHud.SetScore(0);originalHud.SetMusicState(soundOn);if(trainingPreview)Label("TRAINING PREVIEW / LEVEL "+level.id,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);else if(referenceQa)Label("ORIGINAL LEVEL "+DisplayLevelNumber(level,levelIndex)+" / SOURCE "+level.id,panel.transform,new Vector2(.5f,.90f),new Vector2(950,70),25,Ink);
+        originalHud.SetScore(0);originalHud.SetMusicState(soundOn);if(trainingPreviewOriginal)Label("ORIGINAL REFERENCE / LEVEL "+DisplayLevelNumber(level,levelIndex)+" / SOURCE "+level.sourceId,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);else if(trainingPreview)Label("TRAINING PREVIEW / LEVEL "+level.id,panel.transform,new Vector2(.5f,.81f),new Vector2(950,70),25,Ink);else if(referenceQa)Label("ORIGINAL LEVEL "+DisplayLevelNumber(level,levelIndex)+" / SOURCE "+level.id,panel.transform,new Vector2(.5f,.90f),new Vector2(950,70),25,Ink);
 
     }
 
