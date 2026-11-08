@@ -202,7 +202,7 @@ def proposal_legacy(model,reference,global_model,templates,rng,proposal_id,max_t
  except (ValueError,IndexError,np.linalg.LinAlgError) as e:out['proposalRanking']={'error':str(e)}
  return out
 
-def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16):
+def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16,seed_source_id=None,design_policy=None,completion_validator=None):
  """Bounded structured frontier search; all geometry rejection stays visible."""
  model.templates=templates;lc=level_context(reference);count=len(reference['parts']);minimum=max(2,math.ceil(count*.85));maximum=max(2,math.floor(count*1.15));target=global_model['globalStylePrior'].sample_target(context(reference),rng);prior=global_model['globalStylePrior'];targetarray=np.array([target['globalStyle'][k] for k in NAMES]);targetnorm=prior.style_scaler.transform([targetarray])[0];geo=Geometry(templates);audit=NativeGeometrySeamAudit(templates,list(model.levels.values()));integrity=NativeAssemblyIntegrityAudit(templates,list(model.levels.values()));reference_context=context(reference);contextcost=np.linalg.norm(model.context_scaler.transform([lc+t['descriptor'] for t in model.tiles])-model.normalized_tile_contexts,axis=1);rejections=Counter();used=set();families=set();clusters=[];source_board_headings={sid:stroke_heading(l) for sid,l in model.levels.items()};target_board_heading=stroke_heading(reference);field_model=getattr(model,'field_model',None);whole_field=field_model.sample(reference,templates,rng) if field_model else None
  out={'id':proposal_id,'sourceId':'proposal-'+str(proposal_id),'position':reference['position'],'parts':[],'links':[],'guideLinks':[],'bombs':[],'complete':False,'validationStatus':'UNVALIDATED_STRUCTURED_PROPOSAL','sourceOriginal':False,'assemblyProvenance':{'method':'native source macro frontier assembly + learned continuation patterns + exact atomic template unification','targetReferencePosition':reference['position'],'targetGlobalStyleRecord':target['sourceStyleRecord'],'targetWholeBoardHeading':target_board_heading,'orientationContract':'retain native macro orientation relative to source whole-board major axis; reject socket alignment >8degrees from target board frame modulo180','declaredSearchBudget':{'maxFrontierSteps':max_tiles,'optionsPerStep':24,'minimumParts':minimum,'maximumParts':maximum,'rawGeometryToleranceWidthSquared':1e-5},'decisions':[]}}
@@ -210,15 +210,57 @@ def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16
  def topology_signature(level):
   graph=graph_for(level);n=max(1,len(graph));components=list(nx.weakly_connected_components(graph));movables=[p['id'] for p in level['parts'] if p['kind'] in ['ring','slider']];return np.array([graph.number_of_edges()/n,len(components)/n,max(map(len,components),default=0)/n,sum(graph.degree(i)==0 for i in movables)/max(1,len(movables)),sum(graph.in_degree(i)>1 for i in graph)/n,sum(graph.out_degree(i)>1 for i in graph)/n])
  reference_topology=topology_signature(reference)
+ if design_policy is not None:
+  targetnorm=prior.style_scaler.transform([arrangement(reference,templates,geo)])[0]
  def score(draft):
   style=arrangement(draft,templates,geo);style_error=float(np.mean(abs(prior.style_scaler.transform([style])[0]-targetnorm)));source_style=float(global_model['syntheticPerturbationRanker'].predict_proba([context(draft)+style.tolist()])[0,1]);inventory=Counter(p['kind'] for p in draft['parts']);target_inventory=Counter(p['kind'] for p in reference['parts']);inventory_error=sum(abs(inventory[k]-target_inventory[k]) for k in KINDS)/max(1,count);topology=np.array(context(draft)[-6:])-np.array(reference_context[-6:]);value=source_style-style_error*.25-inventory_error*.5-float(np.mean(abs(topology)))*.1;ranking={'syntheticSourceStyleScore':source_style,'globalStyleTargetMAE':style_error,'inventoryDeviation':inventory_error,'countDeviation':abs(len(draft['parts'])-count)/max(1,count),'humanQualityStatus':'unmeasured','difficultyStatus':'unmeasured','nativeSeams':'rawPolygonScreenOnly'}
   if whole_field:
    actual,angles=posed_field(draft,whole_field['heading'],whole_field['span'],count,templates);error=float(np.abs(actual-whole_field['field']).sum());angle_error=float(np.abs(angles-whole_field['orientation']).sum());value-=error*2+angle_error*.1;ranking.update(wholeBoardFieldL1=error,wholeBoardOrientationL1=angle_error)
   actual_topology=topology_signature(draft);topology_error=float(np.abs(actual_topology-reference_topology).mean());value-=topology_error*1.5;ranking.update(authoredTopologyMAE=topology_error,authoredTopologyVector=actual_topology.tolist(),sourceReferenceTopologyVector=reference_topology.tolist(),topologyMeaning='authored graph density/component/branch proxy only; does not claim active native constraints or true initial free parts')
+  if design_policy is not None:
+   design_score=design_policy.score(draft);value+=design_score;ranking['cohesiveDesignScore']=design_score
   return value,ranking
- seeds=[i for i,t in enumerate(model.tiles) if len(t['partIds'])<=maximum];seedweights=-.5*contextcost[seeds]**2;seed=int(rng.choice(seeds,p=np.exp(seedweights-logsumexp(seedweights))));tile=model.tiles[seed];rotation=target_board_heading-source_board_headings[tile['sourceId']];translation=-(pose_matrix(rotation)@np.array(tile['center']));instantiate_tile(model,seed,out,rotation,translation);out['assemblyProvenance']['decisions'].append({'kind':'seedMacro','sourceId':tile['sourceId'],'tileIndex':seed,'core':tile['core'],'rotation':rotation,'translation':translation.tolist()});used.add(seed);families.add(model.families[tile['sourceId']]);clusters.append({'tileIndex':seed,'center':[0.,0.],'heading':tile['heading']+rotation,'width':tile['width'],'descriptor':tile['descriptor']});best_rank=None
+ seeds=[i for i,t in enumerate(model.tiles) if len(t['partIds'])<=maximum]
+ if design_policy is not None:seeds=[i for i in seeds if design_policy.seed_allowed(model.tiles[i])]
+ if not seeds:raise ValueError('No motif fits the source-relative design seed budget')
+ # Preserve a native motif from the requested progression source as the
+ # mechanical/style anchor. Continuation motifs still come from other source
+ # families through the learned frontier search below.
+ if seed_source_id is not None:
+  preferred=[i for i in seeds if str(model.tiles[i]['sourceId'])==str(seed_source_id)]
+  if preferred: seeds=preferred
+ seedweights=-.5*contextcost[seeds]**2;seed=int(rng.choice(seeds,p=np.exp(seedweights-logsumexp(seedweights))));tile=model.tiles[seed];rotation=target_board_heading-source_board_headings[tile['sourceId']];translation=-(pose_matrix(rotation)@np.array(tile['center']))
+ if whole_field:
+  sourceparts={p['id']:p for p in model.levels[tile['sourceId']]['parts']}
+  centers,origin=frontier_centers(whole_field,np.zeros_like(whole_field['field']),[sourceparts[i] for i in tile['partIds']],rotation,count,limit=8)
+  for center in centers:
+   trial_translation=center-pose_matrix(rotation)@origin
+   trial=copy.deepcopy(out);instantiate_tile(model,seed,trial,rotation,trial_translation)
+   low,high,_,_,_=native_frame(trial,templates,whole_field['heading']);limit=.6*whole_field['span']
+   if min(low)>=-limit and max(high)<=limit:translation=trial_translation;break
+ instantiate_tile(model,seed,out,rotation,translation);out['assemblyProvenance']['decisions'].append({'kind':'seedMacro','sourceId':tile['sourceId'],'tileIndex':seed,'core':tile['core'],'rotation':rotation,'translation':translation.tolist()});used.add(seed);families.add(model.families[tile['sourceId']]);seed_center=pose_matrix(rotation)@np.array(tile['center'])+translation;clusters.append({'tileIndex':seed,'center':seed_center.tolist(),'heading':tile['heading']+rotation,'width':tile['width'],'descriptor':tile['descriptor']});best_rank=None
+ alternatives=[]
+ def commit_branch(base,option_tuple):
+  _,draft,option,ranking,rotation,translation=option_tuple
+  branch_used,branch_families,branch_clusters=base
+  index=option['tileIndex'];tile=model.tiles[index]
+  decision={k:v for k,v in option.items() if k!='prior'}
+  decision.update(sourceId=tile['sourceId'],rotation=float(rotation),translation=list(map(float,translation)))
+  draft['assemblyProvenance']['decisions'].append(decision)
+  center=pose_matrix(rotation)@np.array(tile['center'])+translation
+  cluster={'tileIndex':index,'center':center.tolist(),'heading':tile['heading']+rotation,'width':tile['width'],'descriptor':tile['descriptor']}
+  return draft,branch_used|{index},branch_families|{model.families[tile['sourceId']]},branch_clusters+[cluster],ranking
  for step in range(max_tiles-1):
-  if len(out['parts'])>=count:break
+  if completion_validator is not None and len(out['parts'])>=math.ceil(count*.90):
+   if completion_validator(out):break
+   if len(out['parts'])>=count:
+    rejections['finalReviewRejected']+=1
+    if alternatives:
+     _,state=alternatives.pop(0);out,used,families,clusters,best_rank=state
+     rejections['frontierBacktrack']+=1
+     continue
+    break
+  elif len(out['parts'])>=count:break
   options=[]
   for anchor in out['parts']:
    if anchor['kind'] not in ['ring','slider']:continue
@@ -232,16 +274,23 @@ def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16
   for _ in range(8):
    index=model.sample_tile(reference,rng)
    if index in used:continue
-   tile=model.tiles[index];cluster=clusters[-1];sample=model.pose_model.sample_pose(lc+cluster['descriptor']+tile['descriptor'],rng);xy=sample['pose'];incoming_angle=cluster['heading'];spacing=max(cluster['width'],tile['width']);kind='learnedIntertileRelation';record=sample['learnedRecordIndex'];pattern=getattr(model,'pattern_model',None)
-   if pattern and len(clusters)>1:
+   tile=model.tiles[index];cluster=clusters[int(rng.integers(len(clusters)))] if design_policy is not None else clusters[-1];sample=model.pose_model.sample_pose(lc+cluster['descriptor']+tile['descriptor'],rng);xy=sample['pose'];incoming_angle=cluster['heading'];spacing=max(cluster['width'],tile['width']);kind='learnedIntertileRelation';record=sample['learnedRecordIndex'];pattern=getattr(model,'pattern_model',None)
+   if pattern and len(clusters)>1 and cluster is clusters[-1]:
     from macro_pattern_v3 import relation_context
     prev=clusters[-2];v=np.array(cluster['center'])-np.array(prev['center']);spacing=float(np.linalg.norm(v))
     if spacing>1e-5:
      incoming_angle=math.degrees(math.atan2(v[1],v[0]));sample=pattern['model'].sample_pose(relation_context(reference,prev,cluster,tile,incoming_angle,spacing),rng);xy=sample['pose'];kind='learnedMacroContinuation';record=sample['learnedRecordIndex']
-   if kind=='learnedIntertileRelation':
+   if kind=='learnedIntertileRelation' and design_policy is not None:
+    # Training poses are normalized in the source anchor motif's local frame.
+    # Apply them in the selected frontier motif's frame, not as a global XY
+    # vector from an unrelated donor board.
+    center=np.array(cluster['center'])+pose_matrix(cluster['heading'])@np.array(xy[:2])*max(cluster['width'],tile['width'])
+   elif kind=='learnedIntertileRelation':
     original=model.relations[record];ta,tb=model.tiles[original['sourceTile']],model.tiles[original['targetTile']];delta=np.array(tb['center'])-np.array(ta['center']);delta=pose_matrix(target_board_heading-source_board_headings[original['sourceId']])@delta;delta*=max(cluster['width'],tile['width'])/max(ta['width'],tb['width']);center=np.array(cluster['center'])+delta
    else:center=np.array(cluster['center'])+pose_matrix(incoming_angle)@np.array(xy[:2])*spacing
    rotation=target_board_heading-source_board_headings[tile['sourceId']];heading=tile['heading']+rotation;translation=center-pose_matrix(rotation)@np.array(tile['center']);options.append({'kind':kind,'tileIndex':index,'learnedRecordIndex':record,'rotation':rotation,'translation':translation.tolist(),'center':center.tolist(),'heading':heading,'sourceBoardHeading':source_board_headings[tile['sourceId']],'prior':-.5*contextcost[index]**2})
+   if design_policy is not None and kind=='learnedIntertileRelation':
+    relation_heading=cluster['heading']+math.degrees(math.atan2(xy[3],xy[2]));relation_rotation=relation_heading-tile['heading'];relation_translation=center-pose_matrix(relation_rotation)@np.array(tile['center']);options.append({'kind':'learnedLocalFrameRelation','tileIndex':index,'learnedRecordIndex':record,'rotation':relation_rotation,'translation':relation_translation.tolist(),'center':center.tolist(),'heading':relation_heading,'sourceBoardHeading':source_board_headings[tile['sourceId']],'prior':-.5*contextcost[index]**2})
   if whole_field:
    current,_=posed_field(out,whole_field['heading'],whole_field['span'],count,templates)
    for _ in range(8):
@@ -261,6 +310,11 @@ def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16
    instantiate_tile(model,index,draft,rotation,translation,anchor_pair)
    if len(draft['parts'])==len(out['parts']):rejections['zeroNewRootsAfterExactUnification']+=1;continue
    if len(draft['parts'])>maximum:rejections['referenceScaleExceeded']+=1;continue
+   if design_policy is not None:
+    design_failure=design_policy.check(draft)
+    if design_failure:rejections['design:'+design_failure]+=1;continue
+    extension_failure=design_policy.extension_failure(out,draft)
+    if extension_failure:rejections['design:'+extension_failure]+=1;continue
    if whole_field:
     low,high,_,_,_=native_frame(draft,templates,whole_field['heading']);limit=.6*whole_field['span']
     if min(low)<-limit or max(high)>limit:rejections['outsideWholeBoardNativeEnvelope']+=1;continue
@@ -274,8 +328,24 @@ def proposal(model,reference,global_model,templates,rng,proposal_id,max_tiles=16
    # A small prior term breaks close style ties. It is the learned tile context
    # likelihood, not random global placement or a source layout replay.
    value+=float(option['prior'])*.01;candidates.append((value,draft,option,ranking,rotation,translation))
-  if not candidates:rejections['frontierStalled']+=1;break
-  _,out,option,best_rank,rotation,translation=max(candidates,key=lambda x:x[0]);index=option['tileIndex'];tile=model.tiles[index];decision={k:v for k,v in option.items() if k!='prior'};decision.update(sourceId=tile['sourceId'],rotation=float(rotation),translation=list(map(float,translation)));out['assemblyProvenance']['decisions'].append(decision);used.add(index);families.add(model.families[tile['sourceId']]);center=pose_matrix(rotation)@np.array(tile['center'])+translation;clusters.append({'tileIndex':index,'center':center.tolist(),'heading':tile['heading']+rotation,'width':tile['width'],'descriptor':tile['descriptor']})
+  if not candidates:
+   rejections['frontierStalled']+=1
+   if design_policy is not None and alternatives:
+    # Keep several viable earlier junctions. A greedy locally neat append can
+    # block every later continuation; revisit a real audited alternative rather
+    # than relaxing seams, donor limits or adding an unrelated remote motif.
+    _,state=alternatives.pop(0);out,used,families,clusters,best_rank=state
+    rejections['frontierBacktrack']+=1
+    continue
+   break
+  candidates.sort(key=lambda x:x[0],reverse=True)
+  base=(set(used),set(families),list(clusters))
+  if design_policy is not None:
+   for alternative in candidates[1:3]:
+    state=commit_branch(base,alternative)
+    alternatives.append((alternative[0],state))
+   alternatives.sort(key=lambda x:x[0],reverse=True);alternatives=alternatives[:8]
+  out,used,families,clusters,best_rank=commit_branch(base,candidates[0])
  if best_rank is None:
   try:_,best_rank=score(out)
   except (ValueError,IndexError,np.linalg.LinAlgError):best_rank={'error':'degenerate style geometry'}

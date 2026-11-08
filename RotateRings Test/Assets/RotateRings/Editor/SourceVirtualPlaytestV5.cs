@@ -18,11 +18,16 @@ public static partial class SourceSolverV3
     {
         public int referenceId, candidateId;
         public string referencePairId;
+        // Set by the runner when this reference's episodes are reused from its
+        // cache (identical seed/rules/policy) or played by another pair.
+        public bool skipReference;
     }
     [Serializable] public sealed class PlayerRequestV5
     {
         public int schemaVersion = 5, users = 32, seed = 20261106, stepLimit = 48;
         public int wallTimeLimitMs = 10000, transitionCacheLimit = 50000;
+        // >0: a candidate task whose first N sessions are all losses stops early.
+        public int zeroWinStopAfter;
         public string sourcePackPath, candidatePackPath, templatesPath, phase = "pilot";
         public string policyVariant = "legacy-stochastic-v1";
         public PlayerPairV5[] pairs;
@@ -52,9 +57,10 @@ public static partial class SourceSolverV3
     }
     [Serializable] public sealed class PlayerReportV5
     {
-        public int schemaVersion = 5, completedSessions, totalSessions;
+        public int schemaVersion = 5, completedSessions, totalSessions, earlyStoppedSessions;
+        public List<string> earlyStoppedTasks = new List<string>();
         public string suiteId = "visible-native-bots-v5", runId, generatedUtc, unityVersion, policySuiteHash, rulesHash;
-        public string inputPackSha256, candidatePackSha256, templatesSha256, cacheSchema = "exact-float-state-bindings-action-per-level-v1";
+        public string inputPackSha256, candidatePackSha256, templatesSha256, cacheSchema = "exact-float-state-bindings-action-per-level-cross-profile-v1";
         public string semantics = "Seeded uncalibrated virtual players, not humans; visible-geometry policies never receive stored solutions/bindings; policy failures do not prove unsolvability; no hints or undo modeled. Observation limitation: policies see surviving part kind, pose, radius, gap, and attachment pin points; they do not observe native mesh silhouettes/catch features, bomb visuals/state, or chain-lock cues.";
         public bool complete;
         public string status, sourceStage = "source-vs-constructive only; missing candidate means reference-only pilot";
@@ -96,7 +102,7 @@ public static partial class SourceSolverV3
         public PlayerReportV5 report;
         public RotateRingsTemplateCatalog templates;
         public List<PlayerTaskV5> tasks;
-        public int taskIndex, userIndex;
+        public int taskIndex, userIndex, taskWins;
         public FixtureWorld fixture;
         public SearchState initial;
         public Dictionary<string, PlayerTransitionV5> cache = new Dictionary<string, PlayerTransitionV5>();
@@ -117,7 +123,8 @@ public static partial class SourceSolverV3
         foreach (var pair in request.pairs)
         {
             var reference = sources.levels.Single(level => level.id == pair.referenceId);
-            tasks.Add(new PlayerTaskV5 { level = reference, pair = pair, role = "reference" });
+            if (!pair.skipReference)
+                tasks.Add(new PlayerTaskV5 { level = reference, pair = pair, role = "reference" });
             if (candidates != null)
                 tasks.Add(new PlayerTaskV5 { level = candidates.levels.Single(level => level.id == pair.candidateId), pair = pair, role = "candidate" });
         }
@@ -357,12 +364,30 @@ public static partial class SourceSolverV3
         {
             if(job.fixture==null){job.fixture=new FixtureWorld(task.level,job.templates);job.initial=job.fixture.InitialState();job.cache.Clear();}
             var row=PlayEpisodeV5(job,task,job.report.profiles[job.userIndex]);job.report.sessions.Add(row);
-            job.report.completedSessions++;job.userIndex++;
+            job.report.completedSessions++;job.userIndex++;if(row.won)job.taskWins++;
+            int stopAfter=job.report.config.zeroWinStopAfter;
+            if(stopAfter>0&&task.role=="candidate"&&job.taskWins==0&&job.userIndex>=stopAfter&&job.userIndex<job.report.profiles.Count)
+            {
+                // No win in the first N sessions: the remaining sessions of this
+                // task only re-measure a ~0% level. Record the skip explicitly.
+                int remaining=job.report.profiles.Count-job.userIndex;
+                job.report.totalSessions-=remaining;job.report.earlyStoppedSessions+=remaining;
+                job.report.earlyStoppedTasks.Add(task.pair.referencePairId+"|"+task.role);
+                job.userIndex=job.report.profiles.Count;
+            }
             if(job.userIndex>=job.report.profiles.Count)
             {
-                job.fixture.Dispose();job.fixture=null;job.cache.Clear();job.userIndex=0;job.taskIndex++;
+                // A transition is deterministic for one level and exact public/native
+                // state, independent of the player's policy. Keep it across profiles so
+                // a 100/1000-user cohort evaluates the same physics transition once.
+                // The cache is still cleared when the next task creates a new fixture.
+                job.fixture.Dispose();job.fixture=null;job.userIndex=0;job.taskWins=0;job.taskIndex++;
             }
-            if(job.report.completedSessions%25==0||job.userIndex==0)SavePlayerV5();
+            // Serializing the complete report is O(total retained episodes). A
+            // 25-session checkpoint made large 1000-user cohorts spend a large
+            // fraction of their time rewriting the same JSON. Keep bounded
+            // resumability while checkpointing at a coarser interval.
+            if(job.report.completedSessions%100==0||job.userIndex==0)SavePlayerV5();
         }
         catch(Exception ex)
         {

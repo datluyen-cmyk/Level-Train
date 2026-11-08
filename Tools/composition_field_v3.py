@@ -6,6 +6,7 @@ source-family fold. Generation decodes a mixture of different-family latent
 records, then places complete native macro tiles against that whole-board field.
 """
 from pathlib import Path
+from collections import OrderedDict
 import argparse,json,math,sys
 import numpy as np
 import joblib
@@ -24,6 +25,7 @@ H,W=37,25
 KINDS=['ring','slider','fixed','butterfly']
 CHANNELS=10
 _GEOMETRY={}
+_BODY_FIELD_CACHE=OrderedDict()
 
 def native_body_fields(level,templates,heading,span,center,total_parts):
  """Blur exact native body outlines onto the field without filling ring holes.
@@ -36,10 +38,17 @@ casts, contact skin or solver state.
  geo=_GEOMETRY[key];ys,xs=np.mgrid[0:H,0:W];r=math.radians(heading);matrix=np.array([[math.cos(r),-math.sin(r)],[math.sin(r),math.cos(r)]]);xy=np.c_[((xs.ravel()/(W-1))*1.2-.6)*span,((ys.ravel()/(H-1))*1.2-.6)*span]+np.array(center);world=xy@matrix.T;samplepoints=shapely_points(world[:,0],world[:,1]);maps=np.zeros((4,H,W));sigma=max(span/(W-1)*.45,.01)
  for p in level['parts']:
   tid=p['templateId']
+  cachekey=(key,tid,float(p['x']),float(p['y']),float(p['angle']),float(heading),float(span),tuple(map(float,center)))
+  if cachekey in _BODY_FIELD_CACHE:
+   weights=_BODY_FIELD_CACHE[cachekey];_BODY_FIELD_CACHE.move_to_end(cachekey)
+   maps[KINDS.index(p['kind'])]+=weights/max(1,total_parts)
+   continue
   if tid not in geo:geo[tid]=union_all([shape_polygon(s) for s in templates[tid]['physicalShapes'] if not s.get('trigger',False) and s.get('sourceEnabled',True)])
   body=affinity.translate(affinity.rotate(geo[tid],p['angle'],origin=(0,0)),p['x'],p['y'])
   if body.is_empty:continue
   distances=shapely_distance(samplepoints,body);weights=np.exp(-.5*(distances/sigma)**2).reshape(H,W);weights/=max(weights.sum(),1e-12);maps[KINDS.index(p['kind'])]+=weights/max(1,total_parts)
+  _BODY_FIELD_CACHE[cachekey]=weights
+  if len(_BODY_FIELD_CACHE)>4096:_BODY_FIELD_CACHE.popitem(last=False)
  return maps
 
 def relation_fields(level,heading,span,center,total_parts):
@@ -94,7 +103,8 @@ def posed_field(level,heading,span,total_parts,templates):
  out=np.zeros((4,H,W));hist=np.zeros((4,24));r=math.radians(heading);matrix=np.array([[math.cos(r),-math.sin(r)],[math.sin(r),math.cos(r)]])
  for p in level['parts']:
   x,y=np.array([p['x'],p['y']])@matrix/max(span,.01);k=KINDS.index(p['kind']);col=(x+.6)/1.2*(W-1);row=(y+.6)/1.2*(H-1)
-  if 0<=col<W and 0<=row<H:out[k,int(round(row)),int(round(col))]+=1/max(total_parts,1)
+  col_index,row_index=int(round(col)),int(round(row))
+  if 0<=col_index<W and 0<=row_index<H:out[k,row_index,col_index]+=1/max(total_parts,1)
   hist[k,int(((p['angle']-heading)%360)/15)%24]+=1/max(total_parts,1)
  for k in range(4):out[k]=gaussian_filter(out[k],sigma=1.)
  bodies=native_body_fields(level,templates,heading,span,[0.,0.],total_parts);edges=relation_fields(level,heading,span,[0.,0.],total_parts);return np.concatenate([out,bodies,edges]),hist

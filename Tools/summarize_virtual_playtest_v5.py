@@ -114,7 +114,7 @@ def validate(report):
             raise ValueError("Completed session counter disagrees with retained session rows")
         if pair_by_id:
             role_count = 2 if report.get("candidatePackSha256") else 1
-            expected_total = len(profiles) * len(pair_by_id) * role_count
+            expected_total = len(profiles) * len(pair_by_id) * role_count - int(report.get("earlyStoppedSessions", 0))
             if int(report["totalSessions"]) != expected_total:
                 raise ValueError("Total session counter disagrees with configured profile tasks")
     return profiles
@@ -176,8 +176,13 @@ def summarize(report, requested_users=1000, bootstrap_samples=1000, seed=2026110
     observed_coverage = defaultdict(set)
     for s in sessions:
         observed_coverage[s["profileId"]].add((str(s["referencePairId"]), s["role"]))
-    coverage_complete = bool(expected_pairs) and all(observed_coverage[p] == expected_pairs for p in profiles)
-    expected_session_count = len(profiles)*len(expected_pairs)
+    # Early-stopped tasks (zero wins in the first N sessions) are partially
+    # covered by design; every profile must still cover all other tasks.
+    early = {tuple(item.rsplit("|", 1)) for item in report.get("earlyStoppedTasks", [])}
+    coverage_complete = bool(expected_pairs) and all(
+        observed_coverage[p] - early == expected_pairs - early and observed_coverage[p] <= expected_pairs
+        for p in profiles)
+    expected_session_count = len(profiles)*len(expected_pairs) - int(report.get("earlyStoppedSessions", 0))
     attempted_coverage = bool(expected_pairs) and coverage_complete and len(sessions) == expected_session_count
     counter_consistency = True
     if "completedSessions" in report or "totalSessions" in report:
@@ -201,6 +206,9 @@ def summarize(report, requested_users=1000, bootstrap_samples=1000, seed=2026110
         "attemptedCoverage": attempted_coverage,
         "counterConsistency": counter_consistency,
         "engineErrorSessions": engine_error_sessions,
+        "earlyStoppedSessions": int(report.get("earlyStoppedSessions", 0)),
+        "earlyStoppedTasks": list(report.get("earlyStoppedTasks", [])),
+        "cachedReferenceSessions": int(report.get("cachedReferenceSessions", 0)),
         "requestedPopulationRun": len(actual_users) >= requested_users and run_complete,
         "populationMeaning": "seeded algorithmic player profiles, not humans or independently trained LLMs",
         "policyFamilyCounts": dict(Counter(profiles[p]["policyFamily"] for p in actual_users)),

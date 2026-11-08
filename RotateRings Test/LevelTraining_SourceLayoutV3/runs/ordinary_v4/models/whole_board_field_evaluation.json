@@ -1,0 +1,189 @@
+{
+  "status": "full source composition fields, no playability/quality labels",
+  "sourceCount": 460,
+  "representation": {
+    "grid": [
+      37,
+      25
+    ],
+    "channels": [
+      "ringCenterDensity",
+      "sliderCenterDensity",
+      "fixedCenterDensity",
+      "butterflyCenterDensity",
+      "ringNativeSolidFootprint",
+      "sliderNativeSolidFootprint",
+      "fixedNativeSolidFootprint",
+      "butterflyNativeSolidFootprint",
+      "authoredPinRelationCenterline",
+      "authoredGuideRelationCenterline"
+    ],
+    "gaussianSigmaCells": 1.0,
+    "orientationBinsPerKind": 24,
+    "latentComponents": 32,
+    "sourceFrame": "dominant4fold native part-angle axis; weak radial distributions retain original source coordinate frame"
+  },
+  "generation": "decode .35\u2013.65 convex latent mix of TWO different source families sampled from32near source contexts; no whole source layout replay, final whole-layout novelty stillmandatory",
+  "evaluation": "same5whole-familyfolds, PCA/scaler/model fit trainingonly, heldout actual complete fieldprediction",
+  "hyperparametersDeclaredBeforeEvaluation": {
+    "PCA": 32,
+    "regressor": "ExtraTrees128/depth12/leaf3",
+    "baseline": "Ridge alpha10 onidenticalcontext",
+    "seed": 20261105
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "trainingLevels": 368,
+      "heldOutLevels": 92,
+      "trainingPCAExplainedVariance": 0.521540026212909,
+      "conditionalWholeField": {
+        "fullFieldMeanAbsoluteError": 0.0002446461904393782,
+        "kindMapL1PerLevel": 0.8675152319681412,
+        "bodyFootprintMapL1PerLevel": 0.7792932506035628,
+        "relationMapL1PerLevel": 0.40954225075380263
+      },
+      "sameContextLinearBaseline": {
+        "fullFieldMeanAbsoluteError": 0.0002469712650229072,
+        "kindMapL1PerLevel": 0.8786210947494021,
+        "bodyFootprintMapL1PerLevel": 0.7835944792203402,
+        "relationMapL1PerLevel": 0.40761920261926177
+      },
+      "trainingMeanFieldBaseline": {
+        "fullFieldMeanAbsoluteError": 0.0003326062103624213,
+        "kindMapL1PerLevel": 1.2158894658979325,
+        "bodyFootprintMapL1PerLevel": 1.1245705152456529,
+        "relationMapL1PerLevel": 0.47030959201705974
+      }
+    },
+    {
+      "fold": 1,
+      "trainingLevels": 368,
+      "heldOutLevels": 92,
+      "trainingPCAExplainedVariance": 0.6083323985135208,
+      "conditionalWholeField": {
+        "fullFieldMeanAbsoluteError": 0.0003110705258297473,
+        "kindMapL1PerLevel": 1.1506149800656662,
+        "bodyFootprintMapL1PerLevel": 1.0869599151011855,
+        "relationMapL1PerLevel": 0.43318680283134015
+      },
+      "sameContextLinearBaseline": {
+        "fullFieldMeanAbsoluteError": 0.0003131378373502314,
+        "kindMapL1PerLevel": 1.1606659160047539,
+        "bodyFootprintMapL1PerLevel": 1.091327362683767,
+        "relationMapL1PerLevel": 0.43679207064803505
+      },
+      "trainingMeanFieldBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00032569317045168814,
+        "kindMapL1PerLevel": 1.2013312790129136,
+        "bodyFootprintMapL1PerLevel": 1.1273915552319933,
+        "relationMapL1PerLevel": 0.4662922598222945
+      }
+    },
+    {
+      "fold": 2,
+      "trainingLevels": 368,
+      "heldOutLevels": 92,
+      "trainingPCAExplainedVariance": 0.6054579042646125,
+      "conditionalWholeField": {
+        "fullFieldMeanAbsoluteError": 0.00031885549952955606,
+        "kindMapL1PerLevel": 1.1928917063960724,
+        "bodyFootprintMapL1PerLevel": 1.1013282441236452,
+        "relationMapL1PerLevel": 0.4419041151567535
+      },
+      "sameContextLinearBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00031913856912542664,
+        "kindMapL1PerLevel": 1.19661954999548,
+        "bodyFootprintMapL1PerLevel": 1.1017246915252021,
+        "relationMapL1PerLevel": 0.4419019404548882
+      },
+      "trainingMeanFieldBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00033556438358363865,
+        "kindMapL1PerLevel": 1.2466313797603228,
+        "bodyFootprintMapL1PerLevel": 1.1511873142263442,
+        "relationMapL1PerLevel": 0.4807905645894669
+      }
+    },
+    {
+      "fold": 3,
+      "trainingLevels": 368,
+      "heldOutLevels": 92,
+      "trainingPCAExplainedVariance": 0.6060253362462051,
+      "conditionalWholeField": {
+        "fullFieldMeanAbsoluteError": 0.00031732764207284927,
+        "kindMapL1PerLevel": 1.1836013914033918,
+        "bodyFootprintMapL1PerLevel": 1.0969657882968802,
+        "relationMapL1PerLevel": 0.43765507026412054
+      },
+      "sameContextLinearBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00031743365529008255,
+        "kindMapL1PerLevel": 1.1868783708521122,
+        "bodyFootprintMapL1PerLevel": 1.094849152007825,
+        "relationMapL1PerLevel": 0.43915775635984156
+      },
+      "trainingMeanFieldBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00033128552272629504,
+        "kindMapL1PerLevel": 1.2314777788050448,
+        "bodyFootprintMapL1PerLevel": 1.1391586301370484,
+        "relationMapL1PerLevel": 0.467587465458003
+      }
+    },
+    {
+      "fold": 4,
+      "trainingLevels": 368,
+      "heldOutLevels": 92,
+      "trainingPCAExplainedVariance": 0.6054159385660234,
+      "conditionalWholeField": {
+        "fullFieldMeanAbsoluteError": 0.0003195981333441521,
+        "kindMapL1PerLevel": 1.1949053372021752,
+        "bodyFootprintMapL1PerLevel": 1.09761665915794,
+        "relationMapL1PerLevel": 0.44984183334054295
+      },
+      "sameContextLinearBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00032213742551042866,
+        "kindMapL1PerLevel": 1.2070778178022241,
+        "bodyFootprintMapL1PerLevel": 1.106561074547149,
+        "relationMapL1PerLevel": 0.4502380645092202
+      },
+      "trainingMeanFieldBaseline": {
+        "fullFieldMeanAbsoluteError": 0.00033691568947445715,
+        "kindMapL1PerLevel": 1.2562021483810655,
+        "bodyFootprintMapL1PerLevel": 1.1544066049142774,
+        "relationMapL1PerLevel": 0.4793871623596306
+      }
+    }
+  ],
+  "summary": {
+    "conditionalWholeField": {
+      "fullFieldMeanAbsoluteError": 0.0003022995982431366,
+      "kindMapL1PerLevel": 1.1179057294070893,
+      "bodyFootprintMapL1PerLevel": 1.0324327714566428,
+      "relationMapL1PerLevel": 0.434426014469312
+    },
+    "sameContextLinearBaseline": {
+      "fullFieldMeanAbsoluteError": 0.0003037637504598153,
+      "kindMapL1PerLevel": 1.1259725498807946,
+      "bodyFootprintMapL1PerLevel": 1.0356113519968566,
+      "relationMapL1PerLevel": 0.43514180691824944
+    },
+    "trainingMeanFieldBaseline": {
+      "fullFieldMeanAbsoluteError": 0.00033241299531970006,
+      "kindMapL1PerLevel": 1.2303064103714558,
+      "bodyFootprintMapL1PerLevel": 1.1393429239510633,
+      "relationMapL1PerLevel": 0.4728734088492909
+    }
+  },
+  "limitations": [
+    "Fields retain native solid-footprint occupancy (including holes, stems and fixed guide walls) and authored relation centerline organization. Raster blur is a composition feature only; exact colliders and graph edges come from native macro assemblies.",
+    "Mean-field prediction scores do not measure whether a sampled latent mix is attractive or playable.",
+    "PCA mixtures can blur incompatible patterns; native contact, novelty and visual review remain required.",
+    "Final source difficulty calibration absent."
+  ],
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "families": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "trainer": "a3ad540965190e4a0fdf933746fdd851c657bb52e1748447d3a433e21d9a8d60",
+    "model": "62973127cb59fa7617823f98d81fb07257a6995f4d4929acc84be8f432ab7e29"
+  }
+}

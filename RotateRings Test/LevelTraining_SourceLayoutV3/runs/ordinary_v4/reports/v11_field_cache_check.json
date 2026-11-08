@@ -1,0 +1,6 @@
+{
+  "exactColdWarmFieldEqual": true,
+  "coldSeconds": 0.0657948000007309,
+  "warmSeconds": 0.0045315000024857,
+  "speedupFieldOnly": 14.519430644298787
+}

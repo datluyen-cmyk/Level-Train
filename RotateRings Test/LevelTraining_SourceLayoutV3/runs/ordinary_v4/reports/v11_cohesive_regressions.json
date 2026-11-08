@@ -1,0 +1,540 @@
+{
+  "rows": [
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json",
+      "candidateId": 9979700,
+      "position": 31,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "dominantDonor",
+      "sourcePartCounts": {
+        "73005": 2,
+        "10059": 2,
+        "71001": 18
+      },
+      "dominantDonorFraction": 0.8181818181818182,
+      "largestRigidDonorFraction": 0.8181818181818182,
+      "spatial": {
+        "nearestMax": 6.032305778632301,
+        "bridgeMax": 6.032305778632301,
+        "span": 18.979463987531112
+      },
+      "referenceSpatial": {
+        "nearestMax": 5.068763721845011,
+        "bridgeMax": 5.068763721845011,
+        "span": 18.24166774749756
+      },
+      "outlines": {
+        "bridgeMaxWidths": 0.8289823989378022,
+        "nearestByKind": {
+          "slider": 0.8289823989378022,
+          "ring": 0.49999997434955057
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 1.0547669935224202,
+        "nearestByKind": {
+          "slider": 0.4654026449525706,
+          "ring": 1.0547669935224202
+        }
+      },
+      "compositionProxy": {
+        "total": 10,
+        "strong": 5,
+        "components": 3,
+        "largestFraction": 0.8181818181818182
+      },
+      "referenceCompositionProxy": {
+        "total": 6,
+        "strong": 4,
+        "components": 2,
+        "largestFraction": 0.9090909090909091
+      },
+      "score": -1.105314552553806,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json",
+      "candidateId": 9979500,
+      "position": 32,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "dominantDonor",
+      "sourcePartCounts": {
+        "70026": 16,
+        "10048": 8
+      },
+      "dominantDonorFraction": 0.6666666666666666,
+      "largestRigidDonorFraction": 0.6666666666666666,
+      "spatial": {
+        "nearestMax": 5.270462716684251,
+        "bridgeMax": 6.508541600098023,
+        "span": 26.321213543830858
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555904388427734,
+        "bridgeMax": 4.555904388427734,
+        "span": 21.387701630592346
+      },
+      "outlines": {
+        "bridgeMaxWidths": 0.990290352281087,
+        "nearestByKind": {
+          "ring": 0.7190994623838479,
+          "slider": 0.9867012013568477
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5201046915731888,
+        "nearestByKind": {
+          "ring": 0.3930090095082903,
+          "slider": 0.35198807330322346
+        }
+      },
+      "compositionProxy": {
+        "total": 13,
+        "strong": 7,
+        "components": 3,
+        "largestFraction": 0.6666666666666666
+      },
+      "referenceCompositionProxy": {
+        "total": 18,
+        "strong": 8,
+        "components": 1,
+        "largestFraction": 1.0
+      },
+      "score": -2.2197440625602622,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json",
+      "candidateId": 9978701,
+      "position": 33,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "dominantDonor",
+      "sourcePartCounts": {
+        "10060": 28,
+        "71003": 2,
+        "10039": 2,
+        "10152": 2,
+        "10056": 3,
+        "10018": 2
+      },
+      "dominantDonorFraction": 0.717948717948718,
+      "largestRigidDonorFraction": 0.5641025641025641,
+      "spatial": {
+        "nearestMax": 8.205981298040804,
+        "bridgeMax": 8.205981298040804,
+        "span": 22.830324247964793
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903364354445,
+        "bridgeMax": 4.555903364354445,
+        "span": 19.757118225097656
+      },
+      "outlines": {
+        "bridgeMaxWidths": 1.837182918309829,
+        "nearestByKind": {
+          "ring": 0.5592791857160825,
+          "slider": 1.837182918309829
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5614646769085773,
+        "nearestByKind": {
+          "slider": 0.3423018278177818,
+          "ring": 0.5614646769085773
+        }
+      },
+      "compositionProxy": {
+        "total": 19,
+        "strong": 9,
+        "components": 8,
+        "largestFraction": 0.5897435897435898
+      },
+      "referenceCompositionProxy": {
+        "total": 11,
+        "strong": 4,
+        "components": 10,
+        "largestFraction": 0.5263157894736842
+      },
+      "score": -3.606328075709107,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json",
+      "candidateId": 9979000,
+      "position": 34,
+      "policyVersion": 11,
+      "passed": true,
+      "failure": null,
+      "sourcePartCounts": {
+        "20009": 8,
+        "20011": 5,
+        "20005": 8
+      },
+      "dominantDonorFraction": 0.38095238095238093,
+      "largestRigidDonorFraction": 0.42857142857142855,
+      "spatial": {
+        "nearestMax": 4.437500000000001,
+        "bridgeMax": 4.437500000000002,
+        "span": 22.244930424345597
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903116867715,
+        "bridgeMax": 4.555903434753418,
+        "span": 18.198945999145508
+      },
+      "outlines": {
+        "bridgeMaxWidths": 0.44617316771801896,
+        "nearestByKind": {
+          "ring": 0.4447848693607045
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 1.188802382472017,
+        "nearestByKind": {
+          "ring": 0.560206186291435
+        }
+      },
+      "compositionProxy": {
+        "total": 0,
+        "strong": 0,
+        "components": 2,
+        "largestFraction": 0.6190476190476191
+      },
+      "referenceCompositionProxy": {
+        "total": 0,
+        "strong": 0,
+        "components": 3,
+        "largestFraction": 0.45
+      },
+      "score": -0.49809542568912935,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\preview\\v10_comparison_20261108\\manual_test_pack.json",
+      "candidateId": 9978900,
+      "position": 35,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "dominantDonor",
+      "sourcePartCounts": {
+        "60008": 4,
+        "10061": 32
+      },
+      "dominantDonorFraction": 0.8888888888888888,
+      "largestRigidDonorFraction": 0.8888888888888888,
+      "spatial": {
+        "nearestMax": 5.676238193776217,
+        "bridgeMax": 6.219633421889866,
+        "span": 24.31581815539298
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903279906096,
+        "bridgeMax": 4.5559036836244635,
+        "span": 20.667203903198242
+      },
+      "outlines": {
+        "bridgeMaxWidths": 1.5865559050678626,
+        "nearestByKind": {
+          "ring": 0.5607005082163278,
+          "slider": 0.5652734814769321
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5609770938295318,
+        "nearestByKind": {
+          "ring": 0.5607005082163268,
+          "slider": 0.47834071998638356
+        }
+      },
+      "compositionProxy": {
+        "total": 28,
+        "strong": 17,
+        "components": 1,
+        "largestFraction": 1.0
+      },
+      "referenceCompositionProxy": {
+        "total": 28,
+        "strong": 15,
+        "components": 2,
+        "largestFraction": 0.9444444444444444
+      },
+      "score": -2.000883264952582,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\v11_cohesive_search.json",
+      "candidateId": 9981002,
+      "position": 35,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "disconnectedIslands",
+      "sourcePartCounts": {
+        "70033": 13,
+        "10061": 5,
+        "71007": 18
+      },
+      "dominantDonorFraction": 0.5,
+      "largestRigidDonorFraction": 0.5,
+      "spatial": {
+        "nearestMax": 4.506939094329987,
+        "bridgeMax": 10.316220623824432,
+        "span": 27.73795668306175
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903279906096,
+        "bridgeMax": 4.5559036836244635,
+        "span": 20.667203903198242
+      },
+      "outlines": {
+        "bridgeMaxWidths": 3.736712522282939,
+        "nearestByKind": {
+          "ring": 1.0352899854543591,
+          "slider": 0.6023694050795187
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5609770938295318,
+        "nearestByKind": {
+          "ring": 0.5607005082163268,
+          "slider": 0.47834071998638356
+        }
+      },
+      "compositionProxy": {
+        "total": 29,
+        "strong": 17,
+        "components": 4,
+        "largestFraction": 0.5
+      },
+      "referenceCompositionProxy": {
+        "total": 28,
+        "strong": 15,
+        "components": 2,
+        "largestFraction": 0.9444444444444444
+      },
+      "score": -5.90491243726243,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\v11_cohesive_localframe.json",
+      "candidateId": 9981100,
+      "position": 31,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "disconnectedIslands",
+      "sourcePartCounts": {
+        "70011": 11,
+        "10013": 2,
+        "10060": 8
+      },
+      "dominantDonorFraction": 0.5238095238095238,
+      "largestRigidDonorFraction": 0.5238095238095238,
+      "spatial": {
+        "nearestMax": 5.517220129058873,
+        "bridgeMax": 7.87868091914674,
+        "span": 24.07768493263923
+      },
+      "referenceSpatial": {
+        "nearestMax": 5.068763721845011,
+        "bridgeMax": 5.068763721845011,
+        "span": 18.24166774749756
+      },
+      "outlines": {
+        "bridgeMaxWidths": 2.4693936830163215,
+        "nearestByKind": {
+          "slider": 2.091079133108536,
+          "ring": 0.5740745732147974
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 1.0547669935224202,
+        "nearestByKind": {
+          "slider": 0.4654026449525706,
+          "ring": 1.0547669935224202
+        }
+      },
+      "compositionProxy": {
+        "total": 11,
+        "strong": 8,
+        "components": 2,
+        "largestFraction": 0.9047619047619048
+      },
+      "referenceCompositionProxy": {
+        "total": 6,
+        "strong": 4,
+        "components": 2,
+        "largestFraction": 0.9090909090909091
+      },
+      "score": -3.079048286069686,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\v11_cohesive_localframe.json",
+      "candidateId": 9981101,
+      "position": 33,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "outlineDisconnectedIslands",
+      "sourcePartCounts": {
+        "10039": 15,
+        "10054": 10,
+        "10178": 8,
+        "10034": 4,
+        "10060": 2
+      },
+      "dominantDonorFraction": 0.38461538461538464,
+      "largestRigidDonorFraction": 0.23076923076923078,
+      "spatial": {
+        "nearestMax": 4.555903434753418,
+        "bridgeMax": 5.253266786559499,
+        "span": 26.104567239086922
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903364354445,
+        "bridgeMax": 4.555903364354445,
+        "span": 19.757118225097656
+      },
+      "outlines": {
+        "bridgeMaxWidths": 1.5980952907659467,
+        "nearestByKind": {
+          "ring": 0.6659259971625352,
+          "slider": 0.5750242729050445
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5614646769085773,
+        "nearestByKind": {
+          "slider": 0.3423018278177818,
+          "ring": 0.5614646769085773
+        }
+      },
+      "compositionProxy": {
+        "total": 17,
+        "strong": 11,
+        "components": 9,
+        "largestFraction": 0.38461538461538464
+      },
+      "referenceCompositionProxy": {
+        "total": 11,
+        "strong": 4,
+        "components": 10,
+        "largestFraction": 0.5263157894736842
+      },
+      "score": -2.220570265939655,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\v11_planned_mechanics_search.json",
+      "candidateId": 9981600,
+      "position": 31,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "dominantDonor",
+      "sourcePartCounts": {
+        "70011": 15,
+        "71003": 2,
+        "10013": 2,
+        "10025": 2
+      },
+      "dominantDonorFraction": 0.7142857142857143,
+      "largestRigidDonorFraction": 0.5238095238095238,
+      "spatial": {
+        "nearestMax": 5.004804212430412,
+        "bridgeMax": 5.570063544112588,
+        "span": 17.095495652260812
+      },
+      "referenceSpatial": {
+        "nearestMax": 5.068763721845011,
+        "bridgeMax": 5.068763721845011,
+        "span": 18.24166774749756
+      },
+      "outlines": {
+        "bridgeMaxWidths": 1.0547669935224206,
+        "nearestByKind": {
+          "slider": 0.5075342924046439,
+          "ring": 0.46540264495257033
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 1.0547669935224202,
+        "nearestByKind": {
+          "slider": 0.4654026449525706,
+          "ring": 1.0547669935224202
+        }
+      },
+      "compositionProxy": {
+        "total": 8,
+        "strong": 5,
+        "components": 2,
+        "largestFraction": 0.7142857142857143
+      },
+      "referenceCompositionProxy": {
+        "total": 6,
+        "strong": 4,
+        "components": 2,
+        "largestFraction": 0.9090909090909091
+      },
+      "score": -0.9032616776813829,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    },
+    {
+      "pack": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\batches\\v11_planned_mechanics_search.json",
+      "candidateId": 9981601,
+      "position": 35,
+      "policyVersion": 11,
+      "passed": false,
+      "failure": "reassembledRigidDonor",
+      "sourcePartCounts": {
+        "10018": 2,
+        "10039": 3,
+        "10061": 21,
+        "10034": 4,
+        "10026": 3
+      },
+      "dominantDonorFraction": 0.6363636363636364,
+      "largestRigidDonorFraction": 0.6363636363636364,
+      "spatial": {
+        "nearestMax": 4.555903279906096,
+        "bridgeMax": 4.719808228902211,
+        "span": 21.257979908460626
+      },
+      "referenceSpatial": {
+        "nearestMax": 4.555903279906096,
+        "bridgeMax": 4.5559036836244635,
+        "span": 20.667203903198242
+      },
+      "outlines": {
+        "bridgeMaxWidths": 0.5652734814769325,
+        "nearestByKind": {
+          "slider": 0.478340719986384,
+          "ring": 0.5607005082163276
+        }
+      },
+      "referenceOutlines": {
+        "bridgeMaxWidths": 0.5609770938295318,
+        "nearestByKind": {
+          "ring": 0.5607005082163268,
+          "slider": 0.47834071998638356
+        }
+      },
+      "compositionProxy": {
+        "total": 23,
+        "strong": 13,
+        "components": 5,
+        "largestFraction": 0.5757575757575758
+      },
+      "referenceCompositionProxy": {
+        "total": 28,
+        "strong": 15,
+        "components": 2,
+        "largestFraction": 0.9444444444444444
+      },
+      "score": -1.1910531958439021,
+      "meaning": "Provenance and spatial cohesion heuristics; solution and human design quality unverified."
+    }
+  ],
+  "regressionFailures": [],
+  "meaning": "Static composition/provenance screening only; native solution and human design quality unverified."
+}

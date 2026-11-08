@@ -1,0 +1,21 @@
+{
+  "implementation": "V11 cohesive policy in V10 entry point",
+  "modelInputsVerified": true,
+  "fitRoundFreshOutputsVerified": true,
+  "roundToolsSynced": [
+    "cohesive_assembly_v11.py",
+    "macro_assembly_v3.py",
+    "relational_level_generator_v10.py",
+    "semantic_macro_assembly_v3.py",
+    "composition_field_v3.py"
+  ],
+  "staticRegressionReport": "C:\\WorkProj\\Level-Train\\RotateRings Test\\LevelTraining_SourceLayoutV3\\runs\\ordinary_v4\\reports\\v11_cohesive_regressions.json",
+  "nativeEvidence": [
+    "Tools/v11_outline_native/candidate_report.json",
+    "Tools/v11_planned_native/candidate_report.json"
+  ],
+  "nativeInterpretation": "Some experimental candidates have replayed solution witnesses; those failing final design screening remain rejected. Unknown is inconclusive.",
+  "latestSmokeAcceptedCount": 0,
+  "unityPreviewReplaced": false,
+  "qualityAssessment": "Known copy/appendage regressions are caught. Comparable human design quality is not established."
+}

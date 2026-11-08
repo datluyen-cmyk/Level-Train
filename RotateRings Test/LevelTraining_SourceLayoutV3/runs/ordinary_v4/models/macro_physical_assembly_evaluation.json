@@ -1,0 +1,105 @@
+{
+  "status": "native source macro relation proposal; no physics or quality labels",
+  "folds": [
+    {
+      "fold": 0,
+      "trainingRelations": 5044,
+      "heldOutRelations": 1056,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 65.81280015880712,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.6893955382324024
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 62.74203851164371,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.7014362175399196
+      }
+    },
+    {
+      "fold": 1,
+      "trainingRelations": 4794,
+      "heldOutRelations": 1306,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 49.00038698904444,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.1791362766681712
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 48.92202407616673,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.237073621265659
+      }
+    },
+    {
+      "fold": 2,
+      "trainingRelations": 4852,
+      "heldOutRelations": 1248,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 44.63961687876511,
+        "levelMeanOracleBest32XYErrorWidthUnits": 2.934787049675799
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 42.09893158698536,
+        "levelMeanOracleBest32XYErrorWidthUnits": 2.951184245512841
+      }
+    },
+    {
+      "fold": 3,
+      "trainingRelations": 4844,
+      "heldOutRelations": 1256,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 54.8934246402159,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.2957417629286665
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 54.30010305684747,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.276376155978447
+      }
+    },
+    {
+      "fold": 4,
+      "trainingRelations": 4866,
+      "heldOutRelations": 1234,
+      "nativeMacroGeometry": {
+        "levelMeanNLL": 58.490350360151425,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.338152141925777
+      },
+      "countMechanicsProgressionBaseline": {
+        "levelMeanNLL": 55.125751573014746,
+        "levelMeanOracleBest32XYErrorWidthUnits": 3.3644666795619504
+      }
+    }
+  ],
+  "summary": {
+    "nativeMacroGeometry": {
+      "levelMeanNLL": 54.5673158053968,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.287442553886163
+    },
+    "countMechanicsProgressionBaseline": {
+      "levelMeanNLL": 52.6377697609316,
+      "levelMeanOracleBest32XYErrorWidthUnits": 3.3061073839717636
+    }
+  },
+  "limitations": [
+    "Macro partition is deterministic analysis of source topology and source nearest-neighbor organization. It is not an authored semantic annotation.",
+    "Relation reconstruction is oracle best-of32, not single-sample accuracy.",
+    "Some original boards have one macro tile and supply no intertile relation labels. They remain in tile corpus and native validation corpus.",
+    "Full native seam initialization, replay and difficulty gates remain mandatory."
+  ],
+  "sourceCount": 460,
+  "tileCount": 3056,
+  "macroRelationCount": 6100,
+  "compositionEdgeCounts": {
+    "pull_axis_crosses_ring": 2322,
+    "pull_near_ring": 3254,
+    "pull_hull_contains_ring_center": 709
+  },
+  "sourceClosure": "All native guide bindings and all native/authored plus strong static physical-composition neighbors become macro boundaries. Weak near-body candidates affect community grouping only.",
+  "physicalMeaning": "Static source geometry candidates; no active lock, native physics, difficulty or quality certification",
+  "hashes": {
+    "sourcePack": "d3860a5b933fea5d5bd28304c96854e30a4536bbf02c80a05926e948050e3456",
+    "templates": "3f07cd75b7cc12be0646c849827f61695c82539e5a80c7b2abb0e6d38ad721aa",
+    "familySplits": "951761d654dc869601d0ff08b8dca0533055c7cefdc3611ab825d01383c51ebc",
+    "physicalAnalyzer": "f49bf4cc64a97cab7dac545555101756fa7a0ac3b4be1ff50acb5f198ef4d507",
+    "trainer": "8f971dc46904d88666d2bfd31b0538fb445d5f9cf910ae0e43e0115855992688",
+    "macroImplementation": "1e3465c4bb68ac9d9dc1e1965c7d894e5a8bc53fe952d33dcfdf2a37e12dbf02",
+    "model": "66fdcdfe071632155b140768ee9ea70669bdd08662483995b71e1f1d9b932f3d"
+  }
+}

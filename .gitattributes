@@ -19,3 +19,5 @@
 "/RotateRings Test/LevelTraining_SourceLayoutV3/data/source_templates.json" filter=lfs diff=lfs merge=lfs -text
 "/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/source500_native.json" filter=lfs diff=lfs merge=lfs -text
 "/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/data/source_templates.json" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/models/macro_physical_*.joblib" filter=lfs diff=lfs merge=lfs -text
+"/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_v4/models/whole_board_field.joblib" filter=lfs diff=lfs merge=lfs -text

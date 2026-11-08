@@ -10,3 +10,10 @@
 **/__pycache__/
 *.pyc
 .DS_Store
+
+# Reproducible local training rounds and runtime caches (keep canonical run).
+/RotateRings Test/LevelTraining_SourceLayoutV3/runs/ordinary_auto_round_*/
+/RotateRings Test/LevelTraining_SourceLayoutV3/runs/auto_training_smoke*/
+/RotateRings Test/LevelTraining_SourceLayoutV3/runs/bot_reference_cache/
+**/.runtime_level_cache/
+/Tools/v11_gui_bundle_smoke/
